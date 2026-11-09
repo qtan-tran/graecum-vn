@@ -1,0 +1,24 @@
+# License
+
+## Nội dung bài giảng, readings, từ vựng, tài liệu (docs/, lessons/, readings/, vocab/)
+
+© Người đóng góp Graecum VN. Phát hành theo giấy phép **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
+
+- Trang giấy phép (dễ đọc): https://creativecommons.org/licenses/by-sa/4.0/
+- Văn bản pháp lý đầy đủ: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Tóm tắt (không thay thế văn bản pháp lý): bạn được phép **chia sẻ và chỉnh sửa** với bất kỳ mục đích nào, kể cả thương mại, với điều kiện (1) ghi công phù hợp, (2) ghi những thay đổi, và (3) phân phối sản phẩm chỉnh sửa theo cùng giấy phép này.
+
+> TODO trước khi public: dán toàn bộ văn bản legalcode của CC BY-SA 4.0 vào file này (chuẩn practice).
+
+## Code & template (scripts, lesson template, portal)
+
+Giấy phép **MIT**:
+
+Copyright (c) 2026 Graecum VN contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -1,0 +1,10 @@
+# OS/Editor
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/
+
+# Tạm thời trong quá trình biên soạn
+*.draft.html
+tmp/
