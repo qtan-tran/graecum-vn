@@ -4,6 +4,8 @@
 
 > Tất cả nội dung: **CC BY-SA 4.0** · Code: **MIT** · Biên soạn bởi **Trần Quốc Tân** · Không quảng cáo, không paywall, không thu thập dữ liệu.
 
+**Bản tiếng Anh:** [README.en.md](README.en.md) · [Portal tiếng Anh](https://qtan-tran.github.io/graecum-vn/en/)
+
 ## Vì sao có project này?
 
 - Gần như **không có tài liệu tiếng Việt chất lượng cao** để tự học tiếng Hy Lạp cổ; người Việt phải học qua tiếng Đức, Anh, Pháp — một rào cản kép (học ngôn ngữ cổ bằng ngôn ngữ thứ ba).

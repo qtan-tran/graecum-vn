@@ -1,0 +1,585 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 1 — Foundations, the o-declension &amp; your first Greek sentences</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 1: Foundations, the o-declension &amp; your first Greek sentences</h1>
+
+<p style="font-size:0.9em; color:#64748b;">English edition · Original (Tiếng Việt): <a href="../../lessons/01-foundations/index.html">Lesson 1 — Graecum VN</a> — identical content, structure and exercises.</p>
+
+<div class="toc">
+<p><strong>Contents</strong></p>
+<ol>
+<li><a href="#s1">Greek "delegates the work" to word endings</a></li>
+<li><a href="#s2">Word classes: two big groups</a></li>
+<li><a href="#s3">Conjugating verbs &amp; declining nouns</a></li>
+<li><a href="#s4">Sentence parts &amp; the five cases</a></li>
+<li><a href="#s5">The masculine article &amp; o-declension nouns</a></li>
+<li><a href="#s6">Third-person verbs &amp; the infinitive</a></li>
+<li><a href="#s7">Translating a sentence: hidden subjects &amp; the four-step analysis</a></li>
+<li><a href="#s8">εἶναι: one verb, three jobs</a></li>
+<li><a href="#s9">What the infinitive does in a sentence</a></li>
+<li><a href="#s10">Particles: the "connectors" of the sentence</a></li>
+<li><a href="#s11">Attributive position</a></li>
+<li><a href="#s12">Adverbs &amp; prepositions: an opening journey</a></li>
+<li><a href="#reading">Reading (simplified, from Homer)</a></li>
+<li><a href="#vocab">Core vocabulary</a></li>
+<li><a href="#confusables">Summary table of easily confused points</a></li>
+<li><a href="#exercises">Exercises + answers</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>What you will be able to do after this lesson:</strong> (1) explain why Greek does not depend on word order but on word endings; (2) recognize the gender, number and case of o-declension nouns and of the masculine article by their endings; (3) translate simple sentences using third-person verbs, εἶναι, δεῖ + infinitive, particles and attributive position — without being fooled by word order.</p>
+</div>
+
+<div class="info">
+<p><strong>How to use this lesson:</strong> The "transliteration" column lets you read Greek aloud even before you have mastered the alphabet; the accent marks <em>á/â</em> in the transliteration correspond to the Greek acute (´) and circumflex (῀). Vocabulary marked with <span class="star">★</span> is compulsory memorization (it recurs in every later lesson). The "Latin corner" boxes compare Greek with Latin — the two languages are close relatives, and seeing them side by side makes the patterns easier to spot.</p>
+</div>
+
+<h2 id="s1">1. Greek "delegates the work" to word endings</h2>
+
+<p>Look at these two English sentences:</p>
+<table>
+<thead><tr><th>English</th></tr></thead>
+<tbody>
+<tr><td>The god worships the human.</td></tr>
+<tr><td>The human worships the god.</td></tr>
+</tbody>
+</table>
+<p>English <strong>depends on word order</strong>: swap <em>god</em> and <em>human</em> and you swap who worships whom. The order <em>subject → verb → object</em> (SVO) is the backbone of the English sentence.</p>
+
+<p>Ancient Greek works differently: it <strong>delegates the work to word endings</strong> (inflection). Who is the subject, who is the object — all of that is written into the ending of the noun, not its position. Word order is therefore <strong>free</strong>, and order has only one remaining job: <strong>emphasis</strong>.</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ θεὸς θεραπεύει τὸν ἄνθρωπον.</td><td class="tr">ho theòs therapeúei tòn ánthrōpon.</td><td>The god worships/cares for the human.</td></tr>
+<tr><td class="gk">τὸν ἄνθρωπον θεραπεύει ὁ θεός.</td><td class="tr">tòn ánthrōpon therapeúei ho theós.</td><td>The god worships the human. (position changed, meaning unchanged)</td></tr>
+<tr><td class="gk">ὁ ἄνθρωπος θεραπεύει τὸν θεόν.</td><td class="tr">ho ánthrōpos therapeúei tòn theón.</td><td>The human worships the god.</td></tr>
+</tbody>
+</table>
+
+<p>In sentence 2, <em>τὸν ἄνθρωπον</em> stands at the front of the sentence but is still the object, because the ending <span class="gk">-ον</span> (with the article <span class="gk">τὸν</span>) has already "stamped" its function. Pushing it to the front only adds <strong>emphasis</strong>: "the human — <em>him</em> the god cares for."</p>
+
+<div class="tipp">
+<p><strong>Pattern to reuse:</strong> To find out what a Greek word is doing in the sentence, <em>don't look at position — look at the ending</em>. Word order only answers "what does the author emphasize?", while endings answer "who does what to whom?". This rule holds for all 48 lessons of this course.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin behaves exactly like Greek: <em>deus hominem colit</em> = <em>hominem deus colit</em> ("the god worships the human"; changing the order changes nothing), because <em>-um</em> (hominem) has already marked the object. Romans found Greek easy to learn, and vice versa — the two inflectional systems use almost the same "keyboard".</p>
+</div>
+
+<h2 id="s2">2. Word classes: two big groups</h2>
+
+<p>Before we start inflecting, you must know what kind of word you are holding. Every Greek word class falls into one of two groups:</p>
+
+<table>
+<thead><tr><th>Group</th><th>Characteristic</th><th>Word classes</th><th>Examples in this lesson</th></tr></thead>
+<tbody>
+<tr><td><strong>Inflectable</strong> (endings change with function)</td><td>Declines by case/gender/number (nominal classes) or by person/number (verbs)</td><td>noun, proper name, adjective, pronoun, numeral, article, verb</td><td class="gk">ὁ ἄνθρωπος, ὁ θεός, θεραπεύει, εἶναι</td></tr>
+<tr><td><strong>Uninflected</strong> (a single fixed form)</td><td>Never changes its ending</td><td>adverb, preposition, conjunction, particle</td><td class="gk">ἐκεῖ, ἐν, καί, δέ, γάρ</td></tr>
+</tbody>
+</table>
+
+<p>Three points to engrave immediately:</p>
+<ul>
+<li><strong>The article</strong> is a word class of its own, not a "scrap" attached to the noun: it is <em>fully inflected</em>, changing for the case + gender + number of the noun that follows. That makes the article the most informative "signpost" in the sentence — we will exploit it constantly.</li>
+<li><strong>Proper names</strong> decline just like nouns (ὁ Ζεύς, ὁ Ποσειδῶν in the reading).</li>
+<li><strong>The verb</strong> is the most heavily inflected word class: its ending encodes person, number, tense, mood, voice. This lesson needs only the 3rd person.</li>
+</ul>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Have you heard <em>amo, amas, amat… amant</em>? Each ending is a person + number package. Greek: <span class="gk">θεραπεύω – θεραπεύεις – θεραπεύει – θεραπεύουσι(ν)</span> — same logic, different ending "color".</p>
+</div>
+
+<h2 id="s3">Conjugating verbs &amp; declining nouns</h2>
+
+<p>"Inflecting" (systematically changing endings) happens on two fronts:</p>
+
+<h3>3.1 Conjugating verbs</h3>
+<p>A Greek verb answers 5 questions when it inflects:</p>
+<table>
+<thead><tr><th>Category</th><th>Question</th><th>Answer in this lesson</th></tr></thead>
+<tbody>
+<tr><td>Person</td><td>Who is speaking / spoken to / spoken about?</td><td>Here: 3rd person (he/she/it, they)</td></tr>
+<tr><td>Number</td><td>One or many?</td><td>singular / plural</td></tr>
+<tr><td>Tense</td><td>When? (present, past, future…)</td><td>present <span class="notyet">(not yet covered)</span></td></tr>
+<tr><td>Mood</td><td>What attitude? (statement, command, wish…)</td><td>indicative <span class="notyet">(not yet covered)</span></td></tr>
+<tr><td>Voice</td><td>Active or passive?</td><td>active <span class="notyet">(not yet covered)</span></td></tr>
+</tbody>
+</table>
+<p>Lesson 1 needs only 3 forms: <span class="gk">θεραπεύει</span> <span class="tr">(therapeúei)</span> "he/she worships", <span class="gk">θεραπεύουσι(ν)</span> <span class="tr">(therapeúousi(n))</span> "they worship", <span class="gk">θεραπεύειν</span> <span class="tr">(therapeúein)</span> "to worship" (infinitive — section 9).</p>
+
+<h3>3.2 Declining nouns</h3>
+<p>A noun answers 3 questions when it inflects:</p>
+<table>
+<thead><tr><th>Category</th><th>Question</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Case</td><td>What does this word do in the sentence?</td><td>5 cases — see section 4</td></tr>
+<tr><td>Number</td><td>One or many?</td><td class="gk">ὁ θεός / οἱ θεοί</td></tr>
+<tr><td>Gender</td><td>Masculine, feminine, or neuter?</td><td>masculine: <span class="gk">ὁ θεός</span>; feminine <span class="notyet">(not yet covered)</span>; neuter <span class="notyet">(not yet covered)</span></td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> <em>Grammatical gender</em> is a fixed property of each noun (like an ID number), <em>it does not change with case</em>, and it usually has nothing to do with real-world sex. <span class="gk">ὁ οὐρανός</span> (the sky) is masculine, <span class="gk">ἡ θάλασσα</span> (the sea) is feminine — there is nothing "masculine" about the sky. Learn the gender <em>together with</em> the meaning, as a single unit.</p>
+</div>
+
+<p>The article always <strong>agrees</strong> (the KNG principle: Kasus–Numerus–Genus, i.e. case–number–gender): the article carries exactly the case + number + gender of the noun that follows. So <span class="gk">τῷ θεῷ</span> is a match (both dative, masculine, singular), while <span class="gk">τῷ θεόν</span> is an error.</p>
+
+<div class="tipp">
+<p><strong>Pattern to reuse:</strong> You don't need to know a noun to read the sentence — just read the <em>article</em>. The article gives you case + gender + number; the verb ending gives you person + number. Put them together and you have the frame of the sentence. This is the reading strategy for every Greek text, from lesson 1 to Plato.</p>
+</div>
+
+<h2 id="s4">4. Sentence parts &amp; the five cases</h2>
+
+<p>A Greek sentence is built from familiar components:</p>
+<table>
+<thead><tr><th>Part</th><th>Job</th><th>English example</th></tr></thead>
+<tbody>
+<tr><td>Subject</td><td>Who performs the action</td><td>"<em>The human</em> worships…"</td></tr>
+<tr><td>Predicate (verb)</td><td>Action / state</td><td>"The human <em>worships</em>…"</td></tr>
+<tr><td>Object</td><td>Receiver of the action</td><td>"…worships <em>the gods</em>."</td></tr>
+<tr><td>Adverbial</td><td>Circumstance: where, when, by what means</td><td>"…worships… <em>in the house</em>."</td></tr>
+<tr><td>Attribute</td><td>Decorates/qualifies a noun</td><td>"the house <em>of the god</em>"</td></tr>
+</tbody>
+</table>
+
+<p>English marks these roles with word order and with "of/to/at". Greek marks them with <strong>case</strong>: each case is a "functional passport" attached to the end of the noun. There are 5 cases:</p>
+
+<table>
+<thead><tr><th>Case</th><th>Test question</th><th>Main function</th><th>English example</th></tr></thead>
+<tbody>
+<tr><td><strong>Nominative (Nom.)</strong></td><td>who / what? (as subject)</td><td>naming, subject; after εἶναι</td><td>"<em>the god</em> is king" (king = Nom.)</td></tr>
+<tr><td><strong>Genitive (Gen.)</strong></td><td>of whom / of what?</td><td>belonging to, originating from</td><td>"the house <em>of the god</em>"</td></tr>
+<tr><td><strong>Dative (Dat.)</strong></td><td>to whom / where / with what?</td><td>direction toward, location, instrument</td><td>"gives <em>to the reader</em>", "lives <em>in the house</em>", "writes <em>with a pen</em>"</td></tr>
+<tr><td><strong>Accusative (Acc.)</strong></td><td>sees / meets / worships <em>whom</em>?</td><td>goal of the action, extent</td><td>"reads <em>the book</em>", "enters <em>the house</em>"</td></tr>
+<tr><td><strong>Vocative (Voc.)</strong></td><td>addressing whom?</td><td>direct address</td><td>"<em>O Zeus</em>!" <span class="notyet">(lesson 2)</span></td></tr>
+</tbody>
+</table>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin has 6 cases: the 5 above plus the <strong>ablative</strong> ("from where / by what means"). Greek has no ablative: its work is divided between the dative (by what means, where) and the accusative (motion toward). When you meet a dative doing "ablative work" — don't be surprised.</p>
+</div>
+
+<h2 id="s5">5. The masculine article &amp; o-declension nouns</h2>
+
+<p>The paradigm of the masculine article — the first paradigm you must <em>memorize</em> in your Greek career:</p>
+
+<table>
+<thead><tr><th></th><th>Singular</th><th>Transliteration</th><th>Plural</th><th>Transliteration</th></tr></thead>
+<tbody>
+<tr><td><strong>Nominative</strong></td><td class="gk">ὁ</td><td class="tr">ho</td><td class="gk">οἱ</td><td class="tr">hoi</td></tr>
+<tr><td><strong>Genitive</strong></td><td class="gk">τοῦ</td><td class="tr">toû</td><td class="gk">τῶν</td><td class="tr">tôn</td></tr>
+<tr><td><strong>Dative</strong></td><td class="gk">τῷ</td><td class="tr">tōi</td><td class="gk">τοῖς</td><td class="tr">toîs</td></tr>
+<tr><td><strong>Accusative</strong></td><td class="gk">τὸν</td><td class="tr">tòn</td><td class="gk">τοὺς</td><td class="tr">toùs</td></tr>
+</tbody>
+</table>
+
+<p>And the masculine o-declension noun (ending <span class="gk">-ος</span>) follows the article exactly — model word <span class="gk">ἄνθρωπος</span> <span class="tr">(ánthrōpos)</span> "human being". Look at the two tables side by side: the noun endings and the article endings <em>move in step</em>.</p>
+
+<table>
+<thead><tr><th></th><th>Singular</th><th>Transliteration</th><th>Plural</th><th>Transliteration</th></tr></thead>
+<tbody>
+<tr><td><strong>Nominative</strong></td><td class="gk">ὁ ἄνθρωπος</td><td class="tr">ho ánthrōpos</td><td class="gk">οἱ ἄνθρωποι</td><td class="tr">hoi ánthrōpoi</td></tr>
+<tr><td><strong>Genitive</strong></td><td class="gk">τοῦ ἀνθρώπου</td><td class="tr">toû anthrṓpou</td><td class="gk">τῶν ἀνθρώπων</td><td class="tr">tôn anthrṓpōn</td></tr>
+<tr><td><strong>Dative</strong></td><td class="gk">τῷ ἀνθρώπῳ</td><td class="tr">tōi anthrṓpōi</td><td class="gk">τοῖς ἀνθρώποις</td><td class="tr">toîs anthrṓpois</td></tr>
+<tr><td><strong>Accusative</strong></td><td class="gk">τὸν ἄνθρωπον</td><td class="tr">tòn ánthrōpon</td><td class="gk">τοὺς ἀνθρώπους</td><td class="tr">toùs anthrṓpous</td></tr>
+</tbody>
+</table>
+
+<p>How to split the word: <span class="gk">ἄνθρωπος</span> = stem <span class="gk">ἀνθρώπο-</span> + case-number ending. Declining a noun = <strong>keep the stem, swap the ending</strong>. Every masculine o-declension noun works exactly like this, so <span class="gk">ὁ θεός, τοῦ θεοῦ, τῷ θεῷ, τὸν θεόν</span>… you already "know" them without studying each word.</p>
+
+<div class="tipp">
+<p><strong>Pattern to reuse (golden rule):</strong> <em>Ending -ος → -ου → -ῳ → -ον</em> (singular) and <em>-οι → -ων → -οις → -ους</em> (plural). Memorize the article first; the noun endings will "follow along" by themselves. Self-test: write out the 4 cases of <span class="gk">δῆμος</span> (dêmos, community): <span class="gk">ὁ δῆμος, τοῦ δήμου, τῷ δήμῳ, τὸν δῆμον / οἱ δῆμοι, τῶν δήμων, τοῖς δήμοις, τοὺς δήμους</span> — if you can do that with a new word, the pattern is yours.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> The Greek o-declension ≈ Latin nouns in -us: <em>amīcus</em> has <em>amīcī, amīcō, amīcum</em> (genitive, dative, accusative) — almost a "comparative dictionary": -ος ↔ -us, -ου ↔ -ī, -ῳ ↔ -ō, -ον ↔ -um. Anyone who has studied Latin will recognize Greek like an old acquaintance.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> (1) The article is not obligatory for every noun: <span class="gk">θεραπεύει θεούς</span> "worships gods" — <em>no article = general/unspecified reference</em>, or an unspecified quantity. (2) The accent marks (acute, grave, circumflex) and the breathing marks (rough/smooth) on the article <span class="gk">ὁ/οἱ</span> must be preserved when writing by hand — dropping them is a spelling error. (3) Don't confuse <span class="gk">τῷ</span> (dative) with <span class="gk">τοῦ</span> (genitive): the two look "similar" but carry different passports — see section 15.</p>
+</div>
+
+<h2 id="s6">6. Third-person verbs &amp; the infinitive</h2>
+
+<p>"Thematic" verbs (like <span class="gk">θεραπεύ-ω</span>) in the present active, 3rd person:</p>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">θεραπεύει</td><td class="tr">therapeúei</td><td>he/she/it worships (tends, cares for)</td></tr>
+<tr><td class="gk">θεραπεύουσι(ν)</td><td class="tr">therapeúousi(n)</td><td>they worship</td></tr>
+<tr><td class="gk">θεραπεύειν</td><td class="tr">therapeúein</td><td>to worship — infinitive</td></tr>
+</tbody>
+</table>
+
+<p>The most important Greek verb — <span class="gk">εἶναι</span> <span class="tr">(eînai)</span> "to be / to have" — is slightly irregular:</p>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἐστί(ν)</td><td class="tr">estí(n)</td><td>he/she/it is</td></tr>
+<tr><td class="gk">εἰσί(ν)</td><td class="tr">eisí(n)</td><td>they are</td></tr>
+<tr><td class="gk">εἶναι</td><td class="tr">eînai</td><td>to be</td></tr>
+</tbody>
+</table>
+
+<p>Why the <span class="gk">(ν)</span> in brackets? That is the <strong>movable nu</strong>: the endings <span class="gk">-σι</span> and <span class="gk">-ει</span> add a <span class="gk">ν</span> when the next word begins with a vowel — to avoid two vowels "colliding" and becoming hard to tell apart (this is called <em>hiatus avoidance</em>). It is purely a matter of <em>pronunciation</em>, not meaning: <span class="gk">θεραπεύουσι τοὺς θεούς</span> = <span class="gk">θεραπεύουσιν τοὺς θεούς</span>.</p>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> The Latin 3rd-person endings are <em>-t / -nt</em> (amat / amant) — Greek corresponds with <span class="gk">-ει / -ουσι(ν)</span>; the Latin infinitive ends in <em>-re</em> (amare) ↔ Greek <span class="gk">-ειν</span> (therapeúein). They sound very different, but the "keyboard" is the same.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> Don't mix up <span class="gk">θεραπεύει</span> (he worships — finite verb) with <span class="gk">θεραπεύειν</span> (to worship — infinitive): they differ by one letter <span class="gk">ν</span> and by the accent position. Self-test: if the word follows <span class="gk">δεῖ</span> or another verb, it is probably an infinitive; if it is the "axis" of the sentence, it is a finite verb.</p>
+</div>
+
+<h2 id="s7">7. Translating a sentence: hidden subjects &amp; the four-step analysis</h2>
+
+<p>Greek is a "subject-dropping" language: the ending <span class="gk">-ει</span> already contains the meaning "he/she", so the sentence needs no separate pronoun:</p>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">θεραπεύει τοὺς θεούς.</td><td class="tr">therapeúei toùs theoús.</td><td>He worships the gods.</td></tr>
+<tr><td class="gk">ἐν τῷ οἴκῳ ἐστίν.</td><td class="tr">en tōi oíkōi estín.</td><td>He is in the house.</td></tr>
+</tbody>
+</table>
+<p>This is called a <em>hidden subject</em>: not written out, but spoken by the verb ending. English translation must supply it ("he…") — while the Greek original has no corresponding word at all.</p>
+
+<p>When you meet a new sentence, follow the <strong>four-step analysis</strong>:</p>
+<ol>
+<li><strong>Find the (finite) verb</strong>: usually with the ending <span class="gk">-ει / -ουσι(ν)</span>, or <span class="gk">ἐστί(ν) / εἰσί(ν)</span>. The ending tells you person + number.</li>
+<li><strong>Read the articles</strong>: each unit <span class="gk">τὸν/τῷ/τοῦ/ὁ/οἱ/τῶν/τοῖς/τοὺς</span> tells you the case + gender + number of the following noun — even without knowing the noun's meaning.</li>
+<li><strong>Assign functions</strong>: nominative → subject; accusative → object; dative with a preposition → adverbial of place/instrument; genitive → "of…".</li>
+<li><strong>Translate into an SVO frame</strong> (subject–verb–object), then polish until it reads naturally.</li>
+</ol>
+
+<p>Apply this to <span class="gk">ὁ ἄνθρωπος θεραπεύει τοὺς θεούς</span>: (1) verb <span class="gk">θεραπεύει</span> → 3rd person singular; (2) <span class="gk">ὁ ἄνθρωπος</span> = nominative masculine singular → subject; <span class="gk">τοὺς θεούς</span> = accusative plural → object; (4) "The human worships the gods." Done — and you could build the sentence frame without knowing either noun beforehand.</p>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> Because word order is free, do not translate "first word first". The sentence <span class="gk">τοὺς θεοὺς θεραπεύει ὁ ἄνθρωπος</span> does NOT mean "The gods worship the human" — the article <span class="gk">τοὺς</span> has already ruled: <em>the gods</em> are the object. Always consult the endings before the order.</p>
+</div>
+
+<h2 id="s8">8. εἶναι: one verb, three jobs</h2>
+
+<p><span class="gk">εἶναι</span> appears in three constructions, all of which occur right in the reading:</p>
+
+<h3>8.1 Copula + predicative noun</h3>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ Ζεὺς θεός ἐστίν.</td><td class="tr">ho Zeùs theós estín.</td><td>Zeus is a god.</td></tr>
+<tr><td class="gk">ὁ ἵππος ζῷον ἐστίν. <span class="notyet">(not yet covered: ζῷον)</span></td><td class="tr">ho híppos zôion estín.</td><td>The horse is an animal.</td></tr>
+</tbody>
+</table>
+<p>Greek says "A is B" with <em>two nominatives</em>: subject + <span class="gk">ἐστί(ν)</span> + <strong>predicative noun</strong>. The predicative noun always <em>agrees</em> with the subject (same case, same number) — if you see two nominatives in a sentence, one of them is almost certainly predicative. Often <span class="gk">ἐστίν</span> slips in between the two words.</p>
+
+<h3>8.2 With a preposition: εἶναι + dative</h3>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ θεὸς ἐν τῷ οὐρανῷ ἐστίν.</td><td class="tr">ho theòs en tōi ouranōi estín.</td><td>The god is in the heaven.</td></tr>
+<tr><td class="gk">ἐν τῷ οἴκῳ εἰσίν.</td><td class="tr">en tōi oíkōi eisín.</td><td>They are in the house.</td></tr>
+</tbody>
+</table>
+<p><span class="gk">ἐν</span> "in" always takes the dative — so the phrase <span class="gk">ἐν τῷ οἴκῳ</span> plays the role of an adverbial of place.</p>
+
+<h3>8.3 Dative of possession: "someone <em>has</em>"</h3>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">Τῷ ἀνθρώπῳ ὁ οἶκος ἐστίν.</td><td class="tr">Tōi anthrṓpōi ho óikos estín.</td><td>The man has the house. (literally: to-the-man is the house)</td></tr>
+<tr><td class="gk">Τῷ θεῷ ἵπποι εἰσίν.</td><td class="tr">Tōi theôi híppoi eisín.</td><td>The god has horses.</td></tr>
+</tbody>
+</table>
+<p>This construction is called the <strong>dative of possession</strong>: dative = <em>the possessor</em>, nominative = <em>the thing possessed</em>. Greek has no everyday verb "to have" — instead it says "toward person X, the Y exists". In English translation, simply convert it to "X has Y".</p>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin has exactly the same construction: <em>mihi liber est</em> = "I have a book" (literally: to me, a book exists) — the Latin dative <em>mihi</em> matches the Greek dative exactly. Learning one language deepens your understanding of the other.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> Do not turn the dative of possession into a genitive: <span class="gk">Τῷ ἀνθρώπῳ ὁ οἶκος ἐστίν</span> ✓, but <span class="gk">τοῦ ἀνθρώπου</span> ✗ here. Self-test: the possessor (dative) is usually a person/living being; the thing possessed is always in the <em>nominative</em>. See dative + εἶναι + nominative together — think "possession construction" immediately.</p>
+</div>
+
+<h2 id="s9">9. What the infinitive does in a sentence</h2>
+
+<p>The <strong>infinitive</strong> is a verb "not yet attached to a person" — the name of an action. In this lesson it enters one fixed pattern:</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">δεῖ τὸν θεὸν θεραπεύειν.</td><td class="tr">deî tòn theòn therapeúein.</td><td>One must worship the god.</td></tr>
+<tr><td class="gk">δεῖ τοὺς ἀνθρώπους θεραπεύειν.</td><td class="tr">deî toùs anthrṓpous therapeúein.</td><td>People must worship.</td></tr>
+</tbody>
+</table>
+
+<p><span class="gk">δεῖ</span> <span class="tr">(deî)</span> = "it is necessary" — a special verb: it has only <strong>one single form</strong>, no personal endings, and it takes an infinitive. The accusative before the infinitive (<span class="gk">τὸν θεόν</span>, <span class="gk">τοὺς ἀνθρώπους</span>) is the <em>logical subject</em> of the infinitive's action: "the god must <em>be worshipped</em>" → rearranged: "one must worship <em>the god</em>".</p>
+
+<div class="tipp">
+<p><strong>Pattern to reuse:</strong> <span class="gk">δεῖ + [accusative] + [infinitive]</span> = "[someone] must [do something]". When you meet <span class="gk">δεῖ</span> in a text, it is this formula 95% of the time. (Later we will expand the infinitive into a bigger construction — the accusative-with-infinitive, AcI, in lesson 4.)</p>
+</div>
+
+<h2 id="s10">10. Particles: the "connectors" of the sentence</h2>
+
+<p>Greek uses <strong>particles</strong> very densely — small uninflected words that steer the flow of the text. This lesson needs 4:</p>
+
+<table>
+<thead><tr><th>Particle</th><th>Transliteration</th><th>Meaning</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td class="gk">καί</td><td class="tr">kaí</td><td>and; also, even</td><td>can stand first in the sentence</td></tr>
+<tr><td class="gk">δέ</td><td class="tr">dé</td><td>but, and (mild contrast)</td><td><strong>never</strong> sentence-initial — always slips in after the first word</td></tr>
+<tr><td class="gk">γάρ</td><td class="tr">gár</td><td>for, because (explanatory)</td><td>never sentence-initial</td></tr>
+<tr><td class="gk">μέν</td><td class="tr">mén</td><td>on the one hand… (setting up a contrast)</td><td>almost always paired with <span class="gk">δέ</span></td></tr>
+</tbody>
+</table>
+
+<p><span class="gk">δέ / γάρ / μέν</span> are <strong>postpositive</strong>: they never open a sentence, always standing in "second position". So when reading, don't detach them as the "first word" of a new clause:</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ μὲν ἵππος ἐν τῷ οἴκῳ ἐστίν, ὁ δὲ ἄνθρωπος ἐκεῖ.</td><td class="tr">ho mèn híppos en tōi oíkōi estín, ho dè ánthrōpos ekeî.</td><td>The horse is in the house, but the man is there.</td></tr>
+<tr><td class="gk">θεραπεύει τοὺς θεούς, ὁ γὰρ θεὸς ἐν τῷ οὐρανῷ ἐστίν.</td><td class="tr">therapeúei toùs theoús, ho gàr theòs en tōi ouranōi estín.</td><td>He worships the gods, for the god is in the heaven.</td></tr>
+</tbody>
+</table>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin has two particles that behave <em>exactly</em> the same way: <em>autem</em> (≈ <span class="gk">δέ</span>) and <em>enim</em> (≈ <span class="gk">γάρ</span>) — neither can open a sentence, both take second position. Even the Greek translators of the Bible into Latin (the Vulgate) kept this habit exactly.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern to reuse:</strong> <span class="gk">μέν … δέ</span> is a "two-clause clamp": one clause with <span class="gk">μέν</span>, the other with <span class="gk">δέ</span>. In translation: "on the one hand… but…". If you see a lone <span class="gk">μέν</span>, <em>wait for</em> the <span class="gk">δέ</span> — it is almost certainly coming.</p>
+</div>
+
+<h2 id="s11">11. Attributive position</h2>
+
+<p>An <strong>attribute</strong> (e.g. the phrase "of the god") stands in one of two positions, both of which lie <em>inside</em> the "article zone":</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">οἱ τοῦ θεοῦ ἵπποι</td><td class="tr">hoi toû theoû híppoi</td><td>the horses of the god</td></tr>
+<tr><td class="gk">οἱ ἵπποι οἱ τοῦ θεοῦ</td><td class="tr">hoi híppoi hoi toû theoû</td><td>the horses of the god (same meaning, different order)</td></tr>
+</tbody>
+</table>
+
+<p>Same meaning — the <strong>second article</strong> is the identifying sign: "this phrase is an attribute, it belongs to the noun in front of it". Compare with the sentence that has only <em>one</em> article:</p>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">οἱ ἵπποι τοῦ θεοῦ εἰσίν.</td><td class="tr">hoi híppoi toû theoû eisín.</td><td>The horses belong to the god. (not: "the god's horses are…")</td></tr>
+</tbody>
+</table>
+<p>Here <span class="gk">τοῦ θεοῦ</span> is <em>not inside the article zone</em> of <span class="gk">ἵπποι</span> — it is its own predicative statement: "they are <em>of</em> the god". Two articles = attribute; one article = predicative statement. The same two words, different position, different meaning — clear proof that "ending + position" work together.</p>
+
+<p>The construction also works with prepositional phrases as attributes (you will meet one in exercise 7): <span class="gk">ὁ ἐν τῷ οἴκῳ θεός</span> <span class="tr">(ho en tōi oíkōi theós)</span> = <span class="gk">ὁ θεὸς ὁ ἐν τῷ οἴκῳ</span> "the god [who is] in the house". How to recognize it: the article stands <em>before</em> the prepositional phrase, and the noun comes after — the phrase is "embraced" into the attribute zone; in the second variant, the article is repeated after the main noun.</p>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> Don't mechanically translate <span class="gk">ὁ ἐν τῷ οἴκῳ θεός</span> as "the god is in the house" and move on — that is not a predicate! Self-test: look at the article's position. If a prepositional phrase follows immediately after the article, before the main noun (<span class="gk">ὁ [ἐν τῷ οἴκῳ] θεός</span>) → the phrase is an attribute → read it as one block: "the god [who is in the house]". Compare the predicative sentence: <span class="gk">ὁ θεὸς ἐν τῷ οἴκῳ</span> "the god [is] in the house" — the prepositional phrase follows <em>after</em> the noun, not "embraced" by the article.</p>
+</div>
+
+<h2 id="s12">12. Adverbs &amp; prepositions: an opening journey</h2>
+
+<p><strong>Adverbs</strong> are uninflected and answer "where / how": <span class="gk">ἐκεῖ</span> <span class="tr">(ekeî)</span> "there". Later we will learn how to build adverbs from adjectives (lessons 3 and 9).</p>
+
+<p><strong>Prepositions</strong> are uninflected but <em>command</em> a specific case — this is a "contract" you must memorize for each preposition:</p>
+<table>
+<thead><tr><th>Preposition</th><th>Meaning</th><th>Case it takes</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἐν</td><td>in, at</td><td><strong>dative</strong></td><td><span class="gk">ἐν τῷ οἴκῳ</span> <span class="tr">(en tōi oíkōi)</span> — in the house</td></tr>
+<tr><td class="gk">εἰς</td><td>to, into</td><td><strong>accusative</strong> <span class="notyet">(not yet covered)</span></td><td>coming in lesson 2</td></tr>
+<tr><td class="gk">ἐκ</td><td>from, out of</td><td><strong>genitive</strong> <span class="notyet">(not yet covered)</span></td><td>coming in lesson 2</td></tr>
+</tbody>
+</table>
+
+<div class="info">
+<p><strong>Logical stopping point of the lesson:</strong> you have just learned the complete toolkit for reading a real Greek sentence — the article (section 5), third-person verbs (section 6), the analysis method (section 7), εἶναι (section 8), infinitive + δεῖ (section 9), particles (section 10), attributive position (section 11). Now it is time to put everything together: the reading.</p>
+</div>
+
+<h2 id="reading">13. Reading: Three brother gods</h2>
+
+<div class="info">
+<p><strong>Source:</strong> the theme is based on Homer, <em>Ilias</em> 15,187–193 — the passage where Zeus recounts how the three brothers Zeus–Poseidon–Hades drew lots to divide three realms. The original (public domain) can be read on Perseus. The version below was <strong>rewritten by this project for lesson-1 level</strong> — it uses only structures already covered, keeping the spirit of the original.</p>
+</div>
+
+<p>New words in the reading:</p>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ ἀδελφός, -οῦ</td><td class="tr">ho adelphós, -oû</td><td>the brother</td><td>masculine, o-declension — declines exactly like ἄνθρωπος</td></tr>
+<tr><td class="gk">τρεῖς</td><td class="tr">treîs</td><td>three</td><td>numeral, uninflected in this lesson</td></tr>
+<tr><td class="gk">ἡ θάλασσα, -ης</td><td class="tr">hē thálassa, -ēs</td><td>the sea</td><td>feminine, a-declension <span class="notyet">(not yet covered)</span> — the case shows through the article</td></tr>
+<tr><td class="gk">ἡ γῆ, γῆς</td><td class="tr">hē gê, gês</td><td>the earth</td><td>feminine, a-declension <span class="notyet">(not yet covered)</span></td></tr>
+<tr><td class="gk">ὁ Ζεύς · ὁ Ποσειδῶν · ὁ Ἅιδης</td><td class="tr">ho Zeús · ho Poseidôn · ho Háidēs</td><td>Zeus · Poseidon · Hades</td><td>proper names with irregular declension <span class="notyet">(not yet covered)</span> — read the case off the article</td></tr>
+</tbody>
+</table>
+
+<p style="margin-bottom:6px;"><strong>Simplified version (composed by this project):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">Τρεῖς ἀδελφοὶ εἰσίν· ὁ Ζεύς, ὁ Ποσειδῶν, ὁ Ἅιδης. Τῷ μὲν Διὶ ὁ οὐρανός ἐστίν, τῷ δὲ Ποσειδῶνι ἡ θάλασσα, τῷ δὲ Ἅιδῃ ἡ γῆ. Οἱ δὲ ἄνθρωποι τοὺς θεοὺς θεραπεύουσιν.</p>
+<p class="tr">Treîs ádelphoi eisín· ho Zeús, ho Poseidôn, ho Háidēs. Tōi mèn Diì ho ouranós estín, tōi dè Poseidôni hē thálassa, tōi dè Háidēi hē gê. Hoi dè ánthrōpoi toùs theoùs therapeúousin.</p>
+
+<p><strong>Translation:</strong></p>
+<p>There are three brothers: Zeus, Poseidon, Hades. To Zeus belongs the heaven, to Poseidon the sea, to Hades the earth. And the humans worship the gods.</p>
+
+<p><strong>Quick analysis (checking with the tools you have learned):</strong></p>
+<ul>
+<li><span class="gk">Τρεῖς ἀδελφοὶ εἰσίν</span> — nominative plural + <span class="gk">εἰσί(ν)</span>: the "there are…" construction. The article is absent → general reference: "there are three brothers".</li>
+<li><span class="gk">Τῷ μὲν Διὶ ὁ οὐρανός ἐστίν</span> — dative of possession! The possessor (<span class="gk">τῷ Διί</span>, dative of Zeus) + the thing possessed (<span class="gk">ὁ οὐρανός</span>, nominative) + <span class="gk">ἐστίν</span>. The article <span class="gk">τῷ</span> reports "dative" even though you haven't yet learned the declension of the name <span class="gk">Διί</span> — exactly the "read the article" strategy.</li>
+<li><span class="gk">μέν … δέ … δέ</span> — particles clamping three clauses: "on the one hand… while… while…". Clauses 2 and 3 omit <span class="gk">ἐστίν</span> (understood from clause 1).</li>
+<li><span class="gk">Οἱ δὲ ἄνθρωποι θεραπεύουσιν</span> — <span class="gk">δέ</span> is postpositive, standing after the article <span class="gk">οἱ</span>; <span class="gk">θεραπεύουσιν</span> carries the movable nu because the next word begins with a vowel.</li>
+</ul>
+
+<p>Reading comprehension questions: (1) Which particle pair "clamps" the three clauses together? (2) In which case do the three divine names stand — what is the evidence? (3) Read the original Homer (Ilias 15.187–193 on Perseus): which realm is Hades actually assigned — and how has the simplified version "compressed" it?</p>
+
+<div class="answer"><div class="loesung">
+<h4>Answers to the reading questions (print to check)</h4>
+<p><strong>1.</strong> The three contrasting clauses use <span class="gk">μέν…δέ…δέ</span>. <strong>2.</strong> <span class="gk">τῷ Διί / τῷ Ποσειδῶνι / τῷ Ἅιδῃ</span> — all datives, recognized by the article <span class="gk">τῷ</span>. <strong>3.</strong> In Homer, Hades is assigned the realm "under the dark earth" (not the habitable surface) — the simplified version compresses this into <span class="gk">ἡ γῆ</span> "the earth"; read the original at Perseus, Ilias 15.187–193, to see the difference.</p>
+</div></div>
+
+<h2 id="vocab">14. Core vocabulary</h2>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὁ ἄνθρωπος, -ου</td><td class="tr">ho ánthrōpos, -ou</td><td>the human being</td><td>masculine, o-declension</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ θεός, -οῦ</td><td class="tr">ho theós, -oû</td><td>the god</td><td>masculine, o-declension</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ οἶκος, -ου</td><td class="tr">ho óikos, -ou</td><td>the house</td><td>masculine, o-declension</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ οὐρανός, -οῦ</td><td class="tr">ho ouranós, -oû</td><td>the heaven, sky</td><td>masculine, o-declension</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ἵππος, -ου</td><td class="tr">ho híppos, -ou</td><td>the horse</td><td>masculine, o-declension</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ δῆμος, -ου</td><td class="tr">ho dêmos, -ou</td><td>the people, community</td><td>masculine, o-declension</td></tr>
+<tr><td class="gk">ὁ ἀδελφός, -οῦ</td><td class="tr">ho adelphós, -oû</td><td>the brother</td><td>masculine, o-declension (reading)</td></tr>
+<tr><td class="gk">ὁ ἐχθρός, -οῦ</td><td class="tr">ho echthrós, -oû</td><td>the enemy</td><td>masculine, o-declension</td></tr>
+<tr><td class="gk">ἡ θάλασσα, -ης</td><td class="tr">hē thálassa, -ēs</td><td>the sea</td><td>feminine, a-declension <span class="notyet">(not yet covered)</span></td></tr>
+<tr><td class="gk">ἡ γῆ, γῆς</td><td class="tr">hē gê, gês</td><td>the earth</td><td>feminine, a-declension <span class="notyet">(not yet covered)</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> θεραπεύω, -ει, -ουσι(ν), -ειν</td><td class="tr">therapeúō, -ei, -ousi(n), -ein</td><td>to worship; to tend, care for, heal</td><td>+ accusative</td></tr>
+<tr><td class="gk"><span class="star">★</span> εἶναι, ἐστί(ν), εἰσί(ν)</td><td class="tr">eînai, estí(n), eisí(n)</td><td>to be, is, are</td><td>irregular</td></tr>
+<tr><td class="gk"><span class="star">★</span> δεῖ + infinitive</td><td class="tr">deî</td><td>it is necessary (one must)</td><td>one single form</td></tr>
+<tr><td class="gk"><span class="star">★</span> καί</td><td class="tr">kaí</td><td>and; also, even</td><td>particle</td></tr>
+<tr><td class="gk"><span class="star">★</span> δέ</td><td class="tr">dé</td><td>but (light), and</td><td>postpositive</td></tr>
+<tr><td class="gk"><span class="star">★</span> γάρ</td><td class="tr">gár</td><td>for, because</td><td>postpositive</td></tr>
+<tr><td class="gk">μέν</td><td class="tr">mén</td><td>on the one hand</td><td>paired with δέ</td></tr>
+<tr><td class="gk">ἐν + dative</td><td class="tr">en</td><td>in</td><td>preposition</td></tr>
+<tr><td class="gk">ἐκεῖ</td><td class="tr">ekeî</td><td>there</td><td>adverb</td></tr>
+<tr><td class="gk">ἔχει</td><td class="tr">échei</td><td>he/she has</td><td>3rd person of ἔχω, covered properly in the next lesson</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">15. Summary table of easily confused points</h2>
+
+<table>
+<thead><tr><th>Confusable pair</th><th>How to tell them apart</th><th>Self-test</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ / οἱ / ἡ</td><td><span class="gk">ὁ</span> = masculine singular article; <span class="gk">οἱ</span> = masculine plural; <span class="gk">ἡ</span> = feminine singular <span class="notyet">(not yet covered)</span></td><td>Compare the masculine set: no iota (ι) = singular; iota or -οι = plural</td></tr>
+<tr><td class="gk">τῷ / τοῦ / τὸν</td><td><span class="gk">τῷ</span> = dative; <span class="gk">τοῦ</span> = genitive; <span class="gk">τὸν</span> = accusative</td><td><span class="gk">-ῳ</span> → dative; <span class="gk">-ου</span> → genitive; <span class="gk">-ον</span> (final ν) → accusative</td></tr>
+<tr><td class="gk">θεραπεύει / θεραπεύειν</td><td>finite verb (he worships) / infinitive (to worship)</td><td>Look at the preceding word: after <span class="gk">δεῖ</span> or another verb → infinitive</td></tr>
+<tr><td class="gk">ἐστί(ν) / εἰσί(ν)</td><td>3rd person singular / plural of εἶναι</td><td>A plural nominative (οἱ, -οι) goes with the plural verb (εἰσί)</td></tr>
+<tr><td class="gk">-ουσι / -ει</td><td>3rd person plural / singular ending</td><td>Find the accompanying nominative: <span class="gk">οἱ</span> → <span class="gk">-ουσι</span>; <span class="gk">ὁ</span> → <span class="gk">-ει</span></td></tr>
+<tr><td>Movable nu present or not</td><td><span class="gk">θεραπεύουσιν</span> before a vowel, <span class="gk">θεραπεύουσι</span> before a consonant — only the pronunciation differs</td><td>Does the next word begin with a vowel? Forgetting the rule is harmless, since the meaning doesn't change</td></tr>
+<tr><td>Word order vs endings</td><td>An object remains an object even when pushed to the front of the sentence</td><td>Always ask: what do the article + ending rule? Only then look at position</td></tr>
+<tr><td>Hidden subject</td><td><span class="gk">θεραπεύει</span> alone is already a complete sentence ("he worships")</td><td>Finite verb with no nominative around → the ending contains the subject</td></tr>
+<tr><td class="gk">δεῖ: does it inflect?</td><td><span class="gk">δεῖ</span> has one single form — never add personal endings</td><td>The infinitive after <span class="gk">δεῖ</span> always keeps its <span class="gk">-ειν / -σαι / -ναι</span></td></tr>
+<tr><td>Dative of possession vs genitive</td><td>"X has Y" = dative (possessor) + nominative (possessed); the genitive "of…" belongs inside an attributive phrase</td><td>See <span class="gk">τῷ … ὁ … ἐστίν</span> → the "have" construction</td></tr>
+<tr><td>1 vs 2 articles</td><td>Two articles = attribute (one noun block); one article = separate predicative statement</td><td>Count the articles before translating an "of…" phrase</td></tr>
+<tr><td class="gk">καί / δέ / γάρ</td><td><span class="gk">καί</span> can open a sentence; <span class="gk">δέ, γάρ</span> are always postpositive (second slot)</td><td>Read the sentence aloud: a postpositive particle "sticks" to the word before it and doesn't open a new clause</td></tr>
+<tr><td class="gk">Lone μέν</td><td>Almost always preparing for <span class="gk">δέ</span> in the following clause</td><td>Meet <span class="gk">μέν</span> → expect <span class="gk">δέ</span>; translate "on the one hand… but…"</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">16. Exercises</h2>
+<p><em>Answers appear only when printing (Ctrl+P → Save as PDF) — finish first, then print to check.</em></p>
+
+<h3>Exercise 1 — Word classes &amp; sentence parts</h3>
+<p>Analyze the English sentence: <strong>"The man worships the gods in the house."</strong> List: (a) the word class of each word, (b) the sentence parts (subject, predicate, object, adverbial).</p>
+<div class="answer"><div class="loesung"><h4>Answer 1</h4>
+<p>(a) <em>man</em> = noun; <em>worships</em> = verb; <em>gods</em> = noun (with the article "the"); <em>house</em> = noun; <em>in</em> = preposition. (b) Subject = "the man"; predicate = "worships"; object = "the gods"; adverbial of place = "in the house". In Greek, the same content would need: an article before each noun, and endings marking case (accusative for "the gods", dative for "in the house" after ἐν).</p>
+</div></div>
+
+<h3>Exercise 2 — Reading the article like a road sign</h3>
+<p>Looking only at the article (and the ending), determine the case + number of each unit: (a) <span class="gk">τῷ οἴκῳ</span> (b) <span class="gk">τοὺς θεούς</span> (c) <span class="gk">τῶν ἀνθρώπων</span> (d) <span class="gk">ὁ οὐρανός</span> (e) <span class="gk">τοῖς ἵπποις</span>.</p>
+<div class="answer"><div class="loesung"><h4>Answer 2</h4>
+<p>(a) dative, singular (τῷ, -ῳ); (b) accusative, plural (τοὺς, -ους); (c) genitive, plural (τῶν, -ων); (d) nominative, singular (ὁ, -ος); (e) dative, plural (τοῖς, -οις).</p>
+</div></div>
+
+<h3>Exercise 3 — Declining a noun</h3>
+<p>Decline <span class="gk">ὁ ἵππος</span> (the horse) through all 4 cases × 2 numbers (8 cells), with the article.</p>
+<div class="answer"><div class="loesung"><h4>Answer 3</h4>
+<p class="gk">ὁ ἵππος, τοῦ ἵππου, τῷ ἵππῳ, τὸν ἵππον — οἱ ἵπποι, τῶν ἵππων, τοῖς ἵπποις, τοὺς ἵππους.</p>
+<p class="tr">ho híppos, toû híppou, tōi híppōi, tòn híppon — hoi híppoi, tôn híppōn, toîs híppois, toùs híppous.</p>
+</div></div>
+
+<h3>Exercise 4 — Translating with the four steps</h3>
+<p>Translate, writing out each step (verb → article → function → translation): (a) <span class="gk">ὁ θεὸς τοὺς ἀνθρώπους θεραπεύει.</span> (b) <span class="gk">θεραπεύουσι τοὺς θεούς.</span> (c) <span class="gk">Τῷ θεῷ ὁ οὐρανός ἐστίν.</span></p>
+<div class="answer"><div class="loesung"><h4>Answer 4</h4>
+<p>(a) verb <span class="gk">θεραπεύει</span> (3rd person singular); <span class="gk">ὁ θεός</span> nominative → subject; <span class="gk">τοὺς ἀνθρώπους</span> accusative plural → object. "The god cares for the humans."</p>
+<p>(b) verb <span class="gk">θεραπεύουσι</span> (3rd person plural) — no nominative around → hidden subject "they"; <span class="gk">τοὺς θεούς</span> accusative plural → object. "They worship the gods."</p>
+<p>(c) <span class="gk">ἐστίν</span> + dative <span class="gk">τῷ θεῷ</span> + nominative <span class="gk">ὁ οὐρανός</span> → dative of possession. "The god has the heaven." (literally: toward the god, the heaven exists)</p>
+</div></div>
+
+<h3>Exercise 5 — The three jobs of εἶναι</h3>
+<p>Choose the right construction (predicative noun / dative after a preposition / dative of possession) and translate: (a) <span class="gk">ὁ ἄνθρωπος ἐν τῷ οἴκῳ ἐστίν.</span> (b) <span class="gk">ὁ Ποσειδῶν θεός ἐστίν.</span> (c) <span class="gk">Τῷ ἀνθρώπῳ ἵππος ἐστίν.</span> — what is special about the article in sentence (c)?</p>
+<div class="answer"><div class="loesung"><h4>Answer 5</h4>
+<p>(a) εἶναι + ἐν + dative (adverbial of place): "The man is in the house." (b) two nominatives → predicative noun: "Poseidon is a god." (c) dative of possession: "The man has (a) horse." — the article is missing before <span class="gk">ἵππος</span> → general/indefinite: "some horse".</p>
+</div></div>
+
+<h3>Exercise 6 — Attributive position</h3>
+<p>(a) Write "the horses of the god" in both attributive orders. (b) Translate <span class="gk">οἱ ἵπποι τοῦ θεοῦ εἰσίν.</span> and explain how it differs from (a).</p>
+<div class="answer"><div class="loesung"><h4>Answer 6</h4>
+<p>(a) <span class="gk">οἱ τοῦ θεοῦ ἵπποι</span> = <span class="gk">οἱ ἵπποι οἱ τοῦ θεοῦ</span> — both variants have two articles → attribute; sentence (b) has only one article → <span class="gk">τοῦ θεοῦ</span> is a separate predicative statement: "The horses belong to the god." In short: two articles = "the god's horses"; one article = "the horses are the god's".</p>
+</div></div>
+
+<h3>Exercise 7 — Putting it all together (translate the passage)</h3>
+<p>Translate the following passage, using every tool you have learned (sentences with harder words have hints in the answer):</p>
+<p class="gk" style="font-size:1.12em;">δεῖ τοὺς ἀνθρώπους θεραπεύειν τοὺς θεούς· ὁ γὰρ ἐν τῷ οὐρανῷ θεὸς τοὺς ἀνθρώπους θεραπεύει. τοὺς δὲ ἵππους οἱ ἄνθρωποι θεραπεύουσιν.</p>
+<div class="answer"><div class="loesung"><h4>Answer 7</h4>
+<p>"Humans must worship the gods; for the god [who is in the heaven] cares for humans. And the horses — the humans care for them."</p>
+<p>Notes on each construction: (1) <span class="gk">δεῖ + τοὺς ἀνθρώπους + θεραπεύειν</span> = the "must" pattern — the accusative <span class="gk">τοὺς ἀνθρώπους</span> is the logical subject of the infinitive; <span class="gk">τοὺς θεούς</span> is the object of the infinitive. (2) <span class="gk">ὁ ἐν τῷ οὐρανῷ θεός</span> = attribute with a prepositional phrase: the article stands before the phrase, the main noun follows → "the god [who is in the heaven]"; <span class="gk">γάρ</span> is postpositive, introducing the reason. (3) <span class="gk">τοὺς δὲ ἵππους</span> = object pushed to the front for emphasis + postpositive <span class="gk">δέ</span>; the verb <span class="gk">θεραπεύουσιν</span> stands last, keeping the movable nu before the sentence break (both variants are valid: <span class="gk">θεραπεύουσι</span>); the subject <span class="gk">οἱ ἄνθρωποι</span> stands in between: "the horses — the humans care for them".</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Lesson 1 — Graecum VN · Compiled by Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · When citing or reusing, give credit: "Graecum VN — Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Exercise answers appear only when printing (Ctrl+P → Save as PDF). Reference reading: Homer, Ilias 15.187–193 (Perseus, public domain).</p>
+
+</main>
+</body>
+</html>
