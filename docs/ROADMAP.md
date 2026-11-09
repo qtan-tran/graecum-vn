@@ -1,4 +1,4 @@
-# ROADMAP phát triển project — cập nhật lần 7 (giữa Phần 3)
+# ROADMAP phát triển project — cập nhật lần 8 (Phần 3 hoàn thành)
 
 > **Quy ước làm việc**: công việc chia thành **Phần (Part)**; cuối mỗi Phần ghi **Continuation notes** vào file này. Cứ **6–7 steps** thì bản roadmap này được cập nhật và báo cáo lại cho người sở hữu project. Tốc độ không quan trọng — tính bền vững và chất lượng mới quyết định.
 
@@ -16,7 +16,7 @@
 | --- | --- | --- |
 | **1** | Kiến trúc + tài liệu nền (README, ARCHITECTURE, STYLE, COPYRIGHT, CURRICULUM 48 bài, ROADMAP) + portal skeleton + lesson template | ✅ XONG |
 | **2** | Tạo repo GitHub + push Phần 1 + bật GitHub Pages; chuẩn hóa pilot: chuyển hóa **Lesson 1** sang quy ước mới (thuật ngữ tiếng Việt là chính, bảng 4 cột có phiên âm, Latin corner) | ✅ XONG (còn chờ user xác nhận bật Pages) |
-| **3** | Chuyển hóa Lesson 2–6 sang quy ước mới, audit bản quyền từng bài; kèm yêu cầu mới: **ghi công tác giả (BY) trên COPYRIGHT + footer mọi bài giảng**; mở rộng: **lớp tiếng Anh (EN edition)** cho repo + bài giảng | 🔄 ĐANG LÀM (L2–L5 ✅; EN pilot L1 ✅; còn L6 VN + EN L2–L5) |
+| **3** | Chuyển hóa Lesson 2–6 sang quy ước mới, audit bản quyền từng bài; kèm yêu cầu mới: **ghi công tác giả (BY) trên COPYRIGHT + footer mọi bài giảng**; mở rộng: **lớp tiếng Anh (EN edition)** cho repo + bài giảng | ✅ XONG phần lõi (L2–L6 ✅, EN pilot L1 ✅) — pipeline EN L2–L5 chuyển tiếp |
 | **4** | Repo `greek-toolkit-vn` (hub tools + so sánh tài liệu) | ☐ |
 | **5** | Lesson 7–10 mới hoàn chỉnh (bắt đầu phần curriculum chưa có bản thảo) + readings pipeline (bản simplified đầu tiên) | ☐ |
 | **6** | Vocab TSV + script sinh Anki deck cho L1–10 (CC BY-SA) | ☐ |
@@ -43,14 +43,15 @@
 
 - **Ghi công đầy đủ "Trần Quốc Tân"** (thay "Tân", theo yêu cầu người sở hữu): footer L1–L5, template, portal footer, README, COPYRIGHT §4, STYLE, dòng citation "Graecum VN — Trần Quốc Tân, …" — commit `bef1c37`. Kèm theo (yêu cầu mới của người sở hữu): thêm dòng affiliation vào README + COPYRIGHT — *This repository is developed and maintained by Quoc-Tan Tran, Postdoctoral Researcher at the Institute for Studies of Science, Bielefeld University*.
 - **Lớp tiếng Anh (English edition) — pilot theo yêu cầu người sở hữu**: `README.en.md` (dịch README, **bỏ mọi reference đến audience người Việt**, giữ nội dung/cấu trúc), `en/index.html` (portal EN: L1 published, L2–5 "translation in preparation"), `en/lessons/01-foundations/index.html` (bản dịch EN đầy đủ L1 ~52K ký tự: bảng 3 cột Hy Lạp/phiên âm/Anh thay 4 cột, giữ nguyên 16 mục + Latin corners + bài tập + đáp án ẩn; footer EN "Compiled by Trần Quốc Tân"). Cross-link hai chiều: portal VN ↔ EN, README VN ↔ EN. Quy ước EN layer: chỉ bỏ cột/dòng tiếng Việt và câu dẫn audience VN, mọi thứ khác giữ nguyên. Commit: `90b3556`.
+- **Lesson 6 publish (bài cuối phần lõi Phần 3)** — `lessons/06-dynamai-demonstratives/index.html` (~53KB, 11 mục): δύναμαι (deponent không chủ đề; bảng đối lập γίγνομαι có chủ đề — *pattern*: cặp đối lập động từ có/không nguyên âm chủ đề), đại từ chỉ định ὅδε/ἐκεῖνος (bảng chia đầy đủ 2 giống × 2 số × 4 cách kèm phiên âm; tặng cách số nhiều chèn σ τοῖσδε/ταῖσδε; biến cách kiểu đại từ của trung tính ἐκεῖνο vs ἐκεῖνον), cách dùng (đứng một mình vs với danh từ; nhắc lại vị trí định ngữ/biểu ngữ từ bài 1; lỗi kinh điển "kẻ này là kẻ thù"), hướng chỉ (deixis) 3 cấp gần—vừa nhắc—xa (bản đồ this/that + này/nọ/kia), εἶναι bảng chia đầy đủ 3 thời + mệnh lệnh (ἴσθι bất quy tắc; hai kiểu in εἰμί/εἶμι), εἶ vs εἰ phân biệt qua dấu thanh, liên hệ Ấn-Âu *h₁es- (Latin sum/es/est, Phạn asmi), bài đọc simplified tự biên soạn theo chủ đề Homer Odyssee 16.181–206 ("Người cha trong lều" 4 câu: ἐν+Dat, δύναται λέγειν, εἰ σοφὸς εἶ, τόνδε τὸν ξένον, ἐκεῖνος γὰρ Ὀδυσσεύς), Latin corners (sum↔εἰμί từng ngôi một; recessive accent), confusables 14 hàng, 6 bài tập + đáp án ẩn. lessons.json L6 `published, rev 2` + homepage L6 flip. Tự soát dấu thanh: phát hiện và vá lỗi oxytone giả của δύναμαι (trọng âm lùi trên δύ-, không đổi huyền) + Ὀδυσσεὺς ἐστιn huyền trước từ kế tiếp. Commit: `3687aa7`.
 
 **Ghi chú vận hành mới (Phần 3):**
 - `github_app.get_file_contents` không đọc được text programmatically trong sandbox (object mờ, chỉ hiện qua echo) → lấy file từ repo bằng `curl` (môi trường upgraded) + `diff` theo URL kèm commit-sha; push vẫn qua `push_files` (đọc file durable bằng `file_system.read_file`, nối vòng lặp truncation).
 - File scratch `/home/user/graecum-vn/` không bền (remount xóa) — sau push, repo GitHub là nguồn chuẩn; nếu cần lại file thì curl về.
 
-**Còn trong Phần 3 (pipeline mỗi bài: đọc canvas → chuyển hóa → QA → lessons.json → push riêng):**
-1. L6 (VN): δύναμαι + đại từ chỉ định (ὅδε/οὗτος); εἶ vs εἰ.
-2. EN L2–L5: dịch theo đúng pipeline L1 EN (bảng 3 cột, bỏ audience VN, footer EN chuẩn).
+**Phần 3 (phần lõi) HOÀN THÀNH — L6 đã publish (`3687aa7`). Pipeline chuyển tiếp (EN edition):**
+1. EN L2–L5: dịch theo đúng pipeline L1 EN (bảng 3 cột Hy Lạp/phiên âm/Anh, bỏ cột + câu dẫn audience VN, footer EN "Compiled by Trần Quốc Tân", cross-link về bản Việt). Sau mỗi bài: QA + flip `en/index.html` + push riêng.
+2. (Ghi chú: EN L6 dịch sau khi EN L2–L5 xong, để portal EN không nhảy trạng thái.)
 
 **Quy ước dấu thanh cần ghi thêm vào STYLE-AND-CONVENTIONS khi có dịp**: vị trí huyền/sắc theo quy tắc trên; notation paradigm dùng ἐστί(ν)/εἰσί(ν) (sắc + ν tùy chọn).
 
@@ -105,3 +106,4 @@
 - Lần 5 (giữa Phần 3): Lesson 4 publish (đại từ nhân xưng, mệnh lệnh cách, phủ định, tặng cách & AcI bước đầu; bài đọc Epikur Menoikeus simplified) — commit `eae8164`; dấu thanh áp dụng ngay từ lúc soạn; còn L5–6.
 - Lần 6 (giữa Phần 3): Lesson 5 publish (hiện tại trung/bị động, deponent, tính từ danh từ hóa & τις/τι; bài đọc châm ngôn simplified theo Stobaios/Marc Aurel) + fix định nghĩa deponent trong CURRICULUM — commit `8347385`; còn L6.
 - Lần 7 (giữa Phần 3): ghi công đầy đủ "Trần Quốc Tân" mọi chỗ + dòng affiliation (Postdoctoral Researcher, Bielefeld University) vào README & COPYRIGHT — commit `bef1c37`; mở lớp tiếng Anh: README.en.md + portal EN + Lesson 1 EN (pilot), cross-link VN ↔ EN — commit `90b3556`; còn L6 VN + EN L2–L5.
+- Lần 8 (Phần 3 phần lõi hoàn thành): Lesson 6 publish (δύναμαι + đại từ chỉ định ὅδε/ἐκεῖνος + εἶναι đầy đủ; εἶ vs εἰ; bài đọc Homer Od. 16.181–206 simplified) — commit `3687aa7`; L1–L6 đều published, homepage 1–6 "đã xuất bản"; pipeline còn lại: EN L2–L5 (rồi EN L6).
