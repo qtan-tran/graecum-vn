@@ -38,11 +38,29 @@ Self-check trước khi publish một reading: *"Nếu một luật sư của nh
 - Danh sách tần suất: chỉ dùng nguồn mở (VD: Dickinson College Commentaries Greek Core Vocabulary, CC BY-SA; Logeion open data) + ghi nguồn.
 - Nghĩa tiếng Việt: tự biên soạn; khi đối chiếu từ điển có bản quyền thì chỉ lấy *sự thật nghĩa*, không sao chép định dạng/ví dụ của từ điển.
 
-## 4. License của project
+## 4. License &amp; ghi công tác giả
 
 - **Nội dung bài giảng, readings, vocab, tài liệu**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Lý do chọn BY-SA (không NC): muốn người khác được học, chia sẻ, dịch, xây tool lên trên — với điều kiện ghi công và chia sẻ lại cùng license. NC sẽ chặn chính các use case ta muốn khuyến khích.
 - **Code (script sinh Anki, template, sau này platform)**: MIT.
-- Mỗi file bài giảng ghi license ở footer; repo có file `LICENSE`.
+
+### Tác giả &amp; yêu cầu ghi công
+
+Toàn bộ nội dung biên soạn (bài giảng, bài đọc đơn giản hóa, bài tập, từ vựng, phân tích, dịch) do **Tân (Quoc-Tan Tran)** biên soạn. Project miễn phí, nhưng **không phải miễn ghi công**: license CC BY-SA 4.0 bắt buộc ghi công rõ ràng khi cite, trích dẫn, dịch, in lại, dạy lại hoặc xây dựng material lên trên nội dung này.
+
+Yêu cầu tối thiểu khi tái sử dụng (bằng bất kỳ ngôn ngữ nào):
+
+1. **Tên tác giả**: Tân (Quoc-Tan Tran)
+2. **Tên project + link**: Graecum VN — `https://github.com/qtan-tran/graecum-vn`
+3. **License**: CC BY-SA 4.0 (kèm link `https://creativecommons.org/licenses/by-sa/4.0/`)
+
+Dòng ghi công mẫu (được phép copy nguyên văn):
+
+> Nguồn: **Graecum VN** — biên soạn bởi **Tân (Quoc-Tan Tran)**, `https://github.com/qtan-tran/graecum-vn`, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+>
+> Source: **Graecum VN**, authored by **Tân (Quoc-Tan Tran)**, `https://github.com/qtan-tran/graecum-vn`, licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+- Mỗi file bài giảng ghi dòng này ở footer; repo có file `LICENSE`.
+- Nếu chỉnh sửa nội dung khi tái sử dụng, ghi thêm "có chỉnh sửa" (BY-SA yêu cầu chỉ rõ thay đổi).
 
 ## 5. Checklist audit bản quyền mỗi lần publish
 

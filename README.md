@@ -2,7 +2,7 @@
 
 **Một hub tự học tiếng Hy Lạp cổ (Ancient Greek / Altgriechisch) hoàn toàn miễn phí, bằng tiếng Việt**, cho người học từ con số không đến đọc được Plato, Xenophon, Kinh Thánh Hy Lạp (Koine) và các văn bản trung–khó khác.
 
-> Tất cả nội dung: **CC BY-SA 4.0** · Code: **MIT** · Không quảng cáo, không paywall, không thu thập dữ liệu.
+> Tất cả nội dung: **CC BY-SA 4.0** · Code: **MIT** · Biên soạn bởi **Tân (Quoc-Tan Tran)** · Không quảng cáo, không paywall, không thu thập dữ liệu.
 
 ## Vì sao có project này?
 
@@ -48,6 +48,14 @@ Chi tiết: [docs/STYLE-AND-CONVENTIONS.md](docs/STYLE-AND-CONVENTIONS.md)
 ## Chính sách bản quyền
 
 Nội dung biên soạn **độc lập**. Chỉ dùng: ngữ pháp/sự thật ngôn ngữ (không thuộc bản quyền), văn bản gốc **public domain** (tác giả cổ, ngữ pháp cổ điển), và tự viết ví dụ/bài tập/văn bản đọc đơn giản hóa. Không lưu trữ hoặc sao chép bất kỳ giáo trình có bản quyền nào. Chi tiết: [docs/COPYRIGHT.md](docs/COPYRIGHT.md).
+
+## Cách ghi công (bắt buộc khi tái sử dụng)
+
+Mọi nội dung do **Tân (Quoc-Tan Tran)** biên soạn và phát hành miễn phí theo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Khi cite, trích dẫn, dịch, in lại, dạy lại hoặc xây dựng material trên nội dung này, **phải ghi công rõ ràng**:
+
+> Nguồn: **Graecum VN** — biên soạn bởi **Tân (Quoc-Tan Tran)**, https://github.com/qtan-tran/graecum-vn, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+Nếu có chỉnh sửa, ghi thêm "có chỉnh sửa". Trường hợp thương mại/trường học/dịch thuật, nguyên tắc không đổi. Chi tiết: [docs/COPYRIGHT.md](docs/COPYRIGHT.md) mục 4.
 
 ## Trạng thái
 

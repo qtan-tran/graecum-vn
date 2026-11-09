@@ -55,7 +55,7 @@ Thứ tự cố định (khớp template `lessons/_template/lesson.html`):
 6. Bảng từ vựng: ★ = trọng tâm; cột: Greek | Translit. | English | Tiếng Việt | Ghi chú.
 7. **Bảng tổng hợp so sánh các điểm dễ nhầm** (confusables) — luôn có ở cuối bài.
 8. **Bài tập tự luyện** (Exercises) + **đáp án** (ẩn trên màn hình, hiện khi in — CSS `.answer { display:none }` + `@media print`).
-9. Footer: `Bài giảng Lesson N — Graecum VN · CC BY-SA 4.0 · Đáp án hiện khi in (Ctrl+P → Save as PDF)`.
+9. Footer: `Bài giảng Lesson N — Graecum VN · Biên soạn bởi Tân (Quoc-Tan Tran) · CC BY-SA 4.0 · Khi cite/tái sử dụng: ghi "Graecum VN — Tân (Quoc-Tan Tran), CC BY-SA 4.0" kèm link repo · Đáp án hiện khi in (Ctrl+P → Save as PDF)`.
 
 Box phụ: `.latin` (so sánh Latin), `.info` (ghi chú ngôn ngữ/lịch sử liên hệ — chỉ khi phục vụ việc học).
 
