@@ -1,4 +1,4 @@
-# Graecum VN — Ancient Greek cho người Việt
+# Graecum VN – Ancient Greek cho người Việt
 
 **Một hub tự học tiếng Hy Lạp cổ (Ancient Greek / Altgriechisch) hoàn toàn miễn phí, bằng tiếng Việt**, cho người học từ con số không đến đọc được Plato, Xenophon, Kinh Thánh Hy Lạp (Koine) và các văn bản trung–khó khác.
 
@@ -8,7 +8,7 @@
 
 ## Vì sao có project này?
 
-- Gần như **không có tài liệu tiếng Việt chất lượng cao** để tự học tiếng Hy Lạp cổ; người Việt phải học qua tiếng Đức, Anh, Pháp — một rào cản kép (học ngôn ngữ cổ bằng ngôn ngữ thứ ba).
+- Gần như **không có tài liệu tiếng Việt chất lượng cao** để tự học tiếng Hy Lạp cổ; người Việt phải học qua tiếng Đức, Anh, Pháp – một rào cản kép (học ngôn ngữ cổ bằng ngôn ngữ thứ ba).
 - Tài liệu miễn phí trên mạng (Perseus, Scaife, Logeion, ngữ pháp public domain) rất tốt nhưng **rải rác, bằng tiếng Anh**, và không có lộ trình.
 - Project này là **lộ trình + bài giảng + văn bản đọc + công cụ** nối tất cả lại, để người tự học tiếng Việt có **một nơi duy nhất để bắt đầu và duy trì việc học**.
 
@@ -24,7 +24,7 @@ Xem chi tiết: [docs/CURRICULUM.md](docs/CURRICULUM.md)
 ## Cấu trúc repo
 
 ```
-├── index.html              # Portal (GitHub Pages) — bắt đầu từ đây
+├── index.html              # Portal (GitHub Pages) – bắt đầu từ đây
 ├── lessons/                # 48 bài giảng, mỗi bài 1 file HTML tự chứa
 ├── readings/               # Văn bản đọc public domain + bản đơn giản hóa kèm phân tích
 ├── vocab/                  # Từ vựng theo bài, có phiên âm La tinh hóa; Anki decks
@@ -35,8 +35,8 @@ Xem chi tiết: [docs/CURRICULUM.md](docs/CURRICULUM.md)
 ## Cách dùng bài giảng
 
 1. Đọc trực tiếp trên web (GitHub Pages) hoặc **Download** file HTML.
-2. Học offline: mở file HTML bằng bất kỳ trình duyệt nào — không cần mạng, không phụ thuộc bên thứ ba.
-3. Muốn in: mở file → **Ctrl+P → Save as PDF** — đáp án bài tập tự hiện khi in.
+2. Học offline: mở file HTML bằng bất kỳ trình duyệt nào – không cần mạng, không phụ thuộc bên thứ ba.
+3. Muốn in: mở file → **Ctrl+P → Save as PDF** – đáp án bài tập tự hiện khi in.
 
 ## Nguyên tắc biên soạn (tóm tắt)
 
@@ -55,7 +55,7 @@ Nội dung biên soạn **độc lập**. Chỉ dùng: ngữ pháp/sự thật n
 
 Mọi nội dung do **Trần Quốc Tân** biên soạn và phát hành miễn phí theo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Khi cite, trích dẫn, dịch, in lại, dạy lại hoặc xây dựng material trên nội dung này, **phải ghi công rõ ràng**:
 
-> Nguồn: **Graecum VN** — biên soạn bởi **Trần Quốc Tân**, https://github.com/qtan-tran/graecum-vn, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+> Nguồn: **Graecum VN** – biên soạn bởi **Trần Quốc Tân**, https://github.com/qtan-tran/graecum-vn, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 This repository is developed and maintained by **Quoc-Tan Tran**, **Postdoctoral Researcher** at the **Institute for Studies of Science, Bielefeld University**.
 

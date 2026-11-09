@@ -1,12 +1,12 @@
 # Nguồn văn bản gốc (public domain) & cổng đọc online
 
-Văn bản Hy Lạp cổ là **public domain**; các cổng dưới đây cho đọc miễn phí. Project chỉ dùng các nguồn này (không dùng text adapted của giáo trình bản quyền — xem docs/COPYRIGHT.md).
+Văn bản Hy Lạp cổ là **public domain**; các cổng dưới đây cho đọc miễn phí. Project chỉ dùng các nguồn này (không dùng text adapted của giáo trình bản quyền – xem docs/COPYRIGHT.md).
 
 ## Cổng đọc chính (chọn theo nhu cầu)
 
 | Cổng | Nội dung mạnh | Tính năng |
 | --- | --- | --- |
-| **Perseus (Tufts)** — perseus.tufts.edu / Scaife Viewer | Homer, Plato, Xenophon, Euripides, Plutarch, Herodot, Isocrates, Lysias, Aristophanes, Pausanias, Strabo, Aristotle | Text Hy Lạp + dịch Anh, từ điển bấm-vào-từ (LSJ) |
+| **Perseus (Tufts)** – perseus.tufts.edu / Scaife Viewer | Homer, Plato, Xenophon, Euripides, Plutarch, Herodot, Isocrates, Lysias, Aristophanes, Pausanias, Strabo, Aristotle | Text Hy Lạp + dịch Anh, từ điển bấm-vào-từ (LSJ) |
 | **die-bibel.de (NA28)** | Kinh Thánh tiếng Hy Lạp (NT Koine) | Text gốc + từ điển bấm-vào-từ |
 | **ancientlibrary.net** | Lukian (Deorum dialogi, Ikaromenippos), Longos (Daphnis & Chloe) | Hy Lạp + Anh |
 | **maurelius.app** | Marc Aurel, Ta eis heauton (toàn bộ) | Hy Lạp + dịch |
@@ -17,7 +17,7 @@ Văn bản Hy Lạp cổ là **public domain**; các cổng dưới đây cho đ
 
 ## Từ điển & tra cứu
 
-- **Logeion** (logeion.uchicago.edu): LSJ, Pape, Slater, Middle Liddell trong một giao diện — từ điển Hy Lạp chuẩn nhất miễn phí.
+- **Logeion** (logeion.uchicago.edu): LSJ, Pape, Slater, Middle Liddell trong một giao diện – từ điển Hy Lạp chuẩn nhất miễn phí.
 - **Wiktionary**: morphological parsing từng từ, miễn phí.
 - **Morpheus / Alpheios**: gắn nhãn hình thái tự động (dùng cho platform phân tích sau này).
 
@@ -30,4 +30,4 @@ Văn bản Hy Lạp cổ là **public domain**; các cổng dưới đây cho đ
 
 ## So sánh với bản adapted giáo trình (bài tập đọc nâng cao)
 
-Một cách luyện đọc nâng cao (hợp pháp): đọc **bản gốc** ở cổng PD và tự rút gọn về mức trình độ của mình ("tái tạo" chính quy trình simplified). So sánh của người học với bản giáo trình bản quyền thì chỉ làm trên sách giấy người học sở hữu — không đưa kết quả so sánh chi tiết vào repo.
+Một cách luyện đọc nâng cao (hợp pháp): đọc **bản gốc** ở cổng PD và tự rút gọn về mức trình độ của mình ("tái tạo" chính quy trình simplified). So sánh của người học với bản giáo trình bản quyền thì chỉ làm trên sách giấy người học sở hữu – không đưa kết quả so sánh chi tiết vào repo.

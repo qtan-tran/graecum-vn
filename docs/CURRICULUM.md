@@ -1,4 +1,4 @@
-# Đề cương giáo án 48 bài — Graecum VN
+# Đề cương giáo án 48 bài – Graecum VN
 
 > Cấu trúc 48 bài, 2 cấp: **Bài 1–24 = Graecum I** (hình thái đầy đủ + cú pháp nền tảng; đọc văn xuôi Attic đơn giản với từ điển), **Bài 25–48 = Graecum II** (cú pháp nâng cao; đọc văn bản gốc trung–khó: Plato, Xenophon, Homer, Kinh Thánh Hy Lạp).
 >
@@ -73,4 +73,4 @@
 
 - Mọi văn bản gốc đều **public domain**; bản đơn giản hóa do project biên soạn là nội dung mới, license CC BY-SA 4.0.
 - Từ bài 39 mỗi bài thường chỉ một bài đọc (độ dài tăng).
-- Nơi đọc bản gốc: Perseus (Scaife), die-bibel.de (NA28), Theoi, Wikisource (el), packhum (văn bia), maurelius.app — chi tiết trong `readings/README.md`.
+- Nơi đọc bản gốc: Perseus (Scaife), die-bibel.de (NA28), Theoi, Wikisource (el), packhum (văn bia), maurelius.app – chi tiết trong `readings/README.md`.

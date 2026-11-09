@@ -1,4 +1,4 @@
-# Graecum VN — Ancient Greek
+# Graecum VN – Ancient Greek
 
 **A completely free self-study hub for Ancient Greek**, taking learners from zero to reading Plato, Xenophon, the Greek New Testament (Koine) and other intermediate–advanced texts.
 
@@ -23,7 +23,7 @@ Details: [docs/CURRICULUM.md](docs/CURRICULUM.md)
 ## Repository structure
 
 ```
-├── index.html              # Portal (GitHub Pages), Vietnamese — start here
+├── index.html              # Portal (GitHub Pages), Vietnamese – start here
 ├── en/                     # English edition: portal + lesson translations
 ├── lessons/                # 48 lessons, each one self-contained HTML file (Vietnamese)
 ├── readings/               # Public domain texts + simplified versions with analysis
@@ -35,8 +35,8 @@ Details: [docs/CURRICULUM.md](docs/CURRICULUM.md)
 ## How to use the lessons
 
 1. Read them directly on the web (GitHub Pages) or **download** the single HTML file.
-2. Study offline: open the HTML file in any browser — no internet needed, no third-party dependencies.
-3. To print: open the file → **Ctrl+P → Save as PDF** — exercise answers appear automatically when printing.
+2. Study offline: open the HTML file in any browser – no internet needed, no third-party dependencies.
+3. To print: open the file → **Ctrl+P → Save as PDF** – exercise answers appear automatically when printing.
 
 ## Editorial principles (summary)
 
@@ -55,7 +55,7 @@ All content is **independently compiled**. Only used: grammar/language facts (no
 
 All content is compiled by **Trần Quốc Tân** and released free of charge under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). When citing, quoting, translating, reprinting, teaching, or building material on top of this content, you **must give clear credit**:
 
-> Source: **Graecum VN** — compiled by **Trần Quốc Tân**, https://github.com/qtan-tran/graecum-vn, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+> Source: **Graecum VN** – compiled by **Trần Quốc Tân**, https://github.com/qtan-tran/graecum-vn, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 This repository is developed and maintained by **Quoc-Tan Tran**, **Postdoctoral Researcher** at the **Institute for Studies of Science, Bielefeld University**.
 

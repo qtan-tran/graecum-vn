@@ -1,4 +1,4 @@
-# Kiến trúc project (v1.0 — cập nhật Phần 1)
+# Kiến trúc project (v1.0 – cập nhật Phần 1)
 
 ## 1. Nguyên tắc kiến trúc: bền vững 10 năm
 
@@ -65,8 +65,8 @@ graecum-vn/
 ```
 [1] Chọn chủ đề grammar + bài đọc theo CURRICULUM.md
 [2] Soạn thảo (template _template/lesson.html, quy ước STYLE-AND-CONVENTIONS.md)
-    — ví dụ tự viết, KHÔNG lấy từ giáo trình có bản quyền
-    — bài đọc: bản simplified tự biên soạn từ văn bản PD + bản gốc kèm nguồn
+    – ví dụ tự viết, KHÔNG lấy từ giáo trình có bản quyền
+    – bài đọc: bản simplified tự biên soạn từ văn bản PD + bản gốc kèm nguồn
 [3] Audit bản quyền (COPYRIGHT.md checklist)
 [4] QA HTML (checklist trong STYLE-AND-CONVENTIONS.md: span/li cân bằng,
     không ký tự lạ, không lỗi tiếng Việt)
@@ -75,7 +75,7 @@ graecum-vn/
 [7] Liên kết bài học trước/sau trong TOC mỗi bài
 ```
 
-Mỗi bài sau khi publish là **ổn định vĩnh viễn** (không rewrite trừ khi có sửa lỗi) — nguyên tắc "đã phát hành thì không đổi URL", để link trong Anki decks/ghi chú người học không bao giờ chết.
+Mỗi bài sau khi publish là **ổn định vĩnh viễn** (không rewrite trừ khi có sửa lỗi) – nguyên tắc "đã phát hành thì không đổi URL", để link trong Anki decks/ghi chú người học không bao giờ chết.
 
 ## 5. Điểm mở rộng (extension points)
 
@@ -86,8 +86,8 @@ Mỗi bài sau khi publish là **ổn định vĩnh viễn** (không rewrite tr�
 
 ## 6. Decision log (ADR rút gọn)
 
-- **ADR-001 — Không SSG (Hugo/Astro/…)**: giữ static thuần. Bù lại portal đơn giản hơn, nhưng không chết theo framework. Chấp nhận: portal ít tính năng; giải pháp: lessons.json + ít JS tùy chọn.
-- **ADR-002 — Duy trì bản "xưởng biên soạn"**: quá trình biên soạn vẫn qua công cụ nội bộ, repo giữ bản chuẩn hóa cuối. Rationale: tách "xưởng" khỏi "kho xuất bản".
-- **ADR-003 — Thuật ngữ tiếng Việt là chính** (quyết định từ người sở hữu project): bản publish dùng tiếng Việt cho mọi thuật ngữ quen thuộc (danh từ, chủ cách, định ngữ…); chỉ khái niệm khó/ít quen mới mở ngoặc thuật ngữ Anh để tra cứu (*hiatus*, *vocative*, *ablative*, *attributive position*…). Không dùng tiếng Đức. Bản thảo L1–6 (thuật ngữ Đức) phải chuyển hóa khi publish (xem ROADMAP Phần 3).
-- **ADR-004 — Phiên âm La tinh hóa bắt buộc ở cấp I**: scheme trong STYLE-AND-CONVENTIONS.md. Cấp II (từ L25) giảm dần, cấp đọc văn bản gốc bỏ hẳn để người học quen chữ Hy Lạp.
-- **ADR-005 — Cấu trúc giáo trình thương mại 2018 chỉ làm inspiration**: danh mục bài đọc của ta lấy từ các tác giả gốc (citations là sự thật, không thuộc bản quyền), nhưng trình tự chủ đề grammar và mọi văn bản simplified là của ta. Không bao giờ lưu text adapted/translation của giáo trình.
+- **ADR-001 – Không SSG (Hugo/Astro/…)**: giữ static thuần. Bù lại portal đơn giản hơn, nhưng không chết theo framework. Chấp nhận: portal ít tính năng; giải pháp: lessons.json + ít JS tùy chọn.
+- **ADR-002 – Duy trì bản "xưởng biên soạn"**: quá trình biên soạn vẫn qua công cụ nội bộ, repo giữ bản chuẩn hóa cuối. Rationale: tách "xưởng" khỏi "kho xuất bản".
+- **ADR-003 – Thuật ngữ tiếng Việt là chính** (quyết định từ người sở hữu project): bản publish dùng tiếng Việt cho mọi thuật ngữ quen thuộc (danh từ, chủ cách, định ngữ…); chỉ khái niệm khó/ít quen mới mở ngoặc thuật ngữ Anh để tra cứu (*hiatus*, *vocative*, *ablative*, *attributive position*…). Không dùng tiếng Đức. Bản thảo L1–6 (thuật ngữ Đức) phải chuyển hóa khi publish (xem ROADMAP Phần 3).
+- **ADR-004 – Phiên âm La tinh hóa bắt buộc ở cấp I**: scheme trong STYLE-AND-CONVENTIONS.md. Cấp II (từ L25) giảm dần, cấp đọc văn bản gốc bỏ hẳn để người học quen chữ Hy Lạp.
+- **ADR-005 – Cấu trúc giáo trình thương mại 2018 chỉ làm inspiration**: danh mục bài đọc của ta lấy từ các tác giả gốc (citations là sự thật, không thuộc bản quyền), nhưng trình tự chủ đề grammar và mọi văn bản simplified là của ta. Không bao giờ lưu text adapted/translation của giáo trình.
