@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 2 — Hệ thống hiện tại chủ động, hô cách &amp; nguyên mẫu II</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  td.em, th.em { font-style: italic; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 2: Động từ hiện tại chủ động đủ sáu ngôi, hô cách &amp; nguyên mẫu II</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Động từ hiện tại chủ động: đủ sáu ngôi</a></li>
+<li><a href="#s2">Hô cách (vocative): gọi ai?</a></li>
+<li><a href="#s3">Nguyên mẫu II: làm chủ ngữ hay tân ngữ?</a></li>
+<li><a href="#s4">Đối cách kép (double accusative)</a></li>
+<li><a href="#s5">Phủ định: οὐ / οὐκ / οὐχ</a></li>
+<li><a href="#s6">τί / τι, ἄρα và bộ ba ἤ / ἡ / ἦ</a></li>
+<li><a href="#s7">Lưu ý từ vựng: βασιλεύς</a></li>
+<li><a href="#s8">Động từ "kéo theo" cách nào?</a></li>
+<li><a href="#s9">Né vực nguyên âm (hiatus): ν di động &amp; lược âm (elision)</a></li>
+<li><a href="#reading">Bài đọc (đơn giản hóa theo Platon)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) chia và dịch động từ hiện tại chủ động đủ sáu ngôi theo quy trình "thân + đuôi → ngôi + số"; (2) nhận diện hô cách (vocative), kể cả ngoại lệ <span class="gk">ὦ ἄνθρωπε</span>, và dịch câu có lời xưng hô; (3) phân biệt nguyên mẫu (infinitive) làm chủ ngữ (sau <span class="gk">δεῖ</span>) và làm tân ngữ (sau <span class="gk">ἐθέλω</span>…); (4) dịch hai loại đối cách kép (double accusative) — "dạy ai cái gì" và "coi ai là gì"; (5) chọn đúng <span class="gk">οὐ / οὐκ / οὐχ</span>; (6) xử lý hai cách né vực nguyên âm (hiatus): ν di động (movable nu) và lược âm (elision), kể cả ngoại lệ <span class="gk">μετὰ → μεθ'</span>.</p>
+</div>
+
+<div class="info">
+<p><strong>Cách dùng bài học:</strong> Bài này mở rộng bài 1 ở đúng những chỗ bài 1 đã "đóng khung": ngôi 3 thành đủ sáu ngôi, nguyên mẫu thành hai vai (chủ ngữ/tân ngữ), và thêm công cụ làm câu Hy Lạp "mượt" hơn khi phát âm (ν di động, lược âm). Vocab có dấu <span class="star">★</span> là từ bắt buộc nhớ. Thuật ngữ khó mở ngoặc thêm tiếng Anh để tra cứu; thuật ngữ quen thuộc chỉ dùng tiếng Việt.</p>
+</div>
+
+<h2 id="s1">1. Động từ hiện tại chủ động: đủ sáu ngôi</h2>
+
+<h3>1.1 Ôn lại: động từ cho ta biết gì?</h3>
+<p>Bài 1 (mục 3) đã cho biết mỗi dạng động từ Hy Lạp mã hóa <strong>năm</strong> tổ hợp: ngôi, số, thời, thức, thể. Bài 1 chỉ dùng ngôi 3; bài này bạn có đủ <em>tất cả sáu ngôi</em> của tổ hợp đầu tiên:</p>
+<table>
+<thead><tr><th>Tổ hợp</th><th>Bài này</th></tr></thead>
+<tbody>
+<tr><td>Thức</td><td><strong>tuyên thuật (indicative)</strong> — trình bày sự việc như một nhận định ("anh ta tôn thờ")</td></tr>
+<tr><td>Thời</td><td><strong>hiện tại (present)</strong> <span class="notyet">(các thời khác: sau này)</span></td></tr>
+<tr><td>Thể</td><td><strong>chủ động (active)</strong> <span class="notyet">(bị động, trung dung: sau này)</span></td></tr>
+<tr><td>Ngôi + số</td><td><strong>đủ 6</strong>: 1/2/3 ngôi × ít/nhiều</td></tr>
+</tbody>
+</table>
+
+<h3>1.2 Bảng chia đầy đủ (động từ mẫu θεραπεύω)</h3>
+<table>
+<thead><tr><th>Ngôi</th><th>Đuôi chủ động</th><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td>1. ít</td><td class="gk">-ω</td><td class="gk">θεραπεύω</td><td class="tr">therapeúō</td><td class="em">I worship</td><td>tôi tôn thờ</td></tr>
+<tr><td>2. ít</td><td class="gk">-εις</td><td class="gk">θεραπεύεις</td><td class="tr">therapeúeis</td><td class="em">you (sg) worship</td><td>bạn tôn thờ</td></tr>
+<tr><td>3. ít</td><td class="gk">-ει</td><td class="gk">θεραπεύει</td><td class="tr">therapeúei</td><td class="em">he/she/it worships</td><td>ông/bà ấy tôn thờ</td></tr>
+<tr><td>1. nhiều</td><td class="gk">-ομεν</td><td class="gk">θεραπεύομεν</td><td class="tr">therapeúomen</td><td class="em">we worship</td><td>chúng tôi tôn thờ</td></tr>
+<tr><td>2. nhiều</td><td class="gk">-ετε</td><td class="gk">θεραπεύετε</td><td class="tr">therapeúete</td><td class="em">you (pl) worship</td><td>các bạn tôn thờ</td></tr>
+<tr><td>3. nhiều</td><td class="gk">-ουσι(ν)</td><td class="gk">θεραπεύουσι(ν)</td><td class="tr">therapeúousi(n)</td><td class="em">they worship</td><td>họ tôn thờ</td></tr>
+<tr><td>Nguyên mẫu</td><td class="gk">-ειν</td><td class="gk">θεραπεύειν</td><td class="tr">therapeúein</td><td class="em">to worship</td><td>(việc) tôn thờ</td></tr>
+</tbody>
+</table>
+
+<p><strong>Quy trình dịch một dạng động từ</strong> — diễn ra <em>trong đầu</em> bạn, mỗi lần gặp một dạng mới:</p>
+<table>
+<thead><tr><th>Bước</th><th>Trong đầu bạn</th><th>Viết ra giấy</th></tr></thead>
+<tbody>
+<tr><td>1. Tách thân + đuôi</td><td><span class="gk">θεραπεύ-ομεν</span> <span class="tr">(therapeú-omen)</span> → thân "tôn thờ" + đuôi <strong>ngôi 1 nhiều</strong></td><td></td></tr>
+<tr><td>2. Ghép thành câu tiếng Việt</td><td>ngôi 1 nhiều = "chúng tôi"</td><td><strong>Chúng tôi tôn thờ.</strong></td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> đuôi công bố <em>ngôi + số</em>, thân công bố <em>nghĩa</em>: <span class="gk">-ω</span> = tôi, <span class="gk">-εις</span> = bạn, <span class="gk">-ει</span> = ông/bà ấy, <span class="gk">-ομεν</span> = chúng tôi, <span class="gk">-ετε</span> = các bạn, <span class="gk">-ουσι(ν)</span> = họ. Vì ngôi đã nằm sẵn trong đuôi, tiếng Hy Lạp <em>không cần</em> đại từ chủ ngữ (bài 1, mục 7): một từ <span class="gk">θεραπεύομεν</span> đã là cả câu "Chúng tôi tôn thờ". Tự kiểm tra: che đuôi động từ lại — nếu bạn không nói ra được ngôi + số, nghĩa là bạn đang đọc "lười", hãy tách thân/đuôi trước khi dịch.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> Latin gắn nhãn ngôi y hệt: <em>amo, amas, amat, amāmus, amātis, amant</em> ↔ <span class="gk">θεραπεύω, θεραπεύεις, θεραπεύει, θεραπεύομεν, θεραπεύετε, θεραπεύουσι(ν)</span>. Cặp đuôi tương ứng: <em>-m / -s / -t / -mus / -tis / -nt</em> ↔ <span class="gk">-ω / -εις / -ει / -ομεν / -ετε / -ουσι(ν)</span>. Ai thuộc lòng <em>amo</em> rồi thì chỉ việc "đổi bàn phím".</p>
+</div>
+
+<div class="info">
+<p><strong>Ghi chú từ vựng:</strong> <span class="gk">θεραπεύω</span> <span class="tr">(therapeúō)</span> trong các bài đầu mang nghĩa "tôn thờ (thần)", nhưng từ điển còn cho "chữa bệnh, chăm sóc". Nguyên nghĩa là "phục vụ, chăm nom": phục vụ thần linh → chăm sóc người bệnh. Nghĩa gốc này vẫn sống trong tiếng Anh hiện đại: <em>therapy</em> (trị liệu) chính là hậu duệ của <span class="gk">θεραπεύω</span>. Một động từ, nhiều nghĩa — chọn theo văn cảnh.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Cẩn trọng:</strong> (1) Đừng lẫn <span class="gk">-εις</span> (bạn) với <span class="gk">-ει</span> (ông/bà ấy): khác nhau <em>một chữ iota</em>. (2) Đuôi <span class="gk">-ουσι(ν)</span> là ngôi 3 <em>nhiều</em>; ngôi 1 nhiều là <span class="gk">-ομεν</span> — hai đuôi "ο" dễ nhìn nhầm khi đọc nhanh. (3) <span class="gk">(ν)</span> trong ngoặc là ν di động — xem lại bài 1 mục 6 và mục 9 dưới đây.</p>
+</div>
+
+<h2 id="s2">2. Hô cách (vocative): gọi ai?</h2>
+
+<p><strong>Hô cách (vocative)</strong> là cách của lời xưng hô: dùng khi gọi trực tiếp người (hoặc vật) mà mình đang nói chuyện. Ba tính chất cần khắc ghi:</p>
+<ul>
+<li><strong>Hình thức thường trùng với chủ cách</strong> — không phải lúc nào cũng có đuôi riêng.</li>
+<li><strong>Không mang mạo từ</strong>.</li>
+<li><strong>Không làm việc trong câu</strong> (không là chủ ngữ, không là tân ngữ): nó đứng <strong>tách rời</strong> khỏi phần còn lại, ngăn cách bằng dấu phẩy. Để nhấn, đặt tiểu từ <span class="gk">ὦ</span> <span class="tr">(ō)</span> trước — tương đương "hỡi/ôi" của tiếng Việt.</li>
+</ul>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὦ φίλοι</td><td class="tr">ō phíloi</td><td class="em">(my) friends!</td><td>hỡi những người bạn!</td></tr>
+</tbody>
+</table>
+
+<h3>2.1 Ngoại lệ quan trọng: danh từ giống đực nhóm o đuôi -ος</h3>
+
+<table>
+<thead><tr><th>Cách</th><th>Số ít</th><th>Phiên âm</th><th>Số nhiều</th><th>Phiên âm</th></tr></thead>
+<tbody>
+<tr><td><strong>Chủ cách</strong></td><td class="gk">ὁ ἄνθρωπος</td><td class="tr">ho ánthrōpos</td><td class="gk">οἱ ἄνθρωποι</td><td class="tr">hoi ánthrōpoi</td></tr>
+<tr><td><strong>Sở hữu cách</strong></td><td class="gk">τοῦ ἀνθρώπου</td><td class="tr">toû anthrṓpou</td><td class="gk">τῶν ἀνθρώπων</td><td class="tr">tôn anthrṓpōn</td></tr>
+<tr><td><strong>Tặng cách</strong></td><td class="gk">τῷ ἀνθρώπῳ</td><td class="tr">tōi anthrṓpōi</td><td class="gk">τοῖς ἀνθρώποις</td><td class="tr">toîs anthrṓpois</td></tr>
+<tr><td><strong>Đối cách</strong></td><td class="gk">τὸν ἄνθρωπον</td><td class="tr">tòn ánthrōpon</td><td class="gk">τοὺς ἀνθρώπους</td><td class="tr">toùs anthrṓpous</td></tr>
+<tr><td><strong>Hô cách</strong></td><td class="gk">ὦ <strong>ἄνθρωπε</strong></td><td class="tr">ō <strong>ánthrōpe</strong></td><td class="gk">ὦ ἄνθρωποι</td><td class="tr">ō ánthrōpoi</td></tr>
+</tbody>
+</table>
+
+<ul>
+<li><strong>Số ít:</strong> danh từ giống đực đuôi <span class="gk">-ος</span> đổi hô cách thành đuôi <span class="gk">-ε</span>: <span class="gk">ὦ ἄνθρωπε</span> — <em>không phải</em> <span class="gk">ὦ ἄνθρωπος</span>!</li>
+<li><strong>Số nhiều:</strong> hô cách = chủ cách: <span class="gk">ὦ ἄνθρωποι</span>. (Quy tắc "thường trùng chủ cách" thắng ở số nhiều.)</li>
+</ul>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> Latin làm y hệt trong nhóm chia o: <em>dominus → domine!</em> ("hỡi chúa ôi!" — như trong lời kinh <em>Domine</em>). Hai ngôn ngữ cùng giữ đuôi xưng hô <em>-e</em> từ tổ tiên Ấn-Âu chung. Còn <span class="gk">ὦ</span> chính là "Ô…!" của tiếng Việt: "Ô bạn tôi ơi!" — dịch "hỡi" là đẹp nhất.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Cẩn trọng:</strong> hô cách <em>không</em> là chủ ngữ! Trong <span class="gk">ὦ φίλοι, τοὺς θεοὺς θεραπεύετε</span> <span class="tr">(ō phíloi, toùs theoùs therapeúete)</span>, chủ ngữ của <span class="gk">θεραπεύετε</span> đã nằm sẵn trong đuôi <span class="gk">-ετε</span> (= "các bạn"); <span class="gk">ὦ φίλοι</span> chỉ là lời gọi, tách rời bằng dấu phẩy. Tự kiểm tra: <em>thử bỏ cụm xưng hô</em> — nếu câu còn lại vẫn nguyên vẹn nghĩa và ngữ pháp, đó là hô cách.</p>
+</div>
+
+<h2 id="s3">3. Nguyên mẫu II: làm chủ ngữ hay tân ngữ?</h2>
+
+<p>Bài 1 (mục 9) đã gặp nguyên mẫu trong <em>một</em> khuôn: sau <span class="gk">δεῖ</span>. Bài này phân biệt hai vai của nguyên mẫu (infinitive) — đây là phân biệt <em>chức năng câu</em>, không phải hình thức (hình thức luôn là <span class="gk">-ειν</span>).</p>
+
+<h3>3.1 Nguyên mẫu làm chủ ngữ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">τοὺς θεοὺς θεραπεύειν δεῖ.</td><td class="tr">toùs theoùs therapeúein deî.</td><td class="em">It is necessary to worship the gods. | One must worship the gods.</td><td>Cần phải tôn thờ các vị thần.</td></tr>
+</tbody>
+</table>
+<p><strong>Câu hỏi kiểm tra:</strong> <em>"Cái gì</em> là điều cần?" → chính là việc "tôn thờ các vị thần" — nguyên mẫu đóng vai chủ ngữ của <span class="gk">δεῖ</span>.</p>
+
+<h3>3.2 Nguyên mẫu làm tân ngữ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ φιλόσοφος τοὺς ἀνθρώπους πείθειν ἐθέλει.</td><td class="tr">ho philósophos toùs anthrṓpous peíthein ethélei.</td><td class="em">The philosopher wants to persuade the humans.</td><td>Nhà triết học muốn thuyết phục con người.</td></tr>
+</tbody>
+</table>
+<p><strong>Câu hỏi kiểm tra:</strong> <em>"Ông ta muốn</em> <strong>gì</strong>?" → việc "thuyết phục con người" — nguyên mẫu đóng vai tân ngữ của <span class="gk">ἐθέλω</span>.</p>
+
+<p>Nguyên mẫu làm tân ngữ đứng sau các động từ mang nghĩa: <em>want, say, think, demand, can, understand, teach, learn</em> — <span class="gk">ἐθέλω</span> (muốn), <span class="gk">λέγω</span> (nói) <span class="notyet">(bài 4)</span>, <span class="gk">νομίζω</span> (cho rằng)…</p>
+
+<div class="achtung">
+<p><strong>Cẩn trọng:</strong> hai loại trên <strong>không phải</strong> là AcI (đối cách + nguyên mẫu sau các động từ "kích hoạt" — học ở bài 4 <span class="notyet">(chưa học)</span>). Từ nay bạn phải phân biệt ba loại nguyên mẫu: (1) làm chủ ngữ (sau <span class="gk">δεῖ</span>), (2) làm tân ngữ (sau <span class="gk">ἐθέλω</span>…), (3) nguyên mẫu vị ngữ trong AcI <span class="notyet">(bài 4)</span>. Tự kiểm tra bằng câu hỏi: sau nguyên mẫu có một đối cách "lơ lửng" làm chủ ngữ logic không? Không có → loại (1) hoặc (2).</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> tiếng Anh cũng có cả hai kiểu: "<em>It is necessary to worship</em>" (nguyên mẫu thuộc về "it" khuyết tạm — vai chủ ngữ) và "<em>he wants to persuade</em>" (nguyên mẫu là tân ngữ). Mỗi lần gặp <span class="gk">δεῖ</span> + nguyên mẫu, nghĩ sẵn khung "It is necessary to…" rồi "làm sạch" thành "cần phải…"; gặp <span class="gk">ἐθέλω</span> + nguyên mẫu, nghĩ "wants to…".</p>
+</div>
+
+<h2 id="s4">4. Đối cách kép (double accusative)</h2>
+
+<p>Một số động từ Hy Lạp đứng với <strong>hai đối cách</strong> cùng lúc — chia làm hai loại. Đây là lần đầu bạn thấy <em>một</em> cách đảm nhận <em>hai</em> vai trong cùng câu: đừng hoảng, hai vai được phân biệt bằng trật tự và mạo từ.</p>
+
+<h3>4.1 Loại a: đối cách của người + đối cách của nội dung</h3>
+<p>Khuôn: "dạy <em>ai</em> <em>cái gì</em>" — động từ đại diện: <span class="gk">διδάσκω</span> <span class="tr">(didáskō)</span>.</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">πολλὰ<sub>(nội dung)</sub> διδάσκει με<sub>(người)</sub> ὁ βίος.</td><td class="tr">pollà didáskei me ho bíos.</td><td class="em">Life teaches me many things.</td><td>Đời sống dạy tôi nhiều điều.</td></tr>
+</tbody>
+</table>
+<p><span class="gk">με</span> <span class="tr">(me)</span> là đối cách của đại từ "tôi" (ἐγώ) — đại từ sẽ học kỹ về sau <span class="notyet">(chưa học)</span>; ở bài này chỉ cần nhớ: <span class="gk">με</span> = "tôi" (làm tân ngữ).</p>
+
+<h3>4.2 Loại b: tân ngữ + biểu ngữ ở đối cách</h3>
+<p>Khuôn: "coi <em>ai</em> là <em>gì</em>" — động từ đại diện: <span class="gk">νομίζω</span> <span class="tr">(nomízō)</span>. So sánh với <span class="gk">εἶναι</span> + biểu ngữ (bài 1, mục 8): ở đây biểu ngữ (predicative noun) cũng vậy, nhưng <em>xuống</em> đối cách cho đồng bộ với tân ngữ.</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">τοὺς ἵππους<sub>(tân ngữ)</sub> φίλους<sub>(biểu ngữ)</sub> νομίζομεν.</td><td class="tr">toùs híppous phílous nomízomen.</td><td class="em">We consider the horses (to be) friends.</td><td>Chúng tôi coi những con ngựa là bạn.</td></tr>
+</tbody>
+</table>
+<p><strong>Quy tắc hình thức:</strong> tân ngữ <em>đi kèm mạo từ</em>, biểu ngữ <em>không có mạo từ</em> (giống hệt <span class="gk">εἶναι</span> + biểu ngữ ở bài 1).</p>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> Latin có cả hai loại: <em>vita multa me docet</em> (đời dạy tôi nhiều điều — loại a) và <em>puto Socratem sapientem</em> (tôi coi Socrates là người khôn ngoan — loại b, đối cách kép "tân ngữ + biểu ngữ"). Thậm chí khuôn "coi là" của tiếng Việt (<em>coi A là B</em>) cũng chính là loại b.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Cẩn trọng:</strong> (1) Nghĩa động từ đổi theo "bộ khung" quanh nó: <span class="gk">νομίζω</span> với một tân ngữ = "cho rằng, nghĩ"; với đối cách kép = "coi là". (2) Khi dịch sang tiếng Việt/Anh thường phải <em>bổ sung</em> từ nối: "coi… <strong>là</strong>", "consider… <strong>to be</strong>". Tự kiểm tra: trong câu có hai cụm đối cách, kiểm tra mạo từ — cụm không mạo từ mà vẫn "đứng tự do" chính là biểu ngữ; sắp lại theo khung "tân ngữ + biểu ngữ" rồi chọn nghĩa động từ ("coi là") cho khớp.</p>
+</div>
+
+<h2 id="s5">5. Phủ định: οὐ / οὐκ / οὐχ</h2>
+
+<p>"Không" trong tiếng Hy Lạp có <strong>ba hình thức</strong> — chọn theo âm đứng ngay sau (quá trình đồng hóa âm). Đây là lần đầu bạn thấy tiếng Hy Lạp "chuẩn bị sẵn" phát âm cho người đọc, cùng tinh thần với ν di động (mục 9):</p>
+
+<table>
+<thead><tr><th>Dạng</th><th>Phiên âm</th><th>Đứng trước</th><th>Ví dụ</th><th>Phiên âm</th></tr></thead>
+<tbody>
+<tr><td class="gk"><strong>οὐ</strong></td><td class="tr">ou</td><td>phụ âm</td><td class="gk">οὐ πείθει</td><td class="tr">ou peíthei</td></tr>
+<tr><td class="gk"><strong>οὐκ</strong></td><td class="tr">ouk</td><td>nguyên âm (không dấu hơi)</td><td class="gk">οὐκ ἐθέλει</td><td class="tr">ouk ethélei</td></tr>
+<tr><td class="gk"><strong>οὐχ</strong></td><td class="tr">ouch</td><td>nguyên âm mang <strong>dấu hơi</strong> (rough breathing)</td><td class="gk">οὐχ ἥλιος</td><td class="tr">ouch hḗlios</td></tr>
+</tbody>
+</table>
+
+<p><span class="gk">ἥλιος</span> <span class="tr">(hḗlios)</span> = mặt trời, thần Helios: chữ ἡ đầu từ mang dấu hơi, nên phủ định lấy <span class="gk">οὐχ</span>.</p>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> tiếng Anh hiện đại làm y hệt: <em>a book</em> nhưng <em>an apple</em> — chọn <em>a/an</em> theo âm kế tiếp. Tiếng Hy Lạp đi xa hơn một bước: có riêng dạng <span class="gk">οὐχ</span> cho nguyên âm có dấu hơi (vì dấu hơi đọc là /h/). Latin thì phủ định bất biến: <em>non</em> trước mọi thứ — Latin "lười" hơn ở điểm này.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Cẩn trọng — ngoại lệ dấu thanh:</strong> sau <span class="gk">οὐκ</span> (và một số từ khác ở đầu câu <span class="notyet">(chi tiết sau này)</span>), ngôi 3 ít của <span class="gk">εἶναι</span> <em>ngoại lệ</em> mang dấu sắc trên âm đầu: <span class="gk">οὐκ <strong>ἔστι</strong></span> <span class="tr">(ouk <strong>ésti</strong>)</span> thay vì <span class="gk">ἐστί</span>. Khi gặp trong văn bản, đó <em>không phải lỗi in</em> — đừng "sửa" lại! Đây là minh chứng đầu tiên rằng dấu thanh trong tiếng Hy Lạp không chỉ là trang trí.</p>
+</div>
+
+<h2 id="s6">6. τί / τι, ἄρα và bộ ba ἤ / ἡ / ἦ</h2>
+
+<h3>6.1 τί và τι</h3>
+<p><span class="gk">τί;</span> <span class="tr">(tí)</span> (luôn có dấu sắc) = "gì? nào? tại sao?" — từ hỏi; <span class="gk">τι</span> <span class="tr">(ti)</span> (không dấu) = "cái gì đó" — bản chất là một từ bất biến (học đủ ở bài 5 <span class="notyet">(chưa học)</span>). Cùng chữ, khác dấu, khác việc: dấu thanh là "văn tự" thật sự.</p>
+
+<h3>6.2 Tiểu từ ἄρα: dấu mũ hỏi, dấu sắc kết luận</h3>
+<p>Cạnh tiểu từ hỏi <span class="gk">ἆρα</span> <strong>dấu mũ</strong> (gợi ý <em>câu trả lời mà người hỏi chờ đợi</em>) còn có tiểu từ <span class="gk">ἄρα</span> <strong>dấu sắc</strong> = "thế thì, do đó" (rút ra kết luận):</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἆρα οὐ πείθεις;</td><td class="tr">ára ou peítheis?</td><td class="em">You don't persuade (him), do you? (hỏi ngược, chờ chữ "đúng vậy")</td><td>chẳng lẽ anh không thuyết phục được?</td></tr>
+<tr><td class="gk">οὐκ ἄρα ἄθεος ἐστιν.</td><td class="tr">ouk ára átheos estín.</td><td class="em">So he is not godless. (kết luận)</td><td>vậy thì ông ta không phải người vô thần.</td></tr>
+</tbody>
+</table>
+
+<h3>6.3 Bộ ba đồng âm: ἤ / ἡ / ἦ</h3>
+<table>
+<thead><tr><th>Chữ</th><th>Phiên âm</th><th>Nghĩa</th><th>Thuộc dạng nào</th></tr></thead>
+<tbody>
+<tr><td class="gk"><strong>ἤ</strong> (sắc)</td><td class="tr">ḗ</td><td>"hoặc"; "hơn là" (trong so sánh)</td><td>liên từ</td></tr>
+<tr><td class="gk"><strong>ἡ</strong> (mũ + dấu hơi)</td><td class="tr">hē</td><td>mạo từ giống cái, chủ cách ít <span class="notyet">(bài 3)</span></td><td>mạo từ</td></tr>
+<tr><td class="gk"><strong>ἦ</strong> (mũ, không dấu hơi)</td><td class="tr">ê</td><td>"đã là" (quá khứ của εἶναι) <span class="notyet">(bài 6)</span></td><td>động từ</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Cẩn trọng:</strong> bộ ba này phát âm như nhau (/ɛ̄/ dài) — chỉ phân biệt được <em>bằng mắt</em> qua dấu thanh. Khi đọc chậm lại ở những chỗ có một trong ba chữ này; một trong nhiều minh chứng vì sao người Hy Lạp phát minh dấu thanh: để người đọc <em>nhìn</em> mà phân biệt. Tự kiểm tra: ἤ có dấu sắc "nghiêng" → "hoặc/hơn"; ἡ có mũ "tròn" → mạo từ; ἦ có mũ nhưng <em>không</em> dấu hơi → động từ quá khứ.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> tiểu từ hỏi Latin <em>num</em> cũng "đánh tiếng" trước câu trả lời chờ đợi (thường là "không"); và tiếng Latin không có dấu thanh nên không bao giờ gặp rắc rối "cùng chữ khác dấu" như ἤ/ἡ/ἦ — coi như phần thưởng an ủi cho người học Latin, và lời nhắc người học Hy Lạp: dấu thanh là từ vựng, không phải trang trí.</p>
+</div>
+
+<h2 id="s7">7. Lưu ý từ vựng: βασιλεύς</h2>
+
+<p><span class="gk">ὁ βασιλεύς</span> <span class="tr">(ho basileús)</span> = đức vua, bậc cai trị: là danh từ <strong>không</strong> theo nhóm o (chủ cách số ít không đuôi <span class="gk">-ος</span>). Trong giai đoạn này, bạn <em>chỉ học dạng chủ cách</em>; các cách khác sẽ học ở bài 18 <span class="notyet">(chưa học)</span>. Gặp trong văn bản, hãy đọc chức năng của nó qua trật tự và động từ; và <strong>đừng tự chế</strong> các dạng khác (ví dụ đối cách chưa học) khi tự viết câu — hãy sắp câu để chỉ cần chủ cách.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> chiến lược "biết mình biết nhau" khi viết: danh từ chưa học đủ bảng chia → dùng ở những cách đã học (<span class="gk">βασιλεύς</span> chỉ chủ cách), hoặc thay bằng từ cùng nghĩa đã học đủ (<span class="gk">ὁ θεός</span>, <span class="gk">ὁ ἄνθρωπος</span>, <span class="gk">ὁ φίλος</span>…). Cứ học tới đâu dùng tới đó, sẽ không bao giờ viết sai dạng.</p>
+</div>
+
+<h2 id="s8">8. Động từ "kéo theo" cách nào?</h2>
+
+<p><strong>Nhắc lại:</strong> nhiều — nhưng <em>không phải tất cả</em> — động từ Hy Lạp đòi hỏi <strong>cùng cách</strong> như động từ tương ứng trong tiếng Anh/tiếng Việt. Ví dụ "hợp": <em>worship</em> kéo theo chủ ngữ + đối cách ↔ <span class="gk">θεραπεύω</span> cũng kéo theo chủ ngữ + đối cách.</p>
+
+<div class="achtung">
+<p><strong>Cẩn trọng — ví dụ kinh điển "không hợp":</strong> "to accuse" (anh, tố cáo) trong tiếng Anh kéo theo tân ngữ trực tiếp: <em>the humans accuse <strong>the philosopher</strong></em>. Nhưng Hy Lạp <span class="gk">κατηγορέω</span> <span class="tr">(katēgoréō)</span> kéo theo <strong>sở hữu cách</strong>: <span class="gk">οἱ ἄνθρωποι <strong>τοῦ φιλοσόφου</strong> κατηγοροῦσιν</span> <span class="tr">(hoi ánthrōpoi toû philosóphou katēgoroûsin)</span> — nghĩa chữ: "con người tố cáo <em>của</em> nhà triết học". Trong sổ tay từ vựng, khác biệt này luôn được ghi kèm: "<span class="gk">κατηγορέω</span> + <em>Gen.</em>". Nguyên tắc tổng: <strong>học động từ nào học kèm cách của nó</strong> — động từ và cách đi kèm là một khối (sở hữu cách làm tân ngữ: bài 4 <span class="notyet">(chưa học)</span>).</p>
+</div>
+
+<h2 id="s9">9. Né vực nguyên âm (hiatus): ν di động &amp; lược âm (elision)</h2>
+
+<h3>9.1 Vực nguyên âm là gì?</h3>
+<p><strong>Vực nguyên âm (hiatus)</strong> = hai nguyên âm chạm nhau: một ở <strong>cuối từ</strong>, một ở <strong>đầu từ kế tiếp</strong>: <span class="gk">ἀλλὰ ἄλλους</span> <span class="tr">(allà állous)</span>. Tiếng Hy Lạp coi đây là "gãy nhịp" khi phát âm, nên có hai chiến lược né.</p>
+
+<h3>9.2 Chiến lược 1: thêm phụ âm — ν di động</h3>
+<p>Ôn lại bài 1: đuôi <span class="gk">-σι</span> và <span class="gk">-ει</span> thêm <span class="gk">ν</span> tùy chọn khi từ kế tiếp bắt đầu bằng nguyên âm: <span class="gk">θεραπεύουσιν ἄλλους</span> (có ν) / <span class="gk">θεραπεύουσι</span> (không). Cùng cơ chế với <span class="gk">ἐστί(ν), εἰσί(ν)</span>.</p>
+
+<h3>9.3 Chiến lược 2: bỏ nguyên âm — lược âm (elision)</h3>
+<p>Nguyên âm <strong>ngắn ở cuối từ</strong> bị đánh rơi trước từ khởi đầu bằng nguyên âm, đánh dấu bằng <strong>dấu apostrophe</strong>:</p>
+<table>
+<thead><tr><th>Không lược</th><th>Có lược</th><th>Phiên âm</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἀλλὰ ἐγώ</td><td class="gk">ἀλλ' ἐγώ</td><td class="tr">all' egṓ</td><td>nhưng (còn) tôi</td></tr>
+</tbody>
+</table>
+<p>Dấu thanh của từ thứ nhất thường <em>mất luôn</em> theo nguyên âm bị đánh rơi (so sánh: <span class="gk">ἀλλά</span> có dấu huyền, <span class="gk">ἀλλ'</span> không còn).</p>
+
+<div class="achtung">
+<p><strong>Cẩn trọng — hai bẫy:</strong></p>
+<ul>
+<li><strong>Phụ âm vô thanh không hơi (τ, κ, π) + lược âm + dấu hơi → phụ âm có hơi (θ, χ, φ)</strong>: thay vì <span class="gk">μετὰ ἡμῶν</span> viết <span class="gk"><strong>μεθ'</strong> ἡμῶν</span> <span class="tr">(meth' hēmôn)</span> "cùng chúng ta": τ của <span class="gk">μετὰ</span> giờ "mang hơi" theo nguyên âm bị đánh rơi, thành θ. Đây <em>không phải từ mới</em> — là cùng một từ!</li>
+<li><strong>Một số từ không bao giờ bị lược</strong>, quan trọng nhất: <span class="gk">περί, πρό, ὅτι, τι, τί</span> <span class="tr">(perí, pró, hóti, ti, tí)</span> — dù đứng trước nguyên âm vẫn nguyên vẹn.</li>
+</ul>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> lược âm (elision) bạn đã gặp vô số lần trong tiếng Pháp: <em>le + homme → l'homme</em>; Hy Lạp làm y hệt: <span class="gk">ἀλλὰ ἐγώ → ἀλλ' ἐγώ</span>. Khi đọc văn bản gặp dấu apostrophe: tự "bơm" lại nguyên âm đã mất trong đầu rồi mới tra từ điển — <span class="gk">ἀλλ'</span> = <span class="gk">ἀλλά</span>, <span class="gk">μεθ'</span> = <span class="gk">μετά</span>. Không từ điển nào có mục "ἀλλ" hay "μεθ"!</p>
+</div>
+
+<div class="info">
+<p><strong>Điểm dừng logic của bài giảng:</strong> bạn vừa nâng cấp từ "đọc được câu" (bài 1) lên "đọc trơn tay": đủ sáu ngôi (mục 1), xưng hô được (mục 2), nguyên mẫu hai vai (mục 3), đối cách kép (mục 4), phủ định đúng âm (mục 5), phân biệt được bộ ba đồng âm (mục 6), và phát âm mượt bằng ν di động + lược âm (mục 9). Giờ xếp tất cả lại trong bài đọc về một phiên tòa nổi tiếng nhất lịch sử.</p>
+</div>
+
+<h2 id="reading">10. Bài đọc: Socrates trước tòa (đơn giản hóa theo Platon)</h2>
+
+<div class="info">
+<p><strong>Nguồn:</strong> chủ đề dựa trên Platon, <em>Apologie</em> (bản án của Socrates) 26c–27a — đoạn Socrates tự bào chữa trước hai cáo buộc "hủ hoại người trẻ" và "không tôn thờ thần". Bản gốc (public domain) đọc được trên Perseus. Bản dưới đây do project <strong>biên soạn lại theo trình độ bài 2</strong> — chỉ dùng cấu trúc và từ vựng đã học.</p>
+</div>
+
+<p>Từ mới trong bài đọc:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ Σωκράτης</td><td class="tr">ho Sōkrátēs</td><td class="em">Socrates</td><td>Socrates</td><td>tên riêng; đối cách: τὸν Σωκράτη <span class="tr">(tòn Sōkrátē)</span> — đọc cách qua mạo từ <span class="notyet">(chia đầy đủ: sau này)</span></td></tr>
+<tr><td class="gk">φθείρω</td><td class="tr">phtheírō</td><td class="em">to destroy, to corrupt</td><td>hủ hoại, làm hư</td><td>động từ; ngôi 3 ít: φθείρει</td></tr>
+<tr><td class="gk">οἱ νέοι</td><td class="tr">hoi néoi</td><td class="em">the young (people)</td><td>người trẻ</td><td>đối cách nhiều: τοὺς νέους</td></tr>
+<tr><td class="gk">ἄθεος</td><td class="tr">átheos</td><td class="em">godless</td><td>vô thần, không tôn thờ thần</td><td>tính từ; cũng thấy trong tiếng Anh "atheist"</td></tr>
+<tr><td class="gk">σοφός</td><td class="tr">sophós</td><td class="em">wise</td><td>khôn ngoan</td><td>tính từ; gốc của "philosopher" (người yêu sự khôn ngoan)</td></tr>
+</tbody>
+</table>
+
+<p style="margin-bottom:6px;"><strong>Bản simplified (do project biên soạn):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">ὦ ἄνθρωπε, οὐ πείθεις τοὺς ἀνθρώπους. ὁ Σωκράτης οὐ φθείρει τοὺς νέους· πολλὰ γὰρ διδάσκει. ὁ Σωκράτης τοὺς θεοὺς θεραπεύει· οὐκ ἄρα ἄθεος ἐστιν. τὸν Σωκράτη σοφὸν νομίζομεν.</p>
+<p class="tr">Ō ánthrōpe, ou peítheis toùs anthrṓpous. Ho Sōkrátēs ou phtheírei toùs néous· pollà gàr didáskei. Ho Sōkrátēs toùs theoùs therapeúei· ouk ára átheos estín. Tòn Sōkrátē sophòn nomízomen.</p>
+
+<table>
+<thead><tr><th>Tiếng Anh (dịch sát)</th><th>Tiếng Việt (dịch thoát)</th></tr></thead>
+<tbody>
+<tr><td class="em">O human, you do not persuade the humans. Socrates does not corrupt the young; for he teaches many things. Socrates worships the gods; so he is not godless. We consider Socrates wise.</td><td>Hỡi con người, anh không thuyết phục được mọi người đâu. Socrates không hủ hoại người trẻ; vì ông dạy nhiều điều. Socrates tôn thờ các vị thần; vậy ông không phải người vô thần. Chúng tôi coi Socrates là người khôn ngoan.</td></tr>
+</tbody>
+</table>
+
+<p><strong>Phân tích nhanh (kiểm tra bằng công cụ đã học):</strong></p>
+<ul>
+<li><span class="gk">ὦ ἄνθρωπε</span> — hô cách số ít của danh từ <span class="gk">-ος</span>: đuôi <span class="gk">-ε</span>, kèm tiểu từ <span class="gk">ὦ</span>, không mạo từ, tách rời bằng dấu phẩy.</li>
+<li><span class="gk">οὐ πείθεις</span> — phủ định trước phụ âm π → <span class="gk">οὐ</span>; đuôi <span class="gk">-εις</span> = ngôi 2 ít: chủ ngữ "anh" nằm sẵn trong đuôi.</li>
+<li><span class="gk">πολλὰ γὰρ διδάσκει</span> — <span class="gk">γάρ</span> hậu vị (ô thứ hai); <span class="gk">πολλά</span> = "nhiều điều", đối cách nội dung không mạo từ, tân ngữ của <span class="gk">διδάσκει</span>.</li>
+<li><span class="gk">οὐκ ἄρα ἄθεος ἐστιν</span> — <span class="gk">οὐκ</span> trước nguyên âm ἄ- (không dấu hơi); <span class="gk">ἄρα</span> dấu <em>sắc</em> = "vậy thì" (kết luận, mục 6); <span class="gk">ἄθεος</span> biểu ngữ không mạo từ sau <span class="gk">ἐστιν</span>.</li>
+<li><span class="gk">τὸν Σωκράτη σοφὸν νομίζομεν</span> — đối cách kép loại b: <span class="gk">τὸν Σωκράτη</span> (tân ngữ, có mạo từ) + <span class="gk">σοφόν</span> (biểu ngữ, không mạo từ) + <span class="gk">νομίζω</span> = "coi là".</li>
+</ul>
+
+<p>Bài tập đọc hiểu: (1) Câu thứ hai dùng phủ định nào, và tại sao chọn dạng đó? (2) <span class="gk">ἄρα</span> trong bài đọc mang dấu gì, giữ vai nào? (3) Đọc bản gốc Platon, <em>Apologie</em> 26c–27a trên Perseus: Socrates gài nguyên đơn Meletos vào mâu thuẫn gì qua các câu hỏi về thần linh, và bản simplified đã nén lập luận đó thế nào?</p>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án câu hỏi đọc hiểu (in ra để soát)</h4>
+<p><strong>1.</strong> <span class="gk">οὐ φθείρει</span> — trước phụ âm φ nên dùng <span class="gk">οὐ</span> trần, không cần <span class="gk">-κ</span>. <strong>2.</strong> Dấu <em>sắc</em> → tiểu từ kết luận "vậy thì": Socrates tôn thờ thần <em>vậy thì</em> không vô thần. (Dấu mũ <span class="gk">ἆρα</span> hỏi ngược — chưa gặp trong bài đọc này.) <strong>3.</strong> Trong bản gốc, Socrates hỏi lần lượt để Meletos tự mâu thuẫn: lúc nói ông tin các thần linh mới (thì phải tin có thần), lúc lại nói ông hoàn toàn vô thần — hai nửa của cùng một bản cáo trạng không thể cùng đúng. Bản simplified nén lập luận đó thành hai câu: một phủ định (không hủ hoại người trẻ) + một kết luận (vậy không vô thần).</p>
+</div></div>
+
+<h2 id="vocab">11. Từ vựng trọng tâm</h2>
+
+<h3>Động từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> θεραπεύω</td><td class="tr">therapeúō</td><td class="em">to worship; to heal, tend</td><td>tôn thờ; chữa, chăm sóc</td><td>+ đối cách</td></tr>
+<tr><td class="gk"><span class="star">★</span> πείθω</td><td class="tr">peíthō</td><td class="em">to persuade, convince</td><td>thuyết phục</td><td>+ đối cách</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἐθέλω</td><td class="tr">ethélō</td><td class="em">to want, be willing</td><td>muốn</td><td>+ nguyên mẫu làm tân ngữ</td></tr>
+<tr><td class="gk"><span class="star">★</span> δεῖ + nguyên mẫu</td><td class="tr">deî</td><td class="em">it is necessary (one must)</td><td>cần phải</td><td>một hình duy nhất (bài 1)</td></tr>
+<tr><td class="gk"><span class="star">★</span> διδάσκω</td><td class="tr">didáskō</td><td class="em">to teach</td><td>dạy (ai cái gì)</td><td>+ đối cách kép loại a</td></tr>
+<tr><td class="gk"><span class="star">★</span> νομίζω</td><td class="tr">nomízō</td><td class="em">to believe, think; to consider (as)</td><td>cho rằng; coi là</td><td>đối cách kép → "coi là"</td></tr>
+</tbody>
+</table>
+
+<h3>Danh từ &amp; tính từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὁ βίος, -ου</td><td class="tr">ho bíos, -ou</td><td class="em">life, way of life</td><td>đời sống</td><td>đực, nhóm o</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ βασιλεύς</td><td class="tr">ho basileús</td><td class="em">king, ruler</td><td>đức vua</td><td>chỉ chủ cách; chia đủ bài 18 <span class="notyet">(chưa học)</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ φίλος, -ου</td><td class="tr">ho phílos, -ou</td><td class="em">friend</td><td>người bạn</td><td>đực, nhóm o; hô cách: ὦ φίλε</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ φιλόσοφος, -ου</td><td class="tr">ho philósophos, -ou</td><td class="em">philosopher</td><td>nhà triết học</td><td>đực, nhóm o = "người yêu sự khôn ngoan"</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἀγαθός, -ή, -όν</td><td class="tr">agathós, -ḗ, -ón</td><td class="em">good</td><td>tốt, thiện</td><td>tính từ; giống cái/trung <span class="notyet">(bài 3)</span></td></tr>
+<tr><td class="gk">σοφός</td><td class="tr">sophós</td><td class="em">wise</td><td>khôn ngoan</td><td>bài đọc</td></tr>
+<tr><td class="gk">ἄθεος</td><td class="tr">átheos</td><td class="em">godless</td><td>vô thần</td><td>bài đọc</td></tr>
+<tr><td class="gk">ὁ Σωκράτης</td><td class="tr">ho Sōkrátēs</td><td class="em">Socrates</td><td>Socrates</td><td>bài đọc; đối cách τὸν Σωκράτη</td></tr>
+</tbody>
+</table>
+
+<h3>Tiểu từ, phủ định &amp; giới từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> οὐ / οὐκ / οὐχ</td><td class="tr">ou / ouk / ouch</td><td class="em">not</td><td>không</td><td>trước phụ âm / nguyên âm / nguyên âm có dấu hơi</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὦ</td><td class="tr">ō</td><td class="em">O! (particle of address)</td><td>hỡi, ôi</td><td>đứng trước hô cách</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἤ</td><td class="tr">ḗ</td><td class="em">or; than</td><td>hoặc; hơn là</td><td>dấu sắc</td></tr>
+<tr><td class="gk">ἆρα (dấu mũ)</td><td class="tr">ára</td><td class="em">(question particle, expects answer)</td><td>chẳng lẽ…?</td><td>hỏi ngược</td></tr>
+<tr><td class="gk">ἄρα (dấu sắc)</td><td class="tr">ára</td><td class="em">so, therefore</td><td>vậy thì, do đó</td><td>kết luận</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἀλλά (lược: ἀλλ')</td><td class="tr">allá (all')</td><td class="em">but</td><td>nhưng</td><td>bị lược âm trước nguyên âm</td></tr>
+<tr><td class="gk"><span class="star">★</span> μετά (lược: μεθ' trước dấu hơi)</td><td class="tr">metá (meth')</td><td class="em">with; after</td><td>cùng với; sau</td><td>cách đi kèm: bài 4 <span class="notyet">(chưa học)</span></td></tr>
+<tr><td class="gk">τί; / τι</td><td class="tr">tí / ti</td><td class="em">what? why? / something</td><td>gì? / cái gì đó</td><td>đầy đủ ở bài 5 <span class="notyet">(chưa học)</span></td></tr>
+<tr><td class="gk">περί, πρό, ὅτι</td><td class="tr">perí, pró, hóti</td><td class="em">about; before; that</td><td>(nghĩa: bài sau)</td><td>nhóm <strong>không bao giờ</strong> bị lược âm</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">12. Bảng tổng hợp so sánh các điểm dễ nhầm</h2>
+
+<table>
+<thead><tr><th>Cặp / nhóm dễ nhầm</th><th>Khác biệt cốt lõi</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td>Chủ cách vs hô cách</td><td>Thường trùng nhau; riêng danh từ đực <span class="gk">-ος</span>: hô cách số ít đuôi <span class="gk">-ε</span> (<span class="gk">ὦ ἄνθρωπε</span>), số nhiều = chủ cách</td><td>Thấy <span class="gk">ὦ</span> hoặc cụm gọi người tách rời bằng dấu phẩy → hô cách; đuôi <span class="gk">-ος</span> → đổi <span class="gk">-ε</span> ở số ít</td></tr>
+<tr><td>Hô cách vs chủ ngữ</td><td>Hô cách không có chức năng câu, không mang mạo từ; chủ ngữ nằm trong đuôi động từ</td><td>Thử bỏ cụm đó: câu vẫn đủ nghĩa → là lời xưng hô</td></tr>
+<tr><td>Nguyên mẫu làm chủ ngữ vs tân ngữ</td><td>Sau <span class="gk">δεῖ</span>: nguyên mẫu là chủ ngữ; sau <span class="gk">ἐθέλω</span>…: là tân ngữ</td><td>Hỏi: "cái gì là điều cần?" → chủ ngữ; "ông ta muốn gì?" → tân ngữ</td></tr>
+<tr><td>Hai loại trên vs AcI</td><td>AcI cần đối cách "chủ ngữ" + nguyên mẫu + động từ kích hoạt <span class="notyet">(bài 4)</span></td><td>Tìm đối cách đi cặp với nguyên mẫu: không có → không phải AcI</td></tr>
+<tr><td>Đối cách kép loại a vs loại b</td><td>a: đối cách người + đối cách nội dung ("dạy ai cái gì"); b: tân ngữ + biểu ngữ ("coi ai là gì")</td><td>Biểu ngữ (loại b) <em>không có mạo từ</em>; cả hai cụm có mạo từ → thường loại a</td></tr>
+<tr><td class="gk">νομίζω: "coi là" vs "cho rằng"</td><td>Đối cách kép → "coi là"; một tân ngữ → "cho rằng, nghĩ"</td><td>Đếm cụm đối cách và nhìn mạo từ trước khi chọn nghĩa động từ</td></tr>
+<tr><td class="gk">οὐ / οὐκ / οὐχ</td><td>Trước phụ âm / nguyên âm / nguyên âm có dấu hơi</td><td>Nhìn chữ đầu từ kế tiếp: phụ âm? nguyên âm? có dấu hơi?</td></tr>
+<tr><td class="gk">οὐκ ἔστι</td><td>Ngoại lệ dấu sắc trên ἐ- sau οὐκ (không phải οὐκ ἐστί)</td><td>Gặp <span class="gk">ἔστι</span> sau <span class="gk">οὐκ</span> → đúng chính tả văn bản, đừng "sửa"</td></tr>
+<tr><td class="gk">ἆρα vs ἄρα</td><td>Dấu mũ → hỏi ngược (chờ câu trả lời); dấu sắc → "vậy thì" (kết luận)</td><td>Nhìn dấu: ^ → hỏi; ´ → kết luận</td></tr>
+<tr><td class="gk">ἤ / ἡ / ἦ</td><td>ἤ = hoặc/hơn; ἡ = mạo từ cái (bài 3); ἦ = "đã là" (bài 6)</td><td>Bộ ba chỉ khác dấu: sắc / mũ / mũ dài — đọc chậm chỗ này</td></tr>
+<tr><td>ν di động vs lược âm</td><td>ν di động: <strong>thêm</strong> phụ âm cuối từ (<span class="gk">θεραπεύουσιν</span>); lược âm: <strong>bỏ</strong> nguyên âm cuối từ (<span class="gk">ἀλλ'</span>)</td><td>Cùng mục tiêu né vực nguyên âm, hai chiều ngược nhau; dấu apostrophe chỉ hướng "bỏ"</td></tr>
+<tr><td class="gk">μετὰ / μεθ'</td><td>Trước nguyên âm có dấu hơi: τ biến thành θ khi lược âm</td><td>Gặp <span class="gk">μεθ'</span> → trả lại <span class="gk">μετὰ</span>; đừng tra "μεθ" trong từ điển</td></tr>
+<tr><td>Nhóm không bao giờ lược âm</td><td><span class="gk">περί, πρό, ὅτι, τι, τί</span></td><td>Học thành một "khóa" 5 từ; thấy chúng nguyên vẹn trước nguyên âm là đúng</td></tr>
+<tr><td class="gk">βασιλεύς</td><td>Không thuộc nhóm o; tạm chỉ dùng chủ cách</td><td>Đừng tự chế các cách khác — sắp câu để né, hoặc dùng từ đồng nghĩa đã học</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">13. Bài tập tự luyện</h2>
+<p><em>Đáp án chỉ hiện khi in (Ctrl+P → Save as PDF) — làm xong rồi mới in ra soát.</em></p>
+
+<h3>Bài tập 1 — Chia và dịch</h3>
+<ol>
+<li>Chia <span class="gk">πείθω</span> <span class="tr">(peíthō)</span> đủ 6 ngôi + nguyên mẫu, kèm phiên âm.</li>
+<li>Dịch theo quy trình "thân + đuôi": <span class="gk">θεραπεύομεν</span>, <span class="gk">πείθετε</span>, <span class="gk">θεραπεύουσι(ν)</span>.</li>
+</ol>
+
+<div class="answer"><div class="loesung"><h4>Đáp án 1</h4>
+<ol>
+<li><span class="gk">πείθω</span> <span class="tr">(peíthō)</span> tôi thuyết phục · <span class="gk">πείθεις</span> <span class="tr">(peítheis)</span> bạn thuyết phục · <span class="gk">πείθει</span> <span class="tr">(peíthei)</span> ông/bà ấy thuyết phục · <span class="gk">πείθομεν</span> <span class="tr">(peíthomen)</span> chúng tôi thuyết phục · <span class="gk">πείθετε</span> <span class="tr">(peíthete)</span> các bạn thuyết phục · <span class="gk">πείθουσι(ν)</span> <span class="tr">(peíthousi(n))</span> họ thuyết phục · nguyên mẫu: <span class="gk">πείθειν</span> <span class="tr">(peíthein)</span> (việc) thuyết phục.</li>
+<li><span class="gk">θεραπεύομεν</span> → đuôi <span class="gk">-ομεν</span> = ngôi 1 nhiều: "chúng tôi tôn thờ"; <span class="gk">πείθετε</span> → <span class="gk">-ετε</span> = ngôi 2 nhiều: "các bạn thuyết phục"; <span class="gk">θεραπεύουσι(ν)</span> → <span class="gk">-ουσι(ν)</span> = ngôi 3 nhiều: "họ tôn thờ".</li>
+</ol></div></div>
+
+<h3>Bài tập 2 — Hô cách</h3>
+<ol>
+<li>Viết hô cách số ít và số nhiều của <span class="gk">ὁ φίλος</span> (kèm tiểu từ xưng hô).</li>
+<li>Dịch: <span class="gk">ὦ φίλοι, τοὺς θεοὺς θεραπεύετε!</span></li>
+<li>Tìm và sửa lỗi: <span class="gk">ὦ ἄνθρωπος</span></li>
+</ol>
+
+<div class="answer"><div class="loesung"><h4>Đáp án 2</h4>
+<ol>
+<li><span class="gk">ὦ φίλε!</span> <span class="tr">(ō phíle)</span> (số ít: đuôi <span class="gk">-ε</span> vì là danh từ đực <span class="gk">-ος</span>) · <span class="gk">ὦ φίλοι!</span> <span class="tr">(ō phíloi)</span> (số nhiều = chủ cách).</li>
+<li>"Hỡi các bạn (hãy) tôn thờ các vị thần!" — <span class="gk">ὦ φίλοι</span> là hô cách (tách rời, không mạo từ, không dịch thêm); chủ ngữ "các bạn" nằm sẵn trong đuôi <span class="gk">-ετε</span>.</li>
+<li>Đúng phải là <span class="gk">ὦ ἄνθρωπε</span> — hô cách số ít của danh từ đực <span class="gk">-ος</span> lấy đuôi <span class="gk">-ε</span>, không giữ <span class="gk">-ος</span>.</li>
+</ol></div></div>
+
+<h3>Bài tập 3 — Nguyên mẫu: chủ ngữ hay tân ngữ?</h3>
+<p>Xác định nguyên mẫu làm chủ ngữ hay tân ngữ (kèm câu hỏi kiểm tra), rồi dịch:</p>
+<ol>
+<li class="gk">τοὺς ἀνθρώπους πείθειν δεῖ.</li>
+<li class="gk">ὁ βασιλεὺς τοὺς θεοὺς θεραπεύειν ἐθέλει.</li>
+<li class="gk">πολλὰ διδάσκειν ἐθέλομεν.</li>
+</ol>
+
+<div class="answer"><div class="loesung"><h4>Đáp án 3</h4>
+<ol>
+<li><strong>Chủ ngữ</strong> (hỏi: "cái gì là điều cần?" — chính là việc thuyết phục). — "Cần phải thuyết phục con người." (<span class="gk">τοὺς ἀνθρώπους</span> là tân ngữ của nguyên mẫu.)</li>
+<li><strong>Tân ngữ</strong> (hỏi: "đức vua muốn gì?" — muốn việc tôn thờ). — "Đức vua muốn tôn thờ các vị thần."</li>
+<li><strong>Tân ngữ</strong> (sau <span class="gk">ἐθέλομεν</span> = "chúng tôi muốn"). — "Chúng tôi muốn dạy nhiều điều." (<span class="gk">πολλά</span> = đối cách nội dung, không mạo từ.)</li>
+</ol></div></div>
+
+<h3>Bài tập 4 — Đối cách kép</h3>
+<ol>
+<li>Dịch và gắn nhãn hai đối cách: <span class="gk">πολλὰ διδάσκει με ὁ βίος.</span></li>
+<li>Dịch và gắn nhãn tân ngữ / biểu ngữ: <span class="gk">τοὺς ἵππους φίλους νομίζομεν.</span></li>
+<li>Dịch sang Hy Lạp: "Chúng tôi coi đời sống là điều tốt." (gợi ý: dùng <span class="gk">τὸν βίον</span> + <span class="gk">ἀγαθόν</span> + <span class="gk">νομίζω</span>)</li>
+</ol>
+
+<div class="answer"><div class="loesung"><h4>Đáp án 4</h4>
+<ol>
+<li>"Đời sống dạy tôi nhiều điều." — <span class="gk">με</span> = đối cách của người, <span class="gk">πολλά</span> = đối cách của nội dung; loại a ("dạy ai cái gì").</li>
+<li>"Chúng tôi coi những con ngựa là bạn." — <span class="gk">τοὺς ἵππους</span> = tân ngữ (có mạo từ), <span class="gk">φίλους</span> = biểu ngữ (không mạo từ); loại b ("coi ai là gì").</li>
+<li><span class="gk">τὸν βίον ἀγαθὸν νομίζομεν.</span> <span class="tr">(tòn bión agathòn nomízomen.)</span> — tân ngữ có mạo từ + biểu ngữ không mạo từ + <span class="gk">νομίζω</span> = "coi là".</li>
+</ol></div></div>
+
+<h3>Bài tập 5 — οὐ / οὐκ / οὐχ và ἔστι</h3>
+<p>Điền dạng phủ định đúng (và chú ý dấu ở câu cuối):</p>
+<ol>
+<li class="gk">___ πείθει.</li>
+<li class="gk">___ ἐθέλει.</li>
+<li class="gk">___ ἥλιος ἐστιν. (Đó không phải Helios.)</li>
+<li class="gk">___ βασιλεύς, ἀλλὰ ἄνθρωπος ἐστιν. (Không phải vua, mà là người.)</li>
+<li class="gk">οὐκ ___ (εἶναι, ngôi 3 ít)</li>
+</ol>
+
+<div class="answer"><div class="loesung"><h4>Đáp án 5</h4>
+<ol>
+<li><span class="gk"><strong>οὐ</strong> πείθει.</span> — trước phụ âm π.</li>
+<li><span class="gk"><strong>οὐκ</strong> ἐθέλει.</span> — trước nguyên âm ἐ- (không dấu hơi).</li>
+<li><span class="gk"><strong>οὐχ</strong> ἥλιος ἐστιν.</span> — <span class="gk">ἥλιος</span> mang dấu hơi → <span class="gk">οὐχ</span>.</li>
+<li><span class="gk"><strong>οὐ</strong> βασιλεύς, ἀλλὰ ἄνθρωπος ἐστιν.</span> — trước phụ âm β; riêng <span class="gk">ἀλλά</span> đứng trước nguyên âm ἄ- có thể viết lược: <span class="gk">ἀλλ' ἄνθρωπος</span>.</li>
+<li><span class="gk">οὐκ <strong>ἔστι</strong>.</span> — ngoại lệ: sau <span class="gk">οὐκ</span>, dấu sắc lên ἐ- (không phải <span class="gk">οὐκ ἐστί</span>).</li>
+</ol></div></div>
+
+<h3>Bài tập 6 — Né vực nguyên âm</h3>
+<ol>
+<li>Áp dụng lược âm: <span class="gk">ἀλλὰ ἐγώ</span> → ?</li>
+<li>Áp dụng quy tắc τ→θ: <span class="gk">μετὰ ἡμῶν</span> → ? (dịch cả cụm)</li>
+<li>Chọn có/không ν di động: <span class="gk">θεραπεύουσι(ν)</span> trước <span class="gk">ἄλλους</span> → ? và ở cuối câu → ?</li>
+<li>Từ nào sau đây <em>không bao giờ</em> bị lược âm: <span class="gk">ἀλλά, περί, μετά, ὅτι, οὐ</span>?</li>
+</ol>
+
+<div class="answer"><div class="loesung"><h4>Đáp án 6</h4>
+<ol>
+<li><span class="gk">ἀλλ' ἐγώ</span> <span class="tr">(all' egṓ)</span> — nguyên âm cuối của <span class="gk">ἀλλά</span> bị đánh rơi, apostroph đánh dấu; dấu huyền mất theo.</li>
+<li><span class="gk">μεθ' ἡμῶν</span> <span class="tr">(meth' hēmôn)</span> — "cùng chúng ta": τ của <span class="gk">μετά</span> biến thành θ trước dấu hơi của <span class="gk">ἡμῶν</span>.</li>
+<li><span class="gk">θεραπεύουσιν ἄλλους</span> (thêm ν trước nguyên âm); cuối câu: <span class="gk">θεραπεύουσι</span> (không ν).</li>
+<li><span class="gk">περί</span> và <span class="gk">ὅτι</span> (cùng "khóa" với <span class="gk">πρό, τι, τί</span>) — không bao giờ bị lược; <span class="gk">ἀλλά, μετά, οὐ</span> lược bình thường trước nguyên âm.</li>
+</ol></div></div>
+
+<h3>Bài tập 7 — Câu tổng hợp</h3>
+<p>Dịch đoạn sau, tự gắn nhãn các hiện tượng đã học (hô cách, nguyên mẫu, đối cách kép, οὐκ ἔστι, tiểu từ):</p>
+<p class="gk" style="font-size:1.12em;">ὦ φίλοι, δεῖ τὸν βίον θεραπεύειν. ὁ γὰρ βίος πολλὰ διδάσκει· ὁ δὲ βασιλεὺς οὐκ ἔστι φιλόσοφος. τὸν βίον ἀγαθὸν νομίζομεν.</p>
+
+<div class="answer"><div class="loesung"><h4>Đáp án 7</h4>
+<p>"Hỡi các bạn, cần phải chăm sóc (tôn thờ) đời sống. Vì đời sống dạy nhiều điều; còn đức vua thì không phải nhà triết học. Chúng tôi coi đời sống là điều tốt."</p>
+<ul>
+<li><span class="gk">ὦ φίλοι</span>: hô cách số nhiều (= chủ cách), tách rời, không mạo từ.</li>
+<li><span class="gk">δεῖ τὸν βίον θεραπεύειν</span>: nguyên mẫu làm chủ ngữ sau <span class="gk">δεῖ</span>; <span class="gk">τὸν βίον</span> là tân ngữ của nguyên mẫu (đối cách, có mạo từ → không phải biểu ngữ).</li>
+<li><span class="gk">ὁ γὰρ βίος</span>: <span class="gk">γάρ</span> hậu vị (ô thứ hai); <span class="gk">πολλά</span> đối cách nội dung không mạo từ.</li>
+<li><span class="gk">ὁ δὲ βασιλεύς οὐκ ἔστι φιλόσοφος</span>: <span class="gk">δέ</span> hậu vị; <span class="gk">βασιλεύς</span> chỉ ở chủ cách (đúng phạm vi đã học); <span class="gk">οὐκ ἔστι</span> ngoại lệ dấu sắc; <span class="gk">φιλόσοφος</span> biểu ngữ không mạo từ.</li>
+<li><span class="gk">τὸν βίον ἀγαθὸν νομίζομεν</span>: đối cách kép loại b — tân ngữ có mạo từ + biểu ngữ không mạo từ + <span class="gk">νομίζω</span> = "coi là".</li>
+</ul>
+<p>(Bốn viên gạch của bài 2 trong một đoạn: hô cách + nguyên mẫu + <span class="gk">οὐκ ἔστι</span> + đối cách kép.)</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 2 — Graecum VN · Biên soạn bởi Tân (Quoc-Tan Tran) · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN — Tân (Quoc-Tan Tran), https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Bản đọc đối chiếu: Platon, Apologie 26c–27a (Perseus, public domain).</p>
+
+</main>
+</body>
+</html>

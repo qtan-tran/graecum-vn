@@ -2,33 +2,135 @@
   "project": "Graecum VN",
   "license": "CC BY-SA 4.0",
   "levels": [
-    { "id": "graecum-1", "name": "Graecum I", "lessons": "1-24", "goal": "Hình thái đầy đủ + cú pháp nền tảng; đọc văn xuôi Attic đơn giản với từ điển." },
-    { "id": "graecum-2", "name": "Graecum II", "lessons": "25-48", "goal": "Cú pháp nâng cao; đọc văn bản gốc trung–khó (Plato, Xenophon, Homer, NT)." }
+    {
+      "id": "graecum-1",
+      "name": "Graecum I",
+      "lessons": "1-24",
+      "goal": "Hình thái đầy đủ + cú pháp nền tảng; đọc văn xuôi Attic đơn giản với từ điển."
+    },
+    {
+      "id": "graecum-2",
+      "name": "Graecum II",
+      "lessons": "25-48",
+      "goal": "Cú pháp nâng cao; đọc văn bản gốc trung–khó (Plato, Xenophon, Homer, NT)."
+    }
   ],
   "lessons": [
-    { "id": "01-foundations", "num": 1, "level": "graecum-1", "title": "Nền tảng, nhóm chia o & những câu Hy Lạp đầu tiên",
-      "topics": ["loại từ", "thành phần câu", "các cách", "mạo từ giống đực", "o-declension", "động từ ngôi 3 hiện tại", "nguyên mẫu", "tiểu từ", "vị trí định ngữ", "tặng cách sở hữu"],
-      "reading": ["Mimnermos fr. 12 West", "Homer, Iliad 15.187-193"],
-      "status": "published", "rev": 2 },
-    { "id": "02-verbs-present-vocative", "num": 2, "level": "graecum-1", "title": "The present active system, vocative & the infinitive",
-      "topics": ["present active all persons", "vocative", "subject/object infinitive", "double accusative", "hiatus"],
-      "reading": ["Platon, Apology 26c-d", "Lukian, Deorum dialogi 10"],
-      "status": "draft-legacy", "rev": 1 },
-    { "id": "03-ellipsis-neuter-plural", "num": 3, "level": "graecum-1", "title": "Ellipsis & the neuter plural subject",
-      "topics": ["ellipsis", "neuter plural subject"],
-      "reading": ["Aristoteles, Magna Moralia 1,1", "Anaxagoras DK 59A42"],
-      "status": "draft-legacy", "rev": 1 },
-    { "id": "04-pronouns-imperative", "num": 4, "level": "graecum-1", "title": "Personal pronouns, imperative, negation & the first AcI",
-      "topics": ["personal pronouns", "imperative", "negation", "dative", "accusative-infinitive"],
-      "reading": ["Diogenes Laertios 7,7", "Epikur, Letter to Menoeceus 128; 131-132"],
-      "status": "draft-legacy", "rev": 1 },
-    { "id": "05-medium-passive", "num": 5, "level": "graecum-1", "title": "Middle, passive & deponent verbs",
-      "topics": ["present middle/passive", "deponents", "substantivized adjectives", "tis/ti"],
-      "reading": ["Stobaios II 7,11g-i", "Marc Aurel 9,40"],
-      "status": "draft-legacy", "rev": 1 },
-    { "id": "06-dynamai-demonstratives", "num": 6, "level": "graecum-1", "title": "dynamai & demonstrative pronouns",
-      "topics": ["dynamai", "demonstratives", "hotos/hode/ekeinos", "einai II"],
-      "reading": ["Homer, Odyssey 6.187-197", "Homer, Odyssey 16.181-206"],
-      "status": "draft-legacy", "rev": 1 }
+    {
+      "id": "01-foundations",
+      "num": 1,
+      "level": "graecum-1",
+      "title": "Nền tảng, nhóm chia o & những câu Hy Lạp đầu tiên",
+      "topics": [
+        "loại từ",
+        "thành phần câu",
+        "các cách",
+        "mạo từ giống đực",
+        "o-declension",
+        "động từ ngôi 3 hiện tại",
+        "nguyên mẫu",
+        "tiểu từ",
+        "vị trí định ngữ",
+        "tặng cách sở hữu"
+      ],
+      "reading": [
+        "Mimnermos fr. 12 West",
+        "Homer, Iliad 15.187-193"
+      ],
+      "status": "published",
+      "rev": 2
+    },
+    {
+      "id": "02-verbs-present-vocative",
+      "num": 2,
+      "level": "graecum-1",
+      "title": "Động từ hiện tại chủ động đủ sáu ngôi, hô cách & nguyên mẫu II",
+      "topics": [
+        "chia động từ hiện tại chủ động",
+        "hô cách (vocative)",
+        "nguyên mẫu làm chủ ngữ/tân ngữ",
+        "đối cách kép (double accusative)",
+        "phủ định οὐ/οὐκ/οὐχ",
+        "né vực nguyên âm (hiatus)",
+        "lược âm (elision)"
+      ],
+      "reading": [
+        "Platon, Apologie 26c-27a",
+        "Lukian, Deorum dialogi 10"
+      ],
+      "status": "published",
+      "rev": 2
+    },
+    {
+      "id": "03-ellipsis-neuter-plural",
+      "num": 3,
+      "level": "graecum-1",
+      "title": "Ellipsis & the neuter plural subject",
+      "topics": [
+        "ellipsis",
+        "neuter plural subject"
+      ],
+      "reading": [
+        "Aristoteles, Magna Moralia 1,1",
+        "Anaxagoras DK 59A42"
+      ],
+      "status": "draft-legacy",
+      "rev": 1
+    },
+    {
+      "id": "04-pronouns-imperative",
+      "num": 4,
+      "level": "graecum-1",
+      "title": "Personal pronouns, imperative, negation & the first AcI",
+      "topics": [
+        "personal pronouns",
+        "imperative",
+        "negation",
+        "dative",
+        "accusative-infinitive"
+      ],
+      "reading": [
+        "Diogenes Laertios 7,7",
+        "Epikur, Letter to Menoeceus 128; 131-132"
+      ],
+      "status": "draft-legacy",
+      "rev": 1
+    },
+    {
+      "id": "05-medium-passive",
+      "num": 5,
+      "level": "graecum-1",
+      "title": "Middle, passive & deponent verbs",
+      "topics": [
+        "present middle/passive",
+        "deponents",
+        "substantivized adjectives",
+        "tis/ti"
+      ],
+      "reading": [
+        "Stobaios II 7,11g-i",
+        "Marc Aurel 9,40"
+      ],
+      "status": "draft-legacy",
+      "rev": 1
+    },
+    {
+      "id": "06-dynamai-demonstratives",
+      "num": 6,
+      "level": "graecum-1",
+      "title": "dynamai & demonstrative pronouns",
+      "topics": [
+        "dynamai",
+        "demonstratives",
+        "hotos/hode/ekeinos",
+        "einai II"
+      ],
+      "reading": [
+        "Homer, Odyssey 6.187-197",
+        "Homer, Odyssey 16.181-206"
+      ],
+      "status": "draft-legacy",
+      "rev": 1
+    }
   ]
 }
