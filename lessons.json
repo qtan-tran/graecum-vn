@@ -161,6 +161,29 @@
       ],
       "status": "published",
       "rev": 2
+    },
+    {
+      "id": "08-third-declension-neuters-numerals",
+      "num": 8,
+      "level": "graecum-1",
+      "title": "Chia thứ ba II (thân nguyên âm, trung tính) & số từ 1–999",
+      "topics": [
+        "chia thứ ba II: thân nguyên âm (vowel stems), chìa khóa sở hữu cách",
+        "mẫu -εύς: βασιλεύς, βασιλέως",
+        "mẫu -υς: ἰχθύς (họ hàng với πόλις)",
+        "trung tính chia thứ ba: ἄστυ (thân -υ), γένος (thân s)",
+        "bản đồ đuôi chia thứ ba hoàn chỉnh + chiến lược đọc",
+        "số từ 1–10: εἷς, μία, ἕν biến cách đầy đủ; τρεῖς, τέτταρες",
+        "số từ 11–99: đơn vị + καί + hàng chục",
+        "số từ 100–999: ἑκατόν đứng im, hàng trăm biến cách",
+        "biến cách (declinable) vs bất biến cách (indeclinable) trong câu"
+      ],
+      "reading": [
+        "Plutarch, Lykourgos",
+        "Longos 3"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
