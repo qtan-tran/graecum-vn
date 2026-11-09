@@ -139,6 +139,28 @@
       ],
       "status": "published",
       "rev": 2
+    },
+    {
+      "id": "07-third-declension-imperatives",
+      "num": 7,
+      "level": "graecum-1",
+      "title": "Chia thứ ba I (thân phụ âm), hệ thống mệnh lệnh & câu cấm đoán",
+      "topics": [
+        "chia thứ ba: thân trần + đuôi, khái niệm thân ẩn",
+        "mẫu trung tính: σῶμα, σώματος",
+        "mẫu giống đực -ην và -ωρ: ποιμήν, ῥήτωρ",
+        "mẫu -ις: πόλις",
+        "bản đồ đuôi chia thứ ba + chiến lược đọc mạo từ",
+        "hệ thống mệnh lệnh hiện tại đủ số/ngôi (ngôi 3: -έτω/-έτωσαν/-έσθω/-έσθωσαν)",
+        "câu cấm đoán: μή + mệnh lệnh",
+        "ôn tập οὐ vs μή"
+      ],
+      "reading": [
+        "Dio Chrysostomos, Or. 7",
+        "Longos 1,9-13"
+      ],
+      "status": "published",
+      "rev": 2
     }
   ]
 }
