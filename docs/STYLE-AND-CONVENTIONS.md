@@ -5,9 +5,10 @@
 ## 1. Ngôn ngữ
 
 - **Ngôn ngữ giải thích: tiếng Việt.**
-- **Thuật ngữ ngôn ngữ học: tiếng Anh**, kèm chú thích tiếng Việt lần đầu xuất hiện.
-  - Viết: *noun* (danh từ), *genitive* (cách sở hữu), *participle* (phân từ), *subjunctive* (thức giả định)…
-  - Rationale: người học sẽ tra cứu tiếp bằng tiếng Anh (LSJ, Wiktionary, Perseus) — thuật ngữ Anh là "cầu nối" đến hệ sinh thái tài liệu thế giới. **Không dùng thuật ngữ Đức** trong bản publish (ghi chú: các bản thảo đầu tiên L1–6 dùng thuật ngữ Đức — phải chuyển hóa khi publish, xem ROADMAP Phần 3).
+- **Thuật ngữ ngôn ngữ học: tiếng Việt là chính.** Khái niệm khó hoặc ít quen thuộc mới mở ngoặc thêm thuật ngữ Anh ngay lần đầu để người học tra cứu: *hiatus*, *ellipsis*, *vocative*, *ablative*, *attributive position*, *dative of possession*, *deponent*, *genitive absolute*…
+- Thuật ngữ quen thuộc **chỉ dùng tiếng Việt**, không kèm Anh: danh từ, động từ, tính từ, đại từ, mạo từ, số từ, trạng từ, giới từ, liên từ, nguyên mẫu, phân từ, chủ ngữ, vị ngữ, tân ngữ, định ngữ.
+- Bộ tên cách chuẩn hóa của project (dùng nhất quán mọi bài): **chủ cách (Nom.), sở hữu cách (Gen.), tặng cách (Dat.), đối cách (Acc.), hô cách (Voc.)**.
+- Rationale: người đọc hiểu bản năng bằng tiếng Việt; thuật ngữ Anh trong ngoặc chỉ là "cầu nối tra cứu" (LSJ, Wiktionary, Perseus) khi khái niệm thực sự chuyên sâu. **Không dùng thuật ngữ Đức** trong bản publish (ghi chú: bản thảo L1–6 dùng thuật ngữ Đức — phải chuyển hóa khi publish, xem ROADMAP Phần 3).
 - **Văn bản Hy Lạp: Unicode polytonic** (ὁ ἄνθρωπος, ἐστιν, εἶναι), font-family serif Hy Lạp trong CSS.
 
 ## 2. Ví dụ minh họa

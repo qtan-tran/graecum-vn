@@ -38,7 +38,7 @@ Xem chi tiết: [docs/CURRICULUM.md](docs/CURRICULUM.md)
 
 ## Nguyên tắc biên soạn (tóm tắt)
 
-- Giải thích bằng **tiếng Việt**; thuật ngữ ngôn ngữ học bằng **tiếng Anh** (noun, genitive, participle…) kèm chú thích tiếng Việt lần đầu — để người học tra cứu thêm dễ dàng.
+- Giải thích bằng **tiếng Việt**; thuật ngữ quen thuộc dùng tiếng Việt, chỉ khái niệm khó mới mở ngoặc thêm thuật ngữ Anh để tra cứu (*hiatus*, *vocative*, *ablative*…).
 - Ví dụ dùng **tiếng Anh hoặc tiếng Việt** để nhìn thấy pattern; thỉnh thoảng có **so sánh Latin** (hai ngôn ngữ rất gần nhau).
 - Từ vựng cấp I luôn kèm **phiên âm La tinh hóa** (VD: ὁ ἄνθρωπος → *ho ánthrōpos*) để người Việt đọc được ngay.
 - Mỗi bài: bảng ví dụ 4 cột (Hy Lạp – phiên âm – English – Việt), mục "Watch out" cho điểm dễ nhầm, bảng tổng hợp so sánh cuối bài, bài tập + đáp án ẩn (hiện khi in).

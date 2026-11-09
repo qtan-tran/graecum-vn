@@ -6,11 +6,10 @@
     { "id": "graecum-2", "name": "Graecum II", "lessons": "25-48", "goal": "Cú pháp nâng cao; đọc văn bản gốc trung–khó (Plato, Xenophon, Homer, NT)." }
   ],
   "lessons": [
-    { "id": "01-foundations", "num": 1, "level": "graecum-1", "title": "Foundations, o-declension & the first Greek sentences",
-      "topics": ["word classes", "sentence parts", "cases", "masculine article", "o-declension", "3rd person present", "infinitive", "particles", "attributive position", "dative of possession"],
+    { "id": "01-foundations", "num": 1, "level": "graecum-1", "title": "Nền tảng, nhóm chia o & những câu Hy Lạp đầu tiên",
+      "topics": ["loại từ", "thành phần câu", "các cách", "mạo từ giống đực", "o-declension", "động từ ngôi 3 hiện tại", "nguyên mẫu", "tiểu từ", "vị trí định ngữ", "tặng cách sở hữu"],
       "reading": ["Mimnermos fr. 12 West", "Homer, Iliad 15.187-193"],
-      "status": "draft-legacy", "rev": 1,
-      "note": "Bản thảo tiếng Việt (quy ước cũ, thuật ngữ Đức) tồn tại trong xưởng biên soạn; chờ chuyển hóa Phần 2." },
+      "status": "published", "rev": 2 },
     { "id": "02-verbs-present-vocative", "num": 2, "level": "graecum-1", "title": "The present active system, vocative & the infinitive",
       "topics": ["present active all persons", "vocative", "subject/object infinitive", "double accusative", "hiatus"],
       "reading": ["Platon, Apology 26c-d", "Lukian, Deorum dialogi 10"],
