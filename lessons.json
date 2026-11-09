@@ -84,20 +84,20 @@
       "id": "04-pronouns-imperative",
       "num": 4,
       "level": "graecum-1",
-      "title": "Personal pronouns, imperative, negation & the first AcI",
+      "title": "Đại từ nhân xưng, mệnh lệnh cách, phủ định & nguyên mẫu tân ngữ (AcI) bước đầu",
       "topics": [
-        "personal pronouns",
-        "imperative",
-        "negation",
-        "dative",
-        "accusative-infinitive"
+        "đại từ nhân xưng (nhấn mạnh vs enclitic)",
+        "mệnh lệnh cách hiện tại chủ động",
+        "phủ định (οὐ/μή)",
+        "các dụng pháp tặng cách",
+        "nguyên mẫu tân ngữ (AcI) bước đầu"
       ],
       "reading": [
         "Diogenes Laertios 7,7",
-        "Epikur, Letter to Menoeceus 128; 131-132"
+        "Epikur, Brief an Menoikeus 128; 131-132"
       ],
-      "status": "draft-legacy",
-      "rev": 1
+      "status": "published",
+      "rev": 2
     },
     {
       "id": "05-medium-passive",

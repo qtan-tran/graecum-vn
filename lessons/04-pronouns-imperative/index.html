@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 4 — Đại từ nhân xưng, mệnh lệnh cách, phủ định &amp; nguyên mẫu tân ngữ (AcI) bước đầu</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  td.em, th.em { font-style: italic; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 4: Đại từ nhân xưng, mệnh lệnh cách, phủ định &amp; nguyên mẫu tân ngữ (AcI) bước đầu</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Đại từ nhân xưng (personal pronouns): hai bộ dạng — nhấn mạnh &amp; enclitic</a></li>
+<li><a href="#s2">Sở hữu cách (genitive): bản đồ chức năng + hai cách dịch của đại từ</a></li>
+<li><a href="#s3">Mệnh lệnh cách hiện tại chủ động (imperative)</a></li>
+<li><a href="#s4">Phủ định: οὐ hay μή?</a></li>
+<li><a href="#s5">Tặng cách (dative): bản đồ các dụng pháp</a></li>
+<li><a href="#s6">Nguyên mẫu tân ngữ (accusativus cum infinitivo, AcI) bước đầu</a></li>
+<li><a href="#reading">Bài đọc: lời khuyên triết học gửi Menoikeus (đơn giản hóa)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) chia và <em>chọn đúng</em> dạng nhấn mạnh / enclitic của đại từ nhân xưng; (2) xác định một sở hữu cách phụ thuộc <em>động từ</em>, <em>giới từ</em> hay <em>danh từ trung tâm</em>, và dịch đại từ sở hữu cách theo kiểu "của ai / trong số ai"; (3) tạo mệnh lệnh hiện tại chủ động và phủ định đúng chỗ bằng οὐ hay μή; (4) phân biệt các dụng pháp của tặng cách (tân ngữ, sở hữu, sau giới từ, công cụ); (5) nhận diện và dịch một câu nguyên mẫu tân ngữ (AcI) theo 7 bước.</p>
+</div>
+
+<div class="info">
+<p><strong>Cách dùng bài học:</strong> đây là bài "gánh" nhiều chủ đề — mỗi mục đều khép kín bằng một cách <em>tự kiểm tra</em>. Vocab có dấu <span class="star">★</span> là từ bắt buộc nhớ; từ mới của bài đọc có bảng gloss riêng. Quy ước viết tắt như các bài trước: Nom. = chủ cách, Gen. = sở hữu cách, Dat. = tặng cách, Acc. = đối cách, Voc. = hô cách.</p>
+</div>
+
+<h2 id="s1">1. Đại từ nhân xưng (personal pronouns)</h2>
+
+<p>Đại từ nhân xưng thay thế cho người/vật đã biết, khi <em>không</em> cần gọi tên bằng danh từ. Tiếng Hy Lạp có đủ ngôi 1 và 2 (ngôi 3 <span class="notyet">chưa học</span> — tiếng Hy Lạp không có đại từ nhân xưng ngôi 3 kiểu "he/she/it" như tiếng Anh; vai trò đó do các đại từ chỉ định đảm nhận, bài 6).</p>
+
+<p>So sánh với tiếng Pháp (bạn đã biết): <em>Le chien poursuit le chat. <strong>Elle</strong> est pourtant plus rapide que <strong>lui</strong></em> — "elle/lui" thay cho "le chat/le chien". Đại từ Hy Lạp làm đúng công việc đó, nhưng có một điểm tiếng Pháp chỉ gợi mờ: <strong>mỗi cách có hai bộ dạng</strong>.</p>
+
+<h3>1.1 Bảng chia: ngôi 1 và ngôi 2</h3>
+
+<p>Điểm đặc trưng của tiếng Hy Lạp: ở ngôi 1 và 2, mỗi cách đều có <strong>hai dạng</strong>: dạng <strong>nhấn mạnh</strong> (dạng đầy đủ) và dạng <strong>enclitic</strong> — dạng "tựa thanh", không có trọng âm riêng, tựa vào từ đứng trước nó.</p>
+
+<table>
+<thead><tr><th>Ngôi</th><th>Cách</th><th>Nhấn mạnh</th><th>Enclitic</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td rowspan="4"><strong>Sg. 1</strong></td><td>Nom.</td><td class="gk">ἐγώ <span class="tr">egṓ</span></td><td>–</td><td class="em">I</td><td>tôi</td></tr>
+<tr><td>Gen.</td><td class="gk">ἐμοῦ <span class="tr">emoû</span></td><td class="gk">μου <span class="tr">mou</span></td><td class="em">of me</td><td>của tôi</td></tr>
+<tr><td>Dat.</td><td class="gk">ἐμοί <span class="tr">emoí</span></td><td class="gk">μοι <span class="tr">moi</span></td><td class="em">to/for me</td><td>(cho/đối với) tôi</td></tr>
+<tr><td>Acc.</td><td class="gk">ἐμέ <span class="tr">emé</span></td><td class="gk">με <span class="tr">me</span></td><td class="em">me</td><td>(gặp/bắt) tôi</td></tr>
+<tr><td rowspan="4"><strong>Sg. 2</strong></td><td>Nom.</td><td class="gk">σύ <span class="tr">sý</span></td><td>–</td><td class="em">you</td><td>bạn</td></tr>
+<tr><td>Gen.</td><td class="gk">σοῦ <span class="tr">soû</span></td><td class="gk">σου <span class="tr">sou</span></td><td class="em">of you</td><td>của bạn</td></tr>
+<tr><td>Dat.</td><td class="gk">σοί <span class="tr">soí</span></td><td class="gk">σοι <span class="tr">soi</span></td><td class="em">to/for you</td><td>(cho/đối với) bạn</td></tr>
+<tr><td>Acc.</td><td class="gk">σέ <span class="tr">sé</span></td><td class="gk">σε <span class="tr">se</span></td><td class="em">you</td><td>(gặp/bắt) bạn</td></tr>
+<tr><td rowspan="4"><strong>Pl. 1</strong></td><td>Nom.</td><td class="gk">ἡμεῖς <span class="tr">hēmeîs</span></td><td>–</td><td class="em">we</td><td>chúng tôi</td></tr>
+<tr><td>Gen.</td><td class="gk">ἡμῶν <span class="tr">hēmôn</span></td><td>–</td><td class="em">of us</td><td>của chúng tôi</td></tr>
+<tr><td>Dat.</td><td class="gk">ἡμῖν <span class="tr">hēmîn</span></td><td>–</td><td class="em">to/for us</td><td>(cho/đối với) chúng tôi</td></tr>
+<tr><td>Acc.</td><td class="gk">ἡμᾶς <span class="tr">hēmâs</span></td><td>–</td><td class="em">us</td><td>(gặp/bắt) chúng tôi</td></tr>
+<tr><td rowspan="4"><strong>Pl. 2</strong></td><td>Nom.</td><td class="gk">ὑμεῖς <span class="tr">hymeîs</span></td><td>–</td><td class="em">you (pl.)</td><td>các bạn</td></tr>
+<tr><td>Gen.</td><td class="gk">ὑμῶν <span class="tr">hymôn</span></td><td>–</td><td class="em">of you (pl.)</td><td>của các bạn</td></tr>
+<tr><td>Dat.</td><td class="gk">ὑμῖν <span class="tr">hymîn</span></td><td>–</td><td class="em">to/for you (pl.)</td><td>(cho/đối với) các bạn</td></tr>
+<tr><td>Acc.</td><td class="gk">ὑμᾶς <span class="tr">hymâs</span></td><td>–</td><td class="em">you (pl.)</td><td>(gặp/bắt) các bạn</td></tr>
+</tbody>
+</table>
+
+<h3>1.2 Quy tắc chọn dạng nào?</h3>
+<ul>
+<li>Chủ cách (Nom.) <strong>luôn</strong> là dạng đầy đủ và <strong>chỉ</strong> dùng khi cần nổi bật người đó: <span class="gk">ἐγὼ λέγω</span> <span class="tr">egṑ légō</span> "tôi mới là người nói" (đối lập), khác với <span class="gk">λέγω</span> không cần đại từ — đuôi động từ đã cho biết ngôi.</li>
+<li>Các dạng nhấn mạnh khác (ἐμοῦ, ἐμοί, ἐμέ…) cũng chỉ dùng khi muốn nhấn mạnh, ví dụ để <em>đối lập</em> ("tôi, chứ không phải anh"), hoặc thường gặp hơn: <em>sau giới từ</em>.</li>
+<li>Còn lại: dùng dạng enclitic ở đâu có dạng này. Số nhiều ngôi 1 và 2 <em>không có</em> dạng enclitic, nên luôn dùng dạng đầy đủ.</li>
+</ul>
+
+<div class="achtung">
+<p><strong>Lỗi thường gặp:</strong> viết <span class="gk">ὁ φίλος ἐμοῦ</span> khi không có mục đích nhấn mạnh — mặc định phải là <span class="gk">ὁ φίλος μου</span> <span class="tr">ho phílos mou</span> (bạn của tôi). <strong>Tự kiểm tra:</strong> câu có đối lập ai với ai không? Đại từ đứng sau giới từ không? Cả hai đều "không" → dùng enclitic (μου, μοι, με, σου, σοι, σε).</p>
+<p><em>Lưu ý trọng âm:</em> vì enclitic "tựa" vào từ trước, từ trước có thể phải nhận thêm một dấu sắc: <span class="gk">ὁ ἄνθρωπός σου</span> <span class="tr">ho ánthrōpós sou</span> (con người của bạn) — từ <span class="gk">ἄνθρωπος</span> nhận thêm sắc trên âm cuối. Còn <span class="gk">ὁ φίλος μου</span> không đổi (trọng âm đã ở đúng chỗ). Chưa cần thuộc quy tắc chi tiết — chỉ cần <em>đọc quen mắt</em> khi gặp trong văn bản.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> cặp "dạng nhấn mạnh / dạng tựa thanh" chính là cặp tiếng Pháp <em>moi, toi</em> (nhấn mạnh) / <em>me, te</em> (đính trước): <span class="gk">ἐμοῦ / μου</span> ≈ <em>de moi / de me</em>. Cách nhớ bộ dạng nhấn mạnh: lấy enclitic rồi thêm <span class="gk">ἐ-</span> vào đầu (<span class="gk">μου → ἐμοῦ</span>, <span class="gk">μοι → ἐμοί</span>, <span class="gk">με → ἐμέ</span>); <span class="gk">σύ</span> tương tự (<span class="gk">σου → σοῦ</span>…). Còn cặp số nhiều <span class="gk">ἡμεῖς / ὑμεῖς</span> chỉ khác nhau một chữ cái — giống hệt <em>nous / vous</em> của tiếng Pháp, và là lỗi chép tay kinh điển: <strong>η = "chúng tôi", υ = "các bạn"</strong>.</p>
+</div>
+
+<div class="info">
+<p><strong>Liên hệ lịch sử:</strong> <span class="gk">ἐγώ</span> cùng gốc với Latin <em>ego</em>, tiếng Anh <em>I</em>, tiếng Đức <em>ich</em> (gốc Ấn-Âu <em>*egh₂</em>); <span class="gk">σύ</span> cùng họ với Latin <em>tu</em>, tiếng Pháp <em>tu</em>. "ng" bị rụng đi trong các ngôn ngữ Tây Âu, còn Hy Lạp giữ nguyên — vì vậy dạng Hy Lạp trông "dài" hơn nhưng chính là dạng cổ nhất.</p>
+</div>
+
+<h2 id="s2">2. Sở hữu cách (genitive): bản đồ chức năng + hai cách dịch của đại từ</h2>
+
+<h3>2.1 Bản đồ chức năng của sở hữu cách</h3>
+
+<p>Đại từ nhân xưng ở sở hữu cách rất hay gánh hai chức năng định ngữ (mục 2.3–2.4) — khi đó có cách dịch riêng. Trước hết, nhìn toàn cảnh:</p>
+
+<table>
+<thead><tr><th>Chức năng</th><th>Trạng thái trong khóa học</th></tr></thead>
+<tbody>
+<tr><td><strong>1. Tân ngữ sở hữu cách (genitive object)</strong> — do động từ đòi hỏi; cách dùng phổ biến nhất của sở hữu cách với động từ</td><td class="ok">✔ đã học</td></tr>
+<tr><td><strong>2. Định ngữ sở hữu cách (genitive attribute)</strong>:<br>
+a) chỉ sở hữu (genitive possessive)<br>
+b) phân chia (genitive partitive)<br>
+c) chủ thể / đối thể (subjective / objective genitive)<br>
+d) thuộc về (genitive of pertinence)</td>
+<td class="ok">✔ đã học (a, b)<br><br><span class="notyet">chưa học (sau này)</span><br><span class="notyet">chưa học (sau này)</span></td></tr>
+<tr><td><strong>3. Sau một số giới từ nhất định</strong></td><td class="ok">✔ đã học</td></tr>
+<tr><td><strong>4. So sánh (genitive of comparison)</strong></td><td><span class="notyet">chưa học (sau này)</span></td></tr>
+<tr><td><strong>5. Trạng ngữ sở hữu cách — thời gian (genitive of time)</strong></td><td><span class="notyet">chưa học (sau này)</span></td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern tự kiểm tra (ba câu hỏi):</strong> gặp một sở hữu cách, hỏi nó <em>phụ thuộc vào cái gì</em>:</p>
+<ul>
+<li>Phụ thuộc một <strong>động từ</strong> (động từ đó đòi hỏi nó) → <strong>tân ngữ sở hữu cách</strong> → dịch như tân ngữ của động từ.</li>
+<li>Phụ thuộc một <strong>giới từ</strong> → dịch <strong>cùng giới từ</strong> như một khối.</li>
+<li>Bổ nghĩa cho một <strong>danh từ trung tâm</strong> đứng trước nó → <strong>định ngữ sở hữu cách</strong> → mới cần hỏi tiếp "của ai?" hay "trong số cái nào?".</li>
+</ul>
+<p>Ba câu hỏi này xử lý gần hết mọi sở hữu cách bạn gặp; chỉ bước "cách dịch đẹp" mới cần thêm tinh mắt.</p>
+</div>
+
+<h3>2.2 Tân ngữ sở hữu cách (genitive object)</h3>
+
+<p>Một số động từ đòi hỏi tân ngữ ở sở hữu cách. <strong>Từ vựng và cách đi kèm là một khối</strong>: thuộc động từ nào phải thuộc luôn "nó đòi cách nào".</p>
+
+<div class="achtung">
+<p><strong>Lỗi thường gặp:</strong> cách của tân ngữ Hy Lạp <em>thường không trùng</em> với bản dịch! Tiếng Anh/Việt nói "accuse <em>someone</em> / tố cáo <em>ai</em>" với tân ngữ "trơn", nhưng <span class="gk">κατηγορέω</span> đòi <strong>sở hữu cách</strong>: <span class="gk">οἱ ἄνθρωποι <strong>τοῦ φιλοσόφου</strong> κατηγοροῦσιν</span>. Vì vậy sổ tay từ vựng ghi kiểu <em>κατηγορέω + Gen.</em> — in nghiêng chính là để nhấn "cách bất ngờ". Dịch chiều ngược (Việt → Hy Lạp) là chỗ hay sai: đừng "bám" cấu trúc tiếng mẹ đẻ.</p>
+</div>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">οἱ ἄνθρωποι τοῦ φιλοσόφου κατηγοροῦσιν.</td><td class="tr">hoi ánthrōpoi toû philosophou katēgoroûsin.</td><td class="em">The people accuse the philosopher.</td><td>Con người tố cáo nhà triết học.</td></tr>
+</tbody>
+</table>
+
+<p><em>Ghi chú hình thái:</em> <span class="gk">κατηγορέω</span> là động từ co (contract verb): thân <span class="gk">κατηγορε-</span> + đuôi <span class="gk">-ουσι(ν)</span> co lại thành <span class="gk">κατηγοροῦσιν</span> — gốc của từ quốc tế "category/catēgoría" (từ "tố cáo" → "gán vào loại").</p>
+
+<h3>2.3 Định ngữ chỉ sở hữu (genitive possessive)</h3>
+<ul>
+<li>Là <strong>định ngữ</strong> (ô nhớ bài 1: vị trí định ngữ): diễn đạt sự <em>thuộc về, sở hữu</em>.</li>
+<li>Câu hỏi kiểm tra: <em>của ai? của cái gì?</em> (whose?)</li>
+<li>Dịch: tiếng Việt giữ "của…", tiếng Anh dùng 's / of.</li>
+</ul>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">οἱ τῶν φιλοσόφων λόγοι</td><td class="tr">hoi tôn philosophōn lógoi</td><td class="em">the words <strong>of the philosophers</strong></td><td>những lời nói <strong>của các nhà triết học</strong></td></tr>
+</tbody>
+</table>
+<p>Kiểm tra: <em>của ai</em>? — của các nhà triết học ✓ → chỉ sở hữu.</p>
+
+<h3>2.4 Định ngữ phân chia (genitive partitive)</h3>
+<ul>
+<li>Là <strong>định ngữ</strong>; diễn đạt quan hệ <em>một phần – toàn thể</em>.</li>
+<li>Câu hỏi kiểm tra: <em>một phần của cái gì?</em> (a part of what?)</li>
+<li>Dịch: tiếng Việt "trong số / trong", tiếng Anh "of / among".</li>
+</ul>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">οἱ σοφοὶ ἀνθρώπων</td><td class="tr">hoi sophoì anthrṓpōn</td><td class="em">the wise <strong>among</strong> men</td><td>những người khôn ngoan <strong>trong số</strong> con người</td></tr>
+</tbody>
+</table>
+<p>Kiểm tra: <em>người khôn ngoan là một phần của</em> cái gì? — của con người ✓ → phân chia. Dấu hiệu: sau các từ chỉ lượng như <span class="gk">οὐδείς</span> "không ai", <span class="gk">πάντες</span> "tất cả", <span class="gk">πολλοί</span> "nhiều"… hầu như luôn là phân chia.</p>
+
+<h3>2.5 Đại từ nhân xưng ở sở hữu cách: hai cách dịch đặc biệt</h3>
+
+<p>Đại từ ở sở hữu cách rất hay đảm nhận 2.3–2.4, và khi đó nên dịch theo kiểu riêng:</p>
+
+<table>
+<thead><tr><th>Chức năng</th><th>Cách dịch</th><th>Ví dụ</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td><strong>Chỉ sở hữu</strong></td><td>như <strong>đại từ sở hữu</strong> (my, our…)</td><td class="gk">ὁ φίλος ἡμῶν</td><td class="tr">ho phílos hēmôn</td><td class="em"><strong>our</strong> friend</td><td>người bạn <strong>của chúng tôi</strong></td></tr>
+<tr><td><strong>Phân chia</strong></td><td>"<strong>trong số</strong>"</td><td class="gk">οὐδεὶς ἡμῶν</td><td class="tr">oudeìs hēmôn</td><td class="em">none <strong>of us</strong></td><td>không ai <strong>trong số chúng tôi</strong></td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Tự kiểm tra:</strong> <span class="gk">ἡμῶν</span> đứng sau một danh từ trung tâm và trả lời <em>của ai?</em> → dịch "của chúng tôi"; trả lời <em>trong số ai?</em> (thường sau từ chỉ lượng như <span class="gk">οὐδείς</span>) → dịch "trong số chúng tôi". Cùng một từ <span class="gk">ἡμῶν</span>, hai "nghề" khác nhau — chức năng quyết định bản dịch, không phải hình thức.</p>
+</div>
+
+<h2 id="s3">3. Mệnh lệnh cách hiện tại chủ động (imperative)</h2>
+
+<h3>3.1 Ôn lại: một dạng động từ mã hóa những gì?</h3>
+<p>Mỗi dạng động từ Hy Lạp mang 5 thông tin. Tới nay bạn đã đánh dấu được những ô nào?</p>
+<table>
+<thead><tr><th>Thông tin</th><th>Giá trị</th><th>Trạng thái</th></tr></thead>
+<tbody>
+<tr><td><strong>Ngôi</strong> (person)</td><td>1 · 2 · 3</td><td class="ok">✔ (bài 2)</td></tr>
+<tr><td><strong>Số</strong> (number)</td><td>số ít · số nhiều</td><td class="ok">✔ (bài 2)</td></tr>
+<tr><td><strong>Thức</strong> (mood)</td><td>chỉ định (indicative) · <strong>mệnh lệnh (imperative)</strong> · giả định (subjunctive) · cầu mong (optative)</td><td>✔ chỉ định · <strong>← hôm nay</strong> · <span class="notyet">chưa học</span> ×2</td></tr>
+<tr><td><strong>Thời</strong> (tense)</td><td>hiện tại (present) · các thời khác</td><td>✔ hiện tại · <span class="notyet">chưa học</span></td></tr>
+<tr><td><strong>Thái</strong> (voice)</td><td>chủ động (active) · trung / bị động (middle/passive)</td><td>✔ chủ động · <span class="notyet">chưa học (bài 5)</span></td></tr>
+</tbody>
+</table>
+<p>Hôm nay: <strong>mệnh lệnh + hiện tại + chủ động</strong>, chỉ ngôi 2 (số ít và số nhiều). Hệ thống mệnh lệnh đủ số/ngôi (kể cả ngôi 3) <span class="notyet">bài 7</span>; mệnh lệnh trung/bị động <span class="notyet">sau này</span>.</p>
+
+<h3>3.2 Bảng chia</h3>
+
+<table>
+<thead><tr><th>Mệnh lệnh</th><th>Đuôi</th><th>Ví dụ (νομίζω)</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td><strong>2 Sg.</strong></td><td class="gk">-ε</td><td class="gk">νόμιζε</td><td class="tr">nómize</td><td class="em">believe!</td><td>hãy tin / hãy cho rằng!</td></tr>
+<tr><td><strong>2 Pl.</strong></td><td class="gk">-ετε</td><td class="gk">νομίζετε</td><td class="tr">nomízete</td><td class="em">believe! (you all)</td><td>hãy tin (các bạn)!</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern để nhớ:</strong> <strong>2 Pl. mệnh lệnh = 2 Pl. chỉ định</strong> — hình thức hoàn toàn giống nhau: <span class="gk">νομίζετε</span> vừa là "các bạn tin" vừa là "hãy tin (các bạn)!", chỉ ngữ cảnh (và dấu chấm than) phân biệt. Vậy chỉ cần học thật một dạng: <strong>2 Sg. = thân hiện tại + -ε</strong> (<span class="gk">νομίζ-ε → νόμιζε</span>, <span class="gk">πέμπ-ε → πέμπε</span>, <span class="gk">βάλλ-ε → βάλλε</span>). Trọng âm của mệnh lệnh 2 Sg. luôn "lui về" đầu từ (recessive accent): <span class="gk">νόμιζε</span>, <span class="gk">πίστευε</span> — chính vì vậy mà nó khác hình thức với 3 Sg. <span class="gk">νομίζει</span>.</p>
+</div>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">νόμιζε!</td><td class="tr">nómize!</td><td class="em">Believe!</td><td>Hãy tin!</td></tr>
+<tr><td class="gk">νομίζετε!</td><td class="tr">nomízete!</td><td class="em">Believe! (you all)</td><td>Hãy tin (các bạn)!</td></tr>
+<tr><td class="gk">πέμπε ἄγγελον!</td><td class="tr">pémpe ággelon!</td><td class="em">Send a messenger!</td><td>Hãy gửi một người đưa tin!</td></tr>
+<tr><td class="gk">πέμπετε τῷ βασιλεῖ ἄγγελον!</td><td class="tr">pémpete tôi basileî ággelon!</td><td class="em">Send the king a messenger!</td><td>Hãy gửi cho đức vua một người đưa tin!</td></tr>
+</tbody>
+</table>
+
+<h2 id="s4">4. Phủ định: οὐ hay μή?</h2>
+
+<p>Tiếng Hy Lạp có <strong>hai từ phủ định</strong>, và lựa chọn của chúng phụ thuộc <em>chức năng giao tiếp</em> của câu chứ không phải "vị trí trong câu":</p>
+<ul>
+<li><span class="gk">οὐ, οὐκ, οὐχ</span> <span class="tr">ou, ouk, ouch</span> — phủ định một <strong>sự thật, tuyên bố</strong>: dùng trong câu trần thuật (thức chỉ định).</li>
+<li><span class="gk">μή</span> <span class="tr">mḗ</span> — phủ định <strong>lệnh cấm, yêu cầu, điều ước</strong>: dùng với mệnh lệnh cách và (thường) với nguyên mẫu.</li>
+</ul>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">οἱ ἄνθρωποι <strong>οὐ</strong> κατηγοροῦσιν.</td><td class="tr">hoi ánthrōpoi <strong>ou</strong> katēgoroûsin.</td><td class="em">The people do <strong>not</strong> accuse.</td><td>Con người <strong>không</strong> tố cáo.</td></tr>
+<tr><td class="gk"><strong>μὴ</strong> νομίζετε!</td><td class="tr"><strong>mḕ</strong> nomízete!</td><td class="em">Do <strong>not</strong> believe!</td><td><strong>Đừng</strong> tin!</td></tr>
+<tr><td class="gk"><strong>μὴ</strong> πέμπετε τῷ βασιλεῖ ἄγγελον!</td><td class="tr"><strong>mḕ</strong> pémpete tôi basileî ággelon!</td><td class="em">Do not send the king a messenger!</td><td><strong>Đừng</strong> gửi người đưa tin nào cho đức vua!</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Tự kiểm tra khi dịch ngược (Việt → Hy Lạp):</strong> tuyên bố sự thật → <span class="gk">οὐ</span>; lệnh cấm / yêu cầu / ước muốn / phủ định nguyên mẫu → <span class="gk">μή</span>. Ba biến thể <span class="gk">οὐ / οὐκ / οὐχ</span> phụ thuộc âm đứng sau: <span class="gk">οὐκ</span> trước nguyên âm (như đã học bài 2: <span class="gk">οὐκ αἰσθητόν</span>), <span class="gk">οὐχ</span> trước nguyên âm mang dấu hơi — chi tiết sẽ gặp lại trong văn bản, cứ đọc quen dần.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> Latin cũng chia đôi phủ định theo cùng logic: câu trần thuật dùng <em>nōn</em> (<em>nōn timet</em> "hắn không sợ"), còn câu cấm đoán / mong ước dùng <em>nē</em> + thức giả định — mẫu kinh điển trong ngữ pháp Latin là <em>nē timuerīs</em> "đừng sợ". Cặp οὐ/μή ≈ nōn/nē: cùng một nguồn Ấn-Âu, hai ngôn ngữ chị em tách hai việc "nói không với sự thật" và "nói không với ý chí".</p>
+</div>
+
+<h2 id="s5">5. Tặng cách (dative): bản đồ các dụng pháp</h2>
+
+<h3>5.1 Bản đồ</h3>
+
+<table>
+<thead><tr><th>Chức năng</th><th>Trạng thái</th></tr></thead>
+<tbody>
+<tr><td><strong>1. Tân ngữ tặng cách (dative object)</strong><br>
+a) tân ngữ gián tiếp (indirect object)<br>
+b) tặng cách sở hữu với <span class="gk">εἶναι</span> (dative of possession) — <em>đã gặp bài 1, hôm nay hệ thống lại</em><br>
+c) tân ngữ tặng cách khác — học kèm từng động từ</td>
+<td class="ok">✔<br>✔<br>✔</td></tr>
+<tr><td><strong>2. Sau một số giới từ nhất định</strong></td><td class="ok">✔ (ἐν bài 1; σύν hôm nay)</td></tr>
+<tr><td><strong>3. Trạng ngữ tặng cách</strong> — a) công cụ (dative of means) ← hôm nay<br>
+b) thời gian · c) lợi/hại · d) cách thức · e) mức chênh</td>
+<td>✔ (a)<br><span class="notyet">chưa học (sau này)</span></td></tr>
+</tbody>
+</table>
+
+<h3>5.2 a) Tân ngữ gián tiếp (indirect object)</h3>
+<p>Khi động từ có "tân ngữ kép" (gửi <em>cái gì</em> cho <em>ai</em>): <strong>người nhận = tặng cách, vật = đối cách</strong> — bản đồ này trùng với tiếng Anh "send <em>someone</em> <em>something</em>" và tiếng Việt "gửi <em>ai</em> <em>cái gì</em>".</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">τῷ βασιλεῖ ἄγγελον πέμπουσιν.</td><td class="tr">tôi basileî ággelon pémpousin.</td><td class="em">They send <strong>the king</strong> <strong>a messenger</strong>.</td><td>Họ gửi <strong>đức vua</strong> <strong>một người đưa tin</strong>.</td></tr>
+</tbody>
+</table>
+<p>Kiểm tra: gửi <em>ai</em>? — đức vua (tặng cách) ✓; gửi <em>cái gì</em>? — người đưa tin (đối cách) ✓.</p>
+
+<h3>5.3 b) Tặng cách sở hữu (dative of possession)</h3>
+<p><span class="gk">εἶναι</span> có thể đứng với một chủ ngữ và một tặng cách "của người sở hữu"; khi đó bản dịch tự nhiên là <em>belong to / have / own</em>:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">Τῷ Διὶ ὁ οὐρανὸς καὶ ἡ γῆ εἰσίν.</td><td class="tr">Tôi Dií ho ouranòs kaì hē gê eisín.</td><td class="em">The sky and the earth <strong>belong to</strong> Zeus.</td><td>Trời và đất <strong>thuộc về</strong> Zeus. / Zeus <strong>sở hữu</strong> trời và đất.</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Bẫy khi dịch "sở hữu":</strong> nếu chọn bản dịch kiểu "Zeus có trời và đất" thì phải <strong>đảo vai</strong>: tặng cách sở hữu thành <em>chủ ngữ</em> của câu tiếng Việt/Anh, còn chủ ngữ gốc thành <em>tân ngữ</em>. Kiểu "tái tạo câu" này rất hay ra đề: luôn hỏi <em>ai là người có?</em> trước khi đặt câu đích.</p>
+</div>
+
+<h3>5.4 c) Tân ngữ tặng cách khác: học kèm từng động từ</h3>
+<p>Động từ đòi tặng cách không nhất thiết trùng với bản dịch tiếng Anh/Việt — lại là quy tắc "từ vựng + cách = một khối" (như <span class="gk">κατηγορέω + Gen.</span> ở mục 2.2):</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">τοῖς θεοῖς πιστεύει.</td><td class="tr">toîs theoîs pisteúei.</td><td class="em">He trusts <strong>the gods</strong>.</td><td>Ông ta tin tưởng <strong>các vị thần</strong>.</td><td>tiếng Anh/Việt dùng tân ngữ trơn; Hy Lạp: + Dat.</td></tr>
+<tr><td class="gk">τῷ ὄχλῳ χαλεπαίνουσιν.</td><td class="tr">tôi óchlōi chalepaínousin.</td><td class="em">They are angry <strong>at the crowd</strong>.</td><td>Họ nổi giận <strong>với đám đông</strong>.</td><td>tiếng Anh dùng giới từ <em>at</em>; Hy Lạp: + Dat.</td></tr>
+</tbody>
+</table>
+
+<h3>5.5 Tặng cách sau giới từ: σύν, ἐν — và "giới từ lưỡng tính"</h3>
+<p>Mỗi giới từ chi phối một cách nhất định — <strong>học giới từ = học (giới từ + cách + nghĩa) thành một khối ba cột</strong>. Hôm nay: <span class="gk">σύν + Dat.</span> <span class="tr">sýn</span> "(cùng) với" (gốc của tiếng Anh <em>syn-</em>: synergy, synthesis); <span class="gk">ἐν + Dat.</span> đã quen từ bài 1.</p>
+
+<div class="achtung">
+<p><strong>Giới từ lưỡng tính — cùng một giới từ, cách khác → nghĩa khác:</strong></p>
+<ul>
+<li><span class="gk">μετά + Acc.</span> "sau (thời gian/phép đếm)" — nhưng <span class="gk">μετά + Gen.</span> "(cùng) với, giữa, trong số"</li>
+<li><span class="gk">πρός + Acc.</span> "đến phía, chống lại" — nhưng <span class="gk">πρός + Dat.</span> "ở bên, tại; thêm vào"</li>
+</ul>
+<p>Tự kiểm tra: gặp giới từ đã quen mà "cách lạ bậc" → nghĩa chắc chắn đã đổi! Ngược lại, khi dịch thấy "nghịch lý" → kiểm tra lại cách của danh từ theo sau.</p>
+</div>
+
+<h3>5.6 c) Trạng ngữ tặng cách — công cụ (dative of means)</h3>
+
+<p>Trước hết gắn lại một khái niệm nền: <strong>trạng ngữ (adverbial)</strong> là thành phần diễn tả hoàn cảnh (địa điểm, thời gian, cách thức, công cụ…) của sự việc; nó <em>không bị động từ đòi hỏi</em> — cắt đi câu vẫn "đủ".</p>
+
+<p><strong>Thử nghiệm "cắt từ" (tiếng Việt):</strong> câu <em>"Hôm qua, tôi đưa cô bạn dễ mến trong trường cuốn sách của thầy giáo."</em> — cắt "hôm qua", "trong trường" (trạng ngữ), "dễ mến", "của thầy giáo" (định ngữ) → <em>"Tôi đưa cô bạn cuốn sách"</em>: vẫn đúng ngữ pháp, nghĩa vẫn trọn. Nhưng cắt chủ ngữ, vị ngữ hay tân ngữ (đưa <em>ai</em> <em>cái gì</em>) thì câu "gãy".</p>
+
+<table>
+<thead><tr><th>Không cắt được</th><th>Cắt được (thường)</th></tr></thead>
+<tbody>
+<tr><td>chủ ngữ · vị ngữ · các tân ngữ <strong>do động từ đòi hỏi</strong></td><td>định ngữ (bổ nghĩa danh từ) · trạng ngữ (bổ nghĩa sự việc)</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Đừng lẫn:</strong> <strong>trạng từ</strong> (adverb) là một <em>loại từ</em> (bài 3: <span class="gk">ἀγαθῶς</span>…), còn <strong>trạng ngữ</strong> là một <em>chức năng câu</em> — một trạng từ <em>đảm nhiệm</em> chức năng trạng ngữ, nhưng trạng ngữ cũng có thể do cụm giới từ hay danh từ (đang gặp hôm nay!) đảm nhiệm. Cùng một phân biệt "từ loại vs chức năng" như bài 1: danh từ có thể làm chủ ngữ <em>hoặc</em> tân ngữ.</p>
+</div>
+
+<p><strong>Tặng cách công cụ (dative of means):</strong> trạng ngữ tặng cách diễn đạt <strong>phương tiện / công cụ</strong> — câu hỏi kiểm tra: <em>bằng cái gì?</em> (with what?).</p>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">τοῖς λίθοις βάλλομεν.</td><td class="tr">toîs líthois bálomen.</td><td class="em">We throw <strong>with stones</strong>.</td><td>Chúng tôi ném <strong>bằng đá</strong>.</td></tr>
+</tbody>
+</table>
+<p>Kiểm tra: ném <em>bằng cái gì</em>? — bằng đá ✓; động từ <span class="gk">βάλλω</span> không "đòi" tặng cách này (cắt đi vẫn ném được) → trạng ngữ công cụ, không phải tân ngữ.</p>
+
+<div class="tipp">
+<p><strong>Pattern tự kiểm tra tặng cách (3 câu hỏi, theo thứ tự):</strong> (1) Nó đứng sau <strong>giới từ</strong>? → dịch cùng giới từ như một khối. (2) Động từ <strong>đòi hỏi</strong> nó (trả lời được "cho/đối với <em>ai</em>"?) → tân ngữ tặng cách. (3) Nó trả lời <strong>"bằng cái gì?"</strong> và không phụ thuộc giới từ → tặng cách công cụ (trạng ngữ). Còn tặng cách thời gian và các loại khác <span class="notyet">sau này</span>.</p>
+</div>
+
+<h2 id="s6">6. Nguyên mẫu tân ngữ (accusativus cum infinitivo, AcI) bước đầu</h2>
+
+<h3>6.1 Từ câu "rằng" đến AcI</h3>
+
+<p>Xét câu: <span class="gk">λέγεις, ὅτι οἱ Ἀθηναῖοι τοῦ φιλοσόφου κατηγοροῦσιν.</span> <span class="tr">Légeis, hóti hoi Athēnaîoi toû philosophou katēgoroûsin.</span> — "Bạn nói rằng người Athens tố cáo nhà triết học."</p>
+
+<p>Cùng nội dung đó, tiếng Hy Lạp còn có thể "đóng gói" hoàn toàn khác — so sánh hai kiến trúc:</p>
+
+<table>
+<thead><tr><th></th><th>Cấu trúc A (câu "rằng")</th><th>Cấu trúc B (AcI)</th></tr></thead>
+<tbody>
+<tr><td>Hy Lạp</td><td class="gk">λέγεις, <strong>ὅτι</strong> οἱ <strong>Ἀθηναῖοι</strong> τοῦ φιλοσόφου <strong>κατηγοροῦσιν</strong>.</td><td class="gk">λέγεις <strong>τοὺς Ἀθηναίους</strong> τοῦ φιλοσόφου <strong>κατηγορεῖν</strong>.</td></tr>
+<tr><td>Phiên âm</td><td class="tr">Légeis, hóti hoi Athēnaîoi toû philosophou katēgoroûsin.</td><td class="tr">Légeis toùs Athēnaíous toû philosophou katēgoreîn.</td></tr>
+<tr><td>Cấu trúc</td><td>vị ngữ khung + <strong>từ nối</strong> ὅτι + chủ ngữ <strong>chủ cách</strong> + tân ngữ sở hữu cách + <strong>động từ chia</strong></td><td>vị ngữ khung, <strong>không từ nối</strong> + chủ ngữ biến thành <strong>đối cách</strong> + tân ngữ sở hữu cách + <strong>nguyên mẫu</strong></td></tr>
+<tr><td>Dịch</td><td colspan="2">giống nhau: "Bạn nói rằng người Athens tố cáo nhà triết học."</td></tr>
+</tbody>
+</table>
+
+<p><strong>AcI</strong> = <em>accusativus cum infinitivo</em> "đối cách cùng nguyên mẫu": chủ ngữ của sự việc phụ trở thành <strong>đối cách</strong> (đối cách chủ ngữ), vị ngữ trở thành <strong>nguyên mẫu</strong> (nguyên mẫu vị ngữ), và không có từ nối. AcI không phải mệnh đề độc lập mà được "nhúng" vào câu khung; khi dịch, ta dựng lại thành câu "rằng".</p>
+
+<h3>6.2 Giải phẫu một AcI</h3>
+
+<table>
+<thead><tr><th>Thành phần</th><th>Hy Lạp</th><th>Phiên âm</th><th>Vai trò</th><th>Vai trong câu "rằng" khi dịch</th></tr></thead>
+<tbody>
+<tr><td>Động từ kích hoạt (trigger)</td><td class="gk">λέγεις</td><td class="tr">légeis</td><td>vị ngữ của câu khung</td><td>"bạn nói"</td></tr>
+<tr><td>Đối cách chủ ngữ</td><td class="gk">τοὺς Ἀθηναίους</td><td class="tr">toùs Athēnaíous</td><td>"chủ ngữ" của AcI</td><td>"rằng người Athens"</td></tr>
+<tr><td>Tân ngữ sở hữu cách</td><td class="gk">τοῦ φιλοσόφου</td><td class="tr">toû philosophou</td><td>tân ngữ của nguyên mẫu</td><td>"tố cáo nhà triết học"</td></tr>
+<tr><td>Nguyên mẫu vị ngữ</td><td class="gk">κατηγορεῖν</td><td class="tr">katēgoreîn</td><td>"vị ngữ" của AcI</td><td>vị ngữ của câu "rằng"</td></tr>
+</tbody>
+</table>
+
+<p>Thuật ngữ <strong>nguyên mẫu vị ngữ</strong> giúp (1) phân biệt với nguyên mẫu làm chủ ngữ/tân ngữ (bài 2) — vì <em>không phải nguyên mẫu nào cũng thuộc một AcI</em>, và (2) nhắc rằng khi dịch, nguyên mẫu này phải trở thành <strong>vị ngữ của câu "rằng"</strong>.</p>
+
+<h3>6.3 Bảy bước dịch một AcI</h3>
+<ol>
+<li><strong>Nhận diện động từ kích hoạt</strong> (câu khung — xem mục 6.4).</li>
+<li><strong>Nhận diện đối cách chủ ngữ và nguyên mẫu vị ngữ</strong> (đối cách "lơ lửng" ngay trước nguyên mẫu).</li>
+<li>Dịch động từ kích hoạt (VD: <span class="gk">λέγομεν</span> → "chúng tôi nói").</li>
+<li>Chèn từ <strong>"rằng"</strong>.</li>
+<li>Dịch <strong>đối cách chủ ngữ thành chủ ngữ</strong> của câu "rằng".</li>
+<li>Dịch <strong>nguyên mẫu vị ngữ thành vị ngữ</strong> của câu "rằng" (chia theo thời của câu khung).</li>
+<li>Dịch tiếp các <strong>tân ngữ khác và trạng ngữ</strong> của nguyên mẫu (nếu có).</li>
+</ol>
+
+<h3>6.4 Động từ nào kích hoạt được AcI?</h3>
+
+<p>Một AcI luôn cần một động từ kích hoạt — <strong>không phải động từ nào cũng làm được</strong>. Ba nhóm quen thuộc ở cấp I:</p>
+<ol>
+<li>Động từ <strong>tư duy &amp; ý chí</strong>: <span class="gk">νομίζω</span> (cho rằng), <span class="gk">ἐλπίζω</span> (hy vọng), <span class="gk">ἐθέλω</span> (muốn).</li>
+<li>Động từ <strong>phi ngôi</strong> (impersonal): <span class="gk">δεῖ</span> (cần phải).</li>
+<li>Động từ <strong>phát ngôn</strong>: <span class="gk">λέγω</span> (nói).</li>
+</ol>
+
+<div class="achtung">
+<p><strong>Khác Latin!</strong> Sau các động từ <strong>tri giác</strong> (perception — "thấy, nghe…") tiếng Hy Lạp <em>không</em> dùng AcI; Latin thì dùng (<em>video eum currere</em> "tôi thấy hắn chạy"). Cách diễn đạt tri giác của Hy Lạp dùng phân từ — <span class="notyet">bài 19</span>. Tạm thời: gặp đối cách + nguyên mẫu, trước hết kiếm động từ kích hoạt nhóm 1–3; không có → nghi ngờ cấu trúc khác.</p>
+</div>
+
+<h3>6.5 Trường hợp đặc biệt: <span class="gk">εἶναι</span> với "đối cách kép"</h3>
+
+<p>Nếu nguyên mẫu vị ngữ là <span class="gk">εἶναι</span> và câu gốc có <strong>hai chủ cách</strong> (chủ ngữ + biểu ngữ), thì khi nhúng thành AcI <strong>cả hai</strong> đều thành <strong>đối cách</strong>:</p>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">οἱ ἄνθρωποι λέγουσι τὸν φίλον σοφὸν εἶναι.</td><td class="tr">hoi ánthrōpoi lègousin tòn phílon sophòn eînai.</td><td class="em">People say that the friend <strong>is wise</strong>.</td><td>Con người nói rằng người bạn <strong>khôn ngoan</strong>.</td></tr>
+</tbody>
+</table>
+
+<p>Cấu trúc gốc: <span class="gk">ὁ φίλος σοφὸς ἐστίν.</span> <span class="tr">Ho phílos sophòs estín.</span> "Người bạn khôn ngoan" — hai chủ cách. Trong AcI: <span class="gk">τὸν φίλον σοφὸν εἶναι</span> — hai đối cách. Pattern "cả câu con quay trọn một vòng": chủ cách → đối cách, động từ chia → nguyên mẫu.</p>
+
+<div class="tipp">
+<p><strong>Pattern liên hệ:</strong> cấu trúc này là "thủ quỹ" của ngữ pháp học thuật châu Âu: Latin đưa nó vào văn viết (<em>puto te sapientem esse</em> "tôi nghĩ bạn khôn ngoan" ≈ <span class="gk">νομίζω σε σοφὸν εἶναι</span>), và tiếng Anh hiện đại vẫn giữ vết tích trong Anh trang trọng: "I believe <strong>the gods to be wise</strong>" — đối cách + nguyên mẫu y hệt! Gặp câu Anh kiểu đó, bạn đã dịch sẵn được sang AcI Hy Lạp.</p>
+</div>
+
+<h2 id="reading">7. Bài đọc: lời khuyên triết học gửi Menoikeus (đơn giản hóa)</h2>
+
+<div class="info">
+<p><strong>Nguồn:</strong> chủ đề dựa trên Epikur, <em>Thư gửi Menoikeus</em> 128 ("đừng trì hoãn học triết, không tuổi nào là quá sớm hay quá muộn") và 131–132 (các vị thần bất tử, có phúc, không ác ý) — và định hướng "triết học là việc phải làm" của các trường phái Hy Lạp (Diogenes Laertios 7,7). Bản gốc (public domain) đọc được trên Perseus. Bản dưới đây do project <strong>biên soạn lại theo trình độ bài 4</strong> — chỉ dùng cấu trúc và từ vựng đã học: mệnh lệnh + μὴ, tặng cách, AcI, đại từ enclitic.</p>
+</div>
+
+<p>Từ mới trong bài đọc:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">μέλλω + nguyên mẫu</td><td class="tr">méllō</td><td class="em">delay, be about to</td><td>chần chừ, sắp</td><td>động từ + nguyên mẫu: "trì hoãn <em>việc gì</em>"</td></tr>
+<tr><td class="gk">φιλοσοφέω</td><td class="tr">philosophéō</td><td class="em">philosophize</td><td>theo đuổi triết học</td><td>động từ co, gốc của "philosophize"</td></tr>
+<tr><td class="gk">κακός, ή, όν</td><td class="tr">kakós</td><td class="em">bad, evil</td><td>xấu, xấu xa</td><td>tính từ 2/1 (bài 1); gốc của "cacophony"</td></tr>
+<tr><td class="gk">μακάριος, ον</td><td class="tr">makários</td><td class="em">blessed, happy</td><td>có phúc</td><td>tính từ; từ Kinh Thánh Hy Lạp "makarios" = "phúc thay"</td></tr>
+<tr><td class="gk">ὁ θάνατος</td><td class="tr">ho thánatos</td><td class="em">death</td><td>cái chết</td><td>gốc của "euthanasia" (eu = tốt + thánatos)</td></tr>
+</tbody>
+</table>
+
+<p style="margin-bottom:6px;"><strong>Bản simplified (do project biên soạn):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">μὴ μέλλε φιλοσοφεῖν, ὦ φίλε· δεῖ γὰρ ἡμᾶς φιλοσοφεῖν. μὴ νόμιζε τοὺς θεοὺς κακοὺς εἶναι· οἱ θεοὶ γὰρ μακάριοι εἰσίν. τοῖς θεοῖς πίστευε. ὁ θάνατος οὐδὲν ἡμῖν ἐστίν.</p>
+<p class="tr">Mḕ mélle philosopheîn, ô phíle· deî gàr hēmâs philosopheîn. Mḕ nómize toùs theoùs kakoùs eînai· hoi theoì gàr makárioi eisín. Toîs theoîs písteue. Ho thánatos oudèn hēmîn estín.</p>
+
+<table>
+<thead><tr><th>Tiếng Anh (dịch sát)</th><th>Tiếng Việt (dịch thoát)</th></tr></thead>
+<tbody>
+<tr><td class="em">Do not delay to philosophize, my friend; for we must philosophize. Do not believe the gods to be evil; for the gods are blessed. Trust the gods. Death is nothing to us.</td><td>Đừng chần chừ theo đuổi triết học, hỡi bạn ơi; vì chúng ta phải theo đuổi triết học. Đừng cho rằng các vị thần xấu xa; vì các vị thần có phúc. Hãy tin tưởng các vị thần. Cái chết chẳng là gì đối với chúng ta.</td></tr>
+</tbody>
+</table>
+
+<p><strong>Phân tích nhanh (kiểm tra bằng công cụ của bài):</strong></p>
+<ul>
+<li><span class="gk">μὴ μέλλε φιλοσοφεῖν</span>: phủ định <strong>mệnh lệnh</strong> → μὴ (mục 4); mệnh lệnh 2 Sg. <span class="gk">μέλλ-ε</span> (mục 3); <span class="gk">φιλοσοφεῖν</span> là nguyên mẫu làm "tân ngữ" của <span class="gk">μέλλω</span> (bài 2).</li>
+<li><span class="gk">δεῖ γὰρ ἡμᾶς φιλοσοφεῖν</span>: <span class="gk">γάρ</span> hậu vị — ô thứ hai (bài 1); <span class="gk">δεῖ</span> là động từ kích hoạt AcI nhóm 2: đối cách chủ ngữ <span class="gk">ἡμᾶς</span> + nguyên mẫu vị ngữ <span class="gk">φιλοσοφεῖν</span> (mục 6) — "cần phải [rằng] chúng ta…".</li>
+<li><span class="gk">μὴ νόμιζε τοὺς θεοὺς κακοὺς εἶναι</span>: AcI với đối cách kép (mục 6.5): <span class="gk">τοὺς θεοὺς</span> + <span class="gk">κακοὺς</span> + <span class="gk">εἶναι</span>; mệnh lệnh 2 Sg. <span class="gk">νόμιζε</span> với trọng âm lui về đầu từ.</li>
+<li><span class="gk">τοῖς θεοῖς πίστευε</span>: tân ngữ tặng cách (mục 5.4 — <span class="gk">πιστεύω + Dat.</span>) + mệnh lệnh 2 Sg.</li>
+<li><span class="gk">ὁ θάνατος οὐδὲν ἡμῖν ἐστίν</span>: <span class="gk">ἡμῖν</span> tặng cách của đại từ (họ hàng của tặng cách sở hữu bài 1) = "đối với chúng ta"; <span class="gk">οὐδὲν</span> biểu ngữ trung tính số ít; <span class="gk">ἐστίν</span> oxytone cuối câu → dấu sắc.</li>
+</ul>
+
+<p>Bài tập đọc hiểu: (1) Tìm tất cả mệnh lệnh trong bài — ngôi/số nào, và vì sao phủ định của chúng dùng <span class="gk">μή</span> chứ không phải <span class="gk">οὐ</span>? (2) <span class="gk">δεῖ γὰρ ἡμᾶς φιλοσοφεῖν</span> là AcI do động từ nào kích hoạt — xác định đối cách chủ ngữ và nguyên mẫu vị ngữ, rồi dịch qua câu "rằng". (3) Chữ <span class="gk">ἡμῖν</span> trong câu cuối ở cách nào, và bản dịch tiếng Việt xử lý nó bằng gì? So với <span class="gk">Τῷ Διὶ ὁ οὐρανὸς καὶ ἡ γῆ εἰσίν</span> (mục 5.3): hai câu này dùng tặng cách giống nhau ở điểm nào, khác nhau ở điểm nào?</p>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án câu hỏi đọc hiểu (in ra để soát)</h4>
+<p><strong>1.</strong> Ba mệnh lệnh 2 Sg.: <span class="gk">μὴ μέλλε</span>, <span class="gk">μὴ νόμιζε</span> (bị phủ định) và <span class="gk">πίστευε</span> (không phủ định) — hai mệnh lệnh bị phủ định đều mang μὴ vì chúng phủ định <em>yêu cầu</em> (mệnh lệnh), không phủ định <em>sự thật</em>. <strong>2.</strong> Kích hoạt: <span class="gk">δεῖ</span> (động từ phi ngôi); đối cách chủ ngữ = <span class="gk">ἡμᾶς</span>, nguyên mẫu vị ngữ = <span class="gk">φιλοσοφεῖν</span> → "cần phải [rằng] chúng ta theo đuổi triết học". <strong>3.</strong> <span class="gk">ἡμῖν</span> là tặng cách của đại từ "chúng tôi"; bản dịch xử lý bằng "đối với chúng ta". Giống câu Zeus ở chỗ: tặng cách đứng cạnh <span class="gk">εἶναι</span> và không phải tân ngữ của động từ; khác ở chức năng: <span class="gk">Τῷ Διὶ</span> là tặng cách sở hữu ("thuộc về Zeus"), còn <span class="gk">ἡμῖν</span> là tặng cách quan điểm/lợi ích ("đối với chúng ta") — hai anh em trong cùng một "họ tặng cách + εἶναι", sau này sẽ còn gặp lại nhiều lần.</p>
+</div></div>
+
+<h2 id="vocab">8. Từ vựng trọng tâm</h2>
+
+<p><span class="star">★</span> = từ bắt buộc nhớ. Cột "Tiếng Anh" là nghĩa cần dùng khi dịch sang tiếng Anh; "cách đi kèm" ghi trong ghi chú là bắt buộc học thành khối.</p>
+
+<h3>Động từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">★ νομίζω</td><td class="tr">nomízō</td><td class="em">believe, suppose</td><td>tin, cho rằng</td><td>kích hoạt AcI (nhóm 1); gốc "nominal"</td></tr>
+<tr><td class="gk">★ κατηγορέω + Gen.</td><td class="tr">katēgoréō</td><td class="em">accuse</td><td>tố cáo ai</td><td>bẫy: Anh/Việt dùng tân ngữ trơn; Hy Lạp đòi sở hữu cách!</td></tr>
+<tr><td class="gk">★ λέγω</td><td class="tr">légō</td><td class="em">say</td><td>nói</td><td>kích hoạt AcI (nhóm 3)</td></tr>
+<tr><td class="gk">★ πιστεύω + Dat.</td><td class="tr">pisteúō</td><td class="em">trust, believe</td><td>tin tưởng ai</td><td>+ tặng cách; gốc "pistic/epistemology" họ hàng xa</td></tr>
+<tr><td class="gk">★ βάλλω</td><td class="tr">bállō</td><td class="em">throw</td><td>ném, quăng</td><td>gốc "ballistic, symbol (syn-bállein)"</td></tr>
+<tr><td class="gk">πέμπω</td><td class="tr">pémpō</td><td class="em">send</td><td>gửi</td><td>tân ngữ kép: đối cách (vật) + tặng cách (người nhận)</td></tr>
+<tr><td class="gk">χαλεπαίνω + Dat.</td><td class="tr">chalepaínō</td><td class="em">be angry at</td><td>nổi giận với ai</td><td>bẫy: Anh dùng "at + đối cách"; Hy Lạp đòi tặng cách</td></tr>
+<tr><td class="gk">★ ἐλπίζω</td><td class="tr">elpízō</td><td class="em">hope</td><td>hy vọng</td><td>kích hoạt AcI; gốc "elpis"</td></tr>
+<tr><td class="gk">ἐθέλω</td><td class="tr">ethélō</td><td class="em">wish, want</td><td>muốn</td><td>kích hoạt AcI; từ họ Ấn-Âu của "will"</td></tr>
+<tr><td class="gk">★ δεῖ</td><td class="tr">deî</td><td class="em">it is necessary</td><td>cần phải</td><td>động từ phi ngôi; + đối cách + nguyên mẫu (AcI)</td></tr>
+<tr><td class="gk">★ εἶναι</td><td class="tr">eînai</td><td class="em">be</td><td>là</td><td>với tặng cách sở hữu: "belong to / have"</td></tr>
+</tbody>
+</table>
+
+<h3>Danh từ &amp; tính từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">★ ὁ ἄνθρωπος</td><td class="tr">ho ánthrōpos</td><td class="em">human being</td><td>con người</td><td></td></tr>
+<tr><td class="gk">★ ὁ φιλόσοφος</td><td class="tr">ho philósophos</td><td class="em">philosopher</td><td>nhà triết học</td><td>"người yêu sự khôn ngoan"</td></tr>
+<tr><td class="gk">★ οἱ Ἀθηναῖοι</td><td class="tr">hoi Athēnaîoi</td><td class="em">the Athenians</td><td>người Athens</td><td>số nhiều; chủ ngữ số nhiều → động từ số nhiều</td></tr>
+<tr><td class="gk">ὁ λόγος</td><td class="tr">ho lógos</td><td class="em">word; speech</td><td>lời nói; bài nói chuyện</td><td>bài 1; gốc "-logy"</td></tr>
+<tr><td class="gk">★ ὁ φίλος / ἡ φίλη</td><td class="tr">ho phílos / hē phílē</td><td class="em">friend (m./f.)</td><td>người bạn</td><td>đuôi voc. đã học bài 2: ὦ φίλε</td></tr>
+<tr><td class="gk">★ σοφός, ή, όν</td><td class="tr">sophós</td><td class="em">wise</td><td>khôn ngoan</td><td>bài 1–3; "philosophy" = phílos + sophía</td></tr>
+<tr><td class="gk">★ ὁ θεός / οἱ θεοί</td><td class="tr">ho theós / hoi theoí</td><td class="em">god; gods</td><td>vị thần / các vị thần</td><td>gốc "theology, atheism"</td></tr>
+<tr><td class="gk">★ ὁ βασιλεύς</td><td class="tr">ho basileús</td><td class="em">king</td><td>đức vua</td><td>gốc "basilica, basil"</td></tr>
+<tr><td class="gk">ὁ ἄγγελος</td><td class="tr">ho ággelos</td><td class="em">messenger</td><td>người đưa tin</td><td>gốc "angel" — cùng một từ!</td></tr>
+<tr><td class="gk">ὁ ὄχλος</td><td class="tr">ho óchlos</td><td class="em">crowd, the people</td><td>đám đông, dân chúng</td><td></td></tr>
+<tr><td class="gk">★ ὁ λίθος</td><td class="tr">ho líthos</td><td class="em">stone</td><td>viên đá</td><td>gốc "lithography, monolith"</td></tr>
+<tr><td class="gk">ὁ οὐρανός</td><td class="tr">ho ouranós</td><td class="em">sky, heaven</td><td>trời</td><td>bài 1; "Uranus"</td></tr>
+<tr><td class="gk">ἡ γῆ</td><td class="tr">hē gê</td><td class="em">earth, land</td><td>đất</td><td>bài 1; "geography, geology"</td></tr>
+<tr><td class="gk">★ οὐδείς, οὐδεμία, οὐδέν</td><td class="tr">oudeís</td><td class="em">no one; nothing</td><td>không ai; không cái gì</td><td>chứa sẵn οὐ; đi với định ngữ phân chia (mục 2.4)</td></tr>
+<tr><td class="gk">ὁ Ζεύς (Τῷ Διὶ)</td><td class="tr">ho Zeús (tôi Diì)</td><td class="em">Zeus</td><td>thần Zeus</td><td>chỉ học 2 dạng đã cho <span class="notyet">(bảng chia đầy đủ: sau này)</span></td></tr>
+</tbody>
+</table>
+
+<h3>Giới từ, tiểu từ &amp; phủ định</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">★ σύν + Dat.</td><td class="tr">sýn</td><td class="em">with, together with</td><td>cùng với</td><td>gốc "syn-: synthesis, synergy"</td></tr>
+<tr><td class="gk">★ ἐν + Dat.</td><td class="tr">en</td><td class="em">in, on, at</td><td>trong, ở, tại, trên</td><td>bài 1</td></tr>
+<tr><td class="gk">★ μετά + Acc.</td><td class="tr">metá</td><td class="em">after</td><td>sau</td><td>lưỡng tính: + Gen. = "với, giữa, trong số"</td></tr>
+<tr><td class="gk">★ μετά + Gen.</td><td class="tr">metá</td><td class="em">among, with</td><td>giữa, trong số; cùng với</td><td>gốc "metaphysics" (ta metá ta physiká)</td></tr>
+<tr><td class="gk">★ πρός + Acc.</td><td class="tr">prós</td><td class="em">to, toward; against</td><td>đến phía; chống lại</td><td>lưỡng tính: + Dat. = "ở bên, thêm vào"</td></tr>
+<tr><td class="gk">★ πρός + Dat.</td><td class="tr">prós</td><td class="em">at, in addition to</td><td>ở bên, tại; thêm vào</td><td></td></tr>
+<tr><td class="gk">★ οὐ / οὐκ / οὐχ</td><td class="tr">ou / ouk / ouch</td><td class="em">not (facts)</td><td>không</td><td>phủ định trần thuật</td></tr>
+<tr><td class="gk">★ μή</td><td class="tr">mḗ</td><td class="em">not (commands, wishes; + infinitive)</td><td>đừng, đừng…</td><td>phủ định ý chí; cặp οὐ/μή ≈ Latin nōn/nē</td></tr>
+<tr><td class="gk">ὅτι</td><td class="tr">hóti</td><td class="em">that</td><td>rằng, là</td><td>từ nối câu "rằng" — đối trọng của AcI</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">9. Bảng tổng hợp so sánh các điểm dễ nhầm</h2>
+
+<table>
+<thead><tr><th>Cặp / nhóm dễ nhầm</th><th>Khác biệt cốt lõi</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἐμοῦ, ἐμοί, ἐμέ</span> vs <span class="gk">μου, μοι, με</span></td><td>nhấn mạnh = đối lập / sau giới từ; enclitic = mặc định</td><td>Có đối lập "chứ không phải…"? Có giới từ trước? Không → enclitic.</td></tr>
+<tr><td><span class="gk">ἡμεῖς, ἡμῶν, ἡμῖν, ἡμᾶς</span> vs <span class="gk">ὑμεῖς, ὑμῶν, ὑμῖν, ὑμᾶς</span></td><td>η = "chúng tôi", υ = "các bạn" (như nous/vous tiếng Pháp)</td><td>Gạch chân chữ cái khác biệt khi ôn; đọc to: ἡ- = we, ὑ- = you (pl.)</td></tr>
+<tr><td>Định ngữ chỉ sở hữu vs phân chia</td><td>"của ai?" → của…; "một phần của cái gì?" → trong số…</td><td>Sau từ chỉ lượng (οὐδείς, πολλοί, πάντες…) hầu như luôn là phân chia.</td></tr>
+<tr><td>Tân ngữ sở hữu cách vs định ngữ sở hữu cách</td><td>tân ngữ do <em>động từ</em> đòi hỏi; định ngữ bổ nghĩa cho <em>danh từ trung tâm</em></td><td>Hỏi: sở hữu cách này phụ thuộc động từ hay danh từ?</td></tr>
+<tr><td><span class="gk">οὐ</span> vs <span class="gk">μή</span></td><td>οὐ phủ định sự thật (trần thuật); μή phủ định mệnh lệnh / yêu cầu / ước muốn / nguyên mẫu</td><td>Nhìn thức: chỉ định → οὐ; mệnh lệnh (và nguyên mẫu) → μή.</td></tr>
+<tr><td><span class="gk">μετά + Acc.</span> vs <span class="gk">μετά + Gen.</span>; <span class="gk">πρός + Acc.</span> vs <span class="gk">πρός + Dat.</span></td><td>cùng giới từ, cách khác → nghĩa khác</td><td>Luôn học (giới từ + cách + nghĩa) thành một khối; dịch thấy "nghịch lý" → kiểm tra lại cách.</td></tr>
+<tr><td>Tân ngữ tặng cách vs tặng cách công cụ</td><td>tân ngữ do động từ đòi hỏi ("cho ai?"); công cụ là trạng ngữ ("bằng cái gì?") — không bị đòi hỏi</td><td>Cắt thử tặng cách: câu vẫn "đủ nghĩa" → công cụ; động từ "gãy" → tân ngữ.</td></tr>
+<tr><td>Tặng cách sở hữu vs tân ngữ tặng cách</td><td>với <span class="gk">εἶναι</span>: tặng cách = người sở hữu → "thuộc về / có"; động từ khác: người nhận / đối tượng</td><td>Động từ chính là <span class="gk">εἶναι</span> → luôn nghĩ tới tặng cách sở hữu (bài 1).</td></tr>
+<tr><td>Trạng từ vs trạng ngữ</td><td>trạng từ = <em>loại từ</em> (bài 3); trạng ngữ = <em>chức năng câu</em> (do trạng từ, cụm giới từ hoặc danh từ đảm nhiệm)</td><td>Hai câu hỏi: "từ này thuộc loại từ nào?" và "nó làm gì trong câu?"</td></tr>
+<tr><td>Nguyên mẫu trong AcI vs nguyên mẫu khác</td><td>nguyên mẫu vị ngữ của AcI phải dịch thành vị ngữ của câu "rằng"; không phải nguyên mẫu nào cũng thuộc AcI</td><td>Kiếm động từ kích hoạt + đối cách ngay trước nguyên mẫu. Không có kích hoạt → không phải AcI.</td></tr>
+<tr><td>Câu ὅτι vs AcI</td><td>ὅτι giữ chủ cách + động từ chia; AcI biến thành đối cách + nguyên mẫu, không từ nối</td><td>Thấy đối cách + nguyên mẫu "lơ lửng" sau động từ nói/nghĩ → dựng lại câu "rằng" theo 7 bước.</td></tr>
+<tr><td>Mệnh lệnh 2 Pl. vs chỉ định 2 Pl.</td><td>hình thức giống hệt (<span class="gk">νομίζετε</span>)</td><td>Ngữ cảnh + dấu chấm than; chỉ mệnh lệnh 2 Sg. (<span class="gk">νόμιζε</span>) có đuôi -ε đặc trưng.</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">10. Bài tập tự luyện</h2>
+
+<h3>Bài tập 1 — Đại từ nhân xưng</h3>
+<p>Điền dạng đại từ đúng (chú ý chọn dạng nhấn mạnh / enclitic nếu cần):</p>
+<ol>
+<li>Người bạn của chúng tôi: <span class="gk">ὁ φίλος ___</span></li>
+<li>Không ai trong số các bạn: <span class="gk">οὐδεὶς ___</span></li>
+<li>Người ta gửi cho chúng tôi một người đưa tin: <span class="gk">___ ἄγγελον πέμπουσιν.</span></li>
+<li>Người ta tố cáo anh (bạn) — không nhấn mạnh: <span class="gk">___ κατηγοροῦσιν.</span></li>
+</ol>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 1</h4>
+<ol>
+<li class="gk">ἡμῶν</li>
+<li class="gk">ὑμῶν</li>
+<li class="gk">ἡμῖν</li>
+<li class="gk">σε</li> (dạng enclitic của <strong>sở hữu cách</strong>, vì <span class="gk">κατηγορέω</span> đòi Gen. — bẫy của bài: tiếng Việt "tố cáo anh" trông như đối cách, nhưng Hy Lạp cần sở hữu cách enclitic σε, không phải đối cách σέ)
+</ol>
+</div></div>
+
+<h3>Bài tập 2 — Chức năng của sở hữu cách</h3>
+<p>Xác định: tân ngữ sở hữu cách, định ngữ chỉ sở hữu hay định ngữ phân chia?</p>
+<ol>
+<li class="gk">οἱ τῶν Ἀθηναίων λόγοι</li>
+<li class="gk">οἱ σοφοὶ τῶν ἀνθρώπων</li>
+<li class="gk">οἱ ἄνθρωποι τοῦ φιλοσόφου κατηγοροῦσιν.</li>
+</ol>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 2</h4>
+<ol>
+<li><strong>Định ngữ chỉ sở hữu</strong> (lời nói <em>của</em> người Athens — hỏi "của ai?").</li>
+<li><strong>Định ngữ phân chia</strong> (người khôn ngoan <em>trong số</em> con người — hỏi "một phần của cái gì?").</li>
+<li><strong>Tân ngữ sở hữu cách</strong> (do <span class="gk">κατηγορέω</span> đòi hỏi: tố cáo <em>ai</em>).</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 3 — Mệnh lệnh hiện tại chủ động</h3>
+<p>Tạo mệnh lệnh 2 Sg. và 2 Pl. từ các động từ:</p>
+<ol>
+<li class="gk">πέμπω</li>
+<li class="gk">νομίζω</li>
+<li class="gk">βάλλω</li>
+<li class="gk">πιστεύω</li>
+</ol>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 3</h4>
+<ol>
+<li class="gk">πέμπε! / πέμπετε!</li>
+<li class="gk">νόμιζε! / νομίζετε!</li>
+<li class="gk">βάλλε! / βάλλετε!</li>
+<li class="gk">πίστευε! / πιστεύετε!</li>
+</ol>
+<p>2 Pl. luôn trùng với chỉ định; 2 Sg. = thân + -ε, trọng âm lui về đầu từ.</p>
+</div></div>
+
+<h3>Bài tập 4 — οὐ hay μή?</h3>
+<ol>
+<li class="gk">οἱ ἄνθρωποι ___ πιστεύουσιν. (Con người không tin.)</li>
+<li class="gk">___ νομίζετε! (Đừng tin!)</li>
+<li class="gk">___ βάλλετε λίθους! (Đừng ném đá!)</li>
+<li class="gk">ὁ φίλος ___ σοφὸς ἐστίν. (Người bạn không khôn ngoan.)</li>
+<li class="gk">οὐδεὶς ___ πέμπει ἄγγελον. (Không ai gửi người đưa tin.)</li>
+</ol>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 4</h4>
+<ol>
+<li class="gk"><strong>οὐ</strong> (trần thuật — phủ định sự thật)</li>
+<li class="gk"><strong>μὴ</strong> (phủ định mệnh lệnh)</li>
+<li class="gk"><strong>μὴ</strong> (phủ định mệnh lệnh)</li>
+<li class="gk"><strong>οὐ</strong> (trần thuật)</li>
+<li class="gk"><strong>οὐ</strong> (trần thuật; lưu ý: <span class="gk">οὐδείς</span> tự nó đã chứa οὐ)</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 5 — Chức năng của tặng cách</h3>
+<p>Xác định: tân ngữ gián tiếp · tặng cách sở hữu · tân ngữ tặng cách khác · tặng cách sau giới từ · tặng cách công cụ:</p>
+<ol>
+<li class="gk">τοῖς θεοῖς πιστεύομεν.</li>
+<li class="gk">τοῖς λίθοις βάλλομεν.</li>
+<li class="gk">τῷ βασιλεῖ ἄγγελον πέμπουσιν.</li>
+<li class="gk">ἐν τῇ γῇ ἐσμέν.</li>
+<li class="gk">Τῷ Διὶ ὁ οὐρανὸς καὶ ἡ γῆ εἰσίν.</li>
+</ol>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 5</h4>
+<ol>
+<li><strong>Tân ngữ tặng cách khác</strong> (tin tưởng <em>ai</em> — <span class="gk">πιστεύω + Dat.</span>; tiếng Anh/Việt dùng tân ngữ trơn).</li>
+<li><strong>Tặng cách công cụ</strong> (trạng ngữ: "bằng cái gì?" — bằng đá; cắt đi vẫn ném được).</li>
+<li><strong>Tân ngữ gián tiếp</strong> (người nhận; kèm tân ngữ đối cách <span class="gk">ἄγγελον</span>).</li>
+<li><strong>Tặng cách sau giới từ</strong> (<span class="gk">ἐν + Dat.</span> — bài 1; <span class="gk">ἐσμέν</span> = "chúng tôi ở", 1 Pl. của εἶναι).</li>
+<li><strong>Tặng cách sở hữu</strong> (với <span class="gk">εἶναι</span> → "thuộc về / có").</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 6 — AcI</h3>
+<ol>
+<li>Dịch và xác định đối cách chủ ngữ + nguyên mẫu vị ngữ: <span class="gk">λέγομεν τοὺς ἀνθρώπους σοφοὺς εἶναι.</span></li>
+<li>Chuyển câu ὅτι sau đây thành AcI: <span class="gk">λέγεις, ὅτι οἱ Ἀθηναῖοι τοῦ φιλοσόφου κατηγοροῦσιν.</span></li>
+<li>Dịch sang tiếng Hy Lạp (AcI): "Chúng tôi tin rằng các vị thần khôn ngoan."</li>
+</ol>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 6</h4>
+<ol>
+<li>Đối cách chủ ngữ = <span class="gk">τοὺς ἀνθρώπους</span>, nguyên mẫu vị ngữ = <span class="gk">εἶναι</span> (kèm <span class="gk">σοφοὺς</span> — đối cách kép của mục 6.5). — <em>We say that the people are wise.</em> — Chúng tôi nói rằng con người khôn ngoan.</li>
+<li class="gk">λέγεις τοὺς Ἀθηναίους τοῦ φιλοσόφου κατηγορεῖν.</li>
+<li class="gk">νομίζομεν τοὺς θεοὺς σοφοὺς εἶναι.</li> (<span class="gk">νομίζω</span> là động từ kích hoạt nhóm 1; "các vị thần" → đối cách, "khôn ngoan" → đối cách, "là" → nguyên mẫu <span class="gk">εἶναι</span>.)
+</ol>
+</div></div>
+
+<h3>Bài tập 7 — Câu tổng hợp (mệnh lệnh + phủ định + tặng cách + đối cách)</h3>
+<p>Dịch câu sau, rồi "mổ xẻ" từng thành phần theo công cụ của bài:</p>
+<p class="gk" style="font-size:1.1em;">μὴ πέμπετε τῷ βασιλεῖ ἄγγελον!</p>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 7</h4>
+<p><em>Do not send the king a messenger!</em> — Đừng gửi cho đức vua một người đưa tin nào!</p>
+<ul>
+<li><span class="gk">μὴ</span> + <span class="gk">πέμπετε</span>: phủ định mệnh lệnh 2 Pl. (hình thức mệnh lệnh = chỉ định 2 Pl.).</li>
+<li><span class="gk">τῷ βασιλεῖ</span>: tân ngữ gián tiếp — <em>người nhận</em> (tặng cách).</li>
+<li><span class="gk">ἄγγελον</span>: tân ngữ — <em>vật được gửi</em> (đối cách).</li>
+</ul>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 4 — Graecum VN · Biên soạn bởi Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN — Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Bản đọc đối chiếu: Epikur, Brief an Menoikeus 128; 131–132; Diogenes Laertios 7,7 (Perseus, public domain).</p>
+
+</main>
+</body>
+</html>
