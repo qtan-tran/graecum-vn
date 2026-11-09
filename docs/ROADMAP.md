@@ -1,4 +1,4 @@
-# ROADMAP phát triển project — cập nhật lần 8 (Phần 3 hoàn thành)
+# ROADMAP phát triển project — cập nhật lần 9 (Phần 5 bắt đầu: Lesson 7 publish)
 
 > **Quy ước làm việc**: công việc chia thành **Phần (Part)**; cuối mỗi Phần ghi **Continuation notes** vào file này. Cứ **6–7 steps** thì bản roadmap này được cập nhật và báo cáo lại cho người sở hữu project. Tốc độ không quan trọng — tính bền vững và chất lượng mới quyết định.
 
@@ -18,12 +18,23 @@
 | **2** | Tạo repo GitHub + push Phần 1 + bật GitHub Pages; chuẩn hóa pilot: chuyển hóa **Lesson 1** sang quy ước mới (thuật ngữ tiếng Việt là chính, bảng 4 cột có phiên âm, Latin corner) | ✅ XONG (còn chờ user xác nhận bật Pages) |
 | **3** | Chuyển hóa Lesson 2–6 sang quy ước mới, audit bản quyền từng bài; kèm yêu cầu mới: **ghi công tác giả (BY) trên COPYRIGHT + footer mọi bài giảng**; mở rộng: **lớp tiếng Anh (EN edition)** cho repo + bài giảng | ✅ XONG phần lõi (L2–L6 ✅, EN pilot L1 ✅) — pipeline EN L2–L5 chuyển tiếp |
 | **4** | Repo `greek-toolkit-vn` (hub tools + so sánh tài liệu) | ☐ |
-| **5** | Lesson 7–10 mới hoàn chỉnh (bắt đầu phần curriculum chưa có bản thảo) + readings pipeline (bản simplified đầu tiên) | ☐ |
+| **5** | Lesson 7–10 mới hoàn chỉnh (bắt đầu phần curriculum chưa có bản thảo) + readings pipeline (bản simplified đầu tiên) | 🔄 ĐANG LÀM (L7 ✅) |
 | **6** | Vocab TSV + script sinh Anki deck cho L1–10 (CC BY-SA) | ☐ |
 | **7–12** | Lesson 11–24 (hoàn thành Graecum I); cập nhật roadmap giữa chừng | ☐ |
 | **13+** | Graecum II (L25–48) + satzanalyse platform + cộng đồng | ☐ |
 
-## Continuation notes — Phần 3 (đang làm)
+## Continuation notes — Phần 5 (đang làm)
+
+**Đã làm:**
+- **Lesson 7 publish (bài đầu Phần 5 — bài đầu tiên biên soạn hoàn toàn từ CURRICULUM, không còn bản thảo canvas)** — `lessons/07-third-declension-imperatives/index.html` (~47KB, 11 mục): chia thứ ba I thân phụ âm (khái niệm "thân ẩn": chủ cách số ít che thân, sở hữu cách là chìa khóa; công thức từ điển "chủ cách, sở hữu cách"), paradigm **σῶμα** (trung tính -μα, chủ = đối, tặng nhiều -σι(ν) với τ+σ gần câm; Latin corner nōmen/nōminis), **ποιμήν/ῥήτωρ** (đực -ην/-ωρ; pattern: thân âm mũi ν "nuốt" ν trước σ → ποιμέσι(ν) vs ῥήτορσι(ν) giữ ρ; cạm bẫy -ην dài vs -ι ngắn tặng cách), **πόλις** (mẫu -ις: -εως/-ει/-ιν; acc nhiều -ς vì giống cái, Latin corner cīvis/pólēsi↔cīvibus), bản đồ đuôi khuôn chung 1 lần cho cả ba mẫu + chiến lược đọc nâng cấp "mạo từ + đuôi xác nhận lẫn nhau" (cạm bẫy -ος chủ cách nhóm o vs -ος sở hữu cách chia thứ ba), hệ thống mệnh lệnh hiện tại **đủ số × ngôi × thức** (bảng hoàn chỉnh ngôi 2 đã học + ngôi 3 mới: -έτω/-έτωσαν/-έσθω/-έσθωσαν; nguyên âm chủ đề -ε- lộ mặt — nối với bài 6; mũ cuối là khía nhận diện; ngôi 3 = văn bia/pháp lệnh; Latin phải mượn thức giả định amet), câu cấm đoán **μὴ + mệnh lệnh** (phép thử ý chí 4 bước; "giải phẫu lại" Epicuros μὴ οὖν μέλλετε φιλοσοφεῖν đã đọc ở bài 4; cấm đoán gián tiếp μὴ + ngôi 3), bài đọc simplified **tự biên soạn** theo chủ đề Longos, Daphnis und Chloe 1,9–13 ("Người chăn dê và đứa trẻ": mạo từ lặp ὁ Λάμων ὁ ποιμὴν, τῷ Δάφνιτι (-ις), ὦ παῖ, hai mệnh lệnh hai thức ἀγαθὸς γίγνου + θεράπευε, μὴ φοβοῦ deponent, ἐν μὲν τῇ πόλει / ἐν δὲ ταῖς αὐλαῖς, kết bằng ngôi 3 θεραπευέτωσαν — pháp lệnh chăn dê hài hước đúng không khí mục đồng của Longos), confusables 10 hàng, 6 bài tập + đáp án ẩn. lessons.json L7 `published, rev 2` + homepage flip (1–7 "đã xuất bản", hàng dở dang còn "8–24"). QA script tự viết bắt được 9 lỗi soạn trước khi push (translit ngắt dòng theráp\neue, chữ n Latin lọt vào ποιμήn 2 chỗ, oxytone cần huyền ἐχθροὶ, quote lạc, ghi chú đáp án πολίταις garbled, translit grave/sắc cuối câu), sau vá: cân bằng thẻ sạch, không ký tự lạ, không thuật ngữ Đức. Commit: `79c77f4`.
+- **EN L2–L5 tạm dừng** (quyết định người sở hữu): chưa chốt giữ lớp `en/` trong cùng repo hay tách repo riêng cho bản tiếng Anh. Khuyến nghị đã ghi lại cho người sở hữu: **giữ cùng repo** — EN là bản dịch, không phải sản phẩm lệch hướng; một nguồn chuẩn, một ROADMAP theo dõi cả hai bản, cross-link tương đối một cú click, một Pages/license/Issues; chỉ tách nếu một ngày bản EN diverge thành sản phẩm độc lập (khi đó chuyển thư mục `en/` sang repo mới + redirect cũng dễ). EN L1 pilot đã live trong repo — không cần đảo lộn dù chọn phương án nào.
+
+**Bước tiếp theo (Phần 5):**
+1. Chờ người sở hữu chốt phương án EN (cùng repo `en/` — khuyến nghị — vs repo riêng); nếu giữ: dịch EN L2–L5 theo pipeline chuẩn hóa ở pilot EN L1 (bảng 3 cột Hy Lạp/phiên âm/Anh, bỏ audience VN, footer "Compiled by Trần Quốc Tân"), mỗi bài một commit + flip portal EN.
+2. Song song tiếp tục VN: **Lesson 8** — chia thứ ba II (thân nguyên âm, trung tính) + số từ 1–999 (readings: Plutarch Lykurgos; Longos 3) — biên soạn từ CURRICULUM theo đúng pipeline L7 (QA script + lessons.json + homepage flip + push riêng).
+3. Sau mỗi bài: QA checklist đầy đủ, cập nhật lessons.json (published, rev 2), homepage flip, push riêng từng commit, ROADMAP cập nhật mỗi 6–7 steps.
+
+## Continuation notes — Phần 3 (kết thúc)
 
 **Yêu cầu mới của người sở hữu (đã ghi thành quy ước):**
 - Project miễn phí nhưng phải ghi rõ: các bài giảng **biên soạn bởi Tân**; ai cite hoặc tái sử dụng material **phải ghi công**: (1) tên tác giả, (2) tên project + link repo, (3) license CC BY-SA 4.0.
@@ -49,7 +60,7 @@
 - `github_app.get_file_contents` không đọc được text programmatically trong sandbox (object mờ, chỉ hiện qua echo) → lấy file từ repo bằng `curl` (môi trường upgraded) + `diff` theo URL kèm commit-sha; push vẫn qua `push_files` (đọc file durable bằng `file_system.read_file`, nối vòng lặp truncation).
 - File scratch `/home/user/graecum-vn/` không bền (remount xóa) — sau push, repo GitHub là nguồn chuẩn; nếu cần lại file thì curl về.
 
-**Phần 3 (phần lõi) HOÀN THÀNH — L6 đã publish (`3687aa7`). Pipeline chuyển tiếp (EN edition):**
+**Phần 3 (phần lõi) HOÀN THÀNH — L6 đã publish (`3687aa7`). Pipeline chuyển tiếp (EN edition) — TẠM DỪNG, chờ người sở hữu quyết định cùng repo vs repo riêng (xem Phần 5):**
 1. EN L2–L5: dịch theo đúng pipeline L1 EN (bảng 3 cột Hy Lạp/phiên âm/Anh, bỏ cột + câu dẫn audience VN, footer EN "Compiled by Trần Quốc Tân", cross-link về bản Việt). Sau mỗi bài: QA + flip `en/index.html` + push riêng.
 2. (Ghi chú: EN L6 dịch sau khi EN L2–L5 xong, để portal EN không nhảy trạng thái.)
 
@@ -107,3 +118,4 @@
 - Lần 6 (giữa Phần 3): Lesson 5 publish (hiện tại trung/bị động, deponent, tính từ danh từ hóa & τις/τι; bài đọc châm ngôn simplified theo Stobaios/Marc Aurel) + fix định nghĩa deponent trong CURRICULUM — commit `8347385`; còn L6.
 - Lần 7 (giữa Phần 3): ghi công đầy đủ "Trần Quốc Tân" mọi chỗ + dòng affiliation (Postdoctoral Researcher, Bielefeld University) vào README & COPYRIGHT — commit `bef1c37`; mở lớp tiếng Anh: README.en.md + portal EN + Lesson 1 EN (pilot), cross-link VN ↔ EN — commit `90b3556`; còn L6 VN + EN L2–L5.
 - Lần 8 (Phần 3 phần lõi hoàn thành): Lesson 6 publish (δύναμαι + đại từ chỉ định ὅδε/ἐκεῖνος + εἶναι đầy đủ; εἶ vs εἰ; bài đọc Homer Od. 16.181–206 simplified) — commit `3687aa7`; L1–L6 đều published, homepage 1–6 "đã xuất bản"; pipeline còn lại: EN L2–L5 (rồi EN L6).
+- Lần 9 (Phần 5 bắt đầu): Lesson 7 publish (chia thứ ba I thân phụ âm; hệ thống mệnh lệnh đủ số/ngôi với ngôi 3 -έτω/-έτωσαν/-έσθω/-έσθωσαν; câu cấm đoán μὴ + mệnh lệnh; bài đọc Longos 1,9–13 simplified) — commit `79c77f4`; L1–L7 đều published, homepage 1–7 "đã xuất bản"; EN L2–L5 tạm dừng chờ người sở hữu quyết định cùng repo `en/` (khuyến nghị) hay repo riêng; kế hoạch tiếp: L8 VN (chia thứ ba II thân nguyên âm + số từ 1–999).
