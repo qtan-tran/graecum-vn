@@ -15,7 +15,7 @@
 | Phần | Nội dung | Trạng thái |
 | --- | --- | --- |
 | **1** | Kiến trúc + tài liệu nền (README, ARCHITECTURE, STYLE, COPYRIGHT, CURRICULUM 48 bài, ROADMAP) + portal skeleton + lesson template | ✅ XONG |
-| **2** | Tạo repo GitHub + push Phần 1 + bật GitHub Pages; chuẩn hóa pilot: chuyển hóa **Lesson 1** sang quy ước mới (thuật ngữ Anh, bảng 4 cột có transliteration, Latin corner) | ▶ ĐANG LÀM: push xong (commit 3b4d527); chờ bật Pages (user) + pilot Lesson 1 |
+| **2** | Tạo repo GitHub + push Phần 1 + bật GitHub Pages; chuẩn hóa pilot: chuyển hóa **Lesson 1** sang quy ước mới (thuật ngữ tiếng Việt là chính, bảng 4 cột có phiên âm, Latin corner) | ✅ XONG (còn chờ user xác nhận bật Pages) |
 | **3** | Chuyển hóa Lesson 2–6 sang quy ước mới, audit bản quyền từng bài | ☐ |
 | **4** | Repo `greek-toolkit-vn` (hub tools + so sánh tài liệu) | ☐ |
 | **5** | Lesson 7–10 mới hoàn chỉnh (bắt đầu phần curriculum chưa có bản thảo) + readings pipeline (bản simplified đầu tiên) | ☐ |
@@ -23,16 +23,24 @@
 | **7–12** | Lesson 11–24 (hoàn thành Graecum I); cập nhật roadmap giữa chừng | ☐ |
 | **13+** | Graecum II (L25–48) + satzanalyse platform + cộng đồng | ☐ |
 
-## Continuation notes — Phần 2 (đang làm)
+## Continuation notes — Phần 2 (kết thúc)
 
 **Đã làm:**
-- Repo `qtan-tran/graecum-vn` (public) được tạo bởi người sở hữu; push Phần 1 (14 file) lên `main` thành công — commit `3b4d527`.
-- GitHub Pages: connector không có tool bật Pages → người sở hữu bật thủ công: Settings → Pages → Source "Deploy from a branch" → `main` / `(root)` → Save. URL dự kiến: `https://qtan-tran.github.io/graecum-vn/`.
+- Repo `qtan-tran/graecum-vn` (public) được tạo bởi người sở hữu; push Phần 1 (14 file) — commit `3b4d527`.
+- **Chuyển hướng thuật ngữ (quyết định người sở hữu, ADR-003 cập nhật):** bản publish dùng **tiếng Việt là chính**; chỉ khái niệm khó mới mở ngoặc thuật ngữ Anh (hiatus, vocative, ablative, attributive position, dative of possession…). Bộ tên cách chuẩn: chủ cách (Nom.), sở hữu cách (Gen.), tặng cách (Dat.), đối cách (Acc.), hô cách (Voc.). Không dùng tiếng Đức.
+- Cập nhật chính sách vào: STYLE-AND-CONVENTIONS.md, ARCHITECTURE.md (ADR-003), README.md, index.html (portal), KNOWLEDGE.md.
+- Viết lại `docs/CURRICULUM.md` → **"Đề cương giáo án 48 bài"** (thuật ngữ tiếng Việt; cột bài đọc giữ nguyên).
+- **Pilot Lesson 1 đã publish**: `lessons/01-foundations/index.html` (~61KB): 16 mục, bảng 4 cột có phiên âm, Latin corner, bài đọc simplified tự biên soạn theo chủ đề Homer Ilias 15.187–193 ("Ba anh em thần": tặng cách sở hữu + μέν…δέ, câu hoàn toàn tự viết), từ vựng ★ có phiên âm, bảng confusables 13 hàng, 7 bài tập + đáp án ẩn hiện khi in. Audit bản quyền: mọi câu ví dụ tự biên soạn; chỉ dẫn nguồn: Homer Ilias 15.187–193 (Perseus, PD). lessons.json: L1 `status: published, rev: 2`.
+- Commit Phần 2: `83a038d` (docs + curriculum + lessons.json + Lesson 1) + commit vá typo tiếng Việt.
+- QA checklist đã chạy: cân bằng thẻ, không ký tự lạ (CJK/Cyrillic), không thuật ngữ Đức, không source-identifying info.
 
-**Bước tiếp theo trong Phần 2:**
-1. Chuyển hóa Lesson 1 (bản thảo canvas hiện có) sang quy ước mới: thuật ngữ Anh, bảng 4 cột có phiên âm, Latin corner thay ví dụ Đức, ví dụ EN/VI; viết lại các câu ví dụ lấy từ Lektionstext gốc thành câu tự biên soạn (audit bản quyền).
-2. Bài đọc Lesson 1: bản simplified tự biên soạn theo chủ đề Iliad 15.187–193 (chia ba vương quốc); bản gốc PD tích hợp sau ở readings pipeline (Phần 5) khi fetch text chính xác từ Perseus.
-3. QA theo checklist → cập nhật lessons.json (`status: published`, `rev: 2`) → push → portal live.
+**Còn treo trong Phần 2:**
+- GitHub Pages: người sở hữu bật thủ công (Settings → Pages → Deploy from branch → `main` / `(root)` → Save) → URL `https://qtan-tran.github.io/graecum-vn/`. Chưa xác nhận đã bật.
+
+**Bước tiếp theo (Phần 3):**
+1. Chuyển hóa Lesson 2–6 (bản thảo canvas) sang quy ước mới theo đúng template pilot L1: thuật ngữ VN-là-chính, bảng 4 cột phiên âm, Latin corner thay ví dụ Đức, viết lại câu lấy từ Lektionstext gốc thành câu tự biên soạn, audit bản quyền từng bài.
+2. Thứ tự đề xuất: L2 (Verben đủ ngôi + vocative) → L3 (ellipsis + trung tính nhiều) → L4 (đại từ + mệnh lệnh) → L5 (medium/passiv) → L6 (δύναμαι + demonstrativa).
+3. Sau mỗi bài: QA checklist + cập nhật lessons.json (published, rev 2) + push riêng từng commit.
 
 ## Continuation notes — Phần 1 (kết thúc)
 
@@ -60,3 +68,4 @@
 ## Lịch sử cập nhật roadmap
 
 - Lần 1 (Phần 1): tạo file; trạng thái ban đầu; connector GitHub không tạo được repo — chuyển bước tạo repo về người sở hữu.
+- Lần 2 (Phần 2): pilot Lesson 1 publish thành công; ADR-003 cập nhật sang chính sách "thuật ngữ tiếng Việt là chính"; CURRICULUM đổi tên thành "Đề cương giáo án 48 bài"; bước tiếp theo = Phần 3 (chuyển hóa L2–6).
