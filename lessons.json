@@ -103,19 +103,20 @@
       "id": "05-medium-passive",
       "num": 5,
       "level": "graecum-1",
-      "title": "Middle, passive & deponent verbs",
+      "title": "Hiện tại trung/bị động, động từ deponent, tính từ danh từ hóa & τις/τι",
       "topics": [
-        "present middle/passive",
-        "deponents",
-        "substantivized adjectives",
-        "tis/ti"
+        "hiện tại trung/bị động (chỉ định, mệnh lệnh, nguyên mẫu)",
+        "cách dịch bị động vs trung",
+        "động từ deponent",
+        "tính từ danh từ hóa",
+        "τις/τι vs τί"
       ],
       "reading": [
         "Stobaios II 7,11g-i",
         "Marc Aurel 9,40"
       ],
-      "status": "draft-legacy",
-      "rev": 1
+      "status": "published",
+      "rev": 2
     },
     {
       "id": "06-dynamai-demonstratives",

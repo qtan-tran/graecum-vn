@@ -19,7 +19,7 @@
 | 2 | Chia động từ hiện tại chủ động đủ các ngôi; hô cách (vocative); nguyên mẫu II (chủ ngữ vs tân ngữ); đối cách kép (double accusative); né vực nguyên âm (hiatus) & ν di động | Platon, Apologie 26c–d; Lukian, Deorum dialogi 10 |
 | 3 | Lược từ (ellipsis); chủ ngữ trung tính số nhiều; trạng từ | Aristoteles, Magna Moralia 1,1; Anaxagoras, DK 59A42 |
 | 4 | Đại từ nhân xưng; mệnh lệnh cách; phủ định (οὐ/μή); các dụng pháp tặng cách; nguyên mẫu tân ngữ (accusativus cum infinitivo) bước đầu | Diogenes Laertios 7,7; Epikur, Brief an Menoikeus 128; 131–132 |
-| 5 | Hiện tại trung/bị động; động từ hình thức chủ động – nghĩa bị động (deponent); tính từ danh từ hóa; τις/τι | Stobaios II 7,11g–i; Marc Aurel, Tà eis heautón 9,40 |
+| 5 | Hiện tại trung/bị động; động từ hình thức trung/bị động – nghĩa chủ động (deponent); tính từ danh từ hóa; τις/τι | Stobaios II 7,11g–i; Marc Aurel, Tà eis heautón 9,40 |
 | 6 | δύναμαι; đại từ chỉ định (ὅδε, ἐκεῖνος); εἶναι II | Homer, Odyssee 6,187–197; 16,181–206 |
 | 7 | Chia thứ ba I: thân phụ âm (3rd declension); hệ thống mệnh lệnh đủ số/ngôi; câu cấm đoán (prohibitions, μή) | Dio Chrysostomos, Or. 7; Longos 1,9–13 |
 | 8 | Chia thứ ba II: thân nguyên âm, trung tính; số từ 1–999 | Plutarch, Lykurgos; Longos 3 |
