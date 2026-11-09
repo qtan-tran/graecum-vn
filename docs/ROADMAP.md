@@ -1,4 +1,4 @@
-# ROADMAP phát triển project — cập nhật lần 4 (giữa Phần 3)
+# ROADMAP phát triển project — cập nhật lần 5 (giữa Phần 3)
 
 > **Quy ước làm việc**: công việc chia thành **Phần (Part)**; cuối mỗi Phần ghi **Continuation notes** vào file này. Cứ **6–7 steps** thì bản roadmap này được cập nhật và báo cáo lại cho người sở hữu project. Tốc độ không quan trọng — tính bền vững và chất lượng mới quyết định.
 
@@ -16,7 +16,7 @@
 | --- | --- | --- |
 | **1** | Kiến trúc + tài liệu nền (README, ARCHITECTURE, STYLE, COPYRIGHT, CURRICULUM 48 bài, ROADMAP) + portal skeleton + lesson template | ✅ XONG |
 | **2** | Tạo repo GitHub + push Phần 1 + bật GitHub Pages; chuẩn hóa pilot: chuyển hóa **Lesson 1** sang quy ước mới (thuật ngữ tiếng Việt là chính, bảng 4 cột có phiên âm, Latin corner) | ✅ XONG (còn chờ user xác nhận bật Pages) |
-| **3** | Chuyển hóa Lesson 2–6 sang quy ước mới, audit bản quyền từng bài; kèm yêu cầu mới: **ghi công tác giả (BY) trên COPYRIGHT + footer mọi bài giảng** | 🔄 ĐANG LÀM (L2, L3 ✅; còn L4–6) |
+| **3** | Chuyển hóa Lesson 2–6 sang quy ước mới, audit bản quyền từng bài; kèm yêu cầu mới: **ghi công tác giả (BY) trên COPYRIGHT + footer mọi bài giảng** | 🔄 ĐANG LÀM (L2–L4 ✅; còn L5–6) |
 | **4** | Repo `greek-toolkit-vn` (hub tools + so sánh tài liệu) | ☐ |
 | **5** | Lesson 7–10 mới hoàn chỉnh (bắt đầu phần curriculum chưa có bản thảo) + readings pipeline (bản simplified đầu tiên) | ☐ |
 | **6** | Vocab TSV + script sinh Anki deck cho L1–10 (CC BY-SA) | ☐ |
@@ -38,15 +38,15 @@
 - **GitHub Pages đã bật và xác nhận live** (`https://qtan-tran.github.io/graecum-vn/`). Vấn đề phát hiện: link `docs/*.md` trên Pages chỉ hiện text thô (static site không render Markdown) + homepage cũ (tiêu đề Anh, link bài 3–6 bị 404). Đã sửa: mọi link tài liệu trỏ sang giao diện GitHub blob (render đẹp, zero-maintenance); homepage bảng bài giảng chuyển tiêu đề tiếng Việt + trạng thái đúng thực tế (1–3 "đã xuất bản", 4–6 "đang biên soạn" không link); CURRICULUM sửa 2 link `docs/READINGS.md` → `readings/README.md` (file không tồn tại).
 - **Lesson 3 publish** — `lessons/03-ellipsis-neuter-plural/index.html` (~38KB, 8 mục): lược từ (ellipsis) + câu danh ngữ (nominal sentence), chủ ngữ trung tính số nhiều → động từ số ít (+ liên hệ Ấn-Âu/Hittite/Latin cổ), **trạng từ** (mục CURRICULUM yêu cầu, bản thảo canvas thiếu — tự biên soạn: -ος → -ως, ἀγαθός→ἀγαθῶς, ταχέως), bài đọc simplified tự biên soạn theo chủ đề Anaxagoras DK 59A42 + Aristoteles Magna Moralia 1,1 ("các ngôi sao của Anaxagoras": 3 câu danh ngữ), Latin corners (ars longa vita brevis; bonus→bene), confusables 9 hàng, 6 bài tập + đáp án ẩn. lessons.json L3 `published, rev 2`. Commit: `d6b34f8`.
 - **Chuẩn hóa vị trí dấu thanh Hy Lạp (quy ước publish mới, ghi vào STYLE)**: oxytone cuối câu/nghỉ → dấu sắc; trước từ Hy Lạp kế tiếp → dấu huyền (ἐστίν. nhưng ἐστιν ἐν τῷ οὐρανῷ; λαμπρὰ ἐστίν; πολλὰ γάρ). Sửa đồng loạt L1 (19 chỗ ἐστιν huyền sai vị trí → sắc; ἀδελφοὶ ε…; ἐστι(ν) notation thiếu dấu) + L2 (μετά citations) + L3. Script chuẩn hóa dùng NFD-swap, mọi biến thể codepoint (U+03AF/U+1F77/U+1F76).
+- **Lesson 4 publish** — `lessons/04-pronouns-imperative/index.html` (~69KB, 10 mục): đại từ nhân xưng (bảng đầy đủ ngôi 1–2: dạng nhấn mạnh vs enclitic + quy tắc chọn + trọng âm enclitic ἄνθρωπός σου; liên hệ pháp moi/te, Ấn-Âu ego/tu), bản đồ chức năng sở hữu cách (3-câu-hỏi tự kiểm tra; tân ngữ sở hữu cách κατηγορέω + Gen.; định ngữ chỉ sở hữu vs phân chia; hai cách dịch của đại từ ἡμῶν), mệnh lệnh cách hiện tại chủ động (2 Sg. -ε / 2 Pl. = chỉ định; 5 thông tin dạng động từ), phủ định οὐ/μή (+ Latin corner nōn/nē, nē timuerīs), bản đồ tặng cách (tân ngữ gián tiếp; tặng cách sở hữu với εἶναι — ôn bài 1 + bẫy đảo vai khi dịch; tặng cách sau giới từ σύν/ἐν + giới từ lưỡng tính μετά/πρός; tặng cách công cụ + excursus trạng ngữ với thí nghiệm "cắt từ" tiếng Việt), AcI bước đầu (so sánh câu ὅτι vs AcI, giải phẫu 4 thành phần, 7 bước dịch, 3 nhóm động từ kích hoạt, cảnh báo khác Latin với động từ tri giác, đối cách kép với εἶναι + liên hệ "believe him to be wise"), bài đọc simplified tự biên soạn theo chủ đề Epikur Brief an Menoikeus 128; 131–132 + Diogenes Laertios 7,7 (4 câu: μὴ μέλλε φιλοσοφεῖν / δεῖ γὰρ ἡμᾶς φιλοσοφεῖν / μὴ νόμιζε τοὺς θεοὺς κακοὺς εἶναι / ὁ θάνατος οὐδὲν ἡμῖν ἐστίν — dùng đúng công cụ của bài: mệnh lệnh + μὴ, AcI δεῖ + acc + inf, tặng cách), confusables 12 hàng, 7 bài tập + đáp án ẩn. Quy ước dấu thanh áp dụng ngay từ lúc soạn (ἐστίν/εἰσín cuối câu sắc; σοφὸς ἐστίν huyền). lessons.json L4 `published, rev 2` + homepage L4 flip. Commit: `eae8164`.
 
 **Ghi chú vận hành mới (Phần 3):**
 - `github_app.get_file_contents` không đọc được text programmatically trong sandbox (object mờ, chỉ hiện qua echo) → lấy file từ repo bằng `curl` (môi trường upgraded) + `diff` theo URL kèm commit-sha; push vẫn qua `push_files` (đọc file durable bằng `file_system.read_file`, nối vòng lặp truncation).
 - File scratch `/home/user/graecum-vn/` không bền (remount xóa) — sau push, repo GitHub là nguồn chuẩn; nếu cần lại file thì curl về.
 
 **Còn trong Phần 3 (pipeline mỗi bài: đọc canvas → chuyển hóa → QA → lessons.json → push riêng):**
-1. L4: đại từ nhân xưng + mệnh lệnh + phủ định οὐ/μή + AcI bước đầu + tặng cách các dụng pháp (bản đọc: Diogenes Laertios 7,7; Epikur, Brief an Menoikeus 128; 131–132).
-2. L5: trung/bị động hiện tại + động từ khuất (deponent) + tính từ danh từ hóa + τις/τι đầy đủ.
-3. L6: δύναμαι + đại từ chỉ định (ὅδε/οὗτος); εἶ vs εἰ.
+1. L5: trung/bị động hiện tại + động từ khuất (deponent) + tính từ danh từ hóa + τις/τι đầy đủ.
+2. L6: δύναμαι + đại từ chỉ định (ὅδε/οὗτος); εἶ vs εἰ.
 
 **Quy ước dấu thanh cần ghi thêm vào STYLE-AND-CONVENTIONS khi có dịp**: vị trí huyền/sắc theo quy tắc trên; notation paradigm dùng ἐστί(ν)/εἰσί(ν) (sắc + ν tùy chọn).
 
@@ -98,3 +98,4 @@
 - Lần 2 (Phần 2): pilot Lesson 1 publish thành công; ADR-003 cập nhật sang chính sách "thuật ngữ tiếng Việt là chính"; CURRICULUM đổi tên thành "Đề cương giáo án 48 bài"; bước tiếp theo = Phần 3 (chuyển hóa L2–6).
 - Lần 3 (giữa Phần 3): yêu cầu ghi công tác giả (BY) triển khai đầy đủ (COPYRIGHT §4, README, portal footer, template, footer L1) — commit `36764b8`; Lesson 2 publish + lessons.json — commit `5c34b2a`; footer chuẩn mọi bài định hình; còn L3–6.
 - Lần 4 (giữa Phần 3): Pages xác nhận live; chuẩn hóa ghi công chỉ còn "Tân" + homepage overhaul (link docs sang GitHub blob, tiêu đề VN, trạng thái đúng) — commit `e791e17`; Lesson 3 publish — commit `d6b34f8`; quy ước vị trí dấu thanh Hy Lạp áp dụng cho L1–L3; còn L4–6.
+- Lần 5 (giữa Phần 3): Lesson 4 publish (đại từ nhân xưng, mệnh lệnh cách, phủ định, tặng cách & AcI bước đầu; bài đọc Epikur Menoikeus simplified) — commit `eae8164`; dấu thanh áp dụng ngay từ lúc soạn; còn L5–6.
