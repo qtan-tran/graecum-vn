@@ -1,4 +1,4 @@
-# ROADMAP phát triển project — cập nhật lần 1 (sau Phần 1)
+# ROADMAP phát triển project — cập nhật lần 3 (giữa Phần 3)
 
 > **Quy ước làm việc**: công việc chia thành **Phần (Part)**; cuối mỗi Phần ghi **Continuation notes** vào file này. Cứ **6–7 steps** thì bản roadmap này được cập nhật và báo cáo lại cho người sở hữu project. Tốc độ không quan trọng — tính bền vững và chất lượng mới quyết định.
 
@@ -16,12 +16,34 @@
 | --- | --- | --- |
 | **1** | Kiến trúc + tài liệu nền (README, ARCHITECTURE, STYLE, COPYRIGHT, CURRICULUM 48 bài, ROADMAP) + portal skeleton + lesson template | ✅ XONG |
 | **2** | Tạo repo GitHub + push Phần 1 + bật GitHub Pages; chuẩn hóa pilot: chuyển hóa **Lesson 1** sang quy ước mới (thuật ngữ tiếng Việt là chính, bảng 4 cột có phiên âm, Latin corner) | ✅ XONG (còn chờ user xác nhận bật Pages) |
-| **3** | Chuyển hóa Lesson 2–6 sang quy ước mới, audit bản quyền từng bài | ☐ |
+| **3** | Chuyển hóa Lesson 2–6 sang quy ước mới, audit bản quyền từng bài; kèm yêu cầu mới: **ghi công tác giả (BY) trên COPYRIGHT + footer mọi bài giảng** | 🔄 ĐANG LÀM (L2 ✅; còn L3–6) |
 | **4** | Repo `greek-toolkit-vn` (hub tools + so sánh tài liệu) | ☐ |
 | **5** | Lesson 7–10 mới hoàn chỉnh (bắt đầu phần curriculum chưa có bản thảo) + readings pipeline (bản simplified đầu tiên) | ☐ |
 | **6** | Vocab TSV + script sinh Anki deck cho L1–10 (CC BY-SA) | ☐ |
 | **7–12** | Lesson 11–24 (hoàn thành Graecum I); cập nhật roadmap giữa chừng | ☐ |
 | **13+** | Graecum II (L25–48) + satzanalyse platform + cộng đồng | ☐ |
+
+## Continuation notes — Phần 3 (đang làm)
+
+**Yêu cầu mới của người sở hữu (đã ghi thành quy ước):**
+- Project miễn phí nhưng phải ghi rõ: các bài giảng **biên soạn bởi Tân (Quoc-Tan Tran)**; ai cite hoặc tái sử dụng material **phải ghi công**: (1) tên tác giả, (2) tên project + link repo, (3) license CC BY-SA 4.0.
+- Đã cập nhật 6 chỗ: `docs/COPYRIGHT.md` (§4 "License & ghi công tác giả": 3 yêu cầu tối thiểu + dòng ghi công mẫu VN/EN), `README.md` (blockquote "Biên soạn bởi Tân" + section "Cách ghi công (bắt buộc khi tái sử dụng)"), `index.html` (footer), `docs/STYLE-AND-CONVENTIONS.md` (mục 9: footer spec), `lessons/_template/lesson.html` (footer chuẩn), footer Lesson 1. Commit: `36764b8`.
+- **Footer chuẩn mọi bài** (đã định hình, L1+L2+template đồng bộ): `Bài giảng Lesson N — Graecum VN · Biên soạn bởi Tân (Quoc-Tan Tran) · CC BY-SA 4.0 · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN — Tân (Quoc-Tan Tran), https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF)` (+ dòng "Bản đọc đối chiếu: …" nếu bài có bài đọc).
+
+**Đã làm:**
+- **Lesson 2 publish** — `lessons/02-verbs-present-vocative/index.html` (~61KB, 13 mục): hiện tại chủ động đủ 6 ngôi (paradigm θεραπεύω + πείθω), hô cách + ngoại lệ đực -ος → -ε (ὦ ἄνθρωπε), nguyên mẫu làm chủ ngữ (δεῖ) vs tân ngữ (ἐθέλω) + cảnh báo AcI (bài 4), đối cách kép 2 loại (διδάσκω "dạy ai cái gì" / νομίζω "coi là": tân ngữ có mạo từ + biểu ngữ không mạo từ), οὐ/οὐκ/οὐχ + ngoại lệ οὐκ ἔστι, τί/τι + ἆρα (mũ, hỏi) vs ἄρα (sắc, kết luận) + bộ ba ἤ/ἡ/ἦ, βασιλεύς chỉ chủ cách (chia đủ bài 18), động từ kéo theo cách riêng (κατηγορέω + Gen.), né vực nguyên âm: ν di động + lược âm (ἀλλ' ἐγώ, μεθ' ἡμῶν τ→θ, nhóm không elide περί/πρό/ὅτι/τι/τί), bài đọc simplified **tự biên soạn** theo Platon Apologie 26c–27a ("Socrates trước tòa", 4 câu: ὦ ἄνθρωπε + οὐ/οὐκ + ἄρα sắc + đối cách kép), Latin corners (amo↔θεραπεύω, dominus→domine, a/an↔οὐ/οὐκ, puto Socratem sapientem↔νομίζω), confusables 14 hàng, 7 bài tập + đáp án ẩn. lessons.json: L2 `published, rev 2`. Commit: `5c34b2a`.
+- **Audit bản quyền L2**: mọi câu ví dụ + bài đọc tự biên soạn; câu lấy từ Lektionstext gốc (như "πολλὰ διδάσκει με ὁ βίος") đều đã viết lại theo khung của project; chỉ dẫn nguồn: Platon, Apologie 26c–27a (Perseus, PD).
+- **QA L2** (checklist đầy đủ): bắt và vá được 2 ký tự TQ lọt vào ("辩护", "原告"), 3× typo "mảo từ", "động tự", translit sai "ethélōi" → "ethélei", tiểu từ hỏi sai dấu ἄρα → **ἆρα** (mũ), mô tả ἦ/ἡ phân biệt qua dấu hơi; cân bằng thẻ, không còn thuật ngữ Đức. Verify push bằng diff raw file theo commit-sha (CDN raw `main` cache chậm ~5 phút).
+
+**Ghi chú vận hành mới (Phần 3):**
+- `github_app.get_file_contents` không đọc được text programmatically trong sandbox (object mờ, chỉ hiện qua echo) → lấy file từ repo bằng `curl` (môi trường upgraded) + `diff` theo URL kèm commit-sha; push vẫn qua `push_files` (đọc file durable bằng `file_system.read_file`, nối vòng lặp truncation).
+- File scratch `/home/user/graecum-vn/` không bền (remount xóa) — sau push, repo GitHub là nguồn chuẩn; nếu cần lại file thì curl về.
+
+**Còn trong Phần 3 (pipeline mỗi bài: đọc canvas → chuyển hóa → QA → lessons.json → push riêng):**
+1. L3: ellipsis + chủ ngữ trung tính nhiều (bản đọc: Aristoteles, Magna Moralia 1,1; Anaxagoras DK 59A42).
+2. L4: đại từ + mệnh lệnh + AcI + sở hữu cách làm tân ngữ.
+3. L5: medium/passiv; τί/τι đầy đủ.
+4. L6: δύναμαι + demonstrativa; εἶ/εἰ.
 
 ## Continuation notes — Phần 2 (kết thúc)
 
@@ -69,3 +91,4 @@
 
 - Lần 1 (Phần 1): tạo file; trạng thái ban đầu; connector GitHub không tạo được repo — chuyển bước tạo repo về người sở hữu.
 - Lần 2 (Phần 2): pilot Lesson 1 publish thành công; ADR-003 cập nhật sang chính sách "thuật ngữ tiếng Việt là chính"; CURRICULUM đổi tên thành "Đề cương giáo án 48 bài"; bước tiếp theo = Phần 3 (chuyển hóa L2–6).
+- Lần 3 (giữa Phần 3): yêu cầu ghi công tác giả (BY) triển khai đầy đủ (COPYRIGHT §4, README, portal footer, template, footer L1) — commit `36764b8`; Lesson 2 publish + lessons.json — commit `5c34b2a`; footer chuẩn mọi bài định hình; còn L3–6.
