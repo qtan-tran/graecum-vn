@@ -5,11 +5,13 @@
 ## 1. Ngôn ngữ
 
 - **Ngôn ngữ giải thích: tiếng Việt.**
-- **Thuật ngữ ngôn ngữ học: tiếng Việt là chính.** Khái niệm khó hoặc ít quen thuộc mới mở ngoặc thêm thuật ngữ Anh ngay lần đầu để người học tra cứu: *hiatus*, *ellipsis*, *vocative*, *ablative*, *attributive position*, *dative of possession*, *deponent*, *genitive absolute*…
-- Thuật ngữ quen thuộc **chỉ dùng tiếng Việt**, không kèm Anh: danh từ, động từ, tính từ, đại từ, mạo từ, số từ, trạng từ, giới từ, liên từ, nguyên mẫu, phân từ, chủ ngữ, vị ngữ, tân ngữ, định ngữ.
+- **Thuật ngữ ngôn ngữ học: tiếng Việt là chính.** Mọi thuật ngữ linguistics/grammar (kể cả quen thuộc như tân ngữ, định ngữ, nguyên mẫu) mở ngoặc thuật ngữ Anh **ngay lần đầu xuất hiện trong mỗi bài** để người học tra cứu quốc tế; các lần sau chỉ tiếng Việt. Khái niệm đặc biệt khó: *hiatus*, *ellipsis*, *ablative*, *dative of possession*, *genitive absolute*… luôn được giải thích thêm trong `terminology.html`.
+- Thuật ngữ quen thuộc (danh từ, động từ, tính từ, đại từ, mạo từ, trạng từ, giới từ, liên từ, phân từ, chủ ngữ, vị ngữ…) dùng tiếng Việt trong toàn bộ bài; chỉ gloss tiếng Anh **một lần ở lần xuất hiện đầu tiên** (quy tắc gloss bên dưới).
 - Bộ tên cách chuẩn hóa của project (dùng nhất quán mọi bài): **chủ cách (Nom.), sở hữu cách (Gen.), tặng cách (Dat.), đối cách (Acc.), hô cách (Voc.)**.
 - Rationale: người đọc hiểu bản năng bằng tiếng Việt; thuật ngữ Anh trong ngoặc chỉ là "cầu nối tra cứu" (LSJ, Wiktionary, Perseus) khi khái niệm thực sự chuyên sâu. **Không dùng thuật ngữ Đức** trong bản publish (ghi chú: bản thảo L1–6 dùng thuật ngữ Đức — phải chuyển hóa khi publish, xem ROADMAP Phần 3).
 - **Văn bản Hy Lạp: Unicode polytonic** (ὁ ἄνθρωπος, ἐστιν, εἶναι), font-family serif Hy Lạp trong CSS.
+
+**Gloss tiếng Anh cho thuật ngữ linguistics (từ lần cập nhật sau lần 9):** mọi thuật ngữ linguistics/grammar chuyên ngành khi **xuất hiện lần đầu trong mỗi bài** phải kèm khái niệm tiếng Anh trong ngoặc: "thân thời (tense stem)", "định ngữ (attributive)", "tân ngữ (object)"… Lý do: tiếng Anh là chìa khóa tra cứu quốc tế (LSJ, Smyth, toolkit). Trang tổng hợp: `terminology.html` (portal root) — mọi bài mới phải dùng đúng bộ thuật ngữ Việt–Anh đã ghi ở đó; thuật ngữ mới phải được thêm vào trang đó trong cùng một commit.
 
 ## 2. Ví dụ minh họa
 
