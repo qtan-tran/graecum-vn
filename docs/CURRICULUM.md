@@ -2,7 +2,7 @@
 
 > Cấu trúc 48 bài, 2 cấp: **Bài 1–24 = Graecum I** (hình thái đầy đủ + cú pháp nền tảng; đọc văn xuôi Attic đơn giản với từ điển), **Bài 25–48 = Graecum II** (cú pháp nâng cao; đọc văn bản gốc trung–khó: Plato, Xenophon, Homer, Kinh Thánh Hy Lạp).
 >
-> Mỗi bài có 1–2 **bài đọc**: bản **đơn giản hóa do project tự biên soạn** dựa trên chủ đề của văn bản gốc (public domain), kèm dẫn nguồn để người học đọc bản gốc trên Perseus / die-bibel.de… Danh mục văn bản gốc: `docs/READINGS.md`.
+> Mỗi bài có 1–2 **bài đọc**: bản **đơn giản hóa do project tự biên soạn** dựa trên chủ đề của văn bản gốc (public domain), kèm dẫn nguồn để người học đọc bản gốc trên Perseus / die-bibel.de… Danh mục văn bản gốc: `readings/README.md`.
 
 ## Nguyên tắc biên soạn
 
@@ -73,4 +73,4 @@
 
 - Mọi văn bản gốc đều **public domain**; bản đơn giản hóa do project biên soạn là nội dung mới, license CC BY-SA 4.0.
 - Từ bài 39 mỗi bài thường chỉ một bài đọc (độ dài tăng).
-- Nơi đọc bản gốc: Perseus (Scaife), die-bibel.de (NA28), Theoi, Wikisource (el), packhum (văn bia), maurelius.app — chi tiết trong `docs/READINGS.md`.
+- Nơi đọc bản gốc: Perseus (Scaife), die-bibel.de (NA28), Theoi, Wikisource (el), packhum (văn bia), maurelius.app — chi tiết trong `readings/README.md`.

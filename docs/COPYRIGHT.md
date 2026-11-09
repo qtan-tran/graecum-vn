@@ -45,19 +45,19 @@ Self-check trước khi publish một reading: *"Nếu một luật sư của nh
 
 ### Tác giả &amp; yêu cầu ghi công
 
-Toàn bộ nội dung biên soạn (bài giảng, bài đọc đơn giản hóa, bài tập, từ vựng, phân tích, dịch) do **Tân (Quoc-Tan Tran)** biên soạn. Project miễn phí, nhưng **không phải miễn ghi công**: license CC BY-SA 4.0 bắt buộc ghi công rõ ràng khi cite, trích dẫn, dịch, in lại, dạy lại hoặc xây dựng material lên trên nội dung này.
+Toàn bộ nội dung biên soạn (bài giảng, bài đọc đơn giản hóa, bài tập, từ vựng, phân tích, dịch) do **Tân** biên soạn. Project miễn phí, nhưng **không phải miễn ghi công**: license CC BY-SA 4.0 bắt buộc ghi công rõ ràng khi cite, trích dẫn, dịch, in lại, dạy lại hoặc xây dựng material lên trên nội dung này.
 
 Yêu cầu tối thiểu khi tái sử dụng (bằng bất kỳ ngôn ngữ nào):
 
-1. **Tên tác giả**: Tân (Quoc-Tan Tran)
+1. **Tên tác giả**: Tân
 2. **Tên project + link**: Graecum VN — `https://github.com/qtan-tran/graecum-vn`
 3. **License**: CC BY-SA 4.0 (kèm link `https://creativecommons.org/licenses/by-sa/4.0/`)
 
 Dòng ghi công mẫu (được phép copy nguyên văn):
 
-> Nguồn: **Graecum VN** — biên soạn bởi **Tân (Quoc-Tan Tran)**, `https://github.com/qtan-tran/graecum-vn`, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+> Nguồn: **Graecum VN** — biên soạn bởi **Tân**, `https://github.com/qtan-tran/graecum-vn`, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 >
-> Source: **Graecum VN**, authored by **Tân (Quoc-Tan Tran)**, `https://github.com/qtan-tran/graecum-vn`, licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+> Source: **Graecum VN**, authored by **Tân**, `https://github.com/qtan-tran/graecum-vn`, licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 - Mỗi file bài giảng ghi dòng này ở footer; repo có file `LICENSE`.
 - Nếu chỉnh sửa nội dung khi tái sử dụng, ghi thêm "có chỉnh sửa" (BY-SA yêu cầu chỉ rõ thay đổi).
