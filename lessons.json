@@ -122,19 +122,23 @@
       "id": "06-dynamai-demonstratives",
       "num": 6,
       "level": "graecum-1",
-      "title": "dynamai & demonstrative pronouns",
+      "title": "δύναμαι, đại từ chỉ định (ὅδε, ἐκεῖνος) & εἶναι",
       "topics": [
-        "dynamai",
-        "demonstratives",
-        "hotos/hode/ekeinos",
-        "einai II"
+        "δύναμαι (deponent không chủ đề)",
+        "động từ có chủ đề vs không chủ đề (thematic/athematic)",
+        "đại từ chỉ định ὅδε, ἥδε, τόδε",
+        "đại từ chỉ định ἐκεῖνος, ἐκείνη, ἐκεῖνο",
+        "vị trí vị ngữ — dịch như định ngữ",
+        "hướng chỉ (deixis)",
+        "εἶναι: bảng chia đầy đủ",
+        "εἶ vs εἰ"
       ],
       "reading": [
         "Homer, Odyssey 6.187-197",
         "Homer, Odyssey 16.181-206"
       ],
-      "status": "draft-legacy",
-      "rev": 1
+      "status": "published",
+      "rev": 2
     }
   ]
 }

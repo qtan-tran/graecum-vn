@@ -1,0 +1,475 @@
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 6 — δύναμαι, đại từ chỉ định &amp; εἶναι</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 6: δύναμαι, đại từ chỉ định &amp; εἶναι</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">δύναμαι và hai loại động từ: có chủ đề / không chủ đề</a></li>
+<li><a href="#s2">Đại từ chỉ định: "chỉ tay" là bản chất</a></li>
+<li><a href="#s3">Hình thái ὅδε, ἥδε, τόδε ("cái này ở đây")</a></li>
+<li><a href="#s4">Hình thái ἐκεῖνος, ἐκείνη, ἐκεῖνο ("cái kia ở đằng kia")</a></li>
+<li><a href="#s5">Cách dùng: đứng một mình &amp; với danh từ</a></li>
+<li><a href="#s6">Hướng chỉ (deixis): gần — "vừa nhắc" — xa</a></li>
+<li><a href="#s7">εἶναι: bảng chia đầy đủ &amp; bẫy dấu thanh (εἶ vs εἰ)</a></li>
+<li><a href="#reading">Bài đọc: Người cha trong lều (đơn giản hóa từ Homer)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) nhận diện động từ không chủ đề (athematic) và chia/phân tích các dạng của <span class="gk">δύναμαι</span>; (2) chia hai đại từ chỉ định theo giống–số–cách (KNG) và đặt đúng vị trí của chúng trong câu (vị trí vị ngữ nhưng dịch như định ngữ); (3) dùng "la bàn hướng chỉ" (deixis) để chọn đúng đại từ theo gần/xa và theo vị trí trong văn bản; (4) thuộc lòng bảng chia đầy đủ của <span class="gk">εἶναι</span>, đặc biệt phân biệt <span class="gk">εἶ</span> và <span class="gk">εἰ</span> qua dấu thanh.</p>
+</div>
+
+<div class="info">
+<p><strong>Cách dùng bài học:</strong> Cột "phiên âm" Latin hóa giúp bạn đọc được tiếng Hy Lạp ngay cả khi chưa thuộc bảng chữ cái; dấu <em>á/à/â</em> trong phiên âm tương ứng với dấu sắc (´), huyền (`) và mũ (῀) của tiếng Hy Lạp. Vocab có dấu <span class="star">★</span> là từ bắt buộc nhớ (sẽ gặp lại trong mọi bài sau). Hộp "Góc Latin" so sánh với tiếng Latin — hai ngôn ngữ họ hàng gần, nhìn cạnh nhau sẽ thấy pattern nhanh hơn.</p>
+</div>
+
+<h2 id="s1">1. δύναμαι và hai loại động từ: có chủ đề / không chủ đề</h2>
+
+<h3>1.1 Động từ có chủ đề (thematic) và động từ không chủ đề (athematic)</h3>
+
+<p>Một ghi chú nền tảng (sẽ còn quan trọng về sau): trong hệ thống động từ tiếng Hy Lạp, ta phân biệt hai loại:</p>
+
+<table>
+<thead><tr><th>Động từ có chủ đề (thematic)</th><th>Động từ không chủ đề (athematic)</th></tr></thead>
+<tbody>
+<tr>
+<td>Giữa <strong>thân thời</strong> và <strong>đuôi</strong> có một <strong>nguyên âm chủ đề</strong> (thematic vowel): <span class="gk">ο</span> hoặc <span class="gk">ε</span>.<br>Ví dụ: <span class="gk">παιδεύ-ο-μεν</span> <span class="tr">(paideú-o-men)</span> "chúng ta giáo dục" → <span class="gk">-ο-</span> là nguyên âm chủ đề.</td>
+<td><strong>Không</strong> có nguyên âm chủ đề: đuôi gắn trực tiếp vào thân.<br>Ví dụ: <span class="gk">ἐσ-μέν</span> <span class="tr">(es-mén)</span> "chúng ta là": thân <span class="gk">ἐσ-</span> + đuôi <span class="gk">-μέν</span>, không có nguyên âm nào ở giữa.</td>
+</tr>
+</tbody>
+</table>
+
+<p>Ghi nhớ nhanh: bảng hiện tại trung/bị động đã học ở bài 5 (<span class="gk">-ομαι, -εται, -όμεθα…</span>) chính là đuôi trung/bị động <em>cộng với</em> nguyên âm chủ đề: <span class="gk">θεραπεύ-ε-ται</span>. Đuôi trung/bị động "trần trụi" là <span class="gk">-ται, -νται, -μεν…</span> không có nguyên âm.</p>
+
+<h3>1.2 δύναμαι: bảng chia hiện tại + nguyên mẫu</h3>
+
+<p>Xét một <strong>động từ deponent không chủ đề</strong> (deponent = hình thức trung/bị động nhưng nghĩa chủ động, đã học ở bài 5):</p>
+
+<p class="gk"><strong>δύναμαι</strong> <span class="tr">(dýnamai)</span> — có thể, có khả năng, làm được.</p>
+
+<table>
+<thead><tr><th>Chỉ định hiện tại</th><th>Deponent có chủ đề: γίγνομαι</th><th>Phiên âm</th><th>Deponent không chủ đề: δύναμαι</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td>Ngom 1 số ít</td><td class="gk">γίγνομαι</td><td class="tr">gígnomai</td><td class="gk">δύναμαι</td><td class="tr">dýnamai</td><td class="em">I become / I can</td><td>tôi trở thành / tôi có thể</td></tr>
+<tr><td>Ngom 2 số ít</td><td class="gk">γίγνῃ (từ γίγνε-σαι)</td><td class="tr">gígnēi</td><td class="gk">δύνασαι</td><td class="tr">dýnasai</td><td class="em">you become / you can</td><td>bạn trở thành / bạn có thể</td></tr>
+<tr><td>Ngom 3 số ít</td><td class="gk">γίγνεται</td><td class="tr">gígnetai</td><td class="gk">δύναται</td><td class="tr">dýnatai</td><td class="em">he/she becomes / can</td><td>ông/bà ấy trở thành / có thể</td></tr>
+<tr><td>Ngom 1 số nhiều</td><td class="gk">γιγνόμεθα</td><td class="tr">gignómetha</td><td class="gk">δυνάμεθα</td><td class="tr">dynamétha</td><td class="em">we become / we can</td><td>chúng ta trở thành / có thể</td></tr>
+<tr><td>Ngom 2 số nhiều</td><td class="gk">γίγνεσθε</td><td class="tr">gígnesthe</td><td class="gk">δύνασθε</td><td class="tr">dýnasthe</td><td class="em">you (pl.) become / can</td><td>các bạn trở thành / có thể</td></tr>
+<tr><td>Ngom 3 số nhiều</td><td class="gk">γίγνονται</td><td class="tr">gígnontai</td><td class="gk">δύνανται</td><td class="tr">dýnantai</td><td class="em">they become / they can</td><td>họ trở thành / có thể</td></tr>
+<tr><td>Nguyên mẫu</td><td class="gk">γίγνεσθαι</td><td class="tr">gígnesthai</td><td class="gk">δύνασθαι</td><td class="tr">dýnasthai</td><td class="em">to become / to be able</td><td>trở thành / có thể (nguyên mẫu)</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern để phân biệt hai loại trong văn bản:</strong> so sánh cùng một ngôi, ví dụ ngôi 1 số nhiều: động từ có chủ đề có nguyên âm chủ đề rõ ràng <span class="gk">γιγν-ό-μεθα</span> (trọng âm rơi về âm tiết trước), còn động từ không chủ đề "kẹp" trực tiếp <span class="gk">δυνά-μεθα</span> — và trọng âm thường nhảy lên chính nguyên âm của đuôi. Hai cột trong bảng trên chỉ khác nhau ở "chữ cái mỏng" đó: <span class="gk">γιγνόμεθα ↔ δυνάμεθα</span>, <span class="gk">γίγνεσθε ↔ δύνασθε</span>. So sánh từng cặp khi ôn là cách ghi nhớ nhanh nhất.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Cẩn trọng:</strong> (1) <span class="gk">δύναμαι</span> dịch theo nghĩa chủ động: "tôi có thể" — <em>không</em> dịch "tôi được có thể" (nhắc lại nguyên tắc deponent của bài 5). (2) <span class="gk">δύναμαι</span> thường đi kèm một <strong>nguyên mẫu</strong>: <span class="gk">δυνάμεθα λέγειν</span> — "we can speak" (chúng ta có thể nói). Đây là <em>nguyên mẫu tân ngữ</em> (object infinitive), <em>không</em> phải AcI — không phải nguyên mẫu nào cũng là AcI (đã học ở bài 4): ở đây không có đối cách làm chủ ngữ logic. (3) <span class="gk">γίγνεσαι</span> mất σ trước đuôi: <span class="gk">γίγνε-σαι → γίγνῃ</span> — dạng số ít ngôi 2 kết thúc bằng <span class="gk">-ῃ</span>.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> động từ không chủ đề là "họ hàng cũ" của hệ thống Ấn-Âu: đuôi gắn thẳng vào thân, không có "chất keo" nguyên âm. Latin giữ nguyên hiện tượng này: <em>sum, es, est, sumus, estis, sunt</em> chia y hệt kiểu không chủ đề của <span class="gk">εἰμί, εἶ, ἐστί, ἐσμέν, ἐστέ, εἰσί</span> — từng dạng ứng với nhau từng người một. Gặp động từ "lạ lùng" nhất, hãy nghĩ: nó già nhất nên gãy gọn nhất.</p>
+</div>
+
+<h2 id="s2">2. Đại từ chỉ định: "chỉ tay" là bản chất</h2>
+
+<p><strong>Đại từ chỉ định (demonstrative pronoun)</strong> mang tính <strong>gạch dưới và chỉ tay</strong>: <em>demonstrare</em> (Latin) nghĩa đen là "chỉ ra". Khi tôi chỉ tay vào điều tôi muốn nói, tôi làm cho nó <em>rõ hơn</em> — và tôi có thể chỉ về <em>nhiều hướng khác nhau</em>. Để hình dung, ta mượn trạng từ chỉ nơi chốn: tôi chỉ vào <em>cái này (ở đây)</em> hoặc tôi chỉ vào <em>cái kia (ở đằng kia)</em> (so sánh tiếng Anh: <em>this</em> vs. <em>that</em>). Tiếng Hy Lạp có <strong>nhiều</strong> đại từ chỉ định hơn tiếng Anh. Hôm nay học hai cái:</p>
+
+<ul>
+<li><span class="star">★</span> <span class="gk">ὅδε, ἥδε, τόδε</span> <span class="tr">(hóde, héde, tóde)</span> — "cái này (ở đây)" | this (here) | the following (như sau đây)</li>
+<li><span class="star">★</span> <span class="gk">ἐκεῖνος, ἐκείνη, ἐκεῖνο</span> <span class="tr">(ekeînos, ekéinē, ekeîno)</span> — "cái kia (ở đằng kia)" | that (over there)</li>
+</ul>
+<p>Một đại từ chỉ định quan trọng nữa: <span class="gk">οὗτος, αὕτη, τοῦτο</span> — this/that <span class="notyet">chưa học (bài 26)</span>.</p>
+
+<h2 id="s3">3. Hình thái ὅδε, ἥδε, τόδε ("cái này ở đây")</h2>
+
+<p><strong>Cấu tạo từ hai phần:</strong></p>
+<ul>
+<li><strong>Phần đầu</strong> = hình thức của <strong>mạo từ</strong> — nhưng <em>luôn có dấu thanh</em>, kể cả ở chủ cách (<span class="gk">ὅδε, ἥδε, τόδε</span>) — và phần này biến cách đầy đủ.</li>
+<li><strong>Phần sau</strong> = luôn luôn là <span class="gk">-δε</span> "ở đây", không biến cách, không đổi.</li>
+</ul>
+
+<table>
+<thead><tr><th></th><th colspan="3">SỐ ÍT</th><th colspan="3">SỐ NHIỀU</th></tr>
+<tr><th></th><th>đực</th><th>cái</th><th>trung</th><th>đực</th><th>cái</th><th>trung</th></tr></thead>
+<tbody>
+<tr><td><strong>Chủ cách</strong></td><td class="gk">ὅδε</td><td class="gk">ἥδε</td><td class="gk">τόδε</td><td class="gk">οἵδε</td><td class="gk">αἵδε</td><td class="gk">τάδε</td></tr>
+<tr><td><strong>Sở hữu cách</strong></td><td class="gk">τοῦδε</td><td class="gk">τῆσδε</td><td class="gk">τοῦδε</td><td class="gk">τῶνδε</td><td class="gk">τῶνδε</td><td class="gk">τῶνδε</td></tr>
+<tr><td><strong>Tặng cách</strong></td><td class="gk">τῷδε</td><td class="gk">τῇδε</td><td class="gk">τῷδε</td><td class="gk">τοῖσδε</td><td class="gk">ταῖσδε</td><td class="gk">τοῖσδε</td></tr>
+<tr><td><strong>Đối cách</strong></td><td class="gk">τόνδε</td><td class="gk">τήνδε</td><td class="gk">τόδε</td><td class="gk">τούσδε</td><td class="gk">τάσδε</td><td class="gk">τάδε</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Cẩn trọng:</strong> ở <strong>tặng cách số nhiều</strong>, giữa mạo từ và <span class="gk">-δε</span> chèn thêm một chữ <span class="gk">σ</span>: <span class="gk">τοῖς + δε → τοῖσδε</span>, <span class="gk">ταῖς + δε → ταῖσδε</span>. Quy tắc nhớ: "mạo từ mang dấu thanh + δε; tặng cách số nhiều 'gặm' thêm σ". Ngoài ra <strong>sở hữu cách/tặng cách số nhiều của cả ba giống giống hệt nhau</strong> (<span class="gk">τῶνδε, τοῖσδε/ταῖσδε</span>) — như chính mạo từ — chỉ dựa vào ngữ cảnh mà biết giống.</p>
+</div>
+
+<h2 id="s4">4. Hình thái ἐκεῖνος, ἐκείνη, ἐκεῖνο ("cái kia ở đằng kia")</h2>
+
+<ul>
+<li>Biến cách <strong>đều đặn như một tính từ ba đuôi</strong> của biến cách nhóm a/o.</li>
+<li><strong>Ngoại lệ duy nhất</strong>: chủ/đối cách số ít trung tính là <span class="gk">ἐκεῖνο</span> (<strong>không</strong> phải <span class="gk">ἐκεῖνον</span>!) → gọi là <strong>biến cách kiểu đại từ (pronominal declension)</strong> của trung tính.</li>
+</ul>
+
+<table>
+<thead><tr><th></th><th colspan="3">SỐ ÍT</th><th colspan="3">SỐ NHIỀU</th></tr>
+<tr><th></th><th>đực</th><th>cái</th><th>trung</th><th>đực</th><th>cái</th><th>trung</th></tr></thead>
+<tbody>
+<tr><td><strong>Chủ cách</strong></td><td class="gk">ἐκεῖνος</td><td class="gk">ἐκείνη</td><td class="gk">ἐκεῖνο</td><td class="gk">ἐκεῖνοι</td><td class="gk">ἐκεῖναι</td><td class="gk">ἐκεῖνα</td></tr>
+<tr><td><strong>Sở hữu cách</strong></td><td class="gk">ἐκείνου</td><td class="gk">ἐκείνης</td><td class="gk">ἐκείνου</td><td class="gk">ἐκείνων</td><td class="gk">ἐκείνων</td><td class="gk">ἐκείνων</td></tr>
+<tr><td><strong>Tặng cách</strong></td><td class="gk">ἐκείνῳ</td><td class="gk">ἐκείνῃ</td><td class="gk">ἐκείνῳ</td><td class="gk">ἐκείνοις</td><td class="gk">ἐκείναις</td><td class="gk">ἐκείνοις</td></tr>
+<tr><td><strong>Đối cách</strong></td><td class="gk">ἐκεῖνον</td><td class="gk">ἐκείνην</td><td class="gk">ἐκεῖνο</td><td class="gk">ἐκεῖνους</td><td class="gk">ἐκεῖνας</td><td class="gk">ἐκεῖνα</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> "biến cách kiểu đại từ" của trung tính không phải quy tắc riêng của <span class="gk">ἐκεῖνος</span>: mọi <em>đại từ</em> loại này đều có dạng trung tính số ít kết thúc bằng nguyên âm dài <span class="gk">-ο</span>/<span class="gk">-ι</span> thay vì <span class="gk">-ον</span> (sẽ gặp lại ở <span class="gk">τοῦτο</span>, <span class="gk">τί</span>…). Ngược lại, <em>tính từ</em> (như <span class="gk">ἀγαθός</span>) có <span class="gk">ἀγαθόν</span>. Tự kiểm tra nhanh: gặp một dạng trung tính "trần" như <span class="gk">ἐκεῖνο</span> → gần như chắc chắn là đại từ, không phải tính từ.</p>
+</div>
+
+<h2 id="s5">5. Cách dùng: đứng một mình &amp; với danh từ</h2>
+
+<h3>5.1 Đứng một mình (không có danh từ đi kèm)</h3>
+<p>Khi không có danh từ đi kèm, đại từ chỉ định tự thân làm việc như một danh từ: đảm nhận <em>mọi</em> chức năng câu (chủ ngữ, tân ngữ, sau giới từ…).</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">διαλέγομαι τῷδε.</td><td class="tr">dialégomai tôide.</td><td class="em">I am talking with <strong>this man here</strong>.</td><td>Tôi trò chuyện với <strong>vị này</strong> (ở đây).</td></tr>
+</tbody>
+</table>
+<p><em>Ghi chú:</em> <span class="gk">διαλέγομαι</span> <span class="tr">(dialégomai)</span> là động từ deponent (hình thức trung/bị động, nghĩa chủ động) và đòi hỏi tặng cách (trả lời "với ai?").</p>
+
+<h3>5.2 Với danh từ đi kèm</h3>
+<p>Quy tắc: <strong>hợp nhất KNG với danh từ được chỉ</strong> (cách–số–giống) + đứng ở <strong>vị trí vị ngữ (predicative position)</strong>, nhưng lại <strong>dịch theo kiểu định ngữ (attributive)</strong>; mạo từ <strong>không được dịch</strong> ra.</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὅδε ὁ ἐχθρός hoặc ὁ ἐχθρὸς ὅδε</td><td class="tr">hóde ho echthrós / ho echthròs hóde</td><td class="em"><strong>this</strong> enemy (mạo từ "ὁ" không dịch!)</td><td><strong>kẻ thù này</strong> (ở đây)</td></tr>
+</tbody>
+</table>
+
+<h3>5.3 Nhắc lại: vị trí định ngữ và vị trí vị ngữ</h3>
+<p><strong>Vị trí định ngữ (attributive position)</strong> — mạo từ đứng <strong>trực tiếp trước</strong> định ngữ:</p>
+<ul>
+<li><strong>Khả năng 1:</strong> định ngữ đứng giữa <strong>mạo từ</strong> và <strong>danh từ trung tâm</strong>: <span class="gk">οἱ τοῦ Ἥλίου ἵπποι</span> <span class="tr">(hoi toû Helíou híppoi)</span> — "the horses of Helios" (những con ngựa của Helios).</li>
+<li><strong>Khả năng 2:</strong> mạo từ của danh từ trung tâm được <strong>lặp lại</strong> trước định ngữ đứng sau: <span class="gk">οἱ ἵπποι οἱ τοῦ Ἥλίου</span> — "the horses of Helios". (Mạo từ đầu có thể, trong một số ít trường hợp, vắng mặt.)</li>
+<li>→ Trong mọi khả năng: <strong>mạo từ đứng trực tiếp trước định ngữ</strong>.</li>
+</ul>
+<p><strong>Vị trí vị ngữ (predicative position)</strong> là "bộ mặt đối lập": mạo từ <strong>không</strong> đứng trực tiếp trước từ đó, tức là từ ở vị trí vị ngữ…</p>
+<ol>
+<li>hoặc đứng <strong>trước mạo từ</strong> của danh từ được chỉ…</li>
+<li>…hoặc đứng <strong>sau danh từ được chỉ</strong> (sau cả mạo từ lẫn danh từ).</li>
+</ol>
+<p>→ Chính vì thế <span class="gk">ὅδε ὁ ἐχθρός</span> (trước mạo từ) và <span class="gk">ὁ ἐχθρὸς ὅδε</span> (sau danh từ) đều là vị trí vị ngữ của đại từ chỉ định — nhưng cả hai đều dịch như định ngữ: "kẻ thù này".</p>
+
+<div class="achtung">
+<p><strong>Cẩn trọng — lỗi kinh điển:</strong> thấy <span class="gk">ὅδε ὁ ἐχθρός</span> mà dịch "kẻ này là kẻ thù" là <em>sai</em>: đó là kiểu dịch vị ngữ. Quy tắc: đại từ chỉ định đi <em>cùng</em> danh từ luôn luôn dịch như định ngữ ("kẻ thù này"), còn kiểu dịch "kẻ này là kẻ thù" chỉ xảy ra khi đại từ <em>không có</em> danh từ đi kèm và đảm nhận chức năng chủ ngữ/biểu ngữ của câu. Tự kiểm tra: đếm xem có hai cụm KNG kề nhau (đại từ + danh từ cùng mạo từ) không → có → gộp thành một cụm danh từ khi dịch.</p>
+</div>
+
+<h2 id="s6">6. Hướng chỉ (deixis): gần — "vừa nhắc" — xa</h2>
+
+<p>Nhắc lại bản chất: đại từ chỉ định <strong>chỉ</strong> về đâu đó. <strong>Hướng chỉ (deixis)</strong> = hướng của sự chỉ tay (từ <span class="gk">δείκνυμι</span> <span class="tr">(deíknymi)</span> "tôi chỉ"). Hướng chỉ có thể <em>ngoài văn bản</em> (không gian thực) hoặc <em>trong văn bản</em> (trước/sau trong mạch chữ):</p>
+
+<table>
+<thead><tr><th>Đại từ</th><th>Hướng chỉ ngoài văn bản</th><th>Hướng chỉ trong văn bản</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὅδε, ἥδε, τόδε</td><td>chỉ cái gì <strong>đang hiện diện</strong> hoặc (về không gian) <strong>gần</strong> theo góc nhìn người nói</td><td>chỉ cái <strong>sắp nói đến</strong>, điều <strong>còn phải bàn</strong> (hướng tiến về trước)</td></tr>
+<tr><td class="gk">οὗτος, αὕτη, τοῦτο <span class="notyet">chưa học (bài 26)</span></td><td>chỉ cái gì <strong>không đặc biệt gần</strong> theo góc nhìn người nói</td><td>thường (nhưng không luôn) chỉ cái <strong>đã được nhắc đến</strong></td></tr>
+<tr><td class="gk">ἐκεῖνος, ἐκείνη, ἐκεῖνο</td><td>chỉ cái gì (về không gian) <strong>xa hơn</strong> theo góc nhìn người nói</td><td>chỉ cái <strong>xa hơn trong văn bản</strong> (đã rời xa mạch nói)</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern đọc văn bản:</strong> hệ thống ba "hướng chỉ" này hoạt động như thước đo dọc theo văn bản: <span class="gk">ὅδε</span> = "sau đây", <span class="gk">οὗτος</span> = "vừa nói ở trên", <span class="gk">ἐκεῖνος</span> = "cái cách đó rồi". Trong văn chương, cụm mở đầu kiểu <span class="gk">τάδε…</span> chính là "những điều sau đây…". Tiếng Việt cũng có ba cấp: "này – nọ – kia", tiếng Anh "this – that – that over there": bản đồ hướng chỉ của các ngôn ngữ trùng nhau, chỉ khác từ.</p>
+</div>
+
+<h2 id="s7">7. εἶναι: bảng chia đầy đủ &amp; bẫy dấu thanh (εἶ vs εἰ)</h2>
+
+<p><span class="gk">εἶναι</span> (là, tồn tại) là động từ không chủ đề quan trọng nhất — và thuộc nhóm động từ "gãy" nhất tiếng Hy Lạp. Bảng chia (quá khứ tiếp diễn và tương lai dưới đây là hình thức cần học trước của riêng <span class="gk">εἶναι</span>; hai thời này như <em>thời</em> nói chung <span class="notyet">chưa học</span> ở đây):</p>
+
+<table>
+<thead><tr><th>Chỉ định</th><th>Hiện tại</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Quá khứ tiếp diễn</th><th>Tương lai</th></tr></thead>
+<tbody>
+<tr><td>Ngom 1 số ít</td><td class="gk">εἰμί</td><td class="tr">eimí</td><td class="em">I am</td><td class="gk">ἦ</td><td class="gk">ἔσομαι</td></tr>
+<tr><td>Ngom 2 số ít</td><td class="gk">εἶ</td><td class="tr">eî</td><td class="em">you are</td><td class="gk">ἦς (hoặc ἦσθα)</td><td class="gk">ἔσῃ (hoặc ἔσει)</td></tr>
+<tr><td>Ngom 3 số ít</td><td class="gk">ἐστί(ν)</td><td class="tr">estí(n)</td><td class="em">he/she/it is</td><td class="gk">ἦν</td><td class="gk">ἔσται</td></tr>
+<tr><td>Ngom 1 số nhiều</td><td class="gk">ἐσμέν</td><td class="tr">esmén</td><td class="em">we are</td><td class="gk">ἦμεν</td><td class="gk">ἐσόμεθα</td></tr>
+<tr><td>Ngom 2 số nhiều</td><td class="gk">ἐστέ</td><td class="tr">esté</td><td class="em">you (pl.) are</td><td class="gk">ἦτε</td><td class="gk">ἔσεσθε</td></tr>
+<tr><td>Ngom 3 số nhiều</td><td class="gk">εἰσί(ν)</td><td class="tr">eisí(n)</td><td class="em">they are</td><td class="gk">ἦσαν</td><td class="gk">ἔσονται</td></tr>
+</tbody>
+</table>
+
+<table>
+<thead><tr><th>Mệnh lệnh</th><th>Ngom 2 số ít</th><th>Ngom 2 số nhiều</th><th>Nguyên mẫu</th></tr></thead>
+<tbody>
+<tr><td>εἶναι</td><td class="gk">ἴσθι</td><td class="gk">ἔστε</td><td class="gk">hiện tại: εἶναι · tương lai: ἔσεσθαι</td></tr>
+</tbody>
+</table>
+
+<ul>
+<li><strong>ν di động (movable nu):</strong> <span class="gk">ἐστί(ν), εἰσί(ν)</span> nhận ν khi từ kế tiếp bắt đầu bằng nguyên âm hoặc khi ngắt nghỉ cuối câu.</li>
+<li><strong>Hai "kiểu in":</strong> ấn bản hiện đại viết <span class="gk">εἰμί, ἐσμέν, ἐστέ</span>; bản in cũ (và một số ngữ pháp truyền thống) viết <span class="gk">εἶμι, ἐσμεν, ἐστε</span> — chỉ khác cách đặt dấu, cùng một từ.</li>
+<li><strong>Mệnh lệnh ngôi 2 số ít <span class="gk">ἴσθι</span></strong> hoàn toàn bất quy tắc (phải học thuộc); mệnh lệnh ngôi 2 số nhiều <span class="gk">ἔστε</span> lại rất "tròn trịa". Ngôi 3 của mệnh lệnh <span class="notyet">chưa học</span>.</li>
+</ul>
+
+<div class="achtung">
+<p><strong>Cẩn trọng — nguy cơ lẫn, hãy nhìn dấu thanh:</strong></p>
+<ul>
+<li><span class="gk">εἶ</span> (dấu sắc) = <em>you are</em> (bạn là) — động từ.</li>
+<li><span class="gk">εἰ</span> (không dấu) = <em>if</em> (nếu) / <em>whether</em> (hay không) — từ nối.</li>
+</ul>
+<p>Một chữ dấu sắc đổi cả loại từ! Trong văn bản in nếu dấu bị "nuốt" thì phải phán đoán theo ngữ pháp: <span class="gk">εἰ φίλος εἶ, …</span> — "If you are a friend…" (Nếu bạn là bạn…): <span class="gk">εἰ</span> không thể là động từ vì vế còn thiếu vị ngữ… nhưng <span class="gk">εἶ</span> mới là vị ngữ.</p>
+</div>
+
+<div class="info">
+<p><strong>Liên hệ lịch sử:</strong> <span class="gk">εἰμί, εἶ, ἐστί(ν)</span> cùng gốc với Latin <em>sum, es, est</em>, tiếng Đức <em>bin, bist, ist</em>, tiếng Anh <em>am, is</em>, tiếng Phạn <em>asmi, asi, asti</em> — tất cả đều từ gốc Ấn-Âu *h₁es- "tồn tại". Đó là lý do bảng chia "lạ lùng" nhất lại là bảng "xưa" nhất — và cũng vì thế các dạng của nó ngắn gọn đến mức một dấu thanh phải gánh vác cả việc phân biệt từ.</p>
+</div>
+
+<h2 id="reading">8. Bài đọc: Người cha trong lều</h2>
+
+<div class="info">
+<p><strong>Nguồn:</strong> chủ đề dựa trên Homer, <em>Odyssee</em> 16,181–206 — đoạn Odysseus, đang giả dạng người lạ trong lều của người chăn lợn Eumaios, tiết lộ thân phận với con trai Telemachos. Bản gốc (public domain) đọc được trên Perseus. Bản dưới đây do project <strong>biên soạn lại theo trình độ bài 6</strong> — chỉ dùng cấu trúc đã học, giữ tinh thần bản gốc.</p>
+</div>
+
+<p>Từ mới trong bài đọc:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἡ καλύβη, -ης</td><td class="tr">hē kalýbē, -ēs</td><td class="em">the hut</td><td>lều, túp lều</td><td>giống cái, nhóm a</td></tr>
+<tr><td class="gk">ὁ ξένος, -ου</td><td class="tr">ho xénos, -ou</td><td class="em">the stranger, the guest</td><td>người lạ, khách</td><td>đực, nhóm o</td></tr>
+<tr><td class="gk">ἡ ἀλήθεια, -ας</td><td class="tr">hē alḗtheia, -as</td><td class="em">the truth</td><td>sự thật</td><td>cái, nhóm a</td></tr>
+<tr><td class="gk">γιγνώσκω</td><td class="tr">gignṓskō</td><td class="em">to know, recognize</td><td>biết, nhận ra</td><td>+ đối cách</td></tr>
+<tr><td class="gk">ὁ πατήρ, πατρός</td><td class="tr">ho patḗr, patrós</td><td class="em">the father</td><td>người cha</td><td>chia bất quy tắc <span class="notyet">chưa học</span> — đọc cách qua mạo từ</td></tr>
+<tr><td class="gk">ὁ Τηλέμαχος · ὁ Εὔμαιος · ὁ Ὀδυσσεύς</td><td class="tr">ho Telémakhos · ho Eúmaios · ho Odysseús</td><td class="em">Telemachus · Eumaeus · Odysseus</td><td>Telemachos · Eumaios · Odysseus</td><td>tên riêng, chia bất quy tắc <span class="notyet">chưa học</span> — đọc cách qua mạo từ</td></tr>
+</tbody>
+</table>
+
+<p style="margin-bottom:6px;"><strong>Bản simplified (do project biên soạn):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">ἐν τῇ καλύβῃ ὁ Τηλέμαχος μετὰ τοῦ ξένου ἐστίν. ὁ δὲ ξένος δύναται τὴν ἀλήθειαν λέγειν. εἰ σοφὸς εἶ, ὦ Τήλεμαχε, δύνασαι τὸν πατέρα γιγνώσκειν. ὁ δὲ Τηλέμαχος τόνδε τὸν ξένον γιγνώσκει· ἐκεῖνος γὰρ Ὀδυσσεὺς ἐστιν.</p>
+<p class="tr">en têi kalýbēi ho Telémakhos metà toû xénou estín. ho dè xénos dýnatai tḕn alḗtheian légein. ei sophòs eî, ô Telémakhe, dýnasai tòn patéra gignṓskein. ho dè Telémakhos tónde tòn xénon gignṓskei· ekeînos gàr Odysseùs estin.</p>
+
+<p><strong>Dịch:</strong> Trong lều, Telemachos ở cùng người khách lạ. Người khách kia có thể nói ra sự thật. Nếu bạn khôn ngoan, hỡi Telemachos, bạn có thể nhận ra người cha. Và Telemachos nhận ra người lạ này — vì người kia chính là Odysseus.</p>
+
+<p><strong>Phân tích nhanh (kiểm tra bằng công cụ đã học):</strong></p>
+<ul>
+<li><span class="gk">ἐν τῇ καλύβῃ</span> — mạo từ <span class="gk">τῇ</span> tâu tặng cách cái số ít; <span class="gk">μετὰ τοῦ ξένου</span> — <span class="gk">μετὰ</span> + sở hữu cách (bài 4). Câu 1 và 2 mở đầu bằng cặp <span class="gk">μέν…δέ</span> ngầm (δὲ ở câu 2, chuẩn bị đối lập).</li>
+<li><span class="gk">δύναται λέγειν</span> — δύναμαι + nguyên mẫu tân ngữ (không phải AcI!); trọng âm đứng ở âm tiết <span class="gk">δύ-</span> theo kiểu lùi (recessive) của động từ không chủ đề.</li>
+<li><span class="gk">εἰ σοφὸς εἶ</span> — đúng cặp bẫy của bài: <span class="gk">εἰ</span> (không dấu) = "nếu", <span class="gk">εἶ</span> (dấu sắc) = "bạn là"; <span class="gk">σοφός</span> ở vị trí vị ngữ với chủ ngữ tàng hình (bài 3).</li>
+<li><span class="gk">τόνδε τὸν ξένον</span> — đại từ chỉ định ở <strong>đối cách</strong> (mạo từ <span class="gk">τόνδε</span> phán quyết) + danh từ được chỉ cùng mạo từ <span class="gk">τὸν</span>: vị trí vị ngữ nhưng dịch như định ngữ — "người lạ <em>này</em>".</li>
+<li><span class="gk">ἐκεῖνος γὰρ Ὀδυσσεὺς ἐστιν</span> — <span class="gk">ἐκεῖνος</span> đứng một mình (không có danh từ đi kèm) → tự thân làm chủ ngữ; <span class="gk">γάρ</span> hậu vị; <span class="gk">Ὀδυσσεύς</span> là biểu ngữ chủ cách. Dịch "người <em>kia</em> chính là Odysseus" — hướng chỉ về không gian (người giả dạng) khớp với hướng chỉ "xa/de như một người khác".</li>
+</ul>
+
+<p>Bài tập đọc hiểu: (1) <span class="gk">τόνδε τὸν ξένον</span> đứng ở cách nào, và lấy gì làm bằng chứng? Vì sao dịch là "người lạ <em>này</em>" chứ không phải "người lạ là cái này"? (2) Câu 3 có hai từ chỉ khác nhau một dấu thanh — đâu là động từ, đâu là từ nối? (3) Đọc bản gốc Homer (Odyssee 16.181–206 trên Perseus): Odysseus tiết lộ thân phận bằng cách nào, và bản simplified đã "gói" lại thế nào?</p>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án câu hỏi đọc hiểu (in ra để soát)</h4>
+<p><strong>1.</strong> Đối cách — mạo từ <span class="gk">τόνδε</span> (và <span class="gk">τὸν</span>) phán quyết; tân ngữ của <span class="gk">γιγνώσκει</span>. Vì đại từ chỉ định đi cùng danh từ được chỉ (hai cụm KNG kề nhau) → luôn dịch như định ngữ: "người lạ này"; kiểu dịch vị ngữ "người lạ là cái này" chỉ xảy ra khi đại từ đứng một mình. <strong>2.</strong> <span class="gk">εἰ</span> (không dấu) = "nếu" — từ nối; <span class="gk">εἶ</span> (sắc) = "bạn là" — động từ (vị ngữ của vế đầu). <strong>3.</strong> Trong Homer, Athena biến hình Odysseus trẻ lại, rồi Odysseus tiết lộ thân phận với Telemachos trong nước mắt; bản simplified gói lại thành "người khách có thể nói sự thật — nếu bạn khôn ngoan, bạn nhận ra cha mình" — cùng dụng ý nhận ra cha, bằng đúng công cụ của bài 6.</p>
+</div></div>
+
+<h2 id="vocab">9. Từ vựng trọng tâm</h2>
+
+<h3>Động từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> δύναμαι</td><td class="tr">dýnamai</td><td class="em">to be able, can</td><td>có thể, có khả năng</td><td>deponent không chủ đề + nguyên mẫu</td></tr>
+<tr><td class="gk"><span class="star">★</span> γίγνομαι</td><td class="tr">gígnomai</td><td class="em">to become, come into being</td><td>trở thành, xuất hiện, xảy ra</td><td>deponent có chủ đề</td></tr>
+<tr><td class="gk"><span class="star">★</span> εἶναι</td><td class="tr">eînai</td><td class="em">to be</td><td>là, tồn tại</td><td>không chủ đề — bảng chia đầy đủ ở mục 7</td></tr>
+<tr><td class="gk"><span class="star">★</span> διαλέγομαι + tặng cách</td><td class="tr">dialégomai</td><td class="em">to converse with</td><td>trò chuyện với</td><td>deponent</td></tr>
+<tr><td class="gk">δείκνυμι</td><td class="tr">deíknymi</td><td class="em">to show, point out</td><td>chỉ</td><td>nguồn gốc thuật ngữ "hướng chỉ (deixis)"</td></tr>
+<tr><td class="gk">γιγνώσκω</td><td class="tr">gignṓskō</td><td class="em">to know, recognize</td><td>biết, nhận ra</td><td>+ đối cách (bài đọc)</td></tr>
+</tbody>
+</table>
+
+<h3>Danh từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὁ ἐχθρός, -οῦ</td><td class="tr">ho echthrós, -oû</td><td class="em">the enemy</td><td>kẻ thù</td><td>đực, nhóm o (nhắc lại bài 5)</td></tr>
+<tr><td class="gk">ὁ Ἥλιος, -ου</td><td class="tr">ho Hélios, -ou</td><td class="em">Helios, the sun</td><td>Helios, mặt trời</td><td>đực, nhóm o (nhắc lại bài 5)</td></tr>
+<tr><td class="gk">ἡ καλύβη, -ης</td><td class="tr">hē kalýbē, -ēs</td><td class="em">the hut</td><td>lều</td><td>cái, nhóm a (bài đọc)</td></tr>
+<tr><td class="gk">ὁ ξένος, -ου</td><td class="tr">ho xénos, -ou</td><td class="em">the stranger, guest</td><td>người lạ, khách</td><td>đực, nhóm o (bài đọc)</td></tr>
+<tr><td class="gk">ἡ ἀλήθεια, -ας</td><td class="tr">hē alḗtheia, -as</td><td class="em">the truth</td><td>sự thật</td><td>cái, nhóm a (bài đọc)</td></tr>
+<tr><td class="gk">ἡ εἰρήνη, -ης</td><td class="tr">hē eirḗnē, -ēs</td><td class="em">the peace</td><td>hòa bình</td><td>cái, nhóm a (bài tập 6)</td></tr>
+</tbody>
+</table>
+
+<h3>Đại từ chỉ định &amp; từ nối</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὅδε, ἥδε, τόδε</td><td class="tr">hóde, héde, tóde</td><td class="em">this (here); the following</td><td>cái này (ở đây), như sau đây</td><td>= mạo từ + -δε</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἐκεῖνος, ἐκείνη, ἐκεῖνο</td><td class="tr">ekeînos, ekéinē, ekeîno</td><td class="em">that (over there)</td><td>cái kia (ở đằng kia)</td><td>biến cách như tính từ ba đuôi</td></tr>
+<tr><td class="gk">οὗτος, αὕτη, τοῦτο</td><td class="tr">hoûtos, haútē, toûto</td><td class="em">this / that</td><td>cái này / cái vừa nhắc</td><td><span class="notyet">chưa học (bài 26)</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> εἰ</td><td class="tr">ei</td><td class="em">if; whether</td><td>nếu; hay không</td><td>không dấu — phân biệt với εἶ "bạn là"</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">10. Bảng tổng hợp so sánh các điểm dễ nhầm</h2>
+
+<table>
+<thead><tr><th>Cặp / nhóm dễ nhầm</th><th>Khác biệt cốt lõi</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td>Có chủ đề vs không chủ đề</td><td>có chủ đề: nguyên âm ο/ε giữa thân và đuôi (<span class="gk">παιδεύ-ο-μεν</span>); không chủ đề: đuôi gắn thẳng (<span class="gk">ἐσ-μέν, δυνά-μεθα</span>)</td><td>"Mổ" từ thành thân + nguyên âm + đuôi; không mổ ra được nguyên âm → không chủ đề.</td></tr>
+<tr><td class="gk">δυνάμεθα vs γιγνόμεθα</td><td>cùng đuôi -μεθα, nhưng không chủ đề <span class="gk">δυνά-μεθα</span> (trọng âm trên nguyên âm đuôi) ≠ có chủ đề <span class="gk">γιγν-ό-μεθα</span></td><td>Nhìn dấu thanh + vị trí nguyên âm chủ đề; học theo cặp đối lập.</td></tr>
+<tr><td class="gk">δύναμαι vs γίγνομαι (nghĩa)</td><td>δύναμαι = "có thể"; γίγνομαι = "trở thành, xuất hiện"</td><td>Cả hai đều deponent — nhớ nghĩa theo cặp, đừng học riêng lẻ.</td></tr>
+<tr><td>Nguyên mẫu sau <span class="gk">δύναμαι</span></td><td>nguyên mẫu tân ngữ ("can + to…"), <em>không</em> phải AcI (không có đối cách làm chủ ngữ logic)</td><td>Kiếm "công tắc" AcI (bài 4) + đối cách chủ ngữ: thiếu một trong hai → không phải AcI.</td></tr>
+<tr><td>Phần đầu của <span class="gk">ὅδε</span> vs mạo từ</td><td>giống hệt mạo từ nhưng luôn mang dấu thanh (ὅδε, ἥδε, τόδε, οἵδε…)</td><td>Thấy -δε gắn sau → chắc chắn là đại từ chỉ định, không phải mạo từ.</td></tr>
+<tr><td>Tặng cách số nhiều <span class="gk">τοῖσδε / ταῖσδε</span></td><td>chèn σ giữa mạo từ và -δε (<span class="gk">τοῖς + δε</span>)</td><td>Quy tắc "tặng cách số nhiều gặm thêm σ"; bỏ σ là lỗi chính tả.</td></tr>
+<tr><td class="gk">ἐκεῖνο vs ἐκεῖνον</td><td>trung tính số ít của đại từ = <span class="gk">ἐκεῖνο</span> (chủ/đối cách, biến cách kiểu đại từ); <span class="gk">ἐκεῖνον</span> chỉ là đối cách giống đực</td><td>trung tính của đại từ không có -ον; thấy -ον → giống đực hoặc là tính từ.</td></tr>
+<tr><td class="gk">ὅδε vs ἐκεῖνος</td><td>gần/ngay trước mắt vs xa/đằng kia; trong văn bản: sắp nói vs đã rời xa</td><td>Tự hỏi: "tay tôi chỉ về hướng nào?" — gần = ὅδε, xa = ἐκεῖνος, "vừa nhắc" = οὗτος (bài 26).</td></tr>
+<tr><td>Đại từ chỉ định có danh từ đi kèm: dịch thế nào?</td><td>vị trí vị ngữ (trước mạo từ hoặc sau danh từ) nhưng dịch như định ngữ; mạo từ không dịch</td><td>Hai cụm KNG kề nhau → gộp: "kẻ thù này".</td></tr>
+<tr><td>Vị trí định ngữ vs vị trí vị ngữ</td><td>định ngữ: mạo từ đứng trực tiếp trước định ngữ (giữa hoặc lặp lại); vị ngữ: mạo từ <em>không</em> trực tiếp trước từ</td><td>Đặt ngón tay lên mạo từ và thử: "đại từ này có mạo từ trực tiếp trước nó không?"</td></tr>
+<tr><td class="gk">εἶ vs εἰ</td><td>εἶ = "bạn là" (động từ); εἰ = "nếu / hay không" (từ nối)</td><td>Một dấu sắc đổi hẳn loại từ; khi bản in mờ → phán đoán theo cú pháp (vế còn thiếu gì?).</td></tr>
+<tr><td class="gk">εἰμί / εἶμι, ἐσμέν / ἐσμεν</td><td>cùng một từ, hai kiểu đặt dấu (ấn bản hiện đại vs bản in cũ)</td><td>Đừng hoảng: chỉ khác "kiểu in", không phải hai động từ khác nhau.</td></tr>
+<tr><td>Mệnh lệnh <span class="gk">ἴσθι vs ἔστε</span></td><td>ἴσθι (ngôi 2 số ít) bất quy tắc hoàn toàn; ἔστε (ngôi 2 số nhiều) lại đều</td><td>Học thuộc ἴσθι như "một viên đá cuội" riêng; các dạng khác theo bảng.</td></tr>
+<tr><td>Sở hữu/tặng cách số nhiều ba giống giống nhau (<span class="gk">τῶνδε, ἐκείνων</span>)</td><td>không phân biệt giống ở các cách này</td><td>Dựa vào danh từ đi kèm để biết giống.</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">11. Bài tập tự luyện</h2>
+<p><em>Đáp án chỉ hiện khi in (Ctrl+P → Save as PDF) — làm xong rồi mới in ra soát.</em></p>
+
+<h3>Bài tập 1 — Phân loại và chia</h3>
+<ol>
+<li>Phân tích <span class="gk">παιδεύομεν</span> và <span class="gk">ἐσμέν</span> thành thân — nguyên âm chủ đề — đuôi (nếu có).</li>
+<li>Điền các dạng còn thiếu của <span class="gk">δύναμαι</span>: ngôi 2 số ít ___, ngôi 1 số nhiều ___, ngôi 3 số nhiều ___, nguyên mẫu ___.</li>
+<li>Dịch: <span class="gk">δυνάμεθα λέγειν.</span></li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Đáp án 1</h4>
+<ol>
+<li><span class="gk">παιδεύ-ο-μεν</span> (có chủ đề: nguyên âm chủ đề <span class="gk">-ο-</span>); <span class="gk">ἐσ-μέν</span> (không chủ đề: đuôi gắn thẳng vào thân <span class="gk">ἐσ-</span>).</li>
+<li class="gk">δύνασαι · δυνάμεθα · δύνανται · δύνασθαι</li>
+<li>"We can speak." (Chúng ta có thể nói.) — nguyên mẫu tân ngữ, không phải AcI.</li>
+</ol></div></div>
+
+<h3>Bài tập 2 — Chia đại từ chỉ định theo KNG</h3>
+<p>Viết dạng đúng của đại từ chỉ định (kèm mạo từ của danh từ nếu cần):</p>
+<ol>
+<li>"kẻ thù này (ở đây)" — chủ cách số ít đực: ___</li>
+<li>"kẻ thù này" — đối cách số ít đực: ___</li>
+<li>"với những con ngựa này" — tặng cách số nhiều đực: ___</li>
+<li>"nhà triết học kia" — chủ cách số ít đực: ___</li>
+<li>"với (người bạn) kia (giống cái)" — tặng cách số ít của <span class="gk">ἐκεῖνος</span>: ___</li>
+<li>"cái kia (vật, trung tính)" — đối cách số ít của <span class="gk">ἐκεῖνος</span>: ___ (cẩn thận!)</li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Đáp án 2</h4>
+<ol>
+<li class="gk">ὅδε ὁ ἐχθρός (hoặc: ὁ ἐχθρὸς ὅδε) — "this enemy"</li>
+<li class="gk">τόνδε τὸν ἐχθρόν — "this enemy" (đối cách)</li>
+<li class="gk">τοῖσδε τοῖς ἵπποις — "with these horses here" (nhớ: tặng cách số nhiều chèn σ!)</li>
+<li class="gk">ἐκεῖνος ὁ φιλόσοφος (hoặc: ὁ φιλόσοφος ἐκεῖνος) — "that philosopher"</li>
+<li class="gk">ἐκείνῃ (τῇ φίλῃ) — "with that (female) friend"</li>
+<li class="gk">ἐκεῖνο — biến cách kiểu đại từ: <strong>không</strong> phải ἐκεῖνον!</li>
+</ol></div></div>
+
+<h3>Bài tập 3 — Vị trí và dịch</h3>
+<p>Dịch (chú ý vị trí: vị trí vị ngữ nhưng dịch như định ngữ, mạo từ không dịch):</p>
+<ol>
+<li class="gk">ὅδε ὁ ἵππος τοῦ Ἥλίου ἐστίν.</li>
+<li class="gk">ὁ ἐχθρὸς ὅδε φίλος γίγνεται.</li>
+<li class="gk">διαλέγεσθε τῷδε;</li>
+<li class="gk">ἐκεῖνοι οἱ ἵπποι ταχείς εἰσί. <span style="color:#64748b;">(ταχείς = số nhiều của ταχύς "nhanh", bài 3: ταχέως)</span></li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Đáp án 3</h4>
+<ol>
+<li>"This horse (here) belongs to Helios." / "Con ngựa này là của Helios." — <span class="gk">ὅδε ὁ ἵππος</span> = "con ngựa này" (dịch như định ngữ dù đứng trước mạo từ); <span class="gk">τοῦ Ἥλίου</span> = định ngữ sở hữu cách.</li>
+<li>"This enemy here becomes a friend." / "Kẻ thù này trở thành bạn." — <span class="gk">γίγνεται</span>: deponent, dịch nghĩa chủ động; <span class="gk">φίλος</span> là biểu ngữ chủ cách.</li>
+<li>"Are you (pl.) talking with this man (here)?" / "Các bạn trò chuyện với vị này à?" — <span class="gk">διαλέγομαι</span>: deponent + tặng cách.</li>
+<li>"Those horses (over there) are fast." / "Đám ngựa kia nhanh." — <span class="gk">ταχείς</span> ở vị trí vị ngữ (mạo từ không đứng trực tiếp trước nó); <span class="gk">εἰσί</span> = ngôi 3 số nhiều của <span class="gk">εἶναι</span>.</li>
+</ol></div></div>
+
+<h3>Bài tập 4 — Hướng chỉ trong văn bản</h3>
+<p>Trong các ngữ cảnh sau nên dùng <span class="gk">ὅδε</span> hay <span class="gk">ἐκεῖνος</span>? Vì sao?</p>
+<ol>
+<li>Người nói vừa chỉ tay vào cuốn sách đang cầm trên tay.</li>
+<li>Người nói mở đầu bài giảng: "Sau đây tôi sẽ bàn về…" (<span class="gk">τάδε</span>…)</li>
+<li>Trong văn bản, nhắc lại một nhân vật đã được kể từ rất nhiều câu trước.</li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Đáp án 4</h4>
+<ol>
+<li><span class="gk">ὅδε</span> — hiện diện, gần theo góc nhìn người nói (hướng chỉ ngoài văn bản).</li>
+<li><span class="gk">ὅδε</span> (τάδε) — hướng chỉ trong văn bản, hướng về "cái sắp bàn".</li>
+<li><span class="gk">ἐκεῖνος</span> — hướng chỉ trong văn bản, chỉ cái "xa" trong mạch truyện. (Một số ngữ cảnh cũng cho phép <span class="gk">οὗτος</span> — "cái vừa được nhắc" — nhưng đại từ này <span class="notyet">chưa học (bài 26)</span>.)</li>
+</ol></div></div>
+
+<h3>Bài tập 5 — εἶναι và bẫy dấu thanh</h3>
+<ol>
+<li>Điền bảng <span class="gk">εἶναι</span> hiện tại: ngôi 1 số ít ___, ngôi 2 số ít ___, ngôi 3 số ít ___, ngôi 1 số nhiều ___, ngôi 2 số nhiều ___, ngôi 3 số nhiều ___.</li>
+<li>Dịch và giải thích tại sao chọn đọc đó: <span class="gk">εἰ φίλος εἶ, λέγε.</span></li>
+<li>Dịch: <span class="gk">ἔσται τὸ ἀγαθόν.</span> <span style="color:#64748b;">(τὸ ἀγαθόν = tính từ danh từ hóa, bài 5)</span></li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Đáp án 5</h4>
+<ol>
+<li class="gk">εἰμί · εἶ · ἐστί(ν) · ἐσμέν · ἐστέ · εἰσί(ν)</li>
+<li>"If you are a friend, speak!" / "Nếu bạn là bạn (của tôi), hãy nói!" — <span class="gk">εἰ</span> (không dấu) = "nếu"; <span class="gk">εἶ</span> (dấu sắc) = "bạn là". Vế đầu thiếu vị ngữ → phải do <span class="gk">εἰ</span> mở ra vế điều kiện.</li>
+<li>"The good will be (there)." / "Sẽ có cái thiện." — <span class="gk">ἔσται</span> = ngôi 3 số ít tương lai của <span class="gk">εἶναι</span>; <span class="gk">τὸ ἀγαθόν</span> = tính từ danh từ hóa (bài 5).</li>
+</ol></div></div>
+
+<h3>Bài tập 6 — Câu tổng hợp (bài 4–6)</h3>
+<p>Dịch sang tiếng Hy Lạp:</p>
+<ol>
+<li>"We can talk with this enemy." / "Chúng ta có thể trò chuyện với kẻ thù này."</li>
+<li>"That man over there is a philosopher." / "Người đàn ông kia là một nhà triết học." — dùng <span class="gk">ἐκεῖνος</span> đứng một mình, không cần danh từ.</li>
+<li>"If you (pl.) are wise, make peace!" / "Nếu các bạn khôn ngoan, hãy kiến lập hòa bình!" <span style="color:#64748b;">(εἰρήνη = hòa bình; ποιεῖσθε = mệnh lệnh số nhiều của ποιέομαι "kiến lập", bài 5)</span></li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Đáp án 6</h4>
+<ol>
+<li><span class="gk">δυνάμεθα διαλέγεσθαι τῷδε τῷ ἐχθρῷ.</span> — hoặc <span class="gk">τῷ ἐχθρῷ τῷδε</span>. Kết hợp: deponent không chủ đề <span class="gk">δυνάμεθα</span> + nguyên mẫu tân ngữ <span class="gk">διαλέγεσθαι</span> + deponent <span class="gk">διαλέγομαι</span> đòi tặng cách + đại từ chỉ định ở tặng cách (vị trí vị ngữ, dịch như định ngữ).</li>
+<li><span class="gk">ἐκεῖνος φιλόσοφος ἐστίν.</span> — đại từ chỉ định không có danh từ đi kèm → tự thân làm chủ ngữ; <span class="gk">φιλόσοφος</span> là biểu ngữ chủ cách; <span class="gk">ἐστίν</span> mang ν di động trước nguyên âm.</li>
+<li><span class="gk">εἰ σοφοὶ ἐστέ, εἰρήνην ποιεῖσθε!</span> — <span class="gk">εἰ</span> = "nếu" (không dấu!); <span class="gk">σοφοί</span> biểu ngữ số nhiều; <span class="gk">ἐστέ</span> = ngôi 2 số nhiều của <span class="gk">εἶναι</span>; <span class="gk">ποιεῖσθε</span> = mệnh lệnh số nhiều trung (bài 5: "hãy kiến lập cho mình").</li>
+</ol></div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 6 — Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN — Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Bản đọc đối chiếu: Homer, Odyssee 16.181–206 (Perseus, public domain).</p>
+
+</main>
+</body>
+</html>
