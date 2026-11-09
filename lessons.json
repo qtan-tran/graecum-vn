@@ -65,17 +65,20 @@
       "id": "03-ellipsis-neuter-plural",
       "num": 3,
       "level": "graecum-1",
-      "title": "Ellipsis & the neuter plural subject",
+      "title": "Lược từ (ellipsis), chủ ngữ trung tính số nhiều & trạng từ",
       "topics": [
-        "ellipsis",
-        "neuter plural subject"
+        "lược từ (ellipsis)",
+        "câu danh ngữ (nominal sentence)",
+        "chủ ngữ trung tính số nhiều",
+        "trạng từ",
+        "tính từ danh từ hóa (khởi đầu)"
       ],
       "reading": [
         "Aristoteles, Magna Moralia 1,1",
         "Anaxagoras DK 59A42"
       ],
-      "status": "draft-legacy",
-      "rev": 1
+      "status": "published",
+      "rev": 2
     },
     {
       "id": "04-pronouns-imperative",
