@@ -29,7 +29,7 @@ Xem chi tiết: [docs/CURRICULUM.md](docs/CURRICULUM.md)
 ├── readings/               # Văn bản đọc public domain + bản đơn giản hóa kèm phân tích
 ├── vocab/                  # Từ vựng theo bài, có phiên âm La tinh hóa; Anki decks
 ├── docs/                   # Kiến trúc, quy ước biên soạn, bản quyền, roadmap
-└── toolkit.md              # Hub công cụ & so sánh tài liệu (sau này tách thành repo riêng)
+└── toolkit.md              # Trỏ sang repo riêng ancient-greek-toolkit (hub công cụ EN, đã tách)
 ```
 
 ## Cách dùng bài giảng

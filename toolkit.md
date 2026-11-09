@@ -1,9 +1,8 @@
-# Toolkit (stub — sẽ tách thành repo riêng `greek-toolkit-vn`)
+# Toolkit — đã tách thành repo riêng
 
-Placeholder cho hub công cụ "grill me with ancient greek": tools tra cứu, phân tích, luyện tập, và so sánh tài liệu cho người học tiếng Hy Lạp cổ. Cho tới khi tách repo, danh mục nguồn đọc + từ điển nằm tạm ở `readings/README.md`.
+Hub công cụ "grill me with ancient greek" (tra cứu, văn bản gốc, gõ chữ, luyện tập, ngữ pháp tham chiếu) **đã được tách thành repo riêng**:
 
-Kế hoạch nội dung khi tách (xem docs/ROADMAP.md Phần 4):
-- Tools tra cứu: Logeion (LSJ), Perseus/Scaife, Wiktionary, Morpheus/Alpheios
-- Tools luyện tập: bộ Anki của project, quiz per-lesson (link từ lessons.json)
-- So sánh tài liệu: Smyth (PD) vs. ngữ pháp hiện đại; review các giáo trình phổ biến (link-only, không host)
-- Cổng dịch & đối chiếu: Greek–English–Vietnamese patterns
+- **Repo:** https://github.com/qtan-tran/ancient-greek-toolkit
+- **Website (khi bật Pages):** https://qtan-tran.github.io/ancient-greek-toolkit/
+
+Lý do tách (xem docs/ARCHITECTURE.md): portal đổi theo nhịp biên soạn; curated links đổi theo nhịp công cụ bên ngoài. Repo toolkit dùng **tiếng Anh** cho user global — tools cần thuật ngữ chuẩn, có thể tra cứu. Danh mục nguồn đọc + từ điển cho người học tiếng Việt nằm ở `readings/README.md`; bài giảng 48 bài ở portal này.

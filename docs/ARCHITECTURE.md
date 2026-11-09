@@ -20,7 +20,7 @@ github.com/<tài-khoản / org>
 │
 ├── graecum-vn          ← REPO NÀY: portal + bài giảng + readings + vocab
 │
-├── greek-toolkit-vn    ← (Phần sau) "grill me with ancient greek"
+├── ancient-greek-toolkit ← LIVE "grill me with ancient greek" (EN, user global)
 │                          hub tools (Logeion, Perseus/Scaife, Morpheus, Alpheios…),
 │                          so sánh tài liệu/ngữ pháp, bộ Anki, quiz tự luyện
 │
@@ -54,7 +54,7 @@ graecum-vn/
 │   ├── STYLE-AND-CONVENTIONS.md
 │   ├── CURRICULUM.md           # bản đồ 48 bài (chủ đề + bài đọc)
 │   └── COPYRIGHT.md             # chính sách bản quyền
-├── toolkit.md                  # stub; sẽ tách thành repo riêng
+├── toolkit.md                  # trỏ sang repo riêng ancient-greek-toolkit (đã tách)
 ├── README.md
 ├── LICENSE
 └── CONTRIBUTING.md
