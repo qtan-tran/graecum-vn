@@ -14,14 +14,25 @@
 
 | Phần | Nội dung | Trạng thái |
 | --- | --- | --- |
-| **1** | Kiến trúc + tài liệu nền (README, ARCHITECTURE, STYLE, COPYRIGHT, CURRICULUM 48 bài, ROADMAP) + portal skeleton + lesson template | ✅ SOẠN XONG (chờ push khi repo được tạo) |
-| **2** | Tạo repo GitHub + push Phần 1 + bật GitHub Pages; chuẩn hóa pilot: chuyển hóa **Lesson 1** sang quy ước mới (thuật ngữ Anh, bảng 4 cột có transliteration, Latin corner) | ▶ TIẾP THEO |
+| **1** | Kiến trúc + tài liệu nền (README, ARCHITECTURE, STYLE, COPYRIGHT, CURRICULUM 48 bài, ROADMAP) + portal skeleton + lesson template | ✅ XONG |
+| **2** | Tạo repo GitHub + push Phần 1 + bật GitHub Pages; chuẩn hóa pilot: chuyển hóa **Lesson 1** sang quy ước mới (thuật ngữ Anh, bảng 4 cột có transliteration, Latin corner) | ▶ ĐANG LÀM: push xong (commit 3b4d527); chờ bật Pages (user) + pilot Lesson 1 |
 | **3** | Chuyển hóa Lesson 2–6 sang quy ước mới, audit bản quyền từng bài | ☐ |
 | **4** | Repo `greek-toolkit-vn` (hub tools + so sánh tài liệu) | ☐ |
 | **5** | Lesson 7–10 mới hoàn chỉnh (bắt đầu phần curriculum chưa có bản thảo) + readings pipeline (bản simplified đầu tiên) | ☐ |
 | **6** | Vocab TSV + script sinh Anki deck cho L1–10 (CC BY-SA) | ☐ |
 | **7–12** | Lesson 11–24 (hoàn thành Graecum I); cập nhật roadmap giữa chừng | ☐ |
 | **13+** | Graecum II (L25–48) + satzanalyse platform + cộng đồng | ☐ |
+
+## Continuation notes — Phần 2 (đang làm)
+
+**Đã làm:**
+- Repo `qtan-tran/graecum-vn` (public) được tạo bởi người sở hữu; push Phần 1 (14 file) lên `main` thành công — commit `3b4d527`.
+- GitHub Pages: connector không có tool bật Pages → người sở hữu bật thủ công: Settings → Pages → Source "Deploy from a branch" → `main` / `(root)` → Save. URL dự kiến: `https://qtan-tran.github.io/graecum-vn/`.
+
+**Bước tiếp theo trong Phần 2:**
+1. Chuyển hóa Lesson 1 (bản thảo canvas hiện có) sang quy ước mới: thuật ngữ Anh, bảng 4 cột có phiên âm, Latin corner thay ví dụ Đức, ví dụ EN/VI; viết lại các câu ví dụ lấy từ Lektionstext gốc thành câu tự biên soạn (audit bản quyền).
+2. Bài đọc Lesson 1: bản simplified tự biên soạn theo chủ đề Iliad 15.187–193 (chia ba vương quốc); bản gốc PD tích hợp sau ở readings pipeline (Phần 5) khi fetch text chính xác từ Perseus.
+3. QA theo checklist → cập nhật lessons.json (`status: published`, `rev: 2`) → push → portal live.
 
 ## Continuation notes — Phần 1 (kết thúc)
 
