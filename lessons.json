@@ -205,6 +205,25 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "10-present-medpass-complete-deponents",
+      "num": 10,
+      "level": "graecum-1",
+      "title": "Hiện tại trung/bị động đủ sáu ngôi & deponent mở rộng",
+      "topics": [
+        "ôn bản đồ sáu ngôi × hai thái (παιδεύω): -όμεθα, -ονται vs -ουσι(ν), 2 Sg. -ει trùng 3 Sg. chủ động",
+        "mệnh lệnh ngôi 3 trung/bị động (-έσθω/-έσθωσαν) + nguyên mẫu -εσθαι",
+        "tác nhân ὑπό + sở hữu cách: ôn sâu bài 5, lật chủ động ↔ bị động; Latin ā/ab + cách xóa",
+        "bốn làn nghĩa của -ομαι: trung trực tiếp (λούεται), trung gián tiếp (μισθόεται), bị động, deponent",
+        "deponent mở rộng: ἔρχομαι, ἀπέρχομαι, ἀποκρίνομαι, αἰσθάνομαι + ôn 7 động từ cũ"
+      ],
+      "reading": [
+        "Platon, Politeia 375b–e",
+        "Diogenes Laertios 6,37"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
