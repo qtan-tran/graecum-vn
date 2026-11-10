@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 15 – Đại từ quan hệ &amp; mệnh đề quan hệ; đại từ sở hữu &amp; phản thân</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  td.em, th.em { font-style: italic; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; }
+  .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 4px solid #1976d2; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; }
+  .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 4px solid #db2777; padding: 10px 16px; margin: 16px 0; font-size: 0.97em; }
+  .latin p:first-child { margin-top: 0; }
+  .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 4px solid #0f766e; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; }
+  .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; background: #f8fafc; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 15: Đại từ quan hệ &amp; mệnh đề quan hệ; đại từ sở hữu &amp; phản thân</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Đại từ quan hệ <span class="gk">ὅς, ἥ, ὅ</span>: bảng chia đầy đủ</a></li>
+<li><a href="#s2">Mệnh đề quan hệ: quy tắc hợp nhất kép (giống–số / cách)</a></li>
+<li><a href="#s3">Đọc câu ghép: kỹ thuật &quot;gọng kẹp&quot; – thanh toán nợ preview từ bài 13–14</a></li>
+<li><a href="#s4">Hút cách (attraction): khi đại từ quan hệ &quot;rời&quot; vị trí đúng</a></li>
+<li><a href="#s5">Đại từ sở hữu: <span class="gk">ἐμός, σός, ἡμέτερος, ὑμέτερος</span> – và &quot;của hắn&quot; kiểu Hy Lạp</a></li>
+<li><a href="#s6"><span class="gk">αὐτός</span>: một từ, ba dụng pháp – vị trí quyết định</a></li>
+<li><a href="#s7">Đại từ phản thân: <span class="gk">ἑαυτοῦ</span> và hệ thống &quot;chính mình&quot;</a></li>
+<li><a href="#s8">Bản đồ đại từ Graecum I (bài 1–15)</a></li>
+<li><a href="#reading">Bài đọc I: Hình là gì? (Platon, Menon 72d–73c)</a></li>
+<li><a href="#reading2">Bài đọc II: Dây đai của nữ hoàng (Apollodor 2,5,9)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) chia đầy đủ đại từ quan hệ <span class="gk">ὅς, ἥ, ὅ</span> theo giống–số–cách (KNG) và phân biệt nó với mạo từ qua dấu thanh; (2) áp dụng <strong>quy tắc hợp nhất kép</strong>: giống &amp; số theo danh từ đứng trước, cách theo nhiệm vụ trong mệnh đề con; (3) đọc câu ghép chứa mệnh đề quan hệ bằng kỹ thuật &quot;gọng kẹp&quot; và nhận diện <strong>hút cách (attraction)</strong>; (4) dùng đại từ sở hữu <span class="gk">ἐμός, σός</span> đúng vị trí và nói &quot;của hắn/của cô ấy&quot; bằng sở hữu cách của <span class="gk">αὐτός</span>; (5) tách ba dụng pháp của <span class="gk">αὐτός</span> (nhấn – &quot;cùng một&quot; – đại từ ngôi 3) và phân biệt <span class="gk">ἑαυτοῦ</span> &quot;chính mình&quot; với <span class="gk">αὐτοῦ</span> &quot;của hắn&quot;; (6) đọc hai đoạn gốc: Platon, Menon 72d–73c và Apollodor 2,5,9.</p>
+</div>
+
+<div class="info">
+<p><strong>Cách dùng bài học:</strong> hôm nay vốn từ vựng của bạn bỗng nhiên &quot;gắn kết&quot; được: các câu đơn của những bài đầu giờ đây có thể lồng vào nhau thành câu ghép – nhờ một đại từ nhỏ nhưng LOAD lượng ngữ pháp rất lớn. Mỗi mục đóng bằng một cách tự kiểm tra. Vocab có dấu <span class="star">★</span> là từ bắt buộc nhớ; từ mới của hai bài đọc có bảng gloss riêng. Hai bài đọc đều giữ gần nguyên vị trí của các từ để bạn thấy <em>trật tự từ Hy Lạp</em> hoạt động thật.</p>
+</div>
+
+<h2 id="s1">1. Đại từ quan hệ <span class="gk">ὅς, ἥ, ὅ</span>: bảng chia đầy đủ</h2>
+
+<p>Từ bài 6 bạn đã biết đại từ chỉ định &quot;chỉ tay&quot; vào một sự vật. Hôm nay học loại đại từ <em>gắn kết</em>: <strong>đại từ quan hệ (relative pronoun)</strong> không chỉ tay – nó <strong>nối</strong> một mệnh đề con vào một danh từ, như sợi dây treo một chiếc đèn lồng. Tiếng Việt dùng &quot;mà / ai / cái / những điều mà…&quot;; tiếng Anh dùng <em>who, which, that</em>.</p>
+
+<p class="gk"><strong>ὅς, ἥ, ὅ</strong> <span class="tr">(hós, hé, hó)</span> – &quot;(người/cái) mà…&quot;. Bảng chia đầy đủ:</p>
+
+<table>
+<thead><tr><th></th><th colspan="3">SỐ ÍT</th><th colspan="3">SỐ NHIỀU</th></tr>
+<tr><th></th><th>đực</th><th>cái</th><th>trung</th><th>đực</th><th>cái</th><th>trung</th></tr></thead>
+<tbody>
+<tr><td><strong>Chủ cách</strong></td><td class="gk">ὅς</td><td class="gk">ἥ</td><td class="gk">ὅ</td><td class="gk">οἵ</td><td class="gk">αἵ</td><td class="gk">ἅ</td></tr>
+<tr><td><strong>Sở hữu cách</strong></td><td class="gk">οὗ</td><td class="gk">ἥς</td><td class="gk">οὗ</td><td class="gk">ὧν</td><td class="gk">ὧν</td><td class="gk">ὧν</td></tr>
+<tr><td><strong>Tặng cách</strong></td><td class="gk">ᾧ</td><td class="gk">ᾗ</td><td class="gk">ᾧ</td><td class="gk">οἷς</td><td class="gk">αἷς</td><td class="gk">οἷς</td></tr>
+<tr><td><strong>Đối cách</strong></td><td class="gk">ὅν</td><td class="gk">ἥν</td><td class="gk">ὅ</td><td class="gk">οὕς</td><td class="gk">ἅς</td><td class="gk">ἅ</td></tr>
+</tbody>
+</table>
+
+<p>Phiên âm theo dòng: <span class="tr">hós, hé, hó; hoû, hês, hoû; hô(i), hêi, hô(i); hón, hḗn, hó; hoí, haí, há; hôn; hoîs, haîs, hoîs; hoús, hás, há</span>.</p>
+
+<p>Ba quan sát morphology:</p>
+<ul>
+<li><strong>Nhìn quen?</strong> Cả họ số ít giống hệt mạo từ – nhưng có hai khác biệt nhỏ, đều dễ kiểm tra: <strong>luôn có dấu thanh</strong> (<span class="gk">ὅς</span>, không phải τὸ-trắng-τươi như <span class="gk">ὁ</span>) và <strong>luôn có dấu hút khí</strong> (rough breathing: <span class="gk">ὅς, ἥ, ὅ</span>; mạo từ chỉ có dấu mềm). Số nhiều đối chiếu tương tự: <span class="gk">οἵ</span> (quan hệ) vs <span class="gk">οἱ</span> (mạo từ), <span class="gk">αἵ</span> vs <span class="gk">αἱ</span>.</li>
+<li><strong>Trung tính = một dạng kép:</strong> chủ cách và đối cách trùng nhau (<span class="gk">ὅ</span> số ít, <span class="gk">ἅ</span> số nhiều) – đúng quy tắc &quot;trung tính không phân biệt chủ/đối&quot; đã gặp ở mọi bảng từ bài 1.</li>
+<li><strong>Số nhiều của cả ba giống:</strong> sở hữu cách chỉ có một dạng <span class="gk">ὧν</span>, tặng cách chỉ có <span class="gk">οἷς / αἷς</span> – chỉ giống đực/cái tách nhau, trung tính &quot;đi lô&quot; với đực, y hệt khuôn của <span class="gk">ἐκεῖνος</span> (bài 6).</li>
+</ul>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> cách ghi nhớ nhanh nhất là &quot;<strong>mạo từ + dấu thanh + dấu hút khí</strong>&quot;: <span class="gk">ὁ → ὅς</span>, <span class="gk">τοῦ → οὗ</span>, <span class="gk">τῷ → ᾧ</span>, <span class="gk">τόν → ὅν</span>… chỉ cần thêm thanh và hít khí là ra đại từ quan hệ (riêng tặng cách số nhiều phải nhớ nhóm <span class="gk">οἷς, αἷς</span> vì mạo từ là <span class="gk">τοῖς, ταῖς</span> có chữ τ). Tự kiểm tra khi gặp một từ lạ: có dấu thanh + dấu hút khí, không có τ đứng đầu → gần như chắc chắn là quan hệ, không phải mạo từ.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> Latin có một &quot;anh em song sinh&quot; của <span class="gk">ὅς, ἥ, ὅ</span>: <em>quī, quae, quod</em> – đặt hai bảng cạnh nhau sẽ thấy chúng soi gương từng cặp: <em>cuius</em> &quot;của ai&quot; ↔ <span class="gk">οὗ</span>, <em>cui</em> &quot;cho ai&quot; ↔ <span class="gk">ᾧ</span>, <em>quem</em> ↔ <span class="gk">ὅν</span>, <em>quam</em> ↔ <span class="gk">ἥν</span>, <em>quod</em> ↔ <span class="gk">ὅ</span>. Hai ngôn ngữ cùng thừa hưởng một đại từ quan hệ cổ Ấn-Âu (*<em>kw-</em>): vì thế cả Latin <em>quī</em> lẫn Hy Lạp <span class="gk">ὅς</span> đều gắn với dấu hỏi &quot;ai/cái gì&quot; (Latin <em>quis</em>, Hy Lạp <span class="gk">τίς</span> – bài 2/5). Ai đã thuộc bảng Latin sẽ học bảng Hy Lạp trong một buổi.</p>
+</div>
+
+<h2 id="s2">2. Mệnh đề quan hệ: quy tắc hợp nhất kép (giống–số / cách)</h2>
+
+<p><strong>Mệnh đề quan hệ (relative clause)</strong> là một mệnh đề con gắn vào một danh từ của mệnh đề chính – danh từ đó gọi là <strong>danh từ đứng trước (antecedent)</strong>. Toàn bộ mệnh đề con đóng vai một tính từ: <span class="gk">ὁ ἄνθρωπος ὃς λέγει</span> = &quot;người đàn ông <em>đang-nói</em>&quot; = &quot;người đàn ông mà đang nói&quot;.</p>
+
+<p>Câu hỏi số một của người học: <em>chọn dạng nào của</em> <span class="gk">ὅς</span>? Trả lời là <strong>quy tắc hợp nhất kép</strong> – đại từ quan hệ nghe theo hai ông chủ khác nhau:</p>
+
+<ul>
+<li><strong>Giống và số: theo danh từ đứng trước</strong> – nó &quot;kế thừa&quot; giống (đực/cái/trung) và số (ít/nhiều) của antecedent, như một tính từ.</li>
+<li><strong>Cách: theo nhiệm vụ của chính nó trong mệnh đề con</strong> – nó là chủ ngữ? tân ngữ? sau giới từ? &quot;của ai&quot;? Cách hoàn toàn do chức năng trong mệnh đề con quyết định, <em>không</em> phụ thuộc cách của antecedent.</li>
+</ul>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ ἄνθρωπος ὃς λέγει.</td><td class="tr">ho ánthrōpos hós légei.</td><td class="em">the man <strong>who</strong> speaks.</td><td>người đàn ông <strong>mà</strong> đang nói (chủ cách – chủ ngữ mệnh đề con).</td></tr>
+<tr><td class="gk">ὁ ἄνθρωπος ὃν βλέπω.</td><td class="tr">ho ánthrōpos hón blépō.</td><td class="em">the man <strong>whom</strong> I see.</td><td>người đàn ông <strong>mà</strong> tôi thấy (đối cách – tân ngữ của βλέπω).</td></tr>
+<tr><td class="gk">ὁ ἄνθρωπος ᾧ πιστεύομεν.</td><td class="tr">ho ánthrōpos hô(i) pisteúomen.</td><td class="em">the man <strong>whom</strong> we trust.</td><td>người đàn ông <strong>mà</strong> chúng tôi tin (tặng cách – πιστεύω + tặng cách, bài 4).</td></tr>
+<tr><td class="gk">ὁ ἄνθρωπος οὗ τὸν φίλον παιδεύομεν.</td><td class="tr">ho ánthrōpos hoû tòn phílon paideúomen.</td><td class="em">the man <strong>whose</strong> friend we educate.</td><td>người đàn ông <strong>mà</strong> (của hắn) chúng tôi dạy người bạn (sở hữu cách – &quot;của ai&quot;).</td></tr>
+<tr><td class="gk">τὸ ἔργον ὃ τελειοῖ.</td><td class="tr">to érgon hó teleiói.</td><td class="em">the task <strong>which</strong> he completes.</td><td>công việc <strong>mà</strong> hắn hoàn thành (trung tính – chủ/đối một dạng).</td></tr>
+<tr><td class="gk">αἱ Ἀμαζόνες αἳ μάχονται.</td><td class="tr">hai Amazones hái mákhontai.</td><td class="em">the Amazons <strong>who</strong> fight.</td><td>những Amazon <strong>mà</strong> chiến đấu (số nhiều cái – chủ cách).</td></tr>
+</tbody>
+</table>
+
+<p>Đọc kỹ dòng 3 và 6: <span class="gk">ᾧ</span> và <span class="gk">αἳ</span> đứng ở cách <em>khác</em> với danh từ đứng trước (<span class="gk">ὁ</span> chủ cách, <span class="gk">τῶν Ἀμαζόνων</span> sở hữu cách) – vì cách do nhiệm vụ quyết định. Đây chính là điểm &quot;xa nhau&quot; giữa đại từ quan hệ và tính từ thường: tính từ hợp nhất đủ cả ba thứ (K-N-G); quan hệ chỉ mượn hai (N-G) và tự quyết phần thứ ba.</p>
+
+<div class="tipp">
+<p><strong>Pattern 3 bước – dùng cho mọi mệnh đề quan hệ:</strong> <strong>(1)</strong> Tìm danh từ đứng trước – mệnh đề con &quot;mọc&quot; vào nó. <strong>(2)</strong> Copy giống + số từ danh từ đó. <strong>(3)</strong> Hỏi đại từ giữ vai gì <em>trong mệnh đề con</em>: chủ ngữ → chủ cách; tân ngữ → đối cách; sau giới từ → cách của giới từ; &quot;của ai&quot; → sở hữu cách. Dịch: giống–số cho biết &quot;ai/cái nào&quot;, cách cho biết &quot;làm gì với nó&quot;. Tự kiểm tra: nếu cách của đại từ trùng cách của antecedent &quot;một cách trùng hợp&quot; mà không giải thích được vai trò – hãy làm lại bước 3.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Achtung – &quot;của ai&quot; có đuôi kèm:</strong> ở dòng 4, sở hữu cách <span class="gk">οὗ</span> kéo theo một danh từ con (<span class="gk">τὸν φίλον</span>) – vì &quot;người mà <em>của hắn</em> bạn bè…&quot; nghĩa là người ta đang nói về <em>bạn bè của hắn</em>. Cấu trúc này dịch ra tiếng Việt phải gói là &quot;… mà (người mà) của hắn…&quot; – hay nhất: dịch thẳng &quot;người mà bạn bè của hắn được chúng tôi dạy&quot; nghe vướng, nên dùng &quot;whose&quot; tiếng Anh làm mẫu: &quot;the man <em>whose</em> friend…&quot;. Lỗi kinh điển: nhìn thấy <span class="gk">οὗ</span> mà dịch &quot;trong đó/ở đó&quot; (đó là một trạng từ khác, xem bảng confusables cuối bài).</p>
+</div>
+
+<h2 id="s3">3. Đọc câu ghép: kỹ thuật &quot;gọng kẹp&quot; – thanh toán nợ preview từ bài 13–14</h2>
+
+<p>Mệnh đề quan hệ trong văn Hy Lạp thật gần như luôn có trật tự <strong>&quot;mở bằng đại từ, đóng bằng động từ&quot;</strong>: <span class="gk">ὃν βλέπω</span>, <span class="gk">αἳ μάχονται</span>, <span class="gk">ᾧ πιστεύομεν</span> – đại từ quan hệ đứng <em>đầu</em> mệnh đề con, động từ chốt <em>cuối</em>. Hình dung hai gọng kẹp: gọng trên (đại từ) và gọng dưới (động từ) ghì toàn bộ nội dung ở giữa. Khi đọc câu dài, kỹ thuật là:</p>
+<ol>
+<li>Gạt augment/đuôi gì cũng được – <strong>tìm đại từ quan hệ trước</strong> (dấu thanh + dấu hút khí, mục 1).</li>
+<li>Gọng trên = đại từ. Bay mắt xuống cuối câu tìm <strong>gọng dưới = động từ</strong> (cuối mệnh đề).</li>
+<li>Đọc nội dung kẹp giữa, rồi gắn mệnh đề con vào danh từ đứng trước nó.</li>
+</ol>
+
+<p>Hai &quot;mon nợ&quot; từ các bài trước hôm nay trả được cả:</p>
+
+<table>
+<thead><tr><th>Đoạn đã preview</th><th>Giải mã hôm nay</th></tr></thead>
+<tbody>
+<tr><td>Bài 13 (Klearchos phát biểu): <span class="gk">παρ' οὓς ἡμεῖς τὴν φιλίαν συνθέμενοι κατεθέμεθα</span></td><td><span class="gk">οὕς</span> = đối cách số nhiều đực – vì theo sau <span class="gk">παρά</span> + đối cách (bài 4: &quot;bên cạnh, về phía&quot;) trong mệnh đề con: &quot;những vị thần <em>bên cạnh</em> mà chúng tôi… ký gửi tình bạn&quot; → &quot;nơi những vị thần mà chúng tôi đã ký gửi tình bạn&quot;. Giống–số (đực, số nhiều) theo các vị thần; cách (đối) do <span class="gk">παρά</span> quyết định.</td></tr>
+<tr><td>Bài 14 (chợ bán tri thức): <span class="gk">ἃ πωλοῦσιν</span></td><td><span class="gk">ἅ</span> = đối cách số nhiều trung tính – tân ngữ của <span class="gk">πωλοῦσιν</span> &quot;họ bán&quot;: &quot;những thứ mà họ bán&quot;. Danh từ đứng trước ẩn (các hàng hóa): mệnh đề quan hệ không có antecedent rõ ràng vẫn dịch được trọn vẹn &quot;những gì…&quot;.</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern đọc văn bản:</strong> mệnh đề quan hệ là &quot;hộp xếp lồng&quot; của văn Hy Lạp: hộp lớn (mệnh đề chính) chứa hộp con (mệnh đề quan hệ), hộp con có thể chứa tiếp hộp cháu (AcI, cụm giới từ…). Đừng đọc tuần tự từng từ – hãy <strong>tìm biên giới hộp</strong>: mỗi lần gặp đại từ quan hệ là một lần mở hộp mới; mỗi lần gặp động từ chốt là một lần đóng hộp. Sau 3–4 hộp lồng bạn sẽ thấy câu dài của Platon chỉ là… vài cái hộp gọn.</p>
+</div>
+
+<h2 id="s4">4. Hút cách (attraction): khi đại từ quan hệ &quot;rời&quot; vị trí đúng</h2>
+
+<p>Một hiện tượng quen mặt trong văn xuôi Attic (đặc biệt Platon – ngay trong bài đọc I hôm nay): danh từ đứng trước ở <strong>sở hữu cách hoặc tặng cách</strong>, còn đại từ quan hệ theo quy tắc mục 2 lẽ ra phải ở <strong>đối cách</strong> (vì nó chỉ là tân ngữ trong mệnh đề con). Văn viết hay &quot;hút&quot; đại từ về cách của danh từ đứng trước:</p>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">τοῦ ποταμοῦ ὃν βλέπεις τὸ ὄνομα οὐ γιγνώσκεις.</td><td class="tr">toû potamoû hón blépeis tò ónoma ou gignṓskeis.</td><td>bản theo quy tắc: ngươi không biết tên của dòng sông mà ngươi thấy.</td></tr>
+<tr><td class="gk">τοῦ ποταμοῦ οὗ βλέπεις τὸ ὄνομα οὐ γιγνώσκεις.</td><td class="tr">toû potamoû hoû blépeis tò ónoma ou gignṓskeis.</td><td>có hút cách: <span class="gk">ὃν → οὗ</span> – cùng một nghĩa.</td></tr>
+</tbody>
+</table>
+
+<p>Điều kiện hay gặp: trong mệnh đề con, ngoài đại từ ra <em>không</em> có đối cách nào khác – đối cách &quot;trống chỗ&quot; nên được kéo về theo antecedent. Hiện tượng này gọi là <strong>hút cách (attraction)</strong>: cách của đại từ bị hút về cách của danh từ đứng trước.</p>
+
+<p>Một ví dụ bạn đã gặp ở bài 14: <span class="gk">ὧν ἄγουσιν ἀγωγίμων</span> &quot;(hàng hóa) mà họ chở theo, (thuộc loại) bán được&quot; – <span class="gk">ὧν</span> lẽ ra là <span class="gk">ἅ</span> (đối cách trung tính số nhiều, tân ngữ của <span class="gk">ἄγουσιν</span> &quot;họ chở&quot;), nhưng bị hút về sở hữu cách theo danh từ (được hiểu ngầm) phía trước.</p>
+
+<div class="achtung">
+<p><strong>Achtung – đọc biết, viết đừng bắt chước (ngay lập tức):</strong> hút cách là <em>phương án khả dụng</em>, không phải luật bắt buộc: <span class="gk">τοῦ ποταμοῦ ὃν βλέπεις</span> vẫn hoàn toàn đúng. Vì thế (1) khi đọc: gặp <span class="gk">οὗ / ᾧ</span> mà mệnh đề con &quot;thiếu động từ đi với cách này&quot; – hãy thử giải mã như một hút cách; (2) khi làm bài tập dịch sang tiếng Hy Lạp ở trình độ này: luôn dùng cách đúng theo quy tắc mục 2, đừng tự hút. Lỗi kinh điển ngược chiều: hút <em>sai</em> khi antecedent ở chủ cách – <span class="gk">ὁ λόγος οὗ ἀκούομεν</span> là SAI (antecedent chủ cách thì đối cách <span class="gk">ὅν</span> không có gì để &quot;bám&quot;): phải là <span class="gk">ὁ λόγος ὃν ἀκούομεν</span>.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> Latin <em>không</em> hút cách – đại từ quan hệ giữ cách của mình tuyệt đối: <em>fluminis, quod vides, nomen nescis</em> &quot;ngươi không biết tên của dòng sông mà ngươi thấy&quot; – <em>quod</em> vẫn đối cách (trung tính) dù danh từ đứng trước ở sở hữu cách. So sánh ngược giúp bạn nhớ: <strong>Hy Lạp &quot;nhoè&quot; cách theo antecedent, Latin thì tuyệt đối cứng</strong>. Đây là một trong vài điểm Latin <em>đơn giản hơn</em> Hy Lạp – hãy tận dụng khi đối chiếu.</p>
+</div>
+
+<h2 id="s5">5. Đại từ sở hữu: <span class="gk">ἐμός, σός, ἡμέτερος, ὑμέτερος</span> – và &quot;của hắn&quot; kiểu Hy Lạp</h2>
+
+<p>Tiếp nối đại từ nhân xưng của bài 4, hôm nay bổ sung <strong>đại từ sở hữu (possessive pronoun)</strong> – thực chất là các tính từ sở hữu, chia như tính từ ba đuôi nhóm a/o (bài 1):</p>
+
+<table>
+<thead><tr><th>Đại từ sở hữu</th><th>Phiên âm</th><th>Nghĩa</th><th>Ví dụ vị trí định ngữ</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἐμός, ἐμή, ἐμόν</td><td class="tr">emós, emḗ, emón</td><td>của tôi (my)</td><td class="gk">ὁ ἐμὸς πατήρ / ὁ πατὴρ ὁ ἐμός</td></tr>
+<tr><td class="gk">σός, σή, σόν</td><td class="tr">sós, sḗ, són</td><td>của ngươi (your, sg.)</td><td class="gk">ὁ σὸς λόγος / ὁ λόγος ὁ σός</td></tr>
+<tr><td class="gk">ἡμέτερος, -α, -ον</td><td class="tr">hēméteros</td><td>của chúng ta (our)</td><td class="gk">ἡ ἡμετέρα πόλις</td></tr>
+<tr><td class="gk">ὑμέτερος, -α, -ον</td><td class="tr">hyméteros</td><td>của các bạn (your, pl.)</td><td class="gk">τὰ ὑμέτερα ἔργα</td></tr>
+</tbody>
+</table>
+
+<p>Ba điều quan trọng về cách dùng:</p>
+<ul>
+<li><strong>Vị trí:</strong> như mọi tính từ, đại từ sở hữu phải đứng ở <strong>vị trí định ngữ</strong> (bài 1/6: mạo từ trực tiếp trước nó) – <span class="gk">ὁ ἐμὸς πατήρ</span> hoặc <span class="gk">ὁ πατὴρ ὁ ἐμός</span>. Ở <em>vị trí vị ngữ</em>, <span class="gk">ἐμός</span> không còn dịch là &quot;của tôi&quot; định ngữ nữa mà đóng vai vị ngữ &quot;(người đó) là của tôi&quot;: <span class="gk">ὁ Σωκράτης ἐμὸς πατήρ ἐστιν</span> &quot;Socrates là cha của tôi&quot; – đối trọng với <span class="gk">ὁ ἐμὸς πατήρ</span> định ngữ &quot;cha của tôi&quot;. Lỗi kinh điển: đặt <span class="gk">ἐμός</span> sau mạo từ + danh từ nhưng <em>không</em> chen vào giữa (định ngữ) mà để lỏng ra cuối (vị ngữ) – nghĩa xoay 180 độ.</li>
+<li><strong>Đối thủ thường ngày:</strong> tiếng Hy Lạp cổ điển phát &quot;của tôi&quot; chủ yếu bằng <strong>sở hữu cách của đại từ nhân xưng</strong> (bài 4): <span class="gk">ὁ πατήρ μου</span>, <span class="gk">ἡ μήτηρ σου</span> – ngắn hơn và trung tính hơn. Dùng <span class="gk">ἐμός</span> khi muốn <em>nhấn</em> &quot;của CHÍNH tôi&quot;, hoặc trong văn chương, thơ.</li>
+<li><strong>Ngôi 3 không có tính từ sở hữu!</strong> Không tồn tại một &quot;his/her&quot; dạng tính từ trong tiếng Hy Lạp cổ điển. Muốn nói &quot;cha của hắn/cô ấy&quot;, người Hy Lạp mượn <strong>sở hữu cách của <span class="gk">αὐτός</span></strong> (mục 6): <span class="gk">ὁ πατὴρ αὐτοῦ</span> &quot;cha của hắn (của y)&quot;, <span class="gk">ὁ πατὴρ αὐτῆς</span> &quot;cha của cô ấy&quot;. Latin có sẵn <em>eius</em> – cùng giải pháp bằng đại từ.</li>
+</ul>
+
+<div class="tipp">
+<p><strong>Pattern &quot;ba cách nói 'của'&quot;:</strong> (1) <span class="gk">ὁ ἐμὸς πατήρ</span> – tính từ sở hữu, nhấn &quot;của tôi&quot;; (2) <span class="gk">ὁ πατήρ μου</span> – sở hữu cách đại từ, cách nói thường ngày; (3) &quot;của chính mình&quot; (mục 7): <span class="gk">ὁ ἑαυτοῦ πατήρ</span> &quot;cha của chính hắn (một cách xoáy)&quot;. Một trục ba điểm, đều dịch là &quot;của…&quot; nhưng sắc thái khác nhau: <em>trung tính – nhấn – phản chiếu</em>. Tự kiểm tra khi đọc: thấy sở hữu cách của đại từ sau danh từ, hỏi &quot;nhấn không? phản chiếu về chủ ngữ không?&quot; – nếu cả hai không, dịch trơn &quot;của…&quot; là đúng.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> bộ Latin tương ứng là <em>meus, tuus, noster, vester</em> – đối ứng từng cặp một với <span class="gk">ἐμός, σός, ἡμέτερος, ὑμέτερος</span> (phổ biến nhất là <em>meus</em> ↔ <span class="gk">ἐμός</span>; cả hai đều mang sắc thái nhấn nhẹ). Và cũng như Hy Lạp, Latin ngôi 3 thường đi đường đại từ: <em>pater eius</em> ↔ <span class="gk">ὁ πατὴρ αὐτοῦ</span>. Điểm khác đáng nhớ: Latin còn có <em>suus</em> &quot;của chính mình&quot; làm tính từ; tiếng Hy Lạp không có, phải mượn sở hữu cách phản thân <span class="gk">ἑαυτοῦ</span> đặt sau danh từ (mục 7).</p>
+</div>
+
+<h2 id="s6">6. <span class="gk">αὐτός</span>: một từ, ba dụng pháp – vị trí quyết định</h2>
+
+<p>Vì &quot;của hắn&quot; phải đi qua <span class="gk">αὐτός</span>, phải biết từ này hoạt động ra sao. <span class="gk">αὐτός, αὐτή, αὐτό</span> <span class="tr">(autós, autḗ, autó)</span> chia <strong>y hệt <span class="gk">ἐκεῖνος</span></strong> (bài 6 – biến cách kiểu đại từ, trung tính số ít <span class="gk">αὐτό</span> không có ν). Nhưng &quot;nghề&quot; của nó chia theo <strong>vị trí</strong> – chính cái vị trí đã học ở bài 1 và 6:</p>
+
+<table>
+<thead><tr><th>Dụng pháp</th><th>Ở vị trí nào?</th><th>Ví dụ</th><th>Tiếng Việt</th><th>Latin</th></tr></thead>
+<tbody>
+<tr><td><strong>1. Nhấn &quot;chính&quot;</strong> (intensive)</td><td><strong>vị ngữ</strong> (trước mạo từ hoặc sau danh từ)</td><td class="gk">αὐτὸς ὁ βασιλεὺς λέγει. / ὁ βασιλεὺς αὐτός</td><td><strong>chính</strong> đức vua nói</td><td><em>ipse</em></td></tr>
+<tr><td><strong>2. &quot;Cùng một&quot;</strong> (identical)</td><td><strong>định ngữ</strong> (mạo từ trực tiếp trước nó)</td><td class="gk">ὁ αὐτὸς βασιλεύς</td><td><strong>cùng một</strong> đức vua (không phải vua khác)</td><td><em>idem</em></td></tr>
+<tr><td><strong>3. Đại từ ngôi 3</strong> (không nhấn)</td><td>đứng một mình ở các cách (không kèm mạo từ + danh từ)</td><td class="gk">βλέπω αὐτόν.</td><td>tôi thấy <strong>hắn</strong></td><td><em>is / eum</em></td></tr>
+</tbody>
+</table>
+
+<p>Cùng một bộ dạng, ba nghĩa – và quy tắc nhận diện lại chính là <strong>vị trí định ngữ / vị ngữ</strong> của bài 6: <span class="gk">αὐτὸς ὁ βασιλεύς</span> (vị ngữ) = &quot;chính nhà vua&quot;; <span class="gk">ὁ αὐτὸς βασιλεύς</span> (định ngữ) = &quot;cùng một nhà vua&quot;. Chỉ cần đặt ngón tay lên mạo từ: mạo từ trực tiếp trước <span class="gk">αὐτός</span> → dụng pháp 2; không có → dụng pháp 1. Dụng pháp 3 thì khỏi bàn luận: <span class="gk">αὐτόν</span> đứng trơ trọi không kèm mạo từ, muốn nhấn cũng chẳng nhấn vào đâu – nó chỉ là &quot;hắn/cô ấy&quot; khiếm diện (đại từ nhân xưng ngôi 3 thường ngày mà bài 4 đã thiếu).</p>
+
+<div class="achtung">
+<p><strong>Achtung – hai lỗi kinh điển:</strong> (1) Dịch <span class="gk">αὐτὸς ὁ βασιλεύς</span> thành &quot;cùng một nhà vua&quot; hoặc <span class="gk">ὁ αὐτὸς βασιλεύς</span> thành &quot;chính nhà vua&quot; – nhầm vị trí là nhầm nghĩa 180 độ. (2) Quan trọng hơn: <span class="gk">αὐτός</span> <strong>không bao giờ</strong> là &quot;hắn tự làm…&quot; nghĩa phản thân! &quot;Hắn giấu chính hắn&quot; không thể là <span class="gk">κρύπτει αὐτόν</span> (đó là &quot;giấu một người khác nào đó&quot;) – phải dùng <span class="gk">ἑαυτόν</span> (mục 7). Tiếng Anh &quot;himself&quot; che khuất hai nghĩa này (&quot;he sees himself&quot; = phản thân; &quot;he himself sees&quot; = nhấn): Hy Lạp tách rạch ròi.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> bộ ba &quot;một từ – vị trí – nghề&quot;: (a) kèm mạo từ trước → &quot;cùng một&quot;; (b) kèm mạo từ + danh từ phía sau nhưng mạo từ <em>không</em> trực tiếp trước nó → &quot;chính&quot;; (c) đứng solo → ngôi 3 &quot;hắn/cô ấy&quot;. Sở hữu cách của dụng pháp 3 chính là &quot;của hắn/của cô ấy&quot; của mục 5. Kiểm tra nhanh một từ: <span class="gk">τὸν αὐτὸν λόγον</span> – mạo từ trực tiếp trước → &quot;cùng một lời&quot;; <span class="gk">αὐτὸς ὁ Σωκράτης</span> – không → &quot;chính Socrates&quot;; <span class="gk">βλέπω αὐτόν</span> – solo → &quot;tôi thấy hắn&quot;. Ba câu đố này mà trả lời được là thuộc bài.</p>
+</div>
+
+<h2 id="s7">7. Đại từ phản thân: <span class="gk">ἑαυτοῦ</span> và hệ thống &quot;chính mình&quot;</h2>
+
+<p><strong>Đại từ phản thân (reflexive pronoun)</strong> trả lời &quot;ai chịu tác động của chính chủ ngữ?&quot; – hình ảnh tấm gương: hành động rời khỏi chủ ngữ, quặt lại chiếu vào chính chủ ngữ. Bảng chia:</p>
+
+<table>
+<thead><tr><th>Ngôi</th><th>Sở hữu cách</th><th>Tặng cách</th><th>Đối cách</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td class="gk">ἐμαυτοῦ</td><td class="gk">ἐμαυτῷ</td><td class="gk">ἐμαυτόν</td></tr>
+<tr><td>2 Sg.</td><td class="gk">σεαυτοῦ</td><td class="gk">σεαυτῷ</td><td class="gk">σεαυτόν</td></tr>
+<tr><td>3 Sg. (đực/trung)</td><td class="gk">ἑαυτοῦ</td><td class="gk">ἑαυτῷ</td><td class="gk">ἑαυτόν</td></tr>
+<tr><td>3 Sg. (cái)</td><td class="gk">ἑαυτῆς</td><td class="gk">ἑαυτῇ</td><td class="gk">ἑαυτήν</td></tr>
+</tbody>
+</table>
+
+<p>Hai quan sát morphology:</p>
+<ul>
+<li>Ngôi 3 = <span class="gk">ἑ-</span> (dạng yếu của đại từ ngôi 3) + <span class="gk">αὐτοῦ</span>; ngôi 1/2 = đại từ nhân xưng (<span class="gk">ἐμ-</span>, <span class="gk">σε-</span>) + <span class="gk">αὐτοῦ</span>. Vì vậy chỉ cần nhớ <strong>&quot;đại từ + αὐτοῦ&quot;</strong> là dựng được cả họ.</li>
+<li><strong>Không có chủ cách!</strong> Phản thân không bao giờ làm chủ ngữ – vì chủ ngữ chính là &quot;cái gương&quot; mà nó chiếu về. Số nhiều hiếm gặp trong văn cấp I; văn xuôi thường nói vòng: <span class="gk">ἡμᾶς αὐτούς</span> &quot;chính chúng tôi&quot; (đại từ + αὐτός nhấn).</li>
+</ul>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ Ἡρακλῆς ἑαυτὸν κρύπτει.</td><td class="tr">ho Hēraklês heautòn krýptei.</td><td class="em">Heracles hides <strong>himself</strong>.</td><td>Heracles giấu <strong>chính mình</strong>.</td></tr>
+<tr><td class="gk">ὁ Σωκράτης ἑαυτὸν ἐρωτᾷ.</td><td class="tr">ho Sōkrátēs heautòn erôtaî.</td><td class="em">Socrates asks <strong>himself</strong>.</td><td>Socrates hỏi <strong>chính mình</strong>.</td></tr>
+<tr><td class="gk">βλέπω αὐτόν.</td><td class="tr">blépō autón.</td><td class="em">I see <strong>him</strong> (someone else).</td><td>tôi thấy <strong>hắn</strong> (người khác – không phản thân!).</td></tr>
+<tr><td class="gk">ἡ Ἱππολύτη τὴν ἑαυτῆς ζώνην φέρει.</td><td class="tr">hē Hippolýtē tḕn heautês zónēn phérei.</td><td class="em">Hippolyte wears <strong>her own</strong> belt.</td><td>Hippolyte đeo dây đai <strong>của chính nàng</strong>.</td></tr>
+</tbody>
+</table>
+
+<p>Dòng 4 mở ra dụng pháp thứ hai: <strong>sở hữu cách phản thân sau danh từ = &quot;của chính mình&quot;</strong>: <span class="gk">ὁ ἑαυτοῦ πατήρ</span> &quot;cha của chính hắn (để nhấn, chẳng phải cha ai khác)&quot;, đối trọng với <span class="gk">ὁ αὐτοῦ πατήρ</span> &quot;cha của hắn (một người nào đó)&quot;. Đây chính là chỗ Latin dùng <em>suus</em>: <em>suum patrem</em>? <em>pater suus</em> ↔ <span class="gk">ὁ ἑαυτοῦ πατήρ</span>.</p>
+
+<div class="achtung">
+<p><strong>Achtung – bẫy chữ in gần như giống hệt:</strong> dạng <span class="gk">αὑτοῦ</span> (dấu hút khí + dấu thanh đứng trơ) là <em>biến thể co</em> của <span class="gk">ἑαυτοῦ</span> &quot;của chính mình&quot; – còn <span class="gk">αὐτοῦ</span> (dấu mềm) là &quot;của hắn&quot;. Khác nhau đúng một cái dấu hút khí, thường bị &quot;nuốt&quot; trong bản in mờ! Tự kiểm tra bằng ngữ nghĩa: nếu sở hữu cách chiếu về <em>chủ ngữ</em> → phản thân (hít khí); nếu chỉ &quot;của một người thứ ba nào đó&quot; → αὐτοῦ. Trong hai bài đọc hôm nay sẽ gặp cả hai.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> Latin gói phản thân vào một từ cho mọi ngôi: <em>mē, tē, sē</em> (và <em>suī, sibi</em> ở sở hữu/tặng cách) – &quot;self&quot; của tôi/bạn/hắn đều là <em>sē</em>. Hy Lạp lại tách: <span class="gk">ἐμαυτόν, σεαυτόν, ἑαυτόν</span>. Điểm chung đáng mua: <strong>phản thân chỉ chiếu về chủ ngữ</strong> – quy tắc &quot;gương&quot; đúng y nhau ở hai ngôn ngữ (và cũng y nhau ở tiếng Đức <em>sich</em> – chính là hậu duệ của <em>sē</em> Latin!).</p>
+</div>
+
+<h2 id="s8">8. Bản đồ đại từ Graecum I (bài 1–15)</h2>
+
+<p>Sau hôm nay, hộp đựng đại từ của bạn đã gần đầy cho cấp I. Tổng hợp để không &quot;nhầm nghề&quot; giữa các đại từ:</p>
+
+<table>
+<thead><tr><th>Đại từ</th><th>Trích dạng</th><th>Nghề chính</th><th>Bài</th></tr></thead>
+<tbody>
+<tr><td>Nhân xưng</td><td class="gk">ἐγώ, ἐμοῦ, ἐμέ</td><td>&quot;tôi/ngươi/hắn&quot; – thay tên gọi</td><td>4</td></tr>
+<tr><td>Bất định</td><td class="gk">τις, τι</td><td>&quot;ai đó/cái gì đó&quot; – không rõ ai</td><td>5</td></tr>
+<tr><td>Chỉ định gần</td><td class="gk">ὅδε, ἥδε, τόδε</td><td>&quot;cái này (ở đây)&quot; – chỉ tay gần</td><td>6</td></tr>
+<tr><td>Chỉ định xa</td><td class="gk">ἐκεῖνος, ἐκείνη, ἐκεῖνο</td><td>&quot;cái kia (ở đằng kia)&quot; – chỉ tay xa</td><td>6</td></tr>
+<tr><td><strong>Quan hệ</strong></td><td class="gk">ὅς, ἥ, ὅ</td><td>&quot;(người/cái) mà…&quot; – <strong>nối mệnh đề con</strong> vào danh từ</td><td><strong>15</strong></td></tr>
+<tr><td><strong>Sở hữu</strong></td><td class="gk">ἐμός, σός, ἡμέτερος, ὑμέτερος</td><td>&quot;của tôi/ngươi/chúng ta/các bạn&quot; – tính từ sở hữu</td><td><strong>15</strong></td></tr>
+<tr><td><strong>Ngôi 3 + nhấn + &quot;cùng một&quot;</strong></td><td class="gk">αὐτός, αὐτή, αὐτό</td><td>&quot;hắn / chính / cùng một&quot; – ba nghề theo vị trí (mục 6)</td><td><strong>15</strong></td></tr>
+<tr><td><strong>Phản thân</strong></td><td class="gk">ἑαυτοῦ, ἑαυτόν</td><td>&quot;chính mình&quot; – gương chiếu về chủ ngữ</td><td><strong>15</strong></td></tr>
+<tr><td>Chỉ định &quot;vừa nhắc&quot;</td><td class="gk">οὗτος, αὕτη, τοῦτο</td><td>&quot;cái này/cái vừa nhắc&quot;</td><td><span class="notyet">bài 26</span></td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> khi gặp một đại từ trong văn bản, hỏi <strong>ba câu nghề nghiệp</strong>: (1) Nó <em>thay ai</em>? (nhân xưng, ngôi 3 = αὐτός). (2) Nó <em>nối</em> gì? (quan hệ – luôn mở đầu một mệnh đề con). (3) Nó <em>chiếu về đâu</em>? (phản thân → chủ ngữ; sở hữu → của ai đó; chỉ định → gần/xa/vừa nhắc). Chỉ một trong ba câu trả lời được thì từ đó &quot;tìm đúng việc&quot; – phần còn lại của câu ghép sẽ tự sáng ra.</p>
+</div>
+
+<h2 id="reading">9. Bài đọc I: Hình là gì? (Platon, Menon 72d–73c)</h2>
+
+<div class="info">
+<p><strong>Nguồn:</strong> chủ đề dựa trên Platon, <em>Menon</em> 72d–73c – đoạn mở đầu cuộc đối thoại danh tiếng: Meno hỏi &quot;đức hạnh có dạy được không?&quot;, Socrates gạt lại: phải biết <em>đức hạnh là gì</em> trước đã, rồi dẫn Meno qua ví dụ dễ hơn – hình (<span class="gk">σχῆμα</span>) và màu (<span class="gk">χρῶμα</span>). Bản gốc (public domain) đọc được trên Perseus. Bản dưới đây do project <strong>biên soạn lại theo trình độ bài 15</strong> – mỗi câu trưng một công cụ của bài: mệnh đề quan hệ, đại từ sở hữu, phản thân, αὐτός &quot;cùng một&quot;.</p>
+</div>
+
+<p>Từ mới trong bài đọc:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ Μένων, -ωνος</td><td class="tr">ho Ménōn</td><td class="em">Meno</td><td>Meno</td><td>tên riêng, thân -ον (bài 7); bất quy tắc nhẹ ở cách; đọc cách qua mạo từ</td></tr>
+<tr><td class="gk">ἐρωτάω</td><td class="tr">erōtáō</td><td class="em">ask (a question)</td><td>hỏi</td><td>động từ co -άω (bài 12) + đối cách</td></tr>
+<tr><td class="gk">σκοπέω</td><td class="tr">skopéō</td><td class="em">consider, examine</td><td>xem xét</td><td>động từ co -έω; gốc &quot;-scope: telescope, microscope&quot;</td></tr>
+<tr><td class="gk">ἡ ἀποκρίσις, -εως</td><td class="tr">hē apókrisis</td><td class="em">the answer</td><td>câu trả lời</td><td>cái, thân nguyên âm -ις (bài 8); từ ἀποκρίνομαι (bài 10)</td></tr>
+<tr><td class="gk">οὔπω</td><td class="tr">oúpō</td><td class="em">not yet</td><td>chưa (tới lúc)</td><td>trạng từ; họ hàng của οὐκέτι (bài 11)</td></tr>
+<tr><td class="gk">διδακτός, -ή, -όν</td><td class="tr">didaktós</td><td class="em">teachable</td><td>dạy được</td><td>tính từ -τος &quot;có thể bị V-ed&quot; (học mặt); câu hỏi mở đầu Menon 70a</td></tr>
+<tr><td class="gk">οὐδείς, οὐδέν</td><td class="tr">oudeís, oudén</td><td class="em">no one, nothing</td><td>chẳng ai, chẳng gì</td><td>đại từ phủ định chia như <span class="gk">τις, τι</span> (bài 5); ở đây đối cách trung tính <span class="gk">οὐδέν</span> &quot;chẳng lời nào&quot;</td></tr>
+</tbody>
+</table>
+
+<p style="margin-bottom:6px;"><strong>Bản simplified (do project biên soạn):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">ἐρωτᾷ ὁ Μένων· &quot;διδακτὸν ἡ ἀρετή;&quot; ἀποκρίνεται ὁ Σωκράτης· &quot;ὦ Μένων, τὴν ἀρετήν, ἣν σὺ ζητεῖς, οὔπω γιγνώσκεις. πρῶτον οὖν ἐρώτα σεαυτόν· τί ἐστιν ἡ ἀρετή; τὸ γὰρ σχῆμα γιγνώσκεις. ὁ δὲ Μένων· &quot;ἀλλὰ τί ἐστι τὸ σχῆμα;&quot; ὁ δὲ Σωκράτης· &quot;τὸ σχῆμα ἐστὶν ὃ τὸ χρῶμα ἀεὶ ἀκολουθεῖ· τὸ δὲ χρῶμα ἐστὶν ὃ τὸ σχῆμα ἀεὶ ἀκολουθεῖ.&quot; ὁ δὲ Μένων γελᾷ· &quot;τὸν αὐτὸν λόγον, ὦ Σώκρατες, λέγεις!&quot; ὁ δὲ Σωκράτης· &quot;ἀεὶ ἐμαυτὸν ἐρωτῶ, ὦ Μένων, καὶ οὕτως τὰς ἀληθεῖς ἀποκρίσεις εὑρίσκω.&quot; ὁ δὲ Μένων οὐδὲν λέγει, ἀλλὰ ἑαυτὸν ἐρωτᾷ· τί ἐστιν ἡ ἀρετή;</p>
+<p class="tr">erôtaî ho Ménōn· &quot;didaktòn hē aretḗ?&quot; apokrínetai ho Sōkrátēs· &quot;ô Ménōn, tḕn aretḗn, hḕn sỳ zeteîs, oúpō gignṓskeis. prôton oûn erṓta seautón· tí estin hē aretḗ? tò gàr schêma gignṓskeis. ho dè Ménōn· &quot;allà tí esti tò schêma?&quot; ho dè Sōkrátēs· &quot;tò schêma estìn hò tò khrôma aèi akoloutheî· tò dè khrôma estìn hò tò schêma aèi akoloutheî.&quot; ho dè Ménōn gelâi· &quot;tòn autòn lógon, ô Sōkrates, légeis!&quot; ho dè Sōkrátēs· &quot;aèi emautòn erôtaî, ô Ménōn, kaì hoútōs tàs alētheîs apokríseis heurískō.&quot; ho dè Ménōn oudèn légei, allà heautòn erôtaî· tí estin hē aretḗ;</p>
+
+<p><strong>Dịch:</strong> Meno hỏi: &quot;Đức hạnh có dạy được không?&quot; Socrates đáp: &quot;Hỡi Meno, đức hạnh mà ngươi tìm kiếm – ngươi chưa nhận ra nó là gì. Trước tiên hãy hỏi chính ngươi: đức hạnh là gì? Còn hình dạng thì ngươi đã biết.&quot; Meno: &quot;Nhưng hình là gì?&quot; Socrates: &quot;Hình là cái mà màu luôn đi theo; còn màu là cái mà hình luôn đi theo.&quot; Meno bật cười: &quot;Ngươi đang nói đúng một lời như cũ, Socrates ạ!&quot; Socrates: &quot;Tôi luôn hỏi chính mình, hỡi Meno, và nhờ thế tìm được những câu trả lời thật.&quot; Meno không nói gì, chỉ hỏi chính mình: đức hạnh là gì?</p>
+
+<p><strong>Phân tích nhanh (kiểm tra bằng công cụ của bài):</strong></p>
+<ul>
+<li><span class="gk">τὴν ἀρετήν, ἣν σὺ ζητεῖς, οὔπω γιγνώσκεις</span>: mệnh đề quan hệ chen giữa tân ngữ và động từ – <span class="gk">ἣν</span> đối cách (tân ngữ của <span class="gk">ζητεῖς</span> trong mệnh đề con), giống–số cái ít theo <span class="gk">ἀρετήν</span> (quy tắc hợp nhất kép, mục 2). Lược từ (bài 3): <span class="gk">γιγνώσκεις</span> lặp lại tân ngữ <span class="gk">τὴν ἀρετήν</span> đã nêu. <span class="gk">γιγνώσκω</span> ôn từ bài 6.</li>
+<li><span class="gk">ἐρώτα σεαυτόν</span>: mệnh lệnh ngôi 2 (bài 4) + phản thân ngôi 2 &quot;hỏi chính ngươi&quot; – và <span class="gk">τί ἐστιν ἡ ἀρετή;</span> nêu thẳng câu hỏi gốc của cả đoạn Menon.</li>
+<li><span class="gk">τὸ σχῆμα ἐστὶν ὃ τὸ χρῶμα ἀεὶ ἀκολουθεῖ</span>: <span class="gk">ὅ</span> trung tính <em>chủ cách</em> – chủ ngữ của <span class="gk">ἀκολουθεῖ</span> trong mệnh đề con (mục 2: cách theo nhiệm vụ!). Danh từ đứng trước ẩn: &quot;(cái) mà màu luôn đi theo&quot;. Cặp định nghĩa đối xứng của Socrates là trò chơi chữ triết học thật của bản gốc (xem info box dưới).</li>
+<li><span class="gk">τὸν αὐτὸν λόγον λέγεις</span>: αὐτός dụng pháp 2 &quot;cùng một&quot; – mạo từ trực tiếp trước nó (<span class="gk">τὸν αὐτόν</span>), mục 6. <span class="gk">γελᾷ</span>: động từ co -άω (bài 12).</li>
+<li><span class="gk">ἀεὶ ἐμαυτὸν ἐρωτῶ … εὑρίσκω</span>: phản thân ngôi 1 – &quot;tôi hỏi chính tôi&quot;; <span class="gk">ἀληθεῖς ἀποκρίσεις</span> là đối cách số nhiều của tính từ hai đuôi <span class="gk">ἀληθής</span> (bài 9) hợp nhất với danh từ thân -σις (bài 8); <span class="gk">εὑρίσκω</span> ôn từ bài 13.</li>
+<li><span class="gk">ἑαυτὸν ἐρωτᾷ</span>: phân biệt ngôi! Socrates nói <span class="gk">ἐμαυτόν</span> (tôi hỏi tôi), câu chốt tường thuật lại Meno bằng phản thân ngôi 3 <span class="gk">ἑαυτόν</span> (hắn hỏi hắn) – đúng &quot;bộ chiếu gương&quot; của mục 7.</li>
+</ul>
+
+<div class="info">
+<p><strong>Trong bản gốc:</strong> định nghĩa &quot;hình là cái luôn đi kèm màu&quot; được Socrates nêu dưới dạng <span class="gk">τὸ ἀεὶ παρακολουθοῦν τῷ χρώματι</span> – &quot;cái luôn đi theo màu&quot; – dùng một <em>phân từ</em> (participle), quan hệ &quot;mệnh đề rút gọn&quot; của mệnh đề quan hệ (bài 19 sẽ giải phẫu). Meno kêu đó là kiểu định nghĩa của bậc thầy tranh biện; Socrates liền đưa định nghĩa thứ hai &quot;hình là giới hạn của khối&quot; (<span class="gk">πέρας στερεοῦ</span>) – và còn định nghĩa màu theo Empedokles là &quot;dòng phát ra từ các hình&quot;. Cả đoạn Menon 72d–73c là bài mẫu kinh điển về việc <em>định nghĩa một khái niệm</em> trước khi bàn nó dạy được hay không.</p>
+</div>
+
+<p>Bài tập đọc hiểu: (1) <span class="gk">ἣν σὺ ζητεῖς</span> ở cách nào, vì sao? (2) Vì sao <span class="gk">τὸν αὐτὸν λόγον</span> dịch &quot;cùng một lời&quot; chứ không phải &quot;chính lời&quot;? Căn cứ vào đâu? (3) Ba lần &quot;hỏi chính mình&quot; trong đoạn: ngôi nào của phản thân xuất hiện, và chiếu về chủ ngữ nào?</p>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án câu hỏi đọc hiểu (in ra để soát)</h4>
+<p><strong>1.</strong> Đối cách cái số ít – theo quy tắc hợp nhất kép: giống (cái) và số (ít) mượn của danh từ đứng trước <span class="gk">τὴν ἀρετήν</span>, còn cách do nhiệm vụ trong mệnh đề con quyết định: <span class="gk">ἣν</span> là tân ngữ của <span class="gk">ζητεῖς</span> &quot;ngươi tìm kiếm&quot; → đối cách. <strong>2.</strong> Vì <span class="gk">αὐτός</span> đứng ở vị trí định ngữ: mạo từ <span class="gk">τὸν</span> trực tiếp trước nó (<span class="gk">τὸν αὐτὸν</span>) → dụng pháp &quot;cùng một&quot; (mục 6); muốn nói &quot;chính lời&quot; phải đảo vị trí (<span class="gk">αὐτὸς ὁ λόγος</span>). Meno chọc tiếng cười vì hai định nghĩa của Socrates chỉ là một công thức quay ngược. <strong>3.</strong> (a) <span class="gk">ἐρώτα σεαυτόν</span> – phản thân ngôi 2, mệnh lệnh chiếu về Meno; (b) <span class="gk">ἐμαυτὸν ἐρωτῶ</span> – ngôi 1, chiếu về Socrates (chủ ngữ của <span class="gk">ἐρωτῶ</span>); (c) <span class="gk">ἑαυτὸν ἐρωτᾷ</span> – ngôi 3, chiếu về Meno (chủ ngữ của <span class="gk">ἐρωτᾷ</span>). Ba lần, ba ngôi – cùng một kỹ thuật Socrates: hỏi chính mình trước khi hỏi người khác.</p>
+</div></div>
+
+<h2 id="reading2">10. Bài đọc II: Dây đai của nữ hoàng (Apollodor 2,5,9)</h2>
+
+<div class="info">
+<p><strong>Nguồn:</strong> chủ đề dựa trên Apollodor, <em>Bibliotheca</em> 2,5,9 – công việc thứ chín của Heracles: mang về <strong>dây đai (ζώνη)</strong> của Hippolyte, nữ hoàng của các Amazon (bộ tộc nữ chiến binh cưỡi ngựa); Hera cải trang phao tin đồn, khiến Heracles tưởng nữ hoàng phản bội. Bản gốc (public domain) đọc được trên Perseus/Theoi. Bản dưới đây do project <strong>biên soạn lại theo trình độ bài 15</strong> – mỗi câu trưng một công cụ: mệnh đề quan hệ sau mệnh lệnh, phản thân chiếu về Hera, AcI nằm lồng trong mệnh đề quan hệ, imperfect vẽ nền.</p>
+</div>
+
+<p>Từ mới trong bài đọc:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ Ἡρακλῆς, -έως</td><td class="tr">ho Hēraklês</td><td class="em">Heracles</td><td>Heracles (Hercules)</td><td>tên riêng, thân s (bài 8)</td></tr>
+<tr><td class="gk">ὁ Εὐρυσθεύς, -έως</td><td class="tr">ho Eurystheús</td><td class="em">Eurystheus</td><td>Eurystheus (vua Argos)</td><td>tên riêng, thân -ευ (đọc cách qua mạo từ, như πατήρ bài 6)</td></tr>
+<tr><td class="gk">ἡ Ἱππολύτη, -ης</td><td class="tr">hē Hippolýtē</td><td class="em">Hippolyte</td><td>Hippolyte</td><td>tên riêng, nhóm a</td></tr>
+<tr><td class="gk">ἡ Ἥρα, -ας</td><td class="tr">hē Hêra</td><td class="em">Hera</td><td>Hera (vương hậu thần Olymp)</td><td>cái, nhóm a</td></tr>
+<tr><td class="gk">ὁ Ἄρης, -εως</td><td class="tr">ho Árēs</td><td class="em">Ares</td><td>Ares (thần chiến tranh)</td><td>thân s (bài 8) – chủ cách độc tôn <span class="gk">Ἄρης</span>, sở hữu <span class="gk">Ἄρεως</span></td></tr>
+<tr><td class="gk">αἱ Ἀμαζόνες</td><td class="tr">hai Amazones</td><td class="em">the Amazons</td><td>những Amazon</td><td>đực/cái chung, chia thứ ba thân -ον (bài 7); số ít <span class="gk">ἡ Ἀμαζών, -όνος</span></td></tr>
+<tr><td class="gk">ἡ βασίλεια, -ας</td><td class="tr">hē básileia</td><td class="em">the queen</td><td>nữ hoàng</td><td>cái, nhóm a; từ <span class="gk">βασιλεύς</span> (bài 2/4/8)</td></tr>
+<tr><td class="gk">ὁ προδότης, -ου</td><td class="tr">ho prodótēs</td><td class="em">the traitor</td><td>kẻ phản bội</td><td>đực/cái chung, chia thứ ba thân -ητ (bài 7); từ πρό + δίδωμι &quot;trao trước/nộp&quot;</td></tr>
+<tr><td class="gk">πλέω</td><td class="tr">pléō</td><td class="em">sail</td><td>đi (tàu), dong buồm</td><td>+ tặng cách (biển/sông); gốc &quot;pilot, pleust-&quot;</td></tr>
+<tr><td class="gk">τρέχω</td><td class="tr">trékhō</td><td class="em">run</td><td>chạy</td><td>aorist <span class="gk">ἔδραμον</span> (học mặt, bài 13 họ thematic)</td></tr>
+<tr><td class="gk">μισέω</td><td class="tr">miséō</td><td class="em">hate</td><td>ghét</td><td>động từ co -έω; đối trọng <span class="gk">φιλέω</span> (bài 7) – cặp ghi nhớ</td></tr>
+<tr><td class="gk">τὸ πλοῖον, -ου</td><td class="tr">to ploîon</td><td class="em">the ship</td><td>con tàu</td><td>trung, nhóm o</td></tr>
+</tbody>
+</table>
+
+<p style="margin-bottom:6px;"><strong>Bản simplified (do project biên soạn):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">ὁ Εὐρυσθεὺς τῷ Ἡρακλεῖ λέγει· &quot;λαμβάνε τὴν ζώνην, ἣν ἡ Ἱππολύτη φέρει.&quot; ἡ Ἱππολύτη ἐστὶν ἡ βασίλεια τῶν Ἀμαζόνων, αἳ μετὰ τῶν ἵππων μάχονται. ὁ Ἡρακλῆς μετὰ τῶν φίλων πρὸς τὸν Θερμώδοντα ποταμὸν πλέει. ἡ δὲ Ἱππολύτη αὐτῷ τὴν ζώνην διδόναι βούλεται. ἡ δὲ Ἥρα ἑαυτὴν Ἀμαζόνα ποιεῖ καὶ ταῖς φίλαις λέγει· &quot;ὁ Ἡρακλῆς τὴν βασίλειαν ἄγει!&quot; αἱ δὲ Ἀμαζόνες τοῖς ὅπλοις ἐπὶ τὸ πλοῖον τρέχουσι. ὁ δὲ Ἡρακλῆς τὴν Ἱππολύτην ἀποκτείνει, ἣν προδότην οἴεται εἶναι, καὶ τὴν ζώνην λαμβάνει. ἡ ζώνη, ἣν λαμβάνει, τοῦ Ἄρεως ἐστίν. οὕτως ὁ Ἡρακλῆς τελειοῖ τὸ ἔργον, ὃ ὁ Εὐρυσθεὺς αὐτῷ ἔδωκεν. ἡ δὲ Ἥρα, ἣ ἑαυτὴν Ἀμαζόνα ἐποίει, τὸν Ἡρακλέα ἀεὶ μισεῖ.</p>
+<p class="tr">ho Eurystheùs tô(i) Hēráklei légei· &quot;lambáne tḕn zónēn, hḕn hē Hippolýtē phérei.&quot; hē Hippolýtē estìn hē básileia tôn Amazonôn, hàì metà tôn híppōn mákhontai. ho Hēraklês metà tôn phílon pròs tòn Thermṓdonta potamòn pléei. hē dè Hippolýtē autô(i) tḕn zónēn didónai boúletai. hē dè Hêra heautḕn Amazona poieî kaì taîs phílais légei· &quot;ho Hēraklês tḕn básileian ágei!&quot; hai dè Amazones toîs hóplois epì tò ploîon trékhousi. ho dè Hēraklês tḕn Hippolýtēn apokteínei, hḕn prodótēn oíetai eînai, kaì tḕn zónēn lambánei. hē zónē, hḕn lambánei, toû Áreōs estín. hoútōs ho Hēraklês teleiói tò érgon, hò ho Eurystheùs autô(i) édōken. hē dè Hêra, hḕ heautḕn Amazona epoíei, tòn Hēráklea aèi miseî.</p>
+
+<p><strong>Dịch:</strong> Eurystheus nói với Heracles: &quot;Hãy mang về dây đai mà Hippolyte đang đeo.&quot; Hippolyte là nữ hoàng của những Amazon – những người nữ cưỡi ngựa mà chiến đấu. Heracles cùng các bạn dong buồm về phía dòng sông Thermodon. Hippolyte muốn trao cho hắn chính dây đai ấy. Nhưng Hera biến chính mình thành một Amazon và nói với những người bạn (nữ): &quot;Heracles đang bắt cóc nữ hoàng!&quot; Các Amazon vũ khí trong tay xông vào con tàu. Heracles giết Hippolyte – người mà hắn tưởng là kẻ phản bội – và lấy dây đai. Dây đai mà hắn lấy ấy là của Ares. Thế là Heracles hoàn thành công việc mà Eurystheus đã giao cho hắn. Còn Hera – kẻ đã biến chính mình thành Amazon – đời đời ghét Heracles.</p>
+
+<p><strong>Phân tích nhanh (kiểm tra bằng công cụ của bài):</strong></p>
+<ul>
+<li><span class="gk">λαμβάνε τὴν ζώνην, ἣν ἡ Ἱππολύτη φέρει</span>: mệnh lệnh ngôi 2 (bài 4) + mệnh đề quan hệ gắn vào tân ngữ: <span class="gk">ἣν</span> đối cách (tân ngữ của <span class="gk">φέρει</span> trong mệnh đề con), giống–số theo <span class="gk">ζώνην</span>. Mệnh đề con đóng đúng &quot;gọng kẹp&quot;: mở bằng <span class="gk">ἣν</span>, chốt bằng động từ (mục 3).</li>
+<li><span class="gk">ἡ βασίλεια τῶν Ἀμαζόνων, αἳ … μάχονται</span>: danh từ đứng trước (<span class="gk">Ἀμαζόνων</span>) đứng ở <em>sở hữu cách</em>, nhưng <span class="gk">αἳ</span> vẫn là <em>chủ cách</em> – vì cách do nhiệm vụ (chủ ngữ của <span class="gk">μάχονται</span>) quyết định (mục 2). Đây là ví dụ tự nhiên nhất cho &quot;hai ông chủ&quot; của đại từ quan hệ.</li>
+<li><span class="gk">ἡ Ἱππολύτη αὐτῷ τὴν ζώνην διδόναι βούλεται</span>: <span class="gk">αὐτῷ</span> = đại từ ngôi 3 tặng cách &quot;cho hắn&quot; (dụng pháp 3, mục 6); <span class="gk">βούλεται</span> deponent (bài 5) + nguyên mẫu tân ngữ (bài 2). Về <span class="gk">διδόναι</span> xem info box dưới.</li>
+<li><span class="gk">ἡ Ἥρα ἑαυτὴν Ἀμαζόνα ποιεῖ</span>: phản thân ngôi 3 <em>cái</em> (<span class="gk">ἑαυτήν</span>) chiếu về chủ ngữ <span class="gk">ἡ Ἥρα</span> – &quot;biến chính mình&quot; (mục 7); <span class="gk">Ἀμαζόνα</span> là đối cách số ít của <span class="gk">ἡ Ἀμαζών</span> (thân -ον, bài 7) làm biểu ngữ thứ hai (đối cách kép – bài 2).</li>
+<li><span class="gk">ἣν προδότην οἴεται εἶναι</span>: mệnh đề quan hệ <em>lồng</em> một AcI (bài 4/14): <span class="gk">ἣν</span> giữ đối cách vì nó đồng thời là chủ ngữ logic của nguyên mẫu <span class="gk">εἶναι</span> trong mệnh đề con – &quot;(nữ hoàng) mà hắn nghĩ là kẻ phản bội&quot;. Hai cấu trúc lớn của tuần qua gặp nhau trong đúng một từ.</li>
+<li><span class="gk">ἡ ζώνη … τοῦ Ἄρεως ἐστίν</span>: biểu ngữ sở hữu cách <span class="gk">τοῦ Ἄρεως</span> đứng sau <span class="gk">ἐστίν</span> (bài 1: sở hữu cách &quot;thuộc về&quot;); <span class="gk">Ἄρεως</span> thân s (bài 8). Trong thần thoại, dây đai là chiến lợi phẩm của thần chiến tranh – câu này gói cả thông tin văn hóa.</li>
+<li><span class="gk">ἡ Ἥρα, ἣ ἑαυτὴν Ἀμαζόνα ἐποίει, … μισεῖ</span>: <span class="gk">ἐποίει</span> imperfect không augment (động từ co, bài 12) vẽ nền – &quot;Hera, kẻ <em>đã</em> biến mình thành Amazon, thì <em>vẫn</em> ghét…&quot;: khía cạnh nền/viền của imperfect (bài 11) cộng một mệnh đề quan hệ giải thích nhân vật.</li>
+</ul>
+
+<div class="info">
+<p><strong>Trong bản gốc:</strong> Apollodor kể: dây đai là của Ares; Hera mang hình dáng một Amazon đi rao giữa các chiến binh rằng nữ hoàng bị bắt cóc; Heracles tưởng Hippolyte phản bội nên giết nàng, đoạt dây đai, đánh tan Amazon rồi rời đi. Hai động từ <span class="gk">δίδωμι</span> &quot;trao/cho&quot; xuất hiện trong bản simplified ở dạng <span class="gk">διδόναι</span> (nguyên mẫu) và <span class="gk">ἔδωκεν</span> (aorist ngôi 3) – <strong>học mặt</strong> cả hai như đã làm với <span class="gk">δίδωσιν</span> ở bài 12 (historic present): họ mi-verb này sẽ được giải phẫu đầy đủ ở bài 20.</p>
+</div>
+
+<p>Bài tập đọc hiểu: (1) <span class="gk">αἳ μετὰ τῶν ἵππων μάχονται</span>: vì sao <span class="gk">αἳ</span> chủ cách dù <span class="gk">Ἀμαζόνων</span> sở hữu cách? (2) Tìm trong đoạn <em>hai dạng</em> của phản thân chiếu về Hera và giải thích vì sao cùng một từ mà hình thức khác nhau. (3) <span class="gk">ἣν προδότην οἴεται εἶναι</span>: trong AcI ẩn trong mệnh đề quan hệ này, đâu là chủ ngữ logic, đâu là biểu ngữ, và vì sao <span class="gk">ἣν</span> giữ đối cách?</p>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án câu hỏi đọc hiểu (in ra để soát)</h4>
+<p><strong>1.</strong> Vì cách của đại từ quan hệ do <em>nhiệm vụ trong mệnh đề con</em> quyết định: <span class="gk">αἳ</span> là chủ ngữ của <span class="gk">μάχονται</span> → chủ cách; giống (cái) và số (nhiều) mới mượn của các Amazon. Hợp nhất kép: N-G theo antecedent, K theo vai trò (mục 2). <strong>2.</strong> <span class="gk">ἑαυτὴν Ἀμαζόνα ποιεῖ</span> (đối cách – tân ngữ của <span class="gk">ποιεῖ</span>) và <span class="gk">ἣ ἑαυτὴν Ἀμαζόνα ἐποίει</span> (câu chốt, vẫn đối cách nhưng động từ chuyển sang imperfect <span class="gk">ἐποίει</span> vẽ nền quá khứ). Cùng chiếu về chủ ngữ <span class="gk">ἡ Ἥρα</span> – phản thân cái số ít đối cách <span class="gk">ἑαυτήν</span>; khác nhau là <em>thời</em> của động từ chính, không phải phản thân. <strong>3.</strong> Chủ ngữ logic: <span class="gk">ἣν</span> (chính nữ hoàng Hippolyte); biểu ngữ: <span class="gk">προδότην</span> (đối cách, như mọi biểu ngữ AcI – bài 14); động từ AcI: <span class="gk">εἶναι</span>. <span class="gk">ἣν</span> giữ đối cách vì hai lý do trùng nhau: nó là tân ngữ được nhắc lại trong mệnh đề quan hệ <em>và</em> là chủ ngữ logic của nguyên mẫu – cả hai chức năng đều đòi đối cách.</p>
+</div></div>
+
+<h2 id="vocab">11. Từ vựng trọng tâm</h2>
+
+<p><span class="star">★</span> = từ bắt buộc nhớ. Các đại từ của hôm nay học thành khối: dạng – vị trí – nghề.</p>
+
+<h3>Đại từ &amp; tính từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὅς, ἥ, ὅ</td><td class="tr">hós, hé, hó</td><td class="em">who, which</td><td>(người/cái) mà, ai, điều mà</td><td>bảng chia ở mục 1; hợp nhất kép ở mục 2; luôn có dấu thanh + dấu hút khí</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἐμός, ἐμή, ἐμόν</td><td class="tr">emós, emḗ, emón</td><td class="em">my</td><td>của tôi</td><td>vị trí định ngữ; nhấn hơn sở hữu cách <span class="gk">μου</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> σός, σή, σόν</td><td class="tr">sós, sḗ, són</td><td class="em">your (sg.)</td><td>của ngươi</td><td>như ἐμός; thường nói <span class="gk">σου</span></td></tr>
+<tr><td class="gk">ἡμέτερος, -α, -ον</td><td class="tr">hēméteros</td><td class="em">our</td><td>của chúng ta</td><td>thường nói <span class="gk">ἡμῶν</span></td></tr>
+<tr><td class="gk">ὑμέτερος, -α, -ον</td><td class="tr">hyméteros</td><td class="em">your (pl.)</td><td>của các bạn</td><td>thường nói <span class="gk">ὑμῶν</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> αὐτός, αὐτή, αὐτό</td><td class="tr">autós, autḗ, autó</td><td class="em">he/she/it; -self; the same</td><td>hắn/cô ấy; chính; cùng một</td><td>ba dụng pháp theo vị trí (mục 6); chia như ἐκεῖνος; sở hữu cách = &quot;của hắn/của cô ấy&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἑαυτοῦ / ἑαυτῷ / ἑαυτόν</td><td class="tr">heautoû / heautô(i) / heautón</td><td class="em">of / to / (-self) oneself</td><td>chính mình (sở hữu/tặng/đối cách)</td><td>phản thân ngôi 3; không chủ cách; ngôi 1/2: <span class="gk">ἐμαυτοῦ, σεαυτοῦ</span>; sau danh từ = &quot;của chính mình&quot;; dạng co <span class="gk">αὑτοῦ</span> dễ lẫn với <span class="gk">αὐτοῦ</span> (mục 7)</td></tr>
+</tbody>
+</table>
+
+<h3>Động từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ζητέω</td><td class="tr">zetéō</td><td class="em">seek, look for</td><td>tìm kiếm</td><td>động từ co -έω (bài 12) + đối cách</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἀκολουθέω</td><td class="tr">akolouthéō</td><td class="em">follow</td><td>đi theo, theo sau</td><td>+ tặng cách (bài 4: như πιστεύω); gốc tiếng Anh &quot;acolyte&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> κρύπτω / ἔκρυψα</td><td class="tr">krýptō / ékrypsa</td><td class="em">hide</td><td>giấu, che giấu</td><td>aorist sigmatic (bài 13); gốc &quot;crypt-: cryptography&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἀποκτείνω / ἀπέκτεινα</td><td class="tr">apokteínō / apékteina</td><td class="em">kill</td><td>giết, giết chết</td><td>aorist chủ đề (bài 13: thân riêng -ειν-); tiền tố ἀπο- &quot;xa, hẳn&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> τελειόω</td><td class="tr">teleióō</td><td class="em">complete, accomplish</td><td>hoàn thành, làm trọn</td><td>động từ co -όω (bài 12); gốc &quot;teleology: τέλος + λόγος&quot;</td></tr>
+<tr><td class="gk">γελάω</td><td class="tr">geláō</td><td class="em">laugh</td><td>cười</td><td>động từ co -άω (bài 12)</td></tr>
+</tbody>
+</table>
+
+<h3>Danh từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> τὸ σχῆμα, -ατος</td><td class="tr">to schêma, -atos</td><td class="em">shape, figure</td><td>hình, hình dạng</td><td>trung, chia thứ ba -μα (bài 8); gốc tiếng Anh &quot;schema&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> τὸ χρῶμα, -ατος</td><td class="tr">to khrôma, -atos</td><td class="em">color</td><td>màu, màu sắc</td><td>như σχῆμα; gốc &quot;chrom-: chromosome, polychrome&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ἀρετή, -ῆς</td><td class="tr">hē aretḗ, -ês</td><td class="em">virtue, excellence</td><td>đức hạnh</td><td>cái, nhóm a; họ hàng của ἄριστος – gốc &quot;aristocracy&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ζώνη, -ης</td><td class="tr">hē zónē, -ês</td><td class="em">belt, girdle</td><td>dây đai, đai lưng</td><td>cái, nhóm a; gốc tiếng Anh &quot;zone&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> τὸ ἔργον, -ου</td><td class="tr">to érgon, -ou</td><td class="em">work, task, deed</td><td>công việc, việc</td><td>trung, nhóm o; gốc &quot;erg-: energy, ergonomic&quot;</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">12. Bảng tổng hợp so sánh các điểm dễ nhầm</h2>
+
+<table>
+<thead><tr><th>Cặp / nhóm dễ nhầm</th><th>Khác biệt cốt lõi</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ὅς</span> vs mạo từ <span class="gk">ὁ</span> (số ít)</td><td>quan hệ: có dấu thanh + dấu hút khí (<span class="gk">ὅς, ἥ, ὅ, ὅν, οὗ</span>); mạo từ: không thanh, dấu mềm (<span class="gk">ὁ, ἥ, τὸ, τοῦ</span>)</td><td>Đặt ngón tay lên chữ đầu: thấy hít khí và dấu → quan hệ. Cặp hiển nhiên nhất: <span class="gk">τοῦ</span> (mạo từ) vs <span class="gk">οὗ</span> (quan hệ).</td></tr>
+<tr><td>Số nhiều: <span class="gk">οἵ, αἵ, ἅ</span> vs <span class="gk">οἱ, αἱ, τά</span></td><td>quan hệ luôn có dấu thanh trên iota/alpha; mạo từ thì không</td><td>Ẩn thanh đi rồi đọc: câu có nghĩa vs vô nghĩa. <span class="gk">αἳ μάχονται</span> &quot;những (Amazon) mà chiến đấu&quot; ≠ <span class="gk">αἱ Ἀμαζόνες</span> &quot;các Amazon&quot;.</td></tr>
+<tr><td>Hợp nhất của quan hệ vs của tính từ</td><td>tính từ hợp nhất đủ K-N-G theo danh từ; quan hệ chỉ mượn N-G, cách tự quyết theo nhiệm vụ trong mệnh đề con</td><td>Hỏi: đại từ giữ vai gì <em>trong mệnh đề con</em>? (chủ ngữ/tân ngữ/giới từ/&quot;của ai&quot;). Đáp án quyết định cách.</td></tr>
+<tr><td>Hút cách vs cách đúng quy tắc</td><td>hút cách chỉ xảy ra khi antecedent ở sở hữu/tặng cách và đại từ lẽ ra ở đối cách; là phương án, không phải luật</td><td>Khi đọc: cách &quot;lạc loài&quot; → thử giải như hút cách. Khi viết: luôn theo quy tắc mục 2, đừng tự hút. Antecedent chủ cách → không bao giờ hút.</td></tr>
+<tr><td><span class="gk">ἐμός</span> vs <span class="gk">ἐμέ</span></td><td>ἐμός = tính từ &quot;của tôi&quot; (cần danh từ trung tâm, vị trí định ngữ); ἐμέ = đại từ nhân xưng đối cách &quot;tôi (làm tân ngữ)&quot;</td><td>Sau nó là danh từ? → ἐμός. Trước nó là động từ/transitive? → ἐμέ. Cùng âm, khác nghề hẳn.</td></tr>
+<tr><td><span class="gk">ὁ ἐμὸς πατήρ</span> vs <span class="gk">ὁ πατήρ μου</span></td><td>tính từ sở hữu (nhấn, văn chương) vs sở hữu cách đại từ (thường ngày, trung tính)</td><td>Cần nhấn &quot;của CHÍNH tôi&quot; → ἐμός; chỉ sở hữu trơn → μου. Latin cũng có cặp này: <em>meus</em> vs <em>genitive</em>.</td></tr>
+<tr><td>Ba dụng pháp của <span class="gk">αὐτός</span></td><td>vị ngữ = &quot;chính&quot;; định ngữ = &quot;cùng một&quot;; solo các cách = đại từ ngôi 3 &quot;hắn/cô ấy&quot;</td><td>Đặt ngón tay lên mạo từ: trực tiếp trước αὐτός → &quot;cùng một&quot;; không → &quot;chính&quot;; không có mạo từ quanh quất → ngôi 3.</td></tr>
+<tr><td><span class="gk">ἑαυτόν</span> vs <span class="gk">αὐτόν</span></td><td>phản thân &quot;chính hắn (chủ ngữ)&quot; vs &quot;hắn (người khác)&quot;; sở hữu sau danh từ: <span class="gk">ὁ ἑαυτοῦ</span> &quot;của chính mình&quot; vs <span class="gk">ὁ αὐτοῦ</span> &quot;của hắn (người khác)&quot;</td><td>Hỏi &quot;hành động chiếu về chủ ngữ không?&quot; → có: ἑαυτόν; không: αὐτόν. Latin đối chiếu: <em>sē/suus</em> vs <em>eum/eius</em>.</td></tr>
+<tr><td><span class="gk">αὑτοῦ</span> (hít khí) vs <span class="gk">αὐτοῦ</span> (dấu mềm)</td><td>biến thể co của ἑαυτοῦ &quot;của chính mình&quot; vs &quot;của hắn&quot; – khác đúng một dấu hút khí, gần như giống hệt trong bản in</td><td>Không nhìn dấu được → dùng ngữ nghĩa: chiếu về chủ ngữ? → phản thân. Bản in mờ thường bắt buộc phán đoán theo ngữ cảnh.</td></tr>
+<tr><td><span class="gk">οὗ</span> (sở hữu cách quan hệ) vs <span class="gk">οὗ</span> (trạng từ &quot;ở đâu&quot;) vs <span class="gk">οὐ</span> (phủ định)</td><td>quan hệ &quot;của ai/mà&quot;; trạng từ &quot;nơi mà&quot; (học mặt, thường mở đầu mệnh đề chỉ nơi chốn); οὐ = &quot;không&quot;</td><td>Οὗ quan hệ luôn kèm một mệnh đề có chủ ngữ + động từ riêng; οὗ &quot;nơi&quot; thường đứng sau danh từ chỉ chỗ. οὐ thì đứng ngay trước động từ.</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">13. Bài tập tự luyện + đáp án</h2>
+<p><em>Đáp án chỉ hiện khi in (Ctrl+P → Save as PDF) – làm xong rồi mới in ra soát.</em></p>
+
+<h3>Bài tập 1 – Chia bảng quan hệ</h3>
+<p>Điền các dạng còn thiếu của <span class="gk">ὅς, ἥ, ὅ</span> và dịch mỗi dạng vừa điền:</p>
+<ol>
+<li>Số ít, sở hữu cách cái: ___</li>
+<li>Số ít, tặng cách trung: ___</li>
+<li>Số nhiều, chủ cách trung: ___</li>
+<li>Số nhiều, đối cách đực: ___</li>
+<li>Số nhiều, tặng cách cái: ___</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 1</h4>
+<ol>
+<li class="gk">ἥς</li>
+<li class="gk">ᾧ</li>
+<li class="gk">ἅ</li>
+<li class="gk">οὕς</li>
+<li class="gk">αἷς</li>
+</ol>
+<p>Dịch: (1) &quot;của người/nữ (mà)&quot; – whose; (2) &quot;cho nó/với nó (mà)&quot; – dative; (3) &quot;những cái (mà)&quot; – those which; (4) &quot;những người (mà)&quot; – whom (pl.); (5) &quot;cho những người nữ (mà)&quot; – to whom (f. pl.).</p>
+</div></div>
+
+<h3>Bài tập 2 – Hợp nhất kép: chọn dạng đúng</h3>
+<p>Chọn dạng đúng của đại từ quan hệ cho mỗi câu và giải thích cách:</p>
+<ol>
+<li><span class="gk">ὁ λόγος ___ ἀκούομεν.</span> (lời mà chúng tôi nghe)</li>
+<li><span class="gk">αἱ Ἀμαζόνες ___ τὰ ὅπλα φέρουσιν.</span> (những Amazon mà mang vũ khí)</li>
+<li><span class="gk">τὸ σχῆμα ___ τὸ χρῶμα ἀκολουθεῖ.</span> (hình mà màu đi theo)</li>
+<li><span class="gk">ἡ ἀρετή, ___ σὺ ζητεῖς.</span> (đức hạnh mà ngươi tìm kiếm)</li>
+<li><span class="gk">ὁ πατήρ, ___ τὸν φίλον παιδεύομεν.</span> (người cha mà chúng tôi dạy người bạn của hắn)</li>
+<li><span class="gk">τὸ ἔργον ___ τελειοῖς.</span> (công việc mà ngươi hoàn thành)</li>
+<li><span class="gk">αἱ ἀποκρίσεις ___ εὑρίσκομεν.</span> (những câu trả lời mà chúng tôi tìm ra)</li>
+<li><span class="gk">ὁ βασιλεύς, ___ οἱ ἄνθρωποι πείθονται.</span> (đức vua mà người ta nghe lời)</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 2</h4>
+<ol>
+<li class="gk">ὃν</li>
+<li class="gk">αἳ</li>
+<li class="gk">ὅ</li>
+<li class="gk">ἥν</li>
+<li class="gk">οὗ</li>
+<li class="gk">ὅ</li>
+<li class="gk">ἅς</li>
+<li class="gk">ᾧ</li>
+</ol>
+<p>Cách giải: (1) đối cách – tân ngữ của ἀκούω + đối cách (điều được nghe, bài 12); (2) chủ cách – chủ ngữ của φέρουσιν; (3) chủ cách – chủ ngữ của ἀκολουθεῖ trong mệnh đề con (τὸ χρῶμα là tân ngữ); (4) đối cách – tân ngữ của ζητεῖς; (5) sở hữu cách – &quot;của ai&quot; (danh từ con τὸν φίλον đi kèm); (6) đối cách trung tính (chủ/đối một dạng) – tân ngữ của τελειοῖς; (7) đối cách số nhiều cái – tân ngữ của εὑρίσκομεν; (8) tặng cách – πείθομαι + tặng cách &quot;nghe lời ai&quot; (bài 2: πείθω/πείθομαι).</p>
+</div></div>
+
+<h3>Bài tập 3 – Dịch mệnh đề quan hệ</h3>
+<ol>
+<li class="gk">ὁ Μένων ζητεῖ τὸ σχῆμα, ὃ τὸ χρῶμα ἀεὶ ἀκολουθεῖ.</li>
+<li class="gk">ἡ Ἱππολύτη ἐστὶν ἡ βασίλεια τῶν Ἀμαζόνων, αἳ μετὰ τῶν ἵππων μάχονται.</li>
+<li class="gk">τοῦ ποταμοῦ οὗ βλέπεις τὸ ὄνομα οὐ γιγνώσκεις.</li>
+<li class="gk">ὁ Ἡρακλῆς τελειοῖ τὸ ἔργον, ὃ ὁ Εὐρυσθεὺς αὐτῷ ἔδωκεν.</li>
+<li class="gk">ἡ Ἥρα, ἣ ἑαυτὴν Ἀμαζόνα ἐποίει, τὸν Ἡρακλέα ἀεὶ μισεῖ.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 3</h4>
+<ol>
+<li>Meno tìm hình – cái mà màu luôn đi theo. (ὅ chủ cách trong mệnh đề con.)</li>
+<li>Hippolyte là nữ hoàng của những Amazon – những người nữ cưỡi ngựa mà chiến đấu. (αἳ chủ cách; antecedent ở sở hữu cách không kéo cách – mục 2.)</li>
+<li>Ngươi không biết tên của dòng sông mà ngươi thấy. (Câu này có hút cách: οὗ lẽ ra là ὅν; antecedent ποταμοῦ sở hữu cách đã &quot;hút&quot; đại từ về – mục 4.)</li>
+<li>Heracles hoàn thành công việc mà Eurystheus đã giao cho hắn. (ὅ đối cách trung tính – tân ngữ của ἔδωκεν trong mệnh đề con; αὐτῷ đại từ ngôi 3 tặng cách.)</li>
+<li>Hera – kẻ đã biến chính mình thành Amazon – đời đời ghét Heracles. (ἣ chủ cách theo Ἥρα; ἑαυτὴν phản thân chiếu về chủ ngữ; ἐποίει imperfect vẽ nền.)</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 4 – <span class="gk">αὐτός</span> hay <span class="gk">ἑαυτοῦ</span>? &quot;Chính&quot; hay &quot;cùng một&quot;?</h3>
+<p>Điền dạng đúng (αὐτός / ἑαυτοῦ / các dạng của chúng) và dịch:</p>
+<ol>
+<li><span class="gk">ὁ Ἡρακλῆς ___ κρύπτει.</span> (Heracles giấu chính mình)</li>
+<li><span class="gk">ὁ Σωκράτης ___ ἐρωτᾷ.</span> (Socrates hỏi chính mình)</li>
+<li><span class="gk">ὁ Μένων τὸν ___ λόγον λέγει.</span> (Meno nói cùng một lời)</li>
+<li><span class="gk">___ ὁ βασιλεὺς λέγει.</span> (Chính đức vua nói)</li>
+<li><span class="gk">ἡ Ἱππολύτη τὴν ___ ζώνην φέρει.</span> (Hippolyte đeo dây đai của chính nàng)</li>
+<li><span class="gk">ἡ γυνὴ τὰ τέκνα αὐτῆς / ἑαυτῆς παιδεύει.</span> (người đàn bà dạy dỗ con của nàng / của chính nàng) – hai bản dịch khác nhau thế nào?</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 4</h4>
+<ol>
+<li class="gk">ἑαυτόν</li>
+<li class="gk">ἑαυτόν</li>
+<li class="gk">αὐτόν</li>
+<li class="gk">αὐτὸς</li>
+<li class="gk">ἑαυτῆς</li>
+<li class="gk">αὐτῆς: con của nàng (một người phụ nữ nào đó – có thể là con riêng của người khác); ἑαυτῆς: con của chính nàng (do chính chủ ngữ sinh/nuôi) – phản thân chiếu về chủ ngữ. Latin: <em>eius</em> vs <em>suus</em>.</li>
+</ol>
+<p>Ghi chú: (1)–(2): hành động quặt lại chính chủ ngữ → phản thân; (3) mạo từ trực tiếp trước αὐτόν → &quot;cùng một&quot;; (4) vị ngữ, không có mạo từ trước → nhấn &quot;chính&quot;; (5) sở hữu cách phản thân sau danh từ = &quot;của chính mình&quot;.</p>
+</div></div>
+
+<h3>Bài tập 5 – Tìm và sửa lỗi</h3>
+<p>Mỗi câu sau có đúng một lỗi về đại từ/quan hệ; tìm và sửa:</p>
+<ol>
+<li class="gk">ὁ ἄνθρωπος ἥν βλέπω διδάσκει τὸν φίλον.</li>
+<li class="gk">τὸ σχῆμα ὃς ἀκολουθεῖ τὸ χρῶμα καλόν ἐστιν.</li>
+<li class="gk">αἱ Ἀμαζόνες ὃς μάχονται ἵππους ἔχουσιν.</li>
+<li class="gk">ὁ λόγος οὗ ἀκούομεν ἀληθής ἐστιν.</li>
+<li class="gk">ἐμὸς ὁ πατὴρ ἀεὶ ἐμαυτὸν ἐρωτᾷ.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 5</h4>
+<ol>
+<li>Sai giống: <span class="gk">ἥν → ὅν</span> (antecedent <span class="gk">ὁ ἄνθρωπος</span> giống đực; cách đối đúng vì tân ngữ của βλέπω).</li>
+<li>Sai giống: <span class="gk">ὃς → ὅ</span> (antecedent <span class="gk">τὸ σχῆμα</span> trung tính; chủ cách đúng vì chủ ngữ của ἀκολουθεῖ).</li>
+<li>Sai giống–số: <span class="gk">ὃς → αἳ</span> (antecedent <span class="gk">αἱ Ἀμαζόνες</span> cái số nhiều; chủ cách đúng).</li>
+<li>Sai cách (hút oan): <span class="gk">οὗ → ὅν</span> – antecedent <span class="gk">ὁ λόγος</span> ở chủ cách thì không có gì để hút; đối cách theo nhiệm vụ (tân ngữ của ἀκούω).</li>
+<li>Sai vị trí: <span class="gk">ἐμὸς ὁ πατήρ → ὁ ἐμὸς πατήρ</span> – tính từ sở hữu phải đứng vị trí định ngữ (mạo từ trực tiếp trước); ἐμαυτὸν ở đúng chỗ phản thân ngôi 1.</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 6 – Dịch sang tiếng Hy Lạp</h3>
+<ol>
+<li>&quot;Hỡi Meno, ngươi tìm kiếm một đức hạnh mà ngươi chưa nhận ra.&quot;</li>
+<li>&quot;Socrates luôn hỏi chính mình và tìm được những câu trả lời thật.&quot;</li>
+<li>&quot;Heracles giết nữ hoàng mà hắn nghĩ là kẻ phản bội.&quot;</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 6</h4>
+<ol>
+<li class="gk">ὦ Μένων, ἀρετὴν ζητεῖς, ἣν οὔπω γιγνώσκεις.</li>
+<li class="gk">ὁ Σωκράτης ἀεὶ ἑαυτὸν ἐρωτᾷ καὶ τὰς ἀληθεῖς ἀποκρίσεις εὑρίσκει.</li>
+<li class="gk">ὁ Ἡρακλῆς τὴν βασίλειαν ἀποκτείνει, ἣν προδότην οἴεται εἶναι.</li>
+</ol>
+<p>Ghi chú: (1) ὦ + hô cách (bài 2); mệnh đề quan hệ chen sau tân ngữ; οὔπω &quot;chưa&quot;; (2) phản thân ngôi 3 <span class="gk">ἑαυτόν</span> chiếu về chủ ngữ Σωκράτης; <span class="gk">ἀληθεῖς</span> đối cách số nhiều của tính từ hai đuôi (bài 9); (3) AcI lồng trong mệnh đề quan hệ: <span class="gk">ἣν</span> = chủ ngữ logic của <span class="gk">εἶναι</span> → đối cách; <span class="gk">προδότην</span> biểu ngữ đối cách – đúng cấu trúc đã phân tích ở bài đọc II.</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 15 – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: &quot;Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0&quot; · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Bản đọc đối chiếu: Platon, Menon 72d–73c; Apollodor, Bibliotheca 2,5,9 (Perseus, public domain).</p>
+
+</main>
+</body>
+</html>
