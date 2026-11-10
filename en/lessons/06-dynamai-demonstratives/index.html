@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 6 – δύναμαι, demonstrative pronouns &amp; εἶναι</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  td.em, th.em { font-style: italic; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 6: δύναμαι, demonstrative pronouns &amp; εἶναι</h1>
+
+<p style="font-size:0.9em; color:#64748b;">English edition · Original (Tiếng Việt): <a href="../../lessons/06-dynamai-demonstratives/index.html">Lesson 6 – Graecum VN</a> – identical content, structure and exercises.</p>
+
+<div class="toc">
+<p><strong>Contents</strong></p>
+<ol>
+<li><a href="#s1">δύναμαι and two kinds of verbs: thematic / athematic</a></li>
+<li><a href="#s2">Demonstrative pronouns: pointing is their nature</a></li>
+<li><a href="#s3">The morphology of ὅδε, ἥδε, τόδε ("this here")</a></li>
+<li><a href="#s4">The morphology of ἐκεῖνος, ἐκείνη, ἐκεῖνο ("that over there")</a></li>
+<li><a href="#s5">How they are used: alone &amp; with a noun</a></li>
+<li><a href="#s6">Deixis: near – "just mentioned" – far</a></li>
+<li><a href="#s7">εἶναι: the full paradigm &amp; the accent trap (εἶ vs εἰ)</a></li>
+<li><a href="#reading">Reading: The father in the hut (simplified from Homer)</a></li>
+<li><a href="#vocab">Core vocabulary</a></li>
+<li><a href="#confusables">Summary table of easily confused points</a></li>
+<li><a href="#exercises">Exercises + answers</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>What you will be able to do after this lesson:</strong> (1) recognize athematic verbs and conjugate/analyze the forms of <span class="gk">δύναμαι</span>; (2) decline the two demonstrative pronouns by gender–number–case (GNC) and place them correctly in the sentence (predicative position but translated attributively); (3) use the "compass of deixis" to choose the right pronoun according to near/far and position in the text; (4) know the full paradigm of <span class="gk">εἶναι</span> by heart, in particular distinguishing <span class="gk">εἶ</span> from <span class="gk">εἰ</span> by the accent.</p>
+</div>
+
+<div class="info">
+<p><strong>How to use this lesson:</strong> the Latinized "transliteration" column lets you read the Greek aloud even before the alphabet is fully automatic; the accent marks <em>á/à/â</em> in the transliteration correspond to the Greek acute (´), grave (`) and circumflex (῀). Vocabulary marked with <span class="star">★</span> is compulsory memorization (it recurs in every later lesson). The "Latin corner" boxes compare with Latin – two closely related languages; seen side by side, the patterns emerge faster.</p>
+</div>
+
+<h2 id="s1">1. δύναμαι and two kinds of verbs: thematic / athematic</h2>
+
+<h3>1.1 Thematic and athematic verbs</h3>
+
+<p>A foundational note (it will stay important later on): in the Greek verb system we distinguish two kinds:</p>
+
+<table>
+<thead><tr><th>Thematic verbs</th><th>Athematic verbs</th></tr></thead>
+<tbody>
+<tr>
+<td>Between the <strong>tense stem</strong> and the <strong>ending</strong> stands a <strong>thematic vowel</strong>: <span class="gk">ο</span> or <span class="gk">ε</span>.<br>Example: <span class="gk">παιδεύ-ο-μεν</span> <span class="tr">(paideú-o-men)</span> "we educate" → <span class="gk">-ο-</span> is the thematic vowel.</td>
+<td><strong>No</strong> thematic vowel: the ending attaches directly to the stem.<br>Example: <span class="gk">ἐσ-μέν</span> <span class="tr">(es-mén)</span> "we are": stem <span class="gk">ἐσ-</span> + ending <span class="gk">-μέν</span>, no vowel in between.</td>
+</tr>
+</tbody>
+</table>
+
+<p>Quick memory hook: the present middle/passive endings learned in Lesson 5 (<span class="gk">-ομαι, -εται, -όμεθα…</span>) are precisely the middle/passive endings <em>plus</em> a thematic vowel: <span class="gk">θεραπεύ-ε-ται</span>. The "bare" middle/passive endings are <span class="gk">-ται, -νται, -μεν…</span> with no vowel.</p>
+
+<h3>1.2 δύναμαι: present paradigm + infinitive</h3>
+
+<p>Consider an <strong>athematic deponent verb</strong> (deponent = middle/passive in form but active in meaning, learned in Lesson 5):</p>
+
+<p class="gk"><strong>δύναμαι</strong> <span class="tr">(dýnamai)</span> – to be able, to have the power, to be capable.</p>
+
+<table>
+<thead><tr><th>Present indicative</th><th>Thematic deponent: γίγνομαι</th><th>Transliteration</th><th>Athematic deponent: δύναμαι</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td class="gk">γίγνομαι</td><td class="tr">gígnomai</td><td class="gk">δύναμαι</td><td class="tr">dýnamai</td><td class="em">I become / I can</td></tr>
+<tr><td>2 Sg.</td><td class="gk">γίγνῃ (from γίγνε-σαι)</td><td class="tr">gígnēi</td><td class="gk">δύνασαι</td><td class="tr">dýnasai</td><td class="em">you become / you can</td></tr>
+<tr><td>3 Sg.</td><td class="gk">γίγνεται</td><td class="tr">gígnetai</td><td class="gk">δύναται</td><td class="tr">dýnatai</td><td class="em">he/she becomes / can</td></tr>
+<tr><td>1 Pl.</td><td class="gk">γιγνόμεθα</td><td class="tr">gignómetha</td><td class="gk">δυνάμεθα</td><td class="tr">dynamétha</td><td class="em">we become / we can</td></tr>
+<tr><td>2 Pl.</td><td class="gk">γίγνεσθε</td><td class="tr">gígnesthe</td><td class="gk">δύνασθε</td><td class="tr">dýnasthe</td><td class="em">you (pl.) become / can</td></tr>
+<tr><td>3 Pl.</td><td class="gk">γίγνονται</td><td class="tr">gígnontai</td><td class="gk">δύνανται</td><td class="tr">dýnantai</td><td class="em">they become / they can</td></tr>
+<tr><td>Infinitive</td><td class="gk">γίγνεσθαι</td><td class="tr">gígnesthai</td><td class="gk">δύνασθαι</td><td class="tr">dýnasthai</td><td class="em">to become / to be able</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern for telling the two kinds apart in a text:</strong> compare the same person, e.g. 1 Pl.: a thematic verb shows the thematic vowel clearly, <span class="gk">γιγν-ό-μεθα</span> (the accent falls one syllable earlier), while an athematic verb "squeezes" the parts together, <span class="gk">δυνά-μεθα</span> – and the accent usually jumps onto the very vowel of the ending. The two columns in the table above differ only in that "thin letter": <span class="gk">γιγνόμεθα ↔ δυνάμεθα</span>, <span class="gk">γίγνεσθε ↔ δύνασθε</span>. Comparing the pairs one by one when reviewing is the fastest way to memorize them.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> (1) <span class="gk">δύναμαι</span> translates with active meaning: "I can" – <em>never</em> "I am being able" (recall the deponent principle of Lesson 5). (2) <span class="gk">δύναμαι</span> usually comes with an <strong>infinitive</strong>: <span class="gk">δυνάμεθα λέγειν</span> – "we can speak". This is an <em>object infinitive</em>, <em>not</em> an AcI – not every infinitive belongs to an AcI (Lesson 4): here there is no accusative acting as logical subject. (3) <span class="gk">γίγνεσαι</span> drops the σ before the ending: <span class="gk">γίγνε-σαι → γίγνῃ</span> – the 2 Sg. form ends in <span class="gk">-ῃ</span>.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> athematic verbs are the "old relatives" of the Indo-European family: the ending glues directly onto the stem, with no vowel "adhesive". Latin preserves the same phenomenon: <em>sum, es, est, sumus, estis, sunt</em> conjugates exactly like the athematic <span class="gk">εἰμί, εἶ, ἐστί, ἐσμέν, ἐστέ, εἰσί</span> – form for form, person for person. When you meet the "strangest" verb of all, think: it is the oldest, which is why it is the shortest and most irregular.</p>
+</div>
+
+<h2 id="s2">2. Demonstrative pronouns: pointing is their nature</h2>
+
+<p>A <strong>demonstrative pronoun</strong> has the character of <strong>underlining and pointing</strong>: Latin <em>demonstrare</em> literally means "to point out". When I point at what I mean, I make it <em>clearer</em> – and I can point in <em>different directions</em>. To visualize, borrow place adverbs: I point at <em>this one (here)</em> or at <em>that one (over there)</em> (compare English <em>this</em> vs. <em>that</em>). Greek has <strong>more</strong> demonstrative pronouns than English. Today we learn two:</p>
+
+<ul>
+<li><span class="star">★</span> <span class="gk">ὅδε, ἥδε, τόδε</span> <span class="tr">(hóde, héde, tóde)</span> – "this one (here)" | the following</li>
+<li><span class="star">★</span> <span class="gk">ἐκεῖνος, ἐκείνη, ἐκεῖνο</span> <span class="tr">(ekeînos, ekéinē, ekeîno)</span> – "that one (over there)"</li>
+</ul>
+<p>One more important demonstrative: <span class="gk">οὗτος, αὕτη, τοῦτο</span> – this/that <span class="notyet">not yet (Lesson 26)</span>.</p>
+
+<h2 id="s3">3. The morphology of ὅδε, ἥδε, τόδε ("this here")</h2>
+
+<p><strong>Built from two parts:</strong></p>
+<ul>
+<li><strong>The first part</strong> = the form of the <strong>article</strong> – but <em>always accented</em>, even in the nominative (<span class="gk">ὅδε, ἥδε, τόδε</span>) – and this part declines fully.</li>
+<li><strong>The second part</strong> = always <span class="gk">-δε</span> "here", indeclinable, unchanging.</li>
+</ul>
+
+<table>
+<thead><tr><th></th><th colspan="3">SINGULAR</th><th colspan="3">PLURAL</th></tr>
+<tr><th></th><th>m.</th><th>f.</th><th>n.</th><th>m.</th><th>f.</th><th>n.</th></tr></thead>
+<tbody>
+<tr><td><strong>Nom.</strong></td><td class="gk">ὅδε</td><td class="gk">ἥδε</td><td class="gk">τόδε</td><td class="gk">οἵδε</td><td class="gk">αἵδε</td><td class="gk">τάδε</td></tr>
+<tr><td><strong>Gen.</strong></td><td class="gk">τοῦδε</td><td class="gk">τῆσδε</td><td class="gk">τοῦδε</td><td class="gk">τῶνδε</td><td class="gk">τῶνδε</td><td class="gk">τῶνδε</td></tr>
+<tr><td><strong>Dat.</strong></td><td class="gk">τῷδε</td><td class="gk">τῇδε</td><td class="gk">τῷδε</td><td class="gk">τοῖσδε</td><td class="gk">ταῖσδε</td><td class="gk">τοῖσδε</td></tr>
+<tr><td><strong>Acc.</strong></td><td class="gk">τόνδε</td><td class="gk">τήνδε</td><td class="gk">τόδε</td><td class="gk">τούσδε</td><td class="gk">τάσδε</td><td class="gk">τάδε</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> in the <strong>dative plural</strong>, a <span class="gk">σ</span> is inserted between the article and <span class="gk">-δε</span>: <span class="gk">τοῖς + δε → τοῖσδε</span>, <span class="gk">ταῖς + δε → ταῖσδε</span>. Memory rule: "accented article + δε; the dative plural bites off an extra σ". Note also that the <strong>genitive/dative plural is identical for all three genders</strong> (<span class="gk">τῶνδε, τοῖσδε/ταῖσδε</span>) – just like the article itself – only the context reveals the gender.</p>
+</div>
+
+<h2 id="s4">4. The morphology of ἐκεῖνος, ἐκείνη, ἐκεῖνο ("that over there")</h2>
+
+<ul>
+<li>Declines <strong>as regularly as a three-termination adjective</strong> of the a/o-declension.</li>
+<li><strong>The only exception</strong>: the neuter singular nominative/accusative is <span class="gk">ἐκεῖνο</span> (<strong>not</strong> <span class="gk">ἐκεῖνον</span>!) → this is called the <strong>pronominal declension</strong> of the neuter.</li>
+</ul>
+
+<table>
+<thead><tr><th></th><th colspan="3">SINGULAR</th><th colspan="3">PLURAL</th></tr>
+<tr><th></th><th>m.</th><th>f.</th><th>n.</th><th>m.</th><th>f.</th><th>n.</th></tr></thead>
+<tbody>
+<tr><td><strong>Nom.</strong></td><td class="gk">ἐκεῖνος</td><td class="gk">ἐκείνη</td><td class="gk">ἐκεῖνο</td><td class="gk">ἐκεῖνοι</td><td class="gk">ἐκεῖναι</td><td class="gk">ἐκεῖνα</td></tr>
+<tr><td><strong>Gen.</strong></td><td class="gk">ἐκείνου</td><td class="gk">ἐκείνης</td><td class="gk">ἐκείνου</td><td class="gk">ἐκείνων</td><td class="gk">ἐκείνων</td><td class="gk">ἐκείνων</td></tr>
+<tr><td><strong>Dat.</strong></td><td class="gk">ἐκείνῳ</td><td class="gk">ἐκείνῃ</td><td class="gk">ἐκείνῳ</td><td class="gk">ἐκείνοις</td><td class="gk">ἐκείναις</td><td class="gk">ἐκείνοις</td></tr>
+<tr><td><strong>Acc.</strong></td><td class="gk">ἐκεῖνον</td><td class="gk">ἐκείνην</td><td class="gk">ἐκεῖνο</td><td class="gk">ἐκείνους</td><td class="gk">ἐκεῖνας</td><td class="gk">ἐκεῖνα</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern to reuse:</strong> the "pronominal declension" of the neuter is not a private rule of <span class="gk">ἐκεῖνος</span>: every pronoun of this type has a neuter singular ending in a long vowel <span class="gk">-ο</span>/<span class="gk">-ι</span> instead of <span class="gk">-ον</span> (you will meet it again in <span class="gk">τοῦτο</span>, <span class="gk">τί</span>…). An <em>adjective</em> (like <span class="gk">ἀγαθός</span>), by contrast, has <span class="gk">ἀγαθόν</span>. Quick self-test: meet a "bare" neuter form like <span class="gk">ἐκεῖνο</span> → almost certainly a pronoun, not an adjective.</p>
+</div>
+
+<h2 id="s5">5. How they are used: alone &amp; with a noun</h2>
+
+<h3>5.1 Standing alone (no accompanying noun)</h3>
+<p>When no noun accompanies it, a demonstrative pronoun does the work of a noun itself: it can take on <em>any</em> sentence function (subject, object, after a preposition…).</p>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">διαλέγομαι τῷδε.</td><td class="tr">dialégomai tôide.</td><td class="em">I am talking with <strong>this man here</strong>.</td></tr>
+</tbody>
+</table>
+<p><em>Note:</em> <span class="gk">διαλέγομαι</span> <span class="tr">(dialégomai)</span> is a deponent verb (middle/passive in form, active in meaning) and takes the dative (answers "with whom?").</p>
+
+<h3>5.2 With an accompanying noun</h3>
+<p>Rule: <strong>agree in GNC with the noun pointed at</strong> (case–number–gender) + stand in the <strong>predicative position</strong>, yet <strong>translate in the attributive style</strong>; the article is <strong>not</strong> translated.</p>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὅδε ὁ ἐχθρός or ὁ ἐχθρὸς ὅδε</td><td class="tr">hóde ho echthrós / ho echthròs hóde</td><td class="em"><strong>this</strong> enemy (the article "ὁ" is not translated!)</td></tr>
+</tbody>
+</table>
+
+<h3>5.3 Reminder: attributive position and predicative position</h3>
+<p><strong>Attributive position</strong> – the article stands <strong>directly before</strong> the attributive:</p>
+<ul>
+<li><strong>Possibility 1:</strong> the attributive stands between the <strong>article</strong> and the <strong>head noun</strong>: <span class="gk">οἱ τοῦ Ἥλίου ἵπποι</span> <span class="tr">(hoi toû Helíou híppoi)</span> – "the horses of Helios".</li>
+<li><strong>Possibility 2:</strong> the article of the head noun is <strong>repeated</strong> before an attributive that follows the noun: <span class="gk">οἱ ἵπποι οἱ τοῦ Ἥλίου</span> – "the horses of Helios". (In a small number of cases the first article may be absent.)</li>
+<li>→ In every possibility: <strong>the article stands directly before the attributive</strong>.</li>
+</ul>
+<p><strong>Predicative position</strong> is the "opposite face": the article does <strong>not</strong> stand directly before the word, i.e. the word is in the predicative position…</p>
+<ol>
+<li>either it stands <strong>before the article</strong> of the noun pointed at…</li>
+<li>…or it stands <strong>after the noun pointed at</strong> (after both article and noun).</li>
+</ol>
+<p>→ That is why <span class="gk">ὅδε ὁ ἐχθρός</span> (before the article) and <span class="gk">ὁ ἐχθρὸς ὅδε</span> (after the noun) are both predicative positions of the demonstrative pronoun – but both are translated attributively: "this enemy".</p>
+
+<div class="achtung">
+<p><strong>Watch out – the classic error:</strong> seeing <span class="gk">ὅδε ὁ ἐχθρός</span> and translating "this one is the enemy" is <em>wrong</em>: that would be the predicative rendering. Rule: a demonstrative pronoun that <em>accompanies</em> a noun is always translated attributively ("this enemy"); the predicative rendering "this one is the enemy" only occurs when the pronoun <em>has no</em> accompanying noun and serves as the subject/predicate of the sentence. Self-test: check whether two adjacent GNC phrases stand side by side (pronoun + noun with its article) → if so, merge them into one noun phrase in your translation.</p>
+</div>
+
+<h2 id="s6">6. Deixis: near – "just mentioned" – far</h2>
+
+<p>Recall the nature of the matter: a demonstrative pronoun <strong>points</strong> somewhere. <strong>Deixis</strong> = the direction of the pointing finger (from <span class="gk">δείκνυμι</span> <span class="tr">(deíknymi)</span> "I point"). The direction can be <em>outside the text</em> (real space) or <em>inside the text</em> (earlier/later in the flow of words):</p>
+
+<table>
+<thead><tr><th>Pronoun</th><th>Deixis outside the text</th><th>Deixis inside the text</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὅδε, ἥδε, τόδε</td><td>points at something <strong>present</strong> or (spatially) <strong>near</strong> from the speaker's standpoint</td><td>points at what is <strong>about to be said</strong>, the matter <strong>still to be discussed</strong> (pointing forward)</td></tr>
+<tr><td class="gk">οὗτος, αὕτη, τοῦτο <span class="notyet">not yet (Lesson 26)</span></td><td>points at something <strong>not especially near</strong> from the speaker's standpoint</td><td>usually (but not always) points at what has <strong>already been mentioned</strong></td></tr>
+<tr><td class="gk">ἐκεῖνος, ἐκείνη, ἐκεῖνο</td><td>points at something (spatially) <strong>farther away</strong> from the speaker's standpoint</td><td>points at something <strong>farther back in the text</strong> (already left behind by the flow of speech)</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Reading pattern:</strong> this system of three "pointing directions" works like a ruler laid along the text: <span class="gk">ὅδε</span> = "the following", <span class="gk">οὗτος</span> = "the aforementioned", <span class="gk">ἐκεῖνος</span> = "that one back there". In literature, an opening phrase of the type <span class="gk">τάδε…</span> is precisely "the following things…". Many languages have the same three grades – English "this – that – that over there": the deictic maps of languages coincide; only the words differ.</p>
+</div>
+
+<h2 id="s7">7. εἶναι: the full paradigm &amp; the accent trap (εἶ vs εἰ)</h2>
+
+<p><span class="gk">εἶναι</span> (to be, to exist) is the most important athematic verb – and one of the most "broken" verbs in Greek. The paradigm (the imperfect and future below are forms of <span class="gk">εἶναι</span> to learn in advance; these two tenses as <em>tenses in general</em> are <span class="notyet">not yet</span> covered here):</p>
+
+<table>
+<thead><tr><th>Indicative</th><th>Present</th><th>Transliteration</th><th>English</th><th>Imperfect</th><th>Future</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td class="gk">εἰμί</td><td class="tr">eimí</td><td class="em">I am</td><td class="gk">ἦ</td><td class="gk">ἔσομαι</td></tr>
+<tr><td>2 Sg.</td><td class="gk">εἶ</td><td class="tr">eî</td><td class="em">you are</td><td class="gk">ἦς (or ἦσθα)</td><td class="gk">ἔσῃ (or ἔσει)</td></tr>
+<tr><td>3 Sg.</td><td class="gk">ἐστί(ν)</td><td class="tr">estí(n)</td><td class="em">he/she/it is</td><td class="gk">ἦν</td><td class="gk">ἔσται</td></tr>
+<tr><td>1 Pl.</td><td class="gk">ἐσμέν</td><td class="tr">esmén</td><td class="em">we are</td><td class="gk">ἦμεν</td><td class="gk">ἐσόμεθα</td></tr>
+<tr><td>2 Pl.</td><td class="gk">ἐστέ</td><td class="tr">esté</td><td class="em">you (pl.) are</td><td class="gk">ἦτε</td><td class="gk">ἔσεσθε</td></tr>
+<tr><td>3 Pl.</td><td class="gk">εἰσί(ν)</td><td class="tr">eisí(n)</td><td class="em">they are</td><td class="gk">ἦσαν</td><td class="gk">ἔσονται</td></tr>
+</tbody>
+</table>
+
+<table>
+<thead><tr><th>Imperative</th><th>2 Sg.</th><th>2 Pl.</th><th>Infinitive</th></tr></thead>
+<tbody>
+<tr><td>εἶναι</td><td class="gk">ἴσθι</td><td class="gk">ἔστε</td><td class="gk">present: εἶναι · future: ἔσεσθαι</td></tr>
+</tbody>
+</table>
+
+<ul>
+<li><strong>Movable nu:</strong> <span class="gk">ἐστί(ν), εἰσί(ν)</span> take the ν when the next word begins with a vowel or at a pause at the end of a sentence.</li>
+<li><strong>Two "print styles":</strong> modern editions print <span class="gk">εἰμί, ἐσμέν, ἐστέ</span>; older printings (and some traditional grammars) write <span class="gk">εἶμι, ἐσμεν, ἐστε</span> – only the accent differs; it is the same word.</li>
+<li><strong>The 2 Sg. imperative <span class="gk">ἴσθι</span></strong> is completely irregular (must be memorized); the 2 Pl. imperative <span class="gk">ἔστε</span> is quite "regular". The 3rd person imperative is <span class="notyet">not yet</span>.</li>
+</ul>
+
+<div class="achtung">
+<p><strong>Watch out – risk of confusion, look at the accent:</strong></p>
+<ul>
+<li><span class="gk">εἶ</span> (with acute) = <em>you are</em> – a verb.</li>
+<li><span class="gk">εἰ</span> (no accent) = <em>if</em> / <em>whether</em> – a conjunction.</li>
+</ul>
+<p>One accent mark changes the word class! In print, if the accent is "swallowed", you must judge by grammar: <span class="gk">εἰ φίλος εἶ, …</span> – "If you are a friend…": <span class="gk">εἰ</span> cannot be the verb because the clause would then lack its predicate… so <span class="gk">εἶ</span> is the predicate.</p>
+</div>
+
+<div class="info">
+<p><strong>Historical connection:</strong> <span class="gk">εἰμί, εἶ, ἐστί(ν)</span> shares its root with Latin <em>sum, es, est</em>, German <em>bin, bist, ist</em>, English <em>am, is</em>, Sanskrit <em>asmi, asi, asti</em> – all from the Indo-European root *h₁es- "to exist". That is why the "strangest" paradigm is also the oldest – and that is why its forms are so short that a single accent mark has to carry the whole burden of telling the words apart.</p>
+</div>
+
+<h2 id="reading">8. Reading: The father in the hut</h2>
+
+<div class="info">
+<p><strong>Source:</strong> theme based on Homer, <em>Odyssey</em> 16,181–206 – the passage where Odysseus, still disguised as a stranger in the hut of the swineherd Eumaeus, reveals his identity to his son Telemachus. The original (public domain) can be read on Perseus. The version below was <strong>rewritten by this project for the level of Lesson 6</strong> – it uses only structures already learned, keeping the spirit of the original.</p>
+</div>
+
+<p>New words in the reading:</p>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἡ καλύβη, -ης</td><td class="tr">hē kalýbē, -ēs</td><td class="em">the hut</td><td>feminine, a-declension</td></tr>
+<tr><td class="gk">ὁ ξένος, -ου</td><td class="tr">ho xénos, -ou</td><td class="em">the stranger, the guest</td><td>masculine, o-declension</td></tr>
+<tr><td class="gk">ἡ ἀλήθεια, -ας</td><td class="tr">hē alḗtheia, -as</td><td class="em">the truth</td><td>feminine, a-declension</td></tr>
+<tr><td class="gk">γιγνώσκω</td><td class="tr">gignṓskō</td><td class="em">to know, recognize</td><td>+ accusative</td></tr>
+<tr><td class="gk">ὁ πατήρ, πατρός</td><td class="tr">ho patḗr, patrós</td><td class="em">the father</td><td>irregular declension <span class="notyet">not yet</span> – read the case off the article</td></tr>
+<tr><td class="gk">ὁ Τηλέμαχος · ὁ Εὔμαιος · ὁ Ὀδυσσεύς</td><td class="tr">ho Telémakhos · ho Eúmaios · ho Odysseús</td><td class="em">Telemachus · Eumaeus · Odysseus</td><td>proper names, irregularly declined <span class="notyet">not yet</span> – read the case off the article</td></tr>
+</tbody>
+</table>
+
+<p style="margin-bottom:6px;"><strong>Simplified version (composed by this project):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">ἐν τῇ καλύβῃ ὁ Τηλέμαχος μετὰ τοῦ ξένου ἐστίν. ὁ δὲ ξένος δύναται τὴν ἀλήθειαν λέγειν. εἰ σοφὸς εἶ, ὦ Τήλεμαχε, δύνασαι τὸν πατέρα γιγνώσκειν. ὁ δὲ Τηλέμαχος τόνδε τὸν ξένον γιγνώσκει· ἐκεῖνος γὰρ Ὀδυσσεὺς ἐστιν.</p>
+<p class="tr">en têi kalýbēi ho Telémakhos metà toû xénou estín. ho dè xénos dýnatai tḕn alḗtheian légein. ei sophòs eî, ô Telémakhe, dýnasai tòn patéra gignṓskein. ho dè Telémakhos tónde tòn xénon gignṓskei· ekeînos gàr Odysseùs estin.</p>
+
+<p><strong>Translation:</strong> In the hut, Telemachus is with the stranger. And the stranger can tell the truth. If you are wise, Telemachus, you can recognize your father. And Telemachus recognizes this stranger – for that man yonder is Odysseus.</p>
+
+<p><strong>Quick analysis (check with the tools already learned):</strong></p>
+<ul>
+<li><span class="gk">ἐν τῇ καλύβῃ</span> – the article <span class="gk">τῇ</span> marks the feminine singular dative; <span class="gk">μετὰ τοῦ ξένου</span> – <span class="gk">μετὰ</span> + genitive (Lesson 4). Sentences 1 and 2 open with an implicit <span class="gk">μέν…δέ</span> pair (δέ in sentence 2, preparing a contrast).</li>
+<li><span class="gk">δύναται λέγειν</span> – δύναμαι + object infinitive (not an AcI!); the accent stands on the syllable <span class="gk">δύ-</span> in the recessive style of an athematic verb.</li>
+<li><span class="gk">εἰ σοφὸς εἶ</span> – exactly this lesson's trap pair: <span class="gk">εἰ</span> (unaccented) = "if", <span class="gk">εἶ</span> (acute) = "you are"; <span class="gk">σοφός</span> in predicative position with an invisible subject (Lesson 3).</li>
+<li><span class="gk">τόνδε τὸν ξένον</span> – the demonstrative pronoun in the <strong>accusative</strong> (the article <span class="gk">τόνδε</span> is the giveaway) + the noun pointed at with its article <span class="gk">τὸν</span>: predicative position but translated attributively – "this stranger".</li>
+<li><span class="gk">ἐκεῖνος γὰρ Ὀδυσσεὺς ἐστιν</span> – <span class="gk">ἐκεῖνος</span> stands alone (no accompanying noun) → serves as subject itself; <span class="gk">γάρ</span> postpositive; <span class="gk">Ὀδυσσεύς</span> is a nominative predicate. Translate "that man yonder is Odysseus" – the spatial deixis (the disguised man) matches the "far/other-person" pointing direction.</li>
+</ul>
+
+<p>Reading comprehension questions: (1) In which case does <span class="gk">τόνδε τὸν ξένον</span> stand, and what is the evidence? Why is the translation "this stranger" and not "the stranger is this one"? (2) Sentence 3 contains two words differing by one accent mark – which is the verb, which is the conjunction? (3) Read the original Homer (Odyssey 16.181–206 on Perseus): how does Odysseus reveal his identity there, and how has the simplified version "packaged" it?</p>
+
+<div class="answer"><div class="loesung">
+<h4>Answers to the reading questions (print to check)</h4>
+<p><strong>1.</strong> Accusative – the article <span class="gk">τόνδε</span> (and <span class="gk">τὸν</span>) gives it away; it is the object of <span class="gk">γιγνώσκει</span>. Because the demonstrative pronoun accompanies the noun pointed at (two adjacent GNC phrases) → always translated attributively: "this stranger"; the predicative rendering "the stranger is this one" occurs only when the pronoun stands alone. <strong>2.</strong> <span class="gk">εἰ</span> (unaccented) = "if" – conjunction; <span class="gk">εἶ</span> (acute) = "you are" – verb (predicate of the first clause). <strong>3.</strong> In Homer, Athena transforms Odysseus back into his younger self, and Odysseus then reveals his identity to Telemachus in tears; the simplified version packages it as "the stranger can tell the truth – if you are wise, you recognize your father" – the same recognition-of-the-father motif, built with exactly the tools of Lesson 6.</p>
+</div></div>
+
+<h2 id="vocab">9. Core vocabulary</h2>
+
+<h3>Verbs</h3>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> δύναμαι</td><td class="tr">dýnamai</td><td class="em">to be able, can</td><td>athematic deponent + infinitive</td></tr>
+<tr><td class="gk"><span class="star">★</span> γίγνομαι</td><td class="tr">gígnomai</td><td class="em">to become, come into being</td><td>thematic deponent</td></tr>
+<tr><td class="gk"><span class="star">★</span> εἶναι</td><td class="tr">eînai</td><td class="em">to be</td><td>athematic – full paradigm in section 7</td></tr>
+<tr><td class="gk"><span class="star">★</span> διαλέγομαι + [dative]</td><td class="tr">dialégomai</td><td class="em">to converse with</td><td>deponent</td></tr>
+<tr><td class="gk">δείκνυμι</td><td class="tr">deíknymi</td><td class="em">to show, point out</td><td>the source of the term "deixis"</td></tr>
+<tr><td class="gk">γιγνώσκω</td><td class="tr">gignṓskō</td><td class="em">to know, recognize</td><td>+ accusative (in the reading)</td></tr>
+</tbody>
+</table>
+
+<h3>Nouns</h3>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὁ ἐχθρός, -οῦ</td><td class="tr">ho echthrós, -oû</td><td class="em">the enemy</td><td>masculine, o-declension (review from Lesson 5)</td></tr>
+<tr><td class="gk">ὁ Ἥλιος, -ου</td><td class="tr">ho Hélios, -ou</td><td class="em">Helios, the sun</td><td>masculine, o-declension (review from Lesson 5)</td></tr>
+<tr><td class="gk">ἡ καλύβη, -ης</td><td class="tr">hē kalýbē, -ēs</td><td class="em">the hut</td><td>feminine, a-declension (reading)</td></tr>
+<tr><td class="gk">ὁ ξένος, -ου</td><td class="tr">ho xénos, -ou</td><td class="em">the stranger, guest</td><td>masculine, o-declension (reading)</td></tr>
+<tr><td class="gk">ἡ ἀλήθεια, -ας</td><td class="tr">hē alḗtheia, -as</td><td class="em">the truth</td><td>feminine, a-declension (reading)</td></tr>
+<tr><td class="gk">ἡ εἰρήνη, -ης</td><td class="tr">hē eirḗnē, -ēs</td><td class="em">the peace</td><td>feminine, a-declension (Exercise 6)</td></tr>
+</tbody>
+</table>
+
+<h3>Demonstrative pronouns &amp; conjunctions</h3>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὅδε, ἥδε, τόδε</td><td class="tr">hóde, héde, tóde</td><td class="em">this (here); the following</td><td>= article + -δε</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἐκεῖνος, ἐκείνη, ἐκεῖνο</td><td class="tr">ekeînos, ekéinē, ekeîno</td><td class="em">that (over there)</td><td>declines like a three-termination adjective</td></tr>
+<tr><td class="gk">οὗτος, αὕτη, τοῦτο</td><td class="tr">hoûtos, haútē, toûto</td><td class="em">this / that</td><td><span class="notyet">not yet (Lesson 26)</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> εἰ</td><td class="tr">ei</td><td class="em">if; whether</td><td>unaccented – distinguish from εἶ "you are"</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">10. Summary table of easily confused points</h2>
+
+<table>
+<thead><tr><th>Confusable pair / group</th><th>Core difference</th><th>Self-check</th></tr></thead>
+<tbody>
+<tr><td>Thematic vs athematic</td><td>thematic: the vowel ο/ε between stem and ending (<span class="gk">παιδεύ-ο-μεν</span>); athematic: ending glued directly on (<span class="gk">ἐσ-μέν, δυνά-μεθα</span>)</td><td>"Dissect" the word into stem + vowel + ending; if no vowel can be dissected out → athematic.</td></tr>
+<tr><td class="gk">δυνάμεθα vs γιγνόμεθα</td><td>same ending -μεθα, but athematic <span class="gk">δυνά-μεθα</span> (accent on the ending's vowel) ≠ thematic <span class="gk">γιγν-ό-μεθα</span></td><td>Look at the accent + the position of the thematic vowel; learn by opposed pairs.</td></tr>
+<tr><td class="gk">δύναμαι vs γίγνομαι (meaning)</td><td>δύναμαι = "can"; γίγνομαι = "become, come into being"</td><td>Both are deponent – memorize the meanings as a pair, not in isolation.</td></tr>
+<tr><td>Infinitive after <span class="gk">δύναμαι</span></td><td>an object infinitive ("can + to…"), <em>not</em> an AcI (no accusative acting as logical subject)</td><td>Look for the AcI "switch" (Lesson 4) + an accusative subject: if either is missing → not an AcI.</td></tr>
+<tr><td>The first part of <span class="gk">ὅδε</span> vs the article</td><td>identical to the article but always accented (ὅδε, ἥδε, τόδε, οἵδε…)</td><td>See -δε attached at the end → certainly a demonstrative pronoun, not an article.</td></tr>
+<tr><td>Dative plural <span class="gk">τοῖσδε / ταῖσδε</span></td><td>a σ is inserted between the article and -δε (<span class="gk">τοῖς + δε</span>)</td><td>Rule "the dative plural bites off an extra σ"; dropping the σ is a spelling error.</td></tr>
+<tr><td class="gk">ἐκεῖνο vs ἐκεῖνον</td><td>the neuter singular of the pronoun = <span class="gk">ἐκεῖνο</span> (nom./acc., pronominal declension); <span class="gk">ἐκεῖνον</span> is only the masculine accusative</td><td>the neuter of a pronoun has no -ον; see -ον → masculine, or an adjective.</td></tr>
+<tr><td class="gk">ὅδε vs ἐκεῖνος</td><td>near/right before one's eyes vs far/over there; in a text: about to be said vs already left behind</td><td>Ask yourself: "which way is my finger pointing?" – near = ὅδε, far = ἐκεῖνος, "just mentioned" = οὗτος (Lesson 26).</td></tr>
+<tr><td>Demonstrative pronoun with accompanying noun: how to translate?</td><td>predicative position (before the article or after the noun) but translated attributively; the article is not translated</td><td>Two adjacent GNC phrases → merge: "this enemy".</td></tr>
+<tr><td>Attributive vs predicative position</td><td>attributive: article directly before the attributive (between, or repeated); predicative: the article <em>not</em> directly before the word</td><td>Put your finger on the article and test: "does this pronoun have an article directly before it?"</td></tr>
+<tr><td class="gk">εἶ vs εἰ</td><td>εἶ = "you are" (verb); εἰ = "if / whether" (conjunction)</td><td>One acute changes the word class entirely; when the print is unclear → judge by syntax (what does the clause still lack?).</td></tr>
+<tr><td class="gk">εἰμί / εἶμι, ἐσμέν / ἐσμεν</td><td>the same word, two accent styles (modern editions vs old printings)</td><td>Do not panic: only the "print style" differs, these are not two different verbs.</td></tr>
+<tr><td>Imperative <span class="gk">ἴσθι</span> vs <span class="gk">ἔστε</span></td><td>ἴσθι (2 Sg.) completely irregular; ἔστε (2 Pl.) regular</td><td>Memorize ἴσθι as its own little "pebble"; the other forms follow the table.</td></tr>
+<tr><td>Gen./dat. plural identical in three genders (<span class="gk">τῶνδε, ἐκείνων</span>)</td><td>no gender distinction in these cases</td><td>Use the accompanying noun to determine the gender.</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">11. Exercises</h2>
+<p><em>Answers appear only when printing (Ctrl+P → Save as PDF) – work through them first, then print to check.</em></p>
+
+<h3>Exercise 1 – Classifying and conjugating</h3>
+<ol>
+<li>Analyze <span class="gk">παιδεύομεν</span> and <span class="gk">ἐσμέν</span> into stem – thematic vowel – ending (if present).</li>
+<li>Fill in the missing forms of <span class="gk">δύναμαι</span>: 2 Sg. ___, 1 Pl. ___, 3 Pl. ___, infinitive ___.</li>
+<li>Translate: <span class="gk">δυνάμεθα λέγειν.</span></li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Answer 1</h4>
+<ol>
+<li><span class="gk">παιδεύ-ο-μεν</span> (thematic: thematic vowel <span class="gk">-ο-</span>); <span class="gk">ἐσ-μέν</span> (athematic: the ending glues directly onto the stem <span class="gk">ἐσ-</span>).</li>
+<li class="gk">δύνασαι · δυνάμεθα · δύνανται · δύνασθαι</li>
+<li>"We can speak." – object infinitive, not an AcI.</li>
+</ol></div></div>
+
+<h3>Exercise 2 – Declining the demonstrative pronouns by GNC</h3>
+<p>Write the correct form of the demonstrative pronoun (with the article of the noun if needed):</p>
+<ol>
+<li>"this enemy (here)" – masculine singular nominative: ___</li>
+<li>"this enemy" – masculine singular accusative: ___</li>
+<li>"with these horses here" – masculine plural dative: ___</li>
+<li>"that philosopher (over there)" – masculine singular nominative: ___</li>
+<li>"with that (female) friend over there" – feminine singular dative of <span class="gk">ἐκεῖνος</span>: ___</li>
+<li>"that thing (neuter) over there" – neuter singular accusative of <span class="gk">ἐκεῖνος</span>: ___ (careful!)</li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Answer 2</h4>
+<ol>
+<li class="gk">ὅδε ὁ ἐχθρός (or: ὁ ἐχθρὸς ὅδε) – "this enemy"</li>
+<li class="gk">τόνδε τὸν ἐχθρόν – "this enemy" (accusative)</li>
+<li class="gk">τοῖσδε τοῖς ἵπποις – "with these horses here" (remember: the dative plural inserts σ!)</li>
+<li class="gk">ἐκεῖνος ὁ φιλόσοφος (or: ὁ φιλόσοφος ἐκεῖνος) – "that philosopher"</li>
+<li class="gk">ἐκείνῃ (τῇ φίλῃ) – "with that (female) friend"</li>
+<li class="gk">ἐκεῖνο – pronominal declension: <strong>not</strong> ἐκεῖνον!</li>
+</ol></div></div>
+
+<h3>Exercise 3 – Position and translation</h3>
+<p>Translate (watch the position: predicative position but translated attributively; the article is not translated):</p>
+<ol>
+<li class="gk">ὅδε ὁ ἵππος τοῦ Ἥλίου ἐστίν.</li>
+<li class="gk">ὁ ἐχθρὸς ὅδε φίλος γίγνεται.</li>
+<li class="gk">διαλέγεσθε τῷδε;</li>
+<li class="gk">ἐκεῖνοι οἱ ἵπποι ταχείς εἰσί. <span style="color:#64748b;">(ταχείς = plural of ταχύς "fast", Lesson 3: ταχέως)</span></li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Answer 3</h4>
+<ol>
+<li>"This horse (here) belongs to Helios." – <span class="gk">ὅδε ὁ ἵππος</span> = "this horse" (translated attributively although it stands before the article); <span class="gk">τοῦ Ἥλίου</span> = genitive attribute.</li>
+<li>"This enemy here becomes a friend." – <span class="gk">γίγνεται</span>: deponent, translate actively; <span class="gk">φίλος</span> is a nominative predicate.</li>
+<li>"Are you (pl.) talking with this man (here)?" – <span class="gk">διαλέγομαι</span>: deponent + dative.</li>
+<li>"Those horses (over there) are fast." – <span class="gk">ταχείς</span> in predicative position (the article does not stand directly before it); <span class="gk">εἰσί</span> = 3 Pl. of <span class="gk">εἶναι</span>.</li>
+</ol></div></div>
+
+<h3>Exercise 4 – Deixis in a text</h3>
+<p>In the following situations, should you use <span class="gk">ὅδε</span> or <span class="gk">ἐκεῖνος</span>? Why?</p>
+<ol>
+<li>The speaker points at the book he is holding in his hand.</li>
+<li>The speaker opens a lecture: "In what follows I will discuss…" (<span class="gk">τάδε</span>…)</li>
+<li>In a text, referring back to a character mentioned many sentences earlier.</li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Answer 4</h4>
+<ol>
+<li><span class="gk">ὅδε</span> – present, near from the speaker's standpoint (deixis outside the text).</li>
+<li><span class="gk">ὅδε</span> (τάδε) – deixis inside the text, pointing toward "what is about to be discussed".</li>
+<li><span class="gk">ἐκεῖνος</span> – deixis inside the text, pointing at something "far" back in the narrative. (Some contexts also allow <span class="gk">οὗτος</span> – "the just mentioned" – but that pronoun is <span class="notyet">not yet (Lesson 26)</span>.)</li>
+</ol></div></div>
+
+<h3>Exercise 5 – εἶναι and the accent trap</h3>
+<ol>
+<li>Fill in the present paradigm of <span class="gk">εἶναι</span>: 1 Sg. ___, 2 Sg. ___, 3 Sg. ___, 1 Pl. ___, 2 Pl. ___, 3 Pl. ___.</li>
+<li>Translate and explain why that reading is the only possible one: <span class="gk">εἰ φίλος εἶ, λέγε.</span></li>
+<li>Translate: <span class="gk">ἔσται τὸ ἀγαθόν.</span> <span style="color:#64748b;">(τὸ ἀγαθόν = substantivized adjective, Lesson 5)</span></li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Answer 5</h4>
+<ol>
+<li class="gk">εἰμί · εἶ · ἐστί(ν) · ἐσμέν · ἐστέ · εἰσί(ν)</li>
+<li>"If you are a friend, speak!" – <span class="gk">εἰ</span> (unaccented) = "if"; <span class="gk">εἶ</span> (acute) = "you are". The first clause lacks a predicate → <span class="gk">εἰ</span> must open the conditional clause.</li>
+<li>"The good will be (there)." – <span class="gk">ἔσται</span> = 3 Sg. future of <span class="gk">εἶναι</span>; <span class="gk">τὸ ἀγαθόν</span> = substantivized adjective (Lesson 5).</li>
+</ol></div></div>
+
+<h3>Exercise 6 – Putting it all together (Lessons 4–6)</h3>
+<p>Translate into Greek:</p>
+<ol>
+<li>"We can talk with this enemy."</li>
+<li>"That man over there is a philosopher." – use <span class="gk">ἐκεῖνος</span> standing alone, no noun needed.</li>
+<li>"If you (pl.) are wise, make peace!" <span style="color:#64748b;">(εἰρήνη = peace; ποιεῖσθε = plural imperative of ποιέομαι "make", Lesson 5)</span></li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Answer 6</h4>
+<ol>
+<li><span class="gk">δυνάμεθα διαλέγεσθαι τῷδε τῷ ἐχθρῷ.</span> – or <span class="gk">τῷ ἐχθρῷ τῷδε</span>. Combination: athematic deponent <span class="gk">δυνάμεθα</span> + object infinitive <span class="gk">διαλέγεσθαι</span> + deponent <span class="gk">διαλέγομαι</span> taking the dative + demonstrative pronoun in the dative (predicative position, translated attributively).</li>
+<li><span class="gk">ἐκεῖνος φιλόσοφος ἐστίν.</span> – demonstrative pronoun without an accompanying noun → serves as subject itself; <span class="gk">φιλόσοφος</span> is a nominative predicate; <span class="gk">ἐστίν</span> takes the movable nu before a vowel.</li>
+<li><span class="gk">εἰ σοφοὶ ἐστέ, εἰρήνην ποιεῖσθε!</span> – <span class="gk">εἰ</span> = "if" (unaccented!); <span class="gk">σοφοί</span> plural predicate; <span class="gk">ἐστέ</span> = 2 Pl. of <span class="gk">εἶναι</span>; <span class="gk">ποιεῖσθε</span> = plural middle imperative (Lesson 5: "make for yourselves").</li>
+</ol></div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Lesson 6 – Graecum VN · Compiled by Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · When citing or reusing, give credit: "Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Exercise answers appear only when printing (Ctrl+P → Save as PDF). Reference reading: Homer, Odyssey 16.181–206 (Perseus, public domain).</p>
+
+</main>
+</body>
+</html>
