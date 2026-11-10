@@ -119,6 +119,27 @@
       "rev": 2
     },
     {
+      "id": "review-01-05",
+      "type": "review",
+      "num": "W1",
+      "level": "graecum-1",
+      "title": "Ôn tập 1: Bài 1–5 (Wiederholung 1)",
+      "covers": [
+        1,
+        5
+      ],
+      "topics": [
+        "tóm tắt ngữ pháp chính Bài 1–5",
+        "bảng tổng quan động từ hiện tại chỉ định + mệnh lệnh; mạo từ, danh từ, tính từ đã học",
+        "đại từ (Pronomen cá nhân, οὗτος/ὅδε) + bài \"ai cầm cách nào\"",
+        "Anki nhóm Bài 1–5 (vocab/vocab-01-05.tsv) + quy tắc thẻ",
+        "chiến lược ôn tập nhóm + tự kiểm tra 5 câu"
+      ],
+      "reading": [],
+      "status": "published",
+      "rev": 1
+    },
+    {
       "id": "06-dynamai-demonstratives",
       "num": 6,
       "level": "graecum-1",
@@ -222,6 +243,28 @@
         "Platon, Politeia 375b–e",
         "Diogenes Laertios 6,37"
       ],
+      "status": "published",
+      "rev": 1
+    },
+    {
+      "id": "review-06-10",
+      "type": "review",
+      "num": "W2",
+      "level": "graecum-1",
+      "title": "Ôn tập 2: Bài 6–10 (Wiederholung 2)",
+      "covers": [
+        6,
+        10
+      ],
+      "topics": [
+        "tóm tắt ngữ pháp chính Bài 6–10",
+        "εἶναι + deponent; παιδεύομαι; hệ mệnh lệnh đầy đủ ngôi 2 + 3",
+        "mạo từ đủ 3 giống; chia thứ ba I/II + bản đồ đuôi",
+        "đại từ chỉ định + số từ + tính từ",
+        "Anki nhóm Bài 6–10 (vocab/vocab-06-10.tsv) + quy tắc thẻ",
+        "chiến lược ôn tập nhóm + tự kiểm tra 5 câu"
+      ],
+      "reading": [],
       "status": "published",
       "rev": 1
     },

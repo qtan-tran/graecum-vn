@@ -1,10 +1,12 @@
-# Vocab TSV & Anki deck – Graecum VN (Bài 1–10)
+# Vocab TSV & Anki deck – Graecum VN (Bài 1–10 + nhóm 5 bài cho ôn tập)
 
 Từ vựng trọng tâm của **Lesson 1–10**, trích từ mục "Từ vựng trọng tâm" của từng bài giảng, đóng gói thành hai định dạng:
 
 | File | Nội dung |
 | --- | --- |
 | `vocab-01-10.tsv` | 186 dòng từ vựng, TSV (UTF-8, tab-separated) – xem chi tiết cột bên dưới |
+| `vocab-01-05.tsv` | Nhóm 5 bài cho **Ôn tập 1** (Bài 1–5): 114 từ + 12 **thẻ chia dạng** |
+| `vocab-06-10.tsv` | Nhóm 5 bài cho **Ôn tập 2** (Bài 6–10): 72 từ + 15 **thẻ chia dạng** |
 | `../tools/gen_anki_deck.py` | Script sinh Anki deck `.apkg` (169 thẻ, từ trùng giữa các bài đã gộp, tag theo bài) từ TSV – thuần thư viện chuẩn Python, không cần cài gói ngoài |
 
 Deck `.apkg` không commit vào repo (file binary, sinh lại chỉ cần 1 lệnh – repo giữ đúng triết lý "toàn text, inspect được").
@@ -26,6 +28,25 @@ Tag gợi ý khi lọc học:
 - `graecum-1` – toàn bộ cấp Graecum I (sẽ cộng dồn ở các bản sau).
 
 **Không có Python?** TSV import trực tiếp được vào Anki (File → Import, separator Tab, bỏ dòng header, map cột: `greek` → mặt trước, `phiên âm` + `english` + `tiếng việt` + `ghi chú` → mặt sau) – bạn mất template đẹp của script nhưng vẫn học được; hoặc dùng template kiểu "Basic (type in the answer)" tùy ý.
+
+## File nhóm 5 bài (bài ôn tập – Wiederholung)
+
+Cứ sau mỗi 5 bài, portal xuất bản một **bài ôn tập** (Ôn tập 1 sau Bài 5, Ôn tập 2 sau Bài 10…), mỗi bài kèm một file TSV nhóm 5 bài tương ứng. File nhóm có **cùng định dạng 8 cột** và thêm một nhóm nhỏ **thẻ chia dạng** (cột `nhóm` = "chia dạng", ghi chú "thẻ chia dạng"): mặt trước là một dạng đã biến cách/chia (ví dụ `θεραπεύεις`, `σώμασι(ν)`), mặt sau nêu đúng cách, số/ngôi + dạng từ điển + nghĩa.
+
+Sinh deck nhóm (ví dụ nhóm Bài 1–5):
+
+```bash
+python3 tools/gen_anki_deck.py --tsv vocab/vocab-01-05.tsv --out vocab/graecum-vn-01-05.apkg
+```
+
+**Quy tắc học thẻ (cô đọng, áp dụng cho mọi nhóm):**
+
+- Mỗi thẻ một mặt là từ Hy Lạp, một mặt là phiên âm Latin + nghĩa tiếng Việt/Anh.
+- Phần lớn thẻ dùng để nhớ **Grundform und -bedeutung** (dạng từ điển + nghĩa): khi lật thẻ, nêu ít nhất một trong các nghĩa khả dĩ (Genannt werden muss jeweils mindestens eine der möglichen Bedeutungen).
+- Một số thẻ về **biến cách của từ** (chia dạng): nêu đúng cách, số/ngôi + Grundform + nghĩa – dùng để phục vụ việc nhớ cách chia từ (deklination, conjugation).
+- **Kasus**: khi bị hỏi phải nêu kèm cách đi kèm của từ – luôn với giới từ (ἐν + Dativ, εἰς + Akkusativ, ἐκ + Genitiv, ὑπό + Genitiv – tác nhân), đôi khi với động từ (κατηγορέω + Genitiv, πιστεύω + Dativ, δέομαι + Genitiv).
+
+File tiếp theo: `vocab-11-15.tsv` sẽ ra cùng **Ôn tập 3** (sau khi Bài 15 xuất bản).
 
 ## Định dạng TSV
 
