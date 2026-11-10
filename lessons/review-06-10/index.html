@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Ôn tập 2 – Bài 6–10: đại từ chỉ định, chia thứ ba, số từ, tính từ &amp; deponent (Wiederholung 2)</title>
+<title>Ôn tập #2 – Bài 6–10: đại từ chỉ định, chia thứ ba, số từ, tính từ &amp; deponent (Wiederholung 2)</title>
 <style>
   :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
   body { margin: 0; background: #f8fafc; }
@@ -47,7 +47,7 @@
 <body>
 <main>
 
-<h1>Ôn tập 2: Bài 6–10 (Wiederholung 2)</h1>
+<h1>Ôn tập #2: Bài 6–10 (Wiederholung 2)</h1>
 
 <div class="toc">
 <p><strong>Nội dung bài ôn tập</strong></p>
@@ -57,7 +57,7 @@
 <li><a href="#s3">Bảng tổng quan hệ thống mệnh lệnh</a></li>
 <li><a href="#s4">Bảng tổng quan mạo từ &amp; danh từ: nhóm o/a + chia thứ ba I–II</a></li>
 <li><a href="#s5">Bảng tổng quan đại từ chỉ định, số từ &amp; tính từ</a></li>
-<li><a href="#anki">Anki: thẻ từ vựng nhóm Bài 6–10 + quy tắc học thẻ</a></li>
+<li><a href="#anki">Anki: bộ thẻ nhóm Bài 6–10 + cách import</a></li>
 <li><a href="#strategy">Chiến lược ôn tập nhóm Bài 6–10 + tự kiểm tra</a></li>
 </ol>
 </div>
@@ -329,21 +329,22 @@
 </table>
 <p>Ba đuôi <span class="gk">μέλας, μέλαινα, μέλαν</span> (đực/trung chia thứ ba, cái mượn nhóm a; Dat. Pl. <span class="gk">μέλασι(ν)</span> thân rút như <span class="gk">γένεσι(ν)</span>). Trạng từ: <span class="gk">σοφῶς, καλῶς, δικαίως, ἀληθῶς, εὐδαιμόνως, σωφρόνως</span>; bất quy tắc <span class="gk">εὖ</span>.</p>
 
-<h2 id="anki">6. Anki: thẻ từ vựng nhóm Bài 6–10 + quy tắc học thẻ</h2>
+<h2 id="anki">6. Anki: bộ thẻ nhóm Bài 6–10 + cách import &amp; quy tắc học thẻ</h2>
 
-<p>Từ vựng trọng tâm Bài 6–10 đã được đóng gói thành file import: <strong><a href="https://github.com/qtan-tran/graecum-vn/blob/main/vocab/vocab-06-10.tsv">vocab/vocab-06-10.tsv</a></strong> (TSV 8 cột, kèm nhóm <strong>thẻ chia dạng</strong> để luyện biến cách/chia động từ).</p>
+<p>Toàn bộ từ vựng trọng tâm Bài 6–10 (84 thẻ, kèm nhóm <strong>thẻ chia dạng</strong> để luyện biến cách/chia động từ) được đóng gói sẵn trong một file import duy nhất: <strong><a href="../../vocab/anki-06-10.txt">anki-06-10.txt</a></strong> (nhấp chuột phải vào link → <em>Lưu đích dưới dạng…</em>, giữ nguyên đuôi <code>.txt</code>).</p>
 
-<h3>6.1 Sinh deck / import</h3>
-<ul>
-<li><strong>Có Python:</strong> chạy <code>python3 tools/gen_anki_deck.py --tsv vocab/vocab-06-10.tsv --out vocab/graecum-vn-06-10.apkg</code> rồi mở file <code>.apkg</code> bằng Anki. Tag theo bài (<code>bài-06</code>…<code>bài-10</code>), tag <code>ưu-tiên</code> cho từ ★; thẻ chia dạng ghi rõ "thẻ chia dạng" trong cột ghi chú – lọc bằng ô tìm kiếm với chuỗi <code>chia dạng</code>.</li>
-<li><strong>Không có Python:</strong> Anki → File → Import → chọn TSV → separator Tab, bỏ dòng header, map cột: <code>greek</code> → mặt trước; <code>phiên âm + english + tiếng việt + ghi chú</code> → mặt sau.</li>
-</ul>
+<h3>6.1 Import vào Anki (3 bước)</h3>
+<ol>
+<li>Tải file <code>anki-06-10.txt</code> về máy.</li>
+<li>Mở Anki → <strong>File → Import…</strong> (hoặc kéo-thả file vào cửa sổ Anki).</li>
+<li>Anki đọc sẵn mọi cài đặt từ các dòng đầu file (dấu tab, HTML, deck đích <code>Graecum VN 06-10</code>, tag theo bài <code>bài-06</code>…<code>bài-10</code>, tag <code>ưu-tiên</code> cho từ ★, tag <code>chia-dạng</code> cho thẻ chia dạng) – bấm <strong>Import</strong> là xong. Deck chưa có sẽ được tạo tự động; trường hợp hiếm gặp Anki không nhận diện note type, chọn <strong>Basic</strong> (2 mặt: trước/sau).</li>
+</ol>
 
 <h3>6.2 Quy tắc học thẻ (cô đọng)</h3>
 <ul>
 <li><strong>Mỗi thẻ một mặt là từ Hy Lạp, một mặt là phiên âm Latin + nghĩa tiếng Việt/Anh.</strong></li>
 <li><strong>Phần lớn thẻ dùng để nhớ Grundform und -bedeutung</strong>: khi lật thẻ, nêu ít nhất một trong các nghĩa khả dĩ (Genannt werden muss jeweils mindestens eine der möglichen Bedeutungen).</li>
-<li><strong>Một số thẻ về biến cách của từ</strong> (nhóm "chia dạng": <span class="gk">σώμασι(ν)</span>, <span class="gk">βασιλέας</span>, <span class="gk">ταῖσδε</span>…): mặt sau nêu đúng cách, số + Grundform + nghĩa; dùng để phục vụ việc nhớ cách chia từ (deklination, conjugation).</li>
+<li><strong>Một số thẻ về biến cách của từ</strong> (nhóm <code>chia-dạng</code>: <span class="gk">σώμασι(ν)</span>, <span class="gk">βασιλέας</span>, <span class="gk">ταῖσδε</span>…): mặt sau nêu đúng cách, số + Grundform + nghĩa; dùng để phục vụ việc nhớ cách chia từ (deklination, conjugation).</li>
 <li><strong>Kasus:</strong> phải nêu kèm cách đi kèm của từ khi bị hỏi – <strong>luôn luôn</strong> với giới từ (<span class="gk">ἐν</span> + Dativ, <span class="gk">εἰς</span> + Akkusativ, <span class="gk">ἐκ</span> + Genitiv, <span class="gk">σύν</span> + Dativ, <span class="gk">ὑπό</span> + Genitiv – tác nhân), <strong>đôi khi</strong> với động từ (<span class="gk">κατηγορέω</span> + Genitiv, <span class="gk">πιστεύω</span> + Dativ, <span class="gk">διαλέγομαι</span> + Dativ, <span class="gk">δέομαι</span> + Genitiv).</li>
 </ul>
 
@@ -389,7 +390,7 @@
 </div></div>
 
 <hr>
-<p style="font-size:0.85em; color:#64748b;">Bài giảng Ôn tập 2 (Wiederholung 2) – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Nội dung tổng hợp từ Bài 6–10 (đã xuất bản).</p>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Ôn tập #2 (Wiederholung 2) – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Nội dung tổng hợp từ Bài 6–10 (đã xuất bản).</p>
 
 </main>
 </body>

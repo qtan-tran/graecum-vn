@@ -1,12 +1,12 @@
-# Vocab TSV & Anki deck – Graecum VN (Bài 1–10 + nhóm 5 bài cho ôn tập)
+# Vocab TSV & Anki – Graecum VN (Bài 1–10 + file import cho bài ôn tập)
 
 Từ vựng trọng tâm của **Lesson 1–10**, trích từ mục "Từ vựng trọng tâm" của từng bài giảng, đóng gói thành hai định dạng:
 
 | File | Nội dung |
 | --- | --- |
 | `vocab-01-10.tsv` | 186 dòng từ vựng, TSV (UTF-8, tab-separated) – xem chi tiết cột bên dưới |
-| `vocab-01-05.tsv` | Nhóm 5 bài cho **Ôn tập 1** (Bài 1–5): 114 từ + 12 **thẻ chia dạng** |
-| `vocab-06-10.tsv` | Nhóm 5 bài cho **Ôn tập 2** (Bài 6–10): 72 từ + 15 **thẻ chia dạng** |
+| `anki-01-05.txt` | File import Anki cho **Ôn tập #1** (Bài 1–5): 114 thẻ (102 từ + 12 **thẻ chia dạng**), mở là import được |
+| `anki-06-10.txt` | File import Anki cho **Ôn tập #2** (Bài 6–10): 84 thẻ (69 từ + 15 **thẻ chia dạng**) |
 | `../tools/gen_anki_deck.py` | Script sinh Anki deck `.apkg` (169 thẻ, từ trùng giữa các bài đã gộp, tag theo bài) từ TSV – thuần thư viện chuẩn Python, không cần cài gói ngoài |
 
 Deck `.apkg` không commit vào repo (file binary, sinh lại chỉ cần 1 lệnh – repo giữ đúng triết lý "toàn text, inspect được").
@@ -29,15 +29,17 @@ Tag gợi ý khi lọc học:
 
 **Không có Python?** TSV import trực tiếp được vào Anki (File → Import, separator Tab, bỏ dòng header, map cột: `greek` → mặt trước, `phiên âm` + `english` + `tiếng việt` + `ghi chú` → mặt sau) – bạn mất template đẹp của script nhưng vẫn học được; hoặc dùng template kiểu "Basic (type in the answer)" tùy ý.
 
-## File nhóm 5 bài (bài ôn tập – Wiederholung)
+## File import cho bài ôn tập (Wiederholung)
 
-Cứ sau mỗi 5 bài, portal xuất bản một **bài ôn tập** (Ôn tập 1 sau Bài 5, Ôn tập 2 sau Bài 10…), mỗi bài kèm một file TSV nhóm 5 bài tương ứng. File nhóm có **cùng định dạng 8 cột** và thêm một nhóm nhỏ **thẻ chia dạng** (cột `nhóm` = "chia dạng", ghi chú "thẻ chia dạng"): mặt trước là một dạng đã biến cách/chia (ví dụ `θεραπεύεις`, `σώμασι(ν)`), mặt sau nêu đúng cách, số/ngôi + dạng từ điển + nghĩa.
+Cứ sau mỗi 5 bài, portal xuất bản một **bài ôn tập** (Ôn tập #1 sau Bài 5, Ôn tập #2 sau Bài 10…), mỗi bài kèm một file import Anki cho từ vựng nhóm 5 bài: `anki-01-05.txt`, `anki-06-10.txt`, `anki-11-15.txt`… File đã dựng sẵn thẻ (mặt trước = từ Hy Lạp, mặt sau = phiên âm Latin + nghĩa tiếng Việt/Anh) và một nhóm nhỏ **thẻ chia dạng**: mặt trước là một dạng đã biến cách/chia (ví dụ `θεραπεύεις`, `σώμασι(ν)`), mặt sau nêu đúng cách, số/ngôi + dạng từ điển + nghĩa.
 
-Sinh deck nhóm (ví dụ nhóm Bài 1–5):
+**Import vào Anki (3 bước):**
 
-```bash
-python3 tools/gen_anki_deck.py --tsv vocab/vocab-01-05.tsv --out vocab/graecum-vn-01-05.apkg
-```
+1. Tải file `.txt` về máy (nhấp chuột phải vào link → *Lưu đích dưới dạng…*).
+2. Mở Anki → **File → Import…** (hoặc kéo-thả file vào cửa sổ Anki).
+3. Anki đọc sẵn mọi cài đặt từ các dòng đầu file (dấu tab, HTML, deck đích, tag) – bấm **Import** là xong. Deck chưa có sẽ được tạo tự động.
+
+Tag khi lọc học: `bài-01`… `bài-10` (học theo bài), `ưu-tiên` (từ ★), `chia-dạng` (thẻ chia dạng), `graecum-1` (toàn cấp).
 
 **Quy tắc học thẻ (cô đọng, áp dụng cho mọi nhóm):**
 
@@ -46,7 +48,7 @@ python3 tools/gen_anki_deck.py --tsv vocab/vocab-01-05.tsv --out vocab/graecum-v
 - Một số thẻ về **biến cách của từ** (chia dạng): nêu đúng cách, số/ngôi + Grundform + nghĩa – dùng để phục vụ việc nhớ cách chia từ (deklination, conjugation).
 - **Kasus**: khi bị hỏi phải nêu kèm cách đi kèm của từ – luôn với giới từ (ἐν + Dativ, εἰς + Akkusativ, ἐκ + Genitiv, ὑπό + Genitiv – tác nhân), đôi khi với động từ (κατηγορέω + Genitiv, πιστεύω + Dativ, δέομαι + Genitiv).
 
-File tiếp theo: `vocab-11-15.tsv` sẽ ra cùng **Ôn tập 3** (sau khi Bài 15 xuất bản).
+File tiếp theo: `anki-11-15.txt` sẽ ra cùng **Ôn tập #3** (sau khi Bài 15 xuất bản).
 
 ## Định dạng TSV
 

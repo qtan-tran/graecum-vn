@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Ôn tập 1 – Bài 1–5: nền tảng động từ, danh từ, đại từ (Wiederholung 1)</title>
+<title>Ôn tập #1 – Bài 1–5: nền tảng động từ, danh từ, đại từ (Wiederholung 1)</title>
 <style>
   :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
   body { margin: 0; background: #f8fafc; }
@@ -47,7 +47,7 @@
 <body>
 <main>
 
-<h1>Ôn tập 1: Bài 1–5 (Wiederholung 1)</h1>
+<h1>Ôn tập #1: Bài 1–5 (Wiederholung 1)</h1>
 
 <div class="toc">
 <p><strong>Nội dung bài ôn tập</strong></p>
@@ -56,7 +56,7 @@
 <li><a href="#s2">Bảng tổng quan động từ: chỉ định &amp; mệnh lệnh hiện tại</a></li>
 <li><a href="#s3">Bảng tổng quan mạo từ, danh từ &amp; tính từ</a></li>
 <li><a href="#s4">Bảng tổng quan đại từ &amp; "ai cầm cách nào"</a></li>
-<li><a href="#anki">Anki: thẻ từ vựng nhóm Bài 1–5 + quy tắc học thẻ</a></li>
+<li><a href="#anki">Anki: bộ thẻ nhóm Bài 1–5 + cách import</a></li>
 <li><a href="#strategy">Chiến lược ôn tập nhóm Bài 1–5 + tự kiểm tra</a></li>
 </ol>
 </div>
@@ -168,7 +168,7 @@
 </tbody>
 </table>
 <div class="info">
-<p>Hệ thống mạo từ ba giống đầy đủ sẽ được gộp bảng trọn vẹn ở Ôn tập 2 (đã đủ dữ liệu sau Bài 7–8); trong nhóm 1–5 bạn chỉ cần đọc chắc bộ đực và nhận diện <span class="gk">ἡ, τὸ, τά</span> khi gặp trong văn bản.</p>
+<p>Hệ thống mạo từ ba giống đầy đủ sẽ được gộp bảng trọn vẹn ở Ôn tập #2 (đã đủ dữ liệu sau Bài 7–8); trong nhóm 1–5 bạn chỉ cần đọc chắc bộ đực và nhận diện <span class="gk">ἡ, τὸ, τά</span> khi gặp trong văn bản.</p>
 </div>
 
 <h3>3.2 Danh từ nhóm o (giống đực): mẫu ὁ ἄνθρωπος</h3>
@@ -243,15 +243,16 @@
 <p><strong>Cẩn trọng:</strong> AcI (nguyên mẫu tân ngữ) được kích hoạt bởi <span class="gk">νομίζω, λέγω, ἐλπίζω, οἴομαι, δεῖ</span> – đừng quên ngôi của động từ chính quyết định ngôi của chủ ngữ AcI khi dịch.</p>
 </div>
 
-<h2 id="anki">5. Anki: thẻ từ vựng nhóm Bài 1–5 + quy tắc học thẻ</h2>
+<h2 id="anki">5. Anki: bộ thẻ nhóm Bài 1–5 + cách import &amp; quy tắc học thẻ</h2>
 
-<p>Từ vựng trọng tâm Bài 1–5 đã được đóng gói thành file import: <strong><a href="https://github.com/qtan-tran/graecum-vn/blob/main/vocab/vocab-01-05.tsv">vocab/vocab-01-05.tsv</a></strong> (trong repo, định dạng TSV, 8 cột như bộ L1–10; kèm một nhóm nhỏ <strong>thẻ chia dạng</strong> để luyện biến cách/chia động từ).</p>
+<p>Toàn bộ từ vựng trọng tâm Bài 1–5 (114 thẻ, kèm nhóm nhỏ <strong>thẻ chia dạng</strong> để luyện biến cách/chia động từ) được đóng gói sẵn trong một file import duy nhất: <strong><a href="../../vocab/anki-01-05.txt">anki-01-05.txt</a></strong> (nhấp chuột phải vào link → <em>Lưu đích dưới dạng…</em>, giữ nguyên đuôi <code>.txt</code>).</p>
 
-<h3>5.1 Sinh deck / import</h3>
-<ul>
-<li><strong>Có Python:</strong> chạy <code>python3 tools/gen_anki_deck.py --tsv vocab/vocab-01-05.tsv --out vocab/graecum-vn-01-05.apkg</code> rồi mở file <code>.apkg</code> bằng Anki (File → Import hoặc nhấp đúp). Deck có template dựng sẵn, tag theo bài (<code>bài-01</code>…<code>bài-05</code>) và tag <code>ưu-tiên</code> cho từ ★; thẻ chia dạng được ghi rõ "thẻ chia dạng" trong cột ghi chú – lọc bằng ô tìm kiếm của Anki với chuỗi <code>chia dạng</code>.</li>
-<li><strong>Không có Python:</strong> Anki → File → Import → chọn TSV → separator Tab, bỏ dòng header, map cột: <code>greek</code> → mặt trước; <code>phiên âm + english + tiếng việt + ghi chú</code> → mặt sau.</li>
-</ul>
+<h3>5.1 Import vào Anki (3 bước)</h3>
+<ol>
+<li>Tải file <code>anki-01-05.txt</code> về máy.</li>
+<li>Mở Anki → <strong>File → Import…</strong> (hoặc kéo-thả file vào cửa sổ Anki).</li>
+<li>Anki đọc sẵn mọi cài đặt từ các dòng đầu file (dấu tab, HTML, deck đích <code>Graecum VN 01-05</code>, tag theo bài <code>bài-01</code>…<code>bài-05</code>, tag <code>ưu-tiên</code> cho từ ★, tag <code>chia-dạng</code> cho thẻ chia dạng) – bấm <strong>Import</strong> là xong. Deck chưa có sẽ được tạo tự động; trường hợp hiếm gặp Anki không nhận diện note type, chọn <strong>Basic</strong> (2 mặt: trước/sau).</li>
+</ol>
 
 <h3>5.2 Quy tắc học thẻ (cô đọng)</h3>
 <ul>
@@ -303,7 +304,7 @@
 </div></div>
 
 <hr>
-<p style="font-size:0.85em; color:#64748b;">Bài giảng Ôn tập 1 (Wiederholung 1) – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Nội dung tổng hợp từ Bài 1–5 (đã xuất bản).</p>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Ôn tập #1 (Wiederholung 1) – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Nội dung tổng hợp từ Bài 1–5 (đã xuất bản).</p>
 
 </main>
 </body>

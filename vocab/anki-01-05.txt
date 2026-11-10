@@ -1,0 +1,119 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#deck:Graecum VN 01-05
+#tags column:3
+ὁ ἄνθρωπος, -ου	<i>ho ánthrōpos, -ou</i><br>con người (the human being)<br><small>đực, nhóm o</small>	graecum-vn graecum-1 bài-01 ưu-tiên
+ὁ θεός, -οῦ	<i>ho theós, -oû</i><br>vị thần, thần (the god)<br><small>đực, nhóm o</small>	graecum-vn graecum-1 bài-01 ưu-tiên
+ὁ οἶκος, -ου	<i>ho óikos, -ou</i><br>ngôi nhà (the house)<br><small>đực, nhóm o</small>	graecum-vn graecum-1 bài-01 ưu-tiên
+ὁ οὐρανός, -οῦ	<i>ho ouranós, -oû</i><br>bầu trời (the heaven, sky)<br><small>đực, nhóm o</small>	graecum-vn graecum-1 bài-01 bài-03 ưu-tiên
+ὁ ἵππος, -ου	<i>ho híppos, -ou</i><br>con ngựa (the horse)<br><small>đực, nhóm o</small>	graecum-vn graecum-1 bài-01 ưu-tiên
+ὁ δῆμος, -ου	<i>ho dêmos, -ou</i><br>cộng đồng, dân (the people, community)<br><small>đực, nhóm o</small>	graecum-vn graecum-1 bài-01 ưu-tiên
+ὁ ἀδελφός, -οῦ	<i>ho adelphós, -oû</i><br>anh/em trai (the brother)<br><small>đực, nhóm o (bài đọc)</small>	graecum-vn graecum-1 bài-01
+ὁ ἐχθρός, -οῦ	<i>ho echthrós, -oû</i><br>kẻ thù (the enemy)<br><small>đực, nhóm o</small>	graecum-vn graecum-1 bài-01 bài-03
+ἡ θάλασσα, -ης	<i>hē thálassa, -ēs</i><br>biển (the sea)<br><small>cái, nhóm a (chưa học)</small>	graecum-vn graecum-1 bài-01
+ἡ γῆ, γῆς	<i>hē gê, gês</i><br>đất, mặt đất (the earth)<br><small>cái, nhóm a (chưa học)</small>	graecum-vn graecum-1 bài-01
+θεραπεύω, -ει, -ουσι(ν), -ειν	<i>therapeúō, -ei, -ousi(n), -ein</i><br>tôn thờ; chăm sóc, chữa (to worship; to tend, care for, heal)<br><small>+ đối cách</small>	graecum-vn graecum-1 bài-01 ưu-tiên
+εἶναι, ἐστί(ν), εἰσί(ν)	<i>eînai, estí(n), eisí(n)</i><br>là; có (to be, is, are)<br><small>bất quy tắc</small>	graecum-vn graecum-1 bài-01 ưu-tiên
+δεῖ + nguyên mẫu	<i>deî</i><br>cần phải (it is necessary (one must))<br><small>một hình duy nhất</small>	graecum-vn graecum-1 bài-01 bài-02 ưu-tiên
+καί	<i>kaí</i><br>và; cũng, ngay cả (and; also, even)<br><small>tiểu từ</small>	graecum-vn graecum-1 bài-01 ưu-tiên
+δέ	<i>dé</i><br>còn, còn thì (but (light), and)<br><small>hậu vị</small>	graecum-vn graecum-1 bài-01 ưu-tiên
+γάρ	<i>gár</i><br>vì, bởi (for, because)<br><small>hậu vị</small>	graecum-vn graecum-1 bài-01 ưu-tiên
+μέν	<i>mén</i><br>một bên… (on the one hand)<br><small>cặp với δέ</small>	graecum-vn graecum-1 bài-01
+ἐν + tặng cách	<i>en</i><br>trong, ở (in)<br><small>giới từ</small>	graecum-vn graecum-1 bài-01
+ἐκεῖ	<i>ekeî</i><br>ở đó (there)<br><small>trạng từ</small>	graecum-vn graecum-1 bài-01
+ἔχει	<i>échei</i><br>có (he/she has)<br><small>ngôi 3 của ἔχω, học kỹ bài sau</small>	graecum-vn graecum-1 bài-01
+θεραπεύω	<i>therapeúō</i><br>tôn thờ; chữa, chăm sóc (to worship; to heal, tend)<br><small>+ đối cách</small>	graecum-vn graecum-1 bài-02 bài-05 ưu-tiên
+πείθω	<i>peíthō</i><br>thuyết phục (to persuade, convince)<br><small>+ đối cách</small>	graecum-vn graecum-1 bài-02 ưu-tiên
+ἐθέλω	<i>ethélō</i><br>muốn (to want, be willing)<br><small>+ nguyên mẫu làm tân ngữ</small>	graecum-vn graecum-1 bài-02 bài-04 ưu-tiên
+διδάσκω	<i>didáskō</i><br>dạy (ai cái gì) (to teach)<br><small>+ đối cách kép loại a</small>	graecum-vn graecum-1 bài-02 ưu-tiên
+νομίζω	<i>nomízō</i><br>cho rằng; coi là (to believe, think; to consider (as))<br><small>đối cách kép → "coi là"</small>	graecum-vn graecum-1 bài-02 bài-04 ưu-tiên
+ὁ βίος, -ου	<i>ho bíos, -ou</i><br>đời sống (life, way of life)<br><small>đực, nhóm o</small>	graecum-vn graecum-1 bài-02 ưu-tiên
+ὁ βασιλεύς	<i>ho basileús</i><br>đức vua (king, ruler)<br><small>chỉ chủ cách; chia đủ bài 18 (chưa học)</small>	graecum-vn graecum-1 bài-02 bài-04 ưu-tiên
+ὁ φίλος, -ου	<i>ho phílos, -ou</i><br>người bạn (friend)<br><small>đực, nhóm o; hô cách: ὦ φίλε</small>	graecum-vn graecum-1 bài-02 ưu-tiên
+ὁ φιλόσοφος, -ου	<i>ho philósophos, -ou</i><br>nhà triết học (philosopher)<br><small>đực, nhóm o = "người yêu sự khôn ngoan"</small>	graecum-vn graecum-1 bài-02 ưu-tiên
+ἀγαθός, -ή, -όν	<i>agathós, -ḗ, -ón</i><br>tốt, thiện (good)<br><small>tính từ; giống cái/trung (bài 3)</small>	graecum-vn graecum-1 bài-02 ưu-tiên
+σοφός	<i>sophós</i><br>khôn ngoan (wise)<br><small>bài đọc</small>	graecum-vn graecum-1 bài-02
+ἄθεος	<i>átheos</i><br>vô thần (godless)<br><small>bài đọc</small>	graecum-vn graecum-1 bài-02
+ὁ Σωκράτης	<i>ho Sōkrátēs</i><br>Socrates (Socrates)<br><small>bài đọc; đối cách τὸν Σωκράτη</small>	graecum-vn graecum-1 bài-02 bài-05
+οὐ / οὐκ / οὐχ	<i>ou / ouk / ouch</i><br>không (not)<br><small>trước phụ âm / nguyên âm / nguyên âm có dấu hơi</small>	graecum-vn graecum-1 bài-02 bài-03 bài-04 ưu-tiên
+ὦ	<i>ō</i><br>hỡi, ôi (O! (particle of address))<br><small>đứng trước hô cách</small>	graecum-vn graecum-1 bài-02 ưu-tiên
+ἤ	<i>ḗ</i><br>hoặc; hơn là (or; than)<br><small>dấu sắc</small>	graecum-vn graecum-1 bài-02 ưu-tiên
+ἆρα (dấu mũ)	<i>ára</i><br>chẳng lẽ…? ((question particle, expects answer))<br><small>hỏi ngược</small>	graecum-vn graecum-1 bài-02
+ἄρα (dấu sắc)	<i>ára</i><br>vậy thì, do đó (so, therefore)<br><small>kết luận</small>	graecum-vn graecum-1 bài-02
+ἀλλά (lược: ἀλλ')	<i>allá (all')</i><br>nhưng (but)<br><small>bị lược âm trước nguyên âm</small>	graecum-vn graecum-1 bài-02 ưu-tiên
+μετά (lược: μεθ' trước dấu hơi)	<i>metá (meth')</i><br>cùng với; sau (with; after)<br><small>cách đi kèm: bài 4 (chưa học)</small>	graecum-vn graecum-1 bài-02 ưu-tiên
+τί; / τι	<i>tí / ti</i><br>gì? / cái gì đó (what? why? / something)<br><small>đầy đủ ở bài 5 (chưa học)</small>	graecum-vn graecum-1 bài-02
+περί, πρό, ὅτι	<i>perí, pró, hóti</i><br>(nghĩa: bài sau) (about; before; that)<br><small>nhóm không bao giờ bị lược âm</small>	graecum-vn graecum-1 bài-02
+ὁ ἀστήρ, τὰ ἄστρα	<i>ho astḗr, tà ástra</i><br>ngôi sao (star, stars)<br><small>chỉ học 2 dạng đã cho; số nhiều là trung tính → mục 3</small>	graecum-vn graecum-1 bài-03 ưu-tiên
+θερμός, ή, όν	<i>thermós, -ḗ, -ón</i><br>nóng, ấm (warm, hot)<br><small>τὸ θερμόν = sức nóng; gốc "thermal"</small>	graecum-vn graecum-1 bài-03 ưu-tiên
+αἰσθητός, ή, όν	<i>aisthētós, -ḗ, -ón</i><br>cảm nhận được (perceptible)<br><small>τὸ αἰσθητόν = cái cảm nhận được; cùng họ với "aesthetic"</small>	graecum-vn graecum-1 bài-03 ưu-tiên
+ταχύς, εῖα, ύ	<i>tachýs, eîa, ý</i><br>nhanh (fast, swift)<br><small>tính từ 3 đuôi (chi tiết: sau này); trạng từ ταχέως</small>	graecum-vn graecum-1 bài-03 ưu-tiên
+λαμπρός, ή, όν	<i>lamprós</i><br>rực rỡ, sáng (bright, shining)<br><small>bài đọc</small>	graecum-vn graecum-1 bài-03
+μακρός, ή, όν	<i>makrós</i><br>xa; dài (far, long)<br><small>bài đọc; gốc "macro-"</small>	graecum-vn graecum-1 bài-03
+τὸ φῶς, τὰ φῶτα	<i>tò phôs, tà phôta</i><br>ánh sáng (light, lights)<br><small>bài đọc; chỉ 2 dạng đã cho</small>	graecum-vn graecum-1 bài-03
+εἶναι: ἐστί(ν) / εἰσί(ν)	<i>eînai: estí(n) / eisí(n)</i><br>là; có (to be: is / are)<br><small>bảng chia đầy đủ (sau này); thường bị lược (mục 1–2)</small>	graecum-vn graecum-1 bài-03
+ἀγαθῶς / σοφῶς / θερμῶς / ταχέως	<i>agathôs / sophôs / thermôs / tachéōs</i><br>tốt / khôn ngoan / nóng / nhanh (trạng từ) (well / wisely / hotly / quickly)<br><small>sinh từ tính từ, mục 4</small>	graecum-vn graecum-1 bài-03
+κατηγορέω + Gen.	<i>katēgoréō</i><br>tố cáo ai (accuse)<br><small>bẫy: Anh/Việt dùng tân ngữ trơn; Hy Lạp đòi sở hữu cách!</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+λέγω	<i>légō</i><br>nói (say)<br><small>kích hoạt AcI (nhóm 3)</small>	graecum-vn graecum-1 bài-04 bài-05 ưu-tiên
+πιστεύω + Dat.	<i>pisteúō</i><br>tin tưởng ai (trust, believe)<br><small>+ tặng cách; gốc "pistic/epistemology" họ hàng xa</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+βάλλω	<i>bállō</i><br>ném, quăng (throw)<br><small>gốc "ballistic, symbol (syn-bállein)"</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+πέμπω	<i>pémpō</i><br>gửi (send)<br><small>tân ngữ kép: đối cách (vật) + tặng cách (người nhận)</small>	graecum-vn graecum-1 bài-04 bài-05 ưu-tiên
+χαλεπαίνω + Dat.	<i>chalepaínō</i><br>nổi giận với ai (be angry at)<br><small>bẫy: Anh dùng "at + đối cách"; Hy Lạp đòi tặng cách</small>	graecum-vn graecum-1 bài-04
+ἐλπίζω	<i>elpízō</i><br>hy vọng (hope)<br><small>kích hoạt AcI; gốc "elpis"</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+δεῖ	<i>deî</i><br>cần phải (it is necessary)<br><small>động từ phi ngôi; + đối cách + nguyên mẫu (AcI)</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+εἶναι	<i>eînai</i><br>là (be)<br><small>với tặng cách sở hữu: "belong to / have"</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+ὁ ἄνθρωπος	<i>ho ánthrōpos</i><br>con người (human being)	graecum-vn graecum-1 bài-04 ưu-tiên
+ὁ φιλόσοφος	<i>ho philósophos</i><br>nhà triết học (philosopher)<br><small>người yêu sự khôn ngoan</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+οἱ Ἀθηναῖοι	<i>hoi Athēnaîoi</i><br>người Athens (the Athenians)<br><small>số nhiều; chủ ngữ số nhiều → động từ số nhiều</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+ὁ λόγος	<i>ho lógos</i><br>lời nói; bài nói chuyện (word; speech)<br><small>bài 1; gốc "-logy"</small>	graecum-vn graecum-1 bài-04
+ὁ φίλος / ἡ φίλη	<i>ho phílos / hē phílē</i><br>người bạn (friend (m./f.))<br><small>đuôi voc. đã học bài 2: ὦ φίλε</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+σοφός, ή, όν	<i>sophós</i><br>khôn ngoan (wise)<br><small>bài 1–3; "philosophy" = phílos + sophía</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+ὁ θεός / οἱ θεοί	<i>ho theós / hoi theoí</i><br>vị thần / các vị thần (god; gods)<br><small>gốc "theology, atheism"</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+ὁ ἄγγελος	<i>ho ággelos</i><br>người đưa tin (messenger)<br><small>gốc "angel" – cùng một từ!</small>	graecum-vn graecum-1 bài-04
+ὁ ὄχλος	<i>ho óchlos</i><br>đám đông, dân chúng (crowd, the people)	graecum-vn graecum-1 bài-04
+ὁ λίθος	<i>ho líthos</i><br>viên đá (stone)<br><small>gốc "lithography, monolith"</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+ὁ οὐρανός	<i>ho ouranós</i><br>trời (sky, heaven)<br><small>bài 1; "Uranus"</small>	graecum-vn graecum-1 bài-04
+ἡ γῆ	<i>hē gê</i><br>đất (earth, land)<br><small>bài 1; "geography, geology"</small>	graecum-vn graecum-1 bài-04
+οὐδείς, οὐδεμία, οὐδέν	<i>oudeís</i><br>không ai; không cái gì (no one; nothing)<br><small>chứa sẵn οὐ; đi với định ngữ phân chia (mục 2.4)</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+ὁ Ζεύς (Τῷ Διὶ)	<i>ho Zeús (tôi Diì)</i><br>thần Zeus (Zeus)<br><small>chỉ học 2 dạng đã cho (bảng chia đầy đủ: sau này)</small>	graecum-vn graecum-1 bài-04
+σύν + Dat.	<i>sýn</i><br>cùng với (with, together with)<br><small>gốc "syn-: synthesis, synergy"</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+ἐν + Dat.	<i>en</i><br>trong, ở, tại, trên (in, on, at)<br><small>bài 1</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+μετά + Acc.	<i>metá</i><br>sau (after)<br><small>lưỡng tính: + Gen. = "với, giữa, trong số"</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+μετά + Gen.	<i>metá</i><br>giữa, trong số; cùng với (among, with)<br><small>gốc "metaphysics" (ta metá ta physiká)</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+πρός + Acc.	<i>prós</i><br>đến phía; chống lại (to, toward; against)<br><small>lưỡng tính: + Dat. = "ở bên, thêm vào"</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+πρός + Dat.	<i>prós</i><br>ở bên, tại; thêm vào (at, in addition to)	graecum-vn graecum-1 bài-04 ưu-tiên
+μή	<i>mḗ</i><br>đừng, đừng… (not (commands, wishes; + infinitive))<br><small>phủ định ý chí; cặp οὐ/μή ≈ Latin nōn/nē</small>	graecum-vn graecum-1 bài-04 ưu-tiên
+ὅτι	<i>hóti</i><br>rằng, là (that)<br><small>từ nối câu "rằng" – đối trọng của AcI</small>	graecum-vn graecum-1 bài-04
+κοσμέομαι	<i>kosméomai</i><br>trang điểm (bản thân) (adorn oneself)<br><small>trung trực tiếp phản thân</small>	graecum-vn graecum-1 bài-05
+παρασκευάζομαι	<i>paraskeuázomai</i><br>chuẩn bị (bản thân) (prepare oneself)<br><small>trung trực tiếp phản thân</small>	graecum-vn graecum-1 bài-05
+μισθόω / μισθόομαι	<i>misthóō / misthóomai</i><br>cho thuê / thuê (rent out / rent (for oneself))<br><small>cặp đối lập chủ động vs trung (mục 2.4b)</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+ποιέω / ποιέομαι	<i>poiéō / poiéomai</i><br>làm / kiến lập (hòa bình) (make, do / make (peace) for oneself)<br><small>trung động lực; MP ποιεῖται</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+ταράττω	<i>taráttō</i><br>khuấy động, làm hoảng loạn (shake, disturb)<br><small>nhóm -ττω; MP ταράττομαι = "để cho bị khuấy động"</small>	graecum-vn graecum-1 bài-05
+μάχομαι	<i>mákhomai</i><br>chiến đấu (fight)<br><small>deponent; 2 Sg. μάχῃ</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+βούλομαι	<i>boúlomai</i><br>muốn (want, wish)<br><small>deponent + nguyên mẫu; 2 Sg. βούλῃ</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+οἴομαι	<i>oíomai</i><br>cho rằng (believe, suppose)<br><small>deponent; kích hoạt AcI; 2 Sg. οἴῃ</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+δέομαι	<i>déomai</i><br>xin; cần (ask for; need)<br><small>deponent; + Gen. = "cần cái gì"</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+ἡ εἰρήνη	<i>hē eirḗnē</i><br>hòa bình (peace)<br><small>εἰρήνην ποιεῖσθαι = "kiến lập hòa bình"</small>	graecum-vn graecum-1 bài-05
+ἡ οἰκία	<i>hē oikía</i><br>căn nhà (house)<br><small>gốc "economy" (oikos)</small>	graecum-vn graecum-1 bài-05
+ὁ Ἑρμῆς	<i>ho Hermês</i><br>thần Hermes (Hermes)<br><small>thần đưa tin – chính là "messenger" của các vị thần</small>	graecum-vn graecum-1 bài-05
+ὁ Ἥλιος	<i>ho Hélios</i><br>thần Helios, mặt trời (Helios, the sun)	graecum-vn graecum-1 bài-05
+φαῦλος, η, ον	<i>phaûlos</i><br>xấu xa, ti tiện (base, paltry)<br><small>trái chiều với ἀγαθός trong các cặp maxim</small>	graecum-vn graecum-1 bài-05
+κακός, ή, όν / τὸ κακόν	<i>kakós</i><br>xấu / cái ác (bad / the bad, evil)<br><small>danh từ hóa (mục 4)</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+ἀγαθός, ή, όν / τὸ ἀγαθόν	<i>agathós</i><br>tốt / cái thiện (good / the good)<br><small>bài 1; danh từ hóa hôm nay</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+ἐχθρός, α, ον / ὁ ἐχθρός	<i>ekhthrós</i><br>thù ghét / kẻ thù (hated, hostile / the enemy)<br><small>danh từ hóa (mục 4): tính từ "thù địch" → danh từ "kẻ thù"</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+τί;	<i>tí</i><br>gì? nào? tại sao? (what? which? why?)<br><small>từ hỏi, luôn có dấu sắc</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+τις, τι / Gen. τινός, τινος	<i>tis, ti</i><br>ai đó / cái gì đó (someone / something)<br><small>enclitic, không dấu, không đứng đầu câu</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+ὑπό + Gen.	<i>hypó</i><br>bởi (người thực hiện) (by (agent))<br><small>chỉ tác nhân trong câu bị động; + Acc. có nghĩa khác (sau này)</small>	graecum-vn graecum-1 bài-05 ưu-tiên
+θεραπεύεις	<i>therapeúeis</i><br>bạn tôn thờ/bạn chữa – 2 Sg. chỉ định hiện tại chủ động<br><small>2nd sg. present active of θεραπεύω</small>	graecum-vn graecum-1 bài-02 ưu-tiên chia-dạng
+θεραπεύομεν	<i>therapeúomen</i><br>chúng tôi tôn thờ – 1 Pl. chỉ định hiện tại chủ động<br><small>1st pl. present active of θεραπεύω</small>	graecum-vn graecum-1 bài-02 ưu-tiên chia-dạng
+θεραπεύεται	<i>therapeúetai</i><br>hắn được chữa/hắn chữa cho mình – 3 Sg. trung/bị động<br><small>3rd sg. present middle/passive of θεραπεύω</small>	graecum-vn graecum-1 bài-05 ưu-tiên chia-dạng
+θεραπευόμεθα	<i>therapeuómetha</i><br>chúng tôi được chữa – 1 Pl. trung/bị động; đuôi không bao giờ trùng<br><small>1st pl. present middle/passive of θεραπεύω</small>	graecum-vn graecum-1 bài-05 ưu-tiên chia-dạng
+νόμιζε	<i>nómize</i><br>hãy tin/hãy cho rằng! – mệnh lệnh 2 Sg. chủ động<br><small>imperative 2nd sg. of νομίζω</small>	graecum-vn graecum-1 bài-04 ưu-tiên chia-dạng
+πέμπεσθε	<i>pémpesthe</i><br>hãy để mình được gửi (các bạn)! – mệnh lệnh 2 Pl. trung/bị động<br><small>imperative 2nd pl. middle/passive of πέμπω</small>	graecum-vn graecum-1 bài-05 ưu-tiên chia-dạng
+εἰσί(ν)	<i>eisí(n)</i><br>họ là; các ngôi sao ở – 3 Pl. (chủ ngữ trung tính số nhiều → động từ số ít)<br><small>3rd pl. of εἶναι</small>	graecum-vn graecum-1 bài-03 ưu-tiên chia-dạng
+τοῦ ἀνθρώπου	<i>toû anthrṓpou</i><br>của con người – sở hữu cách số ít<br><small>genitive singular of ὁ ἄνθρωπος</small>	graecum-vn graecum-1 bài-01 ưu-tiên chia-dạng
+τοῖς ἀνθρώποις	<i>toîs anthrṓpois</i><br>(cho) những con người – tặng cách số nhiều<br><small>dative plural of ὁ ἄνθρωπος</small>	graecum-vn graecum-1 bài-01 ưu-tiên chia-dạng
+ὦ φίλε	<i>ô phíle</i><br>hỡi người bạn! – hô cách (đuôi -ος → -ε)<br><small>vocative singular of ὁ φίλος</small>	graecum-vn graecum-1 bài-02 ưu-tiên chia-dạng
+τὸ ἀγαθόν	<i>tò agathón</i><br>cái thiện – tính từ danh từ hóa<br><small>nominalized neuter of ἀγαθός</small>	graecum-vn graecum-1 bài-05 ưu-tiên chia-dạng
+ἐν τῷ οἴκῳ	<i>en tōi oíkōi</i><br>trong nhà – ἐν luôn cầm tặng cách<br><small>ἐν + dative</small>	graecum-vn graecum-1 bài-01 ưu-tiên chia-dạng
