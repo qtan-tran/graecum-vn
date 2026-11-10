@@ -37,6 +37,7 @@ Xem chi tiết: [docs/CURRICULUM.md](docs/CURRICULUM.md)
 1. Đọc trực tiếp trên web (GitHub Pages) hoặc **Download** file HTML.
 2. Học offline: mở file HTML bằng bất kỳ trình duyệt nào – không cần mạng, không phụ thuộc bên thứ ba.
 3. Muốn in: mở file → **Ctrl+P → Save as PDF** – đáp án bài tập tự hiện khi in.
+4. Luyện từ vựng bằng Spaced Repetition: **[Anki deck Bài 1–10](vocab/README.md)** – TSV + script sinh deck bằng 1 lệnh, GUID bền (sinh lại không tạo thẻ trùng).
 
 ## Nguyên tắc biên soạn (tóm tắt)
 
@@ -67,10 +68,11 @@ Nếu có chỉnh sửa, ghi thêm "có chỉnh sửa". Trường hợp thương
 | --- | --- |
 | Kiến trúc + tài liệu nền | ✅ Phần 1 |
 | Template bài giảng chuẩn | ✅ Phần 1 |
-| Bài 1–6 (nhập môn) | 🔄 dạng bản thảo tiếng Việt (đang chuyển sang quy ước mới) |
-| Bài 7–24 (Graecum I) | 📋 trong roadmap |
+| Bài 1–10 (Graecum I) | ✅ đã xuất bản |
+| Bài 11–24 (Graecum I) | 📋 trong roadmap |
 | Graecum II (25–48) | 📋 trong roadmap |
-| Toolkit repo + Anki + platform phân tích câu | 📋 trong roadmap |
+| Vocab TSV + Anki deck (Bài 1–10) | ✅ Phần 6 |
+| Toolkit repo + platform phân tích câu | 📋 trong roadmap |
 
 Xem: [docs/ROADMAP.md](docs/ROADMAP.md)
 

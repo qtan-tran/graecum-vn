@@ -1,0 +1,187 @@
+bài	greek	phiên âm	english	tiếng việt	ghi chú	nhóm	ưu tiên
+1	ὁ ἄνθρωπος, -ου	ho ánthrōpos, -ou	the human being	con người	đực, nhóm o		1
+1	ὁ θεός, -οῦ	ho theós, -oû	the god	vị thần, thần	đực, nhóm o		1
+1	ὁ οἶκος, -ου	ho óikos, -ou	the house	ngôi nhà	đực, nhóm o		1
+1	ὁ οὐρανός, -οῦ	ho ouranós, -oû	the heaven, sky	bầu trời	đực, nhóm o		1
+1	ὁ ἵππος, -ου	ho híppos, -ou	the horse	con ngựa	đực, nhóm o		1
+1	ὁ δῆμος, -ου	ho dêmos, -ou	the people, community	cộng đồng, dân	đực, nhóm o		1
+1	ὁ ἀδελφός, -οῦ	ho adelphós, -oû	the brother	anh/em trai	đực, nhóm o (bài đọc)		0
+1	ὁ ἐχθρός, -οῦ	ho echthrós, -oû	the enemy	kẻ thù	đực, nhóm o		0
+1	ἡ θάλασσα, -ης	hē thálassa, -ēs	the sea	biển	cái, nhóm a (chưa học)		0
+1	ἡ γῆ, γῆς	hē gê, gês	the earth	đất, mặt đất	cái, nhóm a (chưa học)		0
+1	θεραπεύω, -ει, -ουσι(ν), -ειν	therapeúō, -ei, -ousi(n), -ein	to worship; to tend, care for, heal	tôn thờ; chăm sóc, chữa	+ đối cách		1
+1	εἶναι, ἐστί(ν), εἰσί(ν)	eînai, estí(n), eisí(n)	to be, is, are	là; có	bất quy tắc		1
+1	δεῖ + nguyên mẫu	deî	it is necessary (one must)	cần phải	một hình duy nhất		1
+1	καί	kaí	and; also, even	và; cũng, ngay cả	tiểu từ		1
+1	δέ	dé	but (light), and	còn, còn thì	hậu vị		1
+1	γάρ	gár	for, because	vì, bởi	hậu vị		1
+1	μέν	mén	on the one hand	một bên…	cặp với δέ		0
+1	ἐν + tặng cách	en	in	trong, ở	giới từ		0
+1	ἐκεῖ	ekeî	there	ở đó	trạng từ		0
+1	ἔχει	échei	he/she has	có	ngôi 3 của ἔχω, học kỹ bài sau		0
+2	θεραπεύω	therapeúō	to worship; to heal, tend	tôn thờ; chữa, chăm sóc	+ đối cách	Động từ	1
+2	πείθω	peíthō	to persuade, convince	thuyết phục	+ đối cách	Động từ	1
+2	ἐθέλω	ethélō	to want, be willing	muốn	+ nguyên mẫu làm tân ngữ	Động từ	1
+2	δεῖ + nguyên mẫu	deî	it is necessary (one must)	cần phải	một hình duy nhất (bài 1)	Động từ	1
+2	διδάσκω	didáskō	to teach	dạy (ai cái gì)	+ đối cách kép loại a	Động từ	1
+2	νομίζω	nomízō	to believe, think; to consider (as)	cho rằng; coi là	đối cách kép → "coi là"	Động từ	1
+2	ὁ βίος, -ου	ho bíos, -ou	life, way of life	đời sống	đực, nhóm o	Danh từ & tính từ	1
+2	ὁ βασιλεύς	ho basileús	king, ruler	đức vua	chỉ chủ cách; chia đủ bài 18 (chưa học)	Danh từ & tính từ	1
+2	ὁ φίλος, -ου	ho phílos, -ou	friend	người bạn	đực, nhóm o; hô cách: ὦ φίλε	Danh từ & tính từ	1
+2	ὁ φιλόσοφος, -ου	ho philósophos, -ou	philosopher	nhà triết học	đực, nhóm o = "người yêu sự khôn ngoan"	Danh từ & tính từ	1
+2	ἀγαθός, -ή, -όν	agathós, -ḗ, -ón	good	tốt, thiện	tính từ; giống cái/trung (bài 3)	Danh từ & tính từ	1
+2	σοφός	sophós	wise	khôn ngoan	bài đọc	Danh từ & tính từ	0
+2	ἄθεος	átheos	godless	vô thần	bài đọc	Danh từ & tính từ	0
+2	ὁ Σωκράτης	ho Sōkrátēs	Socrates	Socrates	bài đọc; đối cách τὸν Σωκράτη	Danh từ & tính từ	0
+2	οὐ / οὐκ / οὐχ	ou / ouk / ouch	not	không	trước phụ âm / nguyên âm / nguyên âm có dấu hơi	Tiểu từ, phủ định & giới từ	1
+2	ὦ	ō	O! (particle of address)	hỡi, ôi	đứng trước hô cách	Tiểu từ, phủ định & giới từ	1
+2	ἤ	ḗ	or; than	hoặc; hơn là	dấu sắc	Tiểu từ, phủ định & giới từ	1
+2	ἆρα (dấu mũ)	ára	(question particle, expects answer)	chẳng lẽ…?	hỏi ngược	Tiểu từ, phủ định & giới từ	0
+2	ἄρα (dấu sắc)	ára	so, therefore	vậy thì, do đó	kết luận	Tiểu từ, phủ định & giới từ	0
+2	ἀλλά (lược: ἀλλ')	allá (all')	but	nhưng	bị lược âm trước nguyên âm	Tiểu từ, phủ định & giới từ	1
+2	μετά (lược: μεθ' trước dấu hơi)	metá (meth')	with; after	cùng với; sau	cách đi kèm: bài 4 (chưa học)	Tiểu từ, phủ định & giới từ	1
+2	τί; / τι	tí / ti	what? why? / something	gì? / cái gì đó	đầy đủ ở bài 5 (chưa học)	Tiểu từ, phủ định & giới từ	0
+2	περί, πρό, ὅτι	perí, pró, hóti	about; before; that	(nghĩa: bài sau)	nhóm không bao giờ bị lược âm	Tiểu từ, phủ định & giới từ	0
+3	ὁ ἀστήρ, τὰ ἄστρα	ho astḗr, tà ástra	star, stars	ngôi sao	chỉ học 2 dạng đã cho; số nhiều là trung tính → mục 3	Danh từ & tính từ	1
+3	θερμός, ή, όν	thermós, -ḗ, -ón	warm, hot	nóng, ấm	τὸ θερμόν = sức nóng; gốc "thermal"	Danh từ & tính từ	1
+3	αἰσθητός, ή, όν	aisthētós, -ḗ, -ón	perceptible	cảm nhận được	τὸ αἰσθητόν = cái cảm nhận được; cùng họ với "aesthetic"	Danh từ & tính từ	1
+3	ταχύς, εῖα, ύ	tachýs, eîa, ý	fast, swift	nhanh	tính từ 3 đuôi (chi tiết: sau này); trạng từ ταχέως	Danh từ & tính từ	1
+3	λαμπρός, ή, όν	lamprós	bright, shining	rực rỡ, sáng	bài đọc	Danh từ & tính từ	0
+3	μακρός, ή, όν	makrós	far, long	xa; dài	bài đọc; gốc "macro-"	Danh từ & tính từ	0
+3	τὸ φῶς, τὰ φῶτα	tò phôs, tà phôta	light, lights	ánh sáng	bài đọc; chỉ 2 dạng đã cho	Danh từ & tính từ	0
+3	ὁ οὐρανός, -οῦ	ho ouranós, -oû	sky, heaven	trời, bầu trời	ἐν τῷ οὐρανῷ = trên trời (ôn bài 1)	Danh từ & tính từ	0
+3	ὁ ἐχθρός, -οῦ	ho echthrós, -oû	enemy	kẻ thù	bài tập	Danh từ & tính từ	0
+3	εἶναι: ἐστί(ν) / εἰσί(ν)	eînai: estí(n) / eisí(n)	to be: is / are	là; có	bảng chia đầy đủ (sau này); thường bị lược (mục 1–2)	Động từ, trạng từ & phủ định	0
+3	ἀγαθῶς / σοφῶς / θερμῶς / ταχέως	agathôs / sophôs / thermôs / tachéōs	well / wisely / hotly / quickly	tốt / khôn ngoan / nóng / nhanh (trạng từ)	sinh từ tính từ, mục 4	Động từ, trạng từ & phủ định	0
+3	οὐ / οὐκ / οὐχ	ou / ouk / ouch	not	không	ôn bài 2, mục 5	Động từ, trạng từ & phủ định	0
+4	νομίζω	nomízō	believe, suppose	tin, cho rằng	kích hoạt AcI (nhóm 1); gốc "nominal"	Động từ	1
+4	κατηγορέω + Gen.	katēgoréō	accuse	tố cáo ai	bẫy: Anh/Việt dùng tân ngữ trơn; Hy Lạp đòi sở hữu cách!	Động từ	1
+4	λέγω	légō	say	nói	kích hoạt AcI (nhóm 3)	Động từ	1
+4	πιστεύω + Dat.	pisteúō	trust, believe	tin tưởng ai	+ tặng cách; gốc "pistic/epistemology" họ hàng xa	Động từ	1
+4	βάλλω	bállō	throw	ném, quăng	gốc "ballistic, symbol (syn-bállein)"	Động từ	1
+4	πέμπω	pémpō	send	gửi	tân ngữ kép: đối cách (vật) + tặng cách (người nhận)	Động từ	0
+4	χαλεπαίνω + Dat.	chalepaínō	be angry at	nổi giận với ai	bẫy: Anh dùng "at + đối cách"; Hy Lạp đòi tặng cách	Động từ	0
+4	ἐλπίζω	elpízō	hope	hy vọng	kích hoạt AcI; gốc "elpis"	Động từ	1
+4	ἐθέλω	ethélō	wish, want	muốn	kích hoạt AcI; từ họ Ấn-Âu của "will"	Động từ	0
+4	δεῖ	deî	it is necessary	cần phải	động từ phi ngôi; + đối cách + nguyên mẫu (AcI)	Động từ	1
+4	εἶναι	eînai	be	là	với tặng cách sở hữu: "belong to / have"	Động từ	1
+4	ὁ ἄνθρωπος	ho ánthrōpos	human being	con người		Danh từ & tính từ	1
+4	ὁ φιλόσοφος	ho philósophos	philosopher	nhà triết học	"người yêu sự khôn ngoan"	Danh từ & tính từ	1
+4	οἱ Ἀθηναῖοι	hoi Athēnaîoi	the Athenians	người Athens	số nhiều; chủ ngữ số nhiều → động từ số nhiều	Danh từ & tính từ	1
+4	ὁ λόγος	ho lógos	word; speech	lời nói; bài nói chuyện	bài 1; gốc "-logy"	Danh từ & tính từ	0
+4	ὁ φίλος / ἡ φίλη	ho phílos / hē phílē	friend (m./f.)	người bạn	đuôi voc. đã học bài 2: ὦ φίλε	Danh từ & tính từ	1
+4	σοφός, ή, όν	sophós	wise	khôn ngoan	bài 1–3; "philosophy" = phílos + sophía	Danh từ & tính từ	1
+4	ὁ θεός / οἱ θεοί	ho theós / hoi theoí	god; gods	vị thần / các vị thần	gốc "theology, atheism"	Danh từ & tính từ	1
+4	ὁ βασιλεύς	ho basileús	king	đức vua	gốc "basilica, basil"	Danh từ & tính từ	1
+4	ὁ ἄγγελος	ho ággelos	messenger	người đưa tin	gốc "angel" – cùng một từ!	Danh từ & tính từ	0
+4	ὁ ὄχλος	ho óchlos	crowd, the people	đám đông, dân chúng		Danh từ & tính từ	0
+4	ὁ λίθος	ho líthos	stone	viên đá	gốc "lithography, monolith"	Danh từ & tính từ	1
+4	ὁ οὐρανός	ho ouranós	sky, heaven	trời	bài 1; "Uranus"	Danh từ & tính từ	0
+4	ἡ γῆ	hē gê	earth, land	đất	bài 1; "geography, geology"	Danh từ & tính từ	0
+4	οὐδείς, οὐδεμία, οὐδέν	oudeís	no one; nothing	không ai; không cái gì	chứa sẵn οὐ; đi với định ngữ phân chia (mục 2.4)	Danh từ & tính từ	1
+4	ὁ Ζεύς (Τῷ Διὶ)	ho Zeús (tôi Diì)	Zeus	thần Zeus	chỉ học 2 dạng đã cho (bảng chia đầy đủ: sau này)	Danh từ & tính từ	0
+4	σύν + Dat.	sýn	with, together with	cùng với	gốc "syn-: synthesis, synergy"	Giới từ, tiểu từ & phủ định	1
+4	ἐν + Dat.	en	in, on, at	trong, ở, tại, trên	bài 1	Giới từ, tiểu từ & phủ định	1
+4	μετά + Acc.	metá	after	sau	lưỡng tính: + Gen. = "với, giữa, trong số"	Giới từ, tiểu từ & phủ định	1
+4	μετά + Gen.	metá	among, with	giữa, trong số; cùng với	gốc "metaphysics" (ta metá ta physiká)	Giới từ, tiểu từ & phủ định	1
+4	πρός + Acc.	prós	to, toward; against	đến phía; chống lại	lưỡng tính: + Dat. = "ở bên, thêm vào"	Giới từ, tiểu từ & phủ định	1
+4	πρός + Dat.	prós	at, in addition to	ở bên, tại; thêm vào		Giới từ, tiểu từ & phủ định	1
+4	οὐ / οὐκ / οὐχ	ou / ouk / ouch	not (facts)	không	phủ định trần thuật	Giới từ, tiểu từ & phủ định	1
+4	μή	mḗ	not (commands, wishes; + infinitive)	đừng, đừng…	phủ định ý chí; cặp οὐ/μή ≈ Latin nōn/nē	Giới từ, tiểu từ & phủ định	1
+4	ὅτι	hóti	that	rằng, là	từ nối câu "rằng" – đối trọng của AcI	Giới từ, tiểu từ & phủ định	0
+5	θεραπεύω	therapeúō	heal, care for	chữa, chăm sóc	động từ minh họa bảng chia; MP: therapeúomai "được chữa"	Động từ	1
+5	πέμπω	pémpō	send	gửi	bài 4; MP πέμπομαι = "được gửi"	Động từ	1
+5	λέγω	légō	say	nói	bài 4; MP λέγομαι = "được nói / người ta nói"	Động từ	1
+5	κοσμέομαι	kosméomai	adorn oneself	trang điểm (bản thân)	trung trực tiếp phản thân	Động từ	0
+5	παρασκευάζομαι	paraskeuázomai	prepare oneself	chuẩn bị (bản thân)	trung trực tiếp phản thân	Động từ	0
+5	μισθόω / μισθόομαι	misthóō / misthóomai	rent out / rent (for oneself)	cho thuê / thuê	cặp đối lập chủ động vs trung (mục 2.4b)	Động từ	1
+5	ποιέω / ποιέομαι	poiéō / poiéomai	make, do / make (peace) for oneself	làm / kiến lập (hòa bình)	trung động lực; MP ποιεῖται	Động từ	1
+5	ταράττω	taráttō	shake, disturb	khuấy động, làm hoảng loạn	nhóm -ττω; MP ταράττομαι = "để cho bị khuấy động"	Động từ	0
+5	μάχομαι	mákhomai	fight	chiến đấu	deponent; 2 Sg. μάχῃ	Động từ	1
+5	βούλομαι	boúlomai	want, wish	muốn	deponent + nguyên mẫu; 2 Sg. βούλῃ	Động từ	1
+5	οἴομαι	oíomai	believe, suppose	cho rằng	deponent; kích hoạt AcI; 2 Sg. οἴῃ	Động từ	1
+5	δέομαι	déomai	ask for; need	xin; cần	deponent; + Gen. = "cần cái gì"	Động từ	1
+5	ἡ εἰρήνη	hē eirḗnē	peace	hòa bình	εἰρήνην ποιεῖσθαι = "kiến lập hòa bình"	Danh từ, tính từ & đại từ	0
+5	ἡ οἰκία	hē oikía	house	căn nhà	gốc "economy" (oikos)	Danh từ, tính từ & đại từ	0
+5	ὁ Ἑρμῆς	ho Hermês	Hermes	thần Hermes	thần đưa tin – chính là "messenger" của các vị thần	Danh từ, tính từ & đại từ	0
+5	ὁ Ἥλιος	ho Hélios	Helios, the sun	thần Helios, mặt trời		Danh từ, tính từ & đại từ	0
+5	ὁ Σωκράτης	ho Sōkrátēs	Socrates	Socrates		Danh từ, tính từ & đại từ	0
+5	φαῦλος, η, ον	phaûlos	base, paltry	xấu xa, ti tiện	trái chiều với ἀγαθός trong các cặp maxim	Danh từ, tính từ & đại từ	0
+5	κακός, ή, όν / τὸ κακόν	kakós	bad / the bad, evil	xấu / cái ác	danh từ hóa (mục 4)	Danh từ, tính từ & đại từ	1
+5	ἀγαθός, ή, όν / τὸ ἀγαθόν	agathós	good / the good	tốt / cái thiện	bài 1; danh từ hóa hôm nay	Danh từ, tính từ & đại từ	1
+5	ἐχθρός, α, ον / ὁ ἐχθρός	ekhthrós	hated, hostile / the enemy	thù ghét / kẻ thù	danh từ hóa (mục 4): tính từ "thù địch" → danh từ "kẻ thù"	Danh từ, tính từ & đại từ	1
+5	τί;	tí	what? which? why?	gì? nào? tại sao?	từ hỏi, luôn có dấu sắc	Danh từ, tính từ & đại từ	1
+5	τις, τι / Gen. τινός, τινος	tis, ti	someone / something	ai đó / cái gì đó	enclitic, không dấu, không đứng đầu câu	Danh từ, tính từ & đại từ	1
+5	ὑπό + Gen.	hypó	by (agent)	bởi (người thực hiện)	chỉ tác nhân trong câu bị động; + Acc. có nghĩa khác (sau này)	Danh từ, tính từ & đại từ	1
+6	δύναμαι	dýnamai	to be able, can	có thể, có khả năng	deponent không chủ đề + nguyên mẫu	Động từ	1
+6	γίγνομαι	gígnomai	to become, come into being	trở thành, xuất hiện, xảy ra	deponent có chủ đề	Động từ	1
+6	εἶναι	eînai	to be	là, tồn tại	không chủ đề – bảng chia đầy đủ ở mục 7	Động từ	1
+6	διαλέγομαι + tặng cách	dialégomai	to converse with	trò chuyện với	deponent	Động từ	1
+6	δείκνυμι	deíknymi	to show, point out	chỉ	nguồn gốc thuật ngữ "hướng chỉ (deixis)"	Động từ	0
+6	γιγνώσκω	gignṓskō	to know, recognize	biết, nhận ra	+ đối cách (bài đọc)	Động từ	0
+6	ὁ ἐχθρός, -οῦ	ho echthrós, -oû	the enemy	kẻ thù	đực, nhóm o (nhắc lại bài 5)	Danh từ	1
+6	ὁ Ἥλιος, -ου	ho Hélios, -ou	Helios, the sun	Helios, mặt trời	đực, nhóm o (nhắc lại bài 5)	Danh từ	0
+6	ἡ καλύβη, -ης	hē kalýbē, -ēs	the hut	lều	cái, nhóm a (bài đọc)	Danh từ	0
+6	ὁ ξένος, -ου	ho xénos, -ou	the stranger, guest	người lạ, khách	đực, nhóm o (bài đọc)	Danh từ	0
+6	ἡ ἀλήθεια, -ας	hē alḗtheia, -as	the truth	sự thật	cái, nhóm a (bài đọc)	Danh từ	0
+6	ἡ εἰρήνη, -ης	hē eirḗnē, -ēs	the peace	hòa bình	cái, nhóm a (bài tập 6)	Danh từ	0
+6	ὅδε, ἥδε, τόδε	hóde, héde, tóde	this (here); the following	cái này (ở đây), như sau đây	= mạo từ + -δε	Đại từ chỉ định & từ nối	1
+6	ἐκεῖνος, ἐκείνη, ἐκεῖνο	ekeînos, ekéinē, ekeîno	that (over there)	cái kia (ở đằng kia)	biến cách như tính từ ba đuôi	Đại từ chỉ định & từ nối	1
+6	οὗτος, αὕτη, τοῦτο	hoûtos, haútē, toûto	this / that	cái này / cái vừa nhắc	chưa học (bài 26)	Đại từ chỉ định & từ nối	0
+6	εἰ	ei	if; whether	nếu; hay không	không dấu – phân biệt với εἶ "bạn là"	Đại từ chỉ định & từ nối	1
+7	ἡ πόλις, πόλεως	hē pólis, póleōs	the city	thành phố	cái, mẫu -ις	Danh từ chia thứ ba	1
+7	τὸ σῶμα, σώματος	to sôma, sṓmatos	the body	thân thể	trung, mẫu -μα	Danh từ chia thứ ba	1
+7	ὁ παῖς, παιδός	ho paîs, paidós	the child	đứa trẻ	đực, thân -δ (hô cách: παῖ)	Danh từ chia thứ ba	1
+7	ὁ ποιμήν, ποιμένος	ho poimḗn, poiménos	the shepherd	người chăn dê	đực, mẫu -ήν	Danh từ chia thứ ba	0
+7	ὁ ῥήτωρ, ῥήτορος	ho rhḗtōr, rhḗtoros	the orator	nhà hùng biện	đực, mẫu -ωρ	Danh từ chia thứ ba	0
+7	ἡ αἴξ, αἰγός	hē aíx, aigós	the goat	con dê	cái, bất quy tắc nhẹ (bài đọc)	Danh từ chia thứ ba	0
+7	ἡ αὐλή, -ῆς	hē aulḗ, -ês	the farmyard	sân chuồng	cái, nhóm a (bài đọc)	Danh từ nhóm o/a ôn tập	1
+7	ἡ εἰρήνη, -ης	hē eirḗnē, -ēs	the peace	hòa bình	cái, nhóm a (bài 6)	Danh từ nhóm o/a ôn tập	0
+7	ὁ ἐχθρός, -οῦ	ho echthrós, -oû	the enemy	kẻ thù	đực, nhóm o (bài 5)	Danh từ nhóm o/a ôn tập	0
+7	φιλέω, -ει, -ουσι(ν), -ειν	philéō, -ei, -ousi(n), -ein	to love	yêu quý	+ đối cách	Động từ & tiểu từ	1
+7	φοβέομαι, φοβοῦ, -εῖσθε	phobéomai, phoboû, -eîsthe	to fear	sợ	deponent + đối cách (bài 5 mở rộng)	Động từ & tiểu từ	0
+7	μὴ + mệnh lệnh	mḗ	don't! (prohibition)	đừng, chớ (cấm đoán)		Động từ & tiểu từ	1
+8	ὁ βασιλεύς, -έως	basileús	king	nhà vua			1
+8	ὁ ἰχθύς, -ύος	ichthýs	fish	con cá			1
+8	τό ἄστυ, -εος	ásty	town, city	thị trấn			1
+8	τό γένος, -ους	génos	kind, race; gender	giống nòi; giống (ngữ pháp)			1
+8	ὁ κλῆρος, -ου	klêros	lot, plot of land	phần đất (bốc thăm)			0
+8	ὁ νόμος, -ου	nómos	law	luật			0
+8	ἡ μερίς, -ίδος	merís	part, share	phần			0
+8	ὁ ἀγών, -ῶνος	agṓn	contest, struggle	cuộc thi đấu			0
+8	τό ὅπλον, pl. τὰ ὅπλα	hóplon	weapon	vũ khí			0
+8	τό χρῆμα, pl. τὰ χρήματα	chrêma	thing; (pl.) money, property	vật; (số nhiều) của cải			0
+8	ὁ παῖς, παιδός	paîs	child, boy	đứa trẻ, cậu bé			0
+8	μερίζω	merízō	I divide, apportion	(tôi) chia			1
+8	τρέχω	trékhō	I run	(tôi) chạy			0
+8	παιδεύω	paideúō	I educate, bring up	(tôi) dạy dỗ			0
+9	ἀληθής, ἀληθές (2 đuôi, thân s)	alēthḗs	true, truthful	đúng sự thật, thật thà			1
+9	εὐδαίμων, εὐδαίμον (2 đuôi, thân ν)	eudaímōn	happy, blessed	hạnh phúc			1
+9	σώφρων, σῶφρον (2 đuôi, thân ν)	sṓphrōn	moderate, self-controlled	điều độ, biết tự chủ			1
+9	μέλας, μέλαινα, μέλαν (3 đuôi)	mélas	black	đen			1
+9	μέγας, μεγάλη, μέγα (bất quy tắc)	mégas	big, great, large	to, lớn			1
+9	μικρός, -ά, -όν	mikrós	small, little	nhỏ			1
+9	μόνος, -η, -ον	mónos	alone, only	riêng một mình			0
+9	ἡ ψυχή, -ῆς	psychḗ	soul	tâm hồn			0
+9	ὁ στρατηγός, -οῦ	stratēgós	general, commander	tướng lĩnh			0
+9	σώζω	sṓzō	I save, I keep safe	(tôi) giữ gìn, cứu			1
+9	ἀγαπάω	agapáō	I love	(tôi) yêu mến (động từ co, bài sau)			0
+9	πράττω	práttō	I do, accomplish	(tôi) làm, hành động			0
+9	εὖ (trạng từ)	eû	well	một cách tốt			1
+10	ἔρχομαι (deponent)	érkhomai	I come, I go	(tôi) đi, đến			1
+10	ἀπέρχομαι (deponent)	apérkhomai	I go away	(tôi) rời đi, ra đi			1
+10	ἀποκρίνομαι (deponent)	apokrínomai	I answer	(tôi) trả lời			1
+10	αἰσθάνομαι (deponent)	aisthánomai	I perceive, notice	(tôi) nhận thấy, cảm nhận			1
+10	λούω	loúō	I wash (myself)	(tôi) tắm, rửa			1
+10	ὑπό (+ Gen. tác nhân; + Dat. "dưới")	hypó	by (agent); under	bởi (tác nhân); dưới			1
+10	πρᾶος, -α, -ον	prâos	gentle, mild	hiền lành			1
+10	χαλεπός, -ή, -όν	khalepós	harsh, difficult	khắc nghiệt, khó khăn			1
+10	οἰκεῖος, -α, -ον	oikeîos	familiar, one's own	thân thuộc (ὁ οἰκεῖος = người nhà)			1
+10	πολέμιος, -α, -ον	polémios	hostile	thù địch (ὁ πολέμιος = kẻ thù)			1
+10	βλέπω	blépō	I look at, see	(tôi) nhìn, thấy			0
+10	πίνω	pínō	I drink	(tôi) uống			0
+10	ἀπορρίπτω	aporriptō	I throw away	(tôi) ném đi, vứt bỏ			0
+10	τὸ παιδίον	tò paidíon	child	đứa trẻ			0
+10	τὸ σκυλάκιον	tò skylákion	puppy	chú chó con			0
+10	τὸ ποτήριον	tò potḗrion	cup	cái cốc			0
+10	ποτέ (trạng từ)	poté	once, at some time	một lúc nào đó, từng			0
