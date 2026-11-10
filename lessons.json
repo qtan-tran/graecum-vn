@@ -224,6 +224,26 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "11-imperfect-augment",
+      "num": 11,
+      "level": "graecum-1",
+      "title": "Quá khứ chưa hoàn thành (imperfect): augment & biểu thức thời gian",
+      "topics": [
+        "khái niệm aspect: imperfect = hiện tại 'nhìn từ bên trong' neo vào quá khứ (tường thuật nền, thói quen, tiến triển bị cắt ngang)",
+        "augment (tăng phụ): âm tiết ἐ- + tăng phụ nguyên âm (ἀκούω → ἤκουον); ρ đôi; ngoại lệ ἔχω → εἶχον; Homer bỏ augment",
+        "imperfect chủ động đủ 6 ngôi (ἐπαίδευον…): đuôi thứ cấp, 1 Sg. = 3 Pl., ν di động",
+        "imperfect trung/bị động + deponent (ἐβουλόμην…): 2 Sg. -ου khác -ῃ của hiện tại; εἰμί quá khứ ἦν, ἦσαν",
+        "biểu thức thời gian: τότε, πρότερον, ἔτι, οὐκέτι, ἀεί, πάλαι + công thức biên niên ἐπ' ἄρχοντος + gen",
+        "chiến lược đọc: 'bóc augment' để tra từ điển; preview động từ ghép (προέκρινεν) và động từ co -έω (bài 12)"
+      ],
+      "reading": [
+        "Herodot 1,207",
+        "Diodor 12,13"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }

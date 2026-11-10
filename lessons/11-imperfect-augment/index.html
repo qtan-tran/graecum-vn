@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 11 – Quá khứ chưa hoàn thành (imperfect): augment &amp; biểu thức thời gian</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; }
+  .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 4px solid #1976d2; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; }
+  .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 4px solid #db2777; padding: 10px 16px; margin: 16px 0; font-size: 0.97em; }
+  .latin p:first-child { margin-top: 0; }
+  .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 4px solid #0f766e; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; }
+  .info p:last-child { margin-bottom: 0; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; background: #f8fafc; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 11: Quá khứ chưa hoàn thành (imperfect): augment &amp; biểu thức thời gian</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Từ hiện tại sang quá khứ: cùng một cái nhìn "từ bên trong"</a></li>
+<li><a href="#s2">Augment (tăng phụ): chìa khóa nhận diện quá khứ</a></li>
+<li><a href="#s3">Imperfect chủ động: sáu ngôi, bảng mẫu παιδεύω</a></li>
+<li><a href="#s4">Imperfect trung/bị động &amp; deponent: bảng mẫu + εἰμί quá khứ (ἦν)</a></li>
+<li><a href="#s5">Biểu thức thời gian: τότε, ἔτι, οὐκέτι… và công thức biên niên ἐπ' ἄρχοντος</a></li>
+<li><a href="#s6">Chiến lược đọc: "bóc augment" để tra từ điển</a></li>
+<li><a href="#reading">Bài đọc I: Vòng quay của số phận (Herodot 1,207)</a></li>
+<li><a href="#reading2">Bài đọc II: Charondas và phép đọc viết (Diodor 12,13)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) giải thích <strong>quá khứ chưa hoàn thành (imperfect)</strong> – thời tường thuật nhìn một hành động quá khứ "từ bên trong", như đang diễn ra; (2) áp dụng <strong>augment (tăng phụ)</strong> cả hai loại: thêm ἐ- trước phụ âm và kéo dài nguyên âm đầu (temporal augment); (3) chia đủ sáu ngôi imperfect chủ động và trung/bị động, kể cả deponent; (4) chia <span class="gk">εἰμί</span> ở quá khứ (<span class="gk">ἦν, ἦσαν</span>…); (5) nhận diện và dùng <strong>biểu thức thời gian (time expression)</strong>: <span class="gk">τότε, πρότερον, ἔτι, οὐκέτι, ἀεί</span> và công thức biên niên <span class="gk">ἐπ' ἄρχοντος</span> + sở hữu cách.</p>
+</div>
+
+<h2 id="s1">1. Từ hiện tại sang quá khứ: cùng một cái nhìn "từ bên trong"</h2>
+
+<p>Cho tới nay mọi câu chuyện của ta đều diễn ra ở <strong>hiện tại</strong>: <span class="gk">ὁ παῖς παιδεύεται</span> "đứa trẻ đang được dạy". Ngôi 1 số nhiều trung/bị động đã gặp ở bài 10 (<span class="gk">παιδευόμεθα</span>) cũng nhìn hành động <em>đang</em> diễn ra. Thời Hy Lạp gói trong nó cả <strong>khía cạnh (aspect)</strong> – cách nhìn vào hành động: <em>đang tiến triển</em> hay <em>đã trọn vẹn</em>.</p>
+
+<p><strong>Quá khứ chưa hoàn thành (imperfect)</strong> lấy đúng cái nhìn "đang tiến triển, chưa đóng khung" của hiện tại, nhưng neo nó vào một thời điểm trong quá khứ. Hãy hình dung trục thời:</p>
+
+<table>
+<thead><tr><th>Thời</th><th>Cái nhìn</th><th>Trực quan</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td><strong>Hiện tại</strong></td><td>đang diễn ra, nói lúc nói</td><td>──●──▶ (bây giờ)</td><td><span class="gk">ὁ παῖς παιδεύεται</span> – đứa trẻ đang được dạy</td></tr>
+<tr><td><strong>Quá khứ chưa hoàn thành</strong></td><td>đang diễn ra tại một điểm quá khứ, không nói kết cục</td><td>──▶<span style="color:#b45309;">●</span>──▶ (bấy giờ)</td><td><span class="gk">ὁ παῖς ἐπαιδεύετο</span> – đứa trẻ (bấy giờ) đang được dạy</td></tr>
+</tbody>
+</table>
+
+<p>Imperfect đảm nhận ba việc chính trong văn tường thuật (narration):</p>
+<ol>
+<li><strong>Vẽ nền</strong> cho câu chuyện: "trời <em>đang</em> tối, gió <em>đang</em> thổi…" rồi sự kiện mới bước vào.</li>
+<li><strong>Thói quen / lặp lại trong quá khứ</strong>: "mỗi ngày hắn <em>từng</em> đi chợ".</li>
+<li><strong>Tiến triển bị cắt ngang</strong>: "hắn <em>đang</em> nói thì có người gõ cửa" – khung imperfect chờ sự kiện (mình sẽ học thời "sự kiện" ở bài sau).</li>
+</ol>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> cùng một nhu cầu, hai chiến lược. Latin dựng imperfect bằng cách <em>chèn</em> dấu thời <span style="font-style:italic;">-bā-</span> vào thân: <em>amā-ba-m</em> "tôi từng yêu", <em>monē-ba-t</em> "hắn từng khuyên". Hy Lạp thì gắn <em>tiền tố</em> <span class="gk">ἐ-</span> vào đầu từ và đổi bộ đuôi. Động từ "to be" hai bên lệ nhau như hệ hình: Latin <em>eram, erās, erat</em> ↔ Hy Lạp <span class="gk">ἦν, ἦς, ἦν</span> (mục 4). Cả hai hệ đều con cháu của một mẹ Ấn-Âu, nhưng mỗi đứa chọn đường riêng.</p>
+</div>
+
+<h2 id="s2">2. Augment (tăng phụ): chìa khóa nhận diện quá khứ</h2>
+
+<p><strong>Augment (tăng phụ)</strong> là âm tiết <span class="gk">ἐ-</span> được gắn vào đầu động từ để đánh dấu <strong>các thời quá khứ ở cách thức chỉ định (indicative)</strong>. Gặp động từ có <span class="gk">ἐ-</span> mở đầu, gần như chắc chắn bạn đang đứng trong quá khứ. Có hai loại:</p>
+
+<h3>Loại 1: tăng phụ âm tiết (syllabic augment)</h3>
+<p>Động từ bắt đầu bằng <strong>phụ âm</strong>: thêm trọn một âm tiết <span class="gk">ἐ-</span> (có dấu mềm, không có dấu thanh):</p>
+<table>
+<thead><tr><th>Hiện tại</th><th>Quá khứ</th><th>Cách đọc</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">παιδεύω</span> (<span class="tr">paideúō</span>) tôi dạy</td><td><span class="gk">ἐπαίδευον</span> (<span class="tr">epaídeuon</span>) tôi/họ từng dạy</td><td>ἐ- + παιδεύ- + ον</td></tr>
+<tr><td><span class="gk">λύω</span> (<span class="tr">lúō</span>) tôi cởi, tháo</td><td><span class="gk">ἔλυον</span> (<span class="tr">élyon</span>) tôi/họ từng cởi</td><td>ἐ + λυ-; accent rút về âm tiết đầu: ἔ-</td></tr>
+</tbody>
+</table>
+<p>Chi tiết nhỏ: <span class="gk">ἐ-</span> augment tự nó không mang dấu thanh; âm tiết đầu mang dấu tròn (<span class="gk">ἔλυον</span>) và dấu thanh của từ dịch về sau như thường lệ (<span class="gk">ἐπαίδευον</span> – dấu sắc đứng trên âm tiết thứ hai).</p>
+
+<h3>Loại 2: tăng phụ nguyên âm (temporal augment)</h3>
+<p>Động từ bắt đầu bằng <strong>nguyên âm ngắn</strong>: không thêm âm tiết nào, mà <em>kéo dài</em> nguyên âm đầu. Đây là "hóa trang" dễ bị lỡ nhất:</p>
+<table>
+<thead><tr><th>Nguyên âm đầu</th><th>Thành</th><th>Ví dụ: hiện tại → quá khứ</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">α</span></td><td><span class="gk">η</span></td><td><span class="gk">ἀκούω</span> "tôi nghe" → <span class="gk">ἤκουον</span> (<span class="tr">ékouon</span>) "tôi từng nghe"</td></tr>
+<tr><td><span class="gk">ε</span></td><td><span class="gk">η</span></td><td><span class="gk">ἐθέλω</span> "tôi muốn" (bài 2) → <span class="gk">ἤθελον</span> (<span class="tr">éthelon</span>)</td></tr>
+<tr><td><span class="gk">ο</span></td><td><span class="gk">ω</span></td><td><span class="gk">ὁρίζω</span> "tôi định đoạt" → <span class="gk">ὥριζον</span> (<span class="tr">hórizon</span>)</td></tr>
+<tr><td><span class="gk">αι</span></td><td><span class="gk">ῃ</span></td><td><span class="gk">αἰσθάνομαι</span> "tôi nhận thấy" (bài 10) → <span class="gk">ᾐσθανόμην</span> (<span class="tr">ēisthanómen</span>) – iota chìm dưới η</td></tr>
+<tr><td><span class="gk">οι</span></td><td><span class="gk">ῳ</span></td><td><span class="gk">οἴομαι</span> "tôi tưởng" → <span class="gk">ᾤμην</span> (<span class="tr">ōimen</span>)</td></tr>
+<tr><td><span class="gk">ει</span></td><td><span class="gk">ῃ</span></td><td>gặp ít hơn; nhớ nguyên tắc kéo dài là đủ</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Cách tự kiểm tra tăng phụ nguyên âm:</strong> nhìn dấu thanh + dấu thở ở âm tiết đầu. <span class="gk">ἤκουον</span> mang <strong>dấu hút khí</strong> trên η – vì âm tiết đầu vốn là <span class="gk">ἀ-</span> có dấu hút khí; augment kéo dài nguyên âm nhưng giữ nguyên kiểu dấu thở. Nếu bạn thấy một từ mở đầu bằng η/ω/ῃ/ῳ mà tra từ điển không ra: thử <em>đảo</em> quy tắc (η→α hoặc ε, ω→ο, ᾐ→αι…) rồi tra lại – mục 6 luyện đúng kỹ năng này.</p>
+</div>
+
+<h3>Hai ca đặc biệt</h3>
+<div class="achtung">
+<p><strong>1. Động từ bắt đầu bằng ῥ:</strong> sau augment, ρ <em>đôi</em> lại và đổi dấu hút khí thành <strong>dấu mềm</strong>: <span class="gk">ῥάπτω</span> (<span class="tr">rháptō</span>, dấu hút khí) "tôi khâu" → <span class="gk">ἐρράπτον</span> (<span class="tr">errápton</span>) "tôi từng khâu". Gặp đôi ρ sau ἐ- mà có dấu mềm: đó là augment, không phải lỗi in.</p>
+<p><strong>2. Ông tổ các ngoại lệ: <span class="gk">ἔχω</span> "tôi có".</strong> Imperfect không phải <span class="gk">ἐ-εχον</span> mà là <span class="gk">εἶχον</span> (<span class="tr">eîkhon</span>) "tôi/họ từng có". Augment là <span class="gk">ει-</span>, vì gốc động từ xưa bắt đầu bằng ϝ (digamma, bài 8): <span class="gk">ϝεχ-</span> → ἐ + ϝε- cho ra ει-. Từ này quá phổ dụng để lảng tránh: học thuộc <span class="gk">εἶχον</span> như một mặt hàng đặc biệt, và hãy nhớ lời hẹn từ bài 1 (<span class="gk">ἔχει</span> "hắn có") – hôm nay ta thanh toán nợ.</p>
+</div>
+
+<div class="info">
+<p><strong>Văn sử thi:</strong> Homer <em>thường bỏ</em> augment – cùng một quá khứ, có bản có <span class="gk">ἐ-</span>, có bản không, tùy nhịp thơ. Vậy nên khi đọc Iliad/Odyssey mà thấy động từ quá khứ "trần" không ἐ-: không phải bạn nhìn sót, đó là phép thơ. (Herodotos, tác giả bài đọc I hôm nay, thỉnh thoảng cũng giữ thói quen cổ ấy.)</p>
+</div>
+
+<h2 id="s3">3. Imperfect chủ động: sáu ngôi, bảng mẫu παιδεύω</h2>
+
+<p>Công thức: <strong>augment + thân hiện tại + nguyên âm chủ đề + đuôi thứ cấp (secondary endings)</strong>. Bộ đuôi "thứ cấp" là bộ đuôi chuyên dùng cho các thời quá khứ ở chỉ định:</p>
+
+<table>
+<thead><tr><th></th><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td class="gk">ἐπαίδευον</td><td class="tr">epaídeuon</td><td>tôi (đang) dạy</td></tr>
+<tr><td>2 Sg.</td><td class="gk">ἐπαίδευες</td><td class="tr">epaídeues</td><td>bạn (đang) dạy</td></tr>
+<tr><td>3 Sg.</td><td class="gk">ἐπαίδευε(ν)</td><td class="tr">epaídeue(n)</td><td>hắn/cô ấy (đang) dạy</td></tr>
+<tr><td>1 Pl.</td><td class="gk">ἐπαιδεύομεν</td><td class="tr">epaideúomen</td><td>chúng tôi (đang) dạy</td></tr>
+<tr><td>2 Pl.</td><td class="gk">ἐπαιδεύετε</td><td class="tr">epaideúete</td><td>các bạn (đang) dạy</td></tr>
+<tr><td>3 Pl.</td><td class="gk">ἐπαίδευον(ν)</td><td class="tr">epaídeuon(n)</td><td>họ (đang) dạy</td></tr>
+</tbody>
+</table>
+
+<p>So bảng hiện tại (bài 2) cạnh bảng này, pattern lộ ra ngay – chỉ hai ngôi đổi khác hẳn:</p>
+<table>
+<thead><tr><th></th><th>Hiện tại</th><th>Imperfect</th><th>Chốt nhớ</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td><span class="gk">-ω</span></td><td><span class="gk">-ον</span></td><td rowspan="6">3 Sg. và 3 Pl. là hai chỗ "lột xác":<br /><span class="gk">-ει → -ε(ν)</span>, <span class="gk">-ουσι(ν) → -ον(ν)</span>;<br />các ngôi khác chỉ đổi nguyên âm chủ đề về màu -ο-/-ε- như cũ</td></tr>
+<tr><td>2 Sg.</td><td><span class="gk">-εις</span></td><td><span class="gk">-ες</span></td></tr>
+<tr><td>3 Sg.</td><td><span class="gk">-ει</span></td><td><span class="gk">-ε(ν)</span></td></tr>
+<tr><td>1 Pl.</td><td><span class="gk">-ομεν</span></td><td><span class="gk">-ομεν</span></td></tr>
+<tr><td>2 Pl.</td><td><span class="gk">-ετε</span></td><td><span class="gk">-ετε</span></td></tr>
+<tr><td>3 Pl.</td><td><span class="gk">-ουσι(ν)</span></td><td><span class="gk">-ον(ν)</span></td></tr>
+</tbody>
+</table>
+
+<p>Mẫu ngắn: <span class="gk">λύω</span>: <span class="gk">ἔλυον, ἔλυες, ἔλυε(ν), ἐλύομεν, ἐλύετε, ἔλυον(ν)</span>. Dấu <span class="gk">(ν)</span> là ν di động (bài 10): hiện trước nguyên âm, ví dụ <span class="gk">ἐπαίδευον ἐν τῇ πόλει</span>… nhưng <span class="gk">ἐπαίδευε ὁ παῖς</span> "đứa trẻ đang dạy" không cần.</p>
+
+<div class="achtung">
+<p><strong>Bẫy số 1 của cả bài: 1 Sg. = 3 Pl.</strong> <span class="gk">ἐπαίδευον</span> vừa là "tôi đang dạy" vừa là "họ đang dạy" – hệ quả của đuôi -ον đôi vai. Ba phao cứu:</p>
+<ol>
+<li>Đại từ chủ ngữ tường minh: <span class="gk">ἐγὼ ἐπαίδευον</span> = tôi; <span class="gk">οἱ πολῖται ἐπαίδευον</span> = các công dân (số nhiều).</li>
+<li>Mạo từ số nhiều + danh từ không đại từ: <span class="gk">οἱ παῖδες ἐπαίδευον</span> "lũ trẻ đang dạy".</li>
+<li>Ngữ cảnh tường thuật: chủ ngữ đã được giới thiệu, động từ chỉ kế tục.</li>
+</ol>
+</div>
+
+<h2 id="s4">4. Imperfect trung/bị động &amp; deponent + εἰμί quá khứ (ἦν)</h2>
+
+<h3>Trung/bị động</h3>
+<p>Cùng công thức: augment + thân hiện tại + bộ đuôi m/p thứ cấp. Đối chiếu với bài 5/10:</p>
+<table>
+<thead><tr><th></th><th>Hiện tại m/p (bài 5)</th><th>Imperfect m/p</th><th>παιδεύω ở imperfect m/p</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td><span class="gk">-ομαι</span></td><td><span class="gk">-όμην</span></td><td class="gk">ἐπαιδευόμην <span class="tr">epaideuómen</span></td></tr>
+<tr><td>2 Sg.</td><td><span class="gk">-ῃ</span></td><td><span class="gk">-ου</span></td><td class="gk">ἐπαιδεύου <span class="tr">epaideúou</span></td></tr>
+<tr><td>3 Sg.</td><td><span class="gk">-εται</span></td><td><span class="gk">-ετο</span></td><td class="gk">ἐπαιδεύετο <span class="tr">epaideúeto</span></td></tr>
+<tr><td>1 Pl.</td><td><span class="gk">-όμεθα</span></td><td><span class="gk">-όμεθα</span></td><td class="gk">ἐπαιδευόμεθα <span class="tr">epaideuómetha</span></td></tr>
+<tr><td>2 Pl.</td><td><span class="gk">-εσθε</span></td><td><span class="gk">-εσθε</span></td><td class="gk">ἐπαιδεύεσθε <span class="tr">epaideúesthe</span></td></tr>
+<tr><td>3 Pl.</td><td><span class="gk">-ονται</span></td><td><span class="gk">-οντο</span></td><td class="gk">ἐπαιδεύοντο <span class="tr">epaideúonto</span></td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>2 Sg. đổi "mặt" hoàn toàn:</strong> hiện tại co thành <span class="gk">-ῃ</span> (<span class="gk">βούλῃ</span>, bài 5), nhưng imperfect co theo hướng khác: <span class="gk">-εσο → -ου</span>. So hai "twin": deponent <span class="gk">βούλομαι</span> hiện tại <span class="gk">βούλῃ</span> "bạn muốn" ↔ quá khứ <span class="gk">ἐβούλου</span> "bạn từng muốn". Nhầm -ῃ/-ου là nhầm thời: kiểm tra bằng augment – có augment là quá khứ, đuôi buộc phải là -ου.</p>
+</div>
+
+<h3>Deponent: augment vào deponent như thường</h3>
+<p><span class="gk">βούλομαι</span> "muốn" (bài 5) ở imperfect, đủ sáu ngôi – học bảng này cùng lúc vì bài đọc I dùng <span class="gk">ἐβούλετο</span> ngay câu mở màn:</p>
+<p><span class="gk">ἐβουλόμην</span> (<span class="tr">eboulómen</span>), <span class="gk">ἐβούλου</span> (<span class="tr">eboúlou</span>), <span class="gk">ἐβούλετο</span> (<span class="tr">eboúleto</span>), <span class="gk">ἐβουλόμεθα</span> (<span class="tr">eboulómetha</span>), <span class="gk">ἐβούλεσθε</span> (<span class="tr">eboúlesthe</span>), <span class="gk">ἐβούλοντο</span> (<span class="tr">eboúlonto</span>).</p>
+<p>Cặp kết hợp hai kỹ năng của bài: <span class="gk">αἰσθάνομαι</span> (deponent, bài 10) + tăng phụ nguyên âm → <span class="gk">ᾐσθανόμην</span> "tôi từng nhận thấy" (ᾐ = alpha+iota dưới η – cùng gia đình iota chìm đã gặp trong thuật ngữ bài 2). Và bị động: <span class="gk">πέμπω</span> (bài 4) quá khứ m/p cho ra <span class="gk">ἐπεμπόμην</span> "tôi từng được gửi" (1 Sg.) và <span class="gk">ἐπέμπετο</span> "hắn từng được gửi" (3 Sg.) – augment + thân hiện tại m/p, đuôi y hệt bảng trên.</p>
+
+<h3>εἰμί quá khứ: họ nhà ἦν</h3>
+<p><span class="gk">εἰμί</span> (bài 6) cũng phải có quá khứ: augment nguyên âm ε→η cho ra <strong><span class="gk">ἦν</span></strong>:</p>
+<table>
+<thead><tr><th></th><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td class="gk">ἦν</td><td class="tr">ên</td><td>tôi đã là</td></tr>
+<tr><td>2 Sg.</td><td class="gk">ἦς</td><td class="tr">ês</td><td>bạn đã là</td></tr>
+<tr><td>3 Sg.</td><td class="gk">ἦν</td><td class="tr">ên</td><td>hắn/cô ấy đã là</td></tr>
+<tr><td>1 Pl.</td><td class="gk">ἦμεν</td><td class="tr">êmen</td><td>chúng tôi đã là</td></tr>
+<tr><td>2 Pl.</td><td class="gk">ἦτε</td><td class="tr">ête</td><td>các bạn đã là</td></tr>
+<tr><td>3 Pl.</td><td class="gk">ἦσαν</td><td class="tr">êsan</td><td>họ đã là</td></tr>
+</tbody>
+</table>
+<p>Ba điểm đáng ngắm: (1) <strong>1 Sg. = 3 Sg.</strong> – cùng bẫy "đôi vai" như <span class="gk">ἐπαίδευον</span> (1 = 3 Pl.); ngữ cảnh và đại từ gỡ; (2) 2 Sg. thơ có biến thể <span class="gk">ἦσθα</span> – gặp ở Homer đừng hoảng; (3) hai ví dụ định vị từ lịch sử thật: <span class="gk">ὁ Κροῖσος ἦν βασιλεὺς τῶν Λυδῶν</span> "Croesus từng là vua của người Lydia", <span class="gk">ὁ Κῦρος ἦν βασιλεὺς τῶν Περσῶν</span> "Cyrus từng là vua của người Ba Tư" (<span class="gk">ὁ Λυδός</span> "người Lydia", <span class="gk">ὁ Πέρσης</span> "người Ba Tư", <span class="gk">βασιλεύς</span> "vua" – bộ tên riêng của hai bài đọc hôm nay).</p>
+
+<h2 id="s5">5. Biểu thức thời gian: τότε, ἔτι, οὐκέτι… và công thức biên niên ἐπ' ἄρχοντος</h2>
+
+<p>Tường thuật quá khứ cần địa chỉ thời gian. Bộ từ vựng hôm nay gần nửa là trục thời. Học thành cặp trái ngược:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Nghĩa</th><th>Ví dụ dùng trong hai bài đọc</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">τότε</span></td><td class="tr">tóte</td><td>bấy giờ, khi đó (then)</td><td>điểm neo mở đầu câu chuyện quá khứ</td></tr>
+<tr><td><span class="gk">πρότερον</span></td><td class="tr">próteron</td><td>trước đây, trước đó (formerly)</td><td><span class="gk">εἶπον μὲν καὶ πρότερόν τοι</span> – Herodot 1,207</td></tr>
+<tr><td><span class="gk">πάλαι</span></td><td class="tr">pálai</td><td>cách đây lâu (long ago)</td><td>nhấn khoảng cách thời gian</td></tr>
+<tr><td><span class="gk">ἔτι</span></td><td class="tr">éti</td><td>vẫn còn, vẫn (still)</td><td>hành động chưa dừng tại điểm quá khứ</td></tr>
+<tr><td><span class="gk">οὐκέτι</span></td><td class="tr">oukéti</td><td>không còn nữa (no longer)</td><td>= <span class="gk">οὐκ + ἔτι</span>; trạng thái đã tắt</td></tr>
+<tr><td><span class="gk">ἀεί</span></td><td class="tr">aeí</td><td>luôn, mãi mãi (always)</td><td>Herodotos viết <span class="gk">αἰεί</span> (Ionic): <span class="gk">αἰεὶ τοὺς αὐτοὺς εὐτυχέειν</span></td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Vị trí:</strong> trạng từ thời gian thường đứng <strong>sát đầu câu</strong>, ngay sau <span class="gk">τότε/δὲ</span> nếu có – đó là "bảng chỉ số" của câu tường thuật. <span class="gk">τότε ὁ Κῦρος ἐβούλετο…</span> = "bấy giờ Cyrus đang muốn…". Trong dịch tiếng Việt, để chúng đầu câu y nguyên là tự nhiên nhất.</p>
+</div>
+
+<h3>Công thức biên niên: ἐπ' ἄρχοντος + sở hữu cách</h3>
+<p>Người Hy Lạp không nói "năm 445 trước công nguyên". Athena ghi năm theo tên người đứng đầu cơ quan <strong>archon</strong> (chấp chính quan, <span class="gk">ὁ ἄρχων</span>): "dưới thời archon X". Công thức in hàng nghìn lần trong các bộ sử:</p>
+<p style="margin-left:1.5em;"><span class="gk">ἐπ' ἄρχοντος</span> + tên (sở hữu cách) = "dưới thời archon…"</p>
+<p>Bản thật từ Diodorus (dùng liên tục suốt Bộ sách Lịch sử): <span class="gk">ἐπ' ἄρχοντος γὰρ Ἀθήνησι Λυσιμαχίδου…</span> "dưới thời archon Lysimachides ở Athena…". Chú ý hai chi tiết đã học: <span class="gk">ἐπ'</span> là <span class="gk">ἐπί</span> rút trước nguyên âm (elision, bài 3); <span class="gk">Λυσιμαχίδου</span> là sở hữu cách – công thức "giới từ + sở hữu cách" rập khuôn (đã học từ các bài đầu).<br />
+Tương quan hai bài đọc: Herodotos kể chuyện Ba Tư-Lydia (thế kỷ 6 TCN) <em>không</em> theo công thức này (vốn là tập quán biên niên Athena), còn Diodorus – nhà biên niên theo đúng nghĩa – mở đầu từng đoạn biên niên bằng nó.</p>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin có công thức song song hoàn toàn: năm được gọi theo hai chấp chính quan đương nhiệm, <em>X et Y consulibus</em> (ablative absolute: "khi X và Y làm chấp chính quan"). Hai nền văn minh đều "đặt tên" cho năm bằng chức quan kèm công thức cách cố định, thay cho số năm kiểu hiện đại.</p>
+</div>
+
+<h2 id="s6">6. Chiến lược đọc: "bóc augment" để tra từ điển</h2>
+
+<p>Từ điển Hy Lạp liệt kê động từ ở <strong>hiện tại ngôi 1</strong>. Nhưng trong văn quá khứ, động từ khoác augment – tra <span class="gk">ἐπαίδευε</span> sẽ về tay trắng. Kỹ năng "bóc" bốn bước:</p>
+<ol>
+<li><strong>Nhìn âm tiết đầu:</strong> mở đầu bằng <span class="gk">ἐ-</span> (dấu mềm, không dấu thanh)? → bóc <span class="gk">ἐ-</span> đi.</li>
+<li><strong>Mở đầu bằng η/ω/ῃ/ῳ/ᾐ/ᾠ dài bất thường?</strong> → đảo tăng phụ nguyên âm: <span class="gk">η→α/ε, ω→ο, ᾐ→αι, ᾠ→οι</span>.</li>
+<li><strong>Đuôi về hiện tại</strong> (nếu cần): <span class="gk">-ον/-ες/-ε/-ομεν/-ετε/-ον</span> là bộ past – sau khi bóc, thân thường hiện nguyên hình dạng từ điển.</li>
+<li><strong>Tra</strong>, rồi ghép lại nghĩa: thân hiện tại + "từng/đang (ở quá khứ)".</li>
+</ol>
+<table>
+<thead><tr><th>Dạng gặp</th><th>Bóc thế nào</th><th>Mục tiêu từ điển</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἐπαιδεύετο</span></td><td>bóc ἐ-; đuôi -ετο = 3 Sg. m/p quá khứ</td><td><span class="gk">παιδεύω</span> – "hắn từng được dạy"</td></tr>
+<tr><td><span class="gk">ἤκουον</span></td><td>η → ἀ (giữ dấu hút khí!)</td><td><span class="gk">ἀκούω</span> – "tôi/họ từng nghe"</td></tr>
+<tr><td><span class="gk">ᾐσθανόμην</span></td><td>ᾐ → αι, iota chìm hiện hình</td><td><span class="gk">αἰσθάνομαι</span> – deponent, "tôi từng nhận thấy"</td></tr>
+<tr><td><span class="gk">εἶχον</span></td><td>ει- là augment đặc biệt của chữ này</td><td><span class="gk">ἔχω</span> – "tôi/họ từng có"</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Preview – động từ ghép (compound verb):</strong> động từ có tiền tố (prepositional prefix) dính chặt thì augment chèn <em>giữa</em> tiền tố và thân, không đứng đầu từ: <span class="gk">προκρίνω</span> "tôi ưu tiên hơn" → quá khứ <span class="gk">προέκρινεν</span> (προ- + ἐ + κριν-). Bài đọc II gặp đúng dạng này. Hôm nay chỉ cần nhận diện: thấy augment "lạc giữa" chữ → nó vẫn là augment, bóc như thường. Hệ thống động từ ghép sẽ có bài riêng.</p>
+</div>
+
+<h2 id="reading">7. Bài đọc I: Vòng quay của số phận (Herodot 1,207)</h2>
+
+<p><strong>Bối cảnh:</strong> Herodotos, "cha đẻ của sử học", kể: vua Cyrus của Ba Tư muốn nuốt lấy đất nước của người Massagetae (<span class="gk">οἱ Μασσαγέται</span>). Trong hàng tham mưu của ông có Croesus – vị vua Lydia từng mất nước vì chính Cyrus (đó là câu chuyện ở 1,86–91; hôm nay ta đọc lời khuyên nổi tiếng của ông). Lưu ý chơi chữ của lịch sử: kẻ thua trận đứng khuyên kẻ thắng cuộc về đề tài "số phận xoay vần".</p>
+
+<h3>Câu 1</h3>
+<p class="gk" style="font-size:1.12em;">ὁ Κῦρος ἐβούλετο τὴν ἀρχὴν τῶν Μασσαγετῶν λαμβάνειν.</p>
+<p><strong>Mổ xẻ:</strong> (1) <span class="gk">ἐβούλετο</span> = augment ἐ- + deponent <span class="gk">βούλομαι</span> "muốn" (bài 5), 3 Sg.: "hắn (đang) muốn" – imperfect mở màn: khung của cả câu chuyện. (2) <span class="gk">τὴν ἀρχὴν</span> đối cách (tân ngữ) – "quyền thống trị"; <span class="gk">τῶν Μασσαγετῶν</span> sở hữu cách số nhiều sau danh từ. (3) <span class="gk">λαμβάνειν</span> nguyên mẫu hiện tại chủ động (-ειν, bài 2) "lấy, chiếm" – sau <span class="gk">βούλομαι</span> nguyên mẫu đứng trần (pattern tân ngữ + nguyên mẫu đã quen).<br />
+<strong>Dịch:</strong> "Cyrus muốn chiếm lấy quyền cai trị của người Massagetae."</p>
+
+<h3>Câu 2</h3>
+<p class="gk" style="font-size:1.12em;">ὁ Κροῖσος ὁ Λυδὸς ἔλεγεν πρὸς τὸν Κῦρον·</p>
+<p><strong>Mổ xẻ:</strong> (1) <span class="gk">ἔλεγεν</span> = augment + <span class="gk">λέγω</span> (bài 4), 3 Sg. imperfect: "hắn (đang) nói" – đúng nghĩa "vẽ nền": mở đầu lời thoại. (2) Danh từ lặp mạo từ <span class="gk">ὁ Κροῖσος ὁ Λυδὸς</span> "Croesus, người Lydia" – pattern đã gặp trong các bài đọc trước. (3) <span class="gk">πρὸς</span> + đối cách "gặp gỡ ai" (đã quen). Hai chấm dẫn vào lời thoại trực tiếp.<br />
+<strong>Dịch:</strong> "Croesus người Lydia nói với Cyrus:"</p>
+
+<h3>Câu 3 (lời khuyên, giữ hiện tại như bản gốc)</h3>
+<p class="gk" style="font-size:1.12em;">ἄνθρωπος εἶ, καὶ ἀνθρώπων ἄρχεις.</p>
+<p><strong>Mổ xẻ:</strong> (1) <span class="gk">εἶ</span> "bạn là" – hiện tại của <span class="gk">εἰμί</span> (bài 6). (2) <span class="gk">ἄρχεις</span> 2 Sg. hiện tại của động từ mới <span class="gk">ἄρχω</span> "cai trị" + sở hữu cách: <span class="gk">ἀνθρώπων</span> "của (những) con người".<br />
+<strong>Dịch:</strong> "Bạn là người (phàm), và bạn cai trị (những) người."<br />
+<strong>Điểm cần ngắm:</strong> lời thoại giữ <strong>hiện tại</strong> dù khung tường thuật là quá khứ – chân lý phổ quát (gnomic present) không cần augment. Hy Lạp tách gọn: imperfect kể chuyện, present nói sự thật.</p>
+
+<h3>Câu 4 (trái tim của đoạn)</h3>
+<p class="gk" style="font-size:1.12em;">ὁ κύκλος τῶν ἀνθρωπηΐων πρηγμάτων περιφέρεται καὶ οὐκ ἐᾷ τοὺς αὐτοὺς αἰεὶ εὐτυχέειν.</p>
+<p><strong>Mổ xẻ:</strong> (1) <span class="gk">ὁ κύκλος</span> "vòng tròn, bánh xe" (chữ dùng cho đến hôm nay: cyclone, cycle); <span class="gk">τῶν ἀνθρωπηΐων πρηγμάτων</span> sở hữu cách – "của các việc người". (2) <span class="gk">περιφέρεται</span> "vòng quanh, xoay chuyển" (<span class="gk">περί + φέρω</span>). (3) <span class="gk">ἐᾷ</span> 3 Sg. của <span class="gk">ἐάω</span> "cho phép"; <span class="gk">τοὺς αὐτοὺς</span> đối cách "những kẻ ấy". (4) <span class="gk">αἰεὶ</span> = <span class="gk">ἀεί</span> "mãi"; <span class="gk">εὐτυχέειν</span> nguyên mẫu "được may mắn" (gốc <span class="gk">εὐ-</span> như <span class="gk">εὖ</span> bài 9!).<br />
+<strong>Dịch:</strong> "Vòng quay của các việc người xoay chuyển, và không cho phép những kẻ ấy mãi mãi được may mắn."</p>
+
+<h3>Câu 5</h3>
+<p class="gk" style="font-size:1.12em;">ὁ Κῦρος δὲ οὐκ ἐπείθετο.</p>
+<p><strong>Mổ xẻ:</strong> <span class="gk">ἐπείθετο</span> = augment + <span class="gk">πείθομαι</span> (bài 2: <span class="gk">πείθω</span> "thuyết phục"; m/p "vâng lời"), 3 Sg. imperfect: "hắn không chịu nghe theo". <span class="gk">δὲ</span> đối lập nhẹ. Kết câu kiểu Hy Lạp: im lặng thuật hành động.<br />
+<strong>Dịch:</strong> "Cyrus thì không nghe lời." – (Sử ký kết: Cyrus qua sông tấn công, và số phận trả lời bằng chính vòng quay của nó: 1,214.)</p>
+
+<div class="info">
+<p><strong>Bản gốc (Herodot 1,207):</strong> <span class="gk">εἰ δ' ἔγνωκας ὅτι ἄνθρωπος καὶ σὺ εἶς καὶ ἑτέρων τοιῶνδε ἄρχεις, ἐκεῖνο πρῶτον μάθε, ὡς κύκλος τῶν ἀνθρωπηΐων ἐστὶ πρηγμάτων, περιφερόμενος δὲ οὐκ ἐᾷ αἰεὶ τοὺς αὐτοὺς εὐτυχέειν.</span> – "Nếu ngươi biết rằng ngươi cũng là người phàm, cai trị những kẻ cũng như thế, thì trước hết hãy học điều này: các việc người xoay vòng, và vòng xoay không cho phép cùng những kẻ ấy luôn luôn được may mắn."<br />
+<strong>Phương ngữ Ionic:</strong> <span class="gk">πρηγμάτων</span> (Attic: <span class="gk">πραγμάτων</span>), <span class="gk">εὐτυχέειν</span> (Attic: <span class="gk">εὐτυχεῖν</span>), <span class="gk">αἰεί</span> (Attic: <span class="gk">ἀεί</span>). Herodotos viết phương ngữ Ionic – bạn vừa đọc chữ sử học đầu tiên của phương Tây.</p>
+</div>
+
+<h2 id="reading2">8. Bài đọc II: Charondas và phép đọc viết (Diodor 12,13)</h2>
+
+<p><strong>Bối cảnh:</strong> Diodoros người Sicilia (thế kỷ 1 TCN) viết bộ <em>Bibliotheca Historica</em> – "Thư viện lịch sử" – khái quát cả thế giới cổ đại. Đoạn 12,13 nằm trong mục về Charondas (<span class="gk">ὁ Χαρώνδας</span>), nhà làm luật của thành Thurii (<span class="gk">αἱ Θούριοι</span>, thuộc địa của Athena ở miền Nam nước Ý ngày nay): vị pháp quan gắn với chính sách giáo dục công cộng sớm hiếm có trong sử ký.</p>
+
+<h3>Câu 1</h3>
+<p class="gk" style="font-size:1.12em;">ὁ Χαρώνδας ἦν νομοθέτης ἐν ταῖς Θουρίοις.</p>
+<p><strong>Mổ xẻ:</strong> (1) <span class="gk">ἦν</span> – 3 Sg. imperfect của <span class="gk">εἰμί</span> (mục 4): "ông ta từng là". (2) <span class="gk">νομοθέτης</span> "nhà làm luật" = <span class="gk">νόμος</span> (bài 8) + <span class="gk">τιθέναι</span> "đặt" – kẻ "đặt ra luật". (3) <span class="gk">ἐν ταῖς Θουρίοις</span> – địa danh số nhiều + mạo từ tặng cách số nhiều: đúng pattern <span class="gk">ἐν ταῖς Ἀθήναις</span> đã mổ ở bài 10 (danh từ số nhiều như một "bộ sưu tập làng").<br />
+<strong>Dịch:</strong> "Charondas là nhà làm luật ở Thurii."</p>
+
+<h3>Câu 2</h3>
+<p class="gk" style="font-size:1.12em;">ἐνομοθέτει πάντας τοὺς πολίτας γράμματα μανθάνειν.</p>
+<p><strong>Mổ xẻ:</strong> (1) <span class="gk">ἐνομοθέτει</span> 3 Sg. imperfect "ông ban luật" – từ <span class="gk">ἐνομοθετέω</span> "ban hành luật"; đuôi -ει (thay vì -ε) vì đây là động từ co -έω – bài 12 sẽ học phép co, hôm nay chỉ cần nhận "augment + -ει = 3 Sg. quá khứ". (2) <span class="gk">πάντας τοὺς πολίτας</span> đối cách số nhiều. (3) <span class="gk">γράμματα</span> đối cách – "chữ viết" (số nhiều của <span class="gk">τὸ γράμμα</span> "chữ cái"); <span class="gk">μανθάνειν</span> nguyên mẫu "học" – động từ bất quy tắc (học mặt hàng mới, bài tập không đòi chia).<br />
+<strong>Dịch:</strong> "Ông ban luật cho tất cả công dân phải học chữ."</p>
+
+<h3>Câu 3</h3>
+<p class="gk" style="font-size:1.12em;">ἡ πόλις ἐχορήγει τοὺς μισθοὺς τοῖς διδασκάλοις.</p>
+<p><strong>Mổ xẻ:</strong> (1) <span class="gk">ἐχορήγει</span> 3 Sg. imperfect của <span class="gk">χορηγέω</span> "cấp, chi trả" (cũng động từ co -έω, đuôi -ει) – "thành phố từng chi trả". (2) <span class="gk">τοὺς μισθούς</span> "tiền lương" (<span class="gk">ὁ μισθός</span>, từ mới của riêng đoạn này) – đối cách. (3) <span class="gk">τοῖς διδασκάλοις</span> tặng cách số nhiều "cho các thầy giáo" – tặng cách = "cho ai" (đã quen từ các bài trước).<br />
+<strong>Dịch:</strong> "Thành phố chi trả lương cho các thầy giáo." – giáo dục công miễn phí, mô tả bằng imperfect: một chính sách đang vận hành thường xuyên, chứ không một hành động đơn lẻ.</p>
+
+<h3>Câu 4</h3>
+<p class="gk" style="font-size:1.12em;">ὁ νομοθέτης τὰ γράμματα προέκρινεν.</p>
+<p><strong>Mổ xẻ:</strong> (1) <span class="gk">προέκρινεν</span> 3 Sg. imperfect của <span class="gk">προκρίνω</span> "ưu tiên hơn" – <strong>động từ ghép</strong> nên augment <span class="gk">ἐ-</span> chèn giữa tiền tố προ- và thân κριν- (mục 6!). (2) <span class="gk">τὰ γράμματα</span> đối cách "phép chữ".<br />
+<strong>Dịch:</strong> "Nhà làm luật ưu tiên phép chữ viết (hơn mọi môn học khác)." – Diodoros nói tiếp: "hơn cả quyền lực" theo ông.</p>
+
+<h3>Câu 5 (lý do, giữ hiện tại)</h3>
+<p class="gk" style="font-size:1.12em;">διὰ τῶν γραμμάτων οἱ νεκροὶ ἔτι ζῶσιν ἐν τῇ μνήμῃ τῶν ζώντων.</p>
+<p><strong>Mổ xẻ:</strong> (1) <span class="gk">διὰ</span> + sở hữu cách "nhờ, qua" (đã gặp ở các bài trước). (2) <span class="gk">οἱ νεκροὶ</span> "người chết" ↔ <span class="gk">οἱ ζῶντες</span> "người sống" – cặp từ tương phản; <span class="gk">ζῶσιν</span> 3 Pl. hiện tại của <span class="gk">ζάω</span> "sống" (nguyên mẫu <span class="gk">ζῆν</span> – sẽ gặp ở câu 6). (3) <span class="gk">ἔτι</span> "vẫn còn" + <span class="gk">ἐν τῇ μνήμῃ</span> tặng cách "trong ký ức".<br />
+<strong>Dịch:</strong> "Nhờ phép chữ, người chết vẫn còn sống trong ký ức của người sống." – hiện tại gnomic: chân lý không mang augment.</p>
+
+<h3>Câu 6 (châm ngôn kết)</h3>
+<p class="gk" style="font-size:1.12em;">τὸ μὲν ζῆν ἡ φύσις αἰτία, τὸ δὲ εὖ ζῆν ἡ τῶν γραμμάτων παιδεία.</p>
+<p><strong>Mổ xẻ:</strong> (1) <span class="gk">τὸ ζῆν</span> = mạo từ + nguyên mẫu, danh từ hóa: "việc sống" (pattern bài 9: mạo từ biến thứ gì đó thành danh từ). (2) <span class="gk">μὲν… δὲ</span> đối chiếu hai vế. (3) <span class="gk">ἡ φύσις αἰτία</span> "bản nhiên là nguyên nhân" – <span class="gk">αἰτία</span> "nguyên nhân" (EN: cause; gốc của từ "aetiology" mượn qua Latin); (4) <span class="gk">εὖ ζῆν</span> "sống đẹp" – εὖ trạng từ bất quy tắc bài 9 đứng trước nguyên mẫu như trạng từ chỉ cách thức; <span class="gk">ἡ τῶν γραμμάτων παιδεία</span> "sự giáo dục của phép chữ" – sở hữu cách giữa các danh từ.<br />
+<strong>Dịch:</strong> "Việc (được) sống là do bản nhiên; còn việc sống đẹp là do nền giáo dục của phép chữ."</p>
+
+<div class="info">
+<p><strong>Bản gốc (Diodor 12,13):</strong> <span class="gk">ἐνομοθέτησε γὰρ τῶν πολιτῶν τοὺς ἅπαντας μανθάνειν γράμματα, χορηγούσης τῆς πόλεως τοὺς μισθοὺς τοῖς διδασκάλοις… διὸ καὶ τοῦ μὲν ζῆν τὴν φύσιν αἰτίαν ὑποληπτέον, τοῦ δὲ καλῶς ζῆν τὴν ἐκ τῶν γραμμάτων συγκειμένην παιδείαν.</span> – "Ông ban luật cho tất cả công dân học chữ, với thành phố chi trả lương cho thầy giáo… Vậy nên: nguyên nhân của việc sống là bản nhiên; còn của việc sống đẹp là nền giáo dục cấu thành từ phép chữ." (Bản gốc dùng aorist <span class="gk">ἐνομοθέτησε</span> – thời "sự kiện" ở bài sau; phần trích ta đọc đã hóa imperfect cho khớp bài học.)<br />
+<strong>Văn phong:</strong> Diodoros viết Koine hậu cổ điển, câu dài gói nhiều vế phụ; bài đọc hôm nay giữ bộ xương ngữ pháp của ông, lược vế.</p>
+</div>
+
+<h2 id="vocab">9. Từ vựng trọng tâm</h2>
+<p>Từ mới cần học thuộc (<span class="star">★</span> = ưu tiên trước – dùng ngay trong bài tập). Ghi chú "chia thứ ba" nhắc lại: bài 7–8 đã cho bộ đuôi, nay chỉ thêm từ vựng:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> τότε</td><td class="tr">tóte</td><td>then, at that time</td><td>bấy giờ, khi đó</td></tr>
+<tr><td class="gk"><span class="star">★</span> πρότερον</td><td class="tr">próteron</td><td>before, formerly</td><td>trước đây, trước đó</td></tr>
+<tr><td class="gk"><span class="star">★</span> πάλαι</td><td class="tr">pálai</td><td>long ago</td><td>cách đây lâu</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἔτι</td><td class="tr">éti</td><td>still, yet</td><td>vẫn còn, vẫn</td></tr>
+<tr><td class="gk"><span class="star">★</span> οὐκέτι</td><td class="tr">oukéti</td><td>no longer</td><td>không còn nữa</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἀεί</td><td class="tr">aeí</td><td>always, forever</td><td>luôn, mãi mãi (Homer, Herodotos: <span class="gk">αἰεί</span>)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ἄρχων, -οντος</td><td class="tr">ho árkhōn</td><td>ruler, archon</td><td>nhà cai trị, chấp chính quan (chia thứ ba thân -οντ-)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ἀρχή, -ῆς</td><td class="tr">hē arkhḗ</td><td>rule, empire</td><td>quyền cai trị (nghĩa gốc: "khởi đầu")</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἄρχω</td><td class="tr">árkhō</td><td>I rule (over)</td><td>(tôi) cai trị + sở hữu cách (tân ngữ sở hữu cách, như đã gặp ở các bài trước)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ κύκλος, -ου</td><td class="tr">ho kýklos</td><td>wheel, circle</td><td>vòng tròn, bánh xe</td></tr>
+<tr><td class="gk"><span class="star">★</span> τὸ γράμμα, -ατος (γράμματα)</td><td class="tr">tò grámma</td><td>letter; (pl.) letters, writing</td><td>chữ cái; số nhiều <span class="gk">γράμματα</span>: phép chữ viết (trung tính -μα như <span class="gk">σῶμα</span> bài 7)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ἐπιστολή, -ῆς</td><td class="tr">hē epistolḗ</td><td>letter, epistle</td><td>thư (từ) – gốc chữ "epistle"</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ φύσις, -εως</td><td class="tr">hē phúsis</td><td>nature</td><td>bản nhiên (chia như <span class="gk">πόλις</span>, bài 7)</td></tr>
+<tr><td class="gk"><span class="star">★</span> μανθάνω</td><td class="tr">manthánō</td><td>I learn</td><td>(tôi) học (bất quy tắc; nguyên mẫu μανθάνειν)</td></tr>
+<tr><td class="gk">ὁ νομοθέτης, -ου</td><td class="tr">ho nomothétēs</td><td>lawgiver</td><td>nhà làm luật (<span class="gk">νόμος</span> + "đặt ra")</td></tr>
+<tr><td class="gk">ὁ νόμος, -ου</td><td class="tr">ho nómos</td><td>law</td><td>luật (ôn bài 8)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ Κροῖσος, -ου</td><td class="tr">ho Kroîsos</td><td>Croesus</td><td>Croesus, vua Lydia</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ Κῦρος, -ου</td><td class="tr">ho Kŷros</td><td>Cyrus</td><td>Cyrus, vua Ba Tư</td></tr>
+</tbody>
+</table>
+<p>Từ chỉ gặp trong bài đọc (đủ dùng, chưa cần thuộc): <span class="gk">προκρίνω</span> "ưu tiên hơn", <span class="gk">χορηγέω</span> "chi trả, cấp", <span class="gk">ἐάω</span> "cho phép", <span class="gk">εὐτυχέω</span> "được may mắn", <span class="gk">λαμβάνω</span> "lấy, chiếm", <span class="gk">ζάω</span> "sống" (nguyên mẫu <span class="gk">ζῆν</span>), <span class="gk">περιφέρω</span> "xoay quanh", <span class="gk">ἡ μνήμη</span> "ký ức", <span class="gk">οἱ Μασσαγέται</span> "người Massagetae", <span class="gk">ὁ Λυδός</span> "người Lydia", <span class="gk">ὁ Πέρσης</span> "người Ba Tư", <span class="gk">ὁ Χαρώνδας</span>, <span class="gk">αἱ Θούριοι</span>.</p>
+
+<h2 id="confusables">10. Bảng tổng hợp so sánh các điểm dễ nhầm</h2>
+<table>
+<thead><tr><th>Cặp dễ nhầm</th><th>Khác nhau ở đâu</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td><strong>ἐπαίδευον</strong> (1 Sg.) vs <strong>ἐπαίδευον(ν)</strong> (3 Pl.)</td><td>cùng một hình thức, hai ngôi</td><td>tìm đại từ/mạo từ số nhiều hoặc ἐγώ; nếu không có – ngữ cảnh kể chuyện ai đang làm gì</td></tr>
+<tr><td><strong>ἐπαίδευε(ν)</strong> vs <strong>ἐπαίδευες</strong></td><td>3 Sg. "hắn đang dạy" vs 2 Sg. "bạn đang dạy"</td><td>đuôi -ες có σ = ngôi 2; đọc câu xem ai được nói tới</td></tr>
+<tr><td><strong>ἦν</strong> vs <strong>εἶναι</strong> vs <strong>εἶ</strong></td><td>"đã là" (imperfect) vs nguyên mẫu "là" (bài 6) vs "bạn là" (hiện tại)</td><td>η kéo dài + đuôi -ν = quá khứ; -ναι = nguyên mẫu; εἶ ngắn = ngôi 2 hiện tại</td></tr>
+<tr><td><strong>ἔτι</strong> vs <strong>ἔστι(ν)</strong></td><td>"vẫn còn" (trạng từ) vs "là" (động từ)</td><td>một chữ σ chia đôi nghĩa; ἔτι không bao giờ làm động từ chính</td></tr>
+<tr><td><strong>οὐκέτι</strong> vs <strong>ἔτι</strong></td><td>"không còn nữa" vs "vẫn còn" – cặp phản nghĩa gói trong hai từ</td><td>οὐκ- đầu từ = phủ định; dịch thử cả câu xem khớp bối cảnh nào</td></tr>
+<tr><td><strong>πρότερον</strong> vs <strong>πρὸ</strong> + Gen.</td><td>trạng từ "trước đây" vs giới từ "trước (về không gian/thời gian)" (đã học)</td><td>πρότερον đứng tự do, thường đầu câu; πρὸ bắt buộc kèm danh từ sở hữu cách</td></tr>
+<tr><td><strong>ἐπ' ἄρχοντος</strong> + Gen. vs <strong>ἐπὶ τῷ ἄρχοντι</strong> + Dat.</td><td>công thức biên niên "dưới thời archon X" vs "vì/với vị chấp chính quan" (nghĩa thường)</td><td>trong công thức năm, tên riêng sở hữu cách luôn theo sau; ngữ cảnh biên sử</td></tr>
+<tr><td><strong>ἤκουον</strong> vs <strong>ἀκούω</strong></td><td>imperfect "tôi/họ từng nghe" vs hiện tại "tôi nghe" – chỉ khác augment η-</td><td>âm tiết đầu mang dấu hút khí trên nguyên âm dài = dấu vết tăng phụ nguyên âm (ἀ → η)</td></tr>
+<tr><td><strong>ἐβούλετο</strong> vs <strong>βούλεται</strong></td><td>"hắn từng muốn" vs "hắn muốn" – augment là đồng hồ thời gian</td><td>có ἐ- là quá khứ, không ἐ- là hiện tại; deponent không loại trừ augment</td></tr>
+<tr><td><strong>προέκρινεν</strong> vs viết sai <strong>πρόεκρινεν</strong></td><td>động từ ghép: augment chèn giữa tiền tố và thân, không đứng đầu từ</td><td>gặp tiền tố (προ-, εἰσ-, ἐκ-…) + nguyên âm dài bất thường ở giữa: bóc phần giữa ra làm ἐ-</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">11. Bài tập tự luyện + đáp án</h2>
+<p>Đáp án chỉ hiện khi in (Ctrl+P → Save as PDF) – làm hết rồi mới xem.</p>
+
+<h3>Bài tập 1 – Chia bảng imperfect</h3>
+<p>Dựng bảng chỉ định quá khứ đủ sáu ngôi của <span class="gk">παιδεύω</span> (chủ động) và <span class="gk">ἀποκρίνομαι</span> (deponent, bài 10), kèm phiên âm cho ngôi 2 số ít.</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 1</h4>
+<p><span class="gk">παιδεύω</span> chủ động: <span class="gk">ἐπαίδευον, ἐπαίδευες</span> (<span class="tr">epaídeues</span>), <span class="gk">ἐπαίδευε(ν), ἐπαιδεύομεν, ἐπαιδεύετε, ἐπαίδευον(ν)</span> – 1 Sg. = 3 Pl. như đã học. <span class="gk">ἀποκρίνομαι</span> deponent: <span class="gk">ἀπεκρινόμην, ἀπεκρίνου</span> (<span class="tr">apékrinou</span>), <span class="gk">ἀπεκρίνετο, ἀπεκρινόμεθα, ἀπεκρίνεσθε, ἀπεκρίνοντο</span> – đuôi y hệt bảng m/p; augment <span class="gk">ἐ-</span> chèn giữa tiền tố ἀπο- và thân.</p>
+</div></div>
+
+<h3>Bài tập 2 – Thêm augment</h3>
+<p>Cho 10 động từ ở hiện tại, viết ngôi 1 số ít imperfect (chủ động; với deponent thì đương nhiên dùng hệ trung/bị động):</p>
+<p class="gk">ἀκούω, ἐλπίζω, ὁρίζω, λύω, πείθω, ἐθέλω, ῥάπτω, αἰσθάνομαι, οἴομαι, ἔχω</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 2</h4>
+<p><span class="gk">ἤκουον</span> (α→η, giữ dấu hút khí); <span class="gk">ἤλπιζον</span> (ε→η); <span class="gk">ὥριζον</span> (ο→ω); <span class="gk">ἔλυον</span> (âm tiết ἐ-); <span class="gk">ἔπειθον</span> (ἐ- + πείθ-, accent rơi trên chính âm tiết augment); <span class="gk">ἤθελον</span> (ε→η); <span class="gk">ἐρράπτον</span> (ἐ- + ρ đôi, dấu mềm); <span class="gk">ᾐσθανόμην</span> (deponent: chia m/p, αι→ᾐ với iota chìm); <span class="gk">ᾤμην</span> (deponent, οι→ᾠ); <span class="gk">εἶχον</span> (augment ει- đặc biệt – bẫy lớn của bài).</p>
+</div></div>
+
+<h3>Bài tập 3 – Bóc augment, tra từ điển</h3>
+<p>Mỗi dạng sau đây gặp trong văn bản. Viết dạng từ điển (hiện tại ngôi 1) + nghĩa probable:</p>
+<p class="gk">ἤκουον, ἐλύετο, ἐβούλετο, ἐπαιδεύομεν, ᾐσθανόμην, ἦσαν, προέκρινεν, εἶχον, ἐρράπτον, ἤθελον</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 3</h4>
+<p><span class="gk">ἀκούω</span> nghe; <span class="gk">λύω</span> cởi/giải (m/p 3 Sg. "đang được cởi"); <span class="gk">βούλομαι</span> muốn (deponent); <span class="gk">παιδεύω</span> dạy (1 Pl. "chúng tôi đang dạy"); <span class="gk">αἰσθάνομαι</span> nhận thấy (deponent, 1 Sg.); <span class="gk">εἰμί</span> là (3 Pl. "họ đã là"); <span class="gk">προκρίνω</span> ưu tiên hơn (động từ ghép – augment giữa); <span class="gk">ἔχω</span> có (augment <span class="gk">ει-</span>); <span class="gk">ῥάπτω</span> khâu (ρ đôi); <span class="gk">ἐθέλω</span> muốn.</p>
+</div></div>
+
+<h3>Bài tập 4 – Hiện tại hay quá khứ?</h3>
+<p>Điền dạng đúng của động từ trong ngoặc, chọn hiện tại hay imperfect theo từ khóa thời gian:</p>
+<ol>
+<li><span class="gk">τότε ὁ Κῦρος ______</span> (<span class="gk">βούλομαι</span>) <span class="gk">τὴν ἀρχὴν λαμβάνειν.</span></li>
+<li><span class="gk">νῦν οἱ πολῖται ______</span> (<span class="gk">μανθάνω</span>) <span class="gk">γράμματα.</span></li>
+<li><span class="gk">πρότερον οἱ ἄνθρωποι οὐκ ______</span> (<span class="gk">εἰμί</span>) <span class="gk">ἐν ταῖς Θουρίοις.</span></li>
+<li><span class="gk">ὁ Χαρώνδας ______</span> (<span class="gk">ἐνομοθετέω</span>) <span class="gk">νέους νόμους· ἔτι δὲ οἱ νόμοι ______</span> (<span class="gk">ζάω</span> "sống"; gợi ý: ngôi 3 số nhiều).</li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Đáp án 4</h4>
+<p>(1) <span class="gk">ἐβούλετο</span> – τότε + tường thuật quá khứ = imperfect. (2) <span class="gk">μανθάνουσι(ν)</span> – <span class="gk">νῦν</span> "bây giờ" = hiện tại 3 Pl. (3) <span class="gk">ἦσαν</span> – <span class="gk">πρότερον + οὐκ</span> = imperfect của <span class="gk">εἰμί</span>, 3 Pl. (4) <span class="gk">ἐνομοθέτει</span> – quá khứ tường thuật (động từ co -έω, đuôi -ει); <span class="gk">ἔτι δὲ οἱ νόμοι ζῶσιν</span> "và các luật vẫn (còn) sống" – <span class="gk">ἔτι</span> không chia, nó là trạng từ đi kèm hiện tại.</p>
+</div></div>
+
+<h3>Bài tập 5 – Dịch sang Hy Lạp</h3>
+<p>Dịch (dùng từ vựng hai bài đọc; imperfect chỉ định):</p>
+<ol>
+<li>"Cyrus từng là vua của người Ba Tư."</li>
+<li>"Croesus nói với Cyrus: bạn cũng là người."</li>
+<li>"Bấy giờ thành phố vẫn còn chi trả lương cho các thầy giáo."</li>
+</ol>
+<div class="answer"><div class="loesung"><h4>Đáp án 5</h4>
+<p>(1) <span class="gk">ὁ Κῦρος ἦν βασιλεὺς τῶν Περσῶν</span> – <span class="gk">ἦν</span> 3 Sg. (1 = 3 Sg.); sở hữu cách sau danh từ. (2) <span class="gk">ὁ Κροῖσος ἔλεγεν πρὸς τὸν Κῦρον· ἄνθρωπος εἶ</span> – khung imperfect + lời nói hiện tại bản gốc dùng <span class="gk">εἶς</span> ("bạn cũng vậy"). (3) <span class="gk">τότε ἡ πόλις ἔτι ἐχορήγει τοὺς μισθοὺς τοῖς διδασκάλοις</span> – <span class="gk">τότε</span> + <span class="gk">ἔτι</span> đều đứng đầu; imperfect vì chính sách đang vận hành.</p>
+</div></div>
+
+<h3>Bài tập 6 – Đoạn tổng hợp (ôn bài 4–11)</h3>
+<p class="gk" style="font-size:1.12em;">τότε ὁ Κῦρος ἐβούλετο τὴν ἀρχὴν τῶν Μασσαγετῶν λαμβάνειν. ὁ Κροῖσος δὲ ἔλεγεν· "ἄνθρωπος εἶ. ὁ κύκλος τῶν ἀνθρωπηΐων πρηγμάτων περιφέρεται." ὁ δὲ Κῦρος οὐκ ἐπείθετο, καὶ διὰ τοῦ ποταμοῦ ἐπορεύετο.</p>
+<p>(Gloss cho đoạn: <span class="gk">ὁ ποταμός</span> "dòng sông"; <span class="gk">πορεύομαι</span> deponent "hành quân, đi".)</p>
+<p>(a) Xác định tất cả động từ imperfect trong đoạn và chỉ ngôi + số. (b) Vì sao câu trong lời thoại lại dùng hiện tại? (c) Tìm một trạng từ thời gian và một cụm giới từ chỉ đường đi có trong đoạn. (d) <span class="gk">ἐπορεύετο</span> (πορεύομαι "hành quân, đi") – bóc augment và cho biết ngôi, số, thời.</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 6</h4>
+<p>(a) <span class="gk">ἐβούλετο</span> (deponent <span class="gk">βούλομαι</span>, 3 Sg.), <span class="gk">ἔλεγεν</span> (<span class="gk">λέγω</span>, 3 Sg.), <span class="gk">ἐπείθετο</span> (deponent <span class="gk">πείθομαι</span>, 3 Sg.), <span class="gk">ἐπορεύετο</span> (deponent <span class="gk">πορεύομαι</span>, 3 Sg.) – đoạn tường thuật cứ imperfect mà tiến. (b) Lời thoại là chân lý phổ quát (gnomic present) – không mang augment, như bài đọc I đã phân tích. (c) Trạng từ thời gian: <span class="gk">τότε</span> (đầu câu); cụm giới từ chỉ đường đi: <span class="gk">διὰ τοῦ ποταμοῦ</span> (<span class="gk">διὰ</span> + sở hữu cách: "qua dòng sông"). (d) <span class="gk">ἐπορεύετο</span> = <span class="gk">ἐ-</span> + <span class="gk">πορεύομαι</span>: 3 Sg. imperfect m/p của deponent "hành quân" – "hắn đang tiến quân".</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 11 – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Bản đọc đối chiếu: Herodot 1,207; Diodor 12,13 (bản chữ Hy Lạp public domain).</p>
+
+</main>
+</body>
+</html>
