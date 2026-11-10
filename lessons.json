@@ -264,6 +264,26 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "13-aorist-sigmatic-thematic",
+      "num": 13,
+      "level": "graecum-1",
+      "title": "Aorist chủ động/trung (dạng sigmatic & thematic)",
+      "topics": [
+        "khái niệm aorist (ἀόριστος) và khía cạnh (aspect): chốt sự kiện vs imperfect vẽ nền; Latin corner vēnī, vīdī, vīcī",
+        "aorist sigmatic chủ động: ἔλυσα 6 ngôi; phụ âm + σ (ἔγραψα, ἐκήρυξα); động từ co ἐποίησα; λύσω vs ἔλυσα",
+        "aorist m/p: ἐλυσάμην; deponent ἐβουλευσάμην, ἡγήσατο, ἠκολούθησα; Latin corner dīxī ↔ ἔδειξα",
+        "aorist chủ đề (thematic): ἦλθον, ἔλαβον, εὗρον, ἐγενόμην, εἶπον; ἔλαβον vs ἐλάμβανον",
+        "aorist thân lỏng (liquid): ἔμεινα, ἔκρῑνα, ἔστειλα, ἀπεκρινάμην",
+        "bản đồ aspect và chiến lược bóc aorist 4 bước; hiện tại lịch sử ὁρῶ; imperfect trá hình προὔτεινεν"
+      ],
+      "reading": [
+        "Aristides, Or. 51 Keil (= 27 Dindorf) 61-63",
+        "Xenophon, Anabasis 2,5"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }

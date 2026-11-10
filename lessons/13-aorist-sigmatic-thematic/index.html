@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 13 – Aorist chủ động/trung (dạng sigmatic &amp; thematic)</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; }
+  .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 4px solid #1976d2; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; }
+  .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 4px solid #db2777; padding: 10px 16px; margin: 16px 0; font-size: 0.97em; }
+  .latin p:first-child { margin-top: 0; }
+  .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 4px solid #0f766e; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; }
+  .info p:last-child { margin-bottom: 0; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; background: #f8fafc; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 13: Aorist chủ động/trung (dạng sigmatic &amp; thematic)</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Aorist: thời của sự kiện trọn vẹn</a></li>
+<li><a href="#s2">Aorist sigmatic chủ động: ἔλυσα</a></li>
+<li><a href="#s3">Quy tắc phụ âm + σ quay lại: ἔγραψα, ἐδίωξα, ἔπεισα</a></li>
+<li><a href="#s4">Aorist sigmatic trung/bị động &amp; deponent: ἐλυσάμην</a></li>
+<li><a href="#s5">Aorist chủ đề (thematic): ἦλθον, ἔλαβον, ἐγενόμην</a></li>
+<li><a href="#s6">Aorist của thân lỏng: ἔμεινα, ἔκρῑνα, ἀπεκρινάμην</a></li>
+<li><a href="#s7">Đồng hồ bốn thời &amp; chiến lược "bóc aorist"</a></li>
+<li><a href="#reading">Bài đọc I: Giấc mơ về ngôi đền của Plato (Aristides, Or. 51 Keil 61–63)</a></li>
+<li><a href="#reading2">Bài đọc II: Klearchos ký gửi tình bạn (Xenophon, Anabasis 2,5)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) giải thích <strong>aorist</strong> là cái nhìn "sự kiện trọn vẹn" và đối lập nó với hiện tại, imperfect, tương lai trên cùng một trục; (2) dựng đủ sáu ngôi <strong>aorist sigmatic (sigmatic aorist, aorist thứ nhất)</strong> chủ động (<span class="gk">ἔλυσα</span>…) kể cả quy tắc phụ âm + <span class="gk">σ</span> (<span class="gk">ἔγραψα, ἐδίωξα, ἔπεισα</span>) và aorist của động từ co (<span class="gk">ἐποίησα</span> – đôi với <span class="gk">ποιήσω</span> của bài 12); (3) chia <strong>aorist sigmatic trung/bị động</strong> (<span class="gk">ἐλυσάμην</span>) và dùng aorist deponent (<span class="gk">ἐβουλευσάμην, ἡγήσατο</span>); (4) nhận diện và chia <strong>aorist chủ đề (thematic aorist, aorist thứ hai)</strong> với thân mới (<span class="gk">ἦλθον, ἔλαβον, εὗρον, ἐγενόμην</span>) và aorist của thân lỏng (<span class="gk">ἔμεινα, ἔκρῑνα, ἀπεκρινάμην</span>); (5) đọc hai đoạn gốc: Aristides, Or. 51 Keil 61–63 và Xenophon, Anabasis 2,5.</p>
+</div>
+
+<h2 id="s1">1. Aorist: thời của sự kiện trọn vẹn</h2>
+
+<p>Trước giờ bạn đã giữ hai cái nhìn về hành động: "đang tiến triển" (hiện tại, imperfect) và "sắp tiến triển" (tương lai). Hôm nay bổ sung cái nhìn thứ ba, và nó là xương sống của mọi câu chuyện Hy Lạp: <strong>aorist (aorist)</strong> – thời nhìn sự kiện như <strong>một khối trọn vẹn</strong>: đã xảy ra, đã khép lại, không bóc vào bên trong xem nó "đang diễn ra cỡ nào".</p>
+
+<table>
+<thead><tr><th>Thời</th><th>Cái nhìn</th><th>Trực quan</th><th>Ví dụ với <span class="gk">λύω</span> "tháo"</th></tr></thead>
+<tbody>
+<tr><td><strong>Hiện tại</strong></td><td>đang diễn ra lúc nói</td><td>──●──▶ (bây giờ)</td><td><span class="gk">λύω</span> – tôi đang tháo</td></tr>
+<tr><td><strong>Quá khứ chưa hoàn thành</strong> (bài 11)</td><td>đang diễn ra tại điểm quá khứ</td><td>──▶<span style="color:#b45309;">●</span>──▶ (bấy giờ)</td><td><span class="gk">ἔλυον</span> – (bấy giờ) tôi đang tháo</td></tr>
+<tr><td><strong>Aorist</strong> – mới hôm nay</td><td>sự kiện như khối trọn vẹn trong quá khứ</td><td>───<span style="color:#dc2626;">▮</span>─── (đã xong)</td><td><span class="gk">ἔλυσα</span> – tôi đã tháo (một sự kiện)</td></tr>
+<tr><td><strong>Tương lai</strong> (bài 12)</td><td>sự kiện sắp đến</td><td>──▶▶<span style="color:#2563eb;">●</span></td><td><span class="gk">λύσω</span> – tôi sẽ tháo</td></tr>
+</tbody>
+</table>
+
+<p>Hai thời quá khứ chia việc với nhau rất rõ rệt trong văn kể chuyện: <strong>imperfect vẽ nền</strong> (cảnh trí, diễn biến đang trôi, thói quen – bài 11), còn <strong>aorist kể sự kiện chính</strong>, sự kiện "chốt hạ từng nhịp". Nếu câu chuyện là một đoạn phim, imperfect là cảnh lia máy quay quanh căn phòng; aorist là những cú "cắt" đưa câu chuyện đi tiếp: hắn <em>đến</em>, <em>nói</em>, <em>lấy</em>, <em>đi</em> – mỗi động từ một khối trọn.</p>
+
+<div class="info">
+<p><strong>Tên gọi:</strong> <span class="gk">ἀόριστος</span> (<span class="tr">aóristos</span>) nghĩa là "không định giới hạn": <span class="gk">ἀ-</span> "không" + <span class="gk">ὁρίζω</span> "đặt ranh giới" (danh từ cùng gốc: <span class="gk">τὸ ὅρος</span> "ranh giới, tiêu chuẩn" – cũng là gốc của từ <em>horizon</em> trong tiếng Anh). Các nhà ngữ pháp thời Alexandria đặt tên thế vì aorist <em>không nói gì</em> về thời lượng hay tiến trình bên trong sự kiện: nó chỉ nói "sự việc đó (đã) xảy ra, nhìn như khối". Trong chỉ định (indicative), aorist đứng ở quá khứ; nhưng cái nhìn "khối trọn" còn sống ở mệnh lệnh và mệnh đề phụ – sẽ gặp dần ở các bài sau.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> vai trò "kể sự kiện đã xong" do <em>perfect</em> Latin đảm nhận: <em>amāvī</em> "tôi đã yêu (và hết chuyện)". Latin gói hai việc vào một thời: "sự kiện trọn" và "kết quả còn đọng đến nay". Hy Lạp tách hai: <strong>aorist</strong> chỉ sự kiện trọn (bài hôm nay), còn "kết quả còn đọng" là thời hoàn thành (perfect, bài 14). Bài học thực dụng: khi dịch aorist, hầu như luôn tương ứng với <em>perfect</em> Latin trong văn kể chuyện – Caesar viết <em>vēnī, vīdī, vīcī</em> "tôi đến, tôi thấy, tôi thắng"; nếu Caesar là người Hy Lạp, câu này là chuỗi ba aorist: <span class="gk">ἦλθον, εἶδον, ἐνίκησα</span> (hai dạng đầu là aorist chủ đề, dạng cuối là aorist sigmatic của động từ co <span class="gk">νικάω</span> "thắng" – hôm nay bạn sẽ dựng được cả ba).</p>
+</div>
+
+<h2 id="s2">2. Aorist sigmatic chủ động: ἔλυσα</h2>
+
+<p>Dạng aorist thường gặp nhất được đóng gói bằng chữ <span class="gk">σ</span> – quen thuộc từ tương lai của bài 12: <strong>aorist sigmatic (sigmatic aorist)</strong>, còn gọi <strong>aorist thứ nhất (first aorist)</strong>. Công thức so sánh hai anh em σ:</p>
+
+<table>
+<thead><tr><th></th><th>Tương lai (bài 12)</th><th>Aorist sigmatic (hôm nay)</th></tr></thead>
+<tbody>
+<tr><td><strong>Công thức</strong></td><td>thân hiện tại + <span class="gk">σ</span> + đuôi <strong>hiện tại</strong> chủ động</td><td><span class="gk">ἐ-</span> (augment) + thân + <span class="gk">σα</span> + đuôi <strong>thứ cấp</strong> (secondary endings)</td></tr>
+<tr><td><strong>Khóa nhận diện</strong></td><td>chữ <span class="gk">σ</span>, <strong>không augment</strong></td><td>augment <span class="gk">ἐ-</span> + <strong>khối <span class="gk">-σα-</span></strong></td></tr>
+<tr><td><strong>παιδεύω "dạy"</strong></td><td><span class="gk">παιδεύσω, παιδεύσεις, παιδεύσει</span></td><td><span class="gk">ἐπαίδευσα, ἐπαίδευσας, ἐπαίδευσε(ν)</span></td></tr>
+</tbody>
+</table>
+
+<p>Bộ đuôi thứ cấp bạn đã học khi chia imperfect (<span class="gk">ἐπαίδευον, ἐπαίδευες, ἐπαίδευε(ν)</span>…); aorist sigmatic lấy đúng bộ đuôi ấy nhưng gắn sau khối <span class="gk">-σα-</span>. Bảng đủ sáu ngôi của <span class="gk">λύω</span> "tháo, giải phóng":</p>
+
+<table>
+<thead><tr><th>Ngôi</th><th>Đuôi</th><th><span class="gk">λύω</span> "tháo"</th><th>Phiên âm</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td><strong>1 Sg.</strong></td><td><span class="gk">-σα</span></td><td><span class="gk">ἔλυσα</span></td><td><span class="tr">élusa</span></td><td>tôi đã tháo</td></tr>
+<tr><td><strong>2 Sg.</strong></td><td><span class="gk">-σας</span></td><td><span class="gk">ἔλυσας</span></td><td><span class="tr">élusas</span></td><td>bạn đã tháo</td></tr>
+<tr><td><strong>3 Sg.</strong></td><td><span class="gk">-σε(ν)</span></td><td><span class="gk">ἔλυσε(ν)</span></td><td><span class="tr">éluse(n)</span></td><td>hắn đã tháo</td></tr>
+<tr><td><strong>1 Pl.</strong></td><td><span class="gk">-σαμεν</span></td><td><span class="gk">ἐλύσαμεν</span></td><td><span class="tr">elúsamen</span></td><td>chúng tôi đã tháo</td></tr>
+<tr><td><strong>2 Pl.</strong></td><td><span class="gk">-σατε</span></td><td><span class="gk">ἐλύσατε</span></td><td><span class="tr">elúsate</span></td><td>các bạn đã tháo</td></tr>
+<tr><td><strong>3 Pl.</strong></td><td><span class="gk">-σαν</span></td><td><span class="gk">ἔλυσαν</span></td><td><span class="tr">élusan</span></td><td>họ đã tháo</td></tr>
+</tbody>
+</table>
+
+<p>Ba chi tiết cần khắc ngay: (1) <strong>augment bắt buộc</strong> ở chỉ định – aorist mà thiếu <span class="gk">ἐ-</span> thì không phải aorist trần thuật (xem achtung dưới); (2) <strong>accent rụt về</strong> theo quy tắc chung: <span class="gk">ἔλυσα, ἐλύσαμεν, ἔλυσαν</span> – accent neo ở âm tiết hợp lệ gần cuối (ἔ- vì đầu câu là augment không mang accent); (3) <strong>nu di động (movable nu)</strong> ở 3 Sg. <span class="gk">ἔλυσε(ν)</span> – y hệt <span class="gk">ἐπαίδευε(ν)</span> của imperfect: có nu khi từ kế tiếp bắt đầu bằng nguyên âm hoặc đứng cuối câu.</p>
+
+<div class="achtung">
+<p><strong>Achtung – augment là biên giới hai bờ:</strong> cặp dạng nguy hiểm nhất của toàn hệ thống σ: <span class="gk">λύσω</span> (tương lai, không augment) vs <span class="gk">ἔλυσα</span> (aorist, có augment). Một dấu <span class="gk">ἐ-</span> đổi "sắp tới" thành "đã xảy ra". Tự kiểm tra nhanh: thấy chữ <span class="gk">σ</span> → hỏi "augment đâu?": có <span class="gk">ἐ-</span> hoặc nguyên âm đầu kéo dài → aorist quá khứ; không → tương lai. Lưu ý bờ thứ ba: augment <em>không độc quyền</em> aorist – imperfect cũng có augment (<span class="gk">ἐπαίδευον</span>); σ mới là khóa phân biệt chúng.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Cách ghi nhớ bộ đuôi:</strong> đuôi aorist sigmatic = đuôi imperfect "đeo thêm" <span class="gk">-σα-</span>: <span class="gk">-ον/-ες/-ε</span> → <span class="gk">-σα/-σας/-σε</span>; <span class="gk">-ομεν/-ετε/-ον</span> → <span class="gk">-σαμεν/-σατε/-σαν</span>. Nếu đã thuộc bảng imperfect của bài 11 thì bạn đã thuộc aorist: chỉ cần thay phần đầu đuôi.</p>
+</div>
+
+<h2 id="s3">3. Quy tắc phụ âm + σ quay lại: ἔγραψα, ἐδίωξα, ἔπεισα</h2>
+
+<p>Khối <span class="gk">-σα-</span> chạm vào phụ âm cuối thân thì nảy ra đúng bộ quy tắc ψ/ξ/σ đã học ở mục 2 bài 12 – chẳng cần học lại, chỉ đổi "tương lai" thành "aorist":</p>
+
+<table>
+<thead><tr><th>Thân tận cùng</th><th>Phép biến đổi</th><th>Tương lai (bài 12)</th><th>Aorist (hôm nay)</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">π, β, φ</span></td><td>+ <span class="gk">σ</span> → <span class="gk">ψ</span></td><td><span class="gk">γράψω</span> "sẽ viết"</td><td><span class="gk">ἔγραψα</span> "đã viết"</td></tr>
+<tr><td><span class="gk">κ, γ, χ</span></td><td>+ <span class="gk">σ</span> → <span class="gk">ξ</span></td><td><span class="gk">διώξω</span> "sẽ đuổi"</td><td><span class="gk">ἐδίωξα</span> "đã đuổi"</td></tr>
+<tr><td><span class="gk">τ, δ, θ</span></td><td>lợi danh, + <span class="gk">σ</span> → <span class="gk">σ</span></td><td><span class="gk">πείσω</span> "sẽ thuyết phục"</td><td><span class="gk">ἔπεισα</span> "đã thuyết phục"</td></tr>
+<tr><td><span class="gk">σσ</span> (từ *κ/γ)</td><td>+ <span class="gk">σ</span> → <span class="gk">ξ</span></td><td><span class="gk">πράξω</span></td><td><span class="gk">ἔπραξα</span> "đã làm, đã thực hiện"</td></tr>
+<tr><td><span class="gk">ζ</span></td><td>rụt, nguyên âm bù dài</td><td><span class="gk">ἐλπίσω</span></td><td><span class="gk">ἤλπισα</span> "đã hy vọng" (augment nguyên âm ἐ→η)</td></tr>
+</tbody>
+</table>
+
+<p>Lưu ý augmentation: các động từ có nguyên âm đầu ngắn nhận <strong>augment nguyên âm (temporal augment)</strong> như ở bài 11: <span class="gk">ἐλπίζω</span> → <span class="gk">ἤλπισα</span> (ἐ → η), <span class="gk">ἄγω</span> → <span class="gk">ἦξα</span> "đã dẫn" (ἀ dấu hút khí + ἐ → ἦ – cùng cơ chế <span class="gk">ἀκούω → ἤκουον</span>). Động từ ghép thì augment chen giữa tiền tố và thân, như quy tắc cũ: <span class="gk">προσβαίνω</span>? – để an toàn, hãy nhớ ba mảnh đã gặp: <span class="gk">προέκρινεν</span> (bài 11), và hôm nay sẽ bóc thêm <span class="gk">παρῆλθον</span> ở bài đọc I.</p>
+
+<h3>Động từ co: aorist không co, như tương lai</h3>
+<p>Động từ co (bài 12) tạo aorist đúng bằng chất liệu của tương lai: nguyên âm cuối thân + <span class="gk">σ</span> cho <span class="gk">η</span>, rồi đến lượt <span class="gk">-σα-</span> gắn đuôi:</p>
+<table>
+<thead><tr><th>Họ</th><th>Hiện tại (co)</th><th>Tương lai (bài 12)</th><th>Aorist (hôm nay)</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ποιέω</span></td><td><span class="gk">ποιῶ</span></td><td><span class="gk">ποιήσω</span></td><td><span class="gk">ἐποίησα</span></td><td>đã làm</td></tr>
+<tr><td><span class="gk">τιμάω</span></td><td><span class="gk">τιμῶ</span></td><td><span class="gk">τιμήσω</span></td><td><span class="gk">ἐτίμησα</span></td><td>đã tôn vinh</td></tr>
+<tr><td><span class="gk">δηλόω</span></td><td><span class="gk">δηλῶ</span></td><td><span class="gk">δηλώσω</span></td><td><span class="gk">ἐδήλωσα</span></td><td>đã làm rõ</td></tr>
+<tr><td><span class="gk">νικάω</span></td><td><span class="gk">νικῶ</span></td><td><span class="gk">νικήσω</span></td><td><span class="gk">ἐνίκησα</span></td><td>đã thắng</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Achtung – hai "bà con" σ của động từ co giống nhau đến một chữ:</strong> <span class="gk">ποιήσω</span> và <span class="gk">ἐποίησα</span> có chung thân <span class="gk">ποιησ-</span> (η là dấu vết của ε+σ). Khác nhau ở hai điểm: augment (chỉ aorist có) và accent – tương lai giữ accent <strong>đứng yên trên nguyên âm dài của thân</strong> cả bảng (<span class="gk">ποιήσω, ποιήσεις, ποιήσομεν</span> – quy tắc riêng bài 12), còn aorist accent <strong>rụt về theo quy tắc chung</strong>: <span class="gk">ἐποίησα, ἐποίησας, ἐποίησε(ν), ἐποιήσαμεν, ἐποιήσατε, ἐποίησαν</span>. Đặt hai bảng cạnh nhau và đọc to ba lượt: tai sẽ bắt được cặp accent này suốt đời đọc văn.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> chữ <span class="gk">σ</span> trong aorist Hy Lạp và chữ <em>-s-</em> trong perfect Latin nhiều động từ là <em>cùng một di vật</em> của ngôn ngữ tổ chung: <em>dīcō</em> "nói" → perfect <em>dīxī</em> (dīc- + s- → <em>dīxī</em>, ῑ bù dài); Hy Lạp: <span class="gk">δεικνύω</span> "cho thấy" → <span class="gk">ἔδειξα</span> (δεικ- + σα → <span class="gk">ἔδειξα</span>, cùng ξ!). Hai ngôn ngữ, một cú búng ngón tay cổ: chèn <em>-s-</em> để đóng khối sự kiện. Đó là lý do các nhà ngữ pháp lịch sử coi hai dấu hiệu này là anh em thật: <em>dīxī</em> và <span class="gk">ἔδειξα</span> cùng một vết sẹo tổ truyền.</p>
+</div>
+
+<h2 id="s4">4. Aorist sigmatic trung/bị động &amp; deponent: ἐλυσάμην</h2>
+
+<p>Aorist trung/bị động (middle/passive) cũng làm việc với khối <span class="gk">-σα-</span>, đuôi là bộ đuôi thứ cấp trung/bị động đã gặp ở bảng imperfect của bài 11 – chỉ có điều gắn sau <span class="gk">-σα-</span>:</p>
+
+<table>
+<thead><tr><th>Ngôi</th><th>Đuôi</th><th><span class="gk">λύω</span> trung/bị động</th><th>Phiên âm</th><th>Nghĩa (trung)</th></tr></thead>
+<tbody>
+<tr><td><strong>1 Sg.</strong></td><td><span class="gk">-σαμην</span></td><td><span class="gk">ἐλυσάμην</span></td><td><span class="tr">elusámēn</span></td><td>tôi đã tháo (cho mình)</td></tr>
+<tr><td><strong>2 Sg.</strong></td><td><span class="gk">-σω</span></td><td><span class="gk">ἐλύσω</span></td><td><span class="tr">elúsō</span></td><td>bạn đã tháo (cho mình)</td></tr>
+<tr><td><strong>3 Sg.</strong></td><td><span class="gk">-σατο</span></td><td><span class="gk">ἐλύσατο</span></td><td><span class="tr">elúsato</span></td><td>hắn đã tháo (cho mình)</td></tr>
+<tr><td><strong>1 Pl.</strong></td><td><span class="gk">-σαμεθα</span></td><td><span class="gk">ἐλυσάμεθα</span></td><td><span class="tr">elusámetha</span></td><td>chúng tôi đã tháo (cho mình)</td></tr>
+<tr><td><strong>2 Pl.</strong></td><td><span class="gk">-σασθε</span></td><td><span class="gk">ἐλύσασθε</span></td><td><span class="tr">elúsasthe</span></td><td>các bạn đã tháo (cho mình)</td></tr>
+<tr><td><strong>3 Pl.</strong></td><td><span class="gk">-σαντο</span></td><td><span class="gk">ἐλύσαντο</span></td><td><span class="tr">elúsanto</span></td><td>họ đã tháo (cho mình)</td></tr>
+</tbody>
+</table>
+
+<p>Đặt bảng này cạnh bảng imperfect trung/bị động (<span class="gk">ἐλυόμην, ἐλύου, ἐλύετο…</span>) sẽ thấy quan hệ một-kèm-một: <strong>họ σ</strong> chính là họ imperfect thêm <span class="gk">-σα-</span>: <span class="gk">ἐλυόμην → ἐλυσάμην</span>, <span class="gk">ἐλύετο → ἐλύσατο</span>. Nghĩa trung vẫn là nghĩa trung đã học: chủ thể làm <em>cho mình</em> hoặc <em>nhắm vào mình</em> – <span class="gk">ἐλυσάμην</span> có thể là "tôi đã tự tháo cho mình", trong ngôn ngữ quân sự cổ điển là "tôi đã chuộc về". Một dạng bị động chuyên biệt với khối <span class="gk">-θη-</span> sẽ dành cho bài 14; hôm nay hãy nhớ trước hai lớp dùng phổ biến nhất:</p>
+
+<table>
+<thead><tr><th>Lớp</th><th>Hiện tại</th><th>Aorist</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td><strong>Trung thường</strong></td><td><span class="gk">βουλεύω</span> "bàn"</td><td><span class="gk">ἐβουλευσάμην</span></td><td>tôi đã bàn tính, đã cân nhắc</td></tr>
+<tr><td><strong>Deponent</strong></td><td><span class="gk">ἡγέομαι</span> "dẫn đầu; coi là"</td><td><span class="gk">ἡγήσατο</span></td><td>hắn đã coi là, đã dẫn đầu</td></tr>
+<tr><td><strong>Deponent co</strong></td><td><span class="gk">ἀκολουθέω</span> "theo" (+ tặng cách, bài 12)</td><td><span class="gk">ἠκολούθησα</span></td><td>đã theo (chủ động; động từ này giữ aorist chủ động dù hiện tại co – tiếng Hy Lạp thực tế không luôn đều tặn)</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Cách ghi nhớ:</strong> khối <span class="gk">-σα-</span> là "vòi nước" chung cho chủ động lẫn trung/bị động: sau vòi, đuôi nào của bài 11 chảy ra thì ấy là ngôi ấy. Chỉ cần học một lần bản đồ đuôi thứ cấp, dùng được cho imperfect, aorist chủ động, aorist m/p.</p>
+</div>
+
+<h2 id="s5">5. Aorist chủ đề (thematic): ἦλθον, ἔλαβον, ἐγενόμην</h2>
+
+<p>Ngoài họ σ, Hy Lạp còn một họ aorist thứ hai đóng gói hoàn toàn khác: <strong>aorist chủ đề (thematic aorist)</strong>, còn gọi <strong>aorist thứ hai (second aorist)</strong>. Cái tên "chủ đề" nhắc bạn về nguyên âm chủ đề (thematic vowel) <span class="gk">-ο-/-ε-</span> của bài 6: các dạng này nối thân với đuôi bằng nguyên âm chủ đề, đúng kiểu imperfect. Thực ra công thức gọn đến bất ngờ:</p>
+<p style="text-align:center;"><strong>augment + <em>thân mới</em> + đuôi imperfect</strong></p>
+
+<p>Chìa khóa nằm ở hai chữ "thân mới": động từ đổi sang một thân <em>khác</em> – thường ngắn hơn, cổ hơn – rồi chia với đuôi thứ cấp của imperfect. So sánh anh em họ sigmatic: <span class="gk">ἔλυσα</span> lấy thân hiện tại <span class="gk">λυ-</span>; còn <span class="gk">ἦλθον</span> bỏ thân hiện tại <span class="gk">ἐρχ-</span> để lấy thân <span class="gk">ἐλθ-</span>. Bốn cặp quen thuộc nhất:</p>
+
+<table>
+<thead><tr><th>Hiện tại</th><th>Aorist chủ đề</th><th>Nghĩa</th><th>Phiên âm cặp</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἔρχομαι</span></td><td><span class="gk">ἦλθον</span></td><td>đến, đi</td><td><span class="tr">érchomai – êlthon</span></td></tr>
+<tr><td><span class="gk">λαμβάνω</span></td><td><span class="gk">ἔλαβον</span></td><td>lấy, nhận</td><td><span class="tr">lambánō – élaboron</span></td></tr>
+<tr><td><span class="gk">εὑρίσκω</span></td><td><span class="gk">εὗρον</span></td><td>tìm thấy</td><td><span class="tr">heurískō – heûron</span></td></tr>
+<tr><td><span class="gk">γίγνομαι</span></td><td><span class="gk">ἐγενόμην</span></td><td>trở thành, xảy ra</td><td><span class="tr">gígnomai – egenómēn</span></td></tr>
+<tr><td><span class="gk">λέγω</span></td><td><span class="gk">εἶπον</span></td><td>nói</td><td><span class="tr">légō – eîpon</span></td></tr>
+</tbody>
+</table>
+
+<p>Bảng đủ sáu ngôi, lấy <span class="gk">ἔρχομαι</span> làm mẫu (đuôi đúng bảng imperfect chủ động của bài 11):</p>
+
+<table>
+<thead><tr><th>Ngôi</th><th><span class="gk">ἔρχομαι</span> "đến"</th><th>Phiên âm</th><th><span class="gk">λαμβάνω</span> "lấy"</th></tr></thead>
+<tbody>
+<tr><td><strong>1 Sg.</strong></td><td><span class="gk">ἦλθον</span></td><td><span class="tr">êlthon</span></td><td><span class="gk">ἔλαβον</span></td></tr>
+<tr><td><strong>2 Sg.</strong></td><td><span class="gk">ἦλθες</span></td><td><span class="tr">êlthes</span></td><td><span class="gk">ἔλαβες</span></td></tr>
+<tr><td><strong>3 Sg.</strong></td><td><span class="gk">ἦλθε(ν)</span></td><td><span class="tr">êlthe(n)</span></td><td><span class="gk">ἔλαβε(ν)</span></td></tr>
+<tr><td><strong>1 Pl.</strong></td><td><span class="gk">ἦλθομεν</span></td><td><span class="tr">êlthomen</span></td><td><span class="gk">ἐλάβομεν</span></td></tr>
+<tr><td><strong>2 Pl.</strong></td><td><span class="gk">ἦλθετε</span></td><td><span class="tr">êlthete</span></td><td><span class="gk">ἐλάβετε</span></td></tr>
+<tr><td><strong>3 Pl.</strong></td><td><span class="gk">ἦλθον</span></td><td><span class="tr">êlthon</span></td><td><span class="gk">ἔλαβον</span></td></tr>
+</tbody>
+</table>
+
+<p>Ba chú ý: (1) <strong>1 Sg. = 3 Pl.</strong> y như imperfect (<span class="gk">ἦλθον</span> vừa là "tôi đã đến" vừa là "họ đã đến" – ngữ cảnh phân biệt); (2) <span class="gk">εὗρον</span> và <span class="gk">εἶπον</span> có <strong>augment dạng nguyên âm dài</strong> ở đầu (<span class="gk">εὑ-</span> với dấu hut, <span class="gk">εἰ-</span>) – cùng hiện tượng ε kéo dài của bài 11; (3) <span class="gk">ἐγενόμην</span> là <strong>aorist chủ đề trung/bị động</strong>: deponent <span class="gk">γίγνομαι</span> chia với đuôi m/p thứ cấp của bài 11: <span class="gk">ἐγενόμην, ἐγένου, ἐγένετο, ἐγενόμεθα, ἐγένεσθε, ἐγένοντο</span> – bạn sẽ đọc đúng dạng <span class="gk">κατεθέμεθα</span> "chúng tôi đã ký gửi" ở bài đọc II: đuôi <span class="gk">-εμεθα</span> đúng vị trí, chỉ khác đuôi accent.</p>
+
+<div class="achtung">
+<p><strong>Achtung – aorist chủ đề "mặc áo" imperfect:</strong> <span class="gk">ἔλαβον</span> và <span class="gk">ἐλάμβανον</span> khác nhau ở <em>một âm tiết</em> đằng trước: cái nhìn "khối trọn" (<span class="gk">ἔλαβον</span>) vs cái nhìn "đang tiến triển" (<span class="gk">ἐλάμβανον</span>). Trong một câu chuyện, chữ đầu kể sự kiện, chữ sau vẽ nền. Cách tự kiểm tra: gỡ augment, hỏi "thân còn lại là thân hiện tại không?": <span class="gk">ἐλάμβαν-</span> chính là thân hiện tại (βαν gắn khớp <span class="gk">λαμβάνω</span>) → imperfect; <span class="gk">ἐλαβ-</span> là thân <em>khác</em> (đối chiếu bảng cặp ở trên) → aorist chủ đề. Từ điển ghi sẵn cặp hiện tại–aorist, và bảng từ vựng cuối bài cũng ghi theo cặp: học cặp, đừng học một.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Thủ thuật đọc:</strong> gặp dạng augment + đuôi imperfect mà động từ quen thuộc "không ra" thì khả năng cao bạn đang thấy aorist chủ đề: thử tra theo thân rút gọn (bỏ augment, bỏ đuôi): <span class="gk">ἦλθ-</span>, <span class="gk">ἐλαβ-</span>, <span class="gk">εὑρ-</span> – ba thân ngắn này là "tên mật danh" của ba động từ cực thường gặp.</p>
+</div>
+
+<h2 id="s6">6. Aorist của thân lỏng: ἔμεινα, ἔκρῑνα, ἀπεκρινάμην</h2>
+
+<p>Bài 12 đã dạy tương lai lỏng (liquid future) của động từ thân λ/μ/ν/ρ: <span class="gk">μένω → μενῶ</span>. Họ động từ này có aorist cũng "lỏng" tương ứng – gọi là <strong>aorist thân lỏng (liquid aorist)</strong>, về bản chất là aorist thứ nhất mà <span class="gk">σ</span> rụt trước phụ âm lỏng, nguyên âm trước bù dài (compensatory lengthening, như đã gặp ở bài 12):</p>
+
+<table>
+<thead><tr><th>Hiện tại</th><th>Tương lai lỏng (bài 12)</th><th>Aorist thân lỏng (hôm nay)</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">μένω</span></td><td><span class="gk">μενῶ</span></td><td><span class="gk">ἔμεινα</span></td><td>ở lại – đã ở lại</td></tr>
+<tr><td><span class="gk">κρῑνω</span></td><td><span class="gk">κρῑνῶ</span></td><td><span class="gk">ἔκρῑνα</span></td><td>xét, phán – đã xét</td></tr>
+<tr><td><span class="gk">στέλλω</span></td><td><span class="gk">στελῶ</span></td><td><span class="gk">ἔστειλα</span></td><td>gửi đi – đã gửi</td></tr>
+</tbody>
+</table>
+
+<p>Đuôi gắn sau đúng bộ aorist sigmatic (<span class="gk">-α, -ας, -ε(ν), -αμεν, -ατε, -αν</span>): <span class="gk">ἔμεινα, ἔμεινας, ἔμεινε(ν), ἐμείναμεν, ἐμείνατε, ἔμειναν</span>. Deponent quen thuộc cũng đổi sang aorist trên nền thân lỏng: <span class="gk">ἀποκρίνομαι</span> "đáp" (bài 10) → aorist <span class="gk">ἀπεκρινάμην</span> "tôi đã đáp": augment chen giữa tiền tố <span class="gk">ἀπο-</span> và thân <span class="gk">κρῑν-</span>, rồi đuôi m/p chủ đề: <span class="gk">ἀπεκρινάμην, ἀπεκρίνω, ἀπεκρίνατο, ἀπεκρινάμεθα, ἀπεκρίνασθε, ἀπεκρίναντο</span>. So sánh với quá khứ chưa hoàn thành <span class="gk">ἀπεκρινόμην</span> (bài 10) để thấy cùng một động từ đổi đuôi theo thời.</p>
+
+<div class="achtung">
+<p><strong>Achtung – ba mảnh của một <span class="gk">μένω</span>:</strong> <span class="gk">μένω</span> (hiện tại) – <span class="gk">μενῶ</span> (tương lai lỏng, accent tròn) – <span class="gk">ἔμεινα</span> (aorist thân lỏng, augment + accent rụt). Cùng họ, cùng rụt σ, nhưng chỉ aorist có augment; chỉ tương lai có accent tròn đứng cuối thân. Đặt ba dạng trên một hàng trong sổ tay: đó là "ba tuổi" của động từ, và hàng này bạn sẽ vẽ lại cho <span class="gk">κρῑνω, στέλλω</span> trong bài tập.</p>
+</div>
+
+<h2 id="s7">7. Đồng hồ bốn thời &amp; chiến lược "bóc aorist"</h2>
+
+<p>Đủ bốn thời của chỉ định (indicative), bạn đã nắm toàn bộ "đồng hồ" cơ bản của động từ Hy Lạp. Bốn thời này không phải bốn điểm trên trục thời gian đơn thuần, mà là hai trục chồng nhau: <strong>vị trí thời gian</strong> (quá khứ / không quá khứ / tương lai) và <strong>khía cạnh (aspect)</strong> – cái nhìn về cách sự việc diễn ra:</p>
+
+<table>
+<thead><tr><th></th><th>Nhìn "đang tiến triển" (imperfective)</th><th>Nhìn "khối trọn" (perfective)</th></tr></thead>
+<tbody>
+<tr><td><strong>Không quá khứ</strong></td><td><strong>Hiện tại</strong>: <span class="gk">λύω</span> "tôi đang tháo"</td><td>– (perfective ở thời quá khứ: aorist)</td></tr>
+<tr><td><strong>Quá khứ</strong></td><td><strong>Imperfect</strong>: <span class="gk">ἔλυον</span> "(bấy giờ) tôi đang tháo"</td><td><strong>Aorist</strong>: <span class="gk">ἔλυσα</span> "tôi đã tháo (một khối)"</td></tr>
+<tr><td><strong>Sau này</strong></td><td><strong>Tương lai</strong>: <span class="gk">λύσω</span> "tôi sẽ tháo"</td><td>(bài 14 sẽ thêm hoàn thành – một kiểu nhìn thứ ba: "kết quả còn đọng")</td></tr>
+</tbody>
+</table>
+
+<p>Khi đọc văn kể chuyện, cứ nghĩ thế này: <strong>aorist = nhịp sự kiện</strong>, <strong>imperfect = cảnh nền</strong>, <strong>hiện tại lịch sử (bài 12) = camera bấm cận cảnh</strong>. Một đoạn Xenophon điển hình mở màn bằng imperfect dựng cảnh, rồi chuỗi aorist đưa chuyện đi: <span class="gk">ἐπορεύετο</span> "hắn đang đi" → <span class="gk">ἦλθεν</span> "hắn đến", <span class="gk">εἶπεν</span> "hắn nói", <span class="gk">ἔλαβεν</span> "hắn lấy". Bài đọc I hôm nay cho bạn thấy cả hai cái nhìn đan nhau trong cùng một giấc mơ.</p>
+
+<h3>Chiến lược "bóc aorist" – bốn bước</h3>
+<ol>
+<li><strong>Tìm augment:</strong> <span class="gk">ἐ-</span> chen đầu (hoặc chen giữa tiền tố), hoặc nguyên âm đầu bị kéo dài: <span class="gk">ἦ- (ἦλθον), εὑ- (εὗρον), εἰ- (εἶπον), ἠ- (ἤλπισα)</span>. Không augment → không phải thời quá khứ → thử tương lai.</li>
+<li><strong>Tìm khối <span class="gk">-σα-</span>:</strong> có → <strong>aorist sigmatic</strong> (chủ động hoặc m/p tùy đuôi sau nó).</li>
+<li><strong>Gỡ đuôi thứ cấp</strong> (<span class="gk">-ον/-ες/-ε/-ομεν/-ετε/-ον</span> hoặc bộ m/p): phần còn lại là thân – nếu thân <em>khác</em> thân hiện tại → <strong>aorist chủ đề</strong>; đối chiếu bảng cặp hoặc từ điển.</li>
+<li><strong>Thân lỏng</strong> (λ/μ/ν/ρ) + đuôi aorist gắn sau nguyên âm dài → <strong>aorist thân lỏng</strong>.</li>
+</ol>
+
+<div class="achtung">
+<p><strong>Achtung – augment không phải giấy chứng nhận aorist:</strong> imperfect cũng có augment. Dạng <span class="gk">προὔτεινεν</span> trong bài đọc I dưới đây có augment (nguyên âm đổi chỗ: <span class="gk">προε-</span> → <span class="gk">προὐ-</span>) nhưng <em>không có σα</em> và đuôi <span class="gk">-εν</span> đứng trên thân hiện tại <span class="gk">τειν-</span>: đó là imperfect của <span class="gk">προτείνω</span> "chìa ra". Câu hỏi vàng sau khi tìm augment luôn là: "σα đâu? – đuôi đứng trên thân hiện tại hay thân khác?"</p>
+</div>
+
+<p>Một khóa từ vựng đi kèm aorist kể chuyện: <span class="gk">ἔπειτα</span> "sau đó" – trạng từ báo hiệu chuỗi sự kiện, bạn sẽ gặp nó dày đặc ở các bài đọc sau. Và để hoàn tất dự phần ngày hôm nay, đây là bản đồ nhỏ để tra nhanh khi đọc:</p>
+
+<table>
+<thead><tr><th>Dạng gặp</th><th>Bóc</th><th>Kết luận</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἔγραψεν</span></td><td><span class="gk">ἐ- γραφ/ψ -εν</span>? → φ+σ → ψ, đuôi 3 Sg.</td><td>aorist sigmatic 3 Sg. "hắn đã viết"</td></tr>
+<tr><td><span class="gk">ἐλαβόμην</span></td><td><span class="gk">ἐ- λαβ -όμην</span>, thân ≠ hiện tại</td><td>aorist chủ đề m/p 1 Sg. "tôi đã lấy (cho mình)"</td></tr>
+<tr><td><span class="gk">ἐποιησάμην</span></td><td><span class="gk">ἐ- ποιη σα -μην</span>, đuôi m/p</td><td>aorist sigmatic m/p 1 Sg. "tôi đã làm (cho mình)"</td></tr>
+<tr><td><span class="gk">ἔμεινας</span></td><td><span class="gk">ἐ- μειν -ας</span>, thân lỏng, đuôi aorist</td><td>aorist thân lỏng 2 Sg. "bạn đã ở lại"</td></tr>
+</tbody>
+</table>
+
+<h2 id="reading">8. Bài đọc I: Giấc mơ về ngôi đền của Plato (Aristides, Or. 51 Keil 61–63)</h2>
+
+<p><strong>Bối cảnh.</strong> <strong>Aelius Aristides</strong> (117–181 CN) là nhà hứng biện lừng danh nhất thời Đế quốc La Mã sau Demosthenes – đương thời người ta xếp hai ông thành một cặp. Ông mang bệnh bò hành hạ suốt mấy chục năm, và bộ <em>Hieroi Logoi</em> (<em>Sacred Tales</em>, "những lời kể thánh") ghi lại bệnh trạng, liều thuốc và những mệnh lệnh thần Asclepius gửi ông qua giấc mơ. Hồi V kể một mùa hè đau dạ dày và cuộc hành quân giữa đêm theo lệnh thần; phần cuối là chuỗi giấc mơ về thành Athens, trong đó Asclepius hứa hẹn cho ông một đẳng cấp hứng biện sánh vai Plato. Đoạn dưới đây là một cảnh trong chuỗi giấc mơ ấy; bản kể giữ gần trọn chữ nghĩa gốc, chỉ thay participles (chưa học) bằng động từ chỉ định và lược vài mệnh đề – sẽ ghi rõ từng chỗ. (Quy ước số mục theo bản Keil: Or. 51 Keil = Or. 27 Dindorf, vì hai bộ sưu tập đánh số khác nhau.)</p>
+
+<p class="gk" style="font-size:1.12em;">(1) μετὰ ταῦτα ἐχωροῦμεν πρὸς τὸ Λύκειον, καὶ νεώς τις ἐξεδέχετο πάνυ μέγας καὶ καλός. (2) ἔβαινον ἄνω, καὶ παιδάριον προὔτεινεν ᾠὰ τρία· ἐγὼ δὲ παρῆλθον καὶ οὐκ ἔλαβον. (3) ἐνθύμιον ἐποιησάμην ὅτι χρὴ λαβεῖν τοῦ συμβόλου ἕνεκα. (4) ἐπέστρεψα οὖν καὶ ἔλαβον τὰ ᾠά. (5) ἐν δὲ τῷ προνάῳ ὁρῶ τὸν νεὼ Πλάτωνος ὄντα τοῦ φιλοσόφου, καὶ τὸ ἄγαλμα αὐτοῦ μέγα καὶ καλόν. (6) εἶπέ τις· "καὶ τρεῖς ἔδει νεὼς εἶναι Πλάτωνός γε." (7) κἀγὼ ἔφην· "τί δ' οὐ καὶ Δημοσθένους ὀγδοήκοντα, καὶ Ὁμήρου γε, οἶμαι;" (8) "τοὺς μὲν νεὼς τοῖς θεοῖς προσήκει καθιεροῦν· τοὺς δὲ ἄνδρας τοὺς ἐλλογίμους τῇ τῶν βιβλίων ἀναθέσει τιμᾶν." (9) τοιαῦτα εἶπον, καὶ ἐπανῄειν.</p>
+
+<h3>Mổ xẻ từng câu</h3>
+<h4>Câu 1</h4>
+<p><span class="gk">μετὰ ταῦτα ἐχωροῦμεν πρὸς τὸ Λύκειον, καὶ νεώς τις ἐξεδέχετο πάνυ μέγας καὶ καλός</span> – "Sau đó chúng tôi tiến về phía Lyceum, và một ngôi đền hiện ra, rất lớn và rất đẹp". Hai imperfect vẽ nền như mục 7 đã bàn: <span class="gk">ἐχωροῦμεν</span> (từ <span class="gk">χωρέω</span>; gloss: make one's way) "tiến về phía", <span class="gk">ἐξεδέχετο</span> (từ <span class="gk">ἐκδέχομαι</span>; gloss: come into view) "hiện ra". <span class="gk">τὸ Λύκειον</span> (gloss: the Lyceum) "khu Lyceum" – vườn tập thể dục nổi tiếng của Athens, nơi Aristotle từng dạy học; <span class="gk">ὁ νεώς, -οῦ</span> "ngôi đền" là từ mới của bài (chú ý chính tả kép: cùng một từ còn viết <span class="gk">ὁ ναός</span>). Bản gốc dùng <span class="gk">ᾗ</span> "về nơi" – một trạng từ quan hệ chưa học, nên bản kể thay bằng <span class="gk">πρὸς</span> + tân cách.</p>
+
+<h4>Câu 2</h4>
+<p><span class="gk">ἔβαινον ἄνω, καὶ παιδάριον προπροὔτεινεν ᾠὰ τρία· ἐγὼ δὲ παρῆλθον καὶ οὐκ ἔλαβον</span> – "Tôi bước lên, và một cậu bé chìa ra ba quả trứng; còn tôi thì đi ngang qua và không lấy". Đây là câu "ngôi sao" của bài:</p>
+<ul>
+<li><span class="gk">ἔβαινον</span> – imperfect của <span class="gk">βαίνω</span> "bước" (augment + thân <span class="gk">βαιν-</span> + đuôi thứ cấp): cảnh nền.</li>
+<li><span class="gk">προὔτεινεν</span> – imperfect của <span class="gk">προτείνω</span> "chìa ra": tiền tố <span class="gk">προ-</span> + augment (nguyên âm đổi chỗ <span class="gk">προε-</span> → <span class="gk">προὐ-</span>, một kiểu rút gọn của <span class="gk">προετεῖνεν</span>) + đuôi 3 Sg. <span class="gk">-εν</span>. Đã bóc ở achtung mục 7: <em>augment mà không có σa</em> – imperfect!</li>
+<li><span class="gk">παρῆλθον</span> – <strong>aorist chủ đề</strong> của <span class="gk">παρέρχομαι</span> "đi ngang": tiền tố <span class="gk">παρ(α)-</span> + augment η (alpha rụt, ε kéo dài thành η: <span class="gk">παρ-ή-λθ-ον</span>) + thân <span class="gk">ἐλθ-</span> quen thuộc từ <span class="gk">ἦλθον</span> + đuôi 1 Sg./3 Pl. Ở đây ngữ cảnh cho là "tôi đã đi ngang".</li>
+<li><span class="gk">ἔλαβον</span> – aorist chủ đề của <span class="gk">λαμβάνω</span> "lấy": <span class="gk">ἐ-λαβ-ον</span>, đuôi <span class="gk">-ον</span> đứng trên thân <em>khác</em> thân hiện tại <span class="gk">λαμβαν-</span>. <span class="gk">τὸ παιδάριον</span> (gloss: little boy) "cậu bé"; <span class="gk">τὸ ᾠόν, -οῦ</span> (gloss: egg) "quả trứng", số nhiều <span class="gk">τὰ ᾠά</span>.</li>
+</ul>
+
+<h4>Câu 3</h4>
+<p><span class="gk">ἐνθύμιον ἐποιησάμην ὅτι χρὴ λαβεῖν τοῦ συμβόλου ἕνεκα</span> – "Tôi ghi tạc trong trí rằng phải lấy, vì cái tín vật". <span class="gk">ἐποιησάμην</span> – <strong>aorist sigmatic m/p 1 Sg.</strong> của động từ co <span class="gk">ποιέω</span> "làm" (bài 12): augment <span class="gk">ἐ-</span> + thân <span class="gk">ποιησ-</span> (cùng η với <span class="gk">ποιήσω</span>!) + đuôi m/p <span class="gk">-άμην</span> – dạng "làm cho mình" = "tôi tự nhủ, ghi tạc". Nghĩa trung "cho mình" sống đúng trong câu này. <span class="gk">ἐνθύμιον</span> (gloss: reflection) ở đây như trạng ngữ "trong tâm trí"; <span class="gk">χρὴ</span> (gloss: one must) "phải" + nguyên mẫu <span class="gk">λαβεῖν</span> (aorist nguyên mẫu của <span class="gk">λαμβάνω</span> – nguyên mẫu sẽ gom đủ ở bài 18); <span class="gk">ἕνεκα</span> + sở hữu cách (gloss: for the sake of) "vì"; <span class="gk">τὸ σύμβολον</span> (gloss: token) "tín vật, dấu hiệu" – trong giấc mơ, trứng là tín vật dâng thần.</p>
+
+<h4>Câu 4</h4>
+<p><span class="gk">ἐπέστρεψα οὖν καὶ ἔλαβον τὰ ᾠά</span> – "Vậy tôi quay lại và lấy các quả trứng". Hai aorist sigmatic và chủ đề đứng cạnh nhau trong một câu: <span class="gk">ἐπέστρεψα</span> (từ <span class="gk">ἐπιστρέφω</span> "quay lại": φ + σ → ψ, đuôi 1 Sg. <span class="gk">-α</span>) và <span class="gk">ἔλαβον</span> (lại gặp người quen). Bản gốc gói hai ý này trong participle aorist <span class="gk">ἐπιστραφεὶς καὶ λαβών</span> "quay lại rồi lấy" – dạng chưa học, sẽ gặp ở bài 24; hôm nay tách thành hai động từ chỉ định.</p>
+
+<h4>Câu 5</h4>
+<p><span class="gk">ἐν δὲ τῷ προνάῳ ὁρῶ τὸν νεὼ Πλάτωνος ὄντα τοῦ φιλοσόφου, καὶ τὸ ἄγαλμα αὐτοῦ μέγα καὶ καλόν</span> – "Còn trong chân đền, tôi thấy ngôi đền của Plato nhà triết học, và tượng của ông ấy rất lớn và rất đẹp". <span class="gk">ὁρῶ</span> là <strong>hiện tại lịch sử</strong> (bài 12): giấc mơ đang chảy, Aristides bấm nút "cận cảnh" – dịch về quá khứ: "tôi thấy". <span class="gk">ὁ προνάος, -ου</span> (gloss: vestibule) "chân đền, phòng trước"; <span class="gk">ὄντα</span> là participle tân cách của <span class="gk">εἰμί</span> "là" (<span class="gk">τὸν νεὼ … ὄντα</span> "ngôi đền <em>vốn là</em> của Plato") – participle của <span class="gk">εἰμί</span> chỉ là các dạng quen của "to be", đọc trôi được; <span class="gk">τὸ ἄγαλμα, -ατος</span> "tượng dâng" (trung -μα, bài 7); <span class="gk">ὁ φιλόσοφος</span> "nhà triết học".</p>
+
+<h4>Câu 6</h4>
+<p><span class="gk">εἶπέ τις· "καὶ τρεῖς ἔδει νεὼς εἶναι Πλάτωνός γε."</span> – "Ai đó nói: 'Phải có thêm ba ngôi đền cho Plato nữa chứ'". <span class="gk">εἶπέ τις</span> – <strong>aorist chủ đề 3 Sg.</strong> của <span class="gk">λέγω</span> "nói" (<span class="gk">εἶπε(ν)</span>) + <span class="gk">τις</span> "ai đó" (bài 5). <span class="gk">ἔδει</span> – imperfect của <span class="gk">δεῖ</span> "cần, phải" (gloss: it was necessary). <span class="gk">τρεῖς νεώς</span> – số "ba" (bài 8) + tân cách số nhiều của <span class="gk">ὁ νεώς</span>: "ba ngôi đền"; <span class="gk">γε</span> (gloss: at least) tiểu từ nhấn "ít nhất, dù sao". Bản gốc dùng cấu trúc gióng cách (mệnh đề "ai đó nói" để ở sở hữu cách tuyệt đối) – chưa học, nên bản kể đổi thành câu dẫn trực tiếp.</p>
+
+<h4>Câu 7</h4>
+<p><span class="gk">κἀγὼ ἔφην· "τί δ' οὐ καὶ Δημοσθένους ὀγδοήκοντα, καὶ Ὁμήρου γε, οἶμαι;"</span> – "Còn tôi đáp: 'Vậy sao không tám mươi ngôi cho Demosthenes, và cho Homer nữa chứ, tôi nghĩ thế'". <span class="gk">κἀγὼ</span> là crasis (sự hòa âm) của <span class="gk">καὶ ἐγώ</span> "còn tôi" – cùng hiện tượng crasis đã gặp; <span class="gk">ἔφην</span> – imperfect của <span class="gk">φημί</span> "nói" (bài 12 đã đọc <span class="gk">ἔφη</span>); <span class="gk">τί δ' οὐ</span> "thế sao không"; <span class="gk">ὀγδοήκοντα</span> (gloss: eighty) "tám mươi" (họ hàng số từ bài 8); <span class="gk">οἶμαι</span> – deponent hiện tại "tôi cho rằng". Chi tiết dí dỏm: Demosthenes và Homer cũng là hai "ông lớn" của chữ nghĩa, nên Aristides mỗi người tám mươi đền.</p>
+
+<h4>Câu 8</h4>
+<p><span class="gk">τοὺς μὲν νεὼς τοῖς θεοῖς προσήκει καθιεροῦν· τοὺς δὲ ἄνδρας τοὺς ἐλλογίμους τῇ τῶν βιβλίων ἀναθέσει τιμᾶν</span> – "Còn ngôi đền thì hợp để dâng cho các thần; còn những người tài tiếng thì tôn vinh bằng việc dâng những cuốn sách". <span class="gk">προσήκει</span> (gloss: it is fitting) "hợp lẽ, đáng phải" + tân cách + nguyên mẫu – khung "bốn món" quen thuộc như <span class="gk">δεῖ</span> (bài 4). <span class="gk">καθιεροῦν</span> – nguyên mẫu hiện tại của <span class="gk">καθιερόω</span> "dâng hiến (đền)"; cặp men–de (<span class="gk">μὲν … δὲ …</span>) gánh hai vế: <span class="gk">τοὺς νεώς</span> "ngôi đền (số nhiều tân cách)" vs <span class="gk">τοὺς ἄνδρας τοὺς ἐλλογίμους</span> "những người tài tiếng" – tân cách số nhiều như một chuỗi từ bài 11; <span class="gk">ἐλλόγιμος</span> (gloss: renowned) "nổi tiếng, tài danh" (tính từ hai đuôi, bài 9); <span class="gk">τῇ τῶν βιβλίων ἀναθέσει</span> – tặng cách công cụ: "bằng việc dâng (của) những cuốn sách" – <span class="gk">ἡ ἀνάθεσις</span> (gloss: dedication) "việc dâng", <span class="gk">τὸ βιβλίον</span> "cuốn sách". Đây là "luật tôn vinh" của Aristides: <em>đền cho thần, sách cho người tài</em> – nghề hứng biện tự ôm lấy vế thứ hai.</p>
+
+<h4>Câu 9</h4>
+<p><span class="gk">τοιαῦτα εἶπον, καὶ ἐπανῄειν</span> – "Nói xong mấy lời thế, tôi trở về". <span class="gk">εἶπον</span> – aorist chủ đề 1 Sg. của <span class="gk">λέγω</span>; <span class="gk">τοιαῦτα</span> "như thế, mấy lời thế" (dạng tân cách của <span class="gk">τοιοῦτος</span>, học nhận diện); <span class="gk">ἐπανῄειν</span> – imperfect 1 Sg. của <span class="gk">ἐπανέρχομαι</span> "trở về" (augment dài <span class="gk">ηι</span> + đuôi <span class="gk">-ν</span> sau nguyên âm). Câu kết là một cặp aspect giảng bài: aorist <span class="gk">εἶπον</span> chốt hạ sự kiện "nói", imperfect <span class="gk">ἐπανῄειν</span> thả cảnh "trên đường về" trôi tiếp trong giấc mơ.</p>
+
+<p><strong>Dịch toàn đoạn:</strong> "Sau đó chúng tôi tiến về phía Lyceum, và một ngôi đền hiện ra, rất lớn và rất đẹp. Tôi bước lên, và một cậu bé chìa ra ba quả trứng; còn tôi thì đi ngang qua và không lấy. Tôi ghi tạc trong trí rằng phải lấy, vì cái tín vật. Vậy tôi quay lại và lấy các quả trứng. Còn trong chân đền, tôi thấy ngôi đền của Plato nhà triết học, và tượng của ông ấy rất lớn và rất đẹp. Ai đó nói: 'Phải có thêm ba ngôi đền cho Plato nữa chứ.' Còn tôi đáp: 'Vậy sao không tám mươi ngôi cho Demosthenes, và cho Homer nữa chứ, tôi nghĩ thế? Còn ngôi đền thì hợp để dâng cho các thần; còn những người tài tiếng thì tôn vinh bằng việc dâng những cuốn sách.' Nói xong mấy lời thế, tôi trở về."</p>
+
+<div class="info">
+<p><strong>Bản gốc, nguyên văn:</strong> <span class="gk">ἀνιόντι οὖν μοι παιδάριον προὔτεινεν ᾠὰ τρία· κἀγὼ, παρῆλθον γὰρ οὐ λαβών, ἐνθύμιον ἐποιησάμην ὅτι χρὴ μέντοι λαβεῖν τοῦ συμβόλου ἕνεκα … τοιαῦτα εἰπὼν καὶ ἀκούσας ἐπανῄειν</span>. Ba participle aorist chủ động đóng ba vai trong câu gốc: <span class="gk">λαβών</span> "mà không lấy", <span class="gk">εἰπών</span> "sau khi nói", <span class="gk">ἀκούσας</span> "sau khi nghe" – đều được xây từ các aorist bạn vừa học (<span class="gk">ἔλαβον, εἶπον</span> và <span class="gk">ἤκουσα</span>). Hệ participle sẽ giải phẫu ở khoảng bài 24; hôm nay chỉ cần nhận ra vỏ: <span class="gk">-ών/-ᾶς</span> gắn sau thân aorist. Và một mẩu lịch sử đáng nhớ: giấc mơ này khép lại bằng điềm lành cho đẳng cấp hứng biện của chính Aristides – giấc mơ "ngôi đền của Plato" chính là lời thần khẳng định cái danh mà cả bộ <em>Sacred Tales</em> ôm ấp.</p>
+</div>
+
+<h2 id="reading2">9. Bài đọc II: Klearchos ký gửi tình bạn (Xenophon, Anabasis 2,5)</h2>
+
+<p><strong>Bối cảnh.</strong> Trận Cunaxa (401 TCN) đã kết thúc: Cyrus Trẻ (bài 12) tử trận, mười nghìn lính Hy Lạp bơ vơ giữa Lưỡng Hà không chủ tướng, không lương. Bên Ba Tư, Tissaphernes – tổng trấn Sardis, kỵ binh xuất chúng của vua Artaxerxes II – giờ thành đối thủ trực tiếp. Hắn đề nghị hòa, rồi mời Klearchos (vị tướng Sparta bạn đã gặp ở bài 12, người từng gom quân bằng mười nghìn đồng dareik) đến trại đàm phán. Ở cuộc gặp này Klearchos phát biểu tỏ lòng tin với Tissaphernes; đoạn 2,5,7–9 giữ gần nguyên văn lời phát biểu, chỉ lược một câu có thức cầu mong (optative, bài 17) và một mệnh đề quan hệ (bài 15).</p>
+
+<p class="gk" style="font-size:1.12em;">(1) πρῶτον μὲν γὰρ καὶ μέγιστον οἱ θεῶν ἡμᾶς ὅρκοι κωλύουσι πολεμίους εἶναι ἀλλήλοις. (2) περὶ μὲν δὴ τῶν θεῶν τε καὶ τῶν ὅρκων οὕτω γιγνώσκω. (3) παρὰ τοῖς θεοῖς γὰρ τὴν φιλίαν ἡμεῖς κατεθέμεθα. (4) τῶν δ' ἀνθρωπίνων σὲ ἐγὼ ἐν τῷ παρόντι νομίζω μέγιστον εἶναι ἡμῖν ἀγαθόν. (5) σὺν μὲν γὰρ σοὶ πᾶσα μὲν ὁδὸς εὔπορος, πᾶς δὲ ποταμὸς διαβατός, τῶν τε ἐπιτηδείων οὐκ ἀπορία· (6) ἄνευ δὲ σοῦ πᾶσα μὲν διὰ σκότους ἡ ὁδός· οὐδὲν γὰρ αὐτῆς ἐπιστάμεθα· (7) πᾶς δὲ ποταμὸς δύσπορος, πᾶς δὲ ὄχλος φοβερός, φοβερώτατον δ' ἐρημία· μεστὴ γὰρ πολλῆς ἀπορίας ἐστίν.</p>
+
+<h3>Mổ xẻ từng câu</h3>
+<h4>Câu 1</h4>
+<p><span class="gk">πρῶτον μὲν γὰρ καὶ μέγιστον οἱ θεῶν ἡμᾶς ὅρκοι κωλύουσι πολεμίους εἶναι ἀλλήλοις</span> – "Thứ nhất và lớn nhất: các lời thề trước các thần ngăn chúng ta thành kẻ thù của nhau". Câu mở đầu bằng hai tính từ so sánh (bài 22 sẽ học kỹ, nay đọc như thành ngữ): <span class="gk">πρῶτον … μέγιστον</span> "điều đầu tiên và lớn nhất". Chủ ngữ là <span class="gk">οἱ θεῶν ὅρκοι</span> – "những lời thề <em>của</em> các thần" (sở hữu cách <span class="gk">θεῶν</span> lồng vào, bài 1); động từ <span class="gk">κωλύουσι</span> (gloss: prevent) "ngăn cản" + khung tân cách + nguyên mẫu (AcI, bài 4): "ngăn <em>chúng ta</em> <em>thành kẻ thù</em>"; <span class="gk">ὁ πολέμιος</span> (bài 11) "kẻ thù" ở đây số nhiều tân cách <span class="gk">πολεμίους</span>; <span class="gk">ἀλλήλοις</span> (gloss: one another) "lẫn nhau, của nhau" – đại từ tương hỗ, học nhận diện.</p>
+
+<h4>Câu 2</h4>
+<p><span class="gk">περὶ μὲν δὴ τῶν θεῶν τε καὶ τῶν ὅρκων οὕτω γιγνώσκω</span> – "Về phần các thần và các lời thề, tôi hiểu biết thế này". <span class="gk">γιγνώσκω</span> "biết, hiểu" (họ hàng aorist <span class="gk">ἔγνων</span> sẽ gặp sau); <span class="gk">οὕτω</span> "theo cách ấy" (bài 12); <span class="gk">δὴ</span>, <span class="gk">τε</span> – hai tiểu từ đệm nhấn, đọc trôi. Khung <span class="gk">περὶ</span> + sở hữu cách "về việc gì" đã quen từ các bài trước.</p>
+
+<h4>Câu 3</h4>
+<p><span class="gk">παρὰ τοῖς θεοῖς γὰρ τὴν φιλίαν ἡμεῖς κατεθέμεθα</span> – "Vì chúng tôi đã ký gửi tình bạn nơi các thần". Đôi mắt dán chậm lại:</p>
+<ul>
+<li><span class="gk">κατεθέμεθα</span> – <strong>aorist chủ đề m/p 1 Pl.</strong>: tiền tố <span class="gk">κατ(α)-</span> + augment <span class="gk">ἐ-</span> + thân <span class="gk">θε-</span> + đuôi <span class="gk">-μεθα</span> đúng bảng đuôi m/p thứ cấp của bài 11. Động từ là <span class="gk">κατατίθημι</span> "đặt xuống" – một mi-verb (bài 20 mới giải phẫu), hôm nay học mặt dạng <span class="gk">κατεθέμεθα</span> như "chúng tôi đã đặt xuống, đã ký gửi".</li>
+<li>Nghĩa trung "cho mình" hiện rõ: ký gửi <em>bảo chứng cho mình</em> – lời thề là tài sản chung, hai bên gởi nơi các thần.</li>
+<li>Bản gốc: <span class="gk">παρ' οὓς ἡμεῖς τὴν φιλίαν συνθέμενοι κατεθέμεθα</span> "nơi những vị thần mà chúng tôi, sau khi kết chặt, đã ký gửi tình bạn" – có mệnh đề quan hệ (<span class="gk">οὓς</span>, bài 15) và participle aorist m/p (<span class="gk">συνθέμενοι</span> "sau khi kết chặt", từ <span class="gk">συντίθημι</span>); bản kể ghép thẳng cho gọn.</li>
+</ul>
+
+<h4>Câu 4</h4>
+<p><span class="gk">τῶν δ' ἀνθρωπίνων σὲ ἐγὼ ἐν τῷ παρόντι νομίζω μέγιστον εἶναι ἡμῖν ἀγαθόν</span> – "Còn về phần những điều thuộc loài người, hiện nay tôi coi bạn là điều tốt lớn nhất đối với chúng tôi". <span class="gk">ἐν τῷ παρόντι</span> (gloss: at present) "hiện nay, lúc này" – thành ngữ, lấy participle của <span class="gk">εἰμί</span>; <span class="gk">νομίζω</span> "coi là" (bài 4) mở AcI: <span class="gk">σὲ … μέγιστον … ἀγαθόν</span> "bạn là điều tốt lớn nhất" – <span class="gk">ἀγαθός</span> danh từ hóa "điều tốt" (bài 9). Câu này – vị tướng Sparta nói với kẻ sắp phản mình – là đỉnh của cả chương.</p>
+
+<h4>Câu 5</h4>
+<p><span class="gk">σὺν μὲν γὰρ σοὶ πᾶσα μὲν ὁδὸς εὔπορος, πᾶς δὲ ποταμὸς διαβατός, τῶν τε ἐπιτηδείων οὐκ ἀπορία</span> – "Vì cùng với bạn: mọi con đường đều đi dễ, mọi dòng sông đều qua được, những thứ cần dùng không thiếu thốn". <span class="gk">σύν</span> + tặng cách "cùng với" (bài 4); đuôi <span class="gk">-τος</span> trên tính từ là <em>khả năng</em> "có thể bị X" – <span class="gk">εὔπορος</span> (gloss: easy to travel) "dễ đi", <span class="gk">διαβατός</span> (gloss: crossable) "qua được", đối lại <span class="gk">δύσπορος</span> (gloss: hard to travel) "khó đi" ở câu 7 (eu/dus "dễ/khó" – học nhận diện, sẽ gom ở bài so sánh); <span class="gk">ἡ ἀπορία</span> (gloss: want, lack) "sự thiếu thốn", <span class="gk">τὰ ἐπιτήδεια</span> (gloss: provisions) "những thứ cần dùng".</p>
+
+<h4>Câu 6</h4>
+<p><span class="gk">ἄνευ δὲ σοῦ πᾶσα μὲν διὰ σκότους ἡ ὁδός· οὐδὲν γὰρ αὐτῆς ἐπιστάμεθα</span> – "Còn thiếu bạn: mọi con đường đều giữa bóng tối; vì chúng tôi chẳng biết gì về nó cả". <span class="gk">ἄνευ</span> + sở hữu cách (gloss: without) "thiếu, không có"; <span class="gk">διὰ σκότους</span> "giữa bóng tối" (<span class="gk">τὸ σκότος, -ους</span>, trung cách ba); <span class="gk">ἐπιστάμεθα</span> – hiện tại m/p 1 Pl. của deponent <span class="gk">ἐπίσταμαι</span> (gloss: know) "biết" + sở hữu cách chỉ đối tượng (<span class="gk">αὐτῆς</span> "về nó", chỉ <span class="gk">ὁδός</span>). Câu 6 tiếp dòng chảy men–de của cả đoạn: vế <span class="gk">σὺν σοὶ</span> (câu 5) – vế <span class="gk">ἄνευ σοῦ</span> (câu 6).</p>
+
+<h4>Câu 7</h4>
+<p><span class="gk">πᾶς δὲ ποταμὸς δύσπορος, πᾶς δὲ ὄχλος φοβερός, φοβερώτατον δ' ἐρημία· μεστὴ γὰρ πολλῆς ἀπορίας ἐστίν</span> – "mọi dòng sông đều khó qua, mọi đám đông đều đáng sợ, đáng sợ nhất là cảnh vắng; vì nó đầy những thiếu thốn". Chuỗi ba mệnh đề danh ngữ dồn dập (câu danh ngữ, bài 3); <span class="gk">ὁ ὄχλος</span> "đám đông", <span class="gk">ἡ ἐρημία</span> "cảnh vắng, vùng hoang" – hai từ mới của bài; <span class="gk">φοβερώτατον</span> là so sánh nhất (superlative, bài 22) của <span class="gk">φοβερός</span> "đáng sợ" (bài 11): đọc "sợ nhất"; <span class="gk">μεστὴ … ἐστίν</span> (gloss: full of) "đầy …" + sở hữu cách.</p>
+
+<p><strong>Dịch toàn đoạn:</strong> "Thứ nhất và lớn nhất: các lời thề trước các thần ngăn chúng ta thành kẻ thù của nhau. Về phần các thần và các lời thề, tôi hiểu biết thế này: vì chúng tôi đã ký gửi tình bạn nơi các thần. Còn về phần những điều thuộc loài người, hiện nay tôi coi bạn là điều tốt lớn nhất đối với chúng tôi. Vì cùng với bạn: mọi con đường đều đi dễ, mọi dòng sông đều qua được, những thứ cần dùng không thiếu thốn; còn thiếu bạn: mọi con đường đều giữa bóng tối – vì chúng tôi chẳng biết gì về nó cả – mọi dòng sông đều khó qua, mọi đám đông đều đáng sợ, đáng sợ nhất là cảnh vắng; vì nó đầy những thiếu thốn."</p>
+
+<div class="info">
+<p><strong>Bản gốc, câu bị lược (2,5,7):</strong> <span class="gk">τὸν γὰρ θεῶν πόλεμον οὐκ οἶδ' οὔτ' ἀπὸ ποίου ἂν τάχους οὔτε ὅποι ἄν τις φεύγων ἀποφύγοι οὔτ' εἰς ποῖον ἂν σκότος ἀποδραίη</span> – "cuộc chiến với các thần, tôi không biết với tốc độ nào, chạy về đâu, chui vào bóng tối nào (mà thoát được)": các động từ <span class="gk">ἀποφύγοι, ἀποδραίη</span> thuộc thức cầu mong (optative, bài 17), nên bản kể để dành. <strong>Phần còn lại của chương (2,5,31–32) là bi kịch:</strong> <span class="gk">ἐπεὶ δὲ ἦσαν ἐπὶ θύραις ταῖς Τισσαφέρνους, οἱ μὲν στρατηγοὶ παρεκλήθησαν εἴσω … οἵ τε ἔνδον ξυνελαμβάνοντο καὶ οἱ ἔξω κατεκόπησαν</span> – "khi họ đến cửa trại Tissaphernes, các tướng được mời vào… người trong bị bắt, người ngoài bị chém". Tissaphernes vâng lời vua: các tướng Hy Lạp bị <em>giao nộp</em> (đó là nghĩa của nhan đề chương trong tập nguồn) và bị hành quyết; <span class="gk">παρεκλήθησαν, κατεκόψησαν</span> là aorist <em>bị động</em> – hình thức L14 sẽ dạy, còn <span class="gk">ξυνελαμβάνοντο</span> là imperfect m/p với vỏ chính tả cổ <span class="gk">ξυν-</span> (= <span class="gk">συν-</span>). Klearchos, người gom quân bằng mười nghìn đồng dareik ở bài 12, đã đặt cả tình bạn vào tay sai lừa – vì "đi qua bóng tối" không có bạn dẫn đường, đúng như chính lời hắn nói.</p>
+</div>
+
+<h2 id="vocab">10. Từ vựng trọng tâm</h2>
+
+<p>Từ mới của bài (<span class="star">★</span>), cột một ghi cặp hiện tại – aorist đã học trong các bảng trên:</p>
+<table>
+<thead><tr><th>Từ</th><th>Phiên âm</th><th>Anh</th><th>Việt</th></tr></thead>
+<tbody>
+<tr><td><span class="star">★</span> <span class="gk">λύω, ἔλυσα</span></td><td><span class="tr">lúō, élusa</span></td><td>loosen; release</td><td>tháo, cởi; giải oan (động từ mẫu của khóa)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">γράφω, ἔγραψα</span></td><td><span class="tr">gráphō, égrapsa</span></td><td>write</td><td>viết (φ + σ → ψ)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">λαμβάνω, ἔλαβον</span></td><td><span class="tr">lambánō, élabon</span></td><td>take</td><td>lấy, nhận (aorist chủ đề, thân ληβ- → λαβ-)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ἔρχομαι, ἦλθον</span></td><td><span class="tr">érchomai, êlthon</span></td><td>come, go</td><td>đến, đi (deponent nay, aorist chủ động)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">εὑρίσκω, εὗρον</span></td><td><span class="tr">heurískō, heûron</span></td><td>find</td><td>tìm thấy (aorist chủ đề, hít khí)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">γίγνομαι, ἐγενόμην</span></td><td><span class="tr">gígnomai, egenómēn</span></td><td>become; happen</td><td>trở thành; xảy ra (m/p hai thời)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">κρῑνω, ἔκρῑνα</span></td><td><span class="tr">krīnō, ékrīna</span></td><td>judge; decide</td><td>xét, phán; quyết (aorist thân lỏng)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">παρέρχομαι, παρῆλθον</span></td><td><span class="tr">parérchomai, parêlthon</span></td><td>pass by</td><td>đi ngang qua</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ ὅρκος, -ου</span></td><td><span class="tr">ho hórkos</span></td><td>oath</td><td>lời thề</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ θεός, -οῦ</span></td><td><span class="tr">ho theós</span></td><td>god</td><td>vị thần (nhiều: <span class="gk">οἱ θεοί</span> các thần)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ νεώς, -οῦ</span></td><td><span class="tr">ho neṓs</span></td><td>temple</td><td>ngôi đền (cùng từ còn viết <span class="gk">ναός</span>)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ ποταμός, -οῦ</span></td><td><span class="tr">ho potamós</span></td><td>river</td><td>dòng sông</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ἡ ὁδός, -οῦ</span></td><td><span class="tr">hē hodós</span></td><td>road, way</td><td>con đường</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ ὄχλος, -ου</span></td><td><span class="tr">ho óchlos</span></td><td>crowd</td><td>đám đông</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ἡ ἐρημία, -ας</span></td><td><span class="tr">hē erēmía</span></td><td>deserted place, loneliness</td><td>cảnh vắng, vùng hoang</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">τὸ βιβλίον, -ου</span></td><td><span class="tr">tò biblíon</span></td><td>book</td><td>cuốn sách, cuốn viết</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ ἀνδριάς, -αντος</span></td><td><span class="tr">ho andriás</span></td><td>statue (of a man)</td><td>tượng người</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">τὸ ἄγαλμα, -ατος</span></td><td><span class="tr">tò ágalma</span></td><td>votive statue</td><td>tượng dâng</td></tr>
+</tbody>
+</table>
+
+<p><strong>Ôn nhanh (không ★):</strong> <span class="gk">εἰμί</span> là, <span class="gk">ἦν</span> đã là (bài 2, 11); <span class="gk">φημί, ἔφη</span> nói (bài 12); <span class="gk">λέγω</span> nói (bài 5); <span class="gk">νομίζω</span> coi là (bài 4); <span class="gk">δεῖ</span> cần (bài 4); <span class="gk">ὁ πολέμιος</span> kẻ thù, <span class="gk">φοβερός</span> đáng sợ, <span class="gk">ἀγαθός</span> tốt (bài 11, 11, 9); <span class="gk">τὸ ἄγαλμα</span> thuộc họ trung -μα (bài 7); <span class="gk">πᾶς, πᾶσα, πᾶν</span> mọi (bài 9); <span class="gk">μεγάλος</span> lớn, <span class="gk">καλός</span> đẹp (bài 9); <span class="gk">τρεῖς</span> ba (bài 8); <span class="gk">τις</span> ai đó (bài 5); <span class="gk">πολλά</span> nhiều (bài 7); <span class="gk">οὐδείς, οὐδέν</span> không gì (bài 8); <span class="gk">σύν</span> + tặng cách cùng với (bài 4).</p>
+
+<p><strong>Gloss chỉ để đọc (chưa vào từ vựng):</strong> <span class="gk">χωρέω</span> tiến về phía; <span class="gk">ἐκδέχομαι</span> hiện ra; <span class="gk">τὸ παιδάριον</span> cậu bé; <span class="gk">τὸ ᾠόν</span> quả trứng; <span class="gk">προτείνω</span> chìa ra; <span class="gk">τὸ ἐνθύμιον</span> việc ghi tạc trong trí; <span class="gk">τὸ σύμβολον</span> tín vật; <span class="gk">ἕνεκα</span> + sở hữu cách vì; <span class="gk">ἐπιστρέφω</span> quay lại; <span class="gk">ὁ προνάος</span> chân đền; <span class="gk">ὁ φιλόσοφος</span> nhà triết học; <span class="gk">ἐλλόγιμος</span> tài tiếng; <span class="gk">ἡ ἀνάθεσις</span> việc dâng; <span class="gk">καθιερόω</span> dâng hiến; <span class="gk">κατεθέμεθα</span> đã ký gửi (mi-verb bài 20); <span class="gk">εἶπον, εἶπε(ν)</span> đã nói; <span class="gk">ἐπανέρχομαι</span> trở về; <span class="gk">ἐπίσταμαι</span> biết; <span class="gk">εὔπορος</span> dễ đi / <span class="gk">δύσπορος</span> khó đi / <span class="gk">διαβατός</span> qua được; <span class="gk">τὰ ἐπιτήδεια</span> những thứ cần dùng; <span class="gk">ἄνευ</span> + sở hữu cách thiếu; <span class="gk">τὸ σκότος</span> bóng tối; <span class="gk">μεστός</span> đầy; <span class="gk">ἔπειτα</span> sau đó; <span class="gk">χρὴ</span> phải; <span class="gk">ἀλλήλοις</span> lẫn nhau; <span class="gk">ὁ ὄχλος</span> đám đông; <span class="gk">κωλύω</span> ngăn cản; <span class="gk">προσήκει</span> hợp lẽ; <span class="gk">γιγνώσκω</span> hiểu biết; <span class="gk">ἀπορία</span> sự thiếu thốn; <span class="gk">μεστὴ</span> (dạng f.) đầy.</p>
+
+<h2 id="confusables">11. Bảng tổng hợp so sánh các điểm dễ nhầm</h2>
+
+<table>
+<thead><tr><th>Cặp / bộ dễ nhầm</th><th>Phân biệt</th><th>Tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἔλυσε(ν)</span> vs <span class="gk">ἐλύσει</span></td><td>aorist 3 Sg. vs tương lai 3 Sg.</td><td>augment <span class="gk">ἐ-</span> = đã xảy ra; trần + σ = sắp tới (nguyên tắc "biên giới augment" của L12)</td></tr>
+<tr><td><span class="gk">ἔλυσας</span> vs <span class="gk">ἐλύσεις</span> vs <span class="gk">ἐλύεις</span></td><td>aorist vs tương lai vs hiện tại, đều 2 Sg.</td><td>đuôi <span class="gk">-σας</span> aorist (σ rồi α), <span class="gk">-σεις</span> tương lai, <span class="gk">-εις</span> hiện tại; augmentation là chìa khóa</td></tr>
+<tr><td><span class="gk">ἔλυσαν</span> vs <span class="gk">ἐλύσαντο</span> vs <span class="gk">ἐλύοντο</span></td><td>aorist chủ động 3 Pl. vs aorist m/p 3 Pl. vs imperfect m/p 3 Pl.</td><td>đuôi <span class="gk">-σαν</span> chủ động vs <span class="gk">-σαντο</span> m/p; thêm η giữa thân và đuôi = imperfect</td></tr>
+<tr><td><span class="gk">ἔλαβον</span> vs <span class="gk">ἐλάμβανον</span></td><td>aorist chủ đề vs imperfect của <span class="gk">λαμβάνω</span></td><td>hai thân khác nhau: <span class="gk">λαβ-</span> (ngắn) = aorist, <span class="gk">λαμβαν-</span> (dài, có âm tiết -αν-) = imperfect</td></tr>
+<tr><td><span class="gk">ἦλθον</span> vs <span class="gk">ἐρχόμην</span></td><td>aorist vs hiện tại của <span class="gk">ἔρχομαι</span></td><td>hiện tại là m/p (<span class="gk">-ομαι</span>) nhưng aorist là chủ động (<span class="gk">ἦλθ-ον</span>): "đang đi" vs "đã đến"</td></tr>
+<tr><td><span class="gk">ἐγενόμην</span> vs <span class="gk">ἐγινόμην</span></td><td>aorist vs imperfect của <span class="gk">γίγνομαι</span></td><td>thân aorist <span class="gk">γεν-</span> (ε) vs thân hiện tại <span class="gk">γιν-</span> (ι): đừng viết *ἐγενόμην cho imperfect</td></tr>
+<tr><td><span class="gk">ἐλυσάμην</span> vs <span class="gk">ἐλυόμην</span></td><td>aorist vs imperfect m/p 1 Sg.</td><td>σ ngay sau thân = aorist; nguyên âm biến thiên + đuôi = imperfect</td></tr>
+<tr><td><span class="gk">ἔμεινα</span> vs <span class="gk">μενῶ</span> vs <span class="gk">μένω</span></td><td>aorist vs tương lai vs hiện tại của <span class="gk">μένω</span></td><td>ba dấu hiệu ba thời: augment (<span class="gk">ἐ-</span>), thân lỏng ν + σ co thành tương lai <span class="gk">μενῶ</span>, trần <span class="gk">μένω</span> hiện tại</td></tr>
+<tr><td><span class="gk">ἐποίησα</span> vs <span class="gk">ποιήσω</span></td><td>aorist vs tương lai của động từ co <span class="gk">ποιέω</span></td><td>cùng thân <span class="gk">ποιησ-</span>, khác mỗi augment; accent aorist rút về theo quy tắc recessive sau khi thêm augment, tương lai giữ nguyên vị trí từ điển</td></tr>
+<tr><td><span class="gk">ἔγραψεν</span> vs <span class="gk">ἔγραφεν</span> vs <span class="gk">γράψει</span></td><td>aorist vs imperfect vs tương lai của <span class="gk">γράφω</span></td><td>đọc từ trái sang: augment + ψ = aorist; augment + phụ âm gốc φ (không σ) = imperfect; trần + ψ = tương lai</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">12. Bài tập tự luyện + đáp án</h2>
+
+<h3>Bài tập 1 – Chia bảng aorist</h3>
+<p>Chia đủ sáu ngôi aorist chủ động của <span class="gk">λύω</span> và aorist m/p của <span class="gk">λύω</span>; viết kèm phiên âm của ngôi 2 số ít ở mỗi bảng.</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 1</h4>
+<p>Chủ động: <span class="gk">ἔλυσα, ἔλυσας, ἔλυσε(ν), ἐλύσαμεν, ἐλύσατε, ἔλυσαν</span> – 2 Sg. <span class="tr">élusas</span>. Trung: <span class="gk">ἐλυσάμην, ἐλύσω, ἐλύσατο, ἐλυσάμεθα, ἐλύσασθε, ἐλύσαντο</span> – 2 Sg. <span class="tr">elúsō</span>. Cùng thân <span class="gk">λυσ-</span>, chỉ khác đuôi; accent recessive rút về sát tiền tố augment ở cả hai bảng.</p>
+</div></div>
+
+<h3>Bài tập 2 – Phụ âm + σ</h3>
+<p>Cho các thân sau, viết dạng aorist 1 Sg. (augment sẵn): <span class="gk">ἐ-γραφ-, ἐ-παιδευ-, ἐ-κηρυκ-, ἐ-ποιη-, ἐ-δοκ-</span>. Dịch nghĩa của mỗi dạng (viết, giáo dục, công bố, làm, dường như).</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 2</h4>
+<p><span class="gk">ἔγραψα</span> (φ + σ → ψ) "tôi đã viết"; <span class="gk">ἐπαίδευσα</span> "tôi đã giáo dục"; <span class="gk">ἐκήρυξα</span> (κ + σ → ξ) "tôi đã công bố"; <span class="gk">ἐποίησα</span> "tôi đã làm"; <span class="gk">ἔδοξα</span> (κ + σ → ξ) "tôi đã dường như".</p>
+</div></div>
+
+<h3>Bài tập 3 – Sigmatic hay chủ đề?</h3>
+<p>Phân loại các dạng sau thành (a) aorist sigmatic, (b) aorist chủ đề, (c) imperfect: <span class="gk">εὗρον, ἐβουλευσάμην, ἐποίει, ἔμεινα, ἐγένετο, ἔλυσας, ἦλθε(ν)</span>.</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 3</h4>
+<p>(a) sigmatic: <span class="gk">ἐβουλευσάμην</span> (m/p), <span class="gk">ἔλυσας</span>. (b) chủ đề: <span class="gk">εὗρον</span>, <span class="gk">ἔμεινα</span> (thân lỏng cũng thuộc nhóm có đuôi chủ đề), <span class="gk">ἐγένετο</span> (m/p), <span class="gk">ἦλθε(ν)</span>. (c) imperfect: <span class="gk">ἐποίει</span> – nguyên âm biến thiên <span class="gk">ει</span> đứng giữa thân và đuôi, không có σ.</p>
+</div></div>
+
+<h3>Bài tập 4 – Dịch vào tiếng Hy Lạp</h3>
+<p>Dịch: (1) "Tôi đã tìm thấy cuốn sách." (2) "Các thần đã ngăn cuộc chiến." (3) "Chúng tôi đã ký gửi lời thề." (dùng aorist: <span class="gk">εὑρίσκω, κωλύω, κατατίθημι</span>).</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 4</h4>
+<p>(1) <span class="gk">εὗρον τὸ βιβλίον</span>. (2) <span class="gk">οἱ θεοὶ ἐκώλυσαν τὸν πόλεμον</span> (3) <span class="gk">τὸν ὅρκον κατεθέμεθα</span>. Cả ba đều thấy augment: quá khứ có "vết mốc" đứng đầu từ.</p>
+</div></div>
+
+<h3>Bài tập 5 – Đọc contexto</h3>
+<p>Đọc đoạn <span class="gk">ἔβαινον ἄνω, καὶ παιδάριον προὔτεινεν ᾠὰ τρία· ἐγὼ δὲ παρῆλθον καὶ οὐκ ἔλαβον</span> (bài đọc I, câu 2) và trả lời: động từ nào vẽ nền (imperfect), động từ nào ghi sự kiện (aorist)? Vì sao cả bốn động từ đều có augment mà chỉ hai động từ là aorist?</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 5</h4>
+<p>Nền: <span class="gk">ἔβαινον</span>, <span class="gk">προὔτεινεν</span> (đuôi thứ cấp, không σ, gánh cảnh "bước lên, chìa trứng" đang chảy). Sự kiện: <span class="gk">παρῆλθον</span>, <span class="gk">ἔλαβον</span> (aorist chủ đề: σ ẩn trong thân, đuôi <span class="gk">-ον</span> chốt "đã đi ngang, không lấy"). Augment chỉ nói "quá khứ", còn hình dạng thân và đuôi mới nói "nền hay chốt": imperfect gánh cảnh bằng đuôi thứ cấp nguyên âm biến thiên, aorist chốt sự kiện bằng đuôi đặc trưng của mình.</p>
+</div></div>
+
+<h3>Bài tập 6 – Nghe và viết chính tả</h3>
+<p>Đọc to (hoặc nhờ người đọc) các dạng sau rồi viết lại từ trí nhớ kèm nhãn thời: <span class="gk">ἔλυσαν, ἐλύσαντο, ἐλύσαντο, ἐλύοντο</span> – hai dạng nào trùng nhau, vì sao câu này là "bẫy" nghe?</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 6</h4>
+<p><span class="gk">ἐλύσαντο</span> xuất hiện hai lần trong đề vì aorist m/p 3 Pl. chỉ có một dạng. Còn lại: <span class="gk">ἔλυσαν</span> (aorist chủ động "họ đã tháo"), <span class="gk">ἐλύοντο</span> (imperfect m/p "họ đang tự tháo cho mình"). Bẫy nằm ở hai cặp gần trùng: <span class="gk">ἔλυσαν</span> vs <span class="gk">ἐλύσαντο</span> (chủ động vs m/p) và <span class="gk">ἐλύσαντο</span> vs <span class="gk">ἐλύοντο</span> (aorist vs imperfect): nghe thì gần, viết thì khác nguyên âm biến thiên <span class="gk">σα/ο</span>.</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 13 – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Bản đọc đối chiếu: Aristides, Or. 51 Keil (= 27 Dindorf) 61–63; Xenophon, Anabasis 2,5 (bản chữ Hy Lạp public domain).</p>
+
+</main>
+</body>
+</html>
