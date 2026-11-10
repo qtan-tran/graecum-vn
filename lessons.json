@@ -244,6 +244,26 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "12-future-contract-verbs",
+      "num": 12,
+      "level": "graecum-1",
+      "title": "Tương lai chủ động/trung; động từ co (contract verbs)",
+      "topics": [
+        "tương lai (future) chủ động: thân + σ + đuôi (παιδεύσω, γράψω, ἄξω); quy tắc phụ âm + σ (ψ/ξ/σ); ngoại lệ ἔχω → ἕξω; không augment",
+        "tương lai m/p + deponent (βουλήσομαι, ἀκολουθήσω); nhóm đổi giọng λήψομαι, τέξομαι, ἀκούσομαι; εἰμί tương lai ἔσομαι, ἔσται",
+        "tương lai lỏng (liquid future) của thân λ/μ/ν/ρ: μενῶ, κρῑνῶ (sụt phụ âm bù)",
+        "động từ co (contract verb) 3 họ: ποιέω/τιμάω/δηλόω hiện tại (ποιῶ, τιμᾷ, δηλοῖ) + quy tắc co + accent tròn",
+        "imperfect động từ co (ἐποίει, ἐτίμα, ἐδήλου) và tương lai KHÔNG co (ποιήσω, accent đứng trên η/α/ω); giải mã ἐπολέμει, ἐνομοθέτει (bài 11)",
+        "hiện tại lịch sử (historic present) δίδωσιν; biểu thức thời gian αὔριον; chiến lược 'bóc tương lai' và preview aorist λύσω vs ἔλυσα"
+      ],
+      "reading": [
+        "Xenophon, Anabasis 1,9",
+        "Plutarch, Lykurgos 14"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
