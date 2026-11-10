@@ -5,11 +5,11 @@ Từ vựng trọng tâm của **Lesson 1–10**, trích từ mục "Từ vựng
 | File | Nội dung |
 | --- | --- |
 | `vocab-01-10.tsv` | 186 dòng từ vựng, TSV (UTF-8, tab-separated) – xem chi tiết cột bên dưới |
-| `anki-01-05.txt` | File import Anki cho **Ôn tập #1** (Bài 1–5): 114 thẻ (102 từ + 12 **thẻ chia dạng**), mở là import được |
-| `anki-06-10.txt` | File import Anki cho **Ôn tập #2** (Bài 6–10): 84 thẻ (69 từ + 15 **thẻ chia dạng**) |
+| `anki-01-05.txt` | File import Anki (định dạng text đơn giản) cho **Ôn tập #1** (Bài 1–5): 114 thẻ (102 từ + 12 **thẻ chia dạng**) |
+| `anki-06-10.txt` | File import Anki (định dạng text đơn giản) cho **Ôn tập #2** (Bài 6–10): 84 thẻ (69 từ + 15 **thẻ chia dạng**) |
 | `../tools/gen_anki_deck.py` | Script sinh Anki deck `.apkg` (169 thẻ, từ trùng giữa các bài đã gộp, tag theo bài) từ TSV – thuần thư viện chuẩn Python, không cần cài gói ngoài |
 
-Deck `.apkg` không commit vào repo (file binary, sinh lại chỉ cần 1 lệnh – repo giữ đúng triết lý "toàn text, inspect được").
+Deck `.apkg` không commit dạng binary vào repo; thay vào đó được nhúng base64 ngay trong trang bài ôn tập tương ứng, trình duyệt dựng lại file thật khi người đọc bấm tải về (repo vẫn giữ đúng triết lý "toàn text, inspect được").
 
 ## Cách học bằng Anki
 
@@ -31,13 +31,17 @@ Tag gợi ý khi lọc học:
 
 ## File import cho bài ôn tập (Wiederholung)
 
-Cứ sau mỗi 5 bài, portal xuất bản một **bài ôn tập** (Ôn tập #1 sau Bài 5, Ôn tập #2 sau Bài 10…), mỗi bài kèm một file import Anki cho từ vựng nhóm 5 bài: `anki-01-05.txt`, `anki-06-10.txt`, `anki-11-15.txt`… File đã dựng sẵn thẻ (mặt trước = từ Hy Lạp, mặt sau = phiên âm Latin + nghĩa tiếng Việt/Anh) và một nhóm nhỏ **thẻ chia dạng**: mặt trước là một dạng đã biến cách/chia (ví dụ `θεραπεύεις`, `σώμασι(ν)`), mặt sau nêu đúng cách, số/ngôi + dạng từ điển + nghĩa.
+Cứ sau mỗi 5 bài, portal xuất bản một **bài ôn tập** (Ôn tập #1 sau Bài 5, Ôn tập #2 sau Bài 10…), mỗi bài kèm **hai file import Anki** cho từ vựng nhóm 5 bài, tùy người học chọn:
 
-**Import vào Anki (3 bước):**
+- **File đóng gói `.apkg`** (tải trực tiếp từ trang bài ôn tập tương ứng): deck dựng sẵn, **bảo lưu HTML và mã màu** của template – nhấp đúp là import được ngay.
+- **File text `anki-01-05.txt`, `anki-06-10.txt`, `anki-11-15.txt`…**: định dạng đơn giản, mở xem được bằng mọi editor trước khi import vào note type Basic.
 
-1. Tải file `.txt` về máy (nhấp chuột phải vào link → *Lưu đích dưới dạng…*).
-2. Mở Anki → **File → Import…** (hoặc kéo-thả file vào cửa sổ Anki).
-3. Anki đọc sẵn mọi cài đặt từ các dòng đầu file (dấu tab, HTML, deck đích, tag) – bấm **Import** là xong. Deck chưa có sẽ được tạo tự động.
+Cả hai đều dựng sẵn thẻ (mặt trước = từ Hy Lạp, mặt sau = phiên âm Latin + nghĩa tiếng Việt/Anh) và một nhóm nhỏ **thẻ chia dạng**: mặt trước là một dạng đã biến cách/chia (ví dụ `θεραπεύεις`, `σώμασι(ν)`), mặt sau nêu đúng cách, số/ngôi + dạng từ điển + nghĩa.
+
+**Import vào Anki:**
+
+- **File `.apkg`:** tải về từ trang bài ôn tập → nhấp đúp file (hoặc Anki → **File → Import…**) – deck xuất hiện với đầy đủ template màu.
+- **File `.txt`:** tải về (nhấp chuột phải vào link → *Lưu đích dưới dạng…*) → Anki → **File → Import…** (hoặc kéo-thả file vào cửa sổ Anki) → Anki đọc sẵn mọi cài đặt từ các dòng đầu file (dấu tab, HTML, deck đích, tag) – bấm **Import** là xong. Deck chưa có sẽ được tạo tự động.
 
 Tag khi lọc học: `bài-01`… `bài-10` (học theo bài), `ưu-tiên` (từ ★), `chia-dạng` (thẻ chia dạng), `graecum-1` (toàn cấp).
 
@@ -75,8 +79,8 @@ Từ ôn tập xuất hiện lại ở bài sau (ví dụ ὁ ἐχθρός, -ο
 python3 tools/gen_anki_deck.py
 ```
 
-Script đọc `vocab-01-10.tsv` (mặc định) và ghi `graecum-vn-01-10.apkg`. GUID của thẻ được tính bền từ headword nên sinh lại nhiều lần **không tạo thẻ trùng** trong bộ sưu tập đã import. Script chỉ dùng thư viện chuẩn Python (`sqlite3`, `zipfile`, `hashlib`) – không cần `pip install` gì cả, chạy được offline. Tham số tùy chọn: `--tsv <đường dẫn>`, `--out <file.apkg>`.
+Script đọc `vocab-01-10.tsv` (mặc định) và ghi `graecum-vn-01-10.apkg`. GUID của thẻ được tính bền từ headword nên sinh lại nhiều lần **không tạo thẻ trùng** trong bộ sưu tập đã import. Script chỉ dùng thư viện chuẩn Python (`sqlite3`, `zipfile`, `hashlib`) – không cần `pip install` gì cả, chạy được offline. Tham số tùy chọn: `--tsv <đường dẫn>`, `--out <file.apkg>`, `--deck <tên deck>` (cho deck nhóm 5 bài, ví dụ `--deck "Graecum VN 01-05"`; ID deck được suy ra bền từ tên nên sinh lại nhiều lần không trùng).
 
 ## Bản quyền & ghi công
 
-Nội dung TSV và deck: **CC BY-SA 4.0**; code script: MIT. Biên soạn bởi **Trần Quốc Tân**. Khi cite hoặc tái sử dụng, ghi công: "Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0".
+Nội dung TSV và deck: **CC BY-SA 4.0**; code script: MIT. Biên soạn bởi **Trần Quốc Tân**. Khi cite hoặc tái sử dụng, vui lòng ghi: "Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn".

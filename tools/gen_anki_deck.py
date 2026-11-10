@@ -39,10 +39,17 @@ DECK_ID = 1746801951   # ID cố định: deck ổn định qua mỗi lần sinh
 MODEL_ID = 1746801952   # ID cố định của note type "Graecum VN Vocabulary"
 DECK_NAME = "Graecum VN – Graecum I (Bài 1–10)"
 DECK_DESCRIPTION = (
-    "Từ vựng trọng tâm Lesson 1–10, Graecum VN. Biên soạn bởi Trần Quốc Tân. "
-    "Khi cite hoặc tái sử dụng, ghi công: \"Graecum VN – Trần Quốc Tân, "
-    "https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0\"."
+    "Khi cite hoặc tái sử dụng, vui lòng ghi: "
+    "\"Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn\"."
 )
+
+
+def configure_deck(name):
+    """Đổi tên deck đích và suy ra ID bền (md5) – cho deck nhóm 5 bài (Ôn tập)."""
+    global DECK_ID, DECK_NAME
+    DECK_NAME = name
+    digest = hashlib.md5(("graecum-vn-deck:" + name).encode("utf-8")).digest()
+    DECK_ID = int.from_bytes(digest[:3], "big") | (1 << 23)
 
 LATEX_PRE = (
     "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n"
@@ -319,6 +326,8 @@ def build_db(db_path, notes_raw, timestamp):
         if r["ưu tiên"] == "1":
             tags.append("ưu-tiên")
             n_star += 1
+        if r.get("nhóm", "") == "chia dạng":
+            tags.append("chia-dạng")
         fields = [r["greek"], r["phiên âm"], r["english"], r["tiếng việt"],
                   r.get("ghi chú", "") or "", lessons]
         cur.execute("INSERT INTO notes VALUES (?,?,?,?,?,?,?,?,?,?,?);", (
@@ -364,7 +373,11 @@ def main():
     ap = argparse.ArgumentParser(description="Sinh Anki deck (.apkg) từ vocab TSV của Graecum VN")
     ap.add_argument("--tsv", default="vocab/vocab-01-10.tsv", help="đường dẫn TSV đầu vào")
     ap.add_argument("--out", default="vocab/graecum-vn-01-10.apkg", help="file .apkg đầu ra")
+    ap.add_argument("--deck", default=None,
+                    help='tên deck đích, ví dụ: "Graecum VN 01-05" (mặc định: bộ Bài 1–10)')
     args = ap.parse_args()
+    if args.deck:
+        configure_deck(args.deck)
 
     rows = read_tsv(args.tsv)
     notes_raw = merge_duplicates(rows)
@@ -391,7 +404,7 @@ def main():
     assert n_notes == len(notes_raw) and n_cards == len(notes_raw) and n_gconf == 1
 
     print(f"Đã sinh {len(notes_raw)} notes / {n_cards} cards "
-          f"({n_star} từ ưu tiên ★) -> {args.out}")
+          f"({n_star} từ ưu tiên ★) -> {args.out} [deck: {DECK_NAME}]")
 
 
 if __name__ == "__main__":
