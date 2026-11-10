@@ -1,4 +1,4 @@
-# ROADMAP phát triển project – cập nhật lần 12 (Phần 5 hoàn thành: Lesson 10 publish)
+# ROADMAP phát triển project – cập nhật lần 13 (Phần 6 hoàn thành: vocab TSV + Anki deck L1–10)
 
 > **Quy ước làm việc**: công việc chia thành **Phần (Part)**; cuối mỗi Phần ghi **Continuation notes** vào file này. Cứ **6–7 steps** thì bản roadmap này được cập nhật và báo cáo lại cho người sở hữu project. Tốc độ không quan trọng – tính bền vững và chất lượng mới quyết định.
 
@@ -19,9 +19,24 @@
 | **3** | Chuyển hóa Lesson 2–6 sang quy ước mới, audit bản quyền từng bài; kèm yêu cầu mới: **ghi công tác giả (BY) trên COPYRIGHT + footer mọi bài giảng**; mở rộng: **lớp tiếng Anh (EN edition)** cho repo + bài giảng | ✅ XONG phần lõi (L2–L6 ✅, EN pilot L1 ✅) – pipeline EN L2–L5 chuyển tiếp |
 | **4** | Repo `ancient-greek-toolkit` (hub tools EN + so sánh tài liệu) – đổi tên + chuyển tiếng Anh theo quyết định người sở hữu | ✅ XONG (Pages đã bật, live) |
 | **5** | Lesson 7–10 mới hoàn chỉnh (bắt đầu phần curriculum chưa có bản thảo) + readings pipeline (bản simplified đầu tiên) | ✅ XONG (L7, L8, L9, L10 ✅) |
-| **6** | Vocab TSV + script sinh Anki deck cho L1–10 (CC BY-SA) | ☐ |
+| **6** | Vocab TSV + script sinh Anki deck cho L1–10 (CC BY-SA) | ✅ XONG |
 | **7–12** | Lesson 11–24 (hoàn thành Graecum I); cập nhật roadmap giữa chừng | ☐ |
 | **13+** | Graecum II (L25–48) + satzanalyse platform + cộng đồng | ☐ |
+
+## Continuation notes – Phần 6 (kết thúc)
+
+**Đã làm:**
+- **Vocab TSV L1–10** – `vocab/vocab-01-10.tsv` (186 dòng + header, UTF-8, tab-separated): trích bằng parser từ mục "Từ vựng trọng tâm" của cả 10 bài đã publish (L1 20 từ, L2 23, L3 12, L4 35, L5 24, L6 16, L7 12, L8 14, L9 13, L10 17). 8 cột: bài / greek (giữ nguyên headword + paradigm rút gọn như bài giảng) / phiên âm / english / tiếng việt / ghi chú / nhóm (Động từ, Danh từ… nếu bài có chia nhỏ) / ưu tiên (★ = từ bắt buộc nhớ). Parser detect ★ cả dạng `<span class="star">★</span>` lẫn ★ trần; strip tag an toàn (chấp nhận cả `.notyet`); 14 headword trùng giữa các bài đều là từ ôn tập hợp lệ (giữ nguyên trong TSV).
+- **Script sinh Anki deck** – `tools/gen_anki_deck.py` (~390 dòng, MIT): **thuần thư viện chuẩn Python** (`sqlite3` + `zipfile` + `hashlib`), không cần `pip install` gì (đúng triết lý sustainability của project; tham chiếu định dạng schema 11 từ genanki – MIT). Đọc TSV → gộp headword trùng thành 1 note mang tag mọi bài chứa nó (186 dòng → 169 thẻ, ví dụ ὁ ἐχθρός, -οῦ mang bài-01/03/06/07) → ghi `.apkg` (collection.anki2 schema 11 + media rỗng). Note type "Graecum VN Vocabulary" 6 field (Greek / Translit / English / Vietnamese / Note / Lessons), template mặt trước chỉ từ Hy Lạp (font Palatino/Gentium, màu portal), mặt sau phiên âm + nghĩa Anh/Việt + ghi chú + badge số bài; tag `graecum-vn`, `graecum-1`, `bài-01`…`bài-10` (zero-pad để sort đúng), `ưu-tiên` (102 từ ★). **GUID base91 từ SHA256 headword** (cùng thuật toán Anki) – sinh lại deck nhiều lần không tạo thẻ trùng trong collection đã import (đã verify 2 lần sinh cho GUID identical); deck_id/model_id cố định. Quyết định pending từ Phần 1 ("dùng scheduler nào"): **.apkg schema 11** – Anki Desktop/AnkiDroid/AnkiMobile đều import được.
+- **Quyết định thiết kế: KHÔNG commit file `.apkg` binary vào repo** – GitHub connector chỉ push được text an toàn; hơn nữa giữ repo toàn-text inspect được đúng nguyên tắc 1 (static, không binary build). `vocab/README.md` hướng dẫn: chạy 1 lệnh `python3 tools/gen_anki_deck.py` để có deck; đường không-Python: import TSV thẳng vào Anki.
+- **`vocab/README.md` mới**: bảng file + cách học bằng Anki (tag lọc theo bài/ưu tiên), định dạng 8 cột TSV, quy ước gộp từ trùng, cách sinh lại, license CC BY-SA 4.0 + citation chuẩn.
+- **Homepage + README cập nhật trong cùng commit**: homepage thêm bullet "Cách học" (Anki deck Bài 1–10) + link mục "Tài liệu project"; README thêm mục 4 "Cách dùng bài giảng" + **sửa bảng Trạng thái stale từ Phần 1** (Bài 1–6 "dạng bản thảo" → "Bài 1–10 ✅ đã xuất bản", thêm hàng Phần 6).
+- QA trước push: TSV 187 dòng đều 8 cột, không em dash/CJK/Cyrillic, tag balance index sạch; deck verify sau sinh (169 notes/169 cards, GUID unique, JSON col valid, tag per-lesson đúng 20/23/12/35/24/16/12/14/13/17). Commit: `6f8910c`.
+
+**Bước tiếp theo (Phần 7–12):**
+1. **Lesson 11** – quá khứ chưa hoàn thành (imperfect): augment; biểu thức thời gian (readings: Herodot 1,207; Diodor 12,13) – biên soạn từ CURRICULUM theo đúng pipeline L7–L10 (QA script + lessons.json + homepage flip + push riêng).
+2. Vocab TSV/deck cộng dồn: mỗi bài publish sau này thêm file `vocab/vocab-11-20.tsv`… khi đủ cụm 10 bài (hoặc cập nhật lại TSV L1–10 nếu bài cũ có từ mới), script chạy được với `--tsv` tùy ý.
+3. EN L2–L5 vẫn sẵn sàng khi người sở hữu kích hoạt (pipeline pilot EN L1).
 
 ## Continuation notes – Phần 5 (kết thúc)
 
@@ -35,7 +50,7 @@
 
 **Bước tiếp theo:**
 1. Phương án EN đã chốt (cùng repo `en/`): khi kích hoạt, dịch EN L2–L5 theo pipeline chuẩn hóa ở pilot EN L1 (bảng 3 cột Hy Lạp/phiên âm/Anh, bỏ audience VN, footer "Compiled by Trần Quốc Tân"), mỗi bài một commit + flip portal EN.
-2. **Lesson 10 đã publish (lần 12) – Phần 5 hoàn thành.** Hai hướng tiếp theo cho người sở hữu chọn: **Phần 6** – Vocab TSV + script sinh Anki deck cho L1–10 (CC BY-SA), hoặc tiếp tục **Lesson 11** (Phần 7–12): quá khứ chưa hoàn thành (imperfect): augment; biểu thức thời gian (readings: Herodot 1,207; Diodor 12,13) – biên soạn từ CURRICULUM theo đúng pipeline L7–L10 (QA script + lessons.json + homepage flip + push riêng).
+2. **Phần 6 đã hoàn thành (lần 13).** Khi tiếp tục sản xuất VN: **Lesson 11** (Phần 7–12): quá khứ chưa hoàn thành (imperfect): augment; biểu thức thời gian (readings: Herodot 1,207; Diodor 12,13) – biên soạn từ CURRICULUM theo đúng pipeline L7–L10 (QA script + lessons.json + homepage flip + push riêng).
 3. Sau mỗi bài: QA checklist đầy đủ, cập nhật lessons.json (published, rev), homepage flip, push riêng từng commit, ROADMAP cập nhật mỗi 6–7 steps.
 
 ## Continuation notes – Phần 3 (kết thúc)
@@ -128,3 +143,4 @@
 - Lần 9 (bổ sung 3 – nâng cấp thuật ngữ theo yêu cầu người sở hữu): **gloss tiếng Anh cho thuật ngữ linguistics** – quy ước mới ghi vào STYLE mục 1: mọi thuật ngữ (kể cả quen thuộc: tân ngữ, định ngữ, nguyên mẫu, thân, đuôi, ngôi…) mở ngoặc tiếng Anh ở lần xuất hiện đầu mỗi bài; script quét + chèn 105 gloss cho L1–L7 (loại title/heading/nav, lọc "đuôi câu/ngôi nhà"); vá kèm 14 typo "Ngom" → "Ngôi" trong bảng L6. **Trang `terminology.html` mới** (portal root): 6 mục – 5 cách + rời cách Latin; ngữ âm & chính tả (accent/breathings/iota subscript/elision/movable nu/enclitic-proclitic); danh từ & mạo từ; động từ (tense stem/thematic/athematic/deponent/imperative/prohibitive); cú pháp (AcI/double accusative/deixis…); **đối chiếu đặc thù Hy Lạp ↔ Latin** (article/dual/middle/optative vs ablative/gerundive/supine); homepage thêm 2 link. Động cơ (lời người sở hữu): thuật ngữ không kèm tiếng Anh gây khó hiểu; cần trang giải thích riêng cho thuật ngữ khó, đặc thù của Hy Lạp và Latin.
 - Lần 11 (Phần 5 tiếp tục): typography & terminology sweep theo yêu cầu người sở hữu – en dash thay em dash toàn project (1070 chỗ; quy ước mới vào STYLE mục 1 + 2 mục QA checklist), rough breathing chuẩn hóa thành "dấu hút khí" (ἱ = hi, ἡ = hē), smooth = "dấu mềm", cấm "khó thở" – commits portal `7b0adce`, toolkit `a07bf0d`. Lesson 9 publish (tính từ hai đuôi ἀληθής thân s + εὐδαίμων thân ν; tính từ ba đuôi μέλας, μέλαινα, μέλαν; tạo trạng từ -ως + εὖ; ôn danh từ hóa τὸ ἀληθές/τὸ εὐδαίμον; bài đọc Xenophon Agesilaos simplified "Nhà vua nhỏ với tâm hồn lớn") – commit `7ca78a3`; terminology.html +3 thuật ngữ (two-ending, three-ending, adverb); L1–L9 đều published, homepage 1–9 "đã xuất bản". Kế hoạch tiếp: L10 VN (hiện tại trung/bị động đủ; deponent mở rộng).
 - Lần 12 (Phần 5 hoàn thành): Lesson 10 publish (hiện tại trung/bị động đủ sáu ngôi: bảng παιδεύω hai thái, mệnh lệnh ngôi 3 -έσθω/-έσθωσαν + nguyên mẫu -εσθαι, tác nhân ὑπό + sở hữu ôn sâu, bốn làn nghĩa -ομαι + cây quyết định; deponent mở rộng ἔρχομαι/ἀπέρχομαι/ἀποκρίνομαι/αἰσθάνομαι; bài đọc Platon Politeia 375b–e "chú chó triết gia" + Diogenes Laertios 6,37 vứt cốc + tam đoạn luận) – commit `1bd39f4`; terminology.html +2 (tác nhân, trung trực tiếp/gián tiếp) + row deponent thêm bài 10; L1–L10 đều published, homepage 1–10 "đã xuất bản", hàng dở dang "11–24". Kế hoạch tiếp: Phần 6 (Vocab TSV + Anki deck L1–10) hoặc L11 VN (imperfect: augment; readings Herodot 1,207; Diodor 12,13).
+- Lần 13 (Phần 6 hoàn thành): vocab TSV `vocab/vocab-01-10.tsv` (186 từ, 8 cột, trích từ 10 bài đã publish) + `tools/gen_anki_deck.py` sinh `.apkg` thuần stdlib (169 thẻ, gộp từ trùng theo headword, GUID bền, tag bài-01…10 + ưu-tiên 102 từ ★) + `vocab/README.md`; quyết định không commit binary .apkg (repo toàn-text); homepage + README cập nhật (sửa bảng Trạng thái stale) – commit `6f8910c`. Phần 6 flip ✅ XONG. Kế hoạch tiếp: L11 VN (imperfect: augment; readings Herodot 1,207; Diodor 12,13); vocab cộng dồn theo cụm 10 bài.
