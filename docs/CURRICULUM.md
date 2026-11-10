@@ -20,7 +20,7 @@
 | 2 | Chia động từ hiện tại chủ động đủ các ngôi; hô cách (vocative); nguyên mẫu II (chủ ngữ vs tân ngữ); đối cách kép (double accusative); né vực nguyên âm (hiatus) & ν di động | Platon, Apologie 26c–d; Lukian, Deorum dialogi 10 |
 | 3 | Lược từ (ellipsis); chủ ngữ trung tính số nhiều; trạng từ | Aristoteles, Magna Moralia 1,1; Anaxagoras, DK 59A42 |
 | 4 | Đại từ nhân xưng; mệnh lệnh cách; phủ định (οὐ/μή); các dụng pháp tặng cách; nguyên mẫu tân ngữ (accusativus cum infinitivo) bước đầu | Diogenes Laertios 7,7; Epikur, Brief an Menoikeus 128; 131–132 |
-| 5 | Hiện tại trung/bị động; động từ hình thức trung/bị động – nghĩa chủ động (deponent); tính từ danh từ hóa; τις/τι | Stobaios II 7,11g–i; Marc Aurel, Tà eis heautón 9,40 |
+| 5 | Hiện tại trung/bị động; động từ hình thức trung/bị động – nghĩa chủ động (deponent); tính từ danh từ hóa; τις/τι (bảng chia đầy đủ) | Stobaios II 7,11g–i; Marc Aurel, Tà eis heautón 9,40 |
 | Ôn tập #1 | **Ôn tập #1 – Bài 1–5** (Wiederholung): tóm tắt ngữ pháp chính; bảng tổng quan động từ, mạo từ, danh từ, tính từ, đại từ đã học; file import Anki (`.apkg` + `vocab/anki-01-05.txt`) + quy tắc thẻ; chiến lược ôn tập nhóm | – |
 | 6 | δύναμαι; đại từ chỉ định (ὅδε, ἐκεῖνος); εἶναι II | Homer, Odyssee 6,187–197; 16,181–206 |
 | 7 | Chia thứ ba I: thân phụ âm (3rd declension); hệ thống mệnh lệnh đủ số/ngôi; câu cấm đoán (prohibitions, μή) | Dio Chrysostomos, Or. 7; Longos 1,9–13 |
@@ -28,7 +28,7 @@
 | 9 | Tính từ 3/2 đuôi; tạo trạng từ; ôn danh từ hóa | Xenophon, Agesilaos; Lukian, Deorum dialogi 24 |
 | 10 | Hiện tại trung/bị động đủ; deponent mở rộng | Platon, Politeia 375b–e; Diogenes Laertios 6,37 |
 | Ôn tập #2 | **Ôn tập #2 – Bài 6–10** (Wiederholung): tóm tắt ngữ pháp chính; bảng tổng quan động từ, mạo từ, danh từ, tính từ, đại từ đã học; file import Anki (`.apkg` + `vocab/anki-06-10.txt`) + quy tắc thẻ; chiến lược ôn tập nhóm | – |
-| 11 | Quá khứ chưa hoàn thành (imperfect): augment; biểu thức thời gian | Herodot 1,207; Diodor 12,13 |
+| 11 | Quá khứ chưa hoàn thành (imperfect): augment; biểu thức thời gian; tặng cách chỉ thời điểm & đối cách chỉ độ dài | Herodot 1,207; Diodor 12,13 |
 | 12 | Tương lai chủ động/trung; động từ co (contract verbs) | Xenophon, Anabasis 1,9; Plutarch, Lykurgos 14 |
 | 13 | Aorist chủ động/trung (dạng sigmatic & thematic) | Aristides 51 Keil; Xenophon, Anabasis 2,5 |
 | 14 | Aorist & tương lai bị động; hoàn thành trung/bị động | Platon, Protagoras 313d–e; Menon 89d–92c |
