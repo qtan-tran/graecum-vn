@@ -1,0 +1,116 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#deck:Graecum VN 11-15
+#tags column:3
+τότε	<i>tóte</i><br>bấy giờ, khi đó (then, at that time)	graecum-vn graecum-1 bài-11 ưu-tiên
+πρότερον	<i>próteron</i><br>trước đây, trước đó (before, formerly)	graecum-vn graecum-1 bài-11 ưu-tiên
+πάλαι	<i>pálai</i><br>cách đây lâu (long ago)	graecum-vn graecum-1 bài-11 ưu-tiên
+ἔτι	<i>éti</i><br>vẫn còn, vẫn (still, yet)	graecum-vn graecum-1 bài-11 ưu-tiên
+οὐκέτι	<i>oukéti</i><br>không còn nữa (no longer)	graecum-vn graecum-1 bài-11 ưu-tiên
+ἀεί	<i>aeí</i><br>luôn, mãi mãi (Homer, Herodotos: αἰεί) (always, forever)	graecum-vn graecum-1 bài-11 ưu-tiên
+ἡ ἡμέρα, -ας	<i>hē hēméra</i><br>ngày (day)	graecum-vn graecum-1 bài-11 ưu-tiên
+ὁ χρόνος, -ου	<i>ho chrónos</i><br>thời gian (time)	graecum-vn graecum-1 bài-11 ưu-tiên
+ὁ ἐνιαυτός, -οῦ	<i>ho eniautós</i><br>năm (year)	graecum-vn graecum-1 bài-11 ưu-tiên
+ἡ νύξ, νυκτός	<i>hē nýx, nyktós</i><br>đêm (chia thứ ba, thân νυκτ-) (night)	graecum-vn graecum-1 bài-11 ưu-tiên
+μακρός, -ά, -όν	<i>makrós</i><br>dài (long)	graecum-vn graecum-1 bài-11 ưu-tiên
+πρῶτος, -η, -ον	<i>prṓtos</i><br>thứ nhất, đầu tiên (first)	graecum-vn graecum-1 bài-11 ưu-tiên
+ὁ ἄρχων, -οντος	<i>ho árkhōn</i><br>nhà cai trị, chấp chính quan (chia thứ ba thân -οντ-) (ruler, archon)	graecum-vn graecum-1 bài-11 ưu-tiên
+ἡ ἀρχή, -ῆς	<i>hē arkhḗ</i><br>quyền cai trị (nghĩa gốc: "khởi đầu") (rule, empire)	graecum-vn graecum-1 bài-11 ưu-tiên
+ἄρχω	<i>árkhō</i><br>(tôi) cai trị + sở hữu cách (tân ngữ sở hữu cách, như đã gặp ở các bài trước) (I rule (over))	graecum-vn graecum-1 bài-11 ưu-tiên
+ὁ κύκλος, -ου	<i>ho kýklos</i><br>vòng tròn, bánh xe (wheel, circle)	graecum-vn graecum-1 bài-11 ưu-tiên
+τὸ γράμμα, -ατος (γράμματα)	<i>tò grámma</i><br>chữ cái; số nhiều γράμματα: phép chữ viết (trung tính -μα như σῶμα bài 7) (letter; (pl.) letters, writing)	graecum-vn graecum-1 bài-11 ưu-tiên
+ἡ ἐπιστολή, -ῆς	<i>hē epistolḗ</i><br>thư (từ) – gốc chữ "epistle" (letter, epistle)	graecum-vn graecum-1 bài-11 ưu-tiên
+ἡ φύσις, -εως	<i>hē phúsis</i><br>bản nhiên (chia như πόλις, bài 7) (nature)	graecum-vn graecum-1 bài-11 ưu-tiên
+μανθάνω	<i>manthánō</i><br>(tôi) học (bất quy tắc; nguyên mẫu μανθάνειν) (I learn)	graecum-vn graecum-1 bài-11 ưu-tiên
+ὁ νομοθέτης, -ου	<i>ho nomothétēs</i><br>nhà làm luật (νόμος + "đặt ra") (lawgiver)	graecum-vn graecum-1 bài-11
+ὁ νόμος, -ου	<i>ho nómos</i><br>luật (ôn bài 8) (law)	graecum-vn graecum-1 bài-11
+ὁ Κροῖσος, -ου	<i>ho Kroîsos</i><br>Croesus, vua Lydia (Croesus)	graecum-vn graecum-1 bài-11 ưu-tiên
+ὁ Κῦρος, -ου	<i>ho Kŷros</i><br>Cyrus, vua Ba Tư (Cyrus)	graecum-vn graecum-1 bài-11 ưu-tiên
+ποιέω, ποιήσω	<i>poiéō, poiḗsō</i><br>làm, tạo (đã gặp ποιεῖται ở bài 5) (make, do)	graecum-vn graecum-1 bài-12 ưu-tiên
+τιμάω, τιμήσω	<i>timáō, timḗsō</i><br>tôn vinh, trọng đãi (honour)	graecum-vn graecum-1 bài-12 ưu-tiên
+δηλόω, δηλώσω	<i>dēlóō, dēlṓsō</i><br>làm rõ, cho thấy (show, make clear)	graecum-vn graecum-1 bài-12 ưu-tiên
+τὸ στράτευμα, -ατος	<i>stráteuma</i><br>đội quân (giống trung -μα, chia như σῶμα, bài 7) (army)	graecum-vn graecum-1 bài-12 ưu-tiên
+ὁ στρατιώτης, -ου	<i>stratiṓtēs</i><br>người lính (chia như ὁ πολίτης) (soldier)	graecum-vn graecum-1 bài-12 ưu-tiên
+ἡ τροφή, -ῆς	<i>trophḗ</i><br>việc nuôi quân; lương thực (food, sustenance)	graecum-vn graecum-1 bài-12 ưu-tiên
+ὁ δρόμος, -ου	<i>drómos</i><br>cuộc chạy (race, running)	graecum-vn graecum-1 bài-12 ưu-tiên
+ἡ πάλη, -ης	<i>pálē</i><br>môn vật (wrestling)	graecum-vn graecum-1 bài-12 ưu-tiên
+ἡ παρθένος, -ου	<i>parthénos</i><br>thiếu nữ, trinh nữ (maiden)	graecum-vn graecum-1 bài-12 ưu-tiên
+ὁ ἀνήρ, ἀνδρός	<i>anḗr, andrós</i><br>người đàn ông (cách ba; nhận diện qua ἀνδρ-) (man)	graecum-vn graecum-1 bài-12 ưu-tiên
+ἡ Λάκαινα, -ης	<i>Lákaina</i><br>phụ nữ Sparta (Spartan woman)	graecum-vn graecum-1 bài-12 ưu-tiên
+ὁ Κλέαρχος, -ου	<i>Kléarchos</i><br>tên vị tướng Sparta của bài đọc I (Klearchos)	graecum-vn graecum-1 bài-12 ưu-tiên
+τίκτω, τέξομαι	<i>tíktō, téksomai</i><br>sinh (ra) – tương lai m/p (nhóm đổi giọng) (give birth to)	graecum-vn graecum-1 bài-12 ưu-tiên
+γυμνάζω, γυμνάσω	<i>gymnázsō</i><br>rèn luyện (thân thể) (train, exercise)	graecum-vn graecum-1 bài-12 ưu-tiên
+ἰσχυρός, -ά, -όν	<i>ischyrós</i><br>khỏe, mạnh (strong)	graecum-vn graecum-1 bài-12 ưu-tiên
+ἀκούω, ἀκούσομαι	<i>akoúō, akoúsomai</i><br>nghe (+ sở hữu cách chỉ người/nguồn được nghe; + đối cách chỉ điều được nghe) (hear; + gen. (person/source), + acc. (thing heard))	graecum-vn graecum-1 bài-12 ưu-tiên
+αὔριον	<i>aúrition</i><br>ngày mai (tomorrow)	graecum-vn graecum-1 bài-12 ưu-tiên
+μένω, μενῶ	<i>ménō, menô</i><br>ở lại, đứng lại – đại diện tương lai lỏng (remain, stay)	graecum-vn graecum-1 bài-12 ưu-tiên
+λύω, ἔλυσα	<i>lúō, élusa</i><br>tháo, cởi; giải oan (động từ mẫu của khóa) (loosen; release)	graecum-vn graecum-1 bài-13 ưu-tiên
+γράφω, ἔγραψα	<i>gráphō, égrapsa</i><br>viết (φ + σ → ψ) (write)	graecum-vn graecum-1 bài-13 ưu-tiên
+λαμβάνω, ἔλαβον	<i>lambánō, élabon</i><br>lấy, nhận (aorist chủ đề, thân ληβ- → λαβ-) (take)	graecum-vn graecum-1 bài-13 ưu-tiên
+ἔρχομαι, ἦλθον	<i>érchomai, êlthon</i><br>đến, đi (deponent nay, aorist chủ động) (come, go)	graecum-vn graecum-1 bài-13 ưu-tiên
+εὑρίσκω, εὗρον	<i>heurískō, heûron</i><br>tìm thấy (aorist chủ đề, hít khí) (find)	graecum-vn graecum-1 bài-13 ưu-tiên
+γίγνομαι, ἐγενόμην	<i>gígnomai, egenómēn</i><br>trở thành; xảy ra (m/p hai thời) (become; happen)	graecum-vn graecum-1 bài-13 ưu-tiên
+κρῑνω, ἔκρῑνα	<i>krīnō, ékrīna</i><br>xét, phán; quyết (aorist thân lỏng) (judge; decide)	graecum-vn graecum-1 bài-13 ưu-tiên
+παρέρχομαι, παρῆλθον	<i>parérchomai, parêlthon</i><br>đi ngang qua (pass by)	graecum-vn graecum-1 bài-13 ưu-tiên
+ὁ ὅρκος, -ου	<i>ho hórkos</i><br>lời thề (oath)	graecum-vn graecum-1 bài-13 ưu-tiên
+ὁ θεός, -οῦ	<i>ho theós</i><br>vị thần (nhiều: οἱ θεοί các thần) (god)	graecum-vn graecum-1 bài-13 ưu-tiên
+ὁ νεώς, -οῦ	<i>ho neṓs</i><br>ngôi đền (cùng từ còn viết ναός) (temple)	graecum-vn graecum-1 bài-13 ưu-tiên
+ὁ ποταμός, -οῦ	<i>ho potamós</i><br>dòng sông (river)	graecum-vn graecum-1 bài-13 ưu-tiên
+ἡ ὁδός, -οῦ	<i>hē hodós</i><br>con đường (road, way)	graecum-vn graecum-1 bài-13 ưu-tiên
+ὁ ὄχλος, -ου	<i>ho óchlos</i><br>đám đông (crowd)	graecum-vn graecum-1 bài-13 ưu-tiên
+ἡ ἐρημία, -ας	<i>hē erēmía</i><br>cảnh vắng, vùng hoang (deserted place, loneliness)	graecum-vn graecum-1 bài-13 ưu-tiên
+τὸ βιβλίον, -ου	<i>tò biblíon</i><br>cuốn sách, cuốn viết (book)	graecum-vn graecum-1 bài-13 ưu-tiên
+ὁ ἀνδριάς, -αντος	<i>ho andriás</i><br>tượng người (statue (of a man))	graecum-vn graecum-1 bài-13 ưu-tiên
+τὸ ἄγαλμα, -ατος	<i>tò ágalma</i><br>tượng dâng (votive statue)	graecum-vn graecum-1 bài-13 ưu-tiên
+λωβέω, ἐλωβήθην	<i>lōbéō, elōbḗthēn</i><br>làm nhục, đối xử tệ (ngôi sao của bài đọc II) (insult, maltreat)	graecum-vn graecum-1 bài-14 ưu-tiên
+φαίνω, ἐφάνην	<i>phaínō, ephánēn</i><br>rọi sáng; cho thấy; bị động "xuất hiện, được phơi bày" (shine; show; pass. be revealed)	graecum-vn graecum-1 bài-14 ưu-tiên
+ἀλλάσσω, ἠλλάγην	<i>allássō, ēllágēn</i><br>thay đổi; bị động "bị đổi, bị đưa sang (phe khác)" (change; pass. be changed)	graecum-vn graecum-1 bài-14 ưu-tiên
+βλάπτω, ἐβλάβην	<i>bláptō, eblábēn</i><br>làm hại; bị động "bị hại" (aorist II) (harm)	graecum-vn graecum-1 bài-14 ưu-tiên
+καλέω, ἐκλήθην	<i>kaléō, eklḗthēn</i><br>gọi; bị động "được gọi (là)" – họ hàng với κέκλημαι (call; pass. be called)	graecum-vn graecum-1 bài-14 ưu-tiên
+παύω, πέπαυμαι	<i>paúō, pépaumai</i><br>làm ngừng; hoàn thành m/p "đã ngừng (hẳn)" – πέπαυται ngôi sao bài đọc (stop (trans.); m/p cease)	graecum-vn graecum-1 bài-14 ưu-tiên
+ὁ σοφιστής, -οῦ	<i>ho sophistḗs</i><br>nhà biện sĩ – dạy lấy tiền; gốc của từ "sophistry" tiếng Anh (sophist)	graecum-vn graecum-1 bài-14 ưu-tiên
+ἡ μανία, -ας	<i>hē manía</i><br>cơn điên, sự điên rồ (gốc của "mania") (madness)	graecum-vn graecum-1 bài-14 ưu-tiên
+τὸ μάθημα, -ατος	<i>tò máthēma</i><br>bài học, điều học được (gốc của "mathematics") (lesson, thing learned)	graecum-vn graecum-1 bài-14 ưu-tiên
+ὁ κάπηλος, -ου	<i>ho kápēlos</i><br>thương nhân rong, người bán rong hàng tạp (huckster, retail trader)	graecum-vn graecum-1 bài-14 ưu-tiên
+ὁ ἔμπορος, -ου	<i>ho émporos</i><br>thương gia buôn đường xa (ἐν + πόρος "đường thủy") (merchant)	graecum-vn graecum-1 bài-14 ưu-tiên
+ἀσφαλής, -ές	<i>asphalḗs</i><br>an toàn, chắc chắn – gốc của "asphalt" (thứ "không thể lung lay") (safe, secure)	graecum-vn graecum-1 bài-14 ưu-tiên
+τὸ ὑπόδημα, -ατος	<i>tò hypódēma</i><br>đôi giày (danh từ trung tính -μα, bài 7) (shoe)	graecum-vn graecum-1 bài-14 ưu-tiên
+τὸ ἱμάτιον, -ου	<i>tò himátion</i><br>áo choàng (cloak)	graecum-vn graecum-1 bài-14 ưu-tiên
+διδακτός, -ή, -όν	<i>didaktós</i><br>dạy được – tính từ -τος, câu hỏi trung tâm của Menon (teachable)	graecum-vn graecum-1 bài-14 ưu-tiên
+ἡ ψυχή, -ῆς	<i>hē psychḗ</i><br>linh hồn – gốc của "psychology" (soul)	graecum-vn graecum-1 bài-14 ưu-tiên
+ὁ Πρωταγόρας	<i>ho Prōtagóras</i><br>biện sĩ nổi tiếng nhất Hy Lạp (Abdera, ~490–420 TCN) (Protagoras)	graecum-vn graecum-1 bài-14 ưu-tiên
+ὁ Ἄνυτος	<i>ho Ánytos</i><br>nhà chính trị ở Athens – một trong những người sau này buộc tội Socrates (Anytus)	graecum-vn graecum-1 bài-14 ưu-tiên
+ὅς, ἥ, ὅ	<i>hós, hé, hó</i><br>(người/cái) mà, ai, điều mà (who, which)<br><small>bảng chia ở mục 1; hợp nhất kép ở mục 2; luôn có dấu thanh + dấu hút khí</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+ἐμός, ἐμή, ἐμόν	<i>emós, emḗ, emón</i><br>của tôi (my)<br><small>vị trí định ngữ; nhấn hơn sở hữu cách μου</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+σός, σή, σόν	<i>sós, sḗ, són</i><br>của ngươi (your (sg.))<br><small>như ἐμός; thường nói σου</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+ἡμέτερος, -α, -ον	<i>hēméteros</i><br>của chúng ta (our)<br><small>thường nói ἡμῶν</small>	graecum-vn graecum-1 bài-15
+ὑμέτερος, -α, -ον	<i>hyméteros</i><br>của các bạn (your (pl.))<br><small>thường nói ὑμῶν</small>	graecum-vn graecum-1 bài-15
+αὐτός, αὐτή, αὐτό	<i>autós, autḗ, autó</i><br>hắn/cô ấy; chính; cùng một (he/she/it; -self; the same)<br><small>ba dụng pháp theo vị trí (mục 6); chia như ἐκεῖνος; sở hữu cách = "của hắn/của cô ấy"</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+ἑαυτοῦ / ἑαυτῷ / ἑαυτόν	<i>heautoû / heautô(i) / heautón</i><br>chính mình (sở hữu/tặng/đối cách) (of / to / (-self) oneself)<br><small>phản thân ngôi 3; không chủ cách; ngôi 1/2: ἐμαυτοῦ, σεαυτοῦ; sau danh từ = "của chính mình"; dạng co αὑτοῦ dễ lẫn với αὐτοῦ (mục 7)</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+ζητέω	<i>zetéō</i><br>tìm kiếm (seek, look for)<br><small>động từ co -έω (bài 12) + đối cách</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+ἀκολουθέω	<i>akolouthéō</i><br>đi theo, theo sau (follow)<br><small>+ tặng cách (bài 4: như πιστεύω); gốc tiếng Anh "acolyte"</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+κρύπτω / ἔκρυψα	<i>krýptō / ékrypsa</i><br>giấu, che giấu (hide)<br><small>aorist sigmatic (bài 13); gốc "crypt-: cryptography"</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+ἀποκτείνω / ἀπέκτεινα	<i>apokteínō / apékteina</i><br>giết, giết chết (kill)<br><small>aorist chủ đề (bài 13: thân riêng -ειν-); tiền tố ἀπο- "xa, hẳn"</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+τελειόω	<i>teleióō</i><br>hoàn thành, làm trọn (complete, accomplish)<br><small>động từ co -όω (bài 12); gốc "teleology: τέλος + λόγος"</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+γελάω	<i>geláō</i><br>cười (laugh)<br><small>động từ co -άω (bài 12)</small>	graecum-vn graecum-1 bài-15
+τὸ σχῆμα, -ατος	<i>to schêma, -atos</i><br>hình, hình dạng (shape, figure)<br><small>trung, chia thứ ba -μα (bài 8); gốc tiếng Anh "schema"</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+τὸ χρῶμα, -ατος	<i>to khrôma, -atos</i><br>màu, màu sắc (color)<br><small>như σχῆμα; gốc "chrom-: chromosome, polychrome"</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+ἡ ἀρετή, -ῆς	<i>hē aretḗ, -ês</i><br>đức hạnh (virtue, excellence)<br><small>cái, nhóm a; họ hàng của ἄριστος – gốc "aristocracy"</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+ἡ ζώνη, -ης	<i>hē zónē, -ês</i><br>dây đai, đai lưng (belt, girdle)<br><small>cái, nhóm a; gốc tiếng Anh "zone"</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+τὸ ἔργον, -ου	<i>to érgon, -ou</i><br>công việc, việc (work, task, deed)<br><small>trung, nhóm o; gốc "erg-: energy, ergonomic"</small>	graecum-vn graecum-1 bài-15 ưu-tiên
+ἐπαίδευον	<i>epaídeuon</i><br>hắn đang dạy (lúc đó) (he was educating)<br><small>imperfect 3rd sg. of παιδεύω</small>	graecum-vn graecum-1 bài-11 ưu-tiên chia-dạng
+ἦν	<i>ên</i><br>ông/ nó là (khi đó) (he/it was)<br><small>imperfect 3rd sg. of εἰμί</small>	graecum-vn graecum-1 bài-11 ưu-tiên chia-dạng
+ἦσαν	<i>êsan</i><br>họ là (khi đó) (they were)<br><small>imperfect 3rd pl. of εἰμί</small>	graecum-vn graecum-1 bài-11 ưu-tiên chia-dạng
+ἔσομαι	<i>ésomai</i><br>tôi sẽ là (I will be)<br><small>future 1st sg. of εἰμί</small>	graecum-vn graecum-1 bài-12 ưu-tiên chia-dạng
+ποιήσω	<i>poiḗsō</i><br>tôi sẽ làm (I will make/do)<br><small>future 1st sg. of ποιέω</small>	graecum-vn graecum-1 bài-12 ưu-tiên chia-dạng
+ἐποίησα	<i>epoíēsa</i><br>tôi đã làm (I made/did)<br><small>aorist sigmatic 1st sg. of ποιέω</small>	graecum-vn graecum-1 bài-13 ưu-tiên chia-dạng
+ἐλυσάμην	<i>elusámēn</i><br>tôi tháo cho mình (I loosed (for myself))<br><small>aorist m/p 1st sg. of λύω</small>	graecum-vn graecum-1 bài-13 ưu-tiên chia-dạng
+ἦλθον	<i>êlthon</i><br>tôi/ hắn đã đến (I/ he came, went)<br><small>aorist chủ đề of deponent ἔρχομαι</small>	graecum-vn graecum-1 bài-13 ưu-tiên chia-dạng
+ἐλύθην	<i>elýthēn</i><br>tôi bị tháo (I was loosed)<br><small>aorist bị động I 1st sg. of λύω</small>	graecum-vn graecum-1 bài-14 ưu-tiên chia-dạng
+λέλυμαι	<i>lélumai</i><br>tôi đã tháo (xong, trạng thái) (I have loosed (am in the state))<br><small>perfect m/p 1st sg. of λύω</small>	graecum-vn graecum-1 bài-14 ưu-tiên chia-dạng
+ᾡ	<i>hô(i)</i><br>(cho/ với) người/ cái mà (to whom)<br><small>dative sg. m/n of ὅς, ἥ, ὅ</small>	graecum-vn graecum-1 bài-15 ưu-tiên chia-dạng
+ἥν	<i>hḗn</i><br>(người nữ) mà (whom (f.))<br><small>accusative sg. fem. of ὅς, ἥ, ὅ</small>	graecum-vn graecum-1 bài-15 ưu-tiên chia-dạng
+οὕς	<i>hoús</i><br>những người mà (whom (pl. m.))<br><small>accusative pl. masc. of ὅς, ἥ, ὅ</small>	graecum-vn graecum-1 bài-15 ưu-tiên chia-dạng
+ἑαυτόν	<i>heautón</i><br>chính hắn (himself)<br><small>accusative sg. of ἑαυτοῦ (reflexive)</small>	graecum-vn graecum-1 bài-15 ưu-tiên chia-dạng
+τελειοῖ	<i>teleiói</i><br>hắn hoàn thành (he completes)<br><small>present 3rd sg. of động từ co -όω τελειόω</small>	graecum-vn graecum-1 bài-15 ưu-tiên chia-dạng

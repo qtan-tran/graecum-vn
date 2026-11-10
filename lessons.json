@@ -374,6 +374,28 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "review-11-15",
+      "type": "review",
+      "num": "W3",
+      "level": "graecum-1",
+      "title": "Ôn tập #3: Bài 11–15 (Wiederholung 3)",
+      "covers": [
+        11,
+        15
+      ],
+      "topics": [
+        "tóm tắt ngữ pháp chính Bài 11–15",
+        "bảng tổng quan động từ: imperfect, future, aorist (sigmatic + chủ đề), aorist & tương lai bị động, hoàn thành m/p",
+        "bản đồ sáu thân λύω + Latin corner perfectum ↔ aorist/hoàn thành",
+        "bảng tổng quan đại từ Graecum I (bài 4–6, 15): quan hệ, sở hữu, αὐτός, phản thân; hợp nhất kép + hút cách",
+        "bộ Anki nhóm Bài 11–15 (apkg + vocab/anki-11-15.txt) + cách import",
+        "chiến lược ôn tập nhóm + tự kiểm tra 5 câu"
+      ],
+      "reading": [],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
