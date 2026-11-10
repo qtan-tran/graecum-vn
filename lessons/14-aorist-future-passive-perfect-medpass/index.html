@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 14 – Aorist &amp; tương lai bị động; hoàn thành trung/bị động</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; }
+  .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 4px solid #1976d2; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; }
+  .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 4px solid #db2777; padding: 10px 16px; margin: 16px 0; font-size: 0.97em; }
+  .latin p:first-child { margin-top: 0; }
+  .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 4px solid #0f766e; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; }
+  .info p:last-child { margin-bottom: 0; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; background: #f8fafc; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 14: Aorist &amp; tương lai bị động; hoàn thành trung/bị động</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Bị động đích thực: đuôi <span class="gk">-θη-</span> và aorist bị động <span class="gk">ἐλύθην</span></a></li>
+<li><a href="#s2">Aorist bị động thứ hai &amp; động từ co: <span class="gk">ἐφάνην, ἠλλάγην, ἐτιμήθην</span></a></li>
+<li><a href="#s3">Tương lai bị động: <span class="gk">λυθήσομαι</span></a></li>
+<li><a href="#s4">Hoàn thành trung/bị động: <span class="gk">λέλυμαι, πέπαυται</span></a></li>
+<li><a href="#s5">Bản đồ sáu thân động từ: <span class="gk">λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην</span></a></li>
+<li><a href="#s6">Chiến lược &quot;bóc bị động&quot; &amp; tác nhân <span class="gk">ὑπό</span> + sở hữu cách</a></li>
+<li><a href="#s7">Bảng tra nhanh toàn hệ thống (bài 2–14)</a></li>
+<li><a href="#reading">Bài đọc I: Chợ bán tri thức (Platon, Protagoras 313d–e)</a></li>
+<li><a href="#reading2">Bài đọc II: Đức hạnh có dạy được không? (Platon, Menon 89d–92c)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) giải thích &quot;bị động đích thực (true passive)&quot; khác tính năng trung ở điểm nào, và chia đủ sáu ngôi <strong>aorist bị động (passive aorist)</strong> thứ nhất (<span class="gk">ἐλύθην</span>) kể cả động từ co (<span class="gk">ἐτιμήθην</span>); (2) nhận diện và chia <strong>aorist bị động thứ hai</strong> với <span class="gk">-η-</span> ngắn (<span class="gk">ἐφάνην, ἠλλάγην, ἐβλάβην</span>); (3) chia <strong>tương lai bị động (passive future)</strong> <span class="gk">λυθήσομαι</span> và giải thích vì sao nó mượn đuôi của tương lai trung; (4) chia <strong>hoàn thành trung/bị động (perfect middle/passive)</strong> <span class="gk">λέλυμαι</span> và nắm nghĩa &quot;trạng thái còn đọng&quot;; (5) dựng <strong>bản đồ sáu thân (principal parts)</strong> của một động từ và biết mỗi thân sinh ra những thời nào; (6) đọc hai đoạn gốc: Platon, Protagoras 313d–e và Menon 89d–92c.</p>
+</div>
+
+<h2 id="s1">1. Bị động đích thực: đuôi <span class="gk">-θη-</span> và aorist bị động <span class="gk">ἐλύθην</span></h2>
+
+<p>Ở bài 10 bạn đã học một sự thật hơi bất ngờ: hiện tại của Hy Lạp <strong>không có</strong> hình thức bị động riêng – trung và bị động dùng chung một bộ đuôi (<span class="gk">παιδεύεται</span> vừa là &quot;tự giáo dục cho mình&quot; vừa là &quot;được giáo dục&quot;). Nhưng ở aorist, tiếng Hy Lạp bỗng tách hai đường rõ rệt: aorist trung (<span class="gk">ἐλυσάμην</span>, bài 13) mang đuôi trung, còn <strong>bị động đích thực</strong> nhận một đuôi riêng chưa từng gặp: <span class="gk">-θη-</span> gắn vào giữa thân và đuôi.</p>
+
+<table>
+<thead><tr><th>Bạn gặp</th><th>Hình thức</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td>Aorist trung (bài 13)</td><td><span class="gk">ἐλυσάμην</span></td><td>&quot;tôi tự tháo cho mình / tôi lo việc tháo&quot; – chủ thể <em>tự làm</em></td></tr>
+<tr><td>Aorist bị động – mới hôm nay</td><td><span class="gk">ἐλύθην</span></td><td>&quot;tôi đã <em>bị</em> tháo ra&quot; – chủ thể <em>thụ động</em>, kẻ khác tác động</td></tr>
+</tbody>
+</table>
+
+<p>Bảng chia đầy đủ của <strong>aorist bị động thứ nhất (first aorist passive)</strong> với động từ mẫu <span class="gk">λύω</span>:</p>
+
+<table>
+<thead><tr><th>Ngôi</th><th>Dạng</th><th>Phiên âm</th><th>Dịch</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td><span class="gk">ἐλύθην</span></td><td><span class="tr">elýthēn</span></td><td>tôi đã bị tháo</td></tr>
+<tr><td>2 Sg.</td><td><span class="gk">ἐλύθης</span></td><td><span class="tr">elýthēs</span></td><td>bạn đã bị tháo</td></tr>
+<tr><td>3 Sg.</td><td><span class="gk">ἐλύθη</span></td><td><span class="tr">elýthē</span></td><td>hắn/nó đã bị tháo</td></tr>
+<tr><td>1 Pl.</td><td><span class="gk">ἐλύθημεν</span></td><td><span class="tr">elýthēmen</span></td><td>chúng tôi đã bị tháo</td></tr>
+<tr><td>2 Pl.</td><td><span class="gk">ἐλύθητε</span></td><td><span class="tr">elýthēte</span></td><td>các bạn đã bị tháo</td></tr>
+<tr><td>3 Pl.</td><td><span class="gk">ἐλύθησαν</span></td><td><span class="tr">elýthēsan</span></td><td>họ đã bị tháo</td></tr>
+</tbody>
+</table>
+
+<p>Đọc kỹ bảng này sẽ thấy ba pattern quen thuộc cộng một điều mới: (1) <strong>augment <span class="gk">ἐ-</span></strong> đứng đầu như mọi thời quá khứ (bài 11); (2) bộ đuôi <span class="gk">-ν/-ς/-μεν/-τε/-σαν</span> (ngôi 3 số ít không có đuôi) chính là bộ đuôi <strong>chủ động</strong> của aorist sigmatic (<span class="gk">ἔλυσα, ἔλυσας, ἔλυσε(ν)…</span>, bài 13) – bị động &quot;mượn lại&quot; bộ đuôi chủ động; (3) điểm duy nhất mới là chục <span class="gk">-θη-</span> cắm giữa thân và đuôi. Nguyên mẫu của aorist bị động là <span class="gk">λυθῆναι</span> &quot;để bị tháo&quot; – so với nguyên mẫu trung hiện tại <span class="gk">λύεσθαι</span> (bài 10): bị động gắn <span class="gk">-θη-</span> và kết thúc <span class="gk">-ναι</span>.</p>
+
+<div class="achtung">
+<p><strong>Achtung – accent:</strong> âm tiết <span class="gk">-θη-</span> luôn &quot;hút&quot; dấu vào mình trong cả paradigm (<span class="gk">ἐλύθην, ἐλύθημεν, ἐλύθησαν</span>) – đừng kéo accent về augment theo kiểu recessive của <span class="gk">ἔλυσα</span>. Đây là quy tắc riêng của aorist bị động: <strong>dấu đứng trên <span class="gk">-θη-</span></strong>. Một phao kiểm tra: nếu bạn &quot;thấy&quot; một từ quá khứ có âm tiết mang dấu nằm ngay trước đuôi -ν/-ς/-μεν/-τε/-σαν, kèm augment, thì gần như chắc chắn đó là aorist bị động.</p>
+<p><strong>Achtung – nghĩa:</strong> <span class="gk">ἐλύθη</span> không phải &quot;hắn đã tháo&quot;! Cùng thân <span class="gk">λυ-</span>, nhưng <span class="gk">-θη-</span> đảo vai: chủ thể trở thành <em>người bị tác động</em>. Dịch nhầm chiều này là lỗi kinh điển của người mới: <span class="gk">ἔλυσε</span> &quot;hắn đã tháo&quot; (chủ động, bài 13) vs <span class="gk">ἐλύθη</span> &quot;hắn đã bị tháo&quot; (bị động, hôm nay) – khác nhau đúng một chục <span class="gk">-θη-</span>.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> tiếng Latin gói cả hệ thống bị động vào một đuôi: hiện tại <em>docētur</em> &quot;nó được dạy&quot; – cùng cách gắn đuôi như Hy Lạp <span class="gk">παιδεύεται</span>. Nhưng khi nói về quá khứ và tương lai bị động, Latin phải <em>ghép</em>: <em>doctus est</em> &quot;đã được dạy&quot; (danh đuôi participle + động từ <em>esse</em>), <em>doctus erit</em> &quot;sẽ được dạy&quot;. Hy Lạp vẫn gói một từ duy nhất: <span class="gk">ἐδιδάχθη</span>, <span class="gk">διδαχθήσεται</span>. Hệ quả khi dịch Latin sang Hy Lạp: mỗi khi bạn thấy <em>amātus est</em>, hãy nghĩ ngay tới một aorist bị động <span class="gk">ἐλύθη</span>; cụm hai từ Latin = một từ Hy Lạp.</p>
+</div>
+
+<h2 id="s2">2. Aorist bị động thứ hai &amp; động từ co: <span class="gk">ἐφάνην, ἠλλάγην, ἐτιμήθην</span></h2>
+
+<p>Như aorist chủ động có hai dòng (sigmatic <span class="gk">ἔλυσα</span> và chủ đề <span class="gk">ἦλθον</span> – bài 13), aorist bị động cũng có hai dòng: dòng thứ nhất cắm <span class="gk">-θη-</span> dài (mục 1), dòng thứ hai dùng <strong><span class="gk">-η-</span> ngắn</strong> – gọi <strong>aorist bị động thứ hai (second aorist passive)</strong>. Với một số động từ, thân bị động này còn &quot;mảnh&quot; hơn thân hiện tại:</p>
+
+<table>
+<thead><tr><th>Hiện tại</th><th>Aorist bị động II</th><th>Nghĩa bị động</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">φαίνω</span> &quot;rọi sáng; cho hiện ra&quot;</td><td><span class="gk">ἐφάνην</span> (<span class="tr">ephánēn</span>)</td><td>&quot;tôi được chỉ ra / xuất hiện ra&quot;</td></tr>
+<tr><td><span class="gk">ἀλλάσσω</span> &quot;thay đổi&quot;</td><td><span class="gk">ἠλλάγην</span> (<span class="tr">ēllágēn</span>)</td><td>&quot;tôi đã bị đổi (sang phe khác)&quot;</td></tr>
+<tr><td><span class="gk">βλάπτω</span> &quot;làm hại&quot;</td><td><span class="gk">ἐβλάβην</span> (<span class="tr">eblábēn</span>)</td><td>&quot;tôi đã bị hại&quot;</td></tr>
+<tr><td><span class="gk">στέλλω</span> &quot;gửi đi&quot;</td><td><span class="gk">ἐστάλην</span> (<span class="tr">estálēn</span>)</td><td>&quot;tôi đã bị gửi đi&quot;</td></tr>
+</tbody>
+</table>
+
+<p>Bảng chia với <span class="gk">ἐφάνην</span> – để ý đuôi số nhiều ngôi 3:</p>
+
+<table>
+<thead><tr><th>Ngôi</th><th>Dạng</th><th>Phiên âm</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td><span class="gk">ἐφάνην</span></td><td><span class="tr">ephánēn</span></td></tr>
+<tr><td>2 Sg.</td><td><span class="gk">ἐφάνης</span></td><td><span class="tr">ephánēs</span></td></tr>
+<tr><td>3 Sg.</td><td><span class="gk">ἐφάνη</span></td><td><span class="tr">ephánē</span></td></tr>
+<tr><td>1 Pl.</td><td><span class="gk">ἐφάνημεν</span></td><td><span class="tr">ephánēmen</span></td></tr>
+<tr><td>2 Pl.</td><td><span class="gk">ἐφάνητε</span></td><td><span class="tr">ephánēte</span></td></tr>
+<tr><td>3 Pl.</td><td><span class="gk">ἐφάνησαν</span></td><td><span class="tr">ephánēsan</span></td></tr>
+</tbody>
+</table>
+
+<p>Hai điểm khác so với dòng thứ nhất: <span class="gk">-η-</span> <strong>ngắn</strong> (không có <span class="gk">θ</span>), và số nhiều ngôi 3 kết thúc <span class="gk">-σαν</span> – giống như số nhiều ngôi 3 của aorist sigmatic chủ động (<span class="gk">ἔλυσαν</span>, bài 13). Pattern ghi nhớ: <strong>đuôi bị động II = đuôi aorist chủ động II/III cộng <span class="gk">-η-</span></strong>. Còn động từ co (bài 12) thì không có gì lạ: thân co <span class="gk">τιμη-</span> giữ nguyên khi bị động hóa, chỉ thêm <span class="gk">-θη-</span>: <span class="gk">ἐτιμήθην</span> &quot;tôi đã được tôn vinh&quot;, <span class="gk">ἐδηλώθη</span> &quot;nó đã được phơi bày&quot; – <span class="gk">-η-</span> dài của thân co + <span class="gk">-θη-</span> xếp hàng ngay ngắn, accent đứng yên trên nguyên âm dài của thân.</p>
+
+<div class="achtung">
+<p><strong>Achtung – cạm bẫy đôi:</strong> (1) <span class="gk">ἐφάνη</span> (aorist bị động của <span class="gk">φαίνω</span>) trông chỉ khác một &quot;uống&quot; so với <span class="gk">ἔφην</span> – imperfect của <span class="gk">φημί</span> &quot;nói&quot; (bài 12: <span class="gk">ἔφη</span> &quot;nàng nói&quot;). Hai từ này xuất hiện dày đặc trong văn thoại Platon và dễ đọc lẫn: <strong>accent trên <span class="gk">-άν-</span> = bị động &quot;hiện ra&quot;; accent trên augment = &quot;đang nói&quot;</strong>. (2) Đừng &quot;bổ sung&quot; <span class="gk">-θη-</span> vào aorist bị động II: <span class="gk">ἐφάνην</span> đã <em>là</em> dạng bị động; dạng *ἐφανθέν không tồn tại ở thời này.</p>
+</div>
+
+<div class="info">
+<p><strong>Nguồn gốc của <span class="gk">-θη-</span>:</strong> nhà ngữ pháp lịch đại cho rằng <span class="gk">-θη-</span> vốn là một yếu tố <em>causative</em> (làm-cho) rặt ở cổ ngữ: <span class="gk">φαίνω</span> &quot;cho hiện ra&quot; có họ hàng với Sanskrit <em>bhā́ti</em>. Vết tích của nghĩa &quot;làm cho&quot; còn nghe được trong một số từ mang <span class="gk">-θη-</span> nhưng dịch tốt nhất theo chiều chủ động: <span class="gk">ἐβουλήθην</span> &quot;tôi đã muốn&quot; (aorist của deponent <span class="gk">βούλομαι</span> – hình thức bị động, nghĩa chủ động hoàn toàn; so sánh imperfect <span class="gk">ἐβουλόμην</span> bài 11 và tương lai <span class="gk">βουλήσομαι</span> bài 12). Đây là &quot;deponent của aorist bị động&quot; – sẽ gặp lại trong bảng dễ nhầm cuối bài.</p>
+</div>
+
+<h2 id="s3">3. Tương lai bị động: <span class="gk">λυθήσομαι</span></h2>
+
+<p>Câu hỏi tự nhiên kế tiếp: nếu aorist có bị động riêng thì tương lai đâu? Câu trả lời tinh tế: Hy Lạp <strong>không chế đuôi mới</strong> cho tương lai bị động – nó mượn nguyên bộ đuôi tương lai trung của bài 12 (<span class="gk">-σομαι/-σῃ/-σεται…</span>), nhưng gắn bộ đuôi ấy lên <em>thân aorist bị động</em>. Công thức:</p>
+
+<table>
+<thead><tr><th>Thành phần</th><th>Aorist bị động</th><th>Tương lai bị động</th></tr></thead>
+<tbody>
+<tr><td>Thân</td><td><span class="gk">λυ-θη-</span> (augment khi chỉ định quá khứ)</td><td><span class="gk">λυ-θη-</span> (không augment: chuyện tương lai)</td></tr>
+<tr><td>Đuôi</td><td>bộ chủ động <span class="gk">-ν/-ς/-μεν/-τε/-σαν</span></td><td>bộ trung tương lai <span class="gk">-σομαι/-σῃ/-σεται…</span></td></tr>
+<tr><td>Kết quả</td><td><span class="gk">ἐλύθην</span> &quot;tôi đã bị tháo&quot;</td><td><span class="gk">λυθήσομαι</span> &quot;tôi sẽ bị tháo&quot;</td></tr>
+</tbody>
+</table>
+
+<p>Bảng chia đủ sáu ngôi:</p>
+
+<table>
+<thead><tr><th>Ngôi</th><th>Dạng</th><th>Phiên âm</th><th>Dịch</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td><span class="gk">λυθήσομαι</span></td><td><span class="tr">lythḗsomai</span></td><td>tôi sẽ bị tháo</td></tr>
+<tr><td>2 Sg.</td><td><span class="gk">λυθήσῃ</span></td><td><span class="tr">lythḗsēi</span></td><td>bạn sẽ bị tháo</td></tr>
+<tr><td>3 Sg.</td><td><span class="gk">λυθήσεται</span></td><td><span class="tr">lythḗsetai</span></td><td>hắn/nó sẽ bị tháo</td></tr>
+<tr><td>1 Pl.</td><td><span class="gk">λυθησόμεθα</span></td><td><span class="tr">lythēsómetha</span></td><td>chúng tôi sẽ bị tháo</td></tr>
+<tr><td>2 Pl.</td><td><span class="gk">λυθήσεσθε</span></td><td><span class="tr">lythḗsesthe</span></td><td>các bạn sẽ bị tháo</td></tr>
+<tr><td>3 Pl.</td><td><span class="gk">λυθήσονται</span></td><td><span class="tr">lythḗsontai</span></td><td>họ sẽ bị tháo</td></tr>
+</tbody>
+</table>
+
+<p>Aorist bị động thứ hai cũng sinh tương lai theo cùng công thức, chỉ thay <span class="gk">-η-</span> ngắn: <span class="gk">φανήσομαι</span> &quot;tôi sẽ xuất hiện/được chỉ ra&quot;, <span class="gk">ἀλλαγήσομαι</span> &quot;tôi sẽ bị đổi&quot;. Cặp tài tử trong văn bản thật: <span class="gk">διδαχθήσομαι</span> &quot;tôi sẽ được dạy&quot; – từ <span class="gk">διδάσκω</span>, chính động từ trung tâm của hai bài đọc hôm nay.</p>
+
+<div class="achtung">
+<p><strong>Achtung – cặp kính phải soi thân:</strong> <span class="gk">λυθήσομαι</span> và <span class="gk">λύσομαι</span> (tương lai trung, bài 12) khác nhau <em>đúng một <span class="gk">-θη-</span></em>, giống hệt cặp <span class="gk">ἐλύθην</span>/<span class="gk">ἐλυσάμην</span> ở quá khứ. Khi gặp dạng <span class="gk">-σομαι</span>, hỏi: thân này là thân hiện tại (tương lai trung) hay thân aorist bị động (tương lai bị động)? Điểm tựa: nếu trước <span class="gk">-σ</span> có một <span class="gk">-η-</span> dài đứng cạnh → mùi bị động: <span class="gk">βουλήσομαι</span> &quot;sẽ muốn&quot; (thân <span class="gk">βουλη-</span> vốn có của động từ co <span class="gk">βούλομαι</span>) vs <span class="gk">λυθήσομαι</span> &quot;sẽ bị tháo&quot; (thân <span class="gk">λυθη-</span> do aorist bị động sinh ra). Không có augment ở cả hai – augment không giúp được ở tương lai; chỉ có thân.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern dùng cả đời:</strong> từ điển chỉ cần ghi một dòng là bạn tự dựng được hai thời bị động: mục &quot;aorist passive&quot; ghi <span class="gk">ἐλύθην</span> → bạn biết thân <span class="gk">λυθη-</span> → aorist bị động (<span class="gk">ἐλύθην, ἐλύθης, ἐλύθη…</span>) và tương lai bị động (<span class="gk">λυθήσομαι, λυθήσῃ, λυθήσεται…</span>) – hai thời, một thân. Đây là lý do người ta nói thân aorist bị động là &quot;thân bị động&quot; của động từ: nó phục vụ cả quá khứ lẫn tương lai.</p>
+</div>
+
+<h2 id="s4">4. Hoàn thành trung/bị động: <span class="gk">λέλυμαι, πέπαυται</span></h2>
+
+<p>Giờ đến thời cuối cùng còn thiếu trên bản đồ: <strong>hoàn thành (perfect)</strong> – thời nói &quot;<strong>đã X, và trạng thái X còn đọng đến giờ</strong>&quot;. Khác với aorist (sự kiện khép kín ở quá khứ, bài 13), hoàn thành đứng ở hiện tại để kể di sản của quá khứ: <span class="gk">πέπαυται</span> &quot;nó đã ngừng – và tới giờ vẫn đang ngừng&quot;; <span class="gk">κέκλημαι</span> &quot;tôi đã được gọi – và vẫn còn mang danh xưng ấy&quot;.</p>
+
+<p>Dấu hiệu hình thức số một của hoàn thành là <strong>nhân đôi (reduplication)</strong>: lặp phụ âm đầu của thân + <span class="gk">-ε-</span>: thân <span class="gk">λυ-</span> → <span class="gk">λε-λυ-</span>; <span class="gk">παυ-</span> → <span class="gk">πε-παυ-</span>; <span class="gk">κλη-</span> (thân của <span class="gk">καλέω</span>) → <span class="gk">κε-κλη-</span>. Với động từ bắt đầu bằng nguyên âm thì kéo dài nguyên âm đầu (<span class="gk">ἀ-</span> → <span class="gk">ᾱ-</span>, kiểu augment: <span class="gk">ἀκούω</span> → <span class="gk">ἀκήκοα</span>) – chính là &quot;tăng phụ nguyên âm&quot; bạn biết từ bài 11.</p>
+
+<p>Bảng chia <strong>hoàn thành trung/bị động</strong> (perfect middle/passive) của <span class="gk">λύω</span>:</p>
+
+<table>
+<thead><tr><th>Ngôi</th><th>Dạng</th><th>Phiên âm</th><th>Dịch</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td><span class="gk">λέλυμαι</span></td><td><span class="tr">lélumai</span></td><td>tôi ở trạng thái đã được tháo</td></tr>
+<tr><td>2 Sg.</td><td><span class="gk">λέλυσαι</span></td><td><span class="tr">lélusai</span></td><td>bạn ở trạng thái đã được tháo</td></tr>
+<tr><td>3 Sg.</td><td><span class="gk">λέλυται</span></td><td><span class="tr">lélutai</span></td><td>hắn/nó ở trạng thái đã được tháo</td></tr>
+<tr><td>1 Pl.</td><td><span class="gk">λελύμεθα</span></td><td><span class="tr">lelúmetha</span></td><td>chúng tôi ở trạng thái đã được tháo</td></tr>
+<tr><td>2 Pl.</td><td><span class="gk">λέλυσθε</span></td><td><span class="tr">lélusthe</span></td><td>các bạn ở trạng thái đã được tháo</td></tr>
+<tr><td>3 Pl.</td><td><span class="gk">λέλυνται</span></td><td><span class="tr">léluntai</span></td><td>họ ở trạng thái đã được tháo</td></tr>
+</tbody>
+</table>
+
+<p>Phát hiện pattern lớn: các đuôi <span class="gk">-μαι/-σαι/-ται/-μεθα/-σθε/-νται</span> chính là <strong>bộ đuôi trung của hiện tại</strong> (bài 10: <span class="gk">λύομαι, λύῃ, λύεται…</span>). Ghép vào hệ thống đã học: <strong>imperfect m/p mượn đuôi thứ cấp</strong> (<span class="gk">-μην/-σο/-το…</span>, bài 11), còn <strong>perfect m/p mượn đuôi chính cấp</strong> – cùng một thân, chỉ đổi nhân đôi và đuôi. Nghĩa của hoàn thành m/p cũng gấp đôi như hình thức: vừa trung (&quot;tự ở trong trạng thái&quot;) vừa bị động (&quot;được X rồi&quot;) – văn bản tự quyết định chiều nào, và mọi từ điển ghi đuôi này một dòng.</p>
+
+<div class="achtung">
+<p><strong>Achtung – đừng đòi augment:</strong> hoàn thành <strong>không có augment</strong> – nhiệm vụ &quot;tôi là chuyện đã xảy ra&quot; do nhân đôi đảm nhiệm rồi. Lỗi thường gặp: viết *ἐλέλυμαι. Kiểm tra nhanh: thấy nhân đôi <span class="gk">λε-λε-/πε-πε-/κε-κε-</span> ở đầu từ → hoàn thành → <em>không</em> augment, accent rút theo quy tắc recessive (<span class="gk">λέλυμαι, λελύμεθα</span>). Cặp đất/hơi đá: <span class="gk">λέλυται</span> (perfect m/p) vs <span class="gk">λύεται</span> (hiện tại m/p, bài 10) – khác nhau một nhân đôi, nghĩa khác nhau một thời gian: &quot;đã được tháo (và còn thế)&quot; vs &quot;đang được tháo&quot;.</p>
+</div>
+
+<div class="info">
+<p><strong>Ông tổ đích thực: <span class="gk">οἶδα</span>.</strong> Động từ hay nhất của thời hoàn thành là <span class="gk">οἶδα</span> &quot;tôi biết&quot; (<span class="tr">oîda</span>). Về hình thức nó là hoàn thành của một động từ cổ <span class="gk">εἴδω</span> &quot;thấy&quot; (gloss: see) – nghĩa gốc là &quot;tôi đã thấy, nên tôi biết&quot;. Vì thế bảng chia của nó có khuôn mặt của hệ hôm nay: <span class="gk">οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν)</span> – với 3 Sg. <span class="gk">οἶδε</span> và 3 Pl. <span class="gk">ἴσασι(ν)</span> xuất hiện dày trong Platon, đều mang nghĩa <em>hiện tại</em> &quot;biết&quot;. Pattern đắt giá: nhiều ngôn ngữ dùng &quot;đã thấy&quot; = &quot;biết&quot; – Latin cũng có <em>nōvī</em> (perfect của <em>nōscere</em>) mang nghĩa hiện tại &quot;tôi biết rõ&quot;. Trong hai bài đọc hôm nay, <span class="gk">ἴσασιν</span> &quot;họ biết&quot; sẽ đóng vai chính.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> thời <em>perfectum</em> Latin (<em>amāvī</em>) gói cả hai cái nhìn &quot;sự kiện xong&quot; và &quot;trạng thái còn&quot; – Hy Lạp chia hai: aorist <span class="gk">ἔλυσα</span> gói sự kiện (bài 13), hoàn thành <span class="gk">λέλυκα</span> gói trạng thái (hôm nay + bản đồ mục 5). Khi dịch Latin → Hy Lạp phải <em>hỏi ý</em>: <em>vēnī</em> trong chuyện kể là aorist <span class="gk">ἦλθον</span>; <em>cognōvī</em> &quot;tôi đã biết rõ rồi (còn nhớ)&quot; là hoàn thành. Chiều ngược lại, dịch Hy Lạp hoàn thành sang tiếng Việt thường cần thêm &quot;…và còn thế cho tới giờ&quot; để không rơi thành aorist.</p>
+</div>
+
+<h2 id="s5">5. Bản đồ sáu thân động từ: <span class="gk">λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην</span></h2>
+
+<p>Đủ rồi! Sau 13 bài gom từng mảnh, hôm nay ghép cả bản đồ. Mọi động từ Hy Lạp được từ điển giới thiệu bằng một loạt dạng gọi <strong>sáu thân chính (principal parts)</strong> – và mỗi thân là một &quot;xưởng&quot; sinh ra cả một cụm thời/thái:</p>
+
+<table>
+<thead><tr><th>#</th><th>Thân chính của <span class="gk">λύω</span></th><th>Tên</th><th>Sinh ra những gì</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><span class="gk">λύω</span> (<span class="tr">lúō</span>)</td><td>hiện tại</td><td>hiện tại chủ động + toàn bộ m/p hiện tại (<span class="gk">λύω, λύομαι, λύεται…</span>) và imperfect (<span class="gk">ἔλυον, ἐλυόμην</span>, bài 11)</td></tr>
+<tr><td>2</td><td><span class="gk">λύσω</span> (<span class="tr">lúsō</span>)</td><td>tương lai chủ động/trung</td><td>tương lai chủ động <span class="gk">λύσω</span> + tương lai trung <span class="gk">λύσομαι</span> (bài 12)</td></tr>
+<tr><td>3</td><td><span class="gk">ἔλυσα</span> (<span class="tr">élusa</span>)</td><td>aorist chủ động</td><td>aorist sigmatic <span class="gk">ἔλυσα</span> + aorist trung <span class="gk">ἐλυσάμην</span> (bài 13)</td></tr>
+<tr><td>4</td><td><span class="gk">λέλυκα</span> (<span class="tr">léluka</span>)</td><td>hoàn thành chủ động</td><td><span class="gk">λέλυκα, λέλυκας, λέλυκε(ν)…</span> – preview: giải phẫu đầy đủ ở phần sau khóa học</td></tr>
+<tr><td>5</td><td><span class="gk">λέλυμαι</span> (<span class="tr">lélumai</span>)</td><td>hoàn thành trung/bị động</td><td>cả bảng mục 4 hôm nay</td></tr>
+<tr><td>6</td><td><span class="gk">ἐλύθην</span> (<span class="tr">elýthēn</span>)</td><td>aorist bị động</td><td>aorist bị động <span class="gk">ἐλύθην</span> + <strong>tương lai bị động <span class="gk">λυθήσομαι</span></strong> (mục 3: một thân, hai thời)</td></tr>
+</tbody>
+</table>
+
+<p>Quan sát dòng 6 lần cuối: thân aorist bị động là thân kiêm hai vai duy nhất của hệ – mọi thân khác chỉ sinh một cụm, riêng nó sinh hai cụm (quá khứ + tương lai). Đó là quà của tính kinh tế tiếng Hy Lạp: đã tốn công tạo thân bị động thì khai thác tối đa.</p>
+
+<div class="achtung">
+<p><strong>Achtung – bản đồ không phải lúc nào cũng đủ 6 ô:</strong> động từ nào thiếu ô nào thì từ điển để trống, và bạn không được &quot;tự chế&quot;. <span class="gk">ἔρχομαι</span> không có aorist bị động (nghĩa &quot;đi&quot; khó bị động hóa); nhiều deponent chỉ ghi dòng m/p. Và ô nào trống thì tiếng Hy Lạp hay giải quyết bằng <strong>động từ kế nhiệm (suppletive)</strong>: hiện tại <span class="gk">ὁρῶ</span> &quot;tôi thấy&quot; mượn aorist của một động từ khác hẳn: <span class="gk">εἶδον</span> (bài 13); <span class="gk">λέγω</span> &quot;tôi nói&quot; mượn <span class="gk">εἶπον</span>. Bài học đọc văn bản: đừng tra nguyên mẫu nối tiếp từng dạng gặp – hãy tra <strong>họ sáu thân</strong> của nó một lần rồi đánh dấu.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin chỉ cần <strong>4 thân chính</strong>: <em>amō, amāre, amāvī, amātum</em> – vì từ <em>amāv-</em> suy ra <em>amāt-</em>, từ <em>amāre</em> suy ra <em>amābā-/amāb-</em>: hệ đuôi Latin tính được từ nhau. Tiếng Hy Lạp thì <strong>không suy được</strong>: <span class="gk">ἦλθον</span> không nhìn ra từ <span class="gk">ἔρχομαι</span>, <span class="gk">εἶδον</span> không nhìn ra từ <span class="gk">ὁρῶ</span> – nên mới phải học bảng sáu dạng như học số điện thoại của mỗi động từ. Đây là một trong những lý do khiến từ điển Hy Lạp dày hơn từ điển Latin cùng cỡ.</p>
+</div>
+
+<h2 id="s6">6. Chiến lược &quot;bóc bị động&quot; &amp; tác nhân <span class="gk">ὑπό</span> + sở hữu cách</h2>
+
+<p>Kéo tất cả dấu hiệu của 13 bài thành một chuỗi tự vấn 4 bước – thứ tự các câu hỏi quan trọng như thao tác trong mổ: bọc ngoài trước, lõi sau:</p>
+
+<table>
+<thead><tr><th>Bước</th><th>Câu hỏi soi vào dạng từ</th><th>Kết luận</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Có augment <span class="gk">ἐ-</span> hoặc tăng phụ nguyên âm đầu?</td><td>Quá khứ (imperfect, aorist, aorist bị động); không có → hiện tại, tương lai, hoặc hoàn thành (nhân đôi thay augment)</td></tr>
+<tr><td>2</td><td>Có nhân đôi <span class="gk">λε-λε-/πε-πε-/-κε-</span>?</td><td>Hoàn thành; đuôi <span class="gk">-μαι/-σαι/-ται</span> → trung/bị động (<span class="gk">λέλυμαι</span>)</td></tr>
+<tr><td>3</td><td>Có <span class="gk">-θη-</span> trước đuôi?</td><td>Aorist bị động I (<span class="gk">ἐλύθην</span>) – hoặc deponent (<span class="gk">ἐβουλήθην</span> &quot;đã muốn&quot;: tra thân ở từ điển)</td></tr>
+<tr><td>4</td><td>Trần (không augment) + <span class="gk">-θήσομαι</span>?</td><td>Tương lai bị động (<span class="gk">λυθήσομαι</span>) – thân aorist bị động + đuôi trung tương lai</td></tr>
+</tbody>
+</table>
+
+<p>Bị động thì cần nói <em>ai</em> gây ra hành động: <strong>tác nhân (agent)</strong> đứng trong <strong>sở hữu cách với <span class="gk">ὑπό</span></strong> (ôn bài 10) – song sinh với Latin <em>ā/ab</em> + cách xóa (ablative):</p>
+
+<table>
+<thead><tr><th>Chủ động</th><th>Bị động</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ὁ σοφιστὴς ἐβλάψε τὸν νέον</span><br />&quot;nhà biện sĩ đã làm hại chàng trai&quot;</td><td><span class="gk">ὁ νέος ἐβλάβη ὑπὸ τοῦ σοφιστοῦ</span><br />&quot;chàng trai bị hại <em>bởi</em> nhà biện sĩ&quot;</td></tr>
+</tbody>
+</table>
+
+<p>Cơ chế chuyển hóa: tân cách <span class="gk">τὸν νέον</span> lên làm chủ ngữ chủ cách <span class="gk">ὁ νέος</span>; chủ ngữ cũ <span class="gk">ὁ σοφιστής</span> tụt xuống làm ngữ sở hữu cách sau <span class="gk">ὑπό</span>; động từ đổi sang đuôi bị động. Đây là đúng chuỗi biến đổi của Latin (<em>sophistam laesit</em> → <em>iuvenis ā sophista laesus est</em>) – chỉ khác bên Hy Lạp gói trong một từ.</p>
+
+<div class="achtung">
+<p><strong>Achtung – hai đường vòng:</strong> (1) <span class="gk">-θη-</span> <em>không độc quyền</em> bị động: deponent <span class="gk">ἐβουλήθην</span> &quot;đã muốn&quot; có khuôn mặt bị động nhưng nghĩa chủ động – chỉ từ điển phán xét (mục 2). (2) Ngược lại, <em>không phải</em> mọi nghĩa bị động đều mang <span class="gk">-θη-</span>: ở hiện tại, bị động vẫn dùng đuôi trung (<span class="gk">παιδεύεται</span>, bài 10); ở aorist trung, một số động từ mang nghĩa gần bị động (<span class="gk">ἠγάσθη</span> &quot;được khâm phục&quot;, bài 12 – đuôi trung, dịch bị động). Quy tắc đọc: <strong>khuôn mặt cho biết thời, từ điển cho biết nghĩa</strong> – hai thông tin độc lập, đừng gộp.</p>
+</div>
+
+<h2 id="s7">7. Bảng tra nhanh toàn hệ thống (bài 2–14)</h2>
+
+<p>Mọi dạng chỉ định của động từ mẫu <span class="gk">λύω</span> đã học, xếp theo dấu hiệu nhận diện – bản đồ để tra nhanh khi đọc văn bản:</p>
+
+<table>
+<thead><tr><th>Dạng</th><th>Thời – thái</th><th>Dấu hiệu nhận diện</th><th>Bài</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">λύω</span></td><td>hiện tại chủ động</td><td>thân trần + đuôi chính cấp</td><td>2</td></tr>
+<tr><td><span class="gk">λύομαι, λύεται</span></td><td>hiện tại trung/bị động</td><td>đuôi <span class="gk">-ομαι/-εται</span></td><td>10</td></tr>
+<tr><td><span class="gk">λύσω</span></td><td>tương lai chủ động</td><td>σ trần (không augment)</td><td>12</td></tr>
+<tr><td><span class="gk">λύσομαι</span></td><td>tương lai trung</td><td>σ + đuôi trung</td><td>12</td></tr>
+<tr><td><span class="gk">ἔλυον</span></td><td>imperfect chủ động</td><td>augment + nguyên âm biến thiên</td><td>11</td></tr>
+<tr><td><span class="gk">ἐλυόμην</span></td><td>imperfect trung/bị động</td><td>augment + đuôi trung thứ cấp</td><td>11</td></tr>
+<tr><td><span class="gk">ἔλυσα</span></td><td>aorist chủ động</td><td>augment + σ + đuôi chủ động</td><td>13</td></tr>
+<tr><td><span class="gk">ἐλυσάμην</span></td><td>aorist trung</td><td>augment + σ + đuôi trung thứ cấp</td><td>13</td></tr>
+<tr><td><span class="gk">ἐλύθην</span></td><td>aorist bị động</td><td>augment + <span class="gk">-θη-</span> + đuôi chủ động, accent trên <span class="gk">-θη-</span></td><td>14</td></tr>
+<tr><td><span class="gk">λυθήσομαι</span></td><td>tương lai bị động</td><td>thân <span class="gk">-θη-</span> trần + đuôi trung tương lai</td><td>14</td></tr>
+<tr><td><span class="gk">λέλυκα</span></td><td>hoàn thành chủ động (preview)</td><td>nhân đôi + <span class="gk">-κα</span></td><td>14 (đáy)</td></tr>
+<tr><td><span class="gk">λέλυμαι</span></td><td>hoàn thành trung/bị động</td><td>nhân đôi + đuôi trung chính cấp</td><td>14</td></tr>
+<tr><td><span class="gk">λυθῆναι</span></td><td>nguyên mẫu aorist bị động</td><td><span class="gk">-θῆναι</span></td><td>14</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Cách dùng khi đọc văn bản:</strong> gặp một dạng lạ, làm theo thứ tự: (1) bóc tiền tố (nếu có) tra phần sau; (2) soi bảng theo đúng thứ tự dấu hiệu ở mục 6; (3) khi bảng trả lời &quot;thời-thái&quot;, chỉ còn bước cuối: nghĩa – tra từ điển. Ví dụ nhanh với một dạng sẽ gặp trong bài đọc: <span class="gk">λωβηθῆναι</span> → không augment, không nhân đôi → kết thúc <span class="gk">-ναι</span> = nguyên mẫu; có <span class="gk">-θη-</span> → nguyên mẫu aorist bị động của <span class="gk">λωβέω</span> &quot;làm nhục&quot; → &quot;để bị làm nhục&quot;. Chưa từng học động từ này? Không sao – <span class="gk">-θῆναι</span> đã nói bạn biết nó là gì về mặt ngữ pháp.</p>
+</div>
+
+<h2 id="reading">8. Bài đọc I: Chợ bán tri thức (Platon, Protagoras 313d–e)</h2>
+
+<p><strong>Bối cảnh:</strong> thanh niên Hippokrates nửa đêm đánh thức Socrates: sáng nay hắn muốn nộp tiền cho Protagoras – nhà biện sĩ nổi tiếng nhất Hy Lạp – để &quot;học trở nên xuất chúng&quot;. Socrates kéo hắn ra ngoài sân, đọc cho nghe một bài so sánh: mua tri thức nguy hơn mua đồ ăn. Cả đoạn là một câu chuyện về <em>chợ</em> – mà ở chợ thì người bán khen mọi thứ.</p>
+
+<p class="gk" style="font-size:1.12em;">(1) οἵ τε κάπηλοι ὧν ἄγουσιν ἀγωγίμων οὔτε αὐτοὶ ἴσασιν ὅτι χρηστὸν ἢ πονηρόν· ἐπαινοῦσι δὲ πάντα πωλοῦντες. (2) οὔτε οἱ ὠνούμενοι παρ᾽ αὐτῶν, ἐὰν μή τις τύχῃ γυμναστικὸς ἢ ἰατρὸς ὤν. (3) οὕτω δὲ καὶ οἱ τὰ μαθήματα περιάγοντες κατὰ τὰς πόλεις ἐπαινοῦσιν πάντα ἃ πωλοῦσιν. (4) εἰ μὲν οὖν σὺ ἐπιστήμων εἶ τούτων, ἀσφαλές σοι ὠνεῖσθαι μαθήματα καὶ παρὰ Πρωταγόρου καὶ παρ᾽ ἄλλου ὁτουοῦν. (5) εἰ δὲ μή, ὅρα, ὦ μακάριε· πολὺ μείζων κίνδυνος ἐν τῇ τῶν μαθημάτων ὠνῇ ἢ ἐν τῇ τῶν σιτίων.</p>
+
+<p><strong>Mổ xẻ từng câu:</strong></p>
+<p>(1) <span class="gk">οἵ τε κάπηλοι</span> &quot;các thương nhân rong&quot; (câu danh ngữ với mạo từ số nhiều, bài 7); <span class="gk">ὧν ἄγουσιν ἀγωγίμων</span> – mệnh đề quan hệ preview (bài 15): &quot;(những hàng hóa) mà họ dẫn theo&quot; – <span class="gk">ἄγω</span> (gloss: lead) &quot;dẫn, chở&quot; + <span class="gk">ἀγωγίμος</span> &quot;hàng có thể chở&quot;, họ hàng của tính từ -τος hôm nay; <span class="gk">ἴσασιν</span> là 3 Pl. của <span class="gk">οἶδα</span> – <strong>hoàn thành về hình thức, hiện tại về nghĩa</strong> (mục 4): &quot;họ biết&quot;; <span class="gk">χρηστὸν ἢ πονηρόν</span> &quot;tốt hay xấu&quot; – cặp tính từ của bài 9; <span class="gk">ἐπαινοῦσι δὲ πάντα πωλοῦντες</span> – phân từ hiện tại chủ động (bài 13 đã học mặt): &quot;họ khen mọi thứ, trong khi bán&quot;.</p>
+<p>(2) <span class="gk">οἱ ὠνούμενοι</span> – phân từ <strong>hiện tại m/p</strong> của deponent <span class="gk">ὠνέομαι</span> (gloss: buy) &quot;mua&quot;: &quot;những người mua&quot;; <span class="gk">ἐὰν μή τις τύχῃ γυμναστικὸς ἢ ἰατρὸς ὤν</span> &quot;trừ khi ai đó tình cờ là huấn luyện viên hay thầy thuốc&quot; – <span class="gk">τυγχάνω</span> + danh ngữ, và <span class="gk">ὤν</span> phân từ của <span class="gk">εἰμί</span> (bài 2): hai khuôn mặt &quot;học mặt&quot; rất phổ biến của Platon; <span class="gk">γυμναστικός</span> cho thân thể, <span class="gk">ἰατρικός</span> cho bệnh – ai &quot;rành&quot; thì không bị lừa.</p>
+<p>(3) <span class="gk">οὕτω δὲ καὶ…</span> &quot;thế rồi, cũng vậy…&quot; – chuyển từ đồ ăn sang tri thức; <span class="gk">τὰ μαθήματα</span> &quot;những bài học&quot; (bài học hôm nay có từ này trong vocab); <span class="gk">περιάγοντες</span> (gloss: carry around) &quot;chở vòng quanh&quot; – <span class="gk">περί</span> + <span class="gk">ἄγω</span>: chủ động ghép quen; <span class="gk">ἃ πωλοῦσιν</span> – quan hệ <span class="gk">ἅ</span> (bài 15 preview): &quot;những gì (họ) bán&quot;; cặp <span class="gk">κατὰ τὰς πόλεις</span> &quot;khắp các thành&quot; – tặng cách số nhiều của <span class="gk">ἡ πόλις</span> (bài 3).</p>
+<p>(4) Câu chốt: <span class="gk">ἐπιστήμων εἶ</span> &quot;bạn là người biết&quot; (<span class="gk">ἐπιστήμων</span>, -ονος – tính từ anh em của <span class="gk">ἐπιστήμη</span>); <span class="gk">ἀσφαλές σοι ὠνεῖσθαι</span> – khuôn &quot;adjective + tặng cách người + nguyên mẫu&quot; như <span class="gk">δεῖ</span> (bài 4): &quot;an toàn cho bạn (khi) mua&quot;; <span class="gk">ὠνεῖσθαι</span> nguyên mẫu hiện tại m/p của <span class="gk">ὠνέομαι</span>; <span class="gk">ὁτουοῦν</span> (gloss: anyone whatsoever) &quot;bất kỳ ai&quot;. Logic Socrates: chỉ người <em>đã biết</em> mới an toàn khi mua tri thức – nghịch lý mỉa mai: nếu đã biết thì mua để làm gì?</p>
+<p>(5) <span class="gk">εἰ δὲ μή</span> – thành ngữ rút gọn &quot;nếu không (như thế)&quot; (εἰ μὲν…εἰ δὲ μή là cặp điều kiện gánh nhau, bài 21 preview); <span class="gk">ὅρα, ὦ μακάριε</span> – mệnh lệnh ngôi 2 + hô cách (bài 4): &quot;coi chừng nhé, người hiền lành ơi&quot;; <span class="gk">πολὺ μείζων… κίνδυνος</span> – so sánh hơn (bài 22 preview) &quot;nguy hiểm lớn hơn nhiều&quot;; <span class="gk">ἐν τῇ τῶν μαθημάτων ὠνῇ</span> – tặng cách sở hữu: &quot;trong việc mua (của) những bài học&quot; – <span class="gk">ἡ ὠνή</span> danh từ cùng họ với <span class="gk">ὠνέομαι</span>, tương ứng Latin <em>emptiō</em>.</p>
+
+<div class="info">
+<p><strong>Đoạn tiếp theo (314a):</strong> Socrates nói tiếp: <span class="gk">μὴ περὶ τοῖς φιλτάτοις κυβεύῃς</span> &quot;đừng đánh bạc với những điều thân yêu nhất&quot; – vì mua đồ ăn có thể bỏ ra xe, mời chuyên gia ăn thử; còn tri thức thì <span class="gk">εἰς τὴν ψυχὴν</span> &quot;vào linh hồn&quot; ngay khi học, không trả lại được. Cảnh báo này sẽ thành quen thuộc với mọi gia đình Hy Lạp có con nộp tiền cho biện sĩ.</p>
+</div>
+
+<p><strong>Dịch toàn đoạn:</strong> &quot;Các thương nhân rong không tự biết hàng họ chở theo là tốt hay xấu; họ khen mọi thứ khi bán. Người mua từ họ cũng không biết – trừ khi ai tình cờ là huấn luyện viên hay thầy thuốc. Thế rồi những kẻ chở những bài học khắp các thành cũng khen tất cả những gì họ bán. Vậy nếu bạn là người biết về những điều ấy, thì an toàn cho bạn việc mua bài học, từ Protagoras hay từ bất kỳ ai khác. Còn nếu không, coi chừng, người hiền lành ơi: việc mua bài học nguy hiểm hơn nhiều việc mua đồ ăn.&quot;</p>
+
+<h2 id="reading2">9. Bài đọc II: Đức hạnh có dạy được không? (Platon, Menon 89d–92c)</h2>
+
+<p><strong>Bối cảnh:</strong> Menon, chàng quý tộc từ Thessalia, hỏi Socrates: đức hạnh (<span class="gk">ἀρετή</span>) có dạy được (<span class="gk">διδακτόν</span>) không? Socrates gật theo kiểu của ông: nếu đức hạnh là tri thức thì đích thị dạy được – nhưng hãy tìm xem <em>ai</em> dạy. Ông quay sang một người Athen đang ngồi đó: chính trị gia Anytos. Đoạn văn này là một trong những tình huống mỉa mai nhất của Platon.</p>
+
+<p class="gk" style="font-size:1.12em;">(1) εἰ ἔστιν διδακτὸν ὁτιοῦν πρᾶγμα, μὴ μόνον ἀρετή, οὐκ ἀναγκαῖον αὐτοῦ καὶ διδασκάλους καὶ μαθητὰς εἶναι; (2) οὗ μήτε διδάσκαλοι μήτε μαθηταὶ εἶεν, καλῶς ἂν εἰκάζοιμεν μὴ διδακτὸν εἶναι. (3) πολλάκις γοῦν ζητῶν εἴ τινες εἶεν αὐτῆς διδάσκαλοι, πάντα ποιῶν οὐ δύναμαι εὑρεῖν. (4) Ἄνυτος: Ἡράκλεις, εὐφήμει, ὦ Σώκρατες· μηδένα τῶν ἐμῶν τοιαύτη μανία λάβοι, ὥστε παρὰ τούτους ἐλθόντα λωβηθῆναι. (5) ἐπεὶ οὗτοι γε φανερά ἐστι λώβη τε καὶ διαφθορὰ τῶν συγγιγνομένων. (6) οἶδα γὰρ ἄνδρα ἕνα Πρωταγόραν πλείω χρήματα κτησάμενον ἀπὸ ταύτης τῆς σοφίας ἢ Φειδίαν. (7) Πρωταγόρας δὲ ὅλην τὴν Ἑλλάδα ἐλάνθανεν διαφθείρων τοὺς συγγιγνομένους, καὶ ἔτι εἰς τὴν ἡμέραν ταύτην εὐδοκιμῶν οὐδὲν πέπαυται. (8) Σωκράτης: ἠδίκηκέ τίς σε τῶν σοφιστῶν; – Ἄνυτος: οὐδὲ μὰ Δία ἔγωγε συγγέγονα πώποτε αὐτῶν οὐδενί. (9) Σωκράτης: μάντις εἶ ἴσως, ὦ Ἄνυτε.</p>
+
+<p><strong>Mổ xẻ từng câu:</strong></p>
+<p>(1) Toàn bộ logic câu hỏi: <span class="gk">εἰ ἔστιν διδακτὸν ὁτιοῦν πρᾶγμα</span> &quot;nếu bất cứ điều gì là dạy-được&quot;; <span class="gk">διδακτόν</span> chính là tính từ <strong>-τος</strong> từ <span class="gk">διδάσκω</span>: &quot;có-thể-bị-dạy&quot; – họ hàng của khuôn -τος hôm nay (xem info box dưới mục 9); <span class="gk">ὁτιοῦν</span> &quot;bất kỳ thứ gì&quot;; <span class="gk">οὐκ ἀναγκαῖον… εἶναι;</span> – câu hỏi tu từ: &quot;chẳng phải tất yếu là nó phải có cả thầy lẫn trò sao?&quot; (<span class="gk">ἀναγκαῖον</span> + nguyên mẫu, khuôn của <span class="gk">δεῖ</span> bài 4).</p>
+<p>(2) <span class="gk">οὗ μήτε… μήτε…</span> &quot;cái mà không có… cũng không có…&quot;; <span class="gk">εἶεν</span> và <span class="gk">εἰκάζοιμεν</span> – hai dạng <strong>thức cầu mong (optative)</strong> (bài 17): hôm nay chỉ cần biết mặt, dịch &quot;nếu là&quot;/&quot;chúng ta sẽ đoán&quot;; <span class="gk">μὴ διδακτὸν εἶναι</span> – nguyên mẫu phủ định với <span class="gk">μὴ</span> (bài 4). Socrates lập tam đoạn luận: dạy được → có thầy; không có thầy → không dạy được.</p>
+<p>(3) <span class="gk">πολλάκις γοῦν</span> &quot;thật vậy, nhiều lần&quot;; <span class="gk">ζητῶν</span> phân từ hiện tại của <span class="gk">ζητέω</span> &quot;tìm&quot;; <span class="gk">αὐτῆς</span> sở hữu cách chỉ <span class="gk">ἀρετή</span> (bài 3: sở hữu cách genitiv nữ); <span class="gk">πάντα ποιῶν</span> – thành ngữ từng-chữ-một-tin: &quot;làm mọi cách&quot;; <span class="gk">οὐ δύναμαι εὑρεῖν</span> – <span class="gk">δύναμαι</span> + nguyên mẫu (bài 2), <span class="gk">εὑρεῖν</span> nguyên mẫu aorist của <span class="gk">εὑρίσκω</span> – bạn đã gặp <span class="gk">εὗρον</span> ở bài 13: cùng động từ, nguyên mẫu sigmatic.</p>
+<p>(4) Ngôi sao ngữ pháp của bài đọc: <span class="gk">Ἡράκλεις, εὐφήμει</span> – lời chửi thề + mệnh lệnh ngôi 2: &quot;Ôi Herakles, nói điều lành đi!&quot; (gloss: fie!, hold your tongue); <span class="gk">τοιαύτη μανία λάβοι</span> – <span class="gk">τοιοῦτος</span> chỉ từ (bài 6), <span class="gk">μανία</span> &quot;cơn điên&quot;, <span class="gk">λάβοι</span> optative (bài 17); <span class="gk">ὥστε παρὰ τούτους ἐλθόντα λωβηθῆναι</span> – <span class="gk">ὥστε</span> + nguyên mẫu &quot;đến nỗi…&quot;: <span class="gk">ἐλθόντα</span> phân từ aorist (bài 13 đã học mặt), và <span class="gk">λωβηθῆναι</span> – <strong>nguyên mẫu aorist bị động</strong> của <span class="gk">λωβέω</span> &quot;làm nhục&quot; (bảng tra nhanh mục 7 đã demo chính dạng này): &quot;đến nỗi sau khi đến với bọn họ lại bị làm nhục&quot;. Chủ ngữ của bị động là người nhà của Anytos – kẻ nhục nhã là các biện sĩ.</p>
+<p>(5) <span class="gk">ἐπεὶ</span> &quot;bởi vì&quot; + chỉ định; <span class="gk">φανερά ἐστι</span> – tính từ vị ngữ số nhiều của <span class="gk">φανερός</span> &quot;rõ ràng, trần trụi&quot; (hơn một chủ ngữ nên số nhiều), họ hàng với <span class="gk">φαίνω/ἐφάνην</span> mục 2 hôm nay; cặp danh từ <span class="gk">ἡ λώβη</span> &quot;sự nhục nhã&quot;, <span class="gk">ἡ διαφθορὰ</span> &quot;sự hủy hoại&quot; – từ <span class="gk">διαφθείρω</span> (gloss: corrupt); <span class="gk">τῶν συγγιγνομένων</span> – phân từ hiện tại m/p của <span class="gk">συγγίγνομαι</span> (σύν + γίγνομαι, bài 13): &quot;những kẻ lui tới với bọn họ&quot; – sở hữu cách chỉ đối tượng (bài 3).</p>
+<p>(6) <span class="gk">οἶδα γὰρ ἄνδρα ἕνα</span> &quot;tôi biết một người&quot; – <span class="gk">οἶδα</span> lại xuất hiện, nghĩa hiện tại; <span class="gk">Πρωταγόραν πλείω χρήματα κτησάμενον</span> – <span class="gk">κτησάμενον</span> phân từ <strong>aorist m/p</strong> (bài 13): &quot;đã kiếm được cho mình&quot;, tân cách vì trong khung AcI của <span class="gk">οἶδα</span>; <span class="gk">ἢ Φειδίαν</span> – so sánh: Protagoras kiếm tiền nhiều hơn cả Phidias, nghệ nhân tạc tượng của đền Parthenon; <span class="gk">πλείω</span> so sánh hơn (học mặt, bài 22) của <span class="gk">πολύς</span>.</p>
+<p>(7) Ngôi sao thứ hai: <span class="gk">ἐλάνθανεν</span> – imperfect của <span class="gk">λανθάνω</span> &quot;lọt mắt&quot; (bài 12 đã học mặt ở <span class="gk">ἐλάνθανεν</span> Cyrus); ở đây + phân từ <span class="gk">διαφθείρων</span>: &quot;hắn lọt qua cả Hy Lạp không một ai hay biết, trong khi hủy hoại những kẻ lui tới&quot; – tức là &quot;hắn hủy hoại cả Hy Lạp mà không ai biết&quot;; <span class="gk">καὶ ἔτι εἰς τὴν ἡμέραν ταύτην εὐδοκιμῶν οὐδὲν πέπαυται</span> – <span class="gk">πέπαυται</span> là <strong>hoàn thành m/p</strong> của <span class="gk">παύω</span>: &quot;và cho tới tận ngày hôm nay, (hắn) đang được trọng vọng, chưa chút nào ngừng&quot;. Perfect dùng đúng nghĩa của nó: trạng thái bắt đầu từ quá khứ và <em>còn đọng đến giờ</em> – sau 40 năm hành nghề, danh tiếng của Protagoras vẫn nguyên vẹn.</p>
+<p>(8) <span class="gk">ἠδίκηκέ τίς σε τῶν σοφιστῶν;</span> – <span class="gk">ἠδίκηκεν</span> hoàn thành chủ động (preview, mục 5): &quot;có kẻ nào trong bọn biện sĩ từng làm hại anh không?&quot;; câu thề <span class="gk">οὐδὲ μὰ Δία</span> &quot;chưa từng, tôi thề Zeus&quot;; <span class="gk">συγγέγονα</span> – <strong>hoàn thành chủ động</strong> của <span class="gk">συγγίγνομαι</span>: &quot;tôi chưa từng tiếp xúc với một ai trong bọn chúng&quot;. Một câu hai perfect, hai nghĩa đọng: kinh nghiệm để lại vết – mà Anytos thì khẳng định mình <em>không</em> có vết nào (chưa từng gặp, chưa từng bị hại) – vậy mà ông ta vẫn &quot;biết&quot; bọn biện sĩ là ai.</p>
+<p>(9) <span class="gk">μάντις εἶ ἴσως</span> &quot;có lẽ ông là thầy bói&quot; – <span class="gk">ἴσως</span> (gloss: perhaps) &quot;có lẽ&quot;; Socrates cười: ông Anytos chưa từng tiếp xúc mà vẫn tuyên bố được ai tốt ai xấu – thế thì chỉ còn một nghề giải thích nổi: thầy bói. (92c tiếp theo: <span class="gk">ἐξ ὧν αὐτὸς λέγεις θαυμάζοιμ᾽ ἄν</span> – &quot;nghe chính miệng ông nói, tôi phải kinh ngạc&quot;: biết bọn biện sĩ tốt xấu ra sao mà chưa từng gặp một người nào trong bọn họ.)</p>
+
+<div class="info">
+<p><strong>Mặt nạ sắt của lịch sử:</strong> Anytos trong đoạn văn này là một chính trị gia có thực quyền của Athens. Bốn năm sau đó (399 TCN), cùng hai người khác, ông ta là một trong những người ký đơn khởi kiện Socrates – tội danh: làm hư lớp trẻ Athens. Platon viết Menon <em>sau</em> phiên tòa đó, và người đọc đương thời biết thuộc lòng số phận này. Nên khi Socrates hỏi <span class="gk">ἠδίκηκέ τίς σε τῶν σοφιστῶν;</span> rồi Anytos trả lời <span class="gk">ἄπειρος εἶ παντάπασι τῶν ἀνδρῶν</span> &quot;anh hoàn toàn không có kinh nghiệm với đám này&quot; – toàn bộ cuộc đối thoại là một màn kịch đậm chất định mệnh. Từ của chính Anytos tố cáo ông ta: người tuyên bố &quot;biết&quot; mà không kinh nghiệm chính là hiện thân của điều Socrates gọi là thứ &quot;tri thức&quot; nguy hiểm nhất.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Khuôn mặt bài 17 gieo sẵn:</strong> bài đọc hôm nay là một bảo tàng của hệ động từ: aorist bị động nguyên mẫu <span class="gk">λωβηθῆναι</span> (mới học hôm nay), hoàn thành <span class="gk">πέπαυται, ἠδίκηκεν, συγγέγονα</span> (hôm nay), phân từ đủ loại (<span class="gk">ἐλθόντα, κτησάμενον, διαφθείρων, συγγιγνομένων</span> – bài 19–20), và ba optative <span class="gk">εἶεν, εἰκάζοιμεν, λάβοι</span> (bài 17). Gấp trang này lại: sau ba bài nữa bạn sẽ mổ lại từng mẫu một và thấy chúng đã thành bạn cũ.</p>
+</div>
+
+<p><strong>Dịch toàn đoạn:</strong> &quot;Nếu bất cứ điều gì là dạy-được, chứ không riêng đức hạnh, thì tất yếu nó phải có cả thầy lẫn trò, đúng không? Còn cái gì không có thầy lẫn trò, ta sẽ đoán đẹp là không dạy được. Vậy mà tôi, tuy tìm biết bao lần xem có ai là thầy của đức hạnh, làm mọi cách vẫn không tìm ra. – Anytos: Ôi Herakles, im miệng lại, Socrates ơi! Chớ để ai trong nhà tôi dại khờ đến nỗi sau khi đến với bọn họ lại bị làm nhục. Vì bọn họ chính là sự nhục nhã và sự hủy hoại cho những kẻ lui tới với chúng. Tôi biết rõ một người, Protagoras, kiếm được nhiều tiền hơn cả Phidias từ thứ khôn ngoan ấy. Protagoras hủy hoại những kẻ lui tới suốt cả Hy Lạp mà không ai hay biết; và cho tới tận ngày hôm nay, hắn vẫn được trọng vọng, chưa từng ngừng lại. – Socrates: có kẻ nào trong bọn biện sĩ từng làm hại anh chăng? – Anytos: Chưa từng, tôi thề Zeus: tôi chưa từng tiếp xúc với một ai trong bọn chúng. – Socrates: vậy thì có lẽ ông là thầy bói, ông Anytos ơi.&quot;</p>
+
+<h2 id="vocab">10. Từ vựng trọng tâm</h2>
+
+<p>Từ mới của bài (<span class="star">★</span>), cột một ghi cặp hiện tại – aorist bị động (hoặc dạng đặc trưng) đã học trong các bảng trên:</p>
+<table>
+<thead><tr><th>Từ</th><th>Phiên âm</th><th>Anh</th><th>Việt</th></tr></thead>
+<tbody>
+<tr><td><span class="star">★</span> <span class="gk">λωβέω, ἐλωβήθην</span></td><td><span class="tr">lōbéō, elōbḗthēn</span></td><td>insult, maltreat</td><td>làm nhục, đối xử tệ (ngôi sao của bài đọc II)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">φαίνω, ἐφάνην</span></td><td><span class="tr">phaínō, ephánēn</span></td><td>shine; show; pass. be revealed</td><td>rọi sáng; cho thấy; bị động &quot;xuất hiện, được phơi bày&quot;</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ἀλλάσσω, ἠλλάγην</span></td><td><span class="tr">allássō, ēllágēn</span></td><td>change; pass. be changed</td><td>thay đổi; bị động &quot;bị đổi, bị đưa sang (phe khác)&quot;</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">βλάπτω, ἐβλάβην</span></td><td><span class="tr">bláptō, eblábēn</span></td><td>harm</td><td>làm hại; bị động &quot;bị hại&quot; (aorist II)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">καλέω, ἐκλήθην</span></td><td><span class="tr">kaléō, eklḗthēn</span></td><td>call; pass. be called</td><td>gọi; bị động &quot;được gọi (là)&quot; – họ hàng với <span class="gk">κέκλημαι</span></td></tr>
+<tr><td><span class="star">★</span> <span class="gk">παύω, πέπαυμαι</span></td><td><span class="tr">paúō, pépaumai</span></td><td>stop (trans.); m/p cease</td><td>làm ngừng; hoàn thành m/p &quot;đã ngừng (hẳn)&quot; – <span class="gk">πέπαυται</span> ngôi sao bài đọc</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ σοφιστής, -οῦ</span></td><td><span class="tr">ho sophistḗs</span></td><td>sophist</td><td>nhà biện sĩ – dạy lấy tiền; gốc của từ &quot;sophistry&quot; tiếng Anh</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ἡ μανία, -ας</span></td><td><span class="tr">hē manía</span></td><td>madness</td><td>cơn điên, sự điên rồ (gốc của &quot;mania&quot;)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">τὸ μάθημα, -ατος</span></td><td><span class="tr">tò máthēma</span></td><td>lesson, thing learned</td><td>bài học, điều học được (gốc của &quot;mathematics&quot;)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ κάπηλος, -ου</span></td><td><span class="tr">ho kápēlos</span></td><td>huckster, retail trader</td><td>thương nhân rong, người bán rong hàng tạp</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ ἔμπορος, -ου</span></td><td><span class="tr">ho émporos</span></td><td>merchant</td><td>thương gia buôn đường xa (ἐν + πόρος &quot;đường thủy&quot;)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ἀσφαλής, -ές</span></td><td><span class="tr">asphalḗs</span></td><td>safe, secure</td><td>an toàn, chắc chắn – gốc của &quot;asphalt&quot; (thứ &quot;không thể lung lay&quot;)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">τὸ ὑπόδημα, -ατος</span></td><td><span class="tr">tò hypódēma</span></td><td>shoe</td><td>đôi giày (danh từ trung tính -μα, bài 7)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">τὸ ἱμάτιον, -ου</span></td><td><span class="tr">tò himátion</span></td><td>cloak</td><td>áo choàng</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">διδακτός, -ή, -όν</span></td><td><span class="tr">didaktós</span></td><td>teachable</td><td>dạy được – tính từ -τος, câu hỏi trung tâm của Menon</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ἡ ψυχή, -ῆς</span></td><td><span class="tr">hē psychḗ</span></td><td>soul</td><td>linh hồn – gốc của &quot;psychology&quot;</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ Πρωταγόρας</span></td><td><span class="tr">ho Prōtagóras</span></td><td>Protagoras</td><td>biện sĩ nổi tiếng nhất Hy Lạp (Abdera, ~490–420 TCN)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ Ἄνυτος</span></td><td><span class="tr">ho Ánytos</span></td><td>Anytus</td><td>nhà chính trị ở Athens – một trong những người sau này buộc tội Socrates</td></tr>
+</tbody>
+</table>
+
+<p><strong>Ôn nhanh (không ★):</strong> <span class="gk">παιδεύω, ἐπαιδεύθην</span> – động từ mẫu của khóa, giờ đủ cả đường bị động; <span class="gk">διδάσκω, ἐδίδαξα/ἐδιδάχθην</span> &quot;dạy / được dạy&quot;; <span class="gk">πέμπω, ἐπέμφθην</span> &quot;gửi / được gửi&quot;; <span class="gk">μανθάνω, ἐμάθον</span> &quot;học&quot; (aorist chủ đề, bài 11); <span class="gk">εὑρίσκω, εὗρον, εὑρεῖν</span> (bài 13); <span class="gk">φημί, ἔφη</span> &quot;nói&quot; (bài 12) – kẻ thù dễ nhầm của <span class="gk">ἐφάνη</span>; <span class="gk">γυμνάζω</span> &quot;luyện tập&quot;, <span class="gk">ἀνήρ, ἀνδρός</span> &quot;đàn ông&quot; (bài 12); <span class="gk">ἀγαθός</span> &quot;tốt&quot;, <span class="gk">κακός</span> &quot;xấu&quot; (bài 9); <span class="gk">ἡ πόλις</span> &quot;thành&quot; (bài 3); <span class="gk">αὐτός</span> – &quot;tự/cùng/chính là&quot; (bài 6); <span class="gk">οὗτος</span> &quot;người này&quot; (bài 6); <span class="gk">ἀρχή</span> &quot;sự cai trị&quot; (bài 11).</p>
+
+<p><strong>Gloss chỉ để đọc (chưa vào từ vựng):</strong> <span class="gk">ἀγωγίμος</span> &quot;hàng chở được&quot;; <span class="gk">γυμναστικός</span> huấn luyện viên; <span class="gk">ἰατρικός</span> thầy thuốc; <span class="gk">ἐπαινέω</span> khen; <span class="gk">ὠνέομαι, ὠνήσομαι</span> mua (deponent; nguyên mẫu <span class="gk">ὠνεῖσθαι</span>); <span class="gk">ἡ ὠνή</span> việc mua; <span class="gk">πωλέω/πωλῶ</span> bán; <span class="gk">περιάγω</span> chở vòng; <span class="gk">ὁτουοῦν, ὁτιοῦν</span> bất kỳ; <span class="gk">τυγχάνω</span> tình cờ là; <span class="gk">κυβεύω</span> đánh bạc; <span class="gk">ὁ κίνδυνος</span> nguy hiểm; <span class="gk">τὰ σιτία</span> đồ ăn; <span class="gk">ἡ λώβη</span> sự nhục nhã; <span class="gk">ἡ διαφθορὰ</span> sự hủy hoại; <span class="gk">διαφθείρω</span> hủy hoại; <span class="gk">συγγίγνομαι, συγγέγονα</span> lui tới với, tiếp xúc; <span class="gk">εὐδοκιμέω</span> được trọng vọng; <span class="gk">μοχθηρός</span> tồi; <span class="gk">πλείω</span> nhiều hơn (so sánh); <span class="gk">χρήματα</span> tiền (số nhiều của <span class="gk">τὸ χρῆμα</span>); <span class="gk">ἡ σοφία</span> sự khôn ngoan; <span class="gk">ὁ Φειδίας</span> Phidias; <span class="gk">ἀνδριαντοποιός</span> thợ tạc tượng; <span class="gk">τριάκοντα</span> ba mươi; <span class="gk">τετταράκοντα</span> bốn mươi; <span class="gk">λανθάνω, ἐλάνθανεν</span> lọt mắt (bài 12 đã học mặt); <span class="gk">ἐξακούομαι</span> tháo ra hết; <span class="gk">ἀγγεῖον</span> cái bình; <span class="gk">ἐλαύνω, ἐξελαύνουσαι</span> đuổi đi, trục xuất; <span class="gk">ἐπιτρέπω</span> giao cho; <span class="gk">ἐάω</span> cho phép; <span class="gk">εὐφήμει!</span> &quot;nói điều lành!&quot;; <span class="gk">Ἡράκλεις!</span> &quot;Ôi Herakles!&quot;; <span class="gk">μὰ Δία</span> thề Zeus; <span class="gk">ἄπειρος</span> thiếu kinh nghiệm; <span class="gk">ὁ μάντις</span> thầy bói; <span class="gk">ἴσως</span> có lẽ; <span class="gk">φλαῦρος</span> tệ hại; <span class="gk">ὁ μαθητής</span> học trò; <span class="gk">ὁ διδάσκαλος</span> thầy.</p>
+
+<h2 id="confusables">11. Bảng tổng hợp so sánh các điểm dễ nhầm</h2>
+
+<table>
+<thead><tr><th>Cặp / bộ dễ nhầm</th><th>Phân biệt</th><th>Tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἐλύθη</span> vs <span class="gk">ἐλύσατο</span> vs <span class="gk">ἔλυσε</span></td><td>bị động &quot;được tháo&quot; vs trung &quot;tự tháo cho mình&quot; vs chủ động &quot;đã tháo&quot;</td><td><span class="gk">-θη-</span> = bị động; <span class="gk">-σατο</span> = aorist trung (bài 13); <span class="gk">-σε</span> ngắn = aorist chủ động</td></tr>
+<tr><td><span class="gk">ἐλύθη</span> vs <span class="gk">ἐλύθην</span></td><td>3 Sg. vs 1 Sg.</td><td>dạng có <span class="gk">-ν</span> cuối = ngôi 1; không có = ngôi 3. Số nhiều 3 Pl. <span class="gk">ἐλύθησαν</span> cũng có <span class="gk">ν</span> nhưng đuôi <span class="gk">-σαν</span> nhận ra ngay</td></tr>
+<tr><td><span class="gk">ἐφάνη</span> vs <span class="gk">ἔφην</span></td><td>aorist bị động II của <span class="gk">φαίνω</span> vs imperfect của <span class="gk">φημί</span> &quot;nói&quot;</td><td>accent trên <span class="gk">-άν-</span> = bị động; accent về augment = &quot;đang nói&quot;</td></tr>
+<tr><td><span class="gk">λυθήσομαι</span> vs <span class="gk">λύσομαι</span> vs <span class="gk">βουλήσομαι</span></td><td>tương lai bị động vs tương lai trung vs tương lai deponent</td><td>ba dạng cùng đuôi <span class="gk">-σομαι</span>: thân <span class="gk">λυθη-</span> (bị động) vs thân hiện tại <span class="gk">λυ-</span> vs thân co <span class="gk">βουλη-</span> vốn có của <span class="gk">βούλομαι</span></td></tr>
+<tr><td><span class="gk">λέλυμαι</span> vs <span class="gk">λέλυται</span> vs <span class="gk">λύεται</span></td><td>perfect m/p 1 Sg. vs 3 Sg. vs hiện tại m/p 3 Sg.</td><td>nhân đôi <span class="gk">λε-</span> = hoàn thành; chỉ một nhân đôi đã đổi nghĩa &quot;đã và còn&quot; thành &quot;đang&quot;</td></tr>
+<tr><td><span class="gk">ἐβουλήθην</span> vs <span class="gk">ἐβουλευσάμην</span></td><td>aorist deponent của <span class="gk">βούλομαι</span> &quot;đã muốn&quot; vs aorist trung của <span class="gk">βουλεύω</span> &quot;đã bàn&quot;</td><td>hình thức bị động + nghĩa chủ động = deponent: tra từ điển; đừng dịch <span class="gk">ἐβουλήθην</span> thành &quot;bị muốn&quot;</td></tr>
+<tr><td><span class="gk">ἐκλήθη</span> vs <span class="gk">ἐκάλεσα</span> vs <span class="gk">κέκλημαι</span></td><td>aorist bị động vs aorist chủ động vs hoàn thành m/p của <span class="gk">καλέω</span></td><td>ba thời ba thái một động từ: &quot;được gọi / đã gọi / đang mang danh được-gọi&quot;</td></tr>
+<tr><td><span class="gk">πέπαυται</span> vs <span class="gk">παύεται</span> vs <span class="gk">ἐπαύσατο</span></td><td>hoàn thành m/p vs hiện tại m/p vs aorist trung</td><td>đọc hai vế: nhân đôi → &quot;đã ngừng (và còn)&quot;; trần → &quot;đang ngừng&quot;; augment + σατο → &quot;(hắn) đã tự ngừng&quot;</td></tr>
+<tr><td><span class="gk">ἐβλάβην</span> vs <span class="gk">ἔβλαψα</span></td><td>aorist bị động II &quot;bị hại&quot; vs aorist chủ động &quot;đã làm hại&quot;</td><td>cùng một accent trên thân: aorist II giữ accent đứng trên nguyên âm dài của thân (<span class="gk">βλά</span>, như <span class="gk">φάν</span> của <span class="gk">ἐφάνην</span>), còn aorist sigmatic thả accent về augment (<span class="gk">ἔ</span>βλαψα)</td></tr>
+<tr><td><span class="gk">διδακτόν</span> vs <span class="gk">διδαχθήσομαι</span> vs <span class="gk">ἐδιδάχθην</span></td><td>tính từ -τος &quot;dạy được&quot; vs tương lai bị động vs aorist bị động của <span class="gk">διδάσκω</span></td><td>ba khuôn khác nhau cùng một ý bị động: khả năng (tính từ), sắp tới (tương lai), đã xong (aorist) – bộ ba của Menon</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">12. Bài tập tự luyện + đáp án</h2>
+
+<h3>Bài tập 1 – Chia bảng bị động</h3>
+<p>Chia đủ sáu ngôi aorist bị động của <span class="gk">λύω</span> và tương lai bị động của <span class="gk">λύω</span>; viết kèm phiên âm của ngôi 2 số ít ở mỗi bảng.</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 1</h4>
+<p>Aorist: <span class="gk">ἐλύθην, ἐλύθης, ἐλύθη, ἐλύθημεν, ἐλύθητε, ἐλύθησαν</span> – 2 Sg. <span class="tr">elýthēs</span>. Tương lai: <span class="gk">λυθήσομαι, λυθήσῃ, λυθήσεται, λυθησόμεθα, λυθήσεσθε, λυθήσονται</span> – 2 Sg. <span class="tr">lythḗsēi</span>. Cùng thân <span class="gk">λυθη-</span>; accent ở aorist đứng trên <span class="gk">-θη-</span>, ở tương lai cũng đứng trên <span class="gk">-θή-</span> vì âm tiết dài hút dấu.</p>
+</div></div>
+
+<h3>Bài tập 2 – Dựng aorist bị động</h3>
+<p>Cho các thân đã có augment, viết aorist bị động 3 Sg. và nói rõ dòng I hay II: <span class="gk">ἐ-παιδευ-, ἐ-γραφ-, ἐ-τιμη-, ἐ-φαν-, ἐ-αλλαγ-</span>.</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 2</h4>
+<p><span class="gk">ἐπαιδεύθη</span> (I) &quot;được giáo dục&quot;; <span class="gk">ἐγράφη</span> (II, từ <span class="gk">γράφω</span> – φ rụt, còn <span class="gk">-η-</span>) &quot;được viết&quot;; <span class="gk">ἐτιμήθη</span> (I, động từ co) &quot;được tôn vinh&quot;; <span class="gk">ἐφάνη</span> (II) &quot;xuất hiện ra&quot;; <span class="gk">ἠλλάγη</span> (II) &quot;bị đổi&quot;. Lưu ý: <span class="gk">γράφω</span> không có aorist bị động I; dạng bị động duy nhất là aorist II <span class="gk">ἐγράφην</span> (1 Sg.) / <span class="gk">ἐγράφη</span> (3 Sg.).</p>
+</div></div>
+
+<h3>Bài tập 3 – Phân loại</h3>
+<p>Gắn nhãn cho mỗi dạng: (a) aorist bị động I, (b) aorist bị động II, (c) tương lai bị động, (d) hoàn thành m/p, (e) deponent hình bị động: <span class="gk">κέκληται, ἐβουλήθη, λυθήσεται, ἐφάνημεν, λέλυσθε, ἠλλάγησαν, ἐτιμήθη, πέπαυμαι</span>.</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 3</h4>
+<p>(d) <span class="gk">κέκληται, λέλυσθε, πέπαυμαι</span> (nhân đôi + đuôi trung); (e) <span class="gk">ἐβουλήθη</span> (βούλομαι, &quot;đã muốn&quot;); (c) <span class="gk">λυθήσεται</span>; (b) <span class="gk">ἐφάνημεν, ἠλλάγησαν</span> (<span class="gk">-η-</span> ngắn; 3 Pl. -σαν); (a) <span class="gk">ἐτιμήθη</span> (<span class="gk">-θη-</span> sau nguyên âm dài của động từ co).</p>
+</div></div>
+
+<h3>Bài tập 4 – Chuyển sang bị động</h3>
+<p>Chuyển mỗi câu sang bị động, đưa tác nhân vào khung <span class="gk">ὑπό</span> + sở hữu cách: (1) <span class="gk">ὁ σοφιστὴς ἐβλάψε τὸν νέον</span>. (2) <span class="gk">οἱ ἄνθρωποι ἐκάλεσαν τὸν Πρωταγόραν σοφόν</span>. (3) <span class="gk">ἡ πόλις τιμήσει τοὺς σοφούς</span>.</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 4</h4>
+<p>(1) <span class="gk">ὁ νέος ἐβλάβη ὑπὸ τοῦ σοφιστοῦ</span>. (2) <span class="gk">ὁ Πρωταγόρας ὑπὸ τῶν ἀνθρώπων ἐκλήθη σοφός</span> (tân cách <span class="gk">σοφόν</span> giữ nguyên như tân ngữ kép). (3) <span class="gk">οἱ σοφοὶ ὑπὸ τῆς πόλεως τιμηθήσονται</span> – tương lai bị động: thân aorist bị động <span class="gk">τιμηθη-</span> + đuôi trung tương lai.</p>
+</div></div>
+
+<h3>Bài tập 5 – Bản đồ sáu thân</h3>
+<p>Động từ <span class="gk">καλέω</span> ghi trong từ điển: <span class="gk">καλέω, καλῶ, ἐκάλεσα, κέκληκα, κέκλημαι, ἐκλήθην</span>. Hãy xếp mỗi dạng sau vào đúng ô của bản đồ (nêu số thân): <span class="gk">ἐκάλεσαν, κέκληται, ἐκλήθημεν, καλῶ, κεκλήμεθα?</span> (cẩn thận với dạng cuối!) và dịch nhanh mỗi dạng.</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 5</h4>
+<p><span class="gk">ἐκάλεσαν</span> – thân 3 (aorist chủ động): &quot;họ đã gọi&quot;; <span class="gk">κέκληται</span> – thân 5 (perfect m/p): &quot;hắn đang mang danh được-gọi&quot;; <span class="gk">ἐκλήθημεν</span> – thân 6 (aorist bị động): &quot;chúng tôi đã được gọi&quot;; <span class="gk">καλῶ</span> – thân 1 (hiện tại, động từ co): &quot;tôi gọi&quot;. Bẫy cuối: <span class="gk">κεκλήμεθα</span> là 1 Pl. perfect m/p hợp lệ – accent đứng trên <span class="gk">-κλή-</span> chính là quy tắc recessive: dạng 4 âm tiết chỉ kéo dấu về tối đa âm tiết antepenult (thứ ba từ cuối), đúng khuôn <span class="gk">λελύμεθα</span> (accent trên <span class="gk">-λύ-</span>). Ai kéo accent về âm tiết đầu <span class="gk">κέ</span> thì sai.</p>
+</div></div>
+
+<h3>Bài tập 6 – Đọc contexto</h3>
+<p>Đọc lại câu (7) bài đọc II: <span class="gk">Πρωταγόρας δὲ ὅλην τὴν Ἑλλάδα ἐλάνθανεν διαφθείρων τοὺς συγγιγνομένους, καὶ ἔτι εἰς τὴν ἡμέραν ταύτην εὐδοκιμῶν οὐδὲν πέπαυται</span>. Trả lời: (1) vì sao <span class="gk">ἐλάνθανεν</span> là imperfect chứ không phải aorist? (2) vì sao Platon chọn <span class="gk">πέπαυται</span> (hoàn thành) thay vì aorist <span class="gk">ἐπαύσατο</span>? (3) hai phân từ <span class="gk">διαφθείρων, εὐδοκιμῶν</span> đóng vai gì cho hai động từ chia?</p>
+<div class="answer"><div class="loesung"><h4>Đáp án 6</h4>
+<p>(1) <span class="gk">ἐλάνθανεν</span> + phân từ là imperfect tả nền: hành động &quot;lọt mắt&quot; kéo dài suốt 40 năm, không phải một sự kiện chốt. (2) <span class="gk">πέπαυται</span> nói trạng thái <em>còn đọng</em>: &quot;cho tới hôm nay vẫn chưa ngừng được trọng vọng&quot; – aorist <span class="gk">ἐπαύσατο</span> sẽ cắt câu chuyện thành một sự kiện khép trong quá khứ và đánh mất cái ngang nhiên đeo bám của danh tiếng Protagoras. (3) Hai phân từ hiện tại chủ động gánh nghĩa phụ &quot;trong khi hủy hoại / trong khi được trọng vọng&quot;, song hành với động từ chính – đúng vai &quot;nền + khối&quot; đã học ở bài 13.</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 14 – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: &quot;Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0&quot; · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Bản đọc đối chiếu: Platon, Protagoras 313d–e; Menon 89d–92c (bản chữ Hy Lạp public domain).</p>
+
+</main>
+</body>
+</html>

@@ -284,6 +284,26 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "14-aorist-future-passive-perfect-medpass",
+      "num": 14,
+      "level": "graecum-1",
+      "title": "Aorist & tương lai bị động; hoàn thành trung/bị động",
+      "topics": [
+        "aorist bị động I: ἐλύθην 6 ngôi, accent trên -θη-; Latin corner amātus est ↔ ἐλύθη",
+        "aorist bị động II: ἐφάνην, ἠλλάγην, ἐβλάβην, ἐστάλην; động từ co ἐτιμήθην; ἐφάνη vs ἔφην (φημί)",
+        "tương lai bị động: λυθήσομαι (thân aorist bị động + đuôi trung tương lai); φανήσομαι, διδαχθήσομαι",
+        "hoàn thành m/p: λέλυμαι, nhân đôi (reduplication), không augment; πέπαυται, κέκλημαι; οἶδα perfect hình thức nghĩa hiện tại",
+        "bản đồ sáu thân chính của λύω; Latin 4 principal parts vs Greek 6",
+        "chiến lược bóc bị động 4 bước; tác nhân ὑπό + sở hữu cách; bảng tra nhanh 13 dòng"
+      ],
+      "reading": [
+        "Platon, Protagoras 313d-e",
+        "Platon, Menon 89d-92c"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
