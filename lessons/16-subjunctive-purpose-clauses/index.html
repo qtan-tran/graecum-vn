@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 16 – Thức giả định (subjunctive); mệnh đề mục đích; ἄν / ἐάν</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  td.em, th.em { font-style: italic; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; }
+  .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 4px solid #1976d2; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; }
+  .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 4px solid #db2777; padding: 10px 16px; margin: 16px 0; font-size: 0.97em; }
+  .latin p:first-child { margin-top: 0; }
+  .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 4px solid #0f766e; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; }
+  .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; background: #f8fafc; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 16: Thức giả định (subjunctive); mệnh đề mục đích; ἄν / ἐάν</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Thức giả định là gì? Bản đồ bốn thức của động từ Hy Lạp</a></li>
+<li><a href="#s2">Dạng chủ động: hiện tại &amp; aorist – quy tắc &quot;đuôi dài&quot; và &quot;không augment&quot;</a></li>
+<li><a href="#s3">Dạng trung/bị động, deponent, động từ co – và <span class="gk">εἰμί: ὦ, ᾖ, ὦσι(ν)</span></a></li>
+<li><a href="#s4">Nhận diện &amp; chiến lược &quot;bóc subjunctive&quot;</a></li>
+<li><a href="#s5"><span class="gk">ἄν</span> và <span class="gk">ἐάν</span>: hai mảnh khí vị của thế giới &quot;nếu&quot;</a></li>
+<li><a href="#s6">Mệnh đề mục đích: <span class="gk">ἵνα / ὅπως / ὡς</span> + subjunctive</a></li>
+<li><a href="#s7">Mệnh đề cấm &amp; câu hỏi dự trù: <span class="gk">μὴ</span> + subjunctive; <span class="gk">τί ποιῶμεν;</span></a></li>
+<li><a href="#s8">Mở rộng từ bài 15: <span class="gk">ὅς ἄν, ὅταν, ὡς ἄν</span> – công thức &quot;bất kỳ&quot;</a></li>
+<li><a href="#reading">Bài đọc I: Bàn ăn của người Celt (Athenaios 4,151e–152b)</a></li>
+<li><a href="#reading2">Bài đọc II: Keltinē, hay người Celt có tên từ đâu (Parthenios 30)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) giải thích <strong>thức (mood)</strong> khác <strong>thời (tense)</strong> thế nào và đặt thức giả định vào bản đồ bốn thức; (2) chia subjunctive đủ sáu ngôi ở <strong>chủ động lẫn trung/bị động</strong>, hiện tại và aorist, kể cả động từ co và <span class="gk">εἰμί</span> – nhận diện bằng quy tắc &quot;<strong>đuôi dài, không augment</strong>&quot;; (3) tách một dạng lạ về từ điển bằng chiến lược &quot;bóc subjunctive&quot; và không lẫn nó với chỉ định/tương lai; (4) dùng <span class="gk">ἐάν</span> + subjunctive cho điều kiện nhìn về trước và phân biệt với <span class="gk">εἰ</span> + chỉ định; (5) viết <strong>mệnh đề mục đích</strong> <span class="gk">ἵνα / ὅπως</span> + subjunctive (phủ định <span class="gk">ἵνα μή</span>), <strong>mệnh đề cấm</strong> <span class="gk">μὴ</span> + aorist subjunctive và <strong>câu hỏi dự trù</strong> <span class="gk">τί ποιῶμεν;</span>; (6) đọc hai đoạn gốc về người Celt: phong tục bàn ăn của Athenaios (trích Posidonios) và câu chuyện Keltinē của Parthenios – trong đó <span class="gk">ἐὰν ᾖ, ὅταν συνδειπνῶσι, ἵνα μή φανῶσιν</span> đều hiện nguyên hình.</p>
+</div>
+
+<div class="info">
+<p><strong>Cách dùng bài học:</strong> đến nay bạn đã chia động từ ở <em>một</em> thức duy nhất – chỉ định (indicative) – qua sáu thời. Hôm nay cánh cửa thứ hai mở ra, và điều thú vị là cửa này <em>trống hơn</em>: thức giả định chỉ có hai &quot;thời&quot; (thật ra là hai khía cạnh). Bài học trả nợ hai lời hẹn cũ: các dạng kỳ lạ <span class="gk">εἶεν, εἰκάζοιμεν, λάβοι</span> mà bạn học mặt ở bài đọc Menon 14 sẽ được giải phẫu ở bài 17 (thức cầu mong), còn đại từ quan hệ của bài 15 hôm nay sẽ &quot;hợp tác&quot; với <span class="gk">ἄν</span> để nói &quot;bất cứ ai&quot;. Mục đóng bằng cách tự kiểm tra. Vocab có dấu <span class="star">★</span> là từ bắt buộc nhớ; từ mới của hai bài đọc có bảng gloss riêng.</p>
+</div>
+
+<h2 id="s1">1. Thức giả định là gì? Bản đồ bốn thức của động từ Hy Lạp</h2>
+
+<p>Cho đến nay mọi dạng động từ bạn chia – hiện tại, imperfect, tương lai, aorist, hoàn thành – đều thuộc về <strong>thức chỉ định (indicative)</strong>: thức của việc <em>tường thuật</em>, vẽ sự việc &quot;như nó là / như nó đã là / như nó sẽ là&quot;. Nhưng ngôn ngữ còn cần nói về những việc <em>chưa là</em>: muốn làm gì đó <em>để</em> đạt kết quả, đặt điều kiện &quot;<em>nếu</em> mai trời nắng&quot;, ra lệnh &quot;đừng làm!&quot;. Những vùng nghĩa ấy là đất của các <strong>thức (mood)</strong> khác.</p>
+
+<p><strong>Thời (tense)</strong> trả lời <em>khi nào / nhìn sự việc từ góc nào</em>; <strong>thức (mood)</strong> trả lời <em>người nói đứng ở đâu mà nói</em>: tường thuật thật (chỉ định), xui khiến (mệnh lệnh), hay mở ra một khả năng chưa thành thực (giả định, cầu mong). Hai trục độc lập: mỗi thức có bộ &quot;thời&quot; riêng – và thức giả định chỉ cần hai cái, vì khi nói &quot;để/nếu&quot; thì người ta không đo thời điểm mà đo <em>khía cạnh</em> (aspect, bài 13): việc đang trải ra hay trọn vẹn một lần.</p>
+
+<table>
+<thead><tr><th>Thức</th><th>Tên Anh / Latin</th><th>Vùng nghĩa</th><th>Bạn đã gặp</th></tr></thead>
+<tbody>
+<tr><td><strong>chỉ định</strong></td><td>indicative</td><td>tường thuật sự việc như nó là</td><td>bài 1–15: đủ sáu thời (<span class="gk">λύω, ἔλυον, λύσω, ἔλυσα, ἐλύθην, λέλυμαι</span>)</td></tr>
+<tr><td><strong>mệnh lệnh</strong></td><td>imperative</td><td>xui khiến trực tiếp</td><td>bài 4/10: <span class="gk">λῦε, λύσατε, λυέτω</span></td></tr>
+<tr><td><strong>giả định</strong></td><td>subjunctive (<em>subiunctīvus</em>)</td><td>khả năng được đặt vào tầm nhìn: &quot;để mà…&quot;, &quot;nếu mà…&quot;, &quot;hỡi nào mình…&quot;</td><td><strong>hôm nay</strong></td></tr>
+<tr><td><strong>cầu mong</strong></td><td>optative</td><td>ước ao xa hơn, khả năng mờ hơn</td><td>bài 17; bạn đã học mặt <span class="gk">εἶεν, εἰκάζοιμεν, λάβοι</span> ở Menon (bài 14)</td></tr>
+</tbody>
+</table>
+
+<p>Tên Latin <em>subiunctīvus</em> (nghĩa đen &quot;được sắp <em>phụ</em> vào, sắp dưới&quot;) nói đúng vị trí của nó: thức giả định gần như không tự đứng – nó <strong>phụ thuộc</strong>, mọc vào các mệnh đề con mở bằng <span class="gk">ἵνα</span> &quot;để&quot;, <span class="gk">ἐάν</span> &quot;nếu&quot;, <span class="gk">ὅταν</span> &quot;mỗi khi&quot;. Các nhà ngữ pháp Hy Lạp sau này gọi nó là <span class="gk">ὑποτακτική</span> – chữ Hy Lạp dịch đúng ý <em>subiunctīvus</em> (&quot;sắp dưới&quot;), cho thấy hai truyền thống ngữ pháp mô tả cùng một thứ bằng hai ngôn ngữ.</p>
+
+<div class="tipp">
+<p><strong>Trực quan để ghi nhớ:</strong> thức chỉ định vẽ một <em>bức ảnh</em> – người, việc, thời điểm đều rõ. Thức giả định vẽ một <em>tấm gương chiếu về trước</em>: sự việc chưa xảy ra, chỉ được &quot;đặt&quot; vào tầm mắt để bàn xem có làm không, làm để gì, nếu làm thì sao. Vì thế nó đi liền với ba chữ hỏi lớn: <strong>để làm gì?</strong> (mục đích), <strong>nếu thì sao?</strong> (điều kiện), <strong>nên không?</strong> (dự trù). Gặp ba vùng nghĩa này, mắt bạn phải tự động tìm subjunctive.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> người học Latin đã gặp subjunctive sớm hơn nhiều vì Latin <em>thuộc</em> dùng nó: <em>ut veniat</em> &quot;để hắn đến&quot;, <em>nē dicat</em> &quot;để hắn đừng nói&quot;, <em>quid faciam?</em> &quot;mình nên làm gì?&quot;, <em>si hoc dicat</em> &quot;nếu hắn nói thế&quot;. Bốn câu này dịch sang Hy Lạp gần như từng chữ một: <span class="gk">ἵνα ἔλθῃ</span>, <span class="gk">ἵνα μὴ λέγῃ</span>, <span class="gk">τί ποιῶμεν;</span>, <span class="gk">ἐὰν τοῦτο λέγῃ</span>. Cả bốn công dụng lớn của hôm nay (mục đích, điều kiện, dự trù, cấm đoán) Latin đều diễn bằng subjunctive – học hôm nay một phần là gặp lại người quen.</p>
+</div>
+
+<h2 id="s2">2. Dạng chủ động: hiện tại &amp; aorist – quy tắc &quot;đuôi dài&quot; và &quot;không augment&quot;</h2>
+
+<p>Dựng thức giả định dễ đến mức bất ngờ, vì nó tái sử dụng toàn bộ những gì bạn đã có. Công thức chủ động:</p>
+
+<ul>
+<li><strong>Hiện tại:</strong> lấy thân hiện tại (đã quen từ bài 2), rồi <strong>kéo dài nguyên âm chủ đề</strong>: -ο- → -ω-, -ε- → -η-. Đuôi do đó &quot;hình lớn&quot; hơn đuôi chỉ định: <span class="gk">-ω, -ῃς, -ῃ, -ωμεν, -ητε, -ωσι(ν)</span>.</li>
+<li><strong>Aorist:</strong> lấy thân aorist (bài 13: <span class="gk">λυσ-</span> hoặc thân chủ đề <span class="gk">λαβ-</span>), <strong>bỏ augment</strong>, cộng đúng bộ đuôi dài đó.</li>
+</ul>
+
+<table>
+<thead><tr><th></th><th colspan="3">SỐ ÍT</th><th colspan="3">SỐ NHIỀU</th></tr>
+<tr><th>Hiện tại (λύω)</th><th>1</th><th>2</th><th>3</th><th>1</th><th>2</th><th>3</th></tr></thead>
+<tbody>
+<tr><td><strong>subjunctive</strong></td><td class="gk">λύω</td><td class="gk">λύῃς</td><td class="gk">λύῃ</td><td class="gk">λύωμεν</td><td class="gk">λύητε</td><td class="gk">λύωσι(ν)</td></tr>
+<tr><td>so với chỉ định</td><td class="gk">λύω</td><td class="gk">λύεις</td><td class="gk">λύει</td><td class="gk">λύομεν</td><td class="gk">λύετε</td><td class="gk">λύουσι(ν)</td></tr>
+</tbody>
+</table>
+
+<p>Phiên âm dòng subjunctive: <span class="tr">lýō, lýēis, lýēi, lýōmen, lýēte, lýōsi(n)</span>. Đối chiếu dòng dưới: <strong>khác nhau chỉ ở độ dài của nguyên âm</strong> – <span class="gk">ε</span> ngắn thành <span class="gk">η</span> dài (<span class="gk">λύεις → λύῃς</span>), <span class="gk">ο</span> ngắn thành <span class="gk">ω</span> dài (<span class="gk">λύομεν → λύωμεν</span>). Ngôi 1 số ít <span class="gk">λύω</span> thì trùng hệt chỉ định – chỉ ngữ cảnh (sau <span class="gk">ἵνα/ἐάν</span> hay không?) phán quyết.</p>
+
+<p>Bảng aorist sigmatic – nhớ nguyên tắc vàng: <strong>aorist subjunctive không bao giờ có augment</strong> (augment là dấu hiệu của chỉ định quá khứ, bài 11; ở thức &quot;không thời điểm&quot; nó rụng đi):</p>
+
+<table>
+<thead><tr><th></th><th colspan="3">SỐ ÍT</th><th colspan="3">SỐ NHIỀU</th></tr>
+<tr><th>Aorist (ἔλυσα)</th><th>1</th><th>2</th><th>3</th><th>1</th><th>2</th><th>3</th></tr></thead>
+<tbody>
+<tr><td><strong>subjunctive</strong></td><td class="gk">λύσω</td><td class="gk">λύσῃς</td><td class="gk">λύσῃ</td><td class="gk">λύσωμεν</td><td class="gk">λύσητε</td><td class="gk">λύσωσι(ν)</td></tr>
+<tr><td>so với chỉ định</td><td class="gk">ἔλυσα</td><td class="gk">ἔλυσας</td><td class="gk">ἔλυσε(ν)</td><td class="gk">ἐλύσαμεν</td><td class="gk">ἐλύσατε</td><td class="gk">ἔλυσαν</td></tr>
+</tbody>
+</table>
+
+<p>So sánh hàng ngang: <strong>chỉ định có augment + đuôi ngắn; subjunctive không augment + đuôi dài</strong>. Hai dấu hiệu luôn đi đôi – gặp một dạng có <span class="gk">ἐ-</span> thì chắc chắn không phải subjunctive; gặp <span class="gk">λύσῃ</span> không augment thì chắc chắn không phải tương lai.</p>
+
+<p>Aorist chủ đề (bài 13: <span class="gk">ἔλαβον, ἦλθον, εἶπον</span>) dựng y hệt: bỏ augment, thân dài sẵn (nên accent luôn về đúng chỗ của thân):</p>
+
+<table>
+<thead><tr><th>Từ điển</th><th>Aorist chủ đề</th><th colspan="3">Subjunctive (1 / 2 / 3 số ít)</th><th>Số nhiều 1 ngôi</th></tr></thead>
+<tbody>
+<tr><td class="gk">λαμβάνω</td><td class="gk">ἔλαβον</td><td class="gk">λάβω</td><td class="gk">λάβῃς</td><td class="gk">λάβῃ</td><td class="gk">λάβωμεν</td></tr>
+<tr><td class="gk">μανθάνω</td><td class="gk">ἔμαθον</td><td class="gk">μάθω</td><td class="gk">μάθῃς</td><td class="gk">μάθῃ</td><td class="gk">μάθωμεν</td></tr>
+<tr><td class="gk">λέγω</td><td class="gk">εἶπον</td><td class="gk">εἴπω</td><td class="gk">εἴπῃς</td><td class="gk">εἴπῃ</td><td class="gk">εἴπωμεν</td></tr>
+</tbody>
+</table>
+
+<p>Ba cặp này xuất hiện trong văn bản thật với mật độ rất dày – <span class="gk">μάθῃς</span> &quot;để ngươi học được&quot;, <span class="gk">εἴπωμεν</span> &quot;mình nói nhé&quot; – nên xứng đáng học mặt thành khối.</p>
+
+<div class="achtung">
+<p><strong>Achtung – ngôi 1 số ít <span class="gk">λύσω</span> trùng tương lai:</strong> aorist subjunctive <span class="gk">λύσω</span> và tương lai chỉ định <span class="gk">λύσω</span> viết y hệt nhau (đều <em>không augment</em>, đều <span class="gk">-ω</span>). Phân biệt bằng ngôi khác trong cùng paradigm (<span class="gk">λύσεις</span> tương lai vs <span class="gk">λύσῃς</span> subjunctive) và bằng ngữ cảnh: <span class="gk">λύσω</span> đứng sau <span class="gk">ἐάν/ἵνα</span> thì không thể là tương lai. Đây là một trong hai cặp song sinh nguy hiểm nhất của chương trình – cặp còn lại (<span class="gk">λύσει</span> vs <span class="gk">λύσῃ</span>) nằm ở mục 4.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng – &quot;đuôi dài, không augment&quot; = 8 chữ cái mua trọn một thức:</strong> (1) Muốn dựng? Lấy thân quen thuộc (hiện tại hoặc aorist), bỏ augment, kéo dài nguyên âm chủ đề. (2) Muốn nhận diện? Tìm đuôi có <span class="gk">η/ω</span> dài ở đúng vị trí nguyên âm chủ đề, và không có <span class="gk">ἐ-</span> mở đầu. (3) Muốn tra từ điển? Cắt đuôi dài, trả σ về thân hiện tại (chiến lược mục 4). Tự kiểm tra: viết ra giấy hai chuỗi <span class="gk">λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν)</span> và <span class="gk">λύσω, λύσῃς, λύσῃ, λύσωμεν, λύσητε, λύσωσι(ν)</span> – nếu hai chuỗi này thuộc, 90% dạng subjunctive trong văn bản thật chỉ là hai chuỗi ấy mang áo khác.</p>
+</div>
+
+<h2 id="s3">3. Dạng trung/bị động, deponent, động từ co – và <span class="gk">εἰμί: ὦ, ᾖ, ὦσι(ν)</span></h2>
+
+<p>Sang trung/bị động, đúng logic cũ của bài 5/10: <strong>cùng thân, đuôi trung, nguyên âm chủ đề vẫn kéo dài</strong>. Nguyên tắc kéo dài không thay đổi: <span class="gk">-ο-</span> → <span class="gk">-ω-</span>, <span class="gk">-ε-</span> → <span class="gk">-η-</span> (cặp <span class="gk">-εαι → -ῃ</span> và <span class="gk">-εται → -ηται</span> bạn đã gặp mầm ở dạng co của bài 12):</p>
+
+<table>
+<thead><tr><th></th><th colspan="3">SỐ ÍT</th><th colspan="3">SỐ NHIỀU</th></tr>
+<tr><th></th><th>1</th><th>2</th><th>3</th><th>1</th><th>2</th><th>3</th></tr></thead>
+<tbody>
+<tr><td><strong>hiện tại m/p</strong></td><td class="gk">λύωμαι</td><td class="gk">λύῃ</td><td class="gk">λύηται</td><td class="gk">λυώμεθα</td><td class="gk">λύησθε</td><td class="gk">λύωνται</td></tr>
+<tr><td><strong>aorist m/p (ἐλυσάμην)</strong></td><td class="gk">λύσωμαι</td><td class="gk">λύσῃ</td><td class="gk">λύσηται</td><td class="gk">λυσώμεθα</td><td class="gk">λύσησθε</td><td class="gk">λύσωνται</td></tr>
+</tbody>
+</table>
+
+<p>Phiên âm: <span class="tr">lýōmai, lýēi, lýētai, lyṓmetha, lýēsthe, lýōntai</span>; aorist <span class="tr">lýsōmai, lýsēi, lýsētai, lysṓmetha, lýsesthe, lýsōntai</span>. Deponent thì chia theo đúng khuôn này về hình thức: <span class="gk">βούλωμαι, βούλῃ, βούληται, βουλώμεθα, βούλησθε, βούλωνται</span> – &quot;để tôi muốn / nếu hắn muốn&quot; là một trong những cụm phổ biến nhất của toàn nền văn học Hy Lạp.</p>
+
+<p>Động từ co (bài 12) áp dụng quy tắc co quen thuộc lên nguyên âm chủ đề dài: kết quả gọn hơn hẳn – và trùng dạng nhiều hơn hẳn:</p>
+
+<table>
+<thead><tr><th></th><th colspan="3">SỐ ÍT</th><th colspan="3">SỐ NHIỀU</th></tr>
+<tr><th>Hiện tại</th><th>1</th><th>2</th><th>3</th><th>1</th><th>2</th><th>3</th></tr></thead>
+<tbody>
+<tr><td><strong>ποιέω</strong></td><td class="gk">ποιῶ</td><td class="gk">ποιῇς</td><td class="gk">ποιῇ</td><td class="gk">ποιῶμεν</td><td class="gk">ποιῆτε</td><td class="gk">ποιῶσι(ν)</td></tr>
+<tr><td><strong>τιμάω</strong></td><td class="gk">τιμῶ</td><td class="gk">τιμᾷς</td><td class="gk">τιμᾷ</td><td class="gk">τιμῶμεν</td><td class="gk">τιμᾶτε</td><td class="gk">τιμῶσι(ν)</td></tr>
+<tr><td><strong>δηλόω</strong></td><td class="gk">δηλῶ</td><td class="gk">δηλῇς</td><td class="gk">δηλῇ</td><td class="gk">δηλῶμεν</td><td class="gk">δηλῆτε</td><td class="gk">δηλῶσι(ν)</td></tr>
+</tbody>
+</table>
+
+<p>Và động từ quan trọng nhất của kho từ vựng lại có bộ đuôi trần trụi nhất – chỉ toàn nguyên âm dài: <span class="gk">εἰμί</span> &quot;là&quot; – thân <span class="gk">ἐσ-</span> co lại thành <strong>nguyên âm dài thuần</strong>:</p>
+
+<p class="gk" style="text-align:center;"><strong>ὦ, ᾖς, ᾖ · ὦμεν, ἦτε, ὦσι(ν)</strong> <span class="tr">(ô, êis, êi · ômen, ête, ôsi(n))</span></p>
+
+<p>Cặp <span class="gk">ᾖ</span> &quot;nếu là / để là&quot; và <span class="gk">ἐάν</span> kết hợp thành cụm <span class="gk">ἐὰν ᾖ</span> &quot;nếu có / nếu là&quot; – gần như là một từ vựng độc lập trong văn bản, và sẽ là ngôi sao của bài đọc I hôm nay.</p>
+
+<div class="achtung">
+<p><strong>Achtung – những chỗ trùng dạng không thể nhìn ra:</strong> (1) <span class="gk">τιμᾷ</span> subjunctive (ngôi 2 và 3) viết y hệt <span class="gk">τιμᾷ</span> chỉ định ngôi 3 – chỉ từ xung quanh phân biệt; (2) <span class="gk">τιμᾶτε</span> subjunctive trùng <span class="gk">τιμᾶτε</span> chỉ định; (3) <span class="gk">ἦτε</span> của <span class="gk">εἰμί</span> trùng imperfect <span class="gk">ἦτε</span> &quot;các bạn là&quot; (bài 11). Bài học rút ra: với động từ co và <span class="gk">εἰμί</span>, đừng trông chờ vào hình thức – hãy đọc <em>toàn mệnh đề</em> tìm <span class="gk">ἵνα/ἐάν/ὅταν/μὴ</span> rồi mới phán quyết thức.</p>
+</div>
+
+<div class="info">
+<p><strong>Một em nữa học mặt:</strong> aorist bị động (bài 14) cũng có bộ subjunctive riêng, dựng theo cùng quy tắc: <span class="gk">ἐλύθην → λυθῶ, λυθῇς, λυθῇ, λυθῶμεν, λυθῆτε, λυθῶσι(ν)</span> – &quot;để được thả / nếu bị thả&quot;. Nguyên âm chủ đề vẫn kéo dài đứng sau thân dài <span class="gk">-θη-</span>. Trong bài đọc II hôm nay bạn sẽ gặp đúng một dạng của họ này (<span class="gk">φανῶσιν</span>); hệ thống đầy đủ của bị động sẽ được gộp bản đồ ở ôn tập #4.</p>
+</div>
+
+<h2 id="s4">4. Nhận diện &amp; chiến lược &quot;bóc subjunctive&quot;</h2>
+
+<p>Toàn bộ những gì dễ nhầm nằm trong một bảng đối chiếu. Học bảng này = chuyển từ <em>chia</em> subjunctive sang <em>đọc</em> subjunctive:</p>
+
+<table>
+<thead><tr><th>Chỉ định</th><th>Subjunctive</th><th>Khác biệt</th><th>Cách kiểm tra trong câu</th></tr></thead>
+<tbody>
+<tr><td class="gk">λύεις</td><td class="gk">λύῃς</td><td><span class="gk">ει</span> ngắn vs <span class="gk">ῃ</span> dài</td><td rowspan="6" style="vertical-align:middle;">Hỏi: có <span class="gk">ἵνα/ἐάν/ὅταν/ὡς ἂν/μὴ</span> hoặc câu hỏi ngôi 1 không? Có → cột phải. Không → cột trái. Với dạng trùng nhau (<span class="gk">τιμᾷ, τιμᾶτε, ἦτε</span>), chỉ con đường này mới ra phán quyết.</td></tr>
+<tr><td class="gk">λύει</td><td class="gk">λύῃ</td><td><span class="gk">ει</span> vs <span class="gk">ῃ</span></td></tr>
+<tr><td class="gk">λύομεν</td><td class="gk">λύωμεν</td><td><span class="gk">ο</span> vs <span class="gk">ω</span> – chỉ một vạch!</td></tr>
+<tr><td class="gk">λύουσι(ν)</td><td class="gk">λύωσι(ν)</td><td><span class="gk">ου</span> vs <span class="gk">ω</span></td></tr>
+<tr><td class="gk">λύσει</td><td class="gk">λύσῃ</td><td>tương lai vs aorist subj: <span class="gk">ει</span> vs <span class="gk">ῃ</span> (+ iota chìm)</td></tr>
+<tr><td class="gk">λύσεται</td><td class="gk">λύσηται</td><td><span class="gk">ε</span> vs <span class="gk">η</span> trước <span class="gk">ται</span></td></tr>
+</tbody>
+</table>
+
+<p>Cặp song sinh nguy hiểm nhất: <strong><span class="gk">λύσει</span></strong> &quot;hắn sẽ thả&quot; (tương lai) vs <strong><span class="gk">λύσῃ</span></strong> &quot;để/if hắn thả (lần trọn)&quot; – khác nhau đúng ở nguyên âm đuôi: <span class="gk">ει</span> ngắn thuần vs <span class="gk">ῃ</span> dài kèm iota chìm, còn accent thì đứng yên ở đúng chỗ cũ. Người sao chép bản viết tay thời cổ đại làm nghề phân biệt hai chữ này; bạn cũng sẽ phải làm vậy, nhưng có lợi thế hơn: ngữ cảnh.</p>
+
+<p><strong>Chiến lược &quot;bóc subjunctive&quot; khi tra từ điển</strong> – bốn bước, mở rộng chiến lược &quot;bóc aorist&quot; của bài 13:</p>
+<ol>
+<li><strong>Gặp dạng lạ:</strong> ví dụ <span class="gk">λυθῶσιν, ἀγάγῃ, μάθῃ, εἴπῃ</span>.</li>
+<li><strong>Bóc đuôi dài:</strong> cắt <span class="gk">-ω/-ῃ/-ῃς/-ωμεν/-ητε/-ωσι(ν)</span> (và nhớ: không có augment để bóc – subjunctive không bao giờ có).</li>
+<li><strong>Trả σ về thân:</strong> nếu còn <span class="gk">σ</span>, đó là thân aorist sigmatic → về hiện tại theo bài 13 (<span class="gk">λυσ- → λύω</span>); nếu không, đối chiếu thân với bảng aorist chủ đề học mặt (<span class="gk">λαβ-/μαθ-/εἰπ-/αγαγ-</span>).</li>
+<li><strong>Đọc lại nghĩa câu:</strong> xác nhận bằng chất dẫn (<span class="gk">ἵνα</span>? <span class="gk">ἐάν</span>? <span class="gk">μὴ</span>? <span class="gk">ὅταν</span>? hoặc câu hỏi ngôi 1).</li>
+</ol>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng – &quot;nguyên âm dài = thế giới chưa thật&quot;:</strong> ở chỉ định, nguyên âm chủ đề luôn ngắn (<span class="gk">λύομεν</span>); kéo dài nó (<span class="gk">λύωμεν</span>) là bước sang thế giới &quot;chưa xảy ra&quot;. Cùng một thủ thuật khuếch đại dùng cho mọi động từ: <span class="gk">παιδεύω → παιδεύῃ, ποιέω → ποιῇ, εἰμί → ᾖ</span>. Tự kiểm tra cuối mục: đọc to hai câu <span class="gk">ὁ παῖς λύει</span> và <span class="gk">ἵνα ὁ παῖς λύῃ</span> – nếu tai bạn &quot;nghe&quot; được sự khác nhau của <span class="gk">ει</span> ngắn và <span class="gk">ῃ</span> dài, bạn đã có sẵn kỹ năng đọc subjunctive của người Hy Lạp cổ.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> Latin phải lòng subjunctive đến mức bị động cũng dùng nó (<em>amētur</em> &quot;để hắn được yêu&quot;), còn Hy Lạp tách hai đường m/p (<span class="gk">λυθῇ</span>) và trung (<span class="gk">λύσηται</span>) sắc nét hơn. Một điểm trùng đáng ghi nhận: Latin <em>sī</em> + chỉ định cho điều kiện thật, nhưng <em>ut</em>/<em>nē</em> + subjunctive cho mục đích – Hy Lạp chia đúng ranh đó (<span class="gk">εἰ</span> vs <span class="gk">ἵνα/ἵνα μή</span>), xem mục 5–6.</p>
+</div>
+
+<h2 id="s5">5. <span class="gk">ἄν</span> và <span class="gk">ἐάν</span>: hai mảnh khí vị của thế giới &quot;nếu&quot;</h2>
+
+<p><span class="gk">ἄν</span> là một <strong>tiểu từ (particle)</strong>: một từ bất biến, không dịch thẳng ra được một nghĩa nào, chỉ gieo &quot;khí vị&quot; cho mệnh đề chứa nó – khí vị của <em>khả năng, bất định, phi thực</em>. Hãy hình dung <span class="gk">ἄν</span> như một mảnh kính màu: gắn vào kính nào cũng làm cảnh vật sau kính đổi sắc. Bốn &quot;chiếc kính&quot; nó hay gắn vào:</p>
+
+<table>
+<thead><tr><th>Gắn với</th><th>Thành</th><th>Nghĩa</th><th>Ví dụ bạn sẽ gặp</th></tr></thead>
+<tbody>
+<tr><td class="gk">εἰ &quot;nếu&quot;</td><td class="gk">ἐάν</td><td>&quot;nếu… thì&quot; nhìn về trước / &quot;bất cứ khi nào&quot;</td><td>bài đọc I: <span class="gk">ἐὰν ᾖ τι δυσαπόσπαστον</span></td></tr>
+<tr><td class="gk">ὅτε &quot;khi&quot;</td><td class="gk">ὅταν</td><td>&quot;mỗi khi / khi nào… (nào thì)&quot;</td><td>bài đọc I: <span class="gk">ὅταν πλείονες συνδειπνῶσι</span></td></tr>
+<tr><td class="gk">ὅς &quot;(người/cái) mà&quot;</td><td class="gk">ὅς ἄν</td><td>&quot;bất cứ ai / bất cứ cái mà&quot;</td><td>mục 8: <span class="gk">ὃς ἂν νικᾷ</span></td></tr>
+<tr><td class="gk">ὡς &quot;như&quot;</td><td class="gk">ὡς ἄν / ὥσπερ ἄν</td><td>&quot;như thể / như kiểu&quot;</td><td>bài đọc I: <span class="gk">ὡς ἂν κορυφαῖος χοροῦ</span></td></tr>
+</tbody>
+</table>
+
+<p><span class="gk">ἐάν</span> là <strong>crasis</strong> của <span class="gk">εἰ + ἄν</span> (hai từ nát thành một, bài 12 đã gặp crasis <span class="gk">προὐ-</span>; thơ ca và phương ngữ Ionic còn giữ biến thể <span class="gk">ἤν</span>). Nguyên tắc vị trí của <span class="gk">ἄν</span> khi không nát: <strong>bám ngay sau từ đầu tiên</strong> của mệnh đề thuộc về nó – vì thế bạn hầu như luôn thấy <span class="gk">ὃς ἄν, ὡς ἂν</span> dính chùm.</p>
+
+<p>Phân công việc giữa hai anh em <span class="gk">εἰ</span> và <span class="gk">ἐάν</span> – một trong những quyết định quan trọng nhất của chương trình câu ghép:</p>
+
+<table>
+<thead><tr><th></th><th><span class="gk">εἰ</span> + <strong>chỉ định</strong></th><th><span class="gk">ἐάν</span> + <strong>subjunctive</strong></th></tr></thead>
+<tbody>
+<tr><td><strong>Nhìn về đâu?</strong></td><td>sự việc đã/đang có thật hoặc một lần cụ thể</td><td>sự việc còn treo ở tương lai, hoặc &quot;mọi lần&quot; không xác định</td></tr>
+<tr><td><strong>Ví dụ</strong></td><td class="gk">εἰ ὕδωρ πίνεις, ὑγιαίνεις</td><td class="gk">ἐὰν ὕδωρ πίνῃς, ὑγιαίνεις</td></tr>
+<tr><td><strong>Dịch</strong></td><td>&quot;Vì ngươi (vốn) uống nước, ngươi khỏe.&quot; – nói về việc thật</td><td>&quot;Nếu/ngươi cứ uống nước, (thì) ngươi sẽ/cứ khỏe.&quot; – nói về giả định</td></tr>
+</tbody>
+</table>
+
+<p>Đến từ thực tế sử dụng: văn xuôi Hy Lạp dùng <em>cả hai</em>, nhưng mỗi cái giữ đúng địa bàn – <span class="gk">εἰ</span> hỏi &quot;<em>giả sử là thật thì sao?</em>&quot; (điều kiện cụ thể, cả quá khứ lẫn hiện tại), <span class="gk">ἐάν</span> nhìn về trước &quot;<em>nếu mai mà…</em>&quot; hoặc đóng gói cả loạt lần &quot;<em>bất cứ khi nào…</em>&quot;. Cặp này có mặt ở khắp mọi nền văn bản – từ sử ký Herodot đến Kinh Thánh Hy Lạp, nơi <span class="gk">ἐὰν</span> + subjunctive là một trong những cấu trúc dày nhất.</p>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἐὰν ὁ θεὸς βοηθῇ, νικήσομεν.</td><td class="tr">eàn ho theòs boēthê(i), nikḗsomen.</td><td class="em">If the god helps, we shall win.</td><td>Nếu thần giúp, chúng ta sẽ thắng.</td></tr>
+<tr><td class="gk">ἐὰν μὴ τὴν ἀλήθειαν λέγῃς, οἱ φίλοι οὐ πιστεύσουσιν.</td><td class="tr">eàn mḕ tḕn alḗtheian légēis, hoi phíloi ou pisteúsousin.</td><td class="em">If you do not speak the truth, your friends will not believe.</td><td>Nếu ngươi không nói thật, các bạn sẽ không tin.</td></tr>
+<tr><td class="gk">ἐὰν ᾖ καιρός, ἔρχου.</td><td class="tr">eàn êi kairós, érkhou.</td><td class="em">If there is time, come.</td><td>Nếu còn kịp thời, hãy đến.</td></tr>
+</tbody>
+</table>
+
+<p>Đọc ba câu trên với đôi mắt của mục 2: <span class="gk">βοηθῇ, λέγῃς, ᾖ</span> – ba đuôi dài, ba subjunctive; và mỗi mệnh đề &quot;nếu&quot; đều được tính giá trị trả lại ở vế chính (<span class="gk">νικήσομεν</span> tương lai – thấy chưa: <em>tương lai chỉ định</em> sống ở vế chính, <em>subjunctive</em> sống ở vế con; hai thức chia nhau hai đầu của một câu ghép).</p>
+
+<div class="achtung">
+<p><strong>Achtung – đừng viết <span class="gk">ἐὰν</span> hai lần:</strong> vì <span class="gk">ἐάν</span> = <span class="gk">εἰ + ἄν</span> đã chứa sẵn mảnh kính, câu &quot;<span class="gk">ἐὰν…ἄν</span>&quot; lặp lại trong cùng cặp mệnh đề là lỗi kinh điển của người mới (sẽ đọc thành &quot;εἰ + ἄν + ἄν&quot;). Vế chính sau <span class="gk">ἐάν</span> thường <em>không</em> cần <span class="gk">ἄν</span> khi động từ là tương lai chỉ định. Về mặt lý thuyết, các cặp điều kiện &quot;phi thực&quot; khác (vế chính cũng mang ἄν) tồn tại – nhưng đó là lãnh địa của bài 21; đến đó bạn sẽ thấy <span class="gk">ἄν</span> ở vế chính đóng vai gì, và vì sao hôm nay ta chưa cần nó.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng – &quot;chất dẫn nào, thức ấy&quot;:</strong> làm quen ba chất dẫn của hôm nay là ba chìa khóa vạn năng: thấy <span class="gk">ἵνα/ὅπως/ὡς</span> (mục đích) → chờ subjunctive; thấy <span class="gk">ἐάν/ὅταν</span> (điều kiện/thời gian bất định) → chờ subjunctive; thấy <span class="gk">μὴ</span> trước động từ (cấm đoán, mục 7) → chờ subjunctive hoặc mệnh lệnh. Chất dẫn ở đầu mệnh đề con, động từ của mệnh đề con tự đổi thức theo. Tự kiểm tra: che phần dịch của ba câu trong bảng trên, chỉ nhìn chữ Hy Lạp – nếu bạn tự &quot;nghe&quot; ra niềm tin &quot;cái gì sẽ theo sau chất dẫn&quot;, mục này đã đạt.</p>
+</div>
+
+<h2 id="s6">6. Mệnh đề mục đích: <span class="gk">ἵνα / ὅπως / ὡς</span> + subjunctive</h2>
+
+<p>Đến lượt công dụng số một của thức mới. <strong>Mệnh đề mục đích (purpose clause / final clause)</strong> trả lời câu hỏi &quot;<em>để làm gì?</em>&quot; – người nói nói trước mục đích của một hành động: &quot;tôi sai đứa nhỏ đi <em>để</em> nó lấy rượu&quot;. Ba từ mở đầu, cùng một công việc:</p>
+
+<ul>
+<li><strong><span class="gk">ἵνα</span></strong> – từ phổ cập nhất, văn xuôi lẫn Kinh Thánh. Gốc của nó sẽ khiến bạn mỉm cười: <span class="gk">ἵνα</span> vốn là trung tính của đại từ quan hệ (bài 15!) với nghĩa &quot;vào chỗ mà / trong đó&quot; – rồi &quot;mục đích&quot; = &quot;(điều) để cái đó xảy ra&quot;. Nghĩa là bài 15 và bài 16 không phải hai thế giới: mệnh đề quan hệ mô tả cái <em>có sẵn</em>, mệnh đề mục đích đặt ra cái <em>muốn có</em> – cùng một đại từ, hai thái cực của nó.</li>
+<li><strong><span class="gk">ὅπως</span></strong> – vốn là &quot;bằng cách nào&quot; (họ hàng của <span class="gk">πῶς</span> &quot;như thế nào&quot;, bài 2), rất phổ biến sau các động từ &quot;chăm lo, để ý&quot;: <span class="gk">σκόπει ὅπως μάθῃς</span> &quot;hãy để ý (sao cho) ngươi học được&quot;.</li>
+<li><strong><span class="gk">ὡς</span></strong> – dạng ngắn, hơi văn chương; cẩn thận đừng lẫn với <span class="gk">ὡς</span> &quot;như&quot; (so sánh, mục 8).</li>
+</ul>
+
+<p>Phủ định của mục đích dùng <span class="gk">μή</span> – nhớ quy tắc ôn từ bài 4/7: <strong><span class="gk">οὐ</span> phủ định việc thật, <span class="gk">μή</span> phủ định ý muốn/mục đích</strong>: <span class="gk">ἵνα μή</span> = &quot;để không / kẻo&quot;. Không bao giờ <span class="gk">ἵνα οὐ</span>.</p>
+
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">πέμπω τὸν παῖδα, ἵνα τὸν οἶνον ἀγάγῃ.</td><td class="tr">pémpō tòn paîda, hína tòn oînon agágē(i).</td><td class="em">I send the boy in order that he fetch the wine.</td><td>Tôi sai đứa trẻ đi để nó đi lấy rượu.</td></tr>
+<tr><td class="gk">ἔκρυψεν τὰς βοῦς, ἵνα μὴ φανῶσιν.</td><td class="tr">ékrypsen tàs boûs, hína mḕ phanôsin.</td><td class="em">She hid the cattle so that they not be seen.</td><td>Nàng giấu bò đi để chúng không lộ ra.</td></tr>
+<tr><td class="gk">ὁ πατὴρ τῷ παιδὶ ἀργύριον δίδωσιν, ἵνα βιβλία ἀγοράσῃ.</td><td class="tr">ho patḕr tô(i) paidì argúrion dídōsin, hína biblía agorásē(i).</td><td class="em">The father gives the boy money so that he buy books.</td><td>Cha đưa cho con tiền để nó mua sách.</td></tr>
+<tr><td class="gk">σκόπει ὅπως μάθῃς.</td><td class="tr">skópei hópōs máthēis.</td><td class="em">Take care that you learn.</td><td>Hãy để ý để ngươi học được.</td></tr>
+</tbody>
+</table>
+
+<p>Ba quan sát để đọc đúng:</p>
+<ul>
+<li><strong>Mục đích khác chủ ngữ với hành động chính</strong> là tình huống tự nhiên nhất của mệnh đề này (tôi sai <em>thằng nhỏ</em>, để <em>nó</em> lấy rượu). Cùng một chủ ngữ thì tiếng Hy Lạp thường chọn nguyên mẫu: &quot;tôi đến <em>để</em> giúp&quot; = <span class="gk">ἔρχομαι βοηθῆσαι</span> – nguyên mẫu aorist làm mục đích, đúng cấu trúc nguyên mẫu sau các động từ ý muốn mà bạn tập từ bài 2/4.</li>
+<li><strong>Chọn hiện tại hay aorist? Hỏi khía cạnh</strong> (bài 13): hiện tại = mục đích đang/trải ra, aorist = mục đích như một sự kiện trọn. Thực tế văn xuôi dùng aorist nhiều hơn; đừng hoảng khi thấy <span class="gk">ἵνα ἀγάγῃ</span> (aorist <span class="gk">ἀγάγῃ</span>!) thay vì <span class="gk">ἄγῃ</span>.</li>
+<li><strong>Đừng dịch &quot;để nó <em>sẽ</em>&quot;</strong>: subjunctive không có tương lai. Bản chất &quot;để&quot; đã chứa hướng trước; dịch tiếng Việt chỉ cần &quot;để nó lấy/để không để…&quot;.</li>
+</ul>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> Latin diễn y hệt công thức này bằng <em>ut/ne + coniunctīvus</em>: <em>mittō puerum ut vīnum dūcat</em> ↔ <span class="gk">πέμπω τὸν παῖδα ἵνα τὸν οἶνον ἀγάγῃ</span> – từng từ một. Cả hai ngôn ngữ đều dùng nghĩa &quot;để/lấy làm&quot; của một trục phụ thuộc; thậm chí Latin <em>ut</em> cũng từng là một đại từ quan hệ (như <span class="gk">ἵνα</span>!), nên song song này ăn khớp đến tận nguồn gốc.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern 3 bước – viết một mệnh đề mục đích:</strong> (1) Tìm hành động chính và chủ ngữ của nó. (2) Hỏi: mục đích do <em>ai</em> thực hiện, ở <em>khía cạnh</em> nào (đang/trọn)? (3) Mở bằng <span class="gk">ἵνα</span>, đặt động từ ở subjunctive đúng ngôi – muốn nói &quot;để không&quot; thì chèn <span class="gk">μή</span> ngay sau <span class="gk">ἵνα</span>. Tự kiểm tra khi đọc: mệnh đề con mở bằng <span class="gk">ἵνα</span> mà động từ lại là chỉ định → gần như chắc chắn bạn đọc nhầm dạng (trừ khi đó là nguyên mẫu sau động từ cần nguyên mẫu – mệnh đề mục đích &quot;thật&quot; không bao giờ dùng chỉ định).</p>
+</div>
+
+<h2 id="s7">7. Mệnh đề cấm &amp; câu hỏi dự trù: <span class="gk">μὴ</span> + subjunctive; <span class="gk">τί ποιῶμεν;</span></h2>
+
+<p>Bài 4/10 đã dạy mệnh lệnh và lối cấm bằng <em>mệnh lệnh hiện tại</em>: <span class="gk">μὴ λῦε</span> &quot;đừng thả (nói chung việc này)&quot;. Thức giả định bổ nốt phần còn thiếu của hệ thống: <strong><span class="gk">μὴ</span> + aorist subjunctive</strong> – và hai dụng pháp nữa dành riêng cho ngôi 1.</p>
+
+<table>
+<thead><tr><th>Cấu trúc</th><th>Ví dụ</th><th>Nuance</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">μὴ</span> + <strong>aorist subj.</strong></td><td class="gk">μὴ λύσῃς!</td><td>cấm <em>hành động đơn lẻ/trọn vẹn</em>: &quot;đừng (có) thả (lần này/khi nó đến)!&quot;</td></tr>
+<tr><td><span class="gk">μὴ</span> + <strong>mệnh lệnh hiện tại</strong></td><td class="gk">μὴ λῦε!</td><td>cấm <em>thói quen/tính trạng</em>: &quot;đừng (luôn) thả (kiểu đó)!&quot;</td></tr>
+<tr><td><span class="gk">μὴ</span> + <strong>aorist subj. ngôi 3</strong></td><td class="gk">μὴ λύσῃ!</td><td>ngôi 3 không có mệnh lệnh phủ định khác: &quot;hắn đừng thả!&quot;</td></tr>
+</tbody>
+</table>
+
+<p>Cặp <span class="gk">μὴ λύσῃς</span> / <span class="gk">μὴ λῦε</span> là khía cạnh (bài 13) gõ cửa lần thứ ba: cùng một &quot;đừng&quot;, aorist nhìn sự việc như <em>một quyết định trọn</em>, hiện tại nhìn nó như <em>thói quen đang kéo dài</em>. Trong văn bản thật: <span class="gk">μὴ φοβηθῇς</span> &quot;đừng sợ (về chuyện đang đến)&quot; – bạn sẽ không bao giờ thấy <span class="gk">οὐ</span> mở đầu một câu cấm: <span class="gk">οὐ</span> dành cho việc thật, <span class="gk">μή</span> dành cho ý chí.</p>
+
+<p>Hai dụng pháp ngôi 1 – cũng là hai &quot;khẩu khí&quot; không thể nhầm được của Hy Lạp:</p>
+
+<ul>
+<li><strong>Câu hỏi dự trù (deliberative question):</strong> khi người nói tự hỏi (hoặc hỏi nhóm mình) &quot;nên làm gì đây?&quot;, Hy Lạp không dùng chỉ định mà dùng <strong>subjunctive ngôi 1</strong>: <span class="gk">τί ποιῶμεν;</span> &quot;Mình (thì) nên làm gì đây?&quot; – câu thoại kinh điển xuất hiện cả trăm lần trong Platon và kịch Aristophanes; <span class="gk">πῶς εἴπω;</span> &quot;Nói sao đây?&quot;. So sánh: <span class="gk">τί ποιοῦμεν;</span> (chỉ định) chỉ hỏi thật sự &quot;(bây giờ) chúng ta đang làm gì?&quot;.</li>
+<li><strong>Câu đề nghị (hortatory):</strong> subjunctive ngôi 1 không dấu hỏi = lời rủ rê &quot;mình cùng… nhé&quot;: <span class="gk">ἐρωτῶμεν αὐτόν</span> &quot;Mình cứ hỏi hắn xem&quot;, <span class="gk">ἴωμεν!</span> &quot;Cùng đi nào!&quot; – lời hiệu triệu nổi tiếng nhất của Hy Lạp, từ quân trại của Mười Nghìn người (Xenophon, Anabasis, họ hàng của bài đọc 12) đến mọi bản dịch Kinh Thánh. (<span class="gk">ἴωμεν</span> là aorist subjunctive của <span class="gk">εἶμι</span> &quot;đi&quot; – động từ bổ trợ của <span class="gk">ἔρχομαι</span>, học mặt; sẽ được giải phẫu ở bài 20.)</li>
+</ul>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> cả ba công dụng Latin đều phủ đúng khuôn Hy Lạp: <em>nē + perfect coniunctīvus</em> (<span class="gk">μὴ λύσῃς</span> ↔ <em>nē solverīs</em>), <em>quid faciamus?</em> (<span class="gk">τί ποιῶμεν;</span>), <em>eamus!</em> (<span class="gk">ἴωμεν!</span>). Với người học song song, đây là lần hiếm hoi hai hệ ngữ pháp trùng nhau đến từng ngôi – thuộc một bên là có sẵn bên kia.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng – ngôi 1 = &quot;mở cửa vào trong&quot;:</strong> chỉ định ngôi 1 tường thuật (&quot;tôi làm&quot;); subjunctive ngôi 1 <em>tự vấn hoặc tự đề nghị</em> (&quot;mình nên/nào&quot;). Khi dịch, khoác cho câu một hơi thở nội tâm: <span class="gk">τί ποιῶμεν;</span> không phải &quot;chúng tôi làm gì?&quot; mà là &quot;<em>nên</em> làm gì đây?&quot;. Tự kiểm tra: nếu một câu hỏi ngôi 1 có thể chèn thêm &quot;nên/nào&quot; mà nghĩa vẫn xuôi → subjunctive; nếu dịch bằng &quot;đang/đã&quot; → chỉ định.</p>
+</div>
+
+<h2 id="s8">8. Mở rộng từ bài 15: <span class="gk">ὅς ἄν, ὅταν, ὡς ἂν</span> – công thức &quot;bất kỳ&quot;</h2>
+
+<p>Bài 15 cho bạn đại từ quan hệ <span class="gk">ὅς</span> &quot;(người/cái) <em>mà</em>&quot; – nối về một danh từ <em>xác định</em>. Hôm nay chỉ cần thêm một mảnh <span class="gk">ἄν</span> là toàn bộ hệ thống &quot;quét sạch&quot; sang nghĩa <em>bất định</em> – &quot;bất cứ ai, bất cứ điều gì, mỗi khi, như thể&quot; – đúng như bảng &quot;chiếc kính&quot; ở mục 5 đã hứa:</p>
+
+<table>
+<thead><tr><th>Cụm</th><th>Nghĩa</th><th>Hy Lạp</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὅς ἄν / ὅστις ἄν + subj.</td><td>&quot;bất cứ ai mà&quot;</td><td class="gk">ὃς ἂν τὴν ἀλήθειαν λέγῃ, εὐδαίμων ἐστίν.</td><td>Ai cứ nói thật, kẻ ấy hạnh phúc.</td></tr>
+<tr><td class="gk">ὅ τι ἄν + subj.</td><td>&quot;bất cứ điều gì&quot;</td><td class="gk">ὅ τι ἂν λέγῃς, ἀκούομεν.</td><td>Ngươi nói gì (đến đâu), chúng tôi đều nghe.</td></tr>
+<tr><td class="gk">ὅταν + subj.</td><td>&quot;mỗi khi&quot;</td><td class="gk">ὅταν συνδειπνῶμεν, οἶνον πίνωμεν.</td><td>Mỗi khi mình cùng ăn, mình lại uống rượu.</td></tr>
+<tr><td class="gk">ὅτε + chỉ định</td><td>&quot;khi (lần cụ thể)&quot;</td><td class="gk">ὅτε συνεδείπνουν, οἶνον ἔπινον.</td><td>Hôm ấy khi họ cùng ăn, họ đã uống rượu.</td></tr>
+</tbody>
+</table>
+
+<p>Đọc cặp dòng 3–4 như một phép thử: <span class="gk">ὅταν</span> + subjunctive đóng gói <em>cả loạt lần chưa định sẵn</em>; <span class="gk">ὅτε</span> + chỉ định neo vào <em>một lần có thật</em>. Hệ thống mệnh đề thời gian đầy đủ sẽ có bài riêng (bài 22); hôm nay bạn chỉ cần đúng một điều: <strong>thấy <span class="gk">ὅταν</span> → chờ subjunctive; thấy <span class="gk">ὅτε</span> → chờ chỉ định</strong>.</p>
+
+<p>Còn <span class="gk">ὡς ἄν</span> &quot;như thể&quot; làm một việc khác hẳn: nó nhuộm màu <em>so sánh</em>. <span class="gk">μέσος δὲ ὁ κράτιστος, ὡς ἂν κορυφαῖος χοροῦ</span> (bài đọc I): vị trí đẹp nhất dành cho người giỏi nhất, <em>kiểu như</em> người dẫn dắt đứng giữa dàn đồng ca – <span class="gk">ἄν</span> gieo hơi &quot;giống mà không phải&quot;, đúng như &quot;as it were&quot; tiếng Anh.</p>
+
+<div class="info">
+<p><strong>Thông điệp gộp của mục 5+8 – &quot;một mảnh <span class="gk">ἄν</span>, bốn công dụng&quot;:</strong> <span class="gk">ἐάν</span> (nếu/bất cứ khi nào), <span class="gk">ὅταν</span> (mỗi khi), <span class="gk">ὅς ἄν</span> (bất cứ ai), <span class="gk">ὡς ἂν</span> (như thể) – bốn cụm, bốn nghĩa, nhưng chỉ một cú bật: gắn <span class="gk">ἄν</span> vào từ mở đầu và kéo động từ về subjunctive. Đây là một trong những &quot;pattern mua 1 được 4&quot; lớn nhất của ngữ pháp Hy Lạp; ôn lại bằng cách tự viết bốn cụm theo đúng thứ tự và đọc thành một câu ghép.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Tự kiểm tra cuối phần ngữ pháp:</strong> đọc to (hoặc viết ra) bốn câu cửa khẩu của hôm nay – <span class="gk">ἵνα μάθῃς</span> (mục đích), <span class="gk">ἐὰν ᾖ</span> (điều kiện), <span class="gk">μὴ λύσῃς</span> (cấm), <span class="gk">τί ποιῶμεν;</span> (dự trù) – và tự hỏi: mỗi câu chứa (1) chất dẫn nào, (2) ngôi nào, (3) hiện tại hay aorist? Nếu ba câu trả lời đều đến trong một giây, bạn sẵn sàng cho hai bài đọc – nơi cả bốn hiện nguyên hình trong tiếng Hy Lạp thật của Posidonios và Parthenios.</p>
+</div>
+
+<h2 id="reading">9. Bài đọc I: Bàn ăn của người Celt (Athenaios 4,151e–152b)</h2>
+
+<div class="info">
+<p><strong>Nguồn:</strong> Athenaios, <em>Deipnosophistai</em> (&quot;Bữa tiệc của những bậc uyên bác&quot;, khoảng năm 200 SCN) 4,151e–152b – đoạn trích <strong>Posidonios</strong>, sử gia kiêm triết gia trường Stoic của thế kỷ 1 TCN, về phong tục ăn uống của người Celt. Bản gốc (public domain) đọc được trên Digital Athenaeus (bản Kaibel). Bản dưới đây do project <strong>biên soạn lại theo trình độ bài 16</strong> – mỗi câu trưng một công cụ của hôm nay: <span class="gk">ἐάν</span>, <span class="gk">ὅταν</span>, <span class="gk">ὡς ἄν</span>, <span class="gk">ἵνα</span>.</p>
+</div>
+
+<p>Từ mới trong bài đọc:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">οἱ Κελτοί</td><td class="tr">hoi Keltoí</td><td class="em">the Celts</td><td>người Celt</td><td>tên tộc; số ít <span class="gk">ὁ Κελτός</span>; cả hai bài đọc hôm nay đều nói về dân tộc này</td></tr>
+<tr><td class="gk">ἡ τράπεζα, -ης</td><td class="tr">hē trápeza</td><td class="em">table</td><td>cái bàn</td><td>cái, nhóm a; gốc tiếng Anh &quot;trapezoid&quot; (hình thang – kiểu bàn bốn cạnh của người Hy Lạp)</td></tr>
+<tr><td class="gk">ξύλινος, -η, -ον</td><td class="tr">xýlinos</td><td class="em">wooden</td><td>bằng gỗ</td><td>tính từ định ngữ sau danh từ (<span class="gk">τραπεζῶν ξυλίνων</span> = &quot;những chiếc bàn bằng gỗ&quot;); từ <span class="gk">τὸ ξύλον</span> &quot;gỗ&quot; (gốc &quot;xylo-: xylophone&quot;)</td></tr>
+<tr><td class="gk">ὁ ἄνθραξ, -ακος</td><td class="tr">ho ánthrax</td><td class="em">glowing coal</td><td>than hồng</td><td>chia thứ ba thân -ακ; tiếng Anh mượn làm tên bệnh &quot;anthrax&quot; (loét đen như than)</td></tr>
+<tr><td class="gk">ὀπτός, -ή, -όν</td><td class="tr">optós</td><td class="em">roasted</td><td>nướng chín</td><td>tính từ hai đuôi (bài 9); họ hàng với động từ <span class="gk">ὄπτω</span> &quot;nướng&quot; và <span class="gk">ἕψω</span> &quot;luộc&quot;; cùng gốc Ấn-Âu <em>pekʷ-</em> &quot;nấu&quot; với Latin <em>coquere</em> (co- + qu-) và English <em>cook</em></td></tr>
+<tr><td class="gk">δυσαπόσπαστος, -ον</td><td class="tr">dysapóspastos</td><td class="em">hard to tear off</td><td>khó gỡ ra</td><td><span class="gk">δυσ-</span> &quot;khó&quot; + <span class="gk">ἀπόσπαστος</span> &quot;bị gỡ ra&quot; – tính từ -τος như <span class="gk">διδακτός</span> (bài 14)</td></tr>
+<tr><td class="gk">τὸ μαχαιρίδιον, -ου</td><td class="tr">to machairídion</td><td class="em">little knife</td><td>con dao nhỏ</td><td>giống nhỏ (diminutive) của <span class="gk">ἡ μάχαιρα</span>; trung, nhóm o</td></tr>
+<tr><td class="gk">ὁ κορυφαῖος, -ου</td><td class="tr">ho koryphaîos</td><td class="em">leader (of a chorus)</td><td>người dẫn dắt dàn đồng ca</td><td>từ <span class="gk">ἡ κορυφή</span> &quot;đỉnh đầu&quot;; gốc tiếng Anh &quot;chorus&quot; nằm ngay trong câu này</td></tr>
+<tr><td class="gk">συνδειπνέω</td><td class="tr">syndeipnéō</td><td class="em">dine together</td><td>cùng dự tiệc</td><td><span class="gk">σύν</span> + <span class="gk">τὸ δεῖπνον</span> &quot;bữa (tối)&quot;; hôm nay xuất hiện ở subjunctive <span class="gk">συνδειπνῶσι(ν)</span></td></tr>
+<tr><td class="gk">κάθημαι</td><td class="tr">káthēmai</td><td class="em">sit</td><td>ngồi</td><td>deponent (bài 10); hôm nay gặp ở chỉ định <span class="gk">κάθηται</span> (3sg), <span class="gk">κάθηνται</span> (3pl)</td></tr>
+<tr><td class="gk">τὸ ἀγγεῖον, -ου</td><td class="tr">to angeîon</td><td class="em">vessel, cup</td><td>cái bình, vật chứa</td><td>trung, nhóm o; gốc &quot;angio-: angiology&quot; (bình = mạch máu)</td></tr>
+<tr><td class="gk">ὁ ζύθος, -ου / ἡ κόρμα</td><td class="tr">ho zýthos / hē kórma</td><td class="em">beer / Celtic beer</td><td>bia / thứ bia của người Celt</td><td><span class="gk">ζύθος</span> là từ Hy Lạp hóa cho bia; <span class="gk">κόρμα</span> là tên Celt – người Hy Lạp nghe và chép lại</td></tr>
+<tr><td class="gk">πλούσιος, -α, -ον</td><td class="tr">ploúsios</td><td class="em">rich</td><td>giàu có</td><td>từ <span class="gk">ὁ πλοῦτος</span> &quot;của cải&quot;; gốc tiếng Anh &quot;plutocrat&quot; (kẻ cai trị giàu)</td></tr>
+</tbody>
+</table>
+
+<p style="margin-bottom:6px;"><strong>Bản simplified (do project biên soạn):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">Ποσειδώνιος φησὶν ὅτι οἱ Κελτοὶ τὰς τροφὰς ἐπὶ τραπεζῶν ξυλίνων προτίθενται. ἄρτοι μὲν ὀλίγοι εἰσίν, κρέα δὲ πολλὰ ἐστίν, ἐν ὕδατι καὶ ὀπτὰ ἐπ' ἀνθράκων. ἐσθίουσι δὲ ὅλα μέλη, ταῖς χερσὶν ἀμφοτέραις αἴροντες· ἐὰν δὲ ᾖ τι δυσαπόσπαστον, μαχαιρίῳ μικρῷ παρατέμνουσιν. ὅταν δὲ πλείονες συνδειπνῶσι, κάθηνται μὲν ἐν κύκλῳ, μέσος δὲ ὁ κράτιστος κάθηται, ὡς ἂν κορυφαῖος χοροῦ. τὸ ποτὸν ἐν ἀγγείοις περιφέρουσι· οἱ μὲν πλούσιοι οἶνον πίνουσιν, οἱ δὲ πολλοὶ ζύθον, ὃν κόρμα καλοῦσιν. ὁ δὲ παῖς τὸ ποτήριον ἐπὶ τὰ δεξιὰ καὶ τὰ λαιὰ περιφέρει, ἵνα πάντες πίνωσιν. καὶ τοὺς θεοὺς προσκυνοῦσιν ἐπὶ τὰ δεξιὰ στρεφόμενοι.</p>
+<p class="tr">Poseidṓnios phēsìn hóti hoi Keltoì tàs trophàs epì trapezôn xylínōn protíthentai. ártoi mèn olígoi eisín, kréa dè pollà estìn, en hýdati kaì optà ep' anthrákōn. esthíousi dè hóla mēlē, taîs chersìn amphotérais aírontes· eàn dè êi ti dysapóspaston, machairíōi mikrôi paratémnousin. hótan dè pleíones syndeipnôsi, káthēntai mèn en kýklōi, mésos dè ho krátistos káthētai, hōs àn koryphaîos khoroû. tò potòn en angéiois periphérousi· hoi mèn ploúsioi oînon pínousin, hoi dè polloì zýthon, hòn kórma kaloûsin. ho dè paîs tò potḗrion epì tà dexià kaì tà laià periphérei, hína pántes pínōsin. kaì toùs theoùs proskynoûsin epì tà dexià strephómenoi.</p>
+
+<p><strong>Dịch:</strong> Posidonios nói rằng người Celt bày thức ăn trên những chiếc bàn gỗ. Bánh mì thì ít, còn thịt thì nhiều: luộc trong nước và nướng trên than hồng. Họ ăn nguyên cả khớp thịt, nhấc lên bằng cả hai tay; nếu có miếng nào khó gỡ ra, họ cắt rạch nó ra bằng một con dao nhỏ. Mỗi khi đông người cùng dự tiệc, họ ngồi thành vòng tròn, còn người giỏi nhất ngồi giữa – như thể người dẫn dắt của dàn đồng ca. Đồ uống được đưa vòng quanh trong các chiếc bình: kẻ giàu uống rượu vang, còn phần đông uống thứ bia mà họ gọi là korma. Đứa trẻ hầu đưa chiếc cốc về phía tay phải rồi tay trái, để tất cả đều được uống. Và họ cúi lạy các thần bằng cách quay về phía tay phải.</p>
+
+<p><strong>Phân tích nhanh (kiểm tra bằng công cụ của bài):</strong></p>
+<ul>
+<li><span class="gk">ἐὰν δὲ ᾖ τι δυσαπόσπαστον, μαχαιρίῳ μικρῷ παρατέμνουσιν</span>: điều kiện &quot;bất kỳ lúc nào&quot; – <span class="gk">ἐάν</span> + <span class="gk">ᾖ</span> (subjunctive ngôi 3 của <span class="gk">εἰμί</span>, mục 3), vế chính giữ chỉ định hiện tại <span class="gk">παρατέμνουσιν</span> &quot;họ cắt&quot;. Đây gần như nguyên văn bản gốc (xem info box). <span class="gk">μαχαιρίῳ μικρῷ</span>: tặng cách công cụ (bài 4) + tính từ định ngữ sau danh từ.</li>
+<li><span class="gk">ὅταν δὲ πλείονες συνδειπνῶσι</span>: &quot;mỗi khi&quot; – <span class="gk">ὅταν</span> (= <span class="gk">ὅτε + ἄν</span>, mục 5) + <span class="gk">συνδειπνῶσι(ν)</span> (subjunctive ngôi 3 số nhiều). So sánh: nếu Posidonios kể <em>một bữa ăn cụ thể</em>, câu sẽ là <span class="gk">ὅτε συνεδείπνουν</span> + chỉ định (mục 8).</li>
+<li><span class="gk">ὡς ἂν κορυφαῖος χοροῦ</span>: so sánh nhuốm màu bất định – &quot;<em>như thể</em> người dẫn dắt dàn đồng ca&quot;; <span class="gk">ἄν</span> gieo hơi &quot;giống mà không hẳn&quot;. <span class="gk">χοροῦ</span> sở hữu cách sau danh từ chỉ người (bài 1).</li>
+<li><span class="gk">ἵνα πάντες πίνωσιν</span>: mệnh đề mục đích (mục 6) – khác chủ ngữ: đứa trẻ hầu đưa cốc, <em>để</em> mọi người uống; <span class="gk">πίνωσι(ν)</span> đuôi dài đúng quy tắc.</li>
+<li><span class="gk">κρέα δὲ πολλὰ ἐστίν</span>: chủ ngữ trung tính số nhiều + động từ số ít (bài 3) – đúng văn bản gốc; <span class="gk">κρέα</span> là số nhiều của <span class="gk">τὸ κρέας</span> thân s (bài 8), còn <span class="gk">ἐστίν</span> giữ nguyên số ít vì luật &quot;trung tính đi lô&quot;.</li>
+<li><span class="gk">ἐπ' ἀνθράκων</span>: <span class="gk">ἐπί</span> + sở hữu cách &quot;trên bề mặt&quot; (bài 4), elision trước nguyên âm dùng apostrophe – đúng precedent <span class="gk">παρ' οὓς</span> của bài 13.</li>
+<li><span class="gk">προτίθενται</span>: động từ athematic <span class="gk">προτίθημι</span> &quot;bày ra&quot; – học mặt, cùng họ <span class="gk">δίδωμι/ἔδωκεν</span> (bài 15) và <span class="gk">τίθημι</span>; giải phẫu đầy đủ ở bài 23. Chú ý cấu tạo: tiền tố <span class="gk">προ-</span> + reduplication <span class="gk">τι-</span> + gốc <span class="gk">θη-</span> (bài 23 sẽ mổ xẻ).</li>
+</ul>
+
+<div class="info">
+<p><strong>Trong bản gốc (Kaibel):</strong> Athenaios giới thiệu nguồn: <span class="gk">Ποσειδώνιος δὲ ὁ ἀπὸ τῆς στοᾶς ἐν ταῖς ἱστορίαις ... πολλὰ παρὰ πολλοῖς ἔθιμα καὶ νόμιμα ἀναγράφων</span> – &quot;Posidonios người của trường Tòa (Stoa), trong cuốn sử của ông, chép lại nhiều phong tục và luật lệ của nhiều nơi&quot;. Hai câu chứa subjunctive giữ nguyên gần như từng chữ: <span class="gk">ἐὰν δὲ ᾖ τι δυσαπόσπαστον, μαχαιρίῳ μικρῷ παρατέμνοντες</span> và <span class="gk">ὅταν δὲ πλείονες συνδειπνῶσι, κάθηνται μὲν ἐν κύκλῳ, μέσος δὲ ὁ κράτιστος ὡς ἂν κορυφαῖος χοροῦ, διαφέρων τῶν ἄλλων ἢ κατὰ τὴν πολεμικὴν εὐχέρειαν ἢ κατὰ γένος ἢ κατὰ πλοῦτον</span> – &quot;hơn người khác hoặc về tài chiến trận, hoặc về dòng họ, hoặc về của cải&quot;. Bản gốc còn một chi tiết mà bản simplified lược cho gọn: người Celt ăn <span class="gk">καθαρείως μὲν, λεοντωδῶς δέ</span> – &quot;sạch sẽ, nhưng theo kiểu sư tử&quot;.</p>
+</div>
+
+<p>Bài tập đọc hiểu: (1) Trong <span class="gk">ἐὰν δὲ ᾖ τι δυσαπόσπαστον</span>: động từ nào ở subjunctive, ở ngôi nào, và vì sao ở đây không thể dùng chỉ định <span class="gk">ἐστί</span>? (2) <span class="gk">ὡς ἂν κορυφαῖος χοροῦ</span>: dịch cụm này, và cho biết nếu bỏ <span class="gk">ἄν</span> đi nghĩa sẽ hụt gì? (3) <span class="gk">ἵνα πάντες πίνωσιν</span>: chủ ngữ của <span class="gk">πίνωσιν</span> là ai, vì sao khác chủ ngữ của <span class="gk">περιφέρει</span>, và dấu hiệu đuôi nào xác nhận đây là subjunctive?</p>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án câu hỏi đọc hiểu (in ra để soát)</h4>
+<p><strong>1.</strong> <span class="gk">ᾖ</span> – subjunctive ngôi 3 số ít của <span class="gk">εἰμί</span> (mục 3: <span class="gk">ὦ, ᾖς, ᾖ…</span>). Không dùng được <span class="gk">ἐστί</span> vì <span class="gk">ἐάν</span> luôn kéo theo subjunctive (mục 5): đây là điều kiện &quot;bất kỳ lúc nào có miếng khó gỡ&quot;, không phải tường thuật một sự việc có thật. <strong>2.</strong> &quot;như thể (là) người dẫn dắt dàn đồng ca&quot;. Bỏ <span class="gk">ἄν</span> thì <span class="gk">ὡς</span> thành so sánh trơn &quot;như (đúng là)&quot; – mất cái hơi &quot;giống mà không hẳn, ví von thôi&quot; mà <span class="gk">ἄν</span> gieo vào (mục 8). <strong>3.</strong> Chủ ngữ của <span class="gk">πίνωσιν</span> là <span class="gk">πάντες</span> &quot;tất cả (khách)&quot;; khác chủ ngữ (<span class="gk">ὁ παῖς</span> &quot;đứa trẻ hầu&quot;) vì đây là mệnh đề mục đích – công dụng ưa khác chủ ngữ (mục 6). Dấu hiệu: đuôi <span class="gk">-ωσι(ν)</span> dài sau <span class="gk">ἵνα</span> – so với chỉ định <span class="gk">πίνουσιν</span>.</p>
+</div></div>
+
+<h2 id="reading2">10. Bài đọc II: Keltinē – người Celt có tên từ đâu (Parthenios 30)</h2>
+
+<div class="info">
+<p><strong>Nguồn:</strong> Parthenios của Nicaea, <em>Erōtika Pathēmata</em> (&quot;Những cuộc tình đau đớn&quot;, thế kỷ 1 TCN), truyện số 30 – vốn là bản tóm lược ông làm cho nhà thơ Cornelius Gallus. Parthenios lấy chất liệu từ sử thi địa phương: câu chuyện dùng thần thoại Heracles để <em>giải thích tên gọi</em> của dân Celt (aition). Bản gốc (public domain) đọc được trên el.wikisource (bản Hercher). Bản dưới đây do project <strong>biên soạn lại theo trình độ bài 16</strong>.</p>
+</div>
+
+<p>Từ mới trong bài đọc:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἡ Κελτίνη, -ης</td><td class="tr">hē Keltínē</td><td class="em">Celtine</td><td>Keltinē (tên riêng)</td><td>con gái của Britanos; tên cô gái được dân tộc mượn làm tên gọi (xem bài tập đọc hiểu)</td></tr>
+<tr><td class="gk">ὁ Βρεταννός, -οῦ</td><td class="tr">ho Bretannós</td><td class="em">Britannus</td><td>Britanos</td><td>vua (hay thủ lĩnh) xứ Celt; từ này về sau cho tên hòn đảo Britain</td></tr>
+<tr><td class="gk">ἡ Ἐρύθεια, -ας</td><td class="tr">hē Erýtheia</td><td class="em">Erytheia</td><td>Erytheia</td><td>đảo đỏ ở cực Tây, nơi bò của Geryon sống; <span class="gk">ἐρυθρός</span> = &quot;đỏ&quot;</td></tr>
+<tr><td class="gk">ὁ Γηρυώνης, -ου</td><td class="tr">ho Gēryṓnēs</td><td class="em">Geryon</td><td>Geryon</td><td>khổng lồ ba mình; các con bò là chiến lợi phẩm chuyến mười của Heracles</td></tr>
+<tr><td class="gk">ἐράω / ἐρασθείς</td><td class="tr">eráō / erastheís</td><td class="em">to love passionately; beloved</td><td>say đắm; người trong mộng</td><td>cho <span class="gk">ὁ ἐραστής</span>, gốc &quot;erotic&quot;; hôm nay gặp ở phân từ <span class="gk">ἐρασθεῖσα</span> (học mặt)</td></tr>
+<tr><td class="gk">ἡ κόρη, -ης</td><td class="tr">hē kórē</td><td class="em">girl, maiden</td><td>cô gái, thiếu nữ</td><td>đừng lẫn với <span class="gk">τὸ κόρμα</span> &quot;bia&quot; (bài đọc I) – chỉ trùng âm; <span class="gk">ἡ κόρη</span> còn nghĩa &quot;đồng tử (mắt)&quot;, gốc tiếng Anh &quot;core&quot;</td></tr>
+<tr><td class="gk">τὸ κάλλος, -ους</td><td class="tr">to kállos</td><td class="em">beauty</td><td>vẻ đẹp</td><td>trung, thân s (nhóm -ος nhưng sinh cách -ους, xem bài 8); gốc &quot;calligraphy&quot; (nghệ thuật nét chữ đẹp)</td></tr>
+<tr><td class="gk">ἡ χώρα, -ας</td><td class="tr">hē chṓra</td><td class="em">land, country</td><td>xứ, đất nước</td><td>gốc tiếng Anh &quot;chorography&quot; (họa đồ vùng đất); <span class="gk">διὰ τῆς Κελτῶν χώρας</span> = &quot;xuyên qua xứ của người Celt&quot;</td></tr>
+<tr><td class="gk">θαυμάζω</td><td class="tr">thaumázō</td><td class="em">to marvel at</td><td>kinh ngạc, thán phục</td><td>động từ đánh dấu câu cảm thán (L7: <span class="gk">ὡς θαυμαστόν</span>); gốc &quot;thaumaturge&quot; (nhà làm phép màu)</td></tr>
+<tr><td class="gk">προσηγορεύθησαν</td><td class="tr">prosēgoreúthēsan</td><td class="em">they were named</td><td>(họ) được đặt tên</td><td>aorist bị động 3pl của <span class="gk">προσηγορεύω</span>; mẫu <span class="gk">-θη-σαν</span> như <span class="gk">ἐλύθησαν</span> (bài 14)</td></tr>
+</tbody>
+</table>
+
+<p style="margin-bottom:6px;"><strong>Bản simplified (do project biên soạn):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">λέγεται καὶ τοῦτο· ὁ Ἡρακλῆς, ὅτε τὰς Γηρυόνου βοῦς ἀπὸ τῆς Ἐρυθείας ἤγαγεν, διὰ τῆς Κελτῶν χώρας ἀφίκετο παρὰ Βρεταννόν. τῷ δὲ ἦν θυγάτηρ, Κελτίνη ὄνομα. ἡ δὲ Κελτίνη ἐρασθεῖσα τοῦ Ἡρακλέους τὰς βοῦς ἔκρυψεν, ἵνα μὴ φανῶσιν, καὶ ἔφη· ἀποδώσω σοι τὰς βοῦς, ἐὰν πρότερον ἐμὲ φιλῇς. ὁ δὲ Ἡρακλῆς τὰς μὲν βοῦς ἀνασώσασθαι ἐβούλετο, πολὺ δὲ μᾶλλον τὸ τῆς κόρης κάλλος ἐθαύμαζεν. οὕτως αὐτῇ συγγενόμενος ... καὶ αὐτοῖς ἐγένετο παῖς, Κελτὸς ὄνομα· ἀφ' οὗ δὴ οἱ Κελτοὶ προσηγορεύθησαν.</p>
+<p class="tr">légetai kaì toûto· ho Hēraklês, hóte tàs Gēryṓnēs boûs apò tēs Erytheías ḗgagen, dià tēs Keltôn chṓras aphíketo parà Bretannón. tō(i) dè ên thygátēr, Keltínē ónoma. hē dè Keltínē erastheîsa toû Hērakléous tàs boûs ékrypsen, hína mè phanôsin, kaì éphē· apodṓsō soi tàs boûs, eàn próteron emè philêis. ho dè Hēraklês tàs mèn boûs anasṓsasthai ebouleto, polù dè mâllon tò tēs kórēs kállos ethaúmazen. hoûtōs autê(i) syngenómenos ... kaì autoîs egéneto paîs, Keltòs ónoma· aph' hoû dē hoi Keltòi prosēgoreúthēsan.</p>
+
+<p><strong>Dịch:</strong> Người ta còn kể chuyện này: Heracles, khi đã dắt đàn bò của Geryon từ đảo Erytheia về, đi qua xứ của người Celt và đến nơi Britanos. Britanos có một người con gái, tên là Keltinē. Keltinē say đắm Heracles, bèn giấu đàn bò đi để chúng không lộ ra, và nói: &quot;Tôi sẽ trả ông đàn bò, nếu ông hôn tôi trước.&quot; Heracles thì muốn lấy lại đàn bò, nhưng còn hơn thế, chàng thán phục vẻ đẹp của cô gái. Rồi kết giao với nàng ... và họ có với nhau một đứa con trai, tên là Keltos; từ đó người Celt được gọi tên như ngày nay.</p>
+
+<p><strong>Phân tích nhanh (kiểm tra bằng công cụ của bài):</strong></p>
+<ul>
+<li><span class="gk">ὅτε ... ἤγαγεν</span>: ở đây là <span class="gk">ὅτε</span> + chỉ định (chỉ một lần, việc đã xong) – đừng lẫn với <span class="gk">ὅταν</span> &quot;mỗi khi&quot; (mục 8). <span class="gk">ἤγαγεν</span>: aorist second của <span class="gk">ἄγω</span> &quot;dắt&quot; (vocab ★ hôm nay) – đuôi augment <span class="gk">ἠ-</span> + gốc <span class="gk">-αγ-</span>.</li>
+<li><span class="gk">ἀφίκετο</span>: aorist của <span class="gk">ἀφικνέομαι</span> &quot;đến&quot; – deponent, học mặt; bản gốc dùng chính dạng này.</li>
+<li><span class="gk">τῷ δὲ ἦν θυγάτηρ</span>: tặng cách sở hữu &quot;anh ta có (một) con gái&quot; – đúng payoff của bài 1; <span class="gk">τῷ</span> tặng cách của <span class="gk">ὁ Βρεταννός</span> (chủ ngữ không cần nêu vì ngữ cảnh).</li>
+<li><span class="gk">ἐρασθεῖσα</span>: phân từ aorist bị động &quot;sau khi đã say đắm&quot; – công cụ đầy đủ ở bài 19; hôm nay chỉ cần hiểu nó gói hai ý: <em>đã</em> say đắm (aorist) + chủ ngữ cô gái (giống cái).</li>
+<li><span class="gk">ἔκρυψεν ἵνα μὴ φανῶσιν</span>: mục đích phủ định bằng <span class="gk">ἵνα μή</span> (mục 6); <span class="gk">φανῶσιν</span> = aorist subjunctive bị động của <span class="gk">φαίνομαι</span> &quot;lộ ra&quot; (bài 14: <span class="gk">ἐφάνην</span>) – đuôi dài <span class="gk">-ωσιν</span> đúng quy tắc, chỉ định sẽ là <span class="gk">ἐφάνησαν</span>.</li>
+<li><span class="gk">ἐμὲ</span> vs <span class="gk">ἐμός</span>: đại từ tôn trọng! Đây là <span class="gk">ἐμέ</span> (accusative của <span class="gk">ἐγώ</span> (gốc <span class="gk">ἐγ-</span> đổi thành <span class="gk">ἐμ-</span> sau nguyên âm)): &quot;hôn <em>tôi</em>&quot;. Nếu viết <span class="gk">τὸν ἐμὸν</span> thì thành &quot;hôn <em>của tôi</em>&quot; (tính từ sở hữu, bài 15) – lỗi kinh điển của người mới dịch.</li>
+<li><span class="gk">ἀποδώσω ... ἐὰν φιλῇς</span>: vế chính tương lai <span class="gk">-σω</span> (bài 12) + điều kiện tương lai <span class="gk">ἐάν</span> + subjunctive <span class="gk">φιλῇς</span> – mô-men của mục 5: &quot;tôi sẽ trả, nếu ông hôn&quot; (tưởng tượng về tương lai, chưa chắc).</li>
+<li><span class="gk">ἐβούλετο ... ἀνασώσασθαι</span>: deponent imperfect <span class="gk">ἐβούλετο</span> (bài 10) vẽ nền &quot;chàng muốn&quot; + aorist middle infinitive <span class="gk">ἀνασώσασθαι</span> &quot;giải cứu (cho mình)&quot; – bản gốc dùng đúng dạng này.</li>
+<li><span class="gk">ἐθαύμαζεν</span>: imperfect vẽ nền &quot;chàng cứ thán phục mãi&quot; (bài 11) – so với aorist <span class="gk">ἐθαύμασεν</span> &quot;chàng (bất chợt) thán phục&quot;.</li>
+<li><span class="gk">αὐτοῖς ἐγένετο παῖς</span>: tặng cách sở hữu + <span class="gk">ἐγενόμην</span> (bài 13 payoff) – &quot;họ có được đứa con trai&quot;; bản gốc: <span class="gk">καὶ αὐτοῖς χρόνου περιήκοντος γενέσθαι παῖδα Κελτόν</span>.</li>
+<li><span class="gk">ἀφ' οὗ δὴ οἱ Κελτοὶ προσηγορεύθησαν</span>: <span class="gk">ἀφ' οὗ</span> = &quot;kể từ (khoảnh khắc) mà&quot; – elision trước nguyên âm, đúng precedent <span class="gk">παρ' οὓς</span> (bài 13); <span class="gk">προσηγορεύθησαν</span> aorist bị động 3pl (bài 14 payoff): &quot;<em>được</em> đặt tên&quot; – dân Celt không tự đặt tên mình, cái tên <em>đến với</em> họ từ câu chuyện.</li>
+</ul>
+
+<div class="info">
+<p><strong>Trong bản gốc (Hercher):</strong> Parthenios viết: <span class="gk">ταύτην δὲ ἐρασθεῖσαν τοῦ Ἡρακλέους κατακρύψαι τὰς βοῦς, μὴ θέλειν τε ἀποδοῦναι, εἰ μὴ πρότερον αὐτῇ μιχθῆναι· τὸν δὲ Ἡρακλέα τὸ μέν τι καὶ τὰς βοῦς ἐπειγόμενον ἀνασώσασθαι, πολὺ μᾶλλον μέντοι τὸ κάλλος ἐκπλαγέντα τῆς κόρης συγγενέσθαι αὐτῇ</span> – &quot;cô yêu Heracles, bèn giấu đàn bò, và không chịu trả, trừ phi trước đó được kết hợp với mình; Heracles thì phần nào vội vàng muốn cứu lấy đàn bò, nhưng nhất là bị đánh động bởi vẻ đẹp của cô gái, bèn kết giao với nàng.&quot; Chú ý hai điểm: (1) bản gốc dùng <span class="gk">εἰ μή</span> + subjunctive <span class="gk">μιχθῆναι</span> cho nghĩa &quot;trừ phi&quot; – một cách nói &quot;nếu&quot; nữa, biệt lập với <span class="gk">ἐάν</span> (mục 5); (2) kết cấu <span class="gk">τὸ ... ἐκπλαγέντα</span> (định mạo từ + phân từ) sẽ được giải phẫu ở bài 19.</p>
+</div>
+
+<p>Bài tập đọc hiểu: (1) <span class="gk">τῷ δὲ ἦν θυγάτηρ</span>: tặng cách này dịch sao cho đúng, và ai là &quot;chủ sở hữu&quot;? (2) <span class="gk">ἵνα μὴ φανῶσιν</span>: vì sao sau <span class="gk">ἵνα μή</span> động từ là <span class="gk">φανῶσιν</span> chứ không phải <span class="gk">ἐφάνησαν</span> hay <span class="gk">φαίνονται</span>? (3) <span class="gk">ἀφ' οὗ δὴ οἱ Κελτοὶ προσηγορεύθησαν</span>: bị động ở đây &quot;ăn&quot; gì vào nghĩa câu chuyện, và cụm <span class="gk">ἀφ' οὗ</span> giúp người đọc khép vòng tròn aition như thế nào?</p>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án câu hỏi đọc hiểu (in ra để soát)</h4>
+<p><strong>1.</strong> Dịch: &quot;Anh ta (Britanos) có một cô con gái&quot; – tặng cách sở hữu (bài 1): người có đứng ở tặng cách (<span class="gk">τῷ</span> = Britanos), cái được có (<span class="gk">θυγάτηρ</span>) làm chủ ngữ. <strong>2.</strong> Vì mệnh đề sau <span class="gk">ἵνα</span> là mệnh đề <em>mục đích</em> (mục 6): mục đích luôn dùng subjunctive. <span class="gk">ἐφάνησαν</span> (chỉ định aorist) sẽ biến mục đích thành tường thuật; <span class="gk">φαίνονται</span> (chỉ định hiện tại) sẽ thành &quot;chúng (vốn) đang lộ ra&quot;. Ở đây cô gái giấu bò <em>nhằm mục đích</em> để chúng không bị thấy – aorist subjunctive bị động <span class="gk">φανῶσιν</span> nhấn kết cục &quot;bị lộ ra&quot;. <strong>3.</strong> Bị động khớp aition: người Celt <em>nhận</em> cái tên từ câu chuyện, không phải tác nhân – đúng như <span class="gk">προσηγορεύθησαν</span> &quot;được đặt tên&quot;. Cụm <span class="gk">ἀφ' οὗ</span> (&quot;kể từ khi đó&quot;) chốt: tên Keltos → tên Celt, vòng tròn giải thích khép lại.</p>
+</div></div>
+
+<h2 id="vocab">11. Từ vựng trọng tâm</h2>
+
+<p><span class="star">★</span> = từ bắt buộc nhớ. Hôm nay chia vocab thành ba khối: <em>tiểu từ lái subjunctive</em> (học cùng công năng của chúng), <em>động từ ăn uống – dẫn dắt</em> (từ hai bài đọc), <em>danh từ mâm cơm Celt</em>.</p>
+
+<h3>Liên từ &amp; tiểu từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ἵνα</td><td class="tr">hína</td><td class="em">in order that</td><td>để, nhằm để</td><td>lối tắt mở đầu mệnh đề mục đích (mục 6); phủ định: <span class="gk">ἵνα μή</span>; luôn kéo theo subjunctive</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἐάν</td><td class="tr">eán</td><td class="em">if (ever)</td><td>nếu (một khi, bất kỳ lúc nào)</td><td>= <span class="gk">εἰ + ἄν</span> (mục 5); điều kiện tương lai hoặc &quot;bất kỳ lúc nào&quot;; luôn kéo theo subjunctive</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὅταν</td><td class="tr">hótan</td><td class="em">whenever</td><td>mỗi khi, bất cứ khi nào</td><td>= <span class="gk">ὅτε + ἄν</span> (mục 8); vế con luôn subjunctive, không augment</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἄν</td><td class="tr">án</td><td class="em">(untranslatable particle)</td><td>(tiểu từ &quot;bất định&quot;)</td><td>không dịch trơn được; ghép với <span class="gk">εἰ, ὅτε, ὡς</span> và với đại từ quan hệ; trong <span class="gk">ὡς ἄν</span> = &quot;như thể&quot;</td></tr>
+</tbody>
+</table>
+
+<h3>Động từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ἐσθίω / ἔφαγον</td><td class="tr">esthíō / éphagon</td><td class="em">eat</td><td>ăn</td><td>aorist chủ đề thân khác hẳn: như German <em>essen / ass</em> – gốc &quot;phago-: phagocyte&quot;; bài đọc I: <span class="gk">ἐσθίουσι</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ἄγω / ἤγαγον</td><td class="tr">ágō / ḗgagon</td><td class="em">lead, drive</td><td>dắt, dẫn</td><td>aorist second với augment dài <span class="gk">ἠ-</span>; gốc &quot;pedagogue: παιδαγωγός&quot; (người dắt trẻ) – bài đọc II: <span class="gk">ἤγαγεν</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> βοηθέω</td><td class="tr">boēthéō</td><td class="em">help</td><td>giúp, cứu giúp</td><td>+ tặng cách (như <span class="gk">πιστεύω</span>, bài 15 <span class="gk">ἀκολουθέω</span>); dịch nguyên tố là &quot;chạy đến tiếng kêu&quot;: <span class="gk">βοή</span> &quot;tiếng kêu cứu&quot; + <span class="gk">θέω</span> &quot;chạy&quot;; <span class="gk">βοήθει!</span> = &quot;cứu với!&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> προσκυνέω</td><td class="tr">proskynéō</td><td class="em">bow down before, worship</td><td>cúi lạy, tôn thờ</td><td><span class="gk">πρός</span> + <span class="gk">κυνέω</span> &quot;gật đầu (như chó)&quot; – người Celt chỉ cúi lạy hướng phải, bài đọc I; gốc &quot;proskynesis&quot; (nghi thức quỳ lạy Ba Tư)</td></tr>
+<tr><td class="gk"><span class="star">★</span> περιφέρω</td><td class="tr">periphérō</td><td class="em">carry around</td><td>đưa/mang vòng quanh</td><td><span class="gk">περί</span> + <span class="gk">φέρω</span>; bài đọc I: đưa cốc vòng quanh bàn; gốc &quot;peripheral, periphery&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> στρέφω</td><td class="tr">stréphō</td><td class="em">turn</td><td>quay, xoay</td><td>bài đọc I: <span class="gk">ἐπὶ τὰ δεξιὰ στρεφόμενοι</span>; gốc &quot;strophe, apostrophe&quot; (dấu &quot;quay đi&quot; của elision)</td></tr>
+<tr><td class="gk">προσφέρω</td><td class="tr">prophérō</td><td class="em">bring to, offer</td><td>đem ra, dâng lên</td><td><span class="gk">πρός</span> + <span class="gk">φέρω</span>; bản gốc Athenaios dùng cho việc dọn đồ ăn: <span class="gk">προσφέρονται</span></td></tr>
+</tbody>
+</table>
+
+<h3>Danh từ</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὁ ἄρτος, -ου</td><td class="tr">ho ártos</td><td class="em">bread, loaf</td><td>bánh mì</td><td>bài đọc I: <span class="gk">ἄρτοι μὲν ὀλίγοι</span> &quot;bánh thì ít&quot;; gốc của tên bánh lễ <em>artos</em> trong truyền thống giáo hội Hy Lạp</td></tr>
+<tr><td class="gk"><span class="star">★</span> τὸ κρέας, -ατος</td><td class="tr">to kréas</td><td class="em">meat, flesh</td><td>thịt</td><td>trung, thân s (bài 8); số nhiều <span class="gk">κρέα</span> + động từ số ít (bài 3); <em>pancreas</em> = <span class="gk">πᾶν</span> &quot;toàn&quot; + <span class="gk">κρέας</span> &quot;thịt&quot; (tụy tạng &quot;toàn thịt&quot;); họ hàng chéo với <em>sarcophagus</em> (<span class="gk">σάρξ</span> &quot;thịt&quot;)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ οἶνος, -ου</td><td class="tr">ho înos</td><td class="em">wine</td><td>rượu vang</td><td>Latin <em>vinum</em>, German <em>Wein</em>, French <em>vin</em> – cả chuỗi đều mượn cùng một từ Địa Trung Hải (Wanderwort); người giàu Celt uống nó, bài đọc I</td></tr>
+<tr><td class="gk"><span class="star">★</span> τὸ ὕδωρ, ὕδατος</td><td class="tr">to hýdōr, hýdatos</td><td class="em">water</td><td>nước</td><td>trung, chia thứ ba bất động (bài 8); gốc &quot;hydro-: hydrogen, hydrant&quot;; gốc Ấn-Âu <em>*wed-</em> cho German <em>Wasser</em>, English <em>water</em> (vì d→t luật Grimm)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ βοῦς, βοός</td><td class="tr">hē boûs, boós</td><td class="em">cow, ox</td><td>con bò</td><td>achtung: <span class="gk">βοῦς</span> vừa số ít &quot;con bò&quot; vừa số nhiều &quot;đàn bò&quot;! <span class="gk">τὰς βοῦς</span> (bài đọc II) = đối cách <em>số nhiều</em> &quot;đàn bò&quot; – vì <span class="gk">τὴν βοῦν</span> mới là số ít; cognate: Latin <em>bōs</em>, English <em>cow</em>, German <em>Kuh</em></td></tr>
+<tr><td class="gk">ὁ χορός, -οῦ</td><td class="tr">ho khorós</td><td class="em">chorus, dance (band)</td><td>dàn đồng ca, vũ đoàn</td><td>đã gặp ở bài 2; hôm nay quay lại trong <span class="gk">ὡς ἂν κορυφαῖος χοροῦ</span>; gốc &quot;chorus, choir&quot;</td></tr>
+<tr><td class="gk">ὁ θυρεός, -οῦ</td><td class="tr">ho thyreós</td><td class="em">oblong shield</td><td>khiên dài (dạng cửa)</td><td>từ <span class="gk">ἡ θύρα</span> &quot;cửa&quot; – khiên hình cánh cửa; gốc tiếng Anh &quot;thyroid&quot; (tuyến giáp hình khiên); bản gốc dùng <span class="gk">θυρεοφόρον</span> cho lễ hội Celt</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">12. Bảng tổng hợp so sánh các điểm dễ nhầm</h2>
+
+<table>
+<thead><tr><th>Cặp / nhóm dễ nhầm</th><th>Khác biệt cốt lõi</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">λύῃς</span> vs <span class="gk">λύεις</span></td><td>subjunctive <span class="gk">λύῃς</span> (đuôi co <span class="gk">-εαι → -ῃ</span>, y dài) vs chỉ định <span class="gk">-εις</span> (y ngắn); khác đúng một vạch dài ngắn của upsilon</td><td>Có <span class="gk">ἐάν / ἵνα / ὅταν / ἄν</span> trông chừng gần đó → đọc ῃ. Không có → mà vẫn thấy <span class="gk">ῃ</span>: có thể là chỉ định co (mục 4 Achtung).</td></tr>
+<tr><td><span class="gk">λύσῃ</span> vs <span class="gk">λύσει</span></td><td>aorist subjunctive <span class="gk">λύσῃ</span> (thân aorist + đuôi dài <span class="gk">-ῃ</span>) vs tương lai <span class="gk">λύσει</span>; viết gần y hệt nhau, khác đúng độ dài của upsilon</td><td>Ngữ cảnh quyết: sau <span class="gk">ἐάν</span> là &quot;nếu ... (mà)&quot;, <span class="gk">λύσῃ</span>; đứng một mình ở vế chính → tương lai. Kiểm tra kép: <span class="gk">λύσω</span> (1sg tương lai) không đụng ai vì không có iota.</td></tr>
+<tr><td><span class="gk">λύσηται</span> vs <span class="gk">λύσεται</span></td><td>bị động/tự middle subjunctive <span class="gk">-ηται</span> (y dài) vs chỉ định <span class="gk">-εται</span> (y ngắn)</td><td>Chủ ngữ bị tác động + tiểu từ bất định quanh quất → <span class="gk">-ηται</span>. Latin không có cặp này – riêng của Hy Lạp.</td></tr>
+<tr><td><span class="gk">τιμᾷ</span> subj vs <span class="gk">τιμᾷ</span> indic</td><td>trùng chính tả 100%! chỉ phân biệt bằng liên từ dẫn vào và nghĩa câu</td><td>Câu điều kiện/mục đích/hortatory → subjunctive; tường thuật &quot;hắn đang tôn vinh&quot; → chỉ định. Khi mơ hồ, tin vào ngữ cảnh câu trước, tin vào liên từ sau.</td></tr>
+<tr><td><span class="gk">ὦ</span> vocative vs <span class="gk">ὦ</span> 1sg subj</td><td>gọi tên (<span class="gk">ὦ φίλε</span> &quot;ơi bạn ơi!&quot;) vs &quot;(để) tôi ...&quot; của động từ (mục 3)</td><td>Sau <span class="gk">ὦ</span> là danh từ vocative → gọi tên. Sau <span class="gk">ὦ</span> là vị trí động từ/infinitive → 1sg subjunctive (thường hortatory).</td></tr>
+<tr><td><span class="gk">ἐάν</span> vs <span class="gk">ἄν</span> vs <span class="gk">εἰ</span></td><td>ἐάν = &quot;nếu (bất kỳ lúc nào/tương lai)&quot; mở mệnh đề + subj; ἄν = tiểu từ trôi nổi trong vế chính sau liên từ tương đối/so sánh; εἰ = &quot;nếu&quot; tường thuật/tương phản với chỉ định</td><td>Nhìn vị trí: mở câu → ἐάν; đứng sau động từ ở vế chính → ἄν; điều kiện trung tính (neutral condition) → <span class="gk">εἰ</span> + chỉ định.</td></tr>
+<tr><td><span class="gk">ὅταν</span> vs <span class="gk">ὅτε</span></td><td>&quot;mỗi khi&quot; (bất định, lặp lại; vế con subjunctive, không augment) vs &quot;khi (một lần, cụ thể)&quot; (chỉ định, có augment ở aorist)</td><td>Bài đọc II: <span class="gk">ὅτε ... ἤγαγεν</span> (một chuyến) vs bài đọc I: <span class="gk">ὅταν ... συνδειπνῶσι</span> (phong tục, lặp lại). Hỏi: sự việc lặp lại không? → ὅταν.</td></tr>
+<tr><td><span class="gk">ἵνα</span> mục đích vs <span class="gk">ἵνα</span> gốc &quot;trong đó&quot;</td><td>liên từ mở mệnh đề + subj (mục 6) vs nguyên bản trạng từ chỉ nơi chốn (hiếm, cổ)</td><td>99% gặp trong văn Hy Lạp cổ điển: ἵνα = mục đích. Nếu &quot;trong đó&quot; ngược thời (nghĩa chốn) → ngữ cảnh cổ/khác biệt; đa số câu bạn gặp chỉ cần đọc &quot;để&quot;.</td></tr>
+<tr><td><span class="gk">μὴ</span> + aorist subj vs <span class="gk">μὴ</span> + pres imp</td><td>chỉ thị phủ định: &quot;đừng (làm) lần nào!&quot; (một cú, tương lai) vs &quot;đừng (thường xuyên) làm!&quot; (thói quen đang có)</td><td>Kéo cái lệnh lên trước: hành động sắp xảy ra một lần → aorist subj (mục 7); thói quen cần chấm dứt → pres imp (bài 9).</td></tr>
+<tr><td><span class="gk">οὐ</span> vs <span class="gk">μή</span> (nhắc lại bài 9)</td><td>οὐ = phủ định tường thuật &quot;không (thật)&quot;; μή = phủ định mong muốn/mệnh lệnh/mục đích &quot;đừng, đừng để&quot;</td><td>Subjunctive một đi cặp với μή (ἵνα μή, μὴ ... ᾖ); chỉ định tường thuật một đi cặp với οὐ. Vế chính indicative → οὐ; vế mang &quot;ý chí&quot; → μή.</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">13. Bài tập tự luyện + đáp án</h2>
+<p><em>Đáp án chỉ hiện khi in (Ctrl+P → Save as PDF) – làm xong rồi mới in ra soát.</em></p>
+
+<h3>Bài tập 1 – Chia bảng subjunctive</h3>
+<p>Điền các dạng còn thiếu của <span class="gk">παιδεύω</span> (present subjunctive chủ động) và <span class="gk">ἐπαίδευσα</span> (aorist subjunctive chủ động):</p>
+<ol>
+<li>Present, 1sg: <span class="gk">παιδεύω</span> → ___</li>
+<li>Present, 3sg: <span class="gk">παιδεύει</span> → ___</li>
+<li>Present, 3pl: <span class="gk">παιδεύουσι(ν)</span> → ___</li>
+<li>Aorist, 2sg: <span class="gk">ἐπαίδευσας</span> → ___</li>
+<li>Aorist, 3sg: <span class="gk">ἐπαίδευσε(ν)</span> → ___</li>
+<li>Aorist, 1pl: <span class="gk">ἐπαιδεύσαμεν</span> → ___</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 1</h4>
+<ol>
+<li class="gk">παιδεύω</li>
+<li class="gk">παιδεύῃ</li>
+<li class="gk">παιδεύωσι(ν)</li>
+<li class="gk">παιδεύσῃς</li>
+<li class="gk">παιδεύσῃ</li>
+<li class="gk">παιδεύσωμεν</li>
+</ol>
+<p>Ghi chú: (1) 1sg present trùng hệt chỉ định <span class="gk">παιδεύω</span> – chỉ liên từ cho biết đây là subjunctive; (2) <span class="gk">παιδεύει → παιδεύῃ</span>: đuôi co, upsilon dài; (3) đuôi dài <span class="gk">-ωσι(ν)</span> – nhớ so sánh với chỉ định <span class="gk">-ουσι(ν)</span>; (4)-(6) aorist: lấy thân aorist <span class="gk">παιδεύσ-</span> (bỏ augment!) + đuôi dài – augment là bộ vest của quá khứ, subjunctive không bao giờ mặc.</p>
+</div></div>
+
+<h3>Bài tập 2 – &quot;Bóc&quot; 8 dạng</h3>
+<p>Mỗi dạng sau là subjunctive của động từ nào, ở thức-thời gian-ngôi nào? (Một dạng là bẫy: nó <em>không phải</em> subjunctive!)</p>
+<ol>
+<li class="gk">λύῃ</li>
+<li class="gk">λύσῃ</li>
+<li class="gk">ποιῶμεν</li>
+<li class="gk">τιμᾷ</li>
+<li class="gk">ᾖ</li>
+<li class="gk">ὦσι(ν)</li>
+<li class="gk">βοηθῇ</li>
+<li class="gk">μάθῃς</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 2</h4>
+<ol>
+<li>present subj 3sg của <span class="gk">λύω</span> (co <span class="gk">-ει → -ῃ</span>)</li>
+<li>aorist subj 3sg của <span class="gk">λύω</span> (thân <span class="gk">λυσ-</span> + <span class="gk">-ῃ</span>)</li>
+<li>present subj 1pl của <span class="gk">ποιέω</span> (co: <span class="gk">ποιέωμεν → ποιῶμεν</span>; hortatory &quot;chúng ta hãy làm!&quot;)</li>
+<li>BẪY: <span class="gk">τιμᾷ</span> trùng chính tả ở cả hai thức – chỉ định &quot;hắn tôn vinh&quot; lẫn subjunctive sau <span class="gk">ἐάν/ἵνα</span> đều viết như thế này; phải nhìn liên từ (mục 12)</li>
+<li>present subj 3sg của <span class="gk">εἰμί</span> (bảng mục 3; cần nó để đọc <span class="gk">ἐὰν ᾖ</span> ở bài đọc I)</li>
+<li>present subj 3pl của <span class="gk">εἰμί</span> – còn <span class="gk">εἰσί(ν)</span> mới là chỉ định</li>
+<li>present subj 3sg của động từ co <span class="gk">βοηθέω</span> (co: <span class="gk">βοηθέῃ → βοηθῇ</span>); &quot;(để) hắn giúp&quot;</li>
+<li>aorist subj 2sg của <span class="gk">μανθάνω</span> (thân aorist <span class="gk">μαθ-</span>, bài 13; &quot;để ngươi học&quot;)</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 3 – Điền ἵνα / ἐάν / ὅταν / μὴ</h3>
+<p>Điền tiểu từ đúng (<span class="gk">ἵνα / ἐάν / ὅταν / μὴ</span>) vào chỗ trống:</p>
+<ol>
+<li><span class="gk">πίνωμεν τὸν οἶνον, ___ μὴ φανῶμεν.</span> (chúng ta hãy uống rượu, để không bị thấy)</li>
+<li><span class="gk">___ ὁ πατὴρ ᾖ ἐν οἴκῳ, τὰς βοῦς κρύπτομεν.</span> (mỗi khi cha ở nhà, chúng tôi giấu đàn bò)</li>
+<li><span class="gk">βοηθεῖτε τῷ παιδί, ___ μὴ ἀποθάνῃ.</span> (giúp đứa trẻ, kẻo nó chết)</li>
+<li><span class="gk">___ οἱ φίλοι συνδειπνῶσιν, οἶνον πίνουσιν.</span> (mỗi khi bạn bè cùng dự tiệc, họ uống rượu)</li>
+<li><span class="gk">ἀποδώσω σοι τὰς βοῦς, ___ πρότερον φιλῇς με.</span> (tôi sẽ trả đàn bò, nếu ngươi hôn tôi trước)</li>
+<li><span class="gk">τὸν οἶνον πίνεις; μὴ πίῃς· τὸ σῶμα σῴζεται ἄνευ οἴνου.</span> (bạn uống rượu không? đừng uống; cơ thể khỏe mạnh mà không cần rượu)</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 3</h4>
+<ol>
+<li class="gk">ἵνα</li>
+<li class="gk">ἐάν</li>
+<li class="gk">ἵνα</li>
+<li class="gk">ὅταν</li>
+<li class="gk">ἐάν</li>
+<li class="gk">μὴ ... πίῃς → prohibition (mục 7)</li>
+</ol>
+<p>Ghi chú: (1) mục đích phủ định <span class="gk">ἵνα μὴ</span> + aorist subj bị động <span class="gk">φανῶμεν</span> (như <span class="gk">φανῶσιν</span> của bài đọc II, nhưng ngôi 1 pl vì chủ ngữ là &quot;chúng ta&quot;); (2) &quot;mỗi khi&quot; điều kiện chung: <span class="gk">ἐάν + ᾖ</span> (hoặc <span class="gk">ὅταν ᾖ</span> – cùng một mô-men!); (3) <span class="gk">ἵνα μὴ + ἀποθάνῃ</span> – mục đích phủ định; (4) <span class="gk">ὅταν + συνδειπνῶσιν</span> đúng như bài đọc I; (5) điều kiện tương lai: vế chính <span class="gk">-σω</span>, vế con <span class="gk">ἐάν + φιλῇς</span> đúng như bài đọc II; (6) prohibition: <span class="gk">μὴ</span> + aorist subj <span class="gk">πίῃς</span> của <span class="gk">πίνω</span>. Bẫy nhỏ ở câu 2 và 4: cả hai đều là &quot;mỗi khi&quot;, nhưng câu 2 dùng <span class="gk">ἐάν</span> (điều kiện), câu 4 dùng <span class="gk">ὅταν</span> (thời gian) – hai tiểu từ chia sẻ cùng mô-men, chỉ khác sắc thái.</p>
+</div></div>
+
+<h3>Bài tập 4 – Chỉ định hay subjunctive?</h3>
+<p>Trong mỗi câu dưới đây, động từ chính ở thức nào (chỉ định hay subjunctive), và dấu hiệu nào cho biết?</p>
+<ol>
+<li><span class="gk">ἐὰν ὁ ἄνθρωπος τιμᾷ τοὺς θεούς, μακάριός ἐστιν.</span></li>
+<li><span class="gk">ὁ ἄνθρωπος τιμᾷ τοὺς θεούς.</span></li>
+<li><span class="gk">ὅτε ὁ βασιλεὺς ἦλθεν, οἱ Κελτοὶ προσεκύνησαν.</span></li>
+<li><span class="gk">ὅταν ὁ βασιλεὺς ἀφίκηται, οἱ Κελτοὶ προσκυνῶσι.</span></li>
+<li><span class="gk">σῴζετε τοὺς φίλους, ἵνα ὑγιαίνωσιν.</span></li>
+<li><span class="gk">τί ποιῶμεν; οἱ πολέμιοι ἤγαγον τὰς βοῦς.</span></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 4</h4>
+<ol>
+<li>subjunctive – dấu hiệu: <span class="gk">ἐάν</span> dẫn vào (dù <span class="gk">τιμᾷ</span> nhìn hệt chỉ định)</li>
+<li>chỉ định – câu tường thuật trơn, không tiểu từ bất định</li>
+<li>chỉ định (aorist có augment <span class="gk">ἦλθ-εν</span>) – <span class="gk">ὅτε</span> + một sự việc cụ thể đã xong</li>
+<li>subjunctive aorist <span class="gk">ἀφίκηται</span> (không augment!) và <span class="gk">προσκυνῶσι</span> – dấu hiệu: <span class="gk">ὅταν</span> = &quot;mỗi khi&quot;</li>
+<li>chỉ định mệnh lệnh <span class="gk">σῴζετε</span> ở vế chính + subjunctive <span class="gk">ὑγιαίνωσιν</span> sau <span class="gk">ἵνα</span></li>
+<li>deliberative <span class="gk">ποιῶμεν</span> (mục 7) – câu hỏi &quot;chúng ta làm gì đây?&quot;; <span class="gk">ἤγαγον</span> là aorist chỉ định (augment + tường thuật sự thật)</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 5 – Dịch sang tiếng Việt</h3>
+<ol>
+<li><span class="gk">ἴωμεν πρὸς τὸν ποταμόν, ἵνα τὰς βοῦς εὑρίσκωμεν.</span></li>
+<li><span class="gk">ἐὰν ὁ οὐρανὸς ᾖ καθαρός, οἱ ἄνθρωποι τὸν ἥλιον ὁρῶσιν.</span></li>
+<li><span class="gk">μὴ φάγῃς τὰ κρέα πρότερον, ἐὰν οἱ ξένοι μὴ ἔλθωσιν.</span></li>
+<li><span class="gk">ὃς ἂν τοὺς θεοὺς τιμᾷ, οὗτος σῴζεται.</span></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 5</h4>
+<ol>
+<li>&quot;Chúng ta hãy đi đến bờ sông – để ... tìm thấy đàn bò.&quot; Ghi chú: hortatory <span class="gk">ἴωμεν</span> (present subj 1pl của <span class="gk">εἶμι</span> &quot;đi&quot; – học mặt; họ hàng chính tả với <span class="gk">εἰμί</span> nhưng là một động từ khác!) + purpose <span class="gk">ἵνα + εὑρίσκωμεν</span>.</li>
+<li>&quot;Mỗi khi trời trong, người ta thấy mặt trời.&quot; General condition: <span class="gk">ἐὰν + ᾖ</span>, vế chính chỉ định hiện tại – điều đúng mọi lúc.</li>
+<li>&quot;Đừng ăn thịt trước, nếu khách chưa đến.&quot; Prohibition <span class="gk">μὴ + φάγῃς</span> (aorist subj của <span class="gk">ἐσθίω</span>: thân <span class="gk">φαγ-</span>) + <span class="gk">ἐὰν + μὴ ἔλθωσιν</span> (subj vì theo <span class="gk">ἐάν</span>, dù phủ định bằng <span class="gk">μὴ</span>).</li>
+<li>&quot;Ai (mà) tôn thờ các vị thần, người ấy được cứu.&quot; <span class="gk">ὃς ἄν</span> = indefinite relative (mục 8): &quot;bất kỳ ai&quot;; <span class="gk">οὗτος</span> kéo vế lại (correlation, nhắc bài 14); vế chính chỉ định.</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 6 – Dịch sang tiếng Hy Lạp</h3>
+<ol>
+<li>&quot;Hãy đưa tôi đàn bò, để chúng ta khỏi phải đánh nhau.&quot; (dùng <span class="gk">δίδωμι</span> aorist mệnh lệnh: <span class="gk">δός</span> + middle subjunctive của <span class="gk">μάχομαι</span>)</li>
+<li>&quot;Chúng tôi giấu rượu vang, để khách lạ không tìm thấy nó.&quot; (dùng <span class="gk">κρύπτω</span> present + <span class="gk">εὑρίσκω</span>)</li>
+<li>&quot;Mỗi khi bạn bè cùng dự tiệc, họ uống rượu.&quot; (dùng <span class="gk">συνδειπνέω</span>)</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 6</h4>
+<ol>
+<li class="gk">δὸς μοι τὰς βοῦς, ἵνα μὴ μαχώμεθα.</li>
+<li class="gk">κρύπτομεν τὸν οἶνον, ἵνα οἱ ξένοι αὐτὸν μὴ εὑρίσκωσιν.</li>
+<li class="gk">ὅταν οἱ φίλοι συνδειπνῶσι, οἶνον πίνουσιν.</li>
+</ol>
+<p>Ghi chú: (1) mệnh lệnh aorist second <span class="gk">δός</span> (mệnh lệnh aorist second – không bao giờ có augment); <span class="gk">ἵνα μὴ</span> + middle subj 1pl <span class="gk">μαχώμεθα</span> (deponent – đừng ai &quot;bị động hóa&quot; nó); (2) present mô tả thói quen ở vế chính; <span class="gk">αὐτὸν</span> đối cách chỉ về <span class="gk">τὸν οἶνον</span>; <span class="gk">μὴ</span> phủ định mục đích; đuôi <span class="gk">-ωσιν</span> dài; (3) <span class="gk">ὅταν</span> &quot;mỗi khi&quot; + subj, vế chính chỉ định hiện tại – công thức &quot;phong tục&quot; của bài đọc I.</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 16 – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: &quot;Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0&quot; · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Bản đọc đối chiếu: Athenaios, Deipnosophistai 4,151e–152b (Kaibel/Digital Athenaeus, public domain); Parthenios, Erōtika Pathēmata 30 (Wikisource, public domain).</p>
+
+</main>
+</body>
+</html>

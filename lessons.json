@@ -396,6 +396,28 @@
       "reading": [],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "16-subjunctive-purpose-clauses",
+      "num": 16,
+      "level": "graecum-1",
+      "title": "Thức giả định (subjunctive); mệnh đề mục đích; ἄν / ἐάν",
+      "topics": [
+        "bản đồ bốn thức: chỉ định, mệnh lệnh, subjunctive (hôm nay), optative (sau này); khi nào động từ 'mặc' thức nào; Latin coniunctivus corner",
+        "dạng chủ động: quy tắc 'đuôi dài' -ω/-ῃ/-ωμεν/-ωσι(ν) và aorist subjunctive 'không augment': λύωμεν/λύσῃ vs chỉ định λύομεν/λύσει",
+        "trung/bị động & deponent + động từ co + εἰμί: ὦ, ᾖς, ᾖ, ὦμεν, ἦτε, ὦσι(ν); bẫy λύσηται vs λύσεται",
+        "chiến lược 'bóc' subjunctive: đuôi dài, không augment, tiểu từ dẫn đường, ngữ cảnh; bẫy τιμᾷ trùng chính tả cả hai thức",
+        "ἄν & ἐάν: điều kiện tương lai ἐὰν + subj vế con + tương lai vế chính; general condition; ὡς ἂν 'như thể'",
+        "mệnh đề mục đích ἵνα/ὅπως/ὡς + subjunctive; ἵνα μή phủ định; ưa khác chủ ngữ; hortatory ἴωμεν",
+        "mệnh đề cấm μὴ + aorist subj vs μὴ + pres imperative; câu hỏi dự trù τί ποιῶμεν;",
+        "mở rộng bài 15: ὅς ἄν / ὅ τι ἄν 'bất kỳ'; ὅταν vs ὅτε; đọc Celt: aition (danh từ từ chuyện tình Keltinē)"
+      ],
+      "reading": [
+        "Athenaios, Deipnosophistai 4,151e-152b",
+        "Parthenios, Erōtika Pathēmata 30"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
