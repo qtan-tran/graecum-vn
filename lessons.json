@@ -444,6 +444,30 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "18-aci-indirect-questions",
+      "num": 18,
+      "level": "graecum-1",
+      "title": "Nguyên mẫu tân ngữ (AcI) mở rộng; câu hỏi gián tiếp",
+      "topics": [
+        "ôn AcI bài 4 + mở rộng bộ động từ dẫn: nói/nghĩ, truyền lệnh (κελεύω, ἐντέλλομαι, παραγγέλλω), dò hỏi/nhờ vã (ἐρωτάω, πυνθάνομαι, δεέομαι), cảm nhận, bị động; AcI mồ côi chủ thể (δεησόμενοι ἀφεῖναι)",
+        "thời tương đối của nguyên mẫu: λύειν (cùng lúc) / λῦσαι (trước, một lần) / λελυκέναι (trước, trạng thái còn) / λύσειν (sau); aorist nguyên mẫu không có augment (ἐλθεῖν ≠ ἦλθον)",
+        "nguyên mẫu tương lai: λύσειν, ποιήσειν, ἔσεσθαι (mang augment), γενήσεσθαι; cặp καταβῆναι (aorist) vs καταβήσεσθαι (tương lai) – trả nợ bài 17; Latin corner: ventūrum esse",
+        "mệnh lệnh gián tiếp: đối cách + nguyên mẫu sau κελεύω/ἐντέλλομαι/παραγγέλλω; μὴ phủ định lệnh vs οὐ phủ định nội dung; Latin iubeō/vetō",
+        "AcI nâng cao: ὡς + AcI có biển báo; danh cách bất khuất (καταβῆναι αὐτὸς ἀμυνῶν, ξύμμαχος εἶναι); đối cách + participle tương lai (τὰ πιστὰ ληψομένους, mồi bài 19)",
+        "câu hỏi gián tiếp: εἰ 'liệu… không' (yes/no), ὅστις/τίς 'ai/gì' (giữ accent hỏi), ἀνθ᾽ ὅτου, trạng từ hỏi; Hy Lạp giữ chỉ định, Latin dùng giả định (rogāvit quis esset)",
+        "thức trong gián tiếp áp chuỗi bài 17: secondary nhích optative (ὅστις ὁ βασιλεὺς εἴη), primary giữ chỉ định; giả định + ἄν giữ nguyên (ὅ τι ἂν πείθῃς, οὗ ἂν ᾖς)",
+        "bảng phân định 5 cụm trùng vỏ: ὅτι rằng/vì, εἰ điều kiện/liệu-không, ὅστις hỏi gián tiếp/quan hệ bất định, ὡς + AcI, οὗ/ᾧ + ἄν; ba câu hỏi bản lề",
+        "bài đọc Arrian 2,14: chuỗi AcI của thư Darius, 'hai cửa mở cạnh nhau' (ὅτι giữ chỉ định + AcI), thư Alexander trích nguyên văn (μὴ 'kẻo' sau φοβῇ, ὅ τι ἂν πείθῃς, νενίκηκα học mặt)",
+        "bài đọc Arrian 2,12: câu hỏi gián tiếp kép (πυθέσθαι αἵτινες… ἀνθ᾽ ὅτου), trích nguyên văn trong ὅτι, λόγος ἔχει, số đôi học mặt (αὐτοῖν, ἄμφω), cặp ἔφη/φάναι"
+      ],
+      "reading": [
+        "Arrian, Anabasis 2,14",
+        "Arrian, Anabasis 2,12"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }

@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 18 – Nguyên mẫu tân ngữ (AcI) mở rộng; câu hỏi gián tiếp</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  td.em, th.em { font-style: italic; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; }
+  .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 4px solid #1976d2; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; }
+  .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 4px solid #db2777; padding: 10px 16px; margin: 16px 0; font-size: 0.97em; }
+  .latin p:first-child { margin-top: 0; }
+  .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 4px solid #0f766e; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; }
+  .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; background: #f8fafc; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+
+<h1>Lesson 18: Nguyên mẫu tân ngữ (AcI) mở rộng; câu hỏi gián tiếp</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">AcI ôn lại bài 4: bản đồ &quot;câu trong câu&quot; – và hai lời hẹn cũ</a></li>
+<li><a href="#s2">Thời tương đối: hiện tại, aorist, hoàn thành – &quot;đồng hồ&quot; của nguyên mẫu</a></li>
+<li><a href="#s3">Nguyên mẫu tương lai: <span class="gk">λύσειν, λύσεσθαι, λυθήσεσθαι</span> – trả nợ <span class="gk">καταβήσεσθαι</span></a></li>
+<li><a href="#s4">Mệnh lệnh gián tiếp: nguyên mẫu thế chỗ mệnh lệnh; phủ định <span class="gk">μὴ</span></a></li>
+<li><a href="#s5">AcI nâng cao: <span class="gk">ὡς</span> dẫn AcI, danh cách &quot;bất khuất&quot;, chủ thể ẩn</a></li>
+<li><a href="#s6">Câu hỏi gián tiếp: bộ từ hỏi chuyên dụng (<span class="gk">εἰ, ὅστις, τίς</span>)</a></li>
+<li><a href="#s7">Thức trong câu hỏi gián tiếp: áp lại chuỗi thời–thức của bài 17</a></li>
+<li><a href="#s8">Chiến lược đọc: phân định năm cụm &quot;hỏi / rằng&quot; trùng vỏ</a></li>
+<li><a href="#reading">Bài đọc I: Hai bức thư sau trận Issus (Arrian, Anabasis 2,14)</a></li>
+<li><a href="#reading2">Bài đọc II: Đêm trong trại của Darius (Arrian, Anabasis 2,12)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) nâng cấu trúc <strong>nguyên mẫu tân ngữ (AcI)</strong> đã học ở bài 4 thành hệ thống đầy đủ: biết <em>động từ dẫn</em> ngoài nhóm &quot;nghĩ/nói&quot; (ra lệnh, dặn dò, dò hỏi) và đọc được AcI mà động từ dẫn chỉ ẩn trong một participle; (2) chọn đúng <strong>thời nguyên mẫu</strong> theo &quot;đồng hồ&quot; của động từ dẫn: hiện tại = cùng lúc, aorist = trước, hoàn thành = trước và còn đó, tương lai = sau – giải phẫu xong lời hẹn <span class="gk">ὑπέλαβές με καταβήσεσθαι</span> của bài 17; (3) đổi <strong>mệnh lệnh trực tiếp</strong> thành <strong>mệnh lệnh gián tiếp</strong> (đối cách + nguyên mẫu, phủ định <span class="gk">μὴ</span>); (4) nhận diện <strong>câu hỏi gián tiếp</strong> bằng bộ từ hỏi (<span class="gk">εἰ</span> &quot;có… không&quot;, <span class="gk">ὅστις</span>, <span class="gk">τίς</span>, <span class="gk">ἀνθ᾽ ὅτου</span>) và áp chuỗi thời–thức của bài 17 vào động từ của nó; (5) đọc hai đoạn gốc của Arrian: bức thư của Darius được kể lại bằng một chuỗi AcI liền mạch, và cảnh đêm trong trại của Darius, nơi mẹ và vợ vị vua ấy lầm Alexander với người chiến hữu; (6) phân định được năm cụm hay trùng vỏ: câu hỏi trực tiếp, câu hỏi gián tiếp, mệnh đề quan hệ, điều kiện <span class="gk">εἰ / ἐάν</span>, và <span class="gk">ὅτι</span> &quot;rằng / vì&quot;.</p>
+</div>
+
+<div class="info">
+<p><strong>Cách dùng bài học:</strong> sau Platon và Aesop, hôm nay mở một tác giả mới: <strong>Arrian</strong>, viết bằng thứ tiếng Hy Lạp &quot;Attic hóa&quot; thời La Mã (thế kỷ 2 sau CN), tường thuật chiến dịch của Alexander – văn mẫu mực, chắc nịch, và đặc biệt mê AcI: nguyên tác của hai bài đọc đọc lên nghe như một dòng nguyên mẫu không dứt. Hai lời hẹn cũ được trả trong chính các mục đầu: <span class="gk">καταβήσεσθαι</span> (nguyên mẫu tương lai, mục 3) và lệnh &quot;ἴθι!&quot; thành <span class="gk">ἰέναι</span> (mục 4) – cả hai đã được ghi sổ ở bảng chuỗi thời–thức bài 17. Cấu trúc giống mọi bài: mục đóng bằng tự kiểm tra nhỏ; vocab có dấu <span class="star">★</span> là từ bắt buộc nhớ; từ mới hai bài đọc nằm trong bảng gloss riêng của từng mục đọc.</p>
+</div>
+
+<h2 id="s1">1. AcI ôn lại bài 4: bản đồ &quot;câu trong câu&quot; – và hai lời hẹn cũ</h2>
+
+<p>Bài 4 đã dạy cấu trúc <strong>nguyên mẫu tân ngữ (AcI)</strong>: một câu con &quot;ai đó làm gì&quot; được nhúng vào câu khung bằng cách <strong>biến chủ ngữ thành đối cách</strong> và <strong>biến vị ngữ thành nguyên mẫu</strong>, không cần từ nối. <span class="gk">λέγεις ὅτι οἱ Ἀθηναῖοι κατηγοροῦσιν</span> và <span class="gk">λέγεις τοὺς Ἀθηναίους κατηγορεῖν</span> là hai cách đóng gói cùng một nội dung (bảng 6.1, bài 4).</p>
+
+<p>Mười bốn bài sau đó, bạn đã gặp AcI rải rác mà không cần nhắc đến nó: truyện ve sầu và cáo (bài 17) đã có <span class="gk">βουλομένη αὐτὸν καταφαγεῖν</span> – &quot;(con cáo) muốn nuốt y&quot; – và một nguyên mẫu tương lai được đánh dấu &quot;học mặt, bài 18 mổ xẻ&quot;: <span class="gk">ὑπέλαβές με καταβήσεσθαι</span> &quot;ngươi tưởng ta sẽ xuống&quot;. Hôm nay AcI được đặt làm chủ nhân công của cả bài – vì nó là cấu trúc &quot;câu trong câu&quot; thông dụng nhất của văn xuôi Hy Lạp, và vì nó có <strong>bốn hệ quả trực tiếp</strong> cần mổ xẻ: chọn thời nguyên mẫu (mục 2–3), thay thế mệnh lệnh (mục 4), hai biến thể cao cấp (mục 5), và họ hàng gần nhất của nó: câu hỏi gián tiếp (mục 6–7).</p>
+
+<h3>1.1 Mở rộng bộ động từ dẫn</h3>
+
+<p>Bài 4 giới thiệu ba nhóm &quot;kích hoạt&quot;. Hôm nay bổ sung ba nhóm nữa – lấy thẳng từ nguyên tác hai bài đọc:</p>
+
+<table>
+<thead><tr><th>Nhóm</th><th>Đại diện</th><th>Ví dụ (bài đọc hôm nay)</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td>tư duy &amp; ý chí (bài 4)</td><td class="gk">νομίζω, ἐλπίζω, ἐθέλω</td><td class="gk">ὑπέλαβές με καταβήσεσθαι</td><td>&quot;mày tưởng rằng tao <em>sẽ</em> xuống&quot; (bài 17)</td></tr>
+<tr><td>nói &amp; kể (bài 17)</td><td class="gk">λέγω, φημί</td><td class="gk">ἐκεῖνον ἔφη εἶναι Ἀλέξανδρον</td><td>&quot;hắn nói rằng <em>người kia</em> là Alexander&quot; (bài đọc II)</td></tr>
+<tr><td><strong>truyền lệnh, dặn dò</strong> (mới)</td><td class="gk">κελεύω, ἐντέλλομαι, παραγγέλλω</td><td class="gk">ἐντειλάμενον φράσαι ὅτι ζῇ Δαρεῖος</td><td>&quot;dặn hắn <em>bảo rằng</em> Darius còn sống&quot; (bài đọc II)</td></tr>
+<tr><td><strong>dò hỏi, nhờ vả</strong> (mới)</td><td class="gk">πυνθάνομαι, ἐρωτάω, δεέομαι</td><td class="gk">δεησόμενοι ἀφεῖναι</td><td>&quot;để xin (Alexander) <em>thả</em>…&quot; (bài đọc I; <span class="gk">δεέομαι</span> deponent &quot;nhờ vả&quot;)</td></tr>
+<tr><td><strong>dò hỏi</strong> (mới)</td><td class="gk">πυνθάνομαι, ἐρωτάω</td><td class="gk">πυθέσθαι αἵτινες γυναῖκες</td><td>&quot;(hắn) hỏi xem <em>những người đàn bà là ai</em>&quot; (bài đọc II)</td></tr>
+<tr><td><strong>cảm nhận</strong> (mở rộng)</td><td class="gk">ἀκούω + đối cách</td><td class="gk">ἀκοῦσαι γυναικῶν οἰμωγὴν</td><td>&quot;nghe thấy tiếng khóc của những người đàn bà&quot; (bài đọc II)</td></tr>
+<tr><td>bị động của nói/nghĩ</td><td class="gk">λέγεται, δοκεῖ, νομίζεται</td><td class="gk">λόγος δὲ ἔχει</td><td>&quot;chuyện kể rằng…&quot; (bài đọc II; riêng động từ này + AcI)</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> mọi động từ dẫn AcI đều trả lời được câu hỏi &quot;<em>kể/nghĩ/ra lệnh/hỏi</em> <strong>cái gì</strong>?&quot;. Muốn kiểm tra một động từ lạ có dẫn AcI không, đừng học thuộc danh sách – hãy tìm trong từ điển mục động từ đó, xem ví dụ có đối cách + nguyên mẫu đi kèm. Danh sách chết, công năng sống.</p>
+</div>
+
+<p><strong>Tự kiểm tra mục 1</strong> (đáp án ẩn hiện khi in):</p>
+<ol>
+<li>Bốn hệ quả trực tiếp của AcI được mổ xẻ trong các mục nào của bài hôm nay?</li>
+<li>Trong <span class="gk">λέγουσί τινες τῶν τὰ Ἀλεξάνδρου γραψάντων</span>, động từ dẫn là dạng nào, của động từ nào?</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án tự kiểm tra</h4>
+<ol>
+<li>Thời của nguyên mẫu (mục 2: hiện tại/aorist/hoàn thành; mục 3: tương lai); mệnh lệnh gián tiếp (mục 4); biến thể <span class="gk">ὡς</span> + AcI và danh cách giữ lại (mục 5); câu hỏi gián tiếp (mục 6–7).</li>
+<li><span class="gk">λέγουσί</span> = hiện tại chủ động số nhiều của <span class="gk">λέγω</span> (&quot;người ta kể rằng&quot;) – thời của chính nó là <strong>primary</strong>, một chi tiết sẽ cần ở mục 7.</li>
+</ol>
+</div></div>
+
+<h2 id="s2">2. Thời tương đối: hiện tại, aorist, hoàn thành – &quot;đồng hồ&quot; của nguyên mẫu</h2>
+
+<p>Trong AcI, nguyên mẫu không chỉ là &quot;phiên bản bất biến&quot; của động từ: nó mang <strong>thời riêng</strong>, và thời ấy đo <em>tương đối</em> theo động từ dẫn. Đây là điểm Hy Lạp và Latin trùng nhau tuyệt đối – và là nơi người học hay dịch sai nhất.</p>
+
+<table>
+<thead><tr><th>Nguyên mẫu (λύω)</th><th>Tên gọi</th><th>Quan hệ thời với động từ dẫn</th><th>Ví dụ (động từ dẫn quá khứ)</th></tr></thead>
+<tbody>
+<tr><td class="gk">λύειν</td><td>hiện tại (present infinitive)</td><td><strong>cùng lúc</strong> với động từ dẫn</td><td class="gk">ἔφη τὸν Δαρεῖον ζῆν</td></tr>
+<tr><td class="gk">λῦσαι</td><td>aorist (aorist infinitive)</td><td><strong>trước</strong> động từ dẫn (một mốc trọn vẹn)</td><td class="gk">ἔφη τὸν Δαρεῖον ἀποθανεῖν</td></tr>
+<tr><td class="gk">λελυκέναι</td><td>hoàn thành (perfect infinitive)</td><td><strong>trước</strong>, và <strong>hậu quả còn đó</strong> lúc động từ dẫn xẩy ra</td><td class="gk">ἔφη τὴν ἐπιστολὴν γεγραφέναι</td></tr>
+<tr><td class="gk">λύσειν</td><td>tương lai (future infinitive – mục 3)</td><td><strong>sau</strong> động từ dẫn</td><td class="gk">ἔφη τὸν Δαρεῖον ἥξειν</td></tr>
+</tbody>
+</table>
+
+<p>Dịch ra tiếng Việt, cả bốn đều ra động từ chia – thời của bản dịch lấy theo động từ dẫn. Ví dụ sau động từ quá khứ <span class="gk">ἔφη</span>: <span class="gk">ζῆν</span> → &quot;<em>đang</em> sống&quot;; <span class="gk">ἀποθανεῖν</span> → &quot;<em>đã</em> chết&quot;; <span class="gk">γεγραφέναι</span> → &quot;<em>đã viết (và lá thư đang nằm kia)</em>&quot;; <span class="gk">ἥξειν</span> → &quot;<em>sẽ</em> đến&quot;. Sau động từ dẫn hiện tại (<span class="gk">λέγει</span>), cùng bộ bốn lại dịch thành: &quot;đang / đã / đã (còn đó) / sẽ&quot; tính từ <em>bây giờ</em>.</p>
+
+<div class="achtung">
+<p><strong>Achtung – nguyên mẫu aorist KHÔNG có augment.</strong> Chỉ định aorist <span class="gk">ἔλυσε</span> có <span class="gk">ἐ-</span>; nguyên mẫu aorist bỏ augment: <span class="gk">λῦσαι</span>, <span class="gk">καταβῆναι</span>, <span class="gk">κριθῆναι</span>. Ngoại lệ &quot;nhìn như có augment&quot;: <span class="gk">ἐλθεῖν</span> – chữ <span class="gk">ἐ-</span> ở đây là <em>một phần thân</em> của động từ <span class="gk">ἔρχομαι</span> (thân aorist <span class="gk">ἐλθ-</span>), không phải augment (ôn bài 13). Tự kiểm tra khi gặp một nguyên mẫu lạ: bóc đuôi nguyên mẫu trước (<span class="gk">-ειν / -εῖν / -αι / -ναι / -σθαι / -ῆναι</span>), rồi hỏi thân còn lại là thân của <em>thời nào</em> – đừng vội khẳng định &quot;augment, chắc là quá khứ!&quot;.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin – bản dịch trọn vẹn của bạn đã có sẵn:</strong> Latin dựng đúng hệ bốn này: <em>dīxit eum venīre / vēnisse / vēnisse... vēnūrum esse</em> – hiện tại <em>venīre</em> &quot;cùng lúc&quot;, hoàn thành <em>vēnisse</em> &quot;trước&quot;, tương lai <em>ventūrum esse</em> &quot;sau&quot;. Ai đã học Latin quen câu &quot;thời nằm trong nguyên mẫu&quot; thì hôm nay chỉ cần thêm một chi tiết Hy Lạp: <strong>aorist</strong> <span class="gk">λῦσαι</span> – Latin không có khía cạnh aorist, nên phải tự dịch &quot;một mốc trọn vẹn&quot; bằng ngữ cảm (đã / từng / một lần).</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng – &quot;hỏi đồng hồ&quot; ba bước:</strong> (1) xác định thời của động từ dẫn; (2) nhìn thời nguyên mẫu: hiện tại = kim giây, aorist/hoàn thành = kim trước, tương lai = kim sau; (3) dựng động từ bản dịch theo vị trí kim. Câu hỏi tự kiểm tra khi đọc: <em>&quot;sự việc trong nguyên mẫu xẩy ra trước, cùng lúc, hay sau lúc động từ dẫn?&quot;</em> – trả lời được câu đó là dịch đúng, kể cả khi không nhớ nổi tên thuật ngữ.</p>
+</div>
+
+<p><strong>Tự kiểm tra mục 2</strong> (đáp án ẩn hiện khi in):</p>
+<ol>
+<li><span class="gk">ἔφη αὐτὸν ἥκειν</span> – sự việc &quot;đến&quot; xẩy ra trước hay sau lời nói, nếu nguyên mẫu là <span class="gk">ἥκειν</span> (hiện tại của <span class="gk">ἥκω</span>, nghĩa &quot;đã đến và đang có mặt&quot;)?</li>
+<li>Đổi sang AcI: &quot;Klearchos nói rằng những kẻ kia <em>đã trốn</em>&quot; (động từ &quot;trốn&quot;: <span class="gk">φεύγω</span>, aorist <span class="gk">ἔφυγεν</span>).</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án tự kiểm tra</h4>
+<ol>
+<li><em>Cùng lúc</em>: <span class="gk">ἥκειν</span> là nguyên mẫu hiện tại, dịch &quot;hắn nói rằng hắn (lúc ấy) đang có mặt / đã đến rồi&quot;. Nếu muốn nói &quot;đến từ trước&quot;, Hy Lạp phải dùng nguyên mẫu aorist <span class="gk">ἀφικέσθαι</span>.</li>
+<li class="gk">ὁ Κλέαρχος ἔφη ἐκείνους πεφυγέναι</li>
+</ol>
+<p>Ghi chú: &quot;đã trốn&quot; có thể dịch bằng aorist <span class="gk">φυγεῖν</span> (&quot;đã bỏ trốn&quot;) hoặc hoàn thành <span class="gk">πεφυγέναι</span> (&quot;đã trốn rồi, giờ không còn đó&quot;) – hai thời này khác nhau ở hậu quả, không khác ở mốc: chọn aorist khi kể chuyện, hoàn thành khi nhấn &quot;tình trạng bỏ trốn còn đúng&quot;. Đáp án gợi ý dùng hoàn thành vì &quot;đã trốn (còn trốn)&quot;.</p>
+</div></div>
+
+<h2 id="s3">3. Nguyên mẫu tương lai: <span class="gk">λύσειν, λύσεσθαι, λυθήσεσθαι</span> – trả nợ <span class="gk">καταβήσεσθαι</span></h2>
+
+<p>Lời hẹn của bài 17 đến hạn: <span class="gk">εἰ ὑπέλαβές με καταβήσεσθαι</span> – &quot;nếu mày đã <em>tưởng</em> rằng tao <em>sẽ</em> xuống đất&quot;. Chữ <span class="gk">καταβήσεσθαι</span> là <strong>nguyên mẫu tương lai trung</strong> của <span class="gk">καταβαίνω</span> &quot;xuống&quot;. Giải phẫu:</p>
+<ul>
+<li><span class="gk">ὑπέλαβες</span> – động từ dẫn (aorist của <span class="gk">ὑπολαμβάνω</span>, bài 17): &quot;mày đã tưởng&quot;;</li>
+<li><span class="gk">με</span> – đối cách chủ ngữ: &quot;tao&quot;;</li>
+<li><span class="gk">καταβήσεσθαι</span> – nguyên mẫu tương lai: &quot;<em>sẽ</em> xuống&quot;. Vì &quot;sự việc trong câu con xẩy ra <em>sau</em> động từ dẫn&quot; (kim sau của đồng hồ mục 2), tiếng Hy Lạp buộc phải dùng nguyên mẫu tương lai – dùng nguyên mẫu hiện tại <span class="gk">καταβαίνειν</span> là câu đổi nghĩa thành &quot;tao đang xuống&quot;.</li>
+</ul>
+
+<p>Để dựng nguyên mẫu tương lai, quay lại đúng thân tương lai đã học: chủ động <span class="gk">λύσειν</span> (thân <span class="gk">λύσει-</span> + đuôi nguyên mẫu <span class="gk">-ν</span>), trung <span class="gk">λύσεσθαι</span>, bị động <span class="gk">λυθήσεσθαι</span> (thân bị động tương lai <span class="gk">-θήσε-</span> của bài 14).</p>
+
+<table>
+<thead><tr><th>Động từ</th><th>Chủ động</th><th>Trung</th><th>Bị động</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">λύω</td><td class="gk">λύσειν</td><td class="gk">λύσεσθαι</td><td class="gk">λυθήσεσθαι</td><td>bộ ba chuẩn để mọi động từ khác &quot;mặc vào&quot;</td></tr>
+<tr><td class="gk">ποιέω</td><td class="gk">ποιήσειν</td><td class="gk">ποιήσεσθαι</td><td class="gk">ποιηθήσεσθαι</td><td>động từ co: accent đứng yên trên nguyên âm dài thân (ôn bài 12)</td></tr>
+<tr><td class="gk">εἰμί</td><td class="gk">ἔσεσθαι</td><td class="gk">–</td><td class="gk">–</td><td>&quot;sẽ là&quot;; cặp với <span class="gk">εἶναι</span> &quot;đang là&quot; (bài 4)</td></tr>
+<tr><td class="gk">γίγνομαι</td><td class="gk">–</td><td class="gk">γενήσεσθαι</td><td class="gk">–</td><td>deponent; cặp với <span class="gk">γίγνεσθαι</span> (hiện tại) và <span class="gk">γενέσθαι</span> (aorist)</td></tr>
+<tr><td class="gk">βούλομαι</td><td class="gk">–</td><td class="gk">βουλήσεσθαι</td><td class="gk">–</td><td>deponent; &quot;sẽ muốn&quot; (ôn bài 12)</td></tr>
+<tr><td class="gk">καταβαίνω</td><td class="gk">καταβήσειν</td><td class="gk">καταβήσεσθαι</td><td class="gk">–</td><td>thân aorist chủ đề <span class="gk">βη-</span> + <span class="gk">-σ-</span> tương lai: nguyên âm dài hóa trước sigma (ôn bài 12: <span class="gk">βαίνω → βήσομαι</span>); động từ &quot;xuống&quot; gần như chỉ dùng chủ động/trung</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng – công thức một dòng:</strong> nguyên mẫu tương lai = <strong>thân tương lai của chỉ định</strong> + đuôi nguyên mẫu (<span class="gk">-ειν</span> chủ động, <span class="gk">-εσθαι</span> trung, <span class="gk">-θησεσθαι</span> bị động). Không cần học bảng nào thêm: mọi động từ bạn đã biết tương lai (bài 12) đều tự động có nguyên mẫu tương lai. Đừng quên quy tắc accent riêng của động từ co (<span class="gk">ποιήσειν</span>) và của tương lai lỏng (<span class="gk">μενεῖν</span>, xem confusables).</p>
+</div>
+
+<div class="achtung">
+<p><strong>Achtung – <span class="gk">καταβῆναι</span> và <span class="gk">καταβήσεσθαι</span> cách nhau đúng một vạch.</strong> Hai bài đọc hôm nay có <em>cả hai</em>: <span class="gk">καταβῆναι</span> (bài đọc I) là nguyên mẫu <strong>aorist</strong> – &quot;đã xuống&quot;; <span class="gk">καταβήσεσθαι</span> (bài 17) là nguyên mẫu <strong>tương lai</strong> – &quot;sẽ xuống&quot;. Bộ ba <span class="gk">καταβαίνειν / καταβῆναι / καταβήσεσθαι</span> là minh họa hoàn hảo cho &quot;đồng hồ&quot; mục 2: một thân, ba kim. Cách đọc vạch ranh: nguyên mẫu aorist chủ đề chấm dứt bằng <span class="gk">-ῆναι</span> hoặc <span class="gk">-εῖν</span> (<span class="gk">καταβῆναι, λιπεῖν</span>); nguyên mẫu tương lai trung luôn lộ diện đuôi <span class="gk">-σεσθαι</span> (<span class="gk">καταβήσεσθαι</span>), tương lai chủ động lộ <span class="gk">-σειν</span> (<span class="gk">καταβήσειν</span>).</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin – cùng việc, hai kiến trúc:</strong> Latin không có nguyên mẫu tương lai; phải ghép <em>supinum + particip</em>: <em>ventūrum esse</em> &quot;sẽ đến&quot;, <em>locūtūram esse</em> &quot;sẽ nói&quot;. Hy Lạp gói việc đó vào <strong>một chữ</strong> (<span class="gk">ἥξειν, λυθήσεσθαι</span>). Khi dịch Latin sang Hy Lạp trong đầu, hãy tự động &quot;nén&quot; <em>ventūrum esse</em> thành một nguyên mẫu mang <span class="gk">-σειν</span>.</p>
+</div>
+
+<p><strong>Tự kiểm tra mục 3</strong> (đáp án ẩn hiện khi in):</p>
+<ol>
+<li>Tạo nguyên mẫu tương lai chủ động và trung của <span class="gk">μένω</span> (tương lai <span class="gk">μενῶ</span>, bài 12).</li>
+<li><span class="gk">νομίζουσι τὸν στρατὸν ἀπιέναι</span> dịch thế nào – và đổi thời nào để thành &quot;nghĩ rằng đội quân <em>sẽ</em> rút đi&quot;?</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án tự kiểm tra</h4>
+<ol>
+<li class="gk">μενεῖν / μενεῖσθαι</li>
+<li class="gk">νομίζουσι τὸν στρατὸν ἀπιέναι</li>
+</ol>
+<p>Ghi chú: (1) cặp trùng vỏ đẹp hiếm: nguyên mẫu <strong>hiện tại</strong> <span class="gk">μένειν</span> &quot;đang ở lại&quot; và nguyên mẫu <strong>tương lai</strong> <span class="gk">μενεῖν</span> &quot;sẽ ở lại&quot; viết gần giống nhau – accent là vạch phân ranh duy nhất (xem confusables). Trung: <span class="gk">μενεῖσθαι</span>. (2) &quot;Họ nghĩ rằng đội quân đang rút đi&quot;; muốn &quot;sẽ rút&quot; đổi thành nguyên mẫu tương lai <span class="gk">ἀπελεύσεσθαι</span> (của <span class="gk">ἀπέρχομαι</span>, tương lai <span class="gk">ἀπελεύσομαι</span> đã học mặt ở bài 12).</p>
+</div></div>
+
+<h2 id="s4">4. Mệnh lệnh gián tiếp: nguyên mẫu thế chỗ mệnh lệnh; phủ định <span class="gk">μὴ</span></h2>
+
+<p>Bảng chuỗi thời–thức của bài 17 (mục 8, dòng cuối) đã hẹn: mệnh lệnh <span class="gk">ἴθι!</span> khi được kể lại sẽ <strong>chuyển thành nguyên mẫu</strong>. Hôm nay trả nợ. So sánh hai đời của cùng một lệnh:</p>
+
+<table>
+<thead><tr><th>Kiểu</th><th>Hy Lạp</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td>mệnh lệnh trực tiếp</td><td class="gk">ἴθι εἰς τὴν σκηνήν!</td><td>&quot;Hãy vào trại!&quot;</td></tr>
+<tr><td><strong>kể lại bằng AcI</strong></td><td class="gk">ἐκέλευσεν αὐτὸν εἰς τὴν σκηνὴν ἰέναι</td><td>&quot;Hắn ra lệnh cho hắn vào trại&quot;</td></tr>
+</tbody>
+</table>
+
+<p>Chú ý sự chia việc của hai cửa (bài 17): <strong>kể lại lời phát ngôn</strong> thì Hy Lạp chọn được giữa <span class="gk">ὅτι/ὡς</span> + động từ chia và AcI; <strong>kể lại mệnh lệnh</strong> thì văn xuôi gần như chỉ đi cửa AcI – &quot;lệnh + rằng + động từ chia&quot; là lối khó nghe, người Hy Lạp tránh. Cột hai hôm nay chính là lối mòn đó: <strong>động từ truyền lệnh + đối cách + nguyên mẫu</strong>. Bộ động từ: <span class="gk">κελεύω</span> &quot;ra lệnh&quot;, <span class="gk">ἐντέλλομαι</span> &quot;truyền dặn&quot;, <span class="gk">παραγγέλλω</span> &quot;truyền (quân)&quot;, và nhóm &quot;xin, nhờ&quot;: <span class="gk">ἐρωτάω</span> &quot;hỏi (làm gì)&quot;, <span class="gk">δεέομαι</span> &quot;nhờ vả&quot;. Đối cách đứng trước nguyên mẫu là <strong>người nhận lệnh</strong> – khi dịch trở thành chủ ngữ của câu con &quot;ai đó hãy làm gì&quot;.</p>
+
+<p>Nguyên văn bài đọc I có sẵn một ví dụ trọn vẹn, phủ định lẫn khẳng định: <span class="gk">ξυμπέμπει… Θέρσιππον, παραγγείλας τὴν ἐπιστολὴν δοῦναι Δαρείῳ, αὐτὸν δὲ μὴ διαλέγεσθαι ὑπὲρ μηδενός</span> – &quot;(Alexander) gửi theo Thersippos, dặn hắn <strong>đưa</strong> thư cho Darius, còn hắn thì <strong>không được</strong> nói chuyện về bất cứ điều gì&quot;. Hai AcI nối tiếp sau một participle aorist (<span class="gk">παραγγείλας</span> &quot;truyền dặn xong&quot;): nguyên mẫu aorist <span class="gk">δοῦναι</span> &quot;đưa (một việc trọn)&quot;, nguyên mẫu hiện tại <span class="gk">διαλέγεσθαι</span> &quot;nói chuyện (trạng thái)&quot;.</p>
+
+<div class="achtung">
+<p><strong>Achtung – lệnh gián tiếp phủ định bằng <span class="gk">μὴ</span>, kể gián tiếp phủ định bằng <span class="gk">οὐ</span>.</strong> Cùng một nguyên mẫu, hai việc khác nhau: <span class="gk">ἔφη αὐτὸν <em>μὴ</em> διαλέγεσθαι</span> = &quot;hắn bảo hắn <em>đừng</em> nói chuyện&quot; (mệnh lệnh gián tiếp → <span class="gk">μὴ</span>); <span class="gk">ἔφη αὐτὸν <em>οὐ</em> διαλέγεσθαι</span> = &quot;hắn nói rằng hắn <em>không</em> nói chuyện&quot; (kể lại một sự phủ định → <span class="gk">οὐ</span>). Quy tắc phẳng: <span class="gk">μὴ</span> phủ định <em>ý chí</em> (lệnh, cấm, xin, sợ), <span class="gk">οὐ</span> phủ định <em>sự thật được kể</em>. Đây chính là tiếp nối của οὐ/μὴ bài 4 và của câu cấm đoán bài 7–8.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin – hiếm hoi: hai ngôn ngữ dựng y hệt:</strong> <em>iubeō tē īre</em> &quot;ta truyền mày đi&quot;, <em>vetō tē loquī</em> &quot;ta cấm mày nói&quot; – Latin cũng dùng đối cách + nguyên mẫu sau <em>iubeō / vetō</em>. Chỉ khác ở nhóm &quot;xin, nhờ&quot;: Latin đổi sang giả định (<em>rogō ut veniās</em>), còn Hy Lạp giữ nguyên mẫu (<span class="gk">ἐρωτῶ σε ἐλθεῖν</span>). Ai học đồng thời hai ngôn ngữ hãy đánh dấu đây là một trong số ít cấu trúc &quot;chuyển ngữ không cần nghĩ&quot;.</p>
+</div>
+
+<p><strong>Tự kiểm tra mục 4</strong> (đáp án ẩn hiện khi in):</p>
+<ol>
+<li>Đổi sang mệnh lệnh gián tiếp: &quot;<span class="gk">μὴ μείνετε!</span>&quot; (cấm đoán, sau <span class="gk">ἐκέλευσεν</span>).</li>
+<li>Phân biệt nghĩa: <span class="gk">ἐκέλευσεν αὐτοὺς μὴ μένειν</span> và <span class="gk">ἔφη αὐτοὺς οὐ μένειν</span>.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án tự kiểm tra</h4>
+<ol>
+<li class="gk">ἐκέλευσεν αὐτοὺς μὴ μένειν</li>
+<li>&quot;Hắn truyền lệnh cho họ đừng ở lại&quot; (mệnh lệnh phủ định) và &quot;Hắn nói rằng họ không ở lại&quot; (kể lại sự phủ định).</li>
+</ol>
+</div></div>
+
+<h2 id="s5">5. AcI nâng cao: <span class="gk">ὡς</span> dẫn AcI, danh cách &quot;bất khuất&quot;, chủ thể ẩn</h2>
+
+<p>Ba biến thể cao cấp, cả ba đều nằm trong nguyên tác hôm nay – biết chúng thì hai bài đọc không còn chỗ nào &quot;phản chủ&quot;.</p>
+
+<h3>5.1 <span class="gk">ὡς</span> đứng đầu AcI</h3>
+
+<p><span class="gk">ὡς</span> &quot;rằng&quot; (bài 17) không chỉ dẫn mệnh đề chia động từ – nó còn đứng <strong>ngay trước đối cách</strong> của một AcI, như một tấm biển &quot;chú ý: câu con bắt đầu từ đây&quot;: nguyên văn <span class="gk">χρημάτων ἐπιδόσει ὡς ἑκάστους ξὺν τῇ ἀξίᾳ ἐτίμησεν</span> – &quot;trao thưởng bằng tiền, theo như từng người xứng đáng&quot; (<span class="gk">ἐτίμησεν</span> = &quot;(vua) xét thưởng rằng từng người đáng bao nhiêu&quot;). Gặp <span class="gk">ὡς</span> + đối cách + nguyên mẫu: dịch &quot;rằng&quot; và xử lý như AcI thường.</p>
+
+<h3>5.2 Danh cách &quot;bất khuất&quot; (nominative giữ lại trong AcI)</h3>
+
+<p>Quy tắc: nếu <strong>chủ thể của câu con trùng với chủ thể của động từ dẫn</strong>, Hy Lạp có thể <em>không</em> đổi danh cách thành đối cách – giữ luôn danh cách. Nguyên văn bài đọc I: <span class="gk">τούτου ἕνεκα καταβῆναι <em>αὐτὸς</em> τῇ χώρᾳ ἀμυνῶν</span> – &quot;vì cớ ấy, (thư nói rằng) <em>chính hắn</em> đã đem quân xuống đất này để tự vệ&quot;: <span class="gk">αὐτὸς</span> danh cách, vì kẻ hạ cánh trong thư chính là Darius – người mà cả bức thư đang nói đến. Cũng vậy, <span class="gk">καὶ ξύμμαχος εἶναι Ἀλεξάνδρῳ</span> giữ <span class="gk">ξύμμαχος</span> danh cách làm biểu ngữ. Tự kiểm tra khi đọc: một &quot;danh cách lơ lửng&quot; giữa các nguyên mẫu không phải lỗi in – hãy hỏi <em>&quot;đây có phải chính là người mà động từ dẫn đang kể?&quot;</em></p>
+
+<h3>5.3 Chủ thể ẩn: AcI không có đối cách nào</h3>
+
+<p>Nguyên văn mở màn bài đọc I: <span class="gk">ἀφίκοντο… πρέσβεις… ἐπιστολήν τε κομίζοντες Δαρείου καὶ αὐτοὶ ἀπὸ γλώσσης <em>δεησόμενοι ἀφεῖναι</em> Δαρείῳ τὴν μητέρα…</span> – &quot;đại sứ đến, mang thư của Darius, và thân họ sẽ hết lời xin <em>thả</em> mẹ, vợ, con của Darius&quot;. AcI <span class="gk">ἀφεῖναι</span> &quot;thả&quot; không có đối cách chủ ngữ nào: kẻ được thả việc (Alexander) hiển nhiên từ ngữ cảnh, nên Hy Lạp lược. Đọc trôi: <strong>thiếu đối cách không phá AcI</strong> – chỉ hỏi &quot;ai là người làm việc trong nguyên mẫu?&quot; và lấy câu trả lời từ bối cảnh.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng – &quot;bộ nhận diện ba vỏ lạ&quot;:</strong> (1) <span class="gk">ὡς</span> + đối cách + nguyên mẫu = AcI có biển báo; (2) danh cách lơ lửng giữa các nguyên mẫu = chủ thể trùng động từ dẫn; (3) nguyên mẫu &quot;mồ côi chủ thể&quot; = chủ thể nằm trong bối cảnh. Cả ba đều không phải ngoại lệ của AcI – chỉ là ba kiểu <em>đóng gói</em> khác nhau của cùng một cấu trúc &quot;câu trong câu&quot;.</p>
+</div>
+
+<p><strong>Tự kiểm tra mục 5</strong> (đáp án ẩn hiện khi in):</p>
+<ol>
+<li>Trong <span class="gk">ἐκέλευσεν ὡς ἑαυτὸν εἶναι βασιλέα</span>, <span class="gk">ὡς</span> đánh dấu điều gì?</li>
+<li>Vì sao <span class="gk">καὶ ξύμμαχος εἶναι Ἀλεξάνδρῳ</span> dùng danh cách <span class="gk">ξύμμαχος</span> thay vì đối cách?</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án tự kiểm tra</h4>
+<ol>
+<li><span class="gk">ὡς</span> là biển báo AcI: &quot;truyền rằng chính hắn là vua&quot; – mệnh lệnh gián tiếp (mục 4) trộn với vỏ <span class="gk">ὡς</span> (mục 5.1).</li>
+<li>Chủ thể của <span class="gk">εἶναι</span> là chính Darius – trùng người mà thư (động từ dẫn <span class="gk">ἐδήλου</span>) đang kể; theo mục 5.2, Hy Lạp giữ danh cách cho kẻ &quot;bất khuất&quot;.</li>
+</ol>
+</div></div>
+
+<h2 id="s6">6. Câu hỏi gián tiếp: bộ từ hỏi chuyên dụng (<span class="gk">εἰ, ὅστις, τίς</span>)</h2>
+
+<p>Bài 17 đã để lại một mối dây: động từ <span class="gk">ἐρωτάω</span> &quot;hỏi&quot; có &quot;bộ liên từ riêng&quot;. Hôm nay mở hộ đồ nghề đó. <strong>Câu hỏi gián tiếp</strong> = câu hỏi trực tiếp được nhúng vào một câu kể: không còn đứng độc lập với dấu hỏi, mà thành một mệnh đề con. Hai việc phải làm: thay &quot;từ hỏi&quot; đúng kiểu, và điều chỉnh động từ (mục 7).</p>
+
+<table>
+<thead><tr><th>Câu hỏi trực tiếp</th><th>Câu hỏi gián tiếp</th><th>Từ hỏi gián tiếp</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td class="gk">Ζῇ Δαρεῖος;</td><td class="gk">ἠρόμην εἰ ζῴη Δαρεῖος</td><td class="gk">εἰ</td><td>&quot;Darius còn sống à?&quot; → &quot;(tôi) hỏi xem Darius còn sống không&quot;</td></tr>
+<tr><td class="gk">τίς ὁ βασιλεύς;</td><td class="gk">ἠρόμην ὅστις ὁ βασιλεὺς εἴη</td><td class="gk">ὅστις / τίς</td><td>&quot;Ai là vua?&quot; → &quot;hỏi xem ai là vua&quot;</td></tr>
+<tr><td class="gk">ἀνθ᾽ ὅτου…;</td><td class="gk">πυθέσθαι ἀνθ᾽ ὅτου οὕτως ἐγγὺς παρασκηνοῦσι</td><td class="gk">ἀνθ᾽ ὅτου / διὰ ὅτου</td><td>&quot;Vì cớ gì…?&quot; → &quot;hỏi xem vì cớ gì…&quot;</td></tr>
+<tr><td class="gk">πότερον ἀληθῆ λέγει;</td><td class="gk">ἠρόμην εἰ ἀληθῆ λέγοι</td><td class="gk">εἰ</td><td>&quot;Hắn nói thật à?&quot; → &quot;hỏi xem hắn nói thật không&quot;</td></tr>
+</tbody>
+</table>
+
+<p>Bốn kiểu từ hỏi, bốn việc cần thuộc lòng:</p>
+<ul>
+<li><strong><span class="gk">εἰ</span> – &quot;có… không&quot;:</strong> câu hỏi đúng/sai (yes/no) gián tiếp. Đây chính là chữ <span class="gk">εἰ</span> &quot;nếu&quot; đã học (bài 16–17) khoác thêm một nghề; trong câu hỏi gián tiếp nó đứng đầu mệnh đề con, ngay sau động từ dẫn. Câu hỏi trực tiếp đôi khi mở đầu bằng tiểu từ <span class="gk">ἦ</span> (như <span class="gk">ἦ ἀληθῆ λέγεις;</span> bên bảng) – khi gián tiếp, <span class="gk">ἦ</span> lui ra, chỉ còn <span class="gk">εἰ</span>. Đừng lẫn hai đời: <span class="gk">εἰ</span> + chỉ định/hư định = điều kiện &quot;nếu&quot;; <span class="gk">εἰ</span> sau động từ hỏi/biết/không biết = &quot;liệu có… không&quot;.</li>
+<li><strong><span class="gk">ὅστις, ἥτις, ὅ τι</span> – &quot;ai / cái gì&quot;:</strong> dạng ghép <em>đại từ quan hệ + bất định</em> (ôn bài 15), là từ hỏi được ưa chuộng nhất của câu hỏi gián tiếp, vì sắc thái &quot;bất kể ai&quot; nó mang sẵn hợp với giọng &quot;hỏi xem&quot;. Nguyên văn bài đọc II: <span class="gk">ἀμφιγνοήσασαν ὅστις ὁ βασιλεὺς εἴη αὐτοῖν</span> – &quot;(mẹ của Darius) đang phân vân không biết ai là vua của hai người&quot;.</li>
+<li><strong><span class="gk">τίς / τί</span> giữ dấu hỏi:</strong> từ hỏi đơn giản vẫn được dùng trong câu hỏi gián tiếp, giữ nguyên accent hỏi (accent ở âm tiết đầu – ôn bài 15: <span class="gk">τίς</span> hỏi / <span class="gk">τις</span> bất định). Nguyên văn: <span class="gk">πυθέσθαι αἵτινες γυναῖκες</span> – <span class="gk">αἵτινες</span> là số nhiều giống cái của <span class="gk">ἥτις</span>, vẫn mang accent hỏi (vì ghép với quan hệ nên accent rơi lên âm tiết đầu, giống hệt <span class="gk">ὅς, ἥ</span>).</li>
+<li><strong>Trạng từ hỏi:</strong> <span class="gk">πῶς</span> &quot;làm sao&quot;, <span class="gk">ποῦ</span> &quot;ở đâu&quot;, <span class="gk">πότε</span> &quot;khi nào&quot;, <span class="gk">πόσος</span> &quot;bao nhiêu&quot; – giữ nguyên dạng trong câu hỏi gián tiếp. Bộ đôi accent <span class="gk">πῶς / πως</span> đã gặp ở bài 5 (ôn confusables cuối bài).</li>
+</ul>
+
+<div class="achtung">
+<p><strong>Achtung – ba cửa dễ đi nhầm của cùng một cụm chữ.</strong> <span class="gk">εἰ</span> đứng sau động từ hỏi = &quot;liệu… không&quot;; <span class="gk">εἰ</span> đứng đầu câu độc lập = &quot;if&quot; điều kiện; <span class="gk">εἴθε / εἰ γάρ</span> = lời ước (bài 17). Tương tự <span class="gk">ὅστις</span> sau động từ hỏi = câu hỏi gián tiếp, còn <span class="gk">ὅστις</span> sau một danh từ = mệnh đề quan hệ bất định &quot;bất kể ai&quot; (bài 15). Cách phân: <strong>hỏi bản thân động từ dẫn</strong> – động từ thuộc nhóm &quot;hỏi / không biết / phân vân&quot; (<span class="gk">ἐρωτάω, πυνθάνομαι, οἶδα, ἀγνοέω, ἀμφιγνοέω, ἀπορέω</span>) thì mệnh đề sau nó là câu hỏi gián tiếp. Danh sách này chính là <em>bộ động từ dẫn</em> của mục 1, bảng &quot;dò hỏi&quot;.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin – nơi hai ngôn ngữ chia tay:</strong> Latin dựng câu hỏi gián tiếp bằng <em>giả định</em>: <em>rogāvit quis esset</em>, <em>nescīō quid faciat</em> – động từ con bắt buộc đổi thức. Hy Lạp giữ <strong>chỉ định</strong> (hay &quot;nhích&quot; optative theo bài 17) – động từ con vẫn là chỉ định thực thụ. Ai học Latin trước sẽ phải &quot;bỏ thói quen&quot;: đừng thấy <em>rogāvit quis…</em> mà đòi giả định trong <span class="gk">ἠρώτησε τίς…</span>.</p>
+</div>
+
+<p><strong>Tự kiểm tra mục 6</strong> (đáp án ẩn hiện khi in):</p>
+<ol>
+<li>Đổi sang câu hỏi gián tiếp (sau <span class="gk">ἠρόμην</span>): &quot;<span class="gk">ποῦ ὁ ἀδελφός;</span>&quot;</li>
+<li><span class="gk">οὐκ οἶδα εἰ ἥξει</span> – chữ <span class="gk">εἰ</span> ở đây là &quot;nếu&quot; hay &quot;liệu… không&quot;?</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án tự kiểm tra</h4>
+<ol>
+<li class="gk">ἠρόμην πού εἴη ὁ ἀδελφός</li>
+<li>&quot;Liệu… không&quot;: &quot;Tôi không biết hắn có đến không&quot; – vì <span class="gk">εἰ</span> theo sau động từ <span class="gk">οἶδα</span> thuộc nhóm &quot;biết / không biết&quot;. Nếu là điều kiện, phía sau phải là một mệnh đề trọn vẹn mang nghĩa &quot;nếu X thì Y&quot;.</li>
+</ol>
+</div></div>
+
+<h2 id="s7">7. Thức trong câu hỏi gián tiếp: áp lại chuỗi thời–thức của bài 17</h2>
+
+<p>Tin tốt: <strong>không có luật mới</strong>. Động từ của câu hỏi gián tiếp bước theo đúng bàn chuỗi thời–thức đã thuộc (bài 17 mục 8) – bảng dưới chỉ là bàn đó được &quot;in lại&quot; với ví dụ toàn là nguyên văn Arrian:</p>
+
+<table>
+<thead><tr><th>Câu hỏi trực tiếp chứa</th><th>Sau động từ dẫn primary</th><th>Sau động từ dẫn secondary</th><th>Ví dụ nguyên tác</th></tr></thead>
+<tbody>
+<tr><td>chỉ định <span class="gk">βασιλεύει</span></td><td>giữ nguyên</td><td>&quot;nhích&quot; thành optative <span class="gk">βασιλεύοι</span></td><td class="gk">ἐξ οὗ δὲ αὐτὸς βασιλεύει Περσῶν</td></tr>
+<tr><td>chỉ định quá khứ <span class="gk">ἦρξεν</span></td><td colspan="2">giữ nguyên (optative không có đời quá khứ chỉ định)</td><td class="gk">ὅτι Φίλιππος ἀδικίας πρῶτος ἐς βασιλέα Ἀρσῆν ἦρξεν</td></tr>
+<tr><td>giả định <span class="gk">δέῃ</span> (có/không <span class="gk">ἄν</span>)</td><td>giữ nguyên giả định</td><td>giữ nguyên, hoặc &quot;nhích&quot; thành optative</td><td class="gk">φράζε εἴ του δέῃ</td></tr>
+</tbody>
+</table>
+
+<p>Đọc ba ví dụ nguyên tác theo đúng thứ tự bảng:</p>
+<ul>
+<li><span class="gk">ἐξ οὗ δὲ αὐτὸς βασιλεύει Περσῶν</span> (bài đọc I) – thư của Darius <em>được kể lại</em> sau động từ <span class="gk">ἐδήλου</span> (quá khứ = nhịp secondary), nhưng Arrian <strong>giữ nguyên chỉ định hiện tại</strong> <span class="gk">βασιλεύει</span>: bằng chứng sống rằng &quot;nhích&quot; optative là thói quen, không phải luật sắt – đúng như bảng bài 17 đã ghi (&quot;hoặc giữ&quot;).</li>
+<li><span class="gk">ὅτι Φίλιππος ἀδικίας πρῶτος ἐς βασιλέα Ἀρσῆν ἦρξεν</span> (bài đọc I) – chỉ định quá khứ <span class="gk">ἦρξεν</span> giữ nguyên trong mệnh đề kể lại: optative không có &quot;đời quá khứ&quot; để thay.</li>
+<li><span class="gk">φράζε εἴ του δέῃ</span> (bài đọc I, thư Alexander) – động từ con là <strong>giả định</strong> <span class="gk">δέῃ</span> (điều kiện nhạt tương lai, bài 16) và giữ nguyên: <span class="gk">ἄν</span> nếu có trong câu hỏi trực tiếp thì đi theo giả định vào câu gián tiếp: <span class="gk">οὗ ἂν ᾖς</span> &quot;ở nơi nào (mày có thể đang ở)&quot;, <span class="gk">ὅ τι ἂν πείθῃς</span> &quot;bất kể điều gì (mày có thể thuyết phục)&quot; – hai cụm này đều là giả định + <span class="gk">ἄν</span> đã học ở bài 16, giờ gặp trong bối cảnh thư từ.</li>
+</ul>
+
+<div class="achtung">
+<p><strong>Achtung – <span class="gk">ᾖς</span> không phải optative!</strong> <span class="gk">οὗ ἂν ᾖς</span>: <span class="gk">ᾖς</span> là <strong>giả định</strong> ngôi 2 của <span class="gk">εἰμί</span> (bài 16: hợp thể <span class="gk">ἐσ-ι → ᾖ</span> với iota chìm, đuôi ngôi <span class="gk">-ς</span>); optative ngôi 2 của <span class="gk">εἰμί</span> là <span class="gk">εἴης</span> (bài 17). Vạch phân: giả định mang <span class="gk">η</span> (kèm iota chìm), optative mang <span class="gk">ει</span> – một cặp trùng vỏ đáng khắc vào confusables của riêng mình.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng – &quot;một bàn chung cho ba mệnh đề con&quot;:</strong> kể lại <em>phát ngôn</em> (bài 17), kể lại <em>lệnh</em> (mục 4), kể lại <em>câu hỏi</em> (mục 6–7) dùng chung một hệ nhịp: động từ dẫn đặt primary/secondary, mệnh đề con bước theo. Khác nhau duy nhất ở <em>vỏ</em>: phát ngôn → <span class="gk">ὅτι/ὡς</span> + động từ chia hoặc AcI; lệnh → đối cách + nguyên mẫu; câu hỏi → từ hỏi + động từ chia. Ba vỏ, một bộ máy nhịp – đây là lý do hai chủ đề này được ghép chung một bài.</p>
+</div>
+
+<p><strong>Tự kiểm tra mục 7</strong> (đáp án ẩn hiện khi in):</p>
+<ol>
+<li>Đổi sang gián tiếp sau <span class="gk">ἐρώτησε</span>: &quot;<span class="gk">τί ποιεῖς;</span>&quot; (câu hỏi chỉ định hiện tại).</li>
+<li>Đổi sang gián tiếp sau <span class="gk">πυνθάνομαι</span>: &quot;<span class="gk">ἦ ἀληθῆ λέγεις;</span>&quot; (câu hỏi đúng/sai).</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án tự kiểm tra</h4>
+<ol>
+<li class="gk">ἐρώτησε τί ποιοῖ / τί ποιεῖ</li>
+<li class="gk">πυνθάνομαι εἰ ἀληθῆ λέγεις</li>
+</ol>
+<p>Ghi chú: (1) sau nhịp secondary, Attic ưa &quot;nhích&quot; <span class="gk">ποιοῖ</span>, nhưng giữ nguyên <span class="gk">ποιεῖ</span> cũng gặp (như Arrian giữ <span class="gk">βασιλεύει</span>); (2) sau nhịp primary giữ nguyên chỉ định – đổi thành <span class="gk">λέγῃ</span> là sai (đó là giả định!), &quot;nhích&quot; đúng phải là <span class="gk">λέγοι</span>.</p>
+</div></div>
+
+<h2 id="s8">8. Chiến lược đọc: phân định năm cụm &quot;hỏi / rằng&quot; trùng vỏ</h2>
+
+<p>Hai bài đọc hôm nay là một khu rừng của các cụm mở đầu bằng <span class="gk">εἰ, ὅτι, ὡς, ὅστις, ὅ τι, οὗ</span> – năm loại cấu trúc chia sẻ gần hết bảng chữ. Trước khi vào đọc, chốt sẵn &quot;bảng tra giao thông&quot;:</p>
+
+<table>
+<thead><tr><th>Cụm gặp</th><th>Cửa nào?</th><th>Dấu hiệu quyết</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὅτι + động từ chia</td><td>tường thuật &quot;rằng&quot; <em>hoặc</em> lý do &quot;bởi vì&quot;</td><td>động từ dẫn nói/nghĩ trước đó → &quot;rằng&quot;; không có → &quot;vì&quot; (bài 17)</td></tr>
+<tr><td class="gk">εἰ + động từ chia</td><td>điều kiện &quot;nếu&quot; <em>hoặc</em> câu hỏi &quot;liệu… không&quot;</td><td>động từ hỏi/biết trước đó → câu hỏi; không → điều kiện</td></tr>
+<tr><td class="gk">ὅστις / ὅ τι + động từ chia</td><td>câu hỏi gián tiếp <em>hoặc</em> quan hệ bất định &quot;bất kể ai&quot;</td><td>động từ hỏi/phân vân trước đó → câu hỏi; danh từ trung tâm trước đó → quan hệ</td></tr>
+<tr><td class="gk">ὡς + đối cách + nguyên mẫu</td><td>AcI có biển báo (mục 5.1) <em>hoặc</em> &quot;với tư cách là&quot; (bài 17)</td><td>đối cách + nguyên mẫu đứng sau → AcI; một danh từ cách đơn → &quot;với tư cách&quot;</td></tr>
+<tr><td class="gk">οὗ / ᾧ / οἷ + ἄν + giả định</td><td>quan hệ bất định &quot;nơi nào / cách nào&quot;</td><td><span class="gk">ἄν</span> có mặt → bất định; trong bối cảnh hỏi → đọc như câu hỏi gián tiếp về địa điểm</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Tiêu đề học mà chơi – &quot;hỏi động từ dẫn trước, hỏi mệnh đề sau&quot;:</strong> mọi cảnh nghi ngờ trong bảng đều do <strong>động từ dẫn</strong> phán. Ba câu hỏi theo thứ tự: (1) Trước cụm này có động từ nói / nghĩ / hỏi / không biết / phân vân không? (2) Cụm đứng sau danh từ hay động từ? (3) Có <span class="gk">ἄν</span> hoặc <span class="gk">μὴ</span> không? Ba câu trả lời đủ định vị cửa đúng trong 90% trường hợp; 10% còn lại đọc ngữ cảnh rộng hơn một câu.</p>
+</div>
+
+<h2 id="reading">9. Bài đọc I: Hai bức thư sau trận Issus (Arrian, Anabasis 2,14)</h2>
+
+<div class="info">
+<p><strong>Nguồn:</strong> Arrian, <em>Anabasis Alexandri</em> (khoảng năm 145 sau CN) 2,14 (bản Roos, Teubner 1907, qua Perseus Digital Library, public domain). Bối cảnh: sau thắng lợi ở Issus (333 TCN), Alexander chiếm được cả gia quyến của Darius. Tại Marathus, các đại sứ của Darius mang thư đến. Arrian kể <strong>nội dung thư của Darius bằng một chuỗi AcI liền mạch</strong> – showroom của mục 2–5 – rồi trích <strong>nguyên văn</strong> thư trả lời của Alexander, nơi các câu hỏi gián tiếp và giả định + <span class="gk">ἄν</span> dày đặc (mục 6–7). Bản dưới đây <strong>biên soạn lại theo trình độ bài 18</strong>: giữ toàn bộ khung và các câu trọng yếu nguyên văn; lược bốn đoạn giữa dài của thư Alexander (những khoản kể tội, là biến thể của cùng một công thức), đánh dấu chỗ lược bằng dấu <span class="gk">…</span>; giản lược một trạng từ kép. Chữ <span class="gk">ξυν-/ξὺν</span> là chính tả cổ của <span class="gk">συν-</span> (ôn bài 13).</p>
+</div>
+
+<p>Từ mới trong bài đọc:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἡ γλῶσσα, -ης</td><td class="tr">hē glôssē</td><td class="em">tongue, language</td><td>lưỡi; lời nói</td><td><span class="gk">ἀπὸ γλώσσης δεησόμενοι</span> = &quot;định tận miệng mà xin&quot; (đối lập với chỉ gửi thư); gốc tiếng Anh &quot;glossary&quot;</td></tr>
+<tr><td class="gk">δηλόω</td><td class="tr">dēlóō</td><td class="em">to show, make clear</td><td>bày tỏ, tỏ rõ</td><td>imperfect <span class="gk">ἐδήλου</span> &quot;(thư) bày tỏ rằng…&quot; – động từ dẫn của đoạn AcI; động từ co đã học ở bài 12</td></tr>
+<tr><td class="gk">ἡ βεβαίωσις, -εως</td><td class="tr">hē bebaíōsis</td><td class="em">confirmation, guarantee</td><td>sự bảo chứng</td><td><span class="gk">εἰς βεβαίωσιν τῆς φιλίας</span> = &quot;để bảo chứng tình hữu nghị&quot;; họ hàng với <span class="gk">βαίνω</span> &quot;đi bước&quot;: bảo chứng là một &quot;bước đứng vững&quot;</td></tr>
+<tr><td class="gk">ἄρχω</td><td class="tr">árkhō</td><td class="em">to begin / rule</td><td>khởi sự; cai trị</td><td>hai nghề: + sở hữu cách = &quot;cai trị&quot; (<span class="gk">βασιλεύει Περσῶν</span>); <span class="gk">ἀδικίας ἦρξεν</span> = &quot;đứng đầu (khởi sự) việc bất công&quot;; danh từ <span class="gk">ἡ ἀρχή</span> đã học (bài 16)</td></tr>
+<tr><td class="gk">ὁ πρόγονος, -ου</td><td class="tr">ho prógonos</td><td class="em">ancestor</td><td>tổ tiên</td><td><span class="gk">οἱ ὑμέτεροι πρόγονοι</span> = &quot;tổ tiên các người&quot; – câu mở màn thư Alexander; <span class="gk">πρό</span> + gốc của <span class="gk">γίγνομαι</span>: &quot;kẻ sinh ra trước&quot;</td></tr>
+<tr><td class="gk">προηδικέω</td><td class="tr">proēdikéō</td><td class="em">to wrong first</td><td>gây bất công trước</td><td><span class="gk">οὐδὲν προηδικημένοι</span> = participle hoàn thành bị động &quot;không hề chịu điều bất công nào trước&quot; (ôn bài 14); <span class="gk">προ-</span> &quot;trước&quot; + <span class="gk">ἀδικέω</span> (vocab hôm nay)</td></tr>
+<tr><td class="gk">τιμωρέω</td><td class="tr">timōréō</td><td class="em">to avenge</td><td>trả thù, đòi lại công đạo</td><td><span class="gk">τιμωρήσασθαι βουλόμενος</span> = nguyên mẫu aorist deponent làm tân ngữ của <span class="gk">βουλόμενος</span> – AcI quen mặt (bài 17 đọc II)</td></tr>
+<tr><td class="gk">ὁ σατράπης, -ου</td><td class="tr">ho satrápēs</td><td class="em">satrap, governor</td><td>tổng trấn (Ba Tư)</td><td>từ mượn tiếng Ba Tư (<em>xšaçapāvan</em> &quot;kẻ giữ vùng đất&quot;) – Hy Lạp mượn luôn chức danh; đã học mặt ở bài đọc Xenophon (bài 13)</td></tr>
+<tr><td class="gk">τὸ πιστόν</td><td class="tr">to piston</td><td class="em">pledge, guarantee</td><td>lời cam kết, bảo chứng</td><td>danh từ hóa trung tính của <span class="gk">πιστός</span> &quot;đáng tin&quot; (ôn bài 9); <span class="gk">τὰ πιστὰ λαμβάνειν</span> = &quot;nhận các cam kết&quot; – xử lý hiệp ước là &quot;cầm lấy sự đáng tin&quot;</td></tr>
+<tr><td class="gk">ὁ κύριος, -ου</td><td class="tr">ho kýrios</td><td class="em">lord, master</td><td>chủ, người nắm quyền</td><td><span class="gk">τῆς Ἀσίας κύριος</span> &quot;kẻ làm chủ châu Á&quot; – tước hiệu Alexander tự phong trong thư; <span class="gk">ἡ κύρια</span> &quot;chủ nhật&quot; tiếng Việt mượn qua con đường nhà thờ</td></tr>
+<tr><td class="gk">ἄχαρι</td><td class="tr">ákhari</td><td class="em">unpleasant</td><td>khó chịu, khó coi</td><td>tính từ <strong>bất động</strong> (một dạng cho mọi giống/cách/số – nhóm nhỏ đuôi -ρι); <span class="gk">ἀ-</span> phủ định + gốc <span class="gk">χαρίζομαι</span> &quot;ban ơn&quot;: &quot;không được ban ơn&quot; = khó chịu</td></tr>
+</tbody>
+</table>
+
+<p style="margin-bottom:6px;"><strong>Bản simplified (do project biên soạn, khung và câu trọng yếu nguyên văn):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">ἔτι δὲ ἐν Μαράθῳ Ἀλεξάνδρου ὄντος ἀφίκοντο παρὰ Δαρείου πρέσβεις, ἐπιστολήν τε κομίζοντες Δαρείου καὶ αὐτοὶ ἀπὸ γλώσσης δεησόμενοι ἀφεῖναι Δαρείῳ τὴν μητέρα καὶ τὴν γυναῖκα καὶ τοὺς παῖδας. ἐδήλου δὲ ἡ ἐπιστολὴ ὅτι Φιλίππῳ τε πρὸς Ἀρτοξέρξην φιλία καὶ ξυμμαχία ἐγένετο, καὶ ὅτι Φίλιππος ἀδικίας πρῶτος ἐς βασιλέα Ἀρσῆν ἦρξεν οὐδὲν ἄχαρι ἐκ Περσῶν παθών· ἐξ οὗ δὲ αὐτὸς βασιλεύει Περσῶν, Ἀλέξανδρον μήτε πέμψαι τινὰ παρ᾽ αὐτὸν ἐς βεβαίωσιν τῆς φιλίας, μήτε διαβῆναι ἐς τὴν Ἀσίαν καὶ πολλὰ κακὰ ἐργάσασθαι Πέρσας. τούτου ἕνεκα καταβῆναι αὐτὸς τῇ χώρᾳ ἀμυνῶν, καὶ τὴν ἀρχὴν τὴν πατρῴαν ἀνασώσων. τὴν μὲν δὴ μάχην ὡς θεῶν τῳ ἔδοξεν οὕτω κριθῆναι· αὐτὸς δὲ βασιλεὺς παρὰ βασιλέως γυναῖκά τε τὴν αὑτοῦ αἰτεῖν καὶ μητέρα καὶ τοὺς παῖδας τοὺς ἁλόντας, καὶ φιλίαν ἐθέλειν ποιήσασθαι πρὸς Ἀλέξανδρον καὶ ξύμμαχος εἶναι Ἀλεξάνδρῳ.</p>
+<p class="tr">éti dè en Maráthōi Alexandrú óntos aphíkonto parà Dareíou préusbeis, epistolḗn te komízontes Dareíou kaì autoì apò glṓssēs deēsómenoi apheînai Dareíōi tḕn mētéra kaì tḕn gynaîka kaì toùs paídas. edḗlou dè hē epistolḕ hóti Philippôi te pròs Artoxérxēn philía kaì xymmachía egéneto, kaì hóti Phílippos adikías prōtos es basiléa Arsên êrxen oudèn ákhari ek Pérsōn pathṓn· ex hoû dè autòs basileúei Pérsōn, Álexandron mḗte pémpsai tinà par' autòn es bebaíōsin tês philías, mḗte diabênai es tḕn Asían kaì pollà kakà ergásasthai Pérsas. toútou héneka katabênai autòs têi chṓrāi amynṓn, kaì tḕn archḕn tḕn patrṓan anasṓsōn. tḕn mèn dḗ máchēn hōs theôn tōi édoxen hoútō krithênai· autòs dè basileùs parà basileōs gynaîká te tḕn hautoû aiteîn kaì mētéra kaì toùs paídas toùs halóntas, kaì philían ethélein poiḗsasthai pròs Álexandron kaì xýmmakhos eînai Alexandrōi.</p>
+
+<p><strong>Dịch:</strong> Khi Alexander còn ở Marathus, các đại sứ của Darius đến, vừa mang thư của Darius, vừa định tận miệng mà xin (Alexander) trả lại cho Darius mẹ, vợ và các con. Thư bày tỏ rằng: với Artaxerxes, Philip từng có tình hữu nghị và liên minh; rằng Philip là kẻ đứng đầu việc bất công chống vua Arses, dù chẳng chịu điều gì khó chịu nào từ người Ba Tư; rằng kể từ khi Darius làm vua người Ba Tư, Alexander đã không gửi một ai đến bảo chứng tình hữu nghị, lại đem quân vượt sang châu Á và làm bao điều tai họa cho người Ba Tư. Vì cớ ấy (thư kể rằng) Darius chính mình đã đưa quân xuống đất để tự vệ, và để thu hồi cơ nghiệp của cha. Còn trận đánh (thư nói rằng) một vị nào trong hàng thần đã phán như vậy; còn Darius, một vua (xin) với một vua: xin trả lại vợ của chính mình, và mẹ, và các con bị bắt; và muốn kết tình hữu nghị với Alexander, làm đồng minh của Alexander.</p>
+
+<p style="margin-bottom:6px;"><strong>Thư trả lời của Alexander (trích nguyên văn, lược đoạn giữa bằng <span class="gk">…</span>):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">ἀντιγράφει Ἀλέξανδρος καὶ ξυμπέμπει Θέρσιππον, παραγγείλας τὴν ἐπιστολὴν δοῦναι Δαρείῳ, αὐτὸν δὲ μὴ διαλέγεσθαι ὑπὲρ μηδενός. ἡ δὲ ἐπιστολὴ ἡ Ἀλεξάνδρου ἔχει ὧδε· οἱ ὑμέτεροι πρόγονοι ἐλθόντες εἰς Μακεδονίαν καὶ εἰς τὴν ἄλλην Ἑλλάδα κακῶς ἐποίησαν ἡμᾶς οὐδὲν προηδικημένοι· ἐγὼ δὲ τῶν Ἑλλήνων ἡγεμὼν κατασταθεὶς καὶ τιμωρήσασθαι βουλόμενος Πέρσας διέβην ἐς τὴν Ἀσίαν. ἐπεὶ δὲ μάχῃ νενίκηκα πρότερον μὲν τοὺς σοὺς στρατηγοὺς καὶ σατράπας, νῦν δὲ σὲ καὶ τὴν μετὰ σοῦ δύναμιν, καὶ τὴν χώραν ἔχω τῶν θεῶν μοι δόντων… ὡς οὖν ἐμοῦ τῆς Ἀσίας ἁπάσης κυρίου ὄντος ἧκε πρὸς ἐμέ. εἰ δὲ φοβῇ μὴ ἐλθὼν πάθῃς τι ἐξ ἐμοῦ ἄχαρι, πέμπε τινὰς τῶν φίλων τὰ πιστὰ ληψομένους. ἐλθὼν δὲ πρός με τὴν μητέρα καὶ τὴν γυναῖκα καὶ τοὺς παῖδας, καὶ εἰ ἄλλο τι θέλεις, αἴτει καὶ λαμβάνε· ὅ τι γὰρ ἂν πείθῃς ἐμὲ ἔσται σοι. καὶ τοῦ λοιποῦ ὅταν πέμπῃς παρ᾽ ἐμὲ, ὡς πρὸς βασιλέα τῆς Ἀσίας πέμπε, καὶ ὡς κυρίῳ ὄντι πάντων τῶν σῶν φράζε εἴ του δέῃ· εἰ δὲ μή, ἐγὼ βουλεύσομαι περὶ σοῦ ὡς ἀδικοῦντος. εἰ δ᾽ ἀντιλέγεις περὶ τῆς βασιλείας, ὑπομείνας ἔτι ἀγώνισαι περὶ αὐτῆς καὶ μὴ φεῦγε, ὡς ἐγὼ ἐπὶ σὲ πορεύσομαι οὗ ἂν ᾖς.</p>
+<p class="tr">antigráphei Álexandros kaì xympémpei Thérsippon, paranggeílas tḕn epistolḕn doûnai Dareíōi, autòn dè mḕ dialegésthai hypèr medenós. hē dè epistolḕ hē Alexandroû ékhei hṓde· hoi hyméteroi prógonoi elthóntes eis Makedonían kaì eis tḕn állēn Helláda kakôs epoiḗsan hēmâs oudèn proēdikēménoi· egṑ dè tôn Hellḗnōn hēgemṓn katastathèis kaì timōrḗsasthai boulómenos Pérsas diébēn es tḕn Asían. epeì dè máchēi neníkēka próteron mèn toùs soùs stratēgoùs kaì satrápas, nŷn dè sè kaì tḕn metà soû dýnamin, kaì tḕn chṓran ékhō tôn theôn moi dóntōn… hōs oûn emoû tês Asías hapásēs kyríou óntos hḗke pròs emé. ei dè phoboî mḕ elthòn páthēis ti ex emoû ákhari, pémpe tínas tôn phílōn tà pistà lēpsoménous. elthòn dè pròs me tḕn mētéra kaì tḕn gynaîka kaì toùs paídas, kaì ei állo ti théleis, aítei kaì lambáne· hó ti gàr àn peíthēis emè éstai soi. kaì toû loipoû hótan pémphēis par' emè, hōs pròs basiléa tês Asías pémpe, kaì hōs kyríōi ónti pántōn tôn sôn phráze ei toû déēi· ei dè mḗ, egò bouleúsomai perì soû hōs adikoûntos. ei d' antilégis perì tês basileías, hypomeínas étì agṓnisai perì autês kaì mḕ pheûge, hōs egò epì sè poreúsomai hoû àn êis.</p>
+
+<p><strong>Dịch:</strong> Alexander viết trả lời và gửi theo Thersippos, dặn hắn đưa thư cho Darius, còn hắn thì không được đàm luận về bất cứ điều gì. Bức thư của Alexander như sau: Tổ tiên các người đến Macedonia và đến phần còn lại của Hy Lạp, đã đối xử tệ với chúng tôi, chẳng hề chịu điều bất công nào trước; còn tôi, được đặt làm lãnh tụ của người Hy Lạp và muốn đòi lại công đạo từ người Ba Tư, đã vượt sang châu Á. Nhờ các thần ban cho, tôi đã thắng trận: trước hết các tướng và tổng trấn của ngươi, nay ngươi và đạo quân theo ngươi; và tôi đang nắm đất nước… Vậy, giờ đây tôi là chủ của cả châu Á: hãy đến gặp tôi. Nếu ngươi sợ khi đến phải chịu điều gì khó coi từ tôi, hãy gửi vài người trong các thân tín đến nhận cam kết. Còn khi ngươi đến gặp tôi, thì mẹ, vợ và các con – và nếu ngươi muốn điều gì khác nữa, cứ xin mà lấy: bất kể điều gì ngươi thuyết phục được ta, sẽ là của ngươi. Và kể từ nay, khi ngươi gửi người đến ta, hãy gửi như đến với vua của châu Á; và hãy tỏ cho kẻ đang là chủ của mọi thứ của ngươi biết, xem ngươi có cần điều gì; nếu không, ta sẽ quyết định về ngươi như về kẻ làm điều bất công. Còn nếu ngươi tranh cãi về ngôi vua, hãy đứng vững thêm, hãy đấu cho nó, đừng trốn: ta sẽ kéo quân đến chỗ ngươi, bất kể ngươi đang ở đâu.</p>
+
+<p><strong>Phân tích nhanh (kiểm tra bằng công cụ của bài):</strong></p>
+<ul>
+<li><span class="gk">ἀφίκοντο… πρέσβεις, ἐπιστολήν τε κομίζοντες… δεησόμενοι ἀφεῖναι</span> – <strong>AcI mồ côi chủ thể</strong> (mục 5.3): <span class="gk">ἀφεῖναι</span> &quot;thả&quot; không có đối cách chủ thể nào – kẻ được xin việc là Alexander, hiểu từ bối cảnh. <span class="gk">Δαρείῳ τὴν μητέρα</span> là tặng cách + đối cách của <em>việc xin</em>, không phải chủ thể.</li>
+<li><span class="gk">ἐδήλου δὲ ἡ ἐπιστολὴ ὅτι… ἦρξεν… ἐξ οὗ δὲ αὐτὸς βασιλεύει…</span> – <strong>hai cửa mở cạnh nhau</strong>: hai mệnh đề đầu là <span class="gk">ὅτι</span> + động từ chia (<span class="gk">ἐγένετο</span>, <span class="gk">ἦρξεν</span> – chỉ định quá khứ giữ nguyên), rồi từ <span class="gk">Ἀλέξανδρον μήτε πέμψαι</span> trờ đi, cùng một nội dung thư được kể bằng <strong>AcI</strong> (<span class="gk">πέμψαι, διαβῆναι, ἐργάσασθαι, καταβῆναι, αἰτεῖν, ἐθέλειν, εἶναι</span> – một dòng nguyên mẫu). Chú ý <span class="gk">βασιλεύει</span>: chỉ định hiện tại được giữ sau nhịp secondary (<span class="gk">ἐδήλου</span> quá khứ) – bằng chứng sống cho ô &quot;hoặc giữ&quot; của bảng bài 17 (đã bàn ở mục 7).</li>
+<li><span class="gk">καταβῆναι αὐτὸς τῇ χώρᾳ ἀμυνῶν</span> – <strong>danh cách bất khuất</strong> (mục 5.2): <span class="gk">αὐτός</span> danh cách, vì chính Darius – chủ nhân công của bức thư – là kẻ &quot;đưa quân xuống&quot;; participle aorist <span class="gk">ἀμυνῶν</span> chia danh cách theo chủ thể; ngay sau đó <span class="gk">ξύμμαχος εἶναι</span> cũng giữ danh cách làm biểu ngữ. Và đây chính là <span class="gk">καταβῆναι</span> &quot;đã xuống&quot; đứng cạnh <span class="gk">καταβήσεσθαι</span> &quot;sẽ xuống&quot; của bài 17 – cặp bài tập sống của mục 3.</li>
+<li><span class="gk">ὡς θεῶν τῳ ἔδοξεν οὕτω κριθῆναι</span> – <strong>AcI sau <span class="gk">ὡς</span></strong> (mục 5.1): &quot;rằng trận đánh đã bị phán như vậy, theo ý một vị nào đó trong hàng thần&quot;. <span class="gk">τῳ</span> là tặng cách đuôi in cổ của <span class="gk">τῷ</span> (&quot;một vị nào đó&quot;); <span class="gk">κριθῆναι</span> là nguyên mẫu aorist bị động của <span class="gk">κρίνω</span> (đuôi <span class="gk">-θῆναι</span>, bài 14) – &quot;một mốc trọn vẹn ở quá khứ so với động từ dẫn&quot; theo đồng hồ mục 2.</li>
+<li><span class="gk">παραγγείλας… δοῦναι…, αὐτὸν δὲ μὴ διαλέγεσθαι ὑπὲρ μηδενός</span> – <strong>mệnh lệnh gián tiếp</strong> đúng nguyên văn (mục 4): hai AcI nối sau participle aorist <span class="gk">παραγγείλας</span> &quot;truyền dặn xong&quot;; khẳng định <span class="gk">δοῦναι</span> (aorist – một việc trọn) đối lập phủ định <span class="gk">μὴ διαλέγεσθαι</span> (hiện tại – trạng thái, với <span class="gk">μὴ</span> đúng luật).</li>
+<li><span class="gk">πέμπε τινὰς τῶν φίλων τὰ πιστὰ ληψομένους</span> – <strong>đối cách + participle tương lai</strong>: một cách nói khác của mệnh lệnh gián tiếp (lệnh &quot;hãy gửi… để họ nhận cam kết&quot;) – participle tương lai <span class="gk">ληψομένους</span> chia đối cách theo <span class="gk">τινάς</span>. Đây là mồi cho bài 19 (participle): trước giờ gặp &quot;đối cách + nguyên mẫu&quot;, hôm nay gặp họ hàng &quot;đối cách + participle tương lai&quot;.</li>
+<li><span class="gk">φοβῇ μὴ ἐλθὼν πάθῃς τι ἄχαρι</span> – <span class="gk">μὴ</span> thứ hai mang một nghề nữa: sau động từ <strong>&quot;sợ&quot;</strong>, <span class="gk">μὴ</span> = &quot;kẻo / rằng chắng may&quot; + giả định (<span class="gk">πάθῃς</span>, ngôi 2 giả định aorist của <span class="gk">πάσχω</span> &quot;chịu&quot;): &quot;ngươi sợ kẻo khi đến phải chịu điều gì khó coi từ ta&quot;. Hệ <span class="gk">οὐ/μὴ</span> của bài 4 lại có thêm một ô.</li>
+<li><span class="gk">ὅ τι γὰρ ἂν πείθῃς ἐμὲ ἔσται σοι</span> và <span class="gk">οὗ ἂν ᾖς</span> – <strong>giả định + <span class="gk">ἄν</span></strong> (mục 7): &quot;bất kể điều gì ngươi có thể thuyết phục ta…&quot;, &quot;bất kể ngươi đang ở đâu&quot;. Còn <span class="gk">φράζε εἴ του δέῃ</span> là <strong>câu hỏi gián tiếp</strong> đúng nghĩa: &quot;tỏ cho ta biết ngươi có cần điều gì không&quot; – chữ <span class="gk">εἰ</span> nghề thứ hai (mục 6).</li>
+<li><span class="gk">νενίκηκα</span> – <strong>hoàn thành chủ động học mặt</strong>: &quot;tôi đã thắng (và thế thắng vẫn còn)&quot;. Hệ thống hoàn thành chủ động sẽ được mổ xẻ ở phần sau; hôm nay đọc như một dạng quen: <span class="gk">νε-</span> kép + <span class="gk">-ικ-</span> thân + <span class="gk">-α</span> đuôi ngôi 1 số ít – cùng khuôn với <span class="gk">λελυκέναι</span> của mục 2.</li>
+<li><span class="gk">Ἀλεξάνδρου ὄντος</span> và <span class="gk">τῶν θεῶν μοι δόντων</span> – hai cụm <strong>tặng cách tuyệt đối</strong> (genitive absolute) &quot;học mặt&quot; (ôn bài 17 đọc II): tặng cách + participle, chủ thể riêng, đứng ngoài câu chính – &quot;khi Alexander còn ở…&quot;, &quot;nhờ các thần đã ban cho&quot;. Bài 20 sẽ mổ xẻ; hôm nay chỉ cần nhận diện khuôn dạng.</li>
+</ul>
+
+<h2 id="reading2">10. Bài đọc II: Đêm trong trại của Darius (Arrian, Anabasis 2,12)</h2>
+
+<div class="info">
+<p><strong>Nguồn:</strong> Arrian, <em>Anabasis Alexandri</em> 2,12 (bản Roos, Teubner 1907, qua Perseus Digital Library, public domain). <strong>Gần nguyên văn:</strong> chỉ lược hẳn một đoạn kể việc nhân sự (2,12,2: các cuộc thăng chức, trừ việc trả lại quà cho dân thành Soli – không có cấu trúc mới), cắt vài mệnh đề phụ lặp ý trong lời khóc và trong lời dặn của Leonnatos, đánh dấu chỗ lược bằng <span class="gk">…</span>. <strong>Ghi chú thời gian:</strong> cảnh này xẩy ra trong đêm ngay sau trận Issus, tức <strong>trước</strong> hai bức thư của Bài đọc I (2,14); chương trình đặt 2,14 trước vì chuỗi AcI của nó khớp trực tiếp các mục 2–5, còn 2,12 là bài &quot;kỳ thi tổng hợp&quot;: AcI, câu hỏi gián tiếp, chuỗi thời–thức và cả một hiện tượng mới – <strong>số đôi</strong> – dồn trong một trang.</p>
+</div>
+
+<p>Từ mới trong bài đọc:</p>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἡ οἰμωγή, -ῆς</td><td class="tr">hē oimōgḗ</td><td class="em">wailing, lament</td><td>tiếng khóc than</td><td>nhóm danh từ ứng nghiệm một cách kỳ diệu ở đúng nghĩa đen: động từ <span class="gk">ἀνοιμώζω</span> ngay dưới, cùng gốc <span class="gk">οἰμώζω</span> &quot;than khóc&quot; (<span class="gk">οἰ-</span> là tiếng kêu than từ nguyên)</td></tr>
+<tr><td class="gk">ὁ θόρυβος, -ου</td><td class="tr">ho thórybos</td><td class="em">noise, commotion</td><td>sự ồn ào</td><td>danh từ đuôi -ος quen thuộc; <span class="gk">θορυβέω</span> &quot;gây ồn&quot; – căn nhà của &quot;turbid/turbulence&quot; tiếng Anh qua Latinh hóa <em>turbidus</em></td></tr>
+<tr><td class="gk">παρασκηνοῦσι</td><td class="tr">paraskēnoûsi</td><td class="em">they camp beside</td><td>cắm trại cạnh</td><td><span class="gk">παρά</span> + <span class="gk">σκηνή</span> (vocab hôm nay) + đuôi -οῦσι ngôi 3 số nhiều: nguyên mẫu gốc lồng <span class="gk">οὐ</span> vào giữa – bóng của cách viết tách <span class="gk">κατα-σκευάζω</span> (bài 15)</td></tr>
+<tr><td class="gk">ὁ κάνδυν, -υος</td><td class="tr">ho kándyn</td><td class="em">Persian royal robe</td><td>áo hiệu hoàng gia (Ba Tư)</td><td>từ mượn tiếng Ba Tư, như <span class="gk">σατράπης</span>: cây cung, chiếc áo hiệu và chiếc khiên của vua là ba &quot;bảo vật&quot; báo hiệu số phận người cầm quyền trong quân Ba Tư</td></tr>
+<tr><td class="gk">ἀνοιμώζω</td><td class="tr">anoimṓzō</td><td class="em">to wail over</td><td>than khóc (cho)</td><td><span class="gk">ἀν(α)-</span> &quot;trở lên, đối lại&quot; + <span class="gk">οἰμώζω</span>: &quot;than khóc lên trời&quot;; trong bài đi cặp với <span class="gk">ὡς ἐπὶ τεθνεῶτι</span> &quot;như thể trên người đã chết&quot; – đuôi <span class="gk">-ουσι</span> ngôi 3 số nhiều hiện tại</td></tr>
+<tr><td class="gk">ἡ θεραπεία, -ας</td><td class="tr">hē therapeía</td><td class="em">retinue, service</td><td>đoàn hầu cận</td><td><span class="achtung">Achtung:</span> ở đây KHÔNG phải &quot;trị liệu&quot;! Nghĩa gốc là &quot;sự hầu hạ, phục vụ&quot; → &quot;đoàn người hầu hạ&quot;; nghĩa &quot;chữa bệnh&quot; chỉ là một ngả sau này. Anh &quot;therapy&quot; đi theo ngả ấy, còn Arrian đi ngả &quot;hầu hạ vua&quot; (<span class="gk">τὴν θεραπείαν τὴν βασιλικήν</span>)</td></tr>
+<tr><td class="gk">ὁ κόσμος, -ου</td><td class="tr">ho kósmos</td><td class="em">order; ornament, array</td><td>trật tự; đồ trang sức</td><td>hai nghề trong một từ: vũ trụ là &quot;trật tự&quot; (<span class="gk">κόσμος</span> → &quot;cosmos&quot;), đồ trang sức là &quot;trật tự hóa&quot; (→ &quot;cosmetic&quot;); ở đây <span class="gk">ὁ ἄλλος κόσμος</span> = &quot;bộ điệu, thứ trang sức cung đình khác&quot;</td></tr>
+<tr><td class="gk">ἀμφιγνοέω</td><td class="tr">amphiginoéō</td><td class="em">to be in doubt</td><td>phân vân, không rõ</td><td><span class="gk">ἀμφί</span> &quot;quanh, hai bên&quot; + <span class="gk">γιγνώσκω</span> &quot;nhận biết&quot; (gốc <span class="gk">γνω-</span> đã học bài 15): &quot;biết quanh hai bên&quot; = không biết chắc ai</td></tr>
+<tr><td class="gk">καταιδέομαι</td><td class="tr">kataidéomai</td><td class="em">to be ashamed</td><td>xấu hổ</td><td>động từ middle deponent; <span class="gk">κατ(α)-</span> + gốc <span class="gk">αἰδέομαι</span> &quot;kính sợ, e dè&quot;: xấu hổ là &quot;e dè phủ xuống&quot;; participle aorist <span class="gk">καταιδεσθεῖσαν</span> ngay trong bài</td></tr>
+<tr><td class="gk">ἡ διαμαρτία, -ας</td><td class="tr">hē diamartía</td><td class="em">mistake, error</td><td>sự nhầm lẫn</td><td>anh em với <span class="gk">ἁμαρτάνω</span> &quot;nhầm, trượt&quot; (bài 12): <span class="gk">δια-</span> &quot;qua hẳn&quot; + gốc <span class="gk">-μαρτ-</span> &quot;phần, lô&quot; – &quot;nhầm hẳn phần của mình&quot;; trong bài đi cặp với <span class="gk">ἁμαρτεῖν</span>: một danh từ, một động từ, cùng nhà</td></tr>
+<tr><td class="gk">ἡ βασίλισσα, -ης</td><td class="tr">hē basílissa</td><td class="em">queen</td><td>nữ hoàng, bà chúa</td><td><span class="gk">βασιλεύς</span> (bài 17) + đuôi giống nữ <span class="gk">-ισσα</span>: cặp &quot;vua / bà vua&quot; chỉ cần nhận diện – không cần học chia</td></tr>
+<tr><td class="gk">ἐστάλθαι</td><td class="tr">estálthai</td><td class="em">to have been arrayed</td><td>được điểm trang</td><td><strong>học mặt</strong>: nguyên mẫu aorist bị động của <span class="gk">στέλλω</span> &quot;gửi; trang điểm, cắt đặt&quot; – dạng Attic hóa của <span class="gk">σταλῆναι</span> (đuôi bị động <span class="gk">-θηναι</span> co lại <span class="gk">-θαι</span> sau thân âm <span class="gk">-λ-</span>); ở đây: &quot;cả hai đã được điểm trang như nhau&quot;</td></tr>
+<tr><td class="gk">φάναι</td><td class="tr">phánai</td><td class="em">to say (aorist)</td><td>nói (một lần)</td><td><strong>aorist nguyên mẫu của <span class="gk">φημί</span></strong> &quot;nói&quot; – bất quy tắc hoàn toàn (thân <span class="gk">φη-</span> hiện tại, thân <span class="gk">φα-</span> aorist); mở đường cho nhóm động từ bất quy tắc của phần sau; cặp <span class="gk">ἔφη</span> / <span class="gk">φάναι</span> trong bài là MỘT động từ, hai thời</td></tr>
+</tbody>
+</table>
+
+<div class="info">
+<p><strong>Hiện tượng mới – số đôi (dual):</strong> <span class="gk">αὐτοῖν</span> không phải số nhiều mà là <strong>tặng cách số đôi</strong> – dành riêng cho đúng hai người/vật; <span class="gk">ἄμφω</span> &quot;cả hai&quot; là đại từ đôi. Tiếng Hy Lạp cổ giữ lại số đôi rải rác trong văn xuôi Attic (Plato, Arrian), còn tiếng Latinh và các tiếng con đã bỏ từ sớm. Hôm nay chỉ cần <strong>nhận diện</strong> ba khuôn: danh từ đôi cách chủ <span class="gk">-ω</span> (hai người/vật), tặng/sở hữu <span class="gk">-οῖν</span>; động từ chỉ còn một đuôi đôi thực dụng <span class="gk">-ε</span> (ngôi đôi); và hai từ vựng chuyên kéo số đôi: <span class="gk">ἄμφω</span>, <span class="gk">ἀμφοτέρω</span> &quot;cả hai&quot;. Thấy <span class="gk">-οῖν</span> hay <span class="gk">ἄμφω</span> mà quanh đó có một danh từ đuôi <span class="gk">-ω</span> – hãy tách dịch số đôi, đừng gộp vào số nhiều.</p>
+</div>
+
+<p style="margin-bottom:6px;"><strong>Bản đọc (gần nguyên văn, chỗ lược đánh dấu <span class="gk">…</span>):</strong></p>
+<p class="gk" style="font-size:1.15em; line-height:1.9;">τῇ δὲ ὑστεραίᾳ, καίπερ τετρωμένος τὸν μηρὸν ξίφει Ἀλέξανδρος, ὁ δὲ τοὺς τραυματίας ἐπῆλθε, καὶ τοὺς νεκροὺς ξυναγαγὼν ἔθαψε μεγαλοπρεπῶς ξὺν τῇ δυνάμει πάσῃ ἐκτεταγμένῃ, ὡς λαμπρότατα ἐς πόλεμον· καὶ χρημάτων ἐπιδόσει ὡς ἑκάστους ξὺν τῇ ἀξίᾳ ἐτίμησεν. … ὁ δὲ οὐδὲ τῆς μητρὸς τῆς Δαρείου οὐδὲ τῆς γυναικὸς ἢ τῶν παίδων ἠμέλησεν. ἀλλὰ λέγουσί τινες τῶν τὰ Ἀλεξάνδρου γραψάντων τῆς νυκτὸς αὐτῆς, ᾗ ἀπὸ τῆς διώξεως τῆς Δαρείου ἐπανῆκεν, ἐς τὴν σκηνὴν παρελθόντα αὐτὸν τὴν Δαρείου, ἥτις αὐτῷ ἐξῃρημένη ἦν, ἀκοῦσαι γυναικῶν οἰμωγὴν καὶ ἄλλον τοιοῦτον θόρυβον οὐ πόρρω τῆς σκηνῆς· πυθέσθαι οὖν αἵτινες γυναῖκες καὶ ἀνθ᾽ ὅτου οὕτως ἐγγὺς παρασκηνοῦσι· καί τινα ἐξαγγεῖλαι ὅτι ὦ βασιλεῦ, ἡ μήτηρ τε καὶ ἡ γυνὴ Δαρείου καὶ οἱ παῖδες, ὡς ἐξηγγέλθη αὐταῖς ὅτι τὸ τόξον τε τοῦ Δαρείου ἔχεις καὶ τὸν κάνδυν τὸν βασιλικόν…, ὡς ἐπὶ τεθνεῶτι Δαρείῳ ἀνοιμώζουσιν. ταῦτα ἀκούσαντα Ἀλέξανδρον πέμψαι πρὸς αὐτὰς Λεοννάτον, ἕνα τῶν ἑταίρων, ἐντειλάμενον φράσαι ὅτι ζῇ Δαρεῖος, καὶ ὅτι τὴν θεραπείαν αὐταῖς ξυγχωρεῖ Ἀλέξανδρος τὴν βασιλικήν…, καὶ καλεῖσθαι βασιλίσσας. λόγος δὲ ἔχει καὶ αὐτὸν Ἀλέξανδρον τῇ ὑστεραίᾳ ἐλθεῖν εἴσω ξὺν Ἡφαιστίωνι μόνῳ τῶν ἑταίρων· καὶ τὴν μητέρα τὴν Δαρείου ἀμφιγνοήσασαν ὅστις ὁ βασιλεὺς εἴη αὐτοῖν, ἐστάλθαι γὰρ ἄμφω τῷ αὐτῷ κόσμῳ, τὴν δὲ Ἡφαιστίωνι προσελθεῖν καὶ προσκυνῆσαι, ὅτι μείζων ἐφάνη ἐκεῖνος. ὡς δὲ ὁ Ἡφαιστίων τε ὀπίσω ὑπεχώρησε καὶ τις τῶν ἀμφ᾽ αὐτήν, τὸν Ἀλέξανδρον δείξας, ἐκεῖνον ἔφη εἶναι Ἀλέξανδρον, τὴν μὲν καταιδεσθεῖσαν τῇ διαμαρτίᾳ ὑποχωρεῖν, Ἀλέξανδρον δὲ οὐ φάναι αὐτὴν ἁμαρτεῖν· καὶ γὰρ ἐκεῖνον εἶναι Ἀλέξανδρον. καὶ ταῦτα ἐγὼ οὔθ᾽ ὡς ἀληθῆ οὔτε ὡς πάντῃ ἄπιστα ἀνέγραψα.</p>
+<p class="tr">têi dè hysteraíāi, káiper tetrōménos tòn mēròn xíphei Álexandros, ho dè toùs traumátias epêlthe, kaì toùs nekroùs xynagagṓn éthapse megaloprepôs xỳn têi dynámei pásēi ektetagménēi, hōs lamprótata es pólemon· kaì chrēmátōn epidósei hōs hekástous xỳn têi axíāi etímēsen. … ho dè oudè tês mētròs tês Dareíou oudè tês gynaikòs ē tôn paídōn ēmelēsen. allà légousí tines tôn tà Alexandrou grapsántōn tês nyktòs autês, hēi apò tês diṓxeōs tês Dareíou epanêken, es tḕn skēnḕn parelthónta autòn tḕn Dareíou, hétis autôi exēirēménē ên, akoûsai gynaikôn oimōgḕn kaì állon toioûton thórybon ou porrṓ tês skēnês· pythésthai oûn haítines gynaîkes kaì anth' hótou hoútō engỳs paraskēnoûsi· kaí tina exangeîlai hóti ṓ basileû, hē mḗtēr te kaì hē gynḕ Dareíou kaì hoi paîdes, hōs exēngélthē autais hóti tò tóxon te toû Dareíou ékheis kaì tòn kándyn tòn basilikón…, hōs epì technéonti Dareíōi anoimṓzousin. taûta akoûsanta Álexandron pempsai pròs autàs Leonnátōn, héna tôn hetaírōn, enteilámenon phrásai hóti zêi Dareîos, kaì hóti tḕn therapeían autais xyngkhōreî Álexandros tḕn basilikḕn…, kaì kaleîsthai basilíssas. lógos dè échei kaì autòn Álexandron têi hysteraíāi eltheîn eîsō xỳn Hēphaistíoni mónoi tôn hetaírōn· kaì tḕn mētéra tḕn Dareíou amphiginoḗsasan hóstis ho basileùs eíē autoîn, estálthai gàr ámphō tōi autōi kósmōi, tḕn dè Hēphaistíoni proseltheîn kaì proskynêsai, hóti meízōn ephánē ekeînos. hōs dè ho Hēphaistíōn te opísō hypechṓrēse kaì tis tôn amph' autḕn, tòn Álexandron deíxas, ekeînon éphē eînai Álexandron, tḕn mèn kataidestheîsan têi diamartíāi hypochōreîn, Álexandron dè ou phánai autḕn hamarteîn· kaì gàr ekeînon eînai Álexandron. kaì taûta egō oúth' hōs alēthê oúte hōs pántēi apista anégrapsa.</p>
+
+<p><strong>Dịch:</strong> Ngày hôm sau, tuy bị thương ở đùi vì gươm, Alexander đi thăm những người bị thương; sau khi tập hợp lại những người chết, chàng chôn họ rất long trọng, với toàn quân xếp hàng chỉnh tề như dàn vào trận đẹp nhất; và chàng trao thưởng, tôn vinh từng người xứng theo phẩm hạnh. ... Chàng cũng không làm ngơ mẹ, vợ và các con của Darius. Nhưng có người trong số những kẻ chép chuyện Alexander kể rằng: chính đêm ấy, đêm chàng trở về từ cuộc đuổi bắt Darius, bước vào trại của Darius – thứ đã được giữ riêng cho chàng – chàng nghe (theo lời chép) tiếng khóc than của đám đàn bà và những ồn ào khác như thế, không xa chiếc trại; bèn hỏi là những người đàn bà nào, và cớ gì mà cắm trại gần đến thế; và có kẻ loan báo rằng: thưa đức vua, mẹ và vợ của Darius cùng các con, khi được tin báo rằng ngài giữ cây cung của Darius và chiếc áo hiệu hoàng gia..., đang than khóc như thể Darius đã chết. Nghe vậy (người ta kể) Alexander sai Leonnatos, một người trong hàng bạn hữu, đến với các bà, dặn nói rằng Darius còn sống, và rằng Alexander cho các bà giữ nguyên đoàn hầu cận hoàng gia..., và rằng các bà được gọi là các nữ hoàng. Truyện còn kể rằng chính Alexander hôm sau bước vào trong, chỉ cùng một mình Hephaestion trong hàng bạn hữu; và mẹ của Darius, phân vân không rõ ai trong hai kẻ là vua – vì cả hai được điểm trang như nhau – đã đến với Hephaestion và quỳ lạy, vì y trông to xác hơn. Khi Hephaestion lùi lại, và một kẻ trong đám hầu bà chỉ Alexander, nói rằng kẻ ấy mới là Alexander, thì bà xấu hổ vì cớ nhầm lẫn mà lùi bước; còn Alexander nói rằng bà chẳng nhầm: y cũng là Alexander. Còn chuyện này, tôi chép lại không phải như điều chắc thật, cũng không phải như điều hoàn toàn không đáng tin.</p>
+
+<p><strong>Phân tích nhanh (kiểm tra bằng công cụ của bài):</strong></p>
+<ul>
+<li><span class="gk">ἀκοῦσαι… πυθέσθαι… ἐξαγγεῖλαι… πέμψαι</span> – bốn nguyên mẫu aorist nối nhau: toàn bộ cảnh đêm là một <strong>chuỗi AcI sau nhịp secondary</strong> (<span class="gk">λέγουσί τινες</span> &quot;có người kể rằng&quot;) – &quot;người ta kể rằng chàng ĐÃ nghe, ĐÃ hỏi, ĐÃ được tin báo, ĐÃ sai đi&quot;. Đồng hồ mục 2: mọi sự việc xẩy ra trước hành động &quot;kể&quot;, nên thời aorist.</li>
+<li><span class="gk">πυθέσθαι αἵτινες γυναῖκες καὶ ἀνθ᾽ ὅτου</span> – <strong>câu hỏi gián tiếp kép</strong> (mục 6): &quot;là những người đàn bà nào, và cớ gì&quot; – mẫu <span class="gk">ἅτις</span> ở cửa thứ nhất, <span class="gk">ἀνθ᾽ ὅτου</span> (&quot;đứng vì cớ gì&quot;) ở cửa thứ hai. <span class="gk">πυθέσθαι</span> là nguyên mẫu aorist của <span class="gk">πυνθάνομαι</span> (vocab hôm nay) – động từ deponent, aorist <span class="gk">ἐπυθόμην</span>.</li>
+<li><span class="gk">ἐξαγγεῖλαι ὅτι ὦ βασιλεῦ… ἔχεις… ἀνοιμώζουσιν</span> – <strong>lời khóc được trích nguyên văn</strong>: xưng hô <span class="gk">ὦ βασιλεῦ</span> và ngôi 2 <span class="gk">ἔχεις</span> &quot;ngài giữ&quot; cho thấy đây là lời nói trực tiếp đặt vào trong <span class="gk">ὅτι</span> – nhân vật nói chuyện với Alexander, còn người kể chuyện kể lại nguyên câu. So sánh: chính các cụm trước đó (<span class="gk">ἀκοῦσαι, πυθέσθαι</span>) đã dịch sang AcI. <strong>Một câu, hai tầng xử lý.</strong></li>
+<li><span class="gk">ὡς ἐπὶ τεθνεῶτι Δαρείῳ ἀνοιμώζουσιν</span> – <span class="gk">ὡς</span> &quot;như thể rằng&quot; + tặng cách participle hoàn thành <span class="gk">τεθνεῶτι</span> &quot;đã chết (và còn chết)&quot; của <span class="gk">θνῄσκω</span>: các bà khóc <em>dựa trên trạng thái</em> &quot;đã chết&quot; – hoàn thành vì là trạng thái còn giữ, không phải việc một lần. Participle là mồi cho bài 19; hôm nay đọc như tính từ &quot;đã-chết&quot; theo <span class="gk">Δαρείῳ</span>.</li>
+<li><span class="gk">ἐντειλάμενον φράσαι ὅτι ζῇ Δαρεῖος, καὶ ὅτι… ξυγχωρεῖ Ἀλέξανδρος…, καὶ καλεῖσθαι βασιλίσσας</span> – <strong>hai cửa mở cạnh nhau, lần thứ hai trong ngày</strong>: lời dặn được kể lẫn lẫn giữa <span class="gk">ὅτι</span> + chỉ định giữ (<span class="gk">ζῇ</span>, <span class="gk">ξυγχωρεῖ</span> – hiện tại giữ, vì còn đúng mãi) và nguyên mẫu thuần (<span class="gk">καλεῖσθαι</span> &quot;được gọi là&quot;). Đọc văn thật sẽ gặp chuỗi tạp này liên tục – bảng phân định mục 8 là bản đồ sống còn.</li>
+<li><span class="gk">λόγος δὲ ἔχει</span> &quot;truyện kể rằng&quot; – động từ dẫn nấp: chủ ngữ là <span class="gk">ὁ λόγος</span>, nhưng cấu trúc phía sau là AcI thuần (<span class="gk">ἐλθεῖν, ἀμφιγνοήσασαν, ἐστάλθαι, προσελθεῖν, προσκυνῆσαι, ὑποχωρεῖν</span>): kể về chuyện xẩy ra trước. Gặp <span class="gk">λόγος ἔχει</span> – hãy nghĩ ngay &quot;AcI sắp đến&quot;.</li>
+<li><span class="gk">ὅστις ὁ βασιλεὺς εἴη αὐτοῖν</span> – <strong>câu hỏi gián tiếp + thức</strong>: sau <span class="gk">λόγος ἔχει</span> (nhịp secondary) mệnh đề con lùi một bậc: giả định optative <span class="gk">εἴη</span> (bài 17, chuỗi thời–thức). Và <span class="gk">αὐτοῖν</span> là tặng cách <strong>số đôi</strong>: &quot;ai trong hai kẻ là vua&quot;. <span class="gk">ἐστάλθαι γὰρ ἄμφω τῷ αὐτῷ κόσμῳ</span> giải thích bằng một AcI kép (gồm <span class="gk">ἄμφω</span> &quot;cả hai&quot; số đôi) – câu đố lịch sử nổi tiếng của đoạn văn này: hai người đội cùng một bộ điểm trang, ai là vua?</li>
+<li><span class="gk">ἐκεῖνον ἔφη εἶναι Ἀλέξανδρον… οὐ φάναι αὐτὴν ἁμαρτεῖν</span> – cặp <strong>hai thời của một động từ</strong> <span class="gk">φημί</span>: imperfect <span class="gk">ἔφη</span> dẫn AcI hiện tại <span class="gk">εἶναι</span> (đang-có-lẽ), còn <span class="gk">φάναι</span> (aorist nguyên mẫu của chính <span class="gk">φημί</span>, bất quy tắc) dẫn <span class="gk">ἁμαρτεῖν</span>. Câu chốt: &quot;bà chẳng nhầm: y cũng là Alexander&quot; – cách Alexander tâu chuyện với Sisygambis, được Arrian chép lại như một khối AcI nguyên vẹn.</li>
+<li><span class="gk">τὴν μὲν καταιδεσθεῖσαν τῇ διαμαρτίᾳ ὑποχωρεῖν</span> – participle aorist <span class="gk">καταιδεσθεῖσαν</span> chia theo đối cách chủ thể <span class="gk">τὴν</span> (bà mẹ), cặp với nguyên mẫu hiện tại <span class="gk">ὑποχωρεῖν</span> &quot;lùi bước&quot;: cùng khuôn dạng với <span class="gk">κληψομένους</span> ở Bài đọc I – <strong>đối cách + participle</strong>, lần nữa là mồi cho bài 19.</li>
+<li><span class="gk">καὶ ταῦτα ἐγὼ οὔθ᾽ ὡς ἀληθῆ οὔτε ὡς πάντῃ ἄπιστα ἀνέγραψα</span> – Arrian kết thúc bằng lời khai của một sử gia: &quot;tôi chép lại chuyện này, không phải như điều chắc thật, cũng không như điều hoàn toàn không đáng tin&quot; – <span class="gk">οὔτε… οὔτε</span> (bài 11), <span class="gk">ὡς</span> + danh cách &quot;như là…&quot;, và <span class="gk">ἀνέγραψα</span> aorist chủ động &quot;đã ghi chép&quot;. Một dòng kiểu mẫu của thể tường thuật sử học: đằng trước là thiên tài huyền thoại, đằng sau là người thợ ghi chép cẩn trọng.</li>
+</ul>
+
+<h2 id="vocab">11. Từ vựng trọng tâm</h2>
+
+<p><span class="star">★</span> = từ bắt buộc nhớ. Hôm nay chia vocab thành bốn khối: <em>liên từ &amp; đại từ hỏi</em> (hai cánh cửa của mục 6), <em>động từ hỏi &amp; truyền lệnh</em> (những động từ dẫn đầu câu hỏi / mệnh lệnh gián tiếp), <em>động từ của thư từ – trận đánh</em> (chính từ trong hai bức thư Arrian), <em>danh từ của sân khấu Arrian</em> (đại sứ – trại – chiến hữu – trận đánh).</p>
+
+<h3>Liên từ &amp; đại từ hỏi</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> εἰ</td><td class="tr">ei</td><td class="em">if / whether</td><td>nếu / liệu… không</td><td>hai nghề (mục 6): đứng đầu mệnh đề điều kiện = &quot;nếu&quot; (bài 4); đứng sau động từ hỏi / không biết / tỏ = <strong>câu hỏi gián tiếp</strong> &quot;liệu… không&quot; (<span class="gk">φράζε εἴ του δέῃ</span> bài đọc I); họ hàng xa: <span class="gk">εἴθε</span> &quot;giá mà&quot; (bài 17)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὅστις, ἥτις, ὅ τι</td><td class="tr">hóstis, hétis, hó ti</td><td class="em">whoever / who (indirect)</td><td>bất kể ai / ai (trong câu hỏi gián tiếp)</td><td>ghép <span class="gk">ὅς</span> + <span class="gk">τις</span> thành một từ (accent duy nhất trên <span class="gk">ὅ-</span>); hai nghề: quan hệ bất định &quot;bất kể ai, bất kể điều gì&quot; (thường kéo theo <span class="gk">ἄν</span>, mục 7) và mở câu hỏi gián tiếp (<span class="gk">ὅστις ὁ βασιλεὺς εἴη</span> bài đọc II); viết tách <span class="gk">ὅ,τι</span> (dấu phảy) = &quot;điều mà&quot; – tam thể của confusables cuối bài</td></tr>
+</tbody>
+</table>
+
+<h3>Động từ hỏi &amp; truyền lệnh</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ἐρωτάω</td><td class="tr">erōtáō</td><td class="em">to ask (a person)</td><td>hỏi (ai đó)</td><td>&quot;hỏi lời&quot; – hỏi một người, hỏi một câu; đối lập với <span class="gk">αἰτέω</span> &quot;xin đồ&quot; (bài 17 vocab): <span class="gk">ἐρωτῶ τί ποιεῖς</span> vs <span class="gk">αἰτῶ χρήματα</span>; là động từ dẫn chuẩn của câu hỏi gián tiếp: <span class="gk">ἠρώτησε ὅστις εἴη</span> &quot;y hỏi rằng ai là…&quot; (mục 6)</td></tr>
+<tr><td class="gk"><span class="star">★</span> πυνθάνομαι</td><td class="tr">pynthánomai</td><td class="em">to inquire, ask about</td><td>hỏi cho ra, dọ hỏi</td><td>deponent; aorist <span class="gk">ἐπυθόμην</span>, nguyên mẫu <span class="gk">πυθέσθαι</span> (bài đọc II: <span class="gk">πυθέσθαι αἵτινες γυναῖκες</span>); nghĩa đậm hơn <span class="gk">ἐρωτάω</span>: không chỉ hỏi một câu, mà tra hỏi để moi cho ra thông tin; câu hỏi kép <span class="gk">πυθέσθαι αἵτινες γυναῖκες καὶ ἀνθ᾽ ὅτου</span> của Arrian là ví mẫu sống</td></tr>
+<tr><td class="gk"><span class="star">★</span> οἶδα, εἰδέναι</td><td class="tr">oîda, eidénai</td><td class="em">to know</td><td>biết</td><td><strong>hoàn thành có nghĩa hiện tại</strong>: dạng <span class="gk">οἶδα</span> &quot;tôi biết&quot; nhưng khuôn là hoàn thành của một động từ &quot;đã thấy&quot; (<span class="gk">ὁράω</span> họ xa) – &quot;tôi đã thấy, nên tôi biết&quot;; như thế <span class="gk">οἶδα</span> là &quot;twin&quot; của Latinh <em>nōvī</em>; nguyên mẫu <span class="gk">εἰδέναι</span> thường mở đầu AcI: <span class="gk">οὐκ οἶδα ὅστις ἐστίν</span> &quot;ta không biết ai đang là…&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἐντέλλομαι</td><td class="tr">entéllomai</td><td class="em">to enjoin, command</td><td>truyền lệnh, dặn dò</td><td>deponent + <strong>tặng cách người nhận lệnh</strong> (<span class="gk">ἐντέλλομαί σοι</span> &quot;ta dặn ngươi&quot;) + thường đôi nguyên mẫu / ὅτι; aorist <span class="gk">ἐνετειλάμην</span>, participle <span class="gk">ἐντειλάμενος</span> đúng trong bài đọc II; danh từ <span class="gk">ἡ ἐντολή</span> &quot;lệnh truyền&quot; – từ kinh-thánh học quen thuộc (Latinh hóa <em>entolē</em>)</td></tr>
+<tr><td class="gk"><span class="star">★</span> κελεύω</td><td class="tr">keleúō</td><td class="em">to order, command</td><td>ra lệnh, sai khiến</td><td>động từ dẫn chuẩn của <strong>mệnh lệnh gián tiếp</strong> (mục 4): <span class="gk">κελεύσαι αὐτὸν ἰέναι</span> &quot;ra lệnh cho y đi&quot; – đối cách + nguyên mẫu; đối lập với <span class="gk">ἐντέλλομαι</span> chỉ ở kiểu sang trọng: <span class="gk">κελεύω</span> là lệnh của cấp trên, phổ biến và &quot;thô&quot; hơn</td></tr>
+<tr><td class="gk">φράζω</td><td class="tr">phrázō</td><td class="em">to point out, tell</td><td>tỏ, chỉ bảo, phán bảo</td><td>không ★; aorist <span class="gk">ἔφρασα</span>, nguyên mẫu <span class="gk">φράσαι</span> – đứng ngay trong bài đọc II (<span class="gk">ἐντειλάμενον φράσαι ὅτι…</span>); mệnh lệnh <span class="gk">φράζε</span> &quot;hãy tỏ cho biết!&quot; mở câu hỏi gián tiếp trong thư Alexander (<span class="gk">φράζε εἴ του δέῃ</span>)</td></tr>
+</tbody>
+</table>
+
+<h3>Động từ của thư từ – trận đánh</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> καταβαίνω</td><td class="tr">katabaínō</td><td class="em">to go down, descend</td><td>xuống, đưa quân xuống</td><td><strong>trả nợ bài 17</strong>: <span class="gk">ὑπέλαβές με καταβήσεσθαι</span> – hôm nay gỡ hết: <span class="gk">κατέβην</span> (aorist), <span class="gk">καταβῆναι</span> (aorist nguyên mẫu – &quot;một lần xuống&quot;), <span class="gk">καταβήσομαι</span> (tương lai), <span class="gk">καταβήσεσθαι</span> (tương lai nguyên mẫu – &quot;sẽ xuống&quot;, mục 3); <span class="gk">κατά</span> + <span class="gk">βαίνω</span>; Anh văn học thuật mượn nguyên: <em>katabasis</em> (kể chuyện cuộc hành quân xuống)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἀδικέω</td><td class="tr">adikéō</td><td class="em">to wrong, do injustice</td><td>gây bất công, xử oan</td><td>động từ chính của thư Alexander (<span class="gk">οὐδὲν προηδικημένοι</span>, <span class="gk">ἀδικίας πρῶτος ἦρξεν</span>); họ nguyên vẹn với <span class="gk">τὸ ἄδικον</span> / <span class="gk">ἡ ἀδικία</span> &quot;sự bất công&quot; (bài 15) – toàn bộ gia đình từ một gốc <span class="gk">ἡ δίκη</span> &quot;luật, lẽ công bằng&quot; – giữ đúng nghĩa: <span class="gk">ἀδικεῖν</span> không phải &quot;lỗi lầm&quot; mà là &quot;xử trái lẽ công bằng&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> νικάω</td><td class="tr">nikáō</td><td class="em">to win, conquer</td><td>thắng, đánh bại</td><td>Nike – nữ thần Chiến thắng, tên thương hiệu giày thể thao mượn nguyên; aorist <span class="gk">ἐνίκησα</span>, hoàn thành <span class="gk">νενίκηκα</span> học mặt ở bài đọc I; số nhiều ngôi 3 <span class="gk">νικῶσι(ν)</span> – ngay giữa câu là &quot;họ thắng&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> προσκυνέω</td><td class="tr">proskynéō</td><td class="em">to bow down, worship</td><td>quỳ lạy, hành lễ</td><td><span class="gk">πρός</span> + <span class="gk">κυνέω</span> &quot;hôn tới phía&quot;: hôn đất / hôn tay người trên – nghi lễ triều đình Ba Tư (<em>proskynesis</em> trong Anh văn sử học); trong mắt người Hy Lạp, hành lễ chỉ dành cho thần, nên việc quỳ lạy một người là cú sốc văn hóa – chính mẹ của Darius đã <span class="gk">προσελθεῖν καὶ προσκυνῆσαι</span> nhầm người ở bài đọc II</td></tr>
+<tr><td class="gk">ἀγωνίζομαι</td><td class="tr">agōnízomai</td><td class="em">to contend, struggle</td><td>đấu, tranh đấu</td><td>không ★; deponent, gốc <span class="gk">ὁ ἀγών</span> &quot;cuộc thi đấu, giờ phút nguy cấp&quot; – Anh &quot;agonize&quot; đi từ đây, nhưng nghĩa gốc là &quot;đấu hết mình&quot;; trong thư Alexander: <span class="gk">ἀγώνισαι περὶ αὐτῆς</span> &quot;hãy đấu lấy nó (ngôi vua)&quot;</td></tr>
+<tr><td class="gk">ἀντιλέγω</td><td class="tr">antilégō</td><td class="em">to speak against</td><td>tranh cãi, nói chống</td><td>không ★; <span class="gk">ἀντί</span> &quot;đối lại&quot; + <span class="gk">λέγω</span>: cặp minh bạch với <span class="gk">ἀντιλέγειν περὶ τῆς βασιλείας</span> &quot;tranh cãi về ngôi vua&quot; ở bài đọc I; còn trong văn nghị luận: <span class="gk">ἀντιλέγειν τινί</span> + tặng cách &quot;tranh luận với người nào&quot;</td></tr>
+</tbody>
+</table>
+
+<h3>Danh từ của sân khấu Arrian</h3>
+<table>
+<thead><tr><th>Hy Lạp</th><th>Phiên âm</th><th>Tiếng Anh</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὁ πρέσβευς, -έως</td><td class="tr">ho présbeus</td><td class="em">ambassador</td><td>đại sứ, sứ giả</td><td>chia kiểu <span class="gk">βασιλεύς</span> (bài 17): sở hữu cách <span class="gk">πρεσβέως</span>, tặng cách <span class="gk">πρεσβεῖ</span> – nhóm đuôi <span class="gk">-ευς</span> của declension 3; <span class="gk">ἡ πρεσβεία</span> &quot;đoàn sứ bộ, chức đại sứ&quot;; từ mở màn của bài đọc I (<span class="gk">ἀφίκοντο… πρέσβεις</span>)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ σκηνή, -ῆς</td><td class="tr">hē skēnḗ</td><td class="em">tent; stage</td><td>trại, lều; (nhà hát) sân khấu</td><td>từ &quot;trại của vua&quot; ở chiến trường Arrian (bài đọc II: <span class="gk">ἐς τὴν σκηνὴν τὴν Δαρείου</span>) đến &quot;mặt tiền nhà hát&quot; của Athens – Latinh hóa <em>scena</em> → Anh &quot;scene, scenario, schematic&quot;; động từ phái sinh <span class="gk">παρασκηνοῦσι</span> &quot;cắm trại cạnh&quot; ngay trong bài</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ἑταῖρος, -ου</td><td class="tr">ho hetaîros</td><td class="em">companion, comrade</td><td>chiến hữu, bạn hữu</td><td>chỉ <span class="gk">ἑταῖροι</span> là phiên hiệu của đội kỵ binh thân cận của Alexander – những người duy nhất được vào trại hộ giá (bài đọc II: <span class="gk">ξὺν Ἡφαιστίωνι μόνῳ τῶν ἑταίρων</span>); đừng lẫn với <span class="gk">ἑταίρα</span> &quot;nữ bạn đồng hành (hát rum, hầu chuyện)&quot; – chỉ khác đuôi giống, khác hẳn xã hội</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ μάχη, -ης</td><td class="tr">hē mákhē</td><td class="em">battle</td><td>trận đánh</td><td>cùng gốc với động từ <span class="gk">μάχομαι</span> &quot;đánh&quot; (đã học mặt ở bài 13); anh văn lấy đuôi này làm hậu tố ghép: <em>-machy</em> &quot;trận đánh của…&quot;; trong hai bài đọc: <span class="gk">τὴν μὲν δὴ μάχην</span>, <span class="gk">ἐπεὶ δὲ μάχῃ νενίκηκα</span> – trường hợp (một) trận đánh xác định thì có mạo từ</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Ghi nhớ cả khối theo &quot;câu cửa sổ&quot; của Arrian:</strong> <span class="gk">οἶδα ὅστις ὁ βασιλεὺς εἴη</span> – sáu từ chứa ba mục bài: <span class="gk">οἶδα</span> (động từ dẫn hoàn thành-nghĩa-hiện-tại), <span class="gk">ὅστις… εἴη</span> (câu hỏi gián tiếp + optative sau nhịp secondary), và ngôi danh từ bất quy tắc. Học xong vocab, hãy nhẩm lại câu này một lần: biết một câu cửa sổ hơn học mười từ rời.</p>
+</div>
+
+<h2 id="confusables">12. Bảng tổng hợp so sánh các điểm dễ nhầm</h2>
+
+<table>
+<thead><tr><th>Cặp / nhóm dễ nhầm</th><th>Khác biệt cốt lõi</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">τίς / τί</span> vs <span class="gk">τις / τι</span></td><td>accent trên âm tiết đầu = từ hỏi &quot;ai? cái gì?&quot;; không accent (enclitic) = bất định &quot;một kẻ nào, một cái gì&quot;. Trong câu hỏi gián tiếp, từ hỏi vẫn giữ accent (<span class="gk">πυθέσθαι αἵτινες γυναῖκες</span>)</td><td>Thử thêm dấu hỏi hồ nước: câu dịch được thành &quot;…ai? / …gì?&quot; → có accent; chỉ &quot;một người nào đó&quot; → enclitic. Enclitic luôn &quot;nhựa&quot; để hắt vào từ đứng trước</td></tr>
+<tr><td><span class="gk">πῶς</span> vs <span class="gk">πως</span></td><td>accent = trạng từ hỏi &quot;làm thế nào?&quot; (cả trong câu hỏi gián tiếp, mục 6); không accent = &quot;theo một cách nào đó, kiểu gì&quot; – cùng cặp khuôn với <span class="gk">τίς/τις</span></td><td>Động từ dẫn thuộc nhóm hỏi / không biết → <span class="gk">πῶς</span>; kể chuyện bình thường → <span class="gk">πως</span>. Bộ đôi <span class="gk">ποῦ/που</span>, <span class="gk">πότε/ποτε</span> rập cùng một khung</td></tr>
+<tr><td><span class="gk">εἰ</span> – ba đời một chữ</td><td>(1) đầu mệnh đề độc lập = điều kiện &quot;nếu&quot; (bài 4); (2) sau động từ hỏi / biết / không biết = câu hỏi gián tiếp &quot;liệu… không&quot; (mục 6); (3) khoác <span class="gk">-θε</span> (<span class="gk">εἴθε</span>) hoặc đứng với <span class="gk">γάρ</span> = lời ước &quot;giá mà&quot; (bài 17)</td><td>Luôn hỏi <em>động từ dẫn</em> trước: hỏi / biết / không biết → &quot;liệu… không&quot;; không có → &quot;nếu&quot;. Chữ <span class="gk">εἴθε</span> mang sẵn mùi &quot;ước&quot; nên không bao giờ lầm với điều kiện</td></tr>
+<tr><td><span class="gk">ὅστις</span> hỏi gián tiếp vs <span class="gk">ὅστις</span> quan hệ vs <span class="gk">ὅ,τι</span></td><td>sau động từ hỏi = &quot;ai (trong câu hỏi gián tiếp)&quot; (<span class="gk">ὅστις ὁ βασιλεὺς εἴη</span>); sau danh từ, thường có <span class="gk">ἄν</span> = quan hệ bất định &quot;bất kể ai&quot; (<span class="gk">ὅ τι ἂν πείθῃς</span>); viết tách với dấu phảy <span class="gk">ὅ,τι</span> = &quot;điều mà&quot;</td><td>Ba câu hỏi bản lề: động từ dẫn có thuộc nhóm hỏi không? Có <span class="gk">ἄν</span> không? Có dấu phảy giữa <span class="gk">ὅ</span> và <span class="gk">τι</span> không? Ba câu trả lời quyết hết ba cửa</td></tr>
+<tr><td><span class="gk">καταβῆναι</span> vs <span class="gk">καταβήσεσθαι</span></td><td>aorist nguyên mẫu &quot;một lần đã / đã từng xuống&quot; (đuôi <span class="gk">-ῆναι</span>) vs nguyên mẫu tương lai &quot;sẽ xuống&quot; (đuôi <span class="gk">-σεσθαι</span>) – cặp bài 17 đã preview, hôm nay gỡ (mục 3)</td><td>Soi đuôi trước khi soi accent: <span class="gk">-σεσθαι</span> chứa chữ <span class="gk">σ</span> của thân tương lai – &quot;s&quot; của &quot;sẽ&quot;. Còn thấy <span class="gk">-ῆναι</span> mà thân không hở thì nghi aorist bị động (<span class="gk">κριθῆναι</span>)</td></tr>
+<tr><td><span class="gk">μένειν</span> vs <span class="gk">μενεῖν</span></td><td>cùng ba chữ, khác mỗi vạch accent: hiện tại nguyên mẫu &quot;đang / thường ở lại&quot; (accent trên <span class="gk">μέ</span>) vs tương lai nguyên mẫu &quot;sẽ ở lại&quot; (circumflex trên <span class="gk">εῖ</span>)</td><td>Accent là điểm khác duy nhất – không có cách nào khác ngoài học thuộc cặp này. Chỉ động từ nhóm contract <span class="gk">-έω</span> mới có cặp trùng vỏ thế này (<span class="gk">ποιεῖν / ποιεῖν</span> cùng khuôn); với <span class="gk">λύω</span>, tương lai lộ rõ thêm <span class="gk">σ</span> (<span class="gk">λύειν / λύσειν</span>) nên khó lầm hơn</td></tr>
+<tr><td><span class="gk">λύσειν / λῦσαι / λύσιν</span> – tam thể accent</td><td>tương lai nguyên mẫu &quot;sẽ cởi&quot; (accent trên <span class="gk">ύ</span> + <span class="gk">-σειν</span>); aorist nguyên mẫu &quot;một lần cởi&quot; (circumflex <span class="gk">ῦ</span> + <span class="gk">-σαι</span>); danh từ &quot;sự cởi, cuộc giải phóng&quot; (<span class="gk">ἡ λύσις</span> acc <span class="gk">λύσιν</span>)</td><td>Bóc từ phải: <span class="gk">-σειν</span> → tương lai; <span class="gk">-σαι</span> → aorist (nếu đứng sau động từ, không phải optative <span class="gk">λύσαι</span> cùng dạng); <span class="gk">-σιν</span> có mạo từ đi trước → danh từ. Accent: vạch ngang = thời, vòng = aorist</td></tr>
+<tr><td><span class="gk">ᾖς</span> vs <span class="gk">εἴης</span></td><td>hai vạch, hai nhà: <span class="gk">ᾖς</span> = giả định ngôi 2 số ít của <span class="gk">εἰμί</span> (iota chìm, accent trên <span class="gk">η</span>) – &quot;(nếu) ngươi là&quot;; <span class="gk">εἴης</span> = optative ngôi 2 số ít – &quot;ngươi hẳn là / mong ngươi là&quot;. Trong thư Alexander gặp <span class="gk">οὗ ἂν ᾖς</span> (giả định sau <span class="gk">ἄν</span>)</td><td>Đếm vạch: một dấu (iota chìm) = giả định; hai vạch (iota + accent treo) = optative. Cặp bài 17: <span class="gk">εἴη</span> chúc &quot;mong là&quot; cũng cùng khuôn optative</td></tr>
+<tr><td><span class="gk">μὴ</span> + nguyên mẫu vs <span class="gk">οὐ</span> + nguyên mẫu</td><td><span class="gk">μὴ</span> + inf = mệnh lệnh gián tiếp phủ định &quot;kẻo / đừng&quot; (<span class="gk">μὴ διαλέγεσθαι ὑπὲρ μηδενός</span>, mục 4); <span class="gk">οὐ</span> + inf = phủ định nội dung được kể / khẳng định &quot;rằng không&quot; (<span class="gk">Ἀλέξανδρον δὲ οὐ φάναι αὐτὴν ἁμαρτεῖν</span>)</td><td>Hỏi: chữ phủ định thuộc về <em>lời lệnh</em> hay thuộc về <em>nội dung tin</em>? Lệnh → <span class="gk">μὴ</span>; tin → <span class="gk">οὐ</span>. Cùng logic <span class="gk">μὴ</span> mệnh lệnh (bài 4) và <span class="gk">μὴ</span> &quot;kẻo&quot; sau động từ sợ (bài đọc I)</td></tr>
+<tr><td><span class="gk">φάναι</span> vs <span class="gk">φαίνω / φαίνομαι</span></td><td><span class="gk">φάναι</span> = aorist nguyên mẫu của <span class="gk">φημί</span> &quot;nói&quot; (bất quy tắc, thân <span class="gk">φα-</span>); <span class="gk">φαίνω</span> = động từ riêng &quot;chiếu ra, làm lộ ra&quot;, middle <span class="gk">φαίνομαι</span> &quot;diện ra, tỏ ra&quot; – hai họ hoàn toàn khác</td><td>Thử thay bằng <span class="gk">ἔφη</span> mà nghĩa giữ được → <span class="gk">φάναι</span> (nói). Trong bài đọc II, cặp <span class="gk">ἔφη / φάναι</span> cùng họ xuất hiện sát nhau – hãy đọc lại chỗ đó một lần nữa cho quen mắt</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">13. Bài tập tự luyện + đáp án</h2>
+<p><em>Đáp án chỉ hiện khi in (Ctrl+P → Save as PDF) – làm xong rồi mới in ra soát.</em></p>
+
+<h3>Bài tập 1 – Mệnh lệnh trực tiếp → gián tiếp</h3>
+<p>Đổi các lệnh trực tiếp sau thành <strong>mệnh lệnh gián tiếp</strong> (động từ dẫn đã cho sẵn; chú ý chọn <span class="gk">μὴ</span> hoặc không, và chọn thời nguyên mẫu):</p>
+<ol>
+<li>ὁ στρατηγὸς κελεύει τοὺς στρατιώτας· &quot;<span class="gk">μένετε ἐν τῇ σκηνῇ</span>.&quot;</li>
+<li>ὁ βασιλεὺς ἐντέλλεται τοῖς ἑταίροις· &quot;<span class="gk">μὴ ἀντιλέγετε τῷ πρεσβεῖ</span>.&quot;</li>
+<li>Ἀλέξανδρος παραγγέλλει αὐτούς· &quot;<span class="gk">ἀγωνίζεσθε περὶ τῆς ἀρχῆς</span>.&quot;</li>
+<li>ὁ στρατηγὸς κελεύει αὐτούς· &quot;<span class="gk">ἔλθετε αὔριον</span>.&quot;</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 1</h4>
+<ol>
+<li class="gk">ὁ στρατηγὸς κελεύει τοὺς στρατιώτας ἐν τῇ σκηνῇ μένειν.</li>
+<li class="gk">ὁ βασιλεὺς ἐντέλλεται τοῖς ἑταίροις μὴ ἀντιλέγειν τῷ πρεσβεῖ.</li>
+<li class="gk">Ἀλέξανδρος παραγγέλλει αὐτοὺς ἀγωνίζεσθαι περὶ τῆς ἀρχῆς.</li>
+<li class="gk">ὁ στρατηγὸς κελεύει αὐτοὺς αὔριον ἐλθεῖν.</li>
+</ol>
+<p>Ghi chú: khẳng định không cần tiểu từ nào; phủ định bắt buộc <span class="gk">μὴ</span> (mục 4). Thời nguyên mẫu theo loại hành động: &quot;còn ở lại / còn tranh&quot; = hiện tại (<span class="gk">μένειν, ἀγωνίζεσθαι</span> – trạng thái kéo dài); &quot;một lần đến&quot; = aorist (<span class="gk">ἐλθεῖν</span>). Đối lập với câu 4 nguyên bản thư Alexander: <span class="gk">παραγγείλας… μὴ διαλέγεσθαι ὑπὲρ μηδενός</span>.</p>
+</div></div>
+
+<h3>Bài tập 2 – Đồng hồ của nguyên mẫu</h3>
+<p>Điền vào chỗ trống một trong bốn dạng: <span class="gk">ἰέναι / ἐλθεῖν / ἐλεύσεσθαι / ἐληλυθέναι</span> (đến / đã đến / sẽ đến / đã đến rồi-còn-đó), theo thời điểm của hành động so với động từ dẫn:</p>
+<ol>
+<li><span class="gk">λέγουσιν αὐτὸν νῦν ___</span> (hắn đang trong lúc đến, đúng lúc người ta kể)</li>
+<li><span class="gk">ἔφη αὐτὸν αὔριον ___</span> (hắn sẽ đến vào ngày mai, sau lúc kể)</li>
+<li><span class="gk">ἔφη αὐτὸν χθὲς ___</span> (hắn đã đến một lần hôm qua, trước lúc kể)</li>
+<li><span class="gk">οἶδα αὐτὸν ἤδη ___</span> (hắn đã đến rồi và giờ vẫn còn ở đó)</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 2</h4>
+<ol>
+<li class="gk">ἰέναι</li>
+<li class="gk">ἐλεύσεσθαι</li>
+<li class="gk">ἐλθεῖν</li>
+<li class="gk">ἐληλυθέναι</li>
+</ol>
+<p>Ghi chú: bốn kim của đồng hồ mục 2: hiện tại = cùng lúc (<span class="gk">ἰέναι</span> – thân bất quy tắc của <span class="gk">ἔρχομαι</span>), tương lai = sau (<span class="gk">ἐλεύσεσθαι</span>), aorist = trước, một lần (<span class="gk">ἐλθεῖν</span>), hoàn thành = trước, trạng thái còn (<span class="gk">ἐληλυθέναι</span> – khuôn <span class="gk">λελυκέναι</span>). Lưu ý mịn: nếu coi việc đến là một sự kiện trọn, <span class="gk">ἐλθεῖν</span> (aorist) cũng đứng được ở câu 1 – khác biệt nằm ở góc nhìn: &quot;đang trong lúc đến&quot; chọn hiện tại, &quot;một lần đã đến&quot; chọn aorist.</p>
+</div></div>
+
+<h3>Bài tập 3 – Bóc sáu nguyên mẫu lạ</h3>
+<p>Mỗi dạng dưới đây xuất hiện trong hai bài đọc hoặc trong các bảng của bài. Hãy bóc về từ điển: <strong>thời + giọng + động từ gốc + dịch</strong>:</p>
+<ol>
+<li><span class="gk">καταβῆναι</span></li>
+<li><span class="gk">καταβήσεσθαι</span></li>
+<li><span class="gk">γενέσθαι</span></li>
+<li><span class="gk">ἔσεσθαι</span></li>
+<li><span class="gk">φάναι</span></li>
+<li><span class="gk">κριθῆναι</span></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 3</h4>
+<ol>
+<li>aorist chủ động, <span class="gk">καταβαίνω</span> – &quot;một lần đã xuống / đã đưa quân xuống&quot; (đuôi <span class="gk">-ῆναι</span> trên thân aorist 2 <span class="gk">καταβη-</span>)</li>
+<li>nguyên mẫu tương lai, <span class="gk">καταβαίνω</span> – &quot;sẽ xuống&quot; (đuôi <span class="gk">-σεσθαι</span>; bề ngoài là middle, dùng như nguyên mẫu tương lai – mục 3)</li>
+<li>aorist middle, <span class="gk">γίγνομαι</span> – &quot;đã trở thành / đã xẩy ra&quot; (đuôi <span class="gk">-σθαι</span> trên thân <span class="gk">γενη-</span>)</li>
+<li>nguyên mẫu tương lai của <span class="gk">εἰμί</span> – &quot;sẽ là&quot;; <strong>đặc biệt mang augment</strong> <span class="gk">ἐ-</span> (<span class="gk">ἔσεσθαι</span>) – động từ Heavy-duty duy nhất trong bảng tương lai mà có augment</li>
+<li>aorist chủ động, <span class="gk">φημί</span> – &quot;nói (một lần)&quot; – bất quy tắc hoàn toàn, thân <span class="gk">φα-</span> (bài đọc II, vocab)</li>
+<li>aorist bị động, <span class="gk">κρίνω</span> – &quot;đã bị phán / đã bị quyết&quot; (đuôi <span class="gk">-θῆναι</span>, bài 14 – <span class="gk">τὴν μάχην… κριθῆναι</span>)</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 4 – Câu hỏi trực tiếp → gián tiếp</h3>
+<p>Đổi ba câu hỏi trực tiếp sau thành câu hỏi gián tiếp (động từ dẫn cho sẵn; chú ý chuỗi thời–thức, mục 6–7):</p>
+<ol>
+<li>&quot;<span class="gk">τίς εἶ;</span>&quot; → <span class="gk">ἠρώτησεν ὅστις ___</span></li>
+<li>&quot;<span class="gk">τί ποιεῖς;</span>&quot; → <span class="gk">ἠρόμην ὅ τι ___</span></li>
+<li>&quot;<span class="gk">ζῇ Δαρεῖος;</span>&quot; → <span class="gk">οὐκ οἶδα εἰ ___</span></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 4</h4>
+<ol>
+<li class="gk">ἠρώτησεν ὅστις εἴη</li>
+<li class="gk">ἠρόμην ὅ τι ποιοῖ</li>
+<li class="gk">οὐκ οἶδα εἰ ζῇ Δαρεῖος</li>
+</ol>
+<p>Ghi chú: câu 1–2 có động từ dẫn nhịp secondary (<span class="gk">ἠρώτησεν, ἠρόμην</span>) → động từ con &quot;nhích&quot; một bậc thành optative (bài 17): <span class="gk">εἴη</span>, <span class="gk">ποιοῖ</span> (optative contract của <span class="gk">ποιέω</span>). Câu 3 có động từ dẫn nhịp primary (<span class="gk">οἶδα</span> – hoàn thành mang nghĩa hiện tại) → giữ nguyên chỉ định <span class="gk">ζῇ</span>. Và nguyên tắc luôn đúng: từ hỏi gián tiếp ưa <span class="gk">ὅστις / ὅ τι</span>, còn câu hỏi yes/no mở bằng <span class="gk">εἰ</span>.</p>
+</div></div>
+
+<h3>Bài tập 5 – Phân loại: năm cửa của mục 8</h3>
+<p>Mỗi câu dưới đây chứa một cụm <span class="gk">εἰ / ὅστις / ὅτι / ὅ τι</span>. Hãy phân loại: <em>câu hỏi gián tiếp</em>, <em>mệnh đề quan hệ bất định</em>, <em>mệnh đề điều kiện</em>, <em>ὅτι &quot;rằng&quot;</em>, <em>ὅτι &quot;bởi vì&quot;</em>:</p>
+<ol>
+<li><span class="gk">πυθέσθαι αἵτινες γυναῖκες</span></li>
+<li><span class="gk">ὅ τι ἂν πείθῃς ἐμὲ ἔσται σοι</span></li>
+<li><span class="gk">εἰ δὲ φοβῇ μὴ ἐλθὼν πάθῃς τι ἄχαρι</span></li>
+<li><span class="gk">ἐδήλου δὲ ἡ ἐπιστολὴ ὅτι Φίλιππος ἀδικίας πρῶτος ἦρξεν</span></li>
+<li><span class="gk">ὁ πρέσβευς οὐκ ἦλθεν, ὅτι ἠσθένει</span> (câu dựng theo mẫu Arrian)</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 5</h4>
+<ol>
+<li><strong>Câu hỏi gián tiếp</strong>: sau <span class="gk">πυθέσθαι</span> (động từ hỏi); <span class="gk">αἵτινες</span> giữ accent hỏi – &quot;hỏi xem là những người đàn bà nào&quot;.</li>
+<li><strong>Quan hệ bất định</strong>: có <span class="gk">ἄν</span>, không có động từ hỏi – &quot;bất kể điều gì ngươi thuyết phục được ta…&quot;.</li>
+<li><strong>Điều kiện</strong>: <span class="gk">εἰ</span> đầu mệnh đề, không có động từ hỏi phía trước – &quot;nếu ngươi sợ…&quot; (bên trong còn có <span class="gk">μὴ</span> &quot;kẻo&quot; sau động từ sợ).</li>
+<li><strong>ὅτι &quot;rằng&quot;</strong>: theo sau động từ dẫn <span class="gk">ἐδήλου</span> – nội dung của thư; động từ con là chỉ định quá khứ <span class="gk">ἦρξεν</span> được giữ.</li>
+<li><strong>ὅτι &quot;bởi vì&quot;</strong>: không có động từ nói/nghĩ nào – mệnh đề giải thích lý do của hành động, đúng khuôn &quot;người sứ không đến, vì y bị bệnh&quot;.</li>
+</ol>
+<p>Bảng tra giao thông ở mục 8 xử lý cả năm trường hợp này bằng đúng ba câu hỏi bản lề: động từ dẫn là ai? có <span class="gk">ἄν / μὴ</span> không? mệnh đề nối với gì?</p>
+</div></div>
+
+<h3>Bài tập 6 – Dịch sang tiếng Hy Lạp</h3>
+<p>Dịch ba câu sau, dùng đúng cấu trúc của bài (động từ dẫn + mệnh lệnh / câu hỏi gián tiếp / AcI):</p>
+<ol>
+<li>&quot;Vua truyền lệnh cho các chiến hữu: đừng tranh cãi về ngôi vua.&quot;</li>
+<li>&quot;Tôi không biết người phụ nữ ấy là ai.&quot;</li>
+<li>&quot;Y nói rằng Darius đã chết (và giờ vẫn còn chết).&quot;</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 6</h4>
+<ol>
+<li class="gk">ὁ βασιλεὺς ἐντέλλεται τοῖς ἑταίροις μὴ ἀντιλέγειν περὶ τῆς βασιλείας.</li>
+<li class="gk">οὐκ οἶδα ὅστις ἡ γυνή ἐστι(ν).</li>
+<li class="gk">ἔφη τὸν Δαρείον τεθνηκέναι.</li>
+</ol>
+<p>Ghi chú: (1) <span class="gk">ἐντέλλομαι</span> + <strong>tặng cách người nhận lệnh</strong> + <span class="gk">μὴ</span> + nguyên mẫu hiện tại (trạng thái &quot;còn tranh&quot; kéo dài). (2) <span class="gk">οἶδα</span> primary → giữ chỉ định; nếu kể bằng quá khứ thì nhích: <span class="gk">οὐκ ᾔδη ὅστις ἡ γυνὴ εἴη</span>. (3) hoàn thành nguyên mẫu <span class="gk">τεθνηκέναι</span> của <span class="gk">θνῄσκω</span> – &quot;đã chết&quot; như trạng thái còn giữ; chính là họ hàng của participle <span class="gk">τεθνεῶτι</span> đã đọc ở Bài đọc II.</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 18 – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: &quot;Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0&quot; · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Đối chiếu bản đọc: Arrian, Anabasis (Roos, Teubner 1907, qua Perseus Digital Library, public domain).</p>
+
+</main>
+</body>
+</html>
