@@ -420,6 +420,30 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "17-optative-indirect-speech",
+      "num": 17,
+      "level": "graecum-1",
+      "title": "Thức cầu mong (optative); tường thuật gián tiếp; optative tiềm năng",
+      "topics": [
+        "bản đồ bốn thức hoàn chỉnh: optative là thức của 'giá mà'; trả nợ bài 14 (εἶεν, εἰκάζοιμεν, λάβοι); Latin corner: coniunctivus gánh việc ước",
+        "dạng chủ động: quy tắc 'nguyên âm nối + đuôi primary': λύοιμι, λύοις, λύοι...λύοιεν; aorist λύσαιμι...λύσαιεν; optative không bao giờ có augment",
+        "động từ co: ποιῷ, ποιῷς, ποιῶμεν; bẫy ποιῶ trùng chính tả chỉ định lẫn optative; aorist bất quy tắc: εἴποι, γένοιτο, δοθείη, ἴδοιμι",
+        "trung/bị động: λύοιμην, λύοιο, λύοιτο...; aorist bị động λυθείην; εἰμί: εἴην, εἴης, εἴη, εἶμεν, εἶτε, εἶεν; εἶμι: ἴοιμεν",
+        "chiến lược 'bóc' optative: thấy -οι hở cuối, không augment, tiểu từ dẫn đường (εἴθε, ἄν, ὅτι sau quá khứ); bẫy λῦσαι (nguyên mẫu) vs λύσαι (optative)",
+        "lời chúc và nguyền: εἴη, γένοιτο, μὴ γένοιτο; εἴθε / εἰ γάρ + opt; achtung: tiếc điều đã lỡ trong quá khứ thì dùng chỉ định quá khứ (εἰ γὰρ ἀπέθανον)",
+        "optative tiềm năng + ἄν: εὖ ἂν λέγοις 'hẳn thế'; ba loại điều kiện εἰ + chỉ định / ἐάν + subjunctive / εἰ + optative; nhạt tương lai: τί ποιοῖμεν;",
+        "tường thuật gián tiếp: ὅτι/ὡς 'rằng' (động từ dẫn: φημί, ἔφη, ἐλπίζω, νομίζω) vs ὅτι 'bởi vì' vs ὅ,τι 'điều mà'",
+        "chuỗi thời-thức: primary giữ nguyên chỉ định, secondary 'nhích' sang optative (oblique optative không phải lời ước); quá khứ chỉ định giữ nguyên",
+        "bài đọc Aesop: AcI + nguyên mẫu tương lai (ὑπέλαβές με καταβήσεσθαι, preview bài 18), genitive absolute học mặt, augment kép ᾖδεν, hoàn thành m/p πεπλάνησαι"
+      ],
+      "reading": [
+        "Platon, Protagoras 310b-311b, 312d, 318d-319a",
+        "Aesop, Perry 241 (Chambry)"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
