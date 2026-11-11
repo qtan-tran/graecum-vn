@@ -468,6 +468,29 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "19-participle-1",
+      "num": 19,
+      "level": "graecum-1",
+      "title": "Phân từ (participle) I: định ngữ & hoàn cảnh",
+      "topics": [
+        "phân từ = động từ khoác da tính từ: kế thừa thân, thời, giọng; thêm giống-cách-số như tính từ; sổ nợ participle học mặt từ bài 13–18 (εἰπών, ἀκούσας, λαβών, τεθνεῶτι, ληψομένους, ἀμφιγνοήσασαν)",
+        "phân từ hiện tại chủ động: λύων, λύουσα, λῦον đầy đủ 3 giống; động từ contract ποιῶν; quà kèm ὤν, οὖσα, ὄν (gen ὄντος, οὔσης – mồi genitive absolute bài 20)",
+        "phân từ aorist chủ động: λύσας, λύσασα, λῦσαν; thân bất quy tắc λαβών, εἰπών, ἰδών, ἐλθών, ἀγαγών; không augment; tam thể λύσας/λύσαι/λῦσαι",
+        "phân từ trung/dân và perfect: λυόμενος, λυσάμενος, λυθείς, λελυκώς, λελυμένος; deponent chia như chủ động nghĩa bị động",
+        "phân từ hoàn cảnh: 4 nghĩa (khi/vì/mặc dù/bằng cách) + 3 quy tắc cứng: cùng chủ thể, thời tương đối, οὐ phủ định",
+        "phân từ định ngữ & danh từ hóa: mạo từ lặp τοῦ φυλάσσοντος; mạo từ vắng sau giới từ (ἐπὶ τεθνεῶτι Δαρείῳ); τὸ γενόμενον",
+        "đối cách + phân từ (AccP): trả nợ Arrian bài 18 καταιδεσθεῖσαν, ἀμφιγνοήσασαν, ληψομένους; Longos φωράσαντες, δεδηγμένον ἀγαγόντες; Latin corner accusativus cum participio",
+        "phân từ tương lai λύσων: 2 nghề (định ngữ \"sắp\"; sau động từ chuyển động = mục đích: πέμπε... ληψομένους)",
+        "bản đồ 10 khuôn participle 4 thời × 3 hệ đuôi + 4 bước bóc tách",
+        "bài đọc: Longos, Daphnis and Chloe 1,20–21 (Dorcon hóa sói); lịch sử present, λανθάνω + participle"
+      ],
+      "reading": [
+        "Longos, Daphnis and Chloe 1,20–21"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
