@@ -491,6 +491,30 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "20-participle-2",
+      "num": 20,
+      "level": "graecum-1",
+      "title": "Phân từ (participle) II: sở hữu cách tuyệt đối (genitive absolute); phân từ vs nguyên mẫu",
+      "topics": [
+        "sở hữu cách tuyệt đối (genitive absolute): mệnh đề phụ rút gọn thả về sở hữu cách, đứng trơ trụi, không liên từ, không động từ chia; mở khóa ba khoản nợ bài 17–18: προσδραμούσης, Ἀλεξάνδρου ὄντος, τῶν θεῶν μοι δόντων; ngôi sao kinh điển Ἰσθμίων ὄντων",
+        "hình thái: chủ thể khoác sở hữu cách, mười khuôn phân từ bài 19 dùng lại nguyên xi; γενόμεν- khuôn di động; ba bẫy khi xoay về sở hữu cách",
+        "bốn nghĩa của genitive absolute (khi/vì/mặc dù/bằng cách) và đồng hồ thời gian: aorist = trước, hiện tại = cùng lúc",
+        "quy tắc vàng: chủ thể genitive absolute phải khác chủ thể động từ chính; trùng thì dùng phân từ hoàn cảnh chủ cách; bảng so sánh AcI – AccP – GA",
+        "góc Latin: ablativus absolutus làm cùng một việc (urbe captā ↔ ἁλούσης τῆς πόλεως; Caesare interfectō ↔ Καίσαρος ἀναιρεθέντος)",
+        "phân từ và nguyên mẫu: nguyên mẫu không chia chỉ làm tân ngữ; phân từ chia nên bám được mọi chủ thể; cặp ὁρῶ/νομίζω",
+        "genitive absolute trong văn thật: Ἰσθμίων ὄντων, εἰπόντος Ἀρχίνου, ὄντος δέ μοι Πατροκλέους ἐπιτηδείου, κρίσεως γενομένης, Μάχης αὐτοῖς γενομένης; ba giả-GA (sau giới từ, phân từ định ngữ, tặng cách)",
+        "bản đồ quyết định: gặp phân từ hỏi bốn câu (sau giới từ? định ngữ? tân ngữ cảm nhận? gen trơ trụi khác chủ thể?); thang cân 4 nấc",
+        "bài đọc: Dio Chrysostomos Or. 9 (Diogenes ở hội thi Isthmia) §§1, 13–17, 22; Isokrates 18 (trận παραγραφή hậu nội chiến Athens 403)",
+        "gieo trước: Ôn tập #4 (bài 16–20, Anki nhóm 16–20); bài 21 câu điều kiện (Euripides Medeia 230–247; Theophrastos Charaktere)"
+      ],
+      "reading": [
+        "Dio Chrysostomos, Or. 9 (Diogenēs ē Isthmikos) 1, 13–17, 22",
+        "Isokrates 18 (Paragraphos pros Kallimachon)"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
