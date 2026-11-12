@@ -1,6 +1,6 @@
-# Vocab TSV & Anki – Graecum VN (Bài 1–15 + file import cho bài ôn tập)
+# Vocab TSV & Anki – Graecum VN (Bài 1–20 + file import cho bài ôn tập)
 
-Từ vựng trọng tâm của **Lesson 1–15**, trích từ mục "Từ vựng trọng tâm" của từng bài giảng, đóng gói thành hai định dạng:
+Từ vựng trọng tâm của **Lesson 1–20**, trích từ mục "Từ vựng trọng tâm" của từng bài giảng, đóng gói thành hai định dạng:
 
 | File | Nội dung |
 | --- | --- |
@@ -9,6 +9,8 @@ Từ vựng trọng tâm của **Lesson 1–15**, trích từ mục "Từ vựng
 | `anki-06-10.txt` | File import Anki (định dạng text đơn giản) cho **Ôn tập #2** (Bài 6–10): 84 thẻ (69 từ + 15 **thẻ chia dạng**) |
 | `vocab-11-15.tsv` | 111 dòng (96 từ + 15 **thẻ chia dạng**), TSV (UTF-8, tab-separated) – cùng định dạng 8 cột như `vocab-01-10.tsv` |
 | `anki-11-15.txt` | File import Anki (định dạng text đơn giản) cho **Ôn tập #3** (Bài 11–15): 111 thẻ (96 từ + 15 **thẻ chia dạng**) |
+| `vocab-11-20.tsv` | 216 dòng (từ vựng Bài 11–20: 90 từ mới của Bài 16–20 + 15 **thẻ chia dạng** cộng vào cụm 10 bài 11–20), TSV (UTF-8, tab-separated) – cùng định dạng 8 cột như `vocab-01-10.tsv` |
+| `anki-16-20.txt` | File import Anki (định dạng text đơn giản) cho **Ôn tập #4** (Bài 16–20): 104 thẻ (89 từ, từ trùng giữa các bài đã gộp + 15 **thẻ chia dạng**) |
 | `../tools/gen_anki_deck.py` | Script sinh Anki deck `.apkg` (169 thẻ, từ trùng giữa các bài đã gộp, tag theo bài) từ TSV – thuần thư viện chuẩn Python, không cần cài gói ngoài |
 
 Deck `.apkg` không commit dạng binary vào repo; thay vào đó được nhúng base64 ngay trong trang bài ôn tập tương ứng, trình duyệt dựng lại file thật khi người đọc bấm tải về (repo vẫn giữ đúng triết lý "toàn text, inspect được").
@@ -36,7 +38,7 @@ Tag gợi ý khi lọc học:
 Cứ sau mỗi 5 bài, portal xuất bản một **bài ôn tập** (Ôn tập #1 sau Bài 5, Ôn tập #2 sau Bài 10…), mỗi bài kèm **hai file import Anki** cho từ vựng nhóm 5 bài, tùy người học chọn:
 
 - **File đóng gói `.apkg`** (tải trực tiếp từ trang bài ôn tập tương ứng): deck dựng sẵn, **bảo lưu HTML và mã màu** của template – nhấp đúp là import được ngay.
-- **File text `anki-01-05.txt`, `anki-06-10.txt`, `anki-11-15.txt`…**: định dạng đơn giản, mở xem được bằng mọi editor trước khi import vào note type Basic.
+- **File text `anki-01-05.txt`, `anki-06-10.txt`, `anki-11-15.txt`, `anki-16-20.txt`…**: định dạng đơn giản, mở xem được bằng mọi editor trước khi import vào note type Basic.
 
 Cả hai đều dựng sẵn thẻ (mặt trước = từ Hy Lạp, mặt sau = phiên âm Latin + nghĩa tiếng Việt/Anh) và một nhóm nhỏ **thẻ chia dạng**: mặt trước là một dạng đã biến cách/chia (ví dụ `θεραπεύεις`, `σώμασι(ν)`), mặt sau nêu đúng cách, số/ngôi + dạng từ điển + nghĩa.
 
@@ -45,7 +47,7 @@ Cả hai đều dựng sẵn thẻ (mặt trước = từ Hy Lạp, mặt sau = 
 - **File `.apkg`:** tải về từ trang bài ôn tập → nhấp đúp file (hoặc Anki → **File → Import…**) – deck xuất hiện với đầy đủ template màu.
 - **File `.txt`:** tải về (nhấp chuột phải vào link → *Lưu đích dưới dạng…*) → Anki → **File → Import…** (hoặc kéo-thả file vào cửa sổ Anki) → Anki đọc sẵn mọi cài đặt từ các dòng đầu file (dấu tab, HTML, deck đích, tag) – bấm **Import** là xong. Deck chưa có sẽ được tạo tự động.
 
-Tag khi lọc học: `bài-01`… `bài-10` (học theo bài), `ưu-tiên` (từ ★), `chia-dạng` (thẻ chia dạng), `graecum-1` (toàn cấp).
+Tag khi lọc học: `bài-01`… `bài-20` (học theo bài), `ưu-tiên` (từ ★), `chia-dạng` (thẻ chia dạng), `graecum-1` (toàn cấp).
 
 **Quy tắc học thẻ (cô đọng, áp dụng cho mọi nhóm):**
 
@@ -54,7 +56,7 @@ Tag khi lọc học: `bài-01`… `bài-10` (học theo bài), `ưu-tiên` (từ
 - Một số thẻ về **biến cách của từ** (chia dạng): nêu đúng cách, số/ngôi + Grundform + nghĩa – dùng để phục vụ việc nhớ cách chia từ (deklination, conjugation).
 - **Kasus**: khi bị hỏi phải nêu kèm cách đi kèm của từ – luôn với giới từ (ἐν + Dativ, εἰς + Akkusativ, ἐκ + Genitiv, ὑπό + Genitiv – tác nhân), đôi khi với động từ (κατηγορέω + Genitiv, πιστεύω + Dativ, δέομαι + Genitiv).
 
-File tiếp theo: `anki-16-20.txt` sẽ ra cùng **Ôn tập #4** (sau khi Bài 20 xuất bản).
+File tiếp theo: `anki-21-24.txt` sẽ ra cùng **Ôn tập #5** (sau khi Bài 24 xuất bản).
 
 ## Định dạng TSV
 
