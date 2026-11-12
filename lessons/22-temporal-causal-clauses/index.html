@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 22 – Mệnh đề thời gian và nguyên nhân</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 22: Mệnh đề thời gian và nguyên nhân (temporal &amp; causal clauses): <span class="gk">ὅταν/ὅτε, ἐπεί/ἐπειδή, ὅτι/διότι</span></h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Mệnh đề thời gian: chiếc đồng hồ của câu chuyện, <span class="gk">ὅτε</span> + chỉ định</a></li>
+<li><a href="#s2"><span class="gk">ὅταν</span> = <span class="gk">ὅτε</span> + <span class="gk">ἄν</span>: &quot;khi nào cũng&quot;, &quot;mỗi khi&quot;</a></li>
+<li><a href="#s3"><span class="gk">ἐπεί/ἐπειδή</span>: mũi tên một chiều &quot;sau khi&quot;; <span class="gk">ἐπειδάν</span> + subjunctive</a></li>
+<li><a href="#s4">Mệnh đề nguyên nhân: <span class="gk">ὅτι</span>, <span class="gk">διότι</span>, <span class="gk">ἐπεί</span>, <span class="gk">ὡς</span></a></li>
+<li><a href="#s5"><span class="gk">ἕως/ἔστε</span> &quot;miễn là, cho đến khi&quot; và <span class="gk">πρίν</span> &quot;trước khi&quot;</a></li>
+<li><a href="#s6">Thức trong mệnh đề thời gian: optative &quot;mỗi khi&quot; quá khứ và nguyên văn giữ nguyên trong gián tiếp</a></li>
+<li><a href="#s7">Ôn nguyên mẫu tân ngữ (AcI): bảng tổng kết ba bài 4, 18, 21</a></li>
+<li><a href="#s8">Chiến lược &quot;bóc mệnh đề thời gian/nguyên nhân&quot; và bản đồ quyết định</a></li>
+<li><a href="#reading">Bài đọc: Đêm tuyệt vọng và giấc mộng của Xenophon (Anabasis 3,1) – Chân dung Klearchos, kẻ mộ chiến (Anabasis 2,6)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) nhận diện và dịch đúng bốn cửa của mệnh đề thời gian (<span class="gk">ὅτε/ὅταν, ἐπεί/ἐπειδή/ἐπειδάν, ἕως/ἔστε, πρίν</span>) và ba cửa của mệnh đề nguyên nhân (<span class="gk">ὅτι, διότι</span>, causal <span class="gk">ἐπεί, ὡς</span>); (2) chọn đúng thức (chỉ định / giả định / optative &quot;mỗi khi&quot;) theo đúng nghĩa muốn nói; (3) tổng kết lại nguyên mẫu tân ngữ đã rải từ Bài 4 đến Bài 21; (4) đọc gần nguyên văn đêm tuyệt vọng và giấc mộng sấm cháy nhà của Xenophon (<em>Anabasis</em> 3,1) và chân dung Klearchos (<em>Anabasis</em> 2,6), hai khối văn xuôi lịch sử đặc sánh mệnh đề thời gian và nguyên nhân.</p>
+</div>
+
+<h2 id="s1">1. Mệnh đề thời gian: chiếc đồng hồ của câu chuyện, <span class="gk">ὅτε</span> + chỉ định</h2>
+
+<p>Sau Bài 21, bản đồ mệnh đề phụ thuộc của bạn đã kín chỗ: quan hệ (Bài 15), mục đích (Bài 16), gián tiếp và câu hỏi gián tiếp (Bài 17–18), phân từ ba nghề (Bài 19–20), điều kiện (Bài 21). Còn một họ lớn nhất, về tần số lẫn về số cửa, chưa được gắn biển: <strong>mệnh đề thời gian</strong> (<em>temporal clause</em>, <em>mệnh đề phụ chỉ thời gian</em>). Văn tự sự Hy Lạp, từ Herodot đến Xenophon, gần như câu nào cũng có một chiếc đồng hồ con như vậy neo câu chính vào trục thời gian.</p>
+
+<p>Cửa đầu tiên và cổ nhất của họ này là <span class="gk">ὅτε</span> &quot;khi, vào lúc&quot;. Quy tắc rất gọn:</p>
+
+<table>
+<thead><tr><th>Công thức</th><th>Nghĩa</th><th>Ví dụ (nguyên văn Xenophon)</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ὅτε</span> + <strong>chỉ định</strong> (bất kỳ thời nào)</td><td>&quot;khi (một lần có thật)&quot; – hai sự việc chung một điểm trên trục thời gian</td><td><span class="gk">καὶ ὅτε εἰρήνη ἦν, ὑμεῖς καὶ χρήμασι καὶ τιμαῖς τούτων ἐπλεονεκτεῖτε</span> &quot;khi còn hòa bình, các ông vượt họ cả về tiền của lẫn vinh dự&quot; (Anabasis 3,1,37)</td></tr>
+<tr><td><span class="gk">ὅτε</span> + chỉ định quá khứ</td><td>điểm mốc trong tường thuật quá khứ</td><td><span class="gk">ἦν δὲ ὅτε ἐτελεύτα ἀμφὶ τὰ πεντήκοντα ἔτη</span> &quot;đã có lúc (Klearchos) tạ thế, vào khoảng năm mươi tuổi&quot; (Anabasis 2,6,15)</td></tr>
+<tr><td><span class="gk">ἔσθ᾽ ὅτε</span> = <span class="gk">ἔστιν ὅτε</span></td><td>&quot;đôi khi&quot; – thành ngữ đóng gói sẵn</td><td><span class="gk">μεταμέλειν ἔσθ᾽ ὅτε</span> &quot;đôi khi (Klearchos) tự hối tiếc&quot; (Anabasis 2,6,9)</td></tr>
+</tbody>
+</table>
+
+<p>Đọc kỹ hàng cuối: <span class="gk">ἔσθ᾽ ὅτε</span> là crasis quen thuộc (Bài 16) của <span class="gk">ἔστιν ὅτε</span> &quot;có (những lúc) khi...&quot;. Cả cụm đóng vai một trạng từ: &quot;đôi khi&quot;. Dạng quá khứ <span class="gk">ἦν ὅτε</span> &quot;đã có lúc&quot; (hàng hai) cũng là khối đóng gói: chủ ngữ của <span class="gk">ἦν</span> chính là hành động theo sau. Đây là pattern bạn sẽ gặp cả đời trong văn Hy Lạp: <em>động từ &quot;có/là&quot; + ὅτε = đóng gói thời gian trừu tượng</em>.</p>
+
+<p>Cần nói rõ một điểm dễ tưởng sai: <span class="gk">ὅτε</span> với chỉ định <strong>không đổi thức</strong> theo chức năng câu hỏi, phủ định hay tường thuật; nó cứ bình thản giữ chỉ định. Sức &quot;muốn nói gì&quot; dồn cả về phía <em>có hay không</em> chữ <span class="gk">ἄν</span> gắn vào – đó là nội dung mục kế tiếp.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> mệnh đề thời gian = <em>liên từ thời gian + động từ chia theo đúng sự việc (chỉ định)</em>. Ba câu hỏi tự kiểm: (1) hai sự việc có thật không? Có → chỉ định. (2) Hai sự việc xấp xỉ cùng lúc hay cái trước cái sau? Cùng lúc → <span class="gk">ὅτε</span>; trước-sau → <span class="gk">ἐπεί</span> (mục 3). (3) Sự việc lặp lại nhiều lần hoặc chưa hẹn xảy ra? → thêm <span class="gk">ἄν</span> và đổi sang giả định (mục 2).</p>
+</div>
+
+<div class="achtung">
+<p><strong>Achtung – hai bẫy của ὅτε:</strong></p>
+<p>(1) <strong>Chỉ một ký tự cách <span class="gk">ὅτι</span></strong>: <span class="gk">ὅτε</span> là &quot;khi&quot;, <span class="gk">ὅτι</span> là &quot;rằng&quot; hoặc &quot;bởi vì&quot; (mục 4). Khi đọc bản chụp hoặc nhớ không chắc, hãy soi ngữ cảnh: sau <span class="gk">ὅτε</span> chờ đợi một <em>điểm thời gian</em>, sau <span class="gk">ὅτι</span> chờ đợi một <em>nội dung</em>. Cả hai đều theo sau bởi động từ chỉ định, nên chỉ ngữ cảnh phân xử.</p>
+<p>(2) <strong>Đừng dịch <span class="gk">ὅτε</span> quá khứ bằng &quot;khi nào cũng&quot;</strong>: <span class="gk">ὅτε</span> + aorist chỉ định là <em>một</em> điểm mốc (&quot;lúc đó, khi thì&quot;), còn &quot;khi nào cũng&quot; phải có <span class="gk">ἄν</span> (<span class="gk">ὅταν</span>) hoặc optative lặp lại (mục 6). Nếu bạn dịch &quot;mỗi khi&quot; cho một <span class="gk">ὅτε</span> trần trụi, người đọc sẽ tưởng sự việc lặp lại – sai lệch nghĩa ngay.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> <span class="gk">ὅτε</span> + chỉ định tương đương Latin <em>cum temporal</em> với chỉ định (<em>cum puer eram</em> &quot;khi tôi còn là đứa trẻ&quot;), hoặc <em>ubi</em> kể chuyện (<em>ubi haec dixit, discessit</em> &quot;nói xong câu này thì y đi&quot;). Latin viết <em>tempus quo</em>; Hy Lạp ghi dấu quan hệ bằng chính từ <span class="gk">ὅτε</span> &quot;vào lúc mà&quot; – gốc rễ này cũng cho ra <span class="gk">ὁπότε</span> &quot;vào đúng lúc&quot; với màu nhấn mạnh hơn, sẽ gặp ở mục 6.</p>
+</div>
+
+<h2 id="s2">2. <span class="gk">ὅταν</span> = <span class="gk">ὅτε</span> + <span class="gk">ἄν</span>: &quot;khi nào cũng&quot;, &quot;mỗi khi&quot;</h2>
+
+<p>Bài 16 đã cho bạn gặp <span class="gk">ἄν</span> như một &quot;thuốc nhuộm khái quát&quot;: ghép vào <span class="gk">ὅτε</span> thành <span class="gk">ὅταν</span>, ghép vào <span class="gk">ἐπεί</span> thành <span class="gk">ἐπάν</span>. Bài 21 đã gặp lại nó trong điều kiện &quot;mỗi khi&quot;. Giờ là lúc gắn tên cho cả họ:</p>
+
+<table>
+<thead><tr><th>Công thức</th><th>Nghĩa</th><th>Ví dụ (nguyên văn)</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ὅταν</span> + <strong>subjunctive hiện tại</strong></td><td>&quot;mỗi khi / mỗi lần&quot; – chân lý lặp lại ở hiện tại</td><td><span class="gk">ἀνὴρ δ᾽, ὅταν τοῖς ἔνδον ἄχθηται ξυνών</span> &quot;còn người đàn ông, mỗi khi sống chung mà bực mình người trong nhà...&quot; (Euripides, Medeia 244, bài 21)</td></tr>
+<tr><td><span class="gk">ὅταν</span> + <strong>subjunctive aorist</strong></td><td>&quot;whenever hành động đơn lẻ hoàn tất&quot; – nhấn khung cảnh hơn là tiến trình</td><td><span class="gk">ὅταν ἔλθῃ, ἀκούομεν</span> &quot;mỗi khi (hắn đã) đến, ta nghe&quot; – đối chiếu cùng nội dung với hiện tại: <span class="gk">ὅταν ἔρχηται, ἀκούομεν</span> &quot;mỗi khi hắn đang đến, ta nghe&quot;</td></tr>
+<tr><td><span class="gk">ὅταν</span> + subj, vế chính tương lai</td><td>&quot;khi (vào lúc) chuyện ấy xảy ra thì...&quot; – chờ đón tương lai</td><td><span class="gk">ἐπειδὰν δὲ καταστήσησθε τοὺς ἄρχοντας ὅσους δεῖ, ἢν καὶ τοὺς ἄλλους στρατιώτας συλλέγητε</span> &quot;khi các ông đã bố trí xong các chỉ huy cần thiết, mà lại còn gom được cả binh sĩ...&quot; (Anabasis 3,1,39)</td></tr>
+</tbody>
+</table>
+
+<p>Ba hàng trên là <em>cùng một khuôn, ba nấc thời gian</em>: hiện tại khái quát (lặp lại), hành động đơn lẻ (aorist giả định), tương lai (chờ đón). Cỗ máy bên trong không đổi: <span class="gk">ἄν</span> + giả định = &quot;bất kỳ một trong những lần có thể xảy ra&quot;. Đây chính là lý do Bài 21 xếp <span class="gk">ὅταν</span> vào &quot;điều kiện bất định&quot;: về hình thức nó là một điều kiện, về nghĩa người ta thường đọc nó như thời gian – &quot;mỗi khi/vào lúc nào thì...&quot;. Hai nhãn đúng cả; đọc theo mạch văn là được.</p>
+
+<p>Về chọn hiện tại hay aorist trong giả định: quy tắc như mọi nơi bạn đã học (Bài 16, 21): <strong>hiện tại = cùng diễn ra, chưa khép; aorist = hoàn tất trước hoặc như một khối</strong>. &quot;Mỗi khi hắn giận (diễn ra)&quot; khác với &quot;mỗi khi hắn đã chấm dứt cái gì đó (khép khối)&quot;. Nguyên văn Anabasis 3,1,39 rất gọn để tự kiểm: <span class="gk">καταστήσησθε</span> là aorist giả định – việc &quot;bố trí chỉ huy&quot; phải khép lại trước khi &quot;gom binh sĩ&quot; có nghĩa.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> thấy <span class="gk">ὅταν/ἐπάν/ὁπόταν</span> (hoặc bất kỳ liên từ thời gian nào + <span class="gk">ἄν</span>) → cơ bắp phản xạ phải đưa tay về <strong>subjunctive</strong>. Ngược lại, khi <em>tự viết</em>: muốn nói &quot;mỗi khi X&quot; hoặc &quot;khi (đến lúc) X&quot; với X chưa/luôn có thể → liên từ + <span class="gk">ἄν</span> + giả định; muốn kể một lần có thật → liên từ trần + chỉ định. Bảng này là bản lề của cả bài: <em>ἄν trong mệnh đề thời gian = màu khái quát hóa</em>.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Achtung – ὅταν ≠ ἐάν:</strong> cùng một cỗ máy (<span class="gk">ἄν</span> + giả định), khác một chút về góc nhìn. <span class="gk">ἐάν</span> hỏi &quot;nếu có X thì sao?&quot; (nhấn vào <em>điều kiện</em>); <span class="gk">ὅταν</span> hỏi &quot;vào những lúc có X thì sao?&quot; (nhấn vào <em>thời điểm</em>). Với chân lý lặp lại, hai từ gần như đổi chỗ được cho nhau; với tương lai một lần, người Hy Lạp thường chọn <span class="gk">ὅταν</span> khi coi việc đó <em>sắp đến theo giờ giấc</em> (hành quân rồi sẽ kết thúc, ngày rồi sẽ mọc), còn <span class="gk">ἐάν</span> khi việc đó còn <em>phải chờ quyết định</em>. Tự kiểm nhanh: thử thay &quot;mỗi khi&quot; – dịch xuông thì đó là màu <span class="gk">ὅταν</span>.</p>
+</div>
+
+<h2 id="s3">3. <span class="gk">ἐπεί/ἐπειδή</span>: mũi tên một chiều &quot;sau khi&quot;; <span class="gk">ἐπειδάν</span> + subjunctive</h2>
+
+<p><span class="gk">ὅτε</span> đặt hai sự việc <em>chồng lên nhau</em> trên trục thời gian. <span class="gk">ἐπεί</span> (và dạng nhấn mạnh <span class="gk">ἐπειδή</span>) bắn một <em>mũi tên một chiều</em>: việc trong mệnh đề đi trước, việc ở vế chính theo sau. Vì thế người ta dịch <span class="gk">ἐπεί</span> là &quot;sau khi, kể từ khi, một khi đã...&quot;. Bản văn Anabasis mở màn bằng đúng khuôn này – câu đầu tiên của sách 3 gói hai mệnh đề <span class="gk">ἐπεί</span> thời gian trong một hơi:</p>
+
+<table>
+<thead><tr><th>Công thức</th><th>Nghĩa</th><th>Ví dụ (nguyên văn Anabasis)</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἐπεί/ἐπειδή</span> + <strong>aorist chỉ định</strong></td><td>&quot;sau khi (việc ấy đã xong)&quot; – mốc một lần trong quá khứ</td><td><span class="gk">ὅσα ἐπεὶ Κῦρος ἐτελεύτησεν ἐγένετο</span> &quot;những gì đã xảy ra sau khi Kyros tạ thế&quot; (3,1,1)</td></tr>
+<tr><td><span class="gk">ἐπεί</span> + <strong>perfect chỉ định</strong></td><td>&quot;một khi / giờ đây (trạng thái đã thành thế)...&quot; – nhấn trạng thái còn đang đứng đó</td><td><span class="gk">ἐπεὶ δὲ οἱ στρατηγοὶ συνειλημμένοι ἦσαν... ἐν πολλῇ δὴ ἀπορίᾳ ἦσαν οἱ Ἕλληνες</span> &quot;một khi các tướng lĩnh đã bị tóm (và vẫn còn trong tay kẻ địch), người Hy Lạp lâm vào cảnh khốn cùng&quot; (3,1,2)</td></tr>
+<tr><td><span class="gk">ἐπειδὴ</span> + aorist, nhấn &quot;ngay khi&quot;</td><td><span class="gk">εὐθύς</span> đứng cạnh tăng độ sắc</td><td><span class="gk">εὐθὺς ἐπειδὴ ἀνηγέρθη πρῶτον μὲν ἔννοια αὐτῷ ἐμπίπτει</span> &quot;ngay khi y trổi dậy, ý nghĩ đầu tiên xẹt vào y&quot; (3,1,13)</td></tr>
+<tr><td><span class="gk">ἐπειδάν</span> (= <span class="gk">ἐπειδή</span> + <span class="gk">ἄν</span>) + <strong>subjunctive</strong></td><td>&quot;mỗi khi / khi nào (rồi) sẽ...&quot; – khái quát hoặc tương lai</td><td><span class="gk">ἐπειδὰν τάχιστα ἡ στρατεία λήξῃ, εὐθὺς ἀποπέμψει αὐτόν</span> &quot;chừng nào cuộc hành quân khép lại, hắn sẽ lập tức gửi anh về&quot; (3,1,9)</td></tr>
+</tbody>
+</table>
+
+<p>Hàng thứ hai đáng dừng lâu hơn: <em>tại sao Xenophon dùng perfect</em> <span class="gk">συνειλημμένοι ἦσαν</span>? Vì cái ông muốn neo không phải hành động &quot;tóm&quot; (đã xong từ lâu) mà là <em>trạng thái bị tóm vẫn còn hiệu lực</em> khi nỗi khốn bắt đầu. Đây là khuôn &quot;perfect trong mệnh đề thời gian = một khi (đã... và vẫn còn thế)&quot; – cùng logic với dịch &quot;giờ đây đã...&quot;. Gặp <span class="gk">ἐπεί</span> + perfect, hãy hỏi: &quot;trạng thái nào còn đang đứng đó?&quot; – câu trả lời chính là nền của vế chính.</p>
+
+<p>Hàng thứ tư là bản lề giữa mục này và mục 2: <span class="gk">ἐπειδάν</span> như <span class="gk">ὅταν</span>, chỉ khác mũi tên một chiều. Trích dẫn 3,1,9 còn là một kho báu riêng: nguyên văn đứng trong lời gián tiếp và <em>giữ nguyên</em> giả định – để dành cho mục 6 mổ xẻ.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> <span class="gk">ὅτε</span> hỏi &quot;lúc nào?&quot; (chồng nhau), <span class="gk">ἐπεί</span> hỏi &quot;sau cái gì?&quot; (trật tự). Dịch <span class="gk">ἐπεί</span> thời gian luôn thử trước bằng &quot;sau khi&quot;; nếu méo nghĩa thì mới thử &quot;khi&quot;. Còn muốn dịch một câu tiếng Việt có &quot;sau khi...&quot;: <span class="gk">ἐπεί</span> (hoặc <span class="gk">ἐπειδή</span>) + thời quá khứ tương ứng (aorist cho hành động, perfect cho trạng thái còn giữ).</p>
+</div>
+
+<div class="achtung">
+<p><strong>Achtung – ἐπεί có hai nghề:</strong> cùng một chữ, vừa là &quot;sau khi&quot; (thời gian), vừa là &quot;vì / thấy rằng&quot; (nguyên nhân, mục 4). Cách phân xử không nằm ở từ điển mà ở mạch văn: <em>nếu vế chính là hệ quả logic</em> của vế phụ, đó là màu nguyên nhân. Ví dụ cặp kinh điển trong chính Anabasis: <span class="gk">ἕως μὲν πόλεμος ἦν... παρέμενεν, ἐπειδὴ δὲ εἰρήνη ἐγένετο... ἐξέπλει</span> (2,6,2) – <span class="gk">ἐπειδὴ</span> ở đây đọc &quot;sau khi / một khi hòa bình đến&quot; cũng xuôi, đọc &quot;vì hòa bình đã đến nên y nhổ trại&quot; cũng xuôi; nhà dịch phải chọn. Đừng hoảng: Xenophon thưởng cho người đọc một cái cả hai – câu văn ép sự thật vào khuôn thời gian và lý do cùng lúc.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> <span class="gk">ἐπεί</span> = <em>postquam</em> &quot;sau khi&quot; (đi với perfect chỉ định: <em>postquam epistulam legerat, discessit</em>), còn <span class="gk">ἐπειδάν</span> + giả định chính là <em>postquam/cum</em> + <em>conjunctivus</em> khi Latin kể chuyện lặp lại hoặc tương lai. Ba chữ <span class="gk">ἐπεί – ἐπειδή – ἐπειδάν</span> đối chiếu ba cấp của Latin <em>postquam – ubi cumque – postquam cum</em>: giống nhau đến mức bạn có thể dùng thói quen Latin để dự đoán thức Hy Lạp, và ngược lại.</p>
+</div>
+
+<h2 id="s4">4. Mệnh đề nguyên nhân: <span class="gk">ὅτι</span>, <span class="gk">διότι</span>, <span class="gk">ἐπεί</span>, <span class="gk">ὡς</span></h2>
+
+<p>Mệnh đề nguyên nhân (<em>causal clause</em>, <em>mệnh đề phụ chỉ lý do</em>) trả lời câu hỏi &quot;vì sao?&quot;. Vấn đề thú vị: <strong>cửa quan trọng nhất của nó trùng hệt với cửa của tường thuật gián tiếp</strong>. <span class="gk">ὅτι</span> đứng trước một mệnh đề chỉ định, và mệnh đề đó hoặc là <em>nội dung ai đó nói/nghĩ</em> (&quot;rằng...&quot;, Bài 17), hoặc là <em>lý do</em> (&quot;bởi vì...&quot;). Xét cặp dưới đây, cả hai đều từ chính đêm Anabasis 3,1:</p>
+
+<table>
+<thead><tr><th>Câu (nguyên văn, rút gọn)</th><th><span class="gk">ὅτι</span> làm nghề gì?</th><th>Thử thay</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ᾐτιᾶτο αὐτὸν ὅτι οὐ τοῦτο πρῶτον ἠρώτα</span> &quot;ông trách cậu ấy <em>rằng</em> không hỏi cái đó trước&quot; (3,1,7)</td><td><strong>tường thuật</strong>: nội dung của lời trách</td><td>&quot;rằng&quot; xuôi; &quot;bởi vì&quot; làm méo câu</td></tr>
+<tr><td><span class="gk">ὑποπτεύσας... ὅτι ἐδόκει ὁ Κῦρος προθύμως τοῖς Λακεδαιμονίοις ἐπὶ τὰς Ἀθήνας συμπολεμῆσαι</span> &quot;(Sokrates) ngờ ngờ <em>bởi vì</em> Kyros có vẻ hăng hái giúp người Sparta đem quân đánh Athens&quot; (3,1,5)</td><td><strong>nguyên nhân</strong>: lý do của sự ngờ ngờ</td><td>&quot;bởi vì&quot; xuôi; &quot;rằng&quot; làm méo câu</td></tr>
+</tbody>
+</table>
+
+<p>Bài tự kiểm đã ngầm hiện ra: <em>thử dịch bằng &quot;rằng&quot;, rồi thử bằng &quot;bởi vì&quot; – dịch nào giữ nguyên luận lý của cả câu, đó là nghề đúng</em>. Trong thực tế, động từ chủ đạo gợi ý rất mạnh: động từ <em>nói, nghĩ, trách, biết</em> (<span class="gk">φημί, νομίζω, αἰτιάομαι, οἶδα</span>) kéo <span class="gk">ὅτι</span> về phía nội dung; còn khi mệnh đề <span class="gk">ὅτι</span> treo lơ lửng <em>giải thích cho cả tình huống</em> (không phải nội dung ai nói), đó là màu nguyên nhân. Bốn cửa của nguyên nhân:</p>
+
+<table>
+<thead><tr><th>Cửa</th><th>Màu sắc</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ὅτι</span> + chỉ định</td><td>lý do đặt ra như sự việc</td><td><span class="gk">πολεμικὸς δὲ αὖ ταύτῃ ἐδόκει εἶναι ὅτι φιλοκίνδυνός τε ἦν</span> &quot;ông ta được coi là tay sỏi trận <em>vì</em> chuộng chỗ nguy hiểm&quot; (Anabasis 2,6,7)</td></tr>
+<tr><td><span class="gk">διότι</span> (= <span class="gk">διὰ</span> + <span class="gk">ὅτι</span>)</td><td>như <span class="gk">ὅτι</span>, đậm hơn một bậc về nghĩa nhưng không về ngữ pháp; <span class="gk">διότι</span> = <span class="gk">διὰ</span> + <span class="gk">ὅτι</span> dính liền, hay gặp ở thể văn đời thường</td><td><span class="gk">διότι χρὴ καθεύδειν</span> &quot;là bởi cần ngủ&quot;</td></tr>
+<tr><td><span class="gk">ἐπεί</span> + chỉ định</td><td>&quot;vì thấy rằng / một khi đã...&quot; – lý do mang màu thời gian</td><td><span class="gk">ἐπεὶ μέντοι οὕτως ἤρου, ταῦτ᾽, ἔφη, χρὴ ποιεῖν</span> &quot;nhưng <em>vì thấy rằng</em> anh hỏi thế, thì phải làm thế này&quot; (3,1,7; Sokrates nói với Xenophon)</td></tr>
+<tr><td><span class="gk">ὡς</span> + phân từ</td><td>&quot;vì là...&quot; – lý do bọc trong danh từ hóa (Bài 19)</td><td><span class="gk">ἐκ τούτου καὶ ἐθανατώθη ὑπὸ τῶν ἐν Σπάρτῃ τελῶν ὡς ἀπειθῶν</span> &quot;từ đó y bị xử chết <em>vì là</em> kẻ không chịu phục tùng&quot; (2,6,4)</td></tr>
+</tbody>
+</table>
+
+<p>Chú ý hàng cuối: <span class="gk">ὡς</span> + phân từ đã học ở Bài 19 như &quot;bọc lý do&quot;; nó là mệnh đề nguyên nhân <em>rút gọn</em>. So sánh hai cách: <span class="gk">ἐθανατώθη ὑπὸ τῶν ἐν Σπάρτῃ τελῶν ὡς ἀπειθῶν</span> (rút gọn bằng phân từ, nhấn tư cách &quot;kẻ bất tuân&quot;) và, dựng lại cùng ý bằng mệnh đề đầy đủ, <span class="gk">ἐθανατώθη ὅτι ἀπειθοῖ</span> – optative theo chuỗi thời–thức vì cả câu kể chuyện quá khứ (Bài 17). Cùng một nghĩa, hai giọng điệu: vế rút gọn nhọn như một nhát dao, vế đầy đủ trễn ra chậm rãi.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> mệnh đề nguyên nhân là mệnh đề thời gian &quot;mượn&quot; được cửa: <span class="gk">ἐπεί</span> phục vụ cả hai nghề (mục 3 đã thấy). Tự hỏi ba câu khi gặp <span class="gk">ὅτι/ἐπεί</span>: (1) vế chính có phải là <em>hệ quả logic</em> của vế phụ không? Có → nguyên nhân. (2) Vế phụ có phải là <em>nội dung được nói/nghĩ</em> không? Có → tường thuật. (3) Không chắc cả hai → dịch &quot;một khi đã...&quot;, để hai màu song hành như Hy Lạp gốc.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Achtung – lý do &quot;hạn&quot; của ὅτι:</strong> khi lý do chỉ là <em>lời người khác cho là vậy</em>, Hy Lạp (như Latin) có thể đẩy mệnh đề sang optative theo chuỗi thời–thức (Bài 17). Ngược lại, khi dịch &quot;bởi vì&quot; từ tiếng Việt, mặc định <strong>chỉ định</strong>; chỉ dùng oblique khi mệnh đề nằm trong tường thuật gián tiếp thời quá khứ. Bẫy thật sự của người học B2 thường ngược lại: đánh mất nghĩa nguyên nhân vì vội đọc <span class="gk">ὅτι</span> là &quot;rằng&quot; mọi lần – hãy để phép thử hai cách dịch (bảng trên) thành phản xạ.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> <span class="gk">ὅτι</span> nguyên nhân = <em>quod</em> + chỉ định (<em>quod aeger eram, non veni</em> &quot;vì tôi ốm nên tôi không đến&quot;); <span class="gk">διότι</span> = <em>propterea quod</em>; <span class="gk">ἐπεί</span> nguyên nhân = <em>cum causale</em> + <em>subjunctivus</em> (<em>cum aeger essem</em> &quot;vì tôi bị ốm&quot;); <span class="gk">ὡς</span> + phân từ = <em>ut</em> + danh từ way Latin gói gọn bằng <em>ut + accusativus + participium</em>? Không hẳn: Latin gói lý do bằng cụm <em>quasi, ut peregrinus</em> – chi tiết thú vị: Hy Lạp <span class="gk">ὡς</span> và Latin <em>ut</em> vốn là hai họ hàng (cùng gốc Ấn-Âu), cùng một chữ làm được cả ba nghề &quot;như, bởi vì, để mà&quot;.</p>
+</div>
+
+<h2 id="s5">5. <span class="gk">ἕως/ἔστε</span> &quot;miễn là, cho đến khi&quot; và <span class="gk">πρίν</span> &quot;trước khi&quot;</h2>
+
+<p>Trục thời gian cần thêm hai chốt cuối: một chốt giữ &quot;sự việc kéo dài cho đến đâu&quot; (<span class="gk">ἕως</span>), một chốt chặn &quot;chưa đến đó&quot; (<span class="gk">πρίν</span>). Cả hai đều đã ló mặt trong các bài đọc trước; hôm nay gắn biển.</p>
+
+<table>
+<thead><tr><th>Công thức</th><th>Nghĩa</th><th>Ví dụ (nguyên văn Anabasis)</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἕως</span> + chỉ định (quá khứ)</td><td>&quot;suốt lúc / miễn là (trong suốt khoảng)&quot; – mốc đã kết thúc</td><td><span class="gk">ἕως μὲν πόλεμος ἦν τοῖς Λακεδαιμονίοις πρὸς τοὺς Ἀθηναίους παρέμενεν</span> &quot;miễn là chiến tranh Sparta–Athens còn, (Klearchos) cứ ở lại (đó)&quot; (2,6,2)</td></tr>
+<tr><td><span class="gk">ἔστε</span> + chỉ định</td><td>= <span class="gk">ἕως</span>, chính tả biến thể</td><td><span class="gk">ἔστε μὲν αἱ σπονδαὶ ἦσαν οὔποτε ἐπαυόμην</span> &quot;chừng nào giao ước còn, tôi chưa từng ngừng (than khóc)&quot; (3,1,19)</td></tr>
+<tr><td><span class="gk">ἕως ἄν</span> + <strong>subjunctive</strong></td><td>&quot;miễn là / cho đến khi nào (còn nữa)&quot; – hiện tại khái quát hoặc tương lai</td><td><span class="gk">ἕως ἂν ζῶσιν</span> &quot;miễn là họ còn sống / cho đến hết đời họ&quot; (3,1,43)</td></tr>
+<tr><td><span class="gk">πρίν</span> + chỉ định</td><td>&quot;trước khi (một lần có thật)&quot; – vế chính khẳng định, kể chuyện quá khứ</td><td><span class="gk">οὐ πρότερον πρὸς ἡμᾶς τὸν πόλεμον ἐξέφηναν πρὶν ἐνόμισαν καλῶς τὰ ἑαυτῶν παρασκευάσασθαι</span> &quot;bọn chúng chẳng tuyên chiến với ta bao giờ <em>trước khi</em> chúng thấy mình đã chuẩn bị chu đáo&quot; (3,1,16)</td></tr>
+<tr><td><span class="gk">πρίν</span> + <strong>nguyên mẫu</strong></td><td>&quot;chưa... bao giờ / trước khi (việc kia chưa xảy ra)&quot; – vế chính <strong>phủ định</strong></td><td><span class="gk">οὐκ ἀπῆλθον πρὶν ἰδεῖν τὸ τέλος</span> &quot;(ta) không rời đi trước khi xem kết cục&quot; (câu dựng theo khuôn)</td></tr>
+</tbody>
+</table>
+
+<p>Hai hàng cuối chứa quy tắc vàng của <span class="gk">πρίν</span>, nghe phức tạp mà hóa ra là cái máy đơn giản: <em>hai mệnh đề ngang cấp thời gian</em> (mệnh đề đầy đủ, động từ chia) → <span class="gk">πρίν</span> + chỉ định; <em>vế chính phủ định</em> và nói về điều <em>chưa từng xảy ra</em> → người Hy Lạp rút mệnh đề πρίν thành nguyên mẫu, y hệt thói quen &quot;<span class="gk">πρὶν</span> + inf&quot; sau <span class="gk">οὐ</span>. Tra hai câu tự kiểm: (1) &quot;Tôi đã đi trước khi mưa xuống&quot; → hai việc thật, chia chỉ định. (2) &quot;Tôi chưa từng chết trước khi thấy Athens&quot; → vế chính phủ định → <span class="gk">πρὶν ἰδεῖν</span>.</p>
+
+<p>Về <span class="gk">ἕως</span> versus <span class="gk">ἔστε</span>: hai chữ là một, chỉ khác chính tả (như &quot;thế&quot; và &quot;vậy&quot; cùng một mạch); Xenophon dùng lẫn cả hai trong cùng trang giấy (3,1,19 <span class="gk">ἔστε</span>, 3,1,28 <span class="gk">ἔστε</span>, 3,1,43 <span class="gk">ἕως ἄν</span>). Từ điển ghi nhận <span class="gk">ἔστε</span> là biến thể cổ hơn của <span class="gk">ἕως</span>.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> bốn chốt thời gian của cả bài ghép thành một trục duy nhất:</p>
+<p><span class="gk">πρὶν</span> (trước khi) → <span class="gk">ὅτε/ὅταν</span> (khi, trùng nhau) → <span class="gk">ἐπεί/ἐπειδάν</span> (sau khi, mũi tên một chiều) → <span class="gk">ἕως/ἔστε</span> (kéo dài đến khi hết). Khi viết, hãy xếp bốn sự việc mình muốn kể lên trục này rồi mới chọn cửa; khi đọc, gặp cửa nào thì bấm chốt đó xuống trục – dịch nghĩa sẽ tự đứng dậy.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> <span class="gk">ἕως</span> = <em>dum/donec</em> &quot;miễn là, cho đến khi&quot; (<em>dum epistolam scribam, mane</em>); <span class="gk">ἕως ἄν</span> + giả định = <em>dum</em> + <em>coniunctivus</em>; <span class="gk">πρίν</span> = <em>priusquam/antequam</em>, với đúng quy tắc hai mặt ấy của Latin: <em>priusquam</em> + chỉ định khi hai việc thật, còn <em>ante</em> + nguyên mẫu danh từ hóa (<em>ante urbem captam</em>) đóng gói như <span class="gk">πρὶν</span> + inf. Hai ngôn ngữ chia sẻ đến mức bạn có thể chuyển khoản kiến thức này nguyên xi.</p>
+</div>
+
+<h2 id="s6">6. Thức trong mệnh đề thời gian: optative &quot;mỗi khi&quot; quá khứ và nguyên văn giữ nguyên trong gián tiếp</h2>
+
+<p>Mục này là hai tầng nâng cao, nhưng cả hai đều mọc lên từ văn bản thật của chính đêm Anabasis 3,1 – bạn sẽ đọc nguyên cảnh ở phần bài đọc.</p>
+
+<h3>6.1. Câu chuyện quá khứ kể &quot;mỗi khi&quot;: optative lặp lại</h3>
+
+<p>Mẹo <span class="gk">ὅταν</span> + giả định ở mục 2 phục vụ hiện tại khái quát và tương lai. Nhưng làm sao kể một chuyện <em>quá khứ lặp lại nhiều lần</em> (&quot;mỗi lần thế là y làm thế&quot;)? Hy Lạp không có giả định sau thời quá khứ (chuỗi thời–thức, Bài 17); nó chọn <strong>optative</strong> – không phải optative &quot;khả năng&quot; hay &quot;ước&quot;, mà là optative <em>lặp lại trong quá khứ</em> (<em>iterative optative</em> ở mệnh đề thời gian):</p>
+
+<table>
+<thead><tr><th>Nguyên văn</th><th>Dịch</th><th>Điểm nhìn</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ὅτε δ᾽ ἔξω τοῦ δεινοῦ γένοιντο... πολλοὶ αὐτὸν ἀπέλειπον</span></td><td>&quot;mà <em>mỗi khi</em> họ ra khỏi cơn nguy, nhiều người bỏ y đi&quot;</td><td><span class="gk">γένοιντο</span> = optative aorist của <span class="gk">γίγνομαι</span> (Bài 13), sau vế chính quá khứ <span class="gk">ἀπέλειπον</span> (imperfect) – chuyện từng xảy ra nhiều lần (Anabasis 2,6,12)</td></tr>
+<tr><td><span class="gk">ἐπεὶ δὲ ἄρξαιντο νικᾶν... ἤδη μεγάλα ἦν τὰ χρησίμους ποιοῦντα εἶναι</span></td><td>&quot;<em>mỗi khi</em> họ bắt đầu thắng cùng y, việc làm lợi cho kẻ theo y trở nên lớn lao&quot;</td><td><span class="gk">ἄρξαιντο</span> = optative hiện tại của <span class="gk">ἄρχω</span> trung &quot;bắt đầu&quot; – cùng một cỗ máy, cửa <span class="gk">ἐπεί</span> (2,6,14)</td></tr>
+<tr><td><span class="gk">τὰ δ᾽ αὖ τῶν στρατιωτῶν ὁπότε ἐνθυμοίμην...</span></td><td>&quot;còn phận binh lính, <em>mỗi khi</em> tôi ngẫm đến...&quot;</td><td><span class="gk">ἐνθυμοίμην</span> = optative hiện tại 1 ngôi của <span class="gk">ἐνθυμέομαι</span> &quot;ngẫm nghĩ&quot; – lời Xenophon tự thuật (3,1,20)</td></tr>
+</tbody>
+</table>
+
+<p>Công thức rút ra: <strong>thời quá khứ + liên từ thời gian + optative = &quot;mỗi khi&quot; đã lặp lại nhiều lần trong quá khứ</strong>. Dịch thử: nếu dịch &quot;khi&quot; trơn, câu văn hóa ra <em>một lần</em> (chỉ định); chỉ khi dịch &quot;mỗi khi / hễ mỗi lần&quot;, mạch văn mới xuôi. Cẩn trọng: <em>không phải mọi</em> optative sau liên từ thời gian đều lặp lại – lẫn với các màu khác (tiềm năng, tường thuật gián tiếp); màu lặp lại chỉ chắc chắn khi vế chính là quá khứ kể chuyện và nội dung mô tả thói quen.</p>
+
+<p>Từ cuối cùng bảng, <span class="gk">ὁπότε</span>, là thành viên nhấn mạnh của họ <span class="gk">ὅτε</span>: <span class="gk">ὁπότε</span> = <span class="gk">ὅτε</span> + màu quan hệ (như <span class="gk">ὁπόσος</span> đối với <span class="gk">ὅσος</span>, Bài 15), đọc &quot;vào đúng những lúc mà...&quot; – và ở đây, như hai hàng trên, nó đi với optative lặp lại.</p>
+
+<h3>6.2. Trong lời gián tiếp: nguyên văn giữ nguyên, hay trượt về oblique?</h3>
+
+<p>Bài 17 đã dạy: tường thuật gián tiếp sau thời quá khứ trượt mệnh đề phụ về optative (oblique). Nhưng Hy Lạp văn xuôi cho phép <em>lựa chọn</em>: giữ nguyên thức của lời gốc như &quot;nguyên văn nhét vào&quot;. Chương 3,1 cho thấy cả hai chiến lược trong cùng một trang:</p>
+
+<table>
+<thead><tr><th>Nguyên văn</th><th>Chiến lược</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">εἶπε δὲ ὅτι ἐπειδὰν τάχιστα ἡ στρατεία λήξῃ, εὐθὺς ἀποπέμψει αὐτόν</span> &quot;(Kyros) nói rằng chừng nào cuộc hành quân khép lại, hắn sẽ lập tức gửi anh về&quot; (3,1,9)</td><td><strong>Giữ nguyên</strong>: động từ dẫn <span class="gk">εἶπε</span> là quá khứ, nhưng lời gốc (tương lai <span class="gk">ἀποπέμψει</span> + <span class="gk">ἐπειδὰν</span> + giả định <span class="gk">λήξῃ</span>) được trích nguyên xi – người đọc nghe luôn &quot;giọng&quot; của Kyros</td></tr>
+<tr><td><span class="gk">εἶπεν ὅτι φλυαροίη ὅστις λέγει ἄλλως πως σωτηρίας ἂν τυχεῖν ἢ βασιλέα πείσας...</span> &quot;y bảo rằng kẻ nào nói cách cứu khác ngoài thuyết phục vua là đang lảm nhảm&quot; (3,1,26)</td><td><strong>Trượt oblique</strong>: <span class="gk">φλυαροίη</span> là optative hiện tại của <span class="gk">φλυαρέω</span>, theo đúng chuỗi thời–thức sau <span class="gk">εἶπεν</span> quá khứ (Bài 17)</td></tr>
+</tbody>
+</table>
+
+<p>Hai câu trên cho bạn một dụng cụ đọc quan trọng: <em>khi tường thuật gián tiếp chứa mệnh đề thời gian mang ἄν + giả định hoặc tương lai, đừng vội &quot;sửa&quot; nó về optative</em>. Nó có thể là nguyên văn được trích giữ. Ngược lại, khi <em>tự viết</em>, mặc định an toàn là theo chuỗi thời–thức (oblique sau quá khứ); giữ nguyên chỉ khi bạn cố tình tái hiện giọng nói của người được trích – một quyết định văn phong, không phải lỗi ngữ pháp.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> mệnh đề thời gian + optative có hai cửa việc: (a) vế chính quá khứ → đọc &quot;mỗi khi&quot; (lặp lại); (b) nằm trong tường thuật gián tiếp → có thể là oblique hoặc nguyên văn giữ. Hỏi một câu duy nhất: <em>liệu người viết đang kể thói quen, hay đang trích lời? </em>Thói quen → &quot;mỗi khi&quot;; trích lời → quay về Bài 17 soi chuỗi thời–thức.</p>
+</div>
+
+<div class="latin">
+<p><strong>Góc Latin:</strong> optative &quot;mỗi khi&quot; quá khứ của Hy Lạp không có bản sao trực tiếp trong Latin (Latin dùng <em>cum</em> + chỉ định hoặc <em>solebat</em> + inf để kể thói quen). Ngược lại, việc trích nguyên văn trong gián tiếp (ngữ tắc &quot;retained mood&quot;) lại rất Latin: <em>dixit se, ubi venisset, dicturum esse</em> hay <em>dicit se venturum esse ubi possit</em> – cùng một khoản cho vay mượn giữa hai ngôn ngữ khi cần giọng nói trực tiếp.</p>
+</div>
+
+<h2 id="s7">7. Ôn nguyên mẫu tân ngữ (AcI): bảng tổng kết ba bài 4, 18, 21</h2>
+
+<p>Từ Bài 4 bạn đã cầm trong tay công cụ <strong>nguyên mẫu tân ngữ</strong> (<em>accusative + infinitive</em>, AcI): tân ngữ đối cách làm chủ thể giả định của một nguyên mẫu, để đóng gói nội dung &quot;ai đó nghĩ/nói/biết gì&quot;. Bài 18 mở rộng danh sách động từ dẫn và nguyên mẫu tương lai; Bài 21 thêm khuôn <span class="gk">δεῖ</span> + đối cách + nguyên mẫu. Đêm Anabasis 3,1 là mỏ AcI thật – bảng dưới gom lại toàn bộ hệ thống, mỗi khuôn một ví dụ nguyên văn:</p>
+
+<table>
+<thead><tr><th>Nhóm động từ dẫn</th><th>Khuôn</th><th>Ví dụ nguyên văn (Anabasis 3,1)</th></tr></thead>
+<tbody>
+<tr><td><strong>nghĩ, cho rằng</strong>: <span class="gk">νομίζω, οἴομαι, δοκῶ, ἡγέομαι</span></td><td>acc + inf; thời của inf theo <em>thời tương đối</em> (Bài 18)</td><td><span class="gk">οὓς οὔποτ᾽ ἐνόμιζον ἔτι ὄψεσθαι</span> &quot;(cha mẹ, vợ con) mà người ta chưa từng nghĩ mình còn được thấy nữa&quot; (3,1,3: <span class="gk">ἐνόμιζον</span> quá khứ + nguyên mẫu <strong>tương lai</strong> <span class="gk">ὄψεσθαι</span>)</td></tr>
+<tr><td><strong>hứa, trông đợi</strong>: <span class="gk">ὑπισχνεῖμαι, προσδοκάω, μέλλω</span></td><td>acc + inf (thường tương lai)</td><td><span class="gk">ὑπισχνεῖτο δὲ αὐτῷ, εἰ ἔλθοι, φίλον αὐτὸν Κύρῳ ποιήσειν</span> &quot;(Proxenos) hứa với y, nếu y đến, sẽ làm y thành bạn của Kyros&quot; (3,1,4: AcI <span class="gk">φίλον... ποιήσειν</span> + điều kiện tiềm năng <span class="gk">εἰ ἔλθοι</span> – Bài 21)</td></tr>
+<tr><td><strong>phải, cần</strong>: <span class="gk">δεῖ, χρή</span></td><td>acc + inf; <span class="gk">δεῖ</span> giữ đối cách rõ ràng, <span class="gk">χρή</span> chỉ đi với inf</td><td><span class="gk">ταῦτ᾽, ἔφη, χρὴ ποιεῖν ὅσα ὁ θεὸς ἐκέλευσεν</span> &quot;thì phải làm tất cả những gì thần đã truyền&quot; (3,1,7)</td></tr>
+<tr><td><strong>nói, truyền lệnh</strong> (Bài 18): <span class="gk">λέγω, φημί, κελεύω</span></td><td>AcI hoặc <span class="gk">ὅτι/ὡς</span> + mệnh đề (hai bao bì, một nội dung – Bài 17)</td><td><span class="gk">τὸν ἐκ ποίας πόλεως στρατηγὸν προσδοκῶ ταῦτα πράξειν;</span> &quot;tôi trông chờ vị tướng từ thành nào đây làm điều ấy ư?&quot; (3,1,14: <span class="gk">προσδοκῶ</span> + acc + inf trong câu hỏi tu từ)</td></tr>
+</tbody>
+</table>
+
+<p>Đọc hàng cuối trước khi đi tiếp: nguyên mẫu trong AcI tự chọn thời theo <em>thời tương đối</em> – cùng lúc (<span class="gk">λέγειν</span>), trước (<span class="gk">λελυκέναι</span>, <span class="gk">λῦσαι</span>), sau (<span class="gk">λύσειν</span>, <span class="gk">ὄψεσθαι</span>). Câu 3,1,3 vừa ôn lại đúng khuôn dễ sai nhất: động từ chính <em>quá khứ</em> mà sự việc được nghĩ là <em>tương lai</em> → nguyên mẫu tương lai, không phải aorist. Bẫy ngược cũng thật: sau <span class="gk">νομίζω</span> quá khứ, sự việc <em>cùng lúc</em> dùng nguyên mẫu hiện tại – đừng để thói quen &quot;quá khứ thì dùng aorist&quot; của mệnh đề đầy đủ lây sang AcI.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> gặp động từ thuộc bốn nhóm trên, hãy áp khuôn 3 bước đã thuộc từ Bài 4: (1) quăng câu hỏi trở lại: trong nội dung được nghĩ, <em>ai</em> làm <em>gì</em>? (2) &quot;ai&quot; → đối cách; &quot;gì&quot; → nguyên mẫu chọn thời tương đối. (3) Nếu thấy <span class="gk">ὅτι/ὡς</span> thay vì nguyên mẫu → đó là mệnh đề đầy đủ: về Bài 17 so chuỗi thời–thức. Một nội dung, hai bao bì: AcI gọn, <span class="gk">ὅτι</span>-mệnh đề trần; Xenophon đổi bao bì luyến láy như đổi nhịp câu.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Achtung – hai dấu hiệu AcI &quot;mồ côi&quot; và &quot;trần&quot; trong văn thật:</strong> (1) <strong>chủ thể ẩn</strong>: khi chủ thể của nguyên mẫu trùng chủ ngữ động từ chính, người Hy Lạp bỏ đối cách đi – câu 3,1,13 <span class="gk">εἰκὸς τοὺς πολεμίους ἥξειν</span> vẫn đầy đủ, nhưng bạn sẽ gặp vô số <span class="gk">νομίζω ποιεῖν</span> chỉ có một tên. (2) <strong>AcI sau tính từ/từ tình thái</strong> như <span class="gk">εὔδηλον, δῆλον, ἀδύνατον</span> (Bài 18 đã gặp <span class="gk">εὔδηλον ἦν ὅτι</span> với mệnh đề – cùng logic, chỉ khác bao bì). Đừng tìm mỏi chủ thể: nếu ngữ cảnh đã cho, nó âm thầm đứng đó.</p>
+</div>
+
+<h2 id="s8">8. Chiến lược &quot;bóc mệnh đề thời gian/nguyên nhân&quot; và bản đồ quyết định</h2>
+
+<p>Tổng kết kỹ năng ngày hôm nay thành bốn bước, dùng được cho cả đọc lẫn viết:</p>
+
+<table>
+<thead><tr><th>Bước</th><th>Câu hỏi</th><th>Việc làm</th></tr></thead>
+<tbody>
+<tr><td><strong>1. Tìm cửa</strong></td><td>liên từ nào đứng trước động từ thứ hai của câu?</td><td>rà mắt qua tám cửa của bài: <span class="gk">ὅτε, ὅταν, ἐπεί, ἐπειδή, ἐπειδάν, ἕως, ἔστε, πρίν</span> (thời gian) và <span class="gk">ὅτι, διότι</span> (nguyên nhân), chưa kể hai cửa mượn: <span class="gk">ἐπεί</span> nguyên nhân và <span class="gk">ὡς</span> + phân từ</td></tr>
+<tr><td><strong>2. Hỏi nghề</strong></td><td>thời gian hay nguyên nhân?</td><td>thử dịch hai lượt (&quot;khi/sau khi&quot; và &quot;vì&quot;); nghĩa nào giữ mạch luận lý, chọn nghề ấy – <span class="gk">ἐπεί</span> cho phép cả hai</td></tr>
+<tr><td><strong>3. Hỏi kiểu</strong></td><td>một lần có thật, lặp lại, hay chờ đón?</td><td>một lần → chỉ định; lặp lại/chờ đón → <span class="gk">ἄν</span> + giả định (<span class="gk">ὅταν/ἐπειδάν/ἕως ἂν</span>); lặp lại trong <em>quá khứ</em> → optative (mục 6)</td></tr>
+<tr><td><strong>4. Vẽ đồng hồ</strong></td><td>hai sự việc so với nhau ra sao?</td><td>chọn thời-thức cho hai vế: vế chính và vế phụ cùng một trục; <span class="gk">ἐπεί</span> = mũi tên trước-sau, <span class="gk">ὅτε</span> = trùng nhau, <span class="gk">ἕως</span> = đoạn kéo dài, <span class="gk">πρίν</span> = chặn trước</td></tr>
+</tbody>
+</table>
+
+<p>Và đây là bản đồ quyết định gói trong bốn nhánh, bạn nên tự vẽ lại ra giấy nhớ: <strong>gặp <span class="gk">ὅτ-</span> → có <span class="gk">ἄν</span> không?</strong> Không → <span class="gk">ὅτε</span> chỉ định, một lần. Có → giả định: hiện tại/tương lai khái quát. <strong>Gặp <span class="gk">ἐπ-</span> → vế chính là hệ quả logic?</strong> Không → &quot;sau khi&quot; thời gian. Có → &quot;vì&quot;. <strong>Gặp <span class="gk">ὅτι</span> → trước nó có động từ nói/nghĩ?</strong> Có → &quot;rằng&quot; (Bài 17). Không → &quot;bởi vì&quot;. <strong>Gặp optative sau liên từ → vế chính quá khứ kể thói quen?</strong> Có → &quot;mỗi khi&quot;. Không → kiểm tra lại, có thể là oblique gián tiếp.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng sang bài khác:</strong> cả bài hôm nay chỉ chạy trên <em>một</em> nguyên lý: <strong>liên từ chọn nghề, ἄν chọn màu, động từ chọn thời</strong>. Bạn sẽ tái dụng đúng bộ ba này ở Bài 26 với <span class="gk">ὥστε</span> (mệnh đề kết quả) và ở Graecum II với <span class="gk">ὅπως</span> tường thuật: cùng một cỗ máy, chỉ thay cửa. Ghi câu đó vào sổ: <em>cửa – màu – thời</em>.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Achtung – bẫy chính tả năm cửa:</strong> <span class="gk">ὅτε</span> &quot;khi&quot; vs <span class="gk">ὅτι</span> &quot;rằng/vì&quot;: một ký tự, hai nghề; <span class="gk">ἐπεί</span> &quot;sau khi/vì&quot; vs <span class="gk">ἐπί</span> giới từ &quot;trên, tại&quot; (Bài 4): accent lên <span class="gk">ει</span> là liên từ; <span class="gk">ἕως</span> &quot;cho đến khi&quot; vs <span class="gk">ὅπως</span> &quot;bằng cách nào / để mà&quot; (Bài 16): dấu nhấp nhô trên đầu <span class="gk">ω</span> thuộc họ <span class="gk">ὅ</span>-quan hệ; <span class="gk">πρίν</span> &quot;trước khi&quot; vs <span class="gk">πρό</span> + sở hữu cách &quot;trước (không gian)&quot; (Bài 11): <span class="gk">πρίν</span> đi kèm động từ, <span class="gk">πρό</span> đi kèm danh từ; và <span class="gk">ἔστε</span> &quot;miễn là&quot; vs <span class="gk">ἐστιν</span> &quot;(nó) là&quot; – crasis bỏ đi một âm tiết nhưng cái nghĩa thời gian vẫn còn nguyên. Sổ tay nên có riêng một trang: mỗi cặp một câu ví dụ đối chiếu.</p>
+</div>
+
+<h2 id="reading">9. Bài đọc: Đêm tuyệt vọng và giấc mộng của Xenophon (Anabasis 3,1) – Chân dung Klearchos, kẻ mộ chiến (Anabasis 2,6)</h2>
+
+<div class="info">
+<p><strong>Văn bản I – Xenophon, <em>Anabasis</em> 3,1, &quot;Đêm tuyệt vọng và giấc mộng sấm cháy nhà&quot;:</strong> mùa thu năm 401 trước CN, hơn một vạn lính Hy Lạp làm thuê đã tiến quân vào lòng Ba Tư giúp hoàng tử Kyros đoạt ngai; Kyros chết giữa trận Cunaxa, và bản hiệp ước rút quân chỉ kéo dài được vài tuần: Tissaphernes mời các tướng lĩnh đến dự tiệc rồi tóm sạch (bạn đã đọc cảnh Klearchos phát biểu với Tissaphernes ở bài 13, và hai bức thư sau trận Issus – của Arrian – ở bài 18). Chương 3,1 mở đầu bằng chính khoảnh khắc đen tối nhất: không tướng, không chỉ huy, không chợ, không ngựa, kẻ thù tứ diện. Trong đêm đó, một người không phải tướng, không phải đội trưởng, chỉ là một &quot;khách theo bạn&quot; Athen, nằm mơ thấy tia sét đánh vào nhà cha – và lịch sử Hy Lạp có được một trong những trang tự thuật hay nhất. Đoạn ta đọc: bản tóm kết mở màn (1), nỗi tuyệt vọng (2–3), giấc mộng và cách giải (11–13), và hồi tưởng của Xenophon về giao ước (19–21) – nguyên văn gần như trọn vẹn.</p>
+<p><strong>Văn bản II – Xenophon, <em>Anabasis</em> 2,6, &quot;Kẻ mộ chiến&quot;:</strong> chương 2,6 là loạt &quot;chân dung điếu&quot; cho các tướng đã bị giết: Klearchos, Proxenos, Menon, Agias. Xenophon vẽ Klearchos bằng ba nét đậm – <span class="gk">πολεμικός</span> (sỏi trận), <span class="gk">φιλοκίνδυνος</span> (chuộng chỗ nguy hiểm) và <span class="gk">φιλοπόλεμος</span> (mộ chiến) – rồi kể cả đời y như một chuỗi &quot;mỗi khi... thì...&quot;. Đoạn ta đọc: bản tử kết (1), tiểu sử thời bình (2–5), khối ba nhịp &quot;<span class="gk">ἐξόν...</span>&quot; nổi tiếng (6) và cặp &quot;trong cơn nguy / ngoài cơn nguy&quot; (12) – gần nguyên văn, chỉ lược những chỗ đánh dấu &quot;...&quot;.</p>
+<p><strong>Nguồn (cả hai văn bản):</strong> bản Greek theo Perseus Digital Library (perseus.tufts.edu, bản Marchant, public domain), <em>Anabasis</em> 3,1 và 2,6. Ba chuẩn hóa hiển thị (khác nguồn, mọi từ giữ nguyên đọc): (1) dấu &quot;:&quot; của bản nguồn được in theo quy ước hiện đại – giữa câu thành <span class="gk">·</span>, cuối câu thành &quot;.&quot;; dấu hỏi Hy Lạp giữ &quot;;&quot;. (2) dấu elision/koronis của nguồn chuẩn hóa thành ʼ theo quy ước project. (3) chính tả <span class="gk">ξὺν</span> (= <span class="gk">σὺν</span>, đã gặp ở bài 18) giữ nguyên như nguồn in.</p>
+</div>
+
+<h4>Gloss nhanh cho hai văn bản (16 từ, đọc trước khi vào)</h4>
+
+<table>
+<thead>
+<tr><th>Từ</th><th>Nghĩa</th><th>Ghi chú nhanh</th></tr>
+</thead>
+<tbody>
+<tr><td><span class="gk">ἡ ἀνάβασις, -εως</span></td><td>cuộc tiến quân</td><td>nhan đề chính của cuốn sách: <span class="gk">ἀναβαίνω</span> &quot;đi lên&quot; – đi ngược dòng vào trong lục địa</td></tr>
+<tr><td><span class="gk">συνειλημμένοι</span></td><td>(đã) bị tóm</td><td>perfect phân từ của <span class="gk">συλλαμβάνω</span> &quot;tóm chung lại&quot; (Bài 11, 19); trạng thái &quot;đã bị tóm và còn trong tay&quot;</td></tr>
+<tr><td><span class="gk">ἀπωλώλεσαν</span></td><td>đã mất mạng</td><td>aorist của <span class="gk">ἀπόλλυμι</span> &quot;hủy diệt, làm cho mất&quot; – bổ nghĩa cho các đội trưởng, binh sĩ đi theo các tướng</td></tr>
+<tr><td><span class="gk">ἡ ἑσπέρα, -ας</span></td><td>buổi chiều</td><td>cặp với biểu thức <span class="gk">ἅμα τῇ ἡμέρᾳ</span> &quot;hỡ rạng sáng&quot; ở khối 6 – tặng cách chỉ thời điểm (Bài 11)</td></tr>
+<tr><td><span class="gk">ὁ σκηπτός, -οῦ</span></td><td>tia sét</td><td>chỉ đồ vật được phóng; cùng họ với <span class="gk">βροντή</span> (từ vựng): sấm nổ, rồi tia sét rơi</td></tr>
+<tr><td><span class="gk">ὁ/ἡ πατρῷος, -α, -ον</span></td><td>của cha, cha để lại</td><td>bài đọc: <span class="gk">τὴν πατρῴαν οἰκίαν</span> &quot;tòa nhà của cha&quot;; họ hàng <span class="gk">ἡ πατρίς</span> (Bài 4)</td></tr>
+<tr><td><span class="gk">λάμπω</span></td><td>chiếu sáng</td><td>ở bài đọc ở dạng trung-quá khứ <span class="gk">λάμπεσθαι</span> &quot;rực lên khắp nơi&quot;</td></tr>
+<tr><td><span class="gk">περίφοβος</span></td><td>kinh sợ tột cùng</td><td><span class="gk">περί-</span> tăng cường + <span class="gk">φοβέομαι</span> (Bài 7): sợ bao quanh</td></tr>
+<tr><td><span class="gk">ἡ ἔννοια, -ας</span></td><td>ý nghĩ</td><td><span class="gk">ἐν</span> + <span class="gk">ὁ νοῦς</span> &quot;cái nằm trong tâm&quot;; họ hàng gần <span class="gk">ἐννοέω</span>, <span class="gk">ἐνθυμέομαι</span></td></tr>
+<tr><td><span class="gk">εἰκός / εἰκὸς</span></td><td>chắc thế, có thể lắm</td><td>bất biến; khuôn hay gặp: <span class="gk">εἰκὸς</span> + đối cách + nguyên mẫu – ngay ở khối 6: <span class="gk">εἰκὸς τοὺς πολεμίους ἥξειν</span></td></tr>
+<tr><td><span class="gk">τὸ ἐμποδών</span></td><td>chướng ngại</td><td>trung tính danh từ hóa; khuôn hỏi: <span class="gk">τί ἐμποδὼν μὴ...;</span> &quot;còn ai cản được việc...?&quot; (khối 6)</td></tr>
+<tr><td><span class="gk">μακαρίζω</span></td><td>chúc phúc</td><td>từ <span class="gk">ὁ μάκαρ</span> &quot;đấng sung sướng&quot;; đối lập với <span class="gk">οἰκτίρω</span> &quot;thương xót&quot; trong cùng một câu (khối 7)</td></tr>
+<tr><td><span class="gk">ὁ θεράπων, -ονος</span></td><td>kẻ hầu hạ, tôi tớ</td><td>thân <span class="gk">-ον-</span> giống <span class="gk">ὁ γεωργός</span> (Bài 12); ở đây: tùy tùng đông đến mức liệt kê</td></tr>
+<tr><td><span class="gk">μετέχω</span> (+ sở hữu cách)</td><td>được phần trong</td><td><span class="gk">μετά</span> + <span class="gk">ἔχω</span> &quot;giữ phần trong đó&quot;; khối 8 có optative: <span class="gk">οὐδενὸς ἡμῖν μετείη</span></td></tr>
+<tr><td><span class="gk">ἡ ὑποψία, -ας</span></td><td>nỗi ngờ vực</td><td><span class="gk">ὑπό</span> + <span class="gk">ἡ ὄψις</span> &quot;cái nhìn từ dưới lên&quot; – cái nhìn lệch đi của lòng nghi</td></tr>
+<tr><td><span class="gk">ὁ ἀγωνοθέτης, -ου</span></td><td>trọng tài cuộc thi</td><td><span class="gk">ὁ ἀγών</span> + <span class="gk">τίθημι</span> (Bài 20 đã hẹn gặp lại): người &quot;đặt&quot; luật chơi</td></tr>
+</tbody>
+</table>
+
+<h3>Văn bản I: Đêm tuyệt vọng và giấc mộng (Anabasis 3,1)</h3>
+
+<p><strong>Khối 1 (3,1,1, bản tóm kết mở màn):</strong></p>
+<p class="gk">ὅσα μὲν δὴ ἐν τῇ Κύρου ἀναβάσει οἱ Ἕλληνες ἔπραξαν μέχρι τῆς μάχης, καὶ ὅσα ἐπεὶ Κῦρος ἐτελεύτησεν ἐγένετο ἀπιόντων τῶν Ἑλλήνων σὺν Τισσαφέρνει ἐν ταῖς σπονδαῖς, ἐν τῷ πρόσθεν λόγῳ δεδήλωται.</p>
+
+<p><strong>Khối 2 (3,1,2, nỗi tuyệt vọng):</strong></p>
+<p class="gk">ἐπεὶ δὲ οἱ στρατηγοὶ συνειλημμένοι ἦσαν καὶ τῶν λοχαγῶν καὶ τῶν στρατιωτῶν οἱ συνεπόμενοι ἀπωλώλεσαν, ἐν πολλῇ δὴ ἀπορίᾳ ἦσαν οἱ Ἕλληνες, ἐννοούμενοι ὅτι ἐπὶ ταῖς βασιλέως θύραις ἦσαν, κύκλῳ δὲ αὐτοῖς πάντῃ πολλὰ καὶ ἔθνη καὶ πόλεις πολέμιαι ἦσαν, ἀγορὰν δὲ οὐδεὶς ἔτι παρέξειν ἔμελλεν, ἀπεῖχον δὲ τῆς Ἑλλάδος οὐ μεῖον ἢ μύρια στάδια, ἡγεμὼν δ᾽ οὐδεὶς τῆς ὁδοῦ ἦν, ποταμοὶ δὲ διεῖργον ἀδιάβατοι ἐν μέσῳ τῆς οἴκαδε ὁδοῦ, προυδεδώκεσαν δὲ αὐτοὺς καὶ οἱ σὺν Κύρῳ ἀναβάντες βάρβαροι, μόνοι δὲ καταλελειμμένοι ἦσαν οὐδὲ ἱππέα οὐδένα σύμμαχον ἔχοντες, ὥστε εὔδηλον ἦν ὅτι νικῶντες μὲν οὐδένα ἂν κατακάνοιεν, ἡττηθέντων δὲ αὐτῶν οὐδεὶς ἂν λειφθείη.</p>
+
+<p><strong>Khối 3 (3,1,3, đêm không ngủ):</strong></p>
+<p class="gk">ταῦτ᾽ ἐννοούμενοι καὶ ἀθύμως ἔχοντες ὀλίγοι μὲν αὐτῶν εἰς τὴν ἑσπέραν σίτου ἐγεύσαντο, ὀλίγοι δὲ πῦρ ἀνέκαυσαν, ἐπὶ δὲ τὰ ὅπλα πολλοὶ οὐκ ἦλθον ταύτην τὴν νύκτα, ἀνεπαύοντο δὲ ὅπου ἐτύγχανον ἕκαστος, οὐ δυνάμενοι καθεύδειν ὑπὸ λύπης καὶ πόθου πατρίδων, γονέων, γυναικῶν, παίδων, οὓς οὔποτ᾽ ἐνόμιζον ἔτι ὄψεσθαι. οὕτω μὲν δὴ διακείμενοι πάντες ἀνεπαύοντο.</p>
+
+<p><strong>Khối 4 (3,1,11, giấc mộng):</strong></p>
+<p class="gk">ἐπεὶ δὲ ἀπορία ἦν, ἐλυπεῖτο μὲν σὺν τοῖς ἄλλοις καὶ οὐκ ἐδύνατο καθεύδειν· μικρὸν δ᾽ ὕπνου λαχὼν εἶδεν ὄναρ. ἔδοξεν αὐτῷ βροντῆς γενομένης σκηπτὸς πεσεῖν εἰς τὴν πατρῴαν οἰκίαν, καὶ ἐκ τούτου λάμπεσθαι πᾶσα.</p>
+
+<p><strong>Khối 5 (3,1,12, một mộng hai lối đọc):</strong></p>
+<p class="gk">περίφοβος δ᾽ εὐθὺς ἀνηγέρθη, καὶ τὸ ὄναρ τῇ μὲν ἔκρινεν ἀγαθόν, ὅτι ἐν πόνοις ὢν καὶ κινδύνοις φῶς μέγα ἐκ Διὸς ἰδεῖν ἔδοξε· τῇ δὲ καὶ ἐφοβεῖτο, ὅτι ἀπὸ Διὸς μὲν βασιλέως τὸ ὄναρ ἐδόκει αὐτῷ εἶναι, κύκλῳ δὲ ἐδόκει λάμπεσθαι τὸ πῦρ, μὴ οὐ δύναιτο ἐκ τῆς χώρας ἐξελθεῖν τῆς βασιλέως, ἀλλ᾽ εἴργοιτο πάντοθεν ὑπό τινων ἀποριῶν.</p>
+
+<p><strong>Khối 6 (3,1,13, bật dậy nghĩ):</strong></p>
+<p class="gk">ὁποῖόν τι μὲν δὴ ἐστὶ τὸ τοιοῦτον ὄναρ ἰδεῖν ἔξεστι σκοπεῖν ἐκ τῶν συμβάντων μετὰ τὸ ὄναρ. γίγνεται γὰρ τάδε. εὐθὺς ἐπειδὴ ἀνηγέρθη πρῶτον μὲν ἔννοια αὐτῷ ἐμπίπτει· τί κατάκειμαι; ἡ δὲ νὺξ προβαίνει· ἅμα δὲ τῇ ἡμέρᾳ εἰκὸς τοὺς πολεμίους ἥξειν. εἰ δὲ γενησόμεθα ἐπὶ βασιλεῖ, τί ἐμποδὼν μὴ οὐχὶ πάντα μὲν τὰ χαλεπώτατα ἐπιδόντας, πάντα δὲ τὰ δεινότατα παθόντας ὑβριζομένους ἀποθανεῖν;</p>
+
+<p><strong>Khối 7 (3,1,19, hồi tưởng về giao ước):</strong></p>
+<p class="gk">ἐγὼ μὲν οὖν ἔστε μὲν αἱ σπονδαὶ ἦσαν οὔποτε ἐπαυόμην ἡμᾶς μὲν οἰκτίρων, βασιλέα δὲ καὶ τοὺς σὺν αὐτῷ μακαρίζων, διαθεώμενος αὐτῶν ὅσην μὲν χώραν καὶ οἵαν ἔχοιεν, ὡς δὲ ἄφθονα τὰ ἐπιτήδεια, ὅσους δὲ θεράποντας, ὅσα δὲ κτήνη, χρυσὸν δέ, ἐσθῆτα δέ·</p>
+
+<p><strong>Khối 8 (3,1,20, và cho phía bên kia):</strong></p>
+<p class="gk">τὰ δ᾽ αὖ τῶν στρατιωτῶν ὁπότε ἐνθυμοίμην, ὅτι τῶν μὲν ἀγαθῶν τούτων οὐδενὸς ἡμῖν μετείη, εἰ μὴ πριαίμεθα, ὅτου δ᾽ ὠνησόμεθα ᾔδειν ἔτι ὀλίγους ἔχοντας, ἄλλως δέ πως πορίζεσθαι τὰ ἐπιτήδεια ἢ ὠνουμένους ὅρκους ἤδη κατέχοντας ἡμᾶς· ταῦτ᾽ οὖν λογιζόμενος ἐνίοτε τὰς σπονδὰς μᾶλλον ἐφοβούμην ἢ νῦν τὸν πόλεμον.</p>
+
+<p><strong>Khối 9 (3,1,21, giao ước đã xé, phần thưởng đã trải):</strong></p>
+<p class="gk">ἐπεὶ μέντοι ἐκεῖνοι ἔλυσαν τὰς σπονδάς, λελύσθαι μοι δοκεῖ καὶ ἡ ἐκείνων ὕβρις καὶ ἡ ἡμετέρα ὑποψία. ἐν μέσῳ γὰρ ἤδη κεῖται ταῦτα τὰ ἀγαθὰ ἆθλα ὁπότεροι ἂν ἡμῶν ἄνδρες ἀμείνονες ὦσιν, ἀγωνοθέται δ᾽ οἱ θεοί εἰσιν, οἳ σὺν ἡμῖν, ὡς τὸ εἰκός, ἔσονται.</p>
+
+<p>Đọc thử và tự đặt ba câu hỏi trước khi xem phân tích: (1) khối 2 mở đầu bằng <span class="gk">ἐπεί</span> + <em>perfect</em> – vì sao không phải aorist? (2) khối 5 và 8 đều dùng động từ sợ/nghĩ quá khứ mà động từ phụ lại là <em>optative</em> (<span class="gk">εἴργοιτο</span>, <span class="gk">μετείη</span>) – đó là màu nào đã học ở mục 6? (3) khối 9 có <span class="gk">ὁπότεροι ἂν... ὦσιν</span> – khuôn nào của Bài 16 sống lại ở đây?</p>
+
+<h3>Văn bản II: Kẻ mộ chiến (Anabasis 2,6)</h3>
+
+<p><strong>Khối 10 (2,6,1, bản tử kết):</strong></p>
+<p class="gk">οἱ μὲν δὴ στρατηγοὶ οὕτω ληφθέντες ἀνήχθησαν ὡς βασιλέα καὶ ἀποτμηθέντες τὰς κεφαλὰς ἐτελεύτησαν, εἷς μὲν αὐτῶν Κλέαρχος ὁμολογουμένως ἐκ πάντων τῶν ἐμπείρως αὐτοῦ ἐχόντων δόξας γενέσθαι ἀνὴρ καὶ πολεμικὸς καὶ φιλοπόλεμος ἐσχάτως.</p>
+
+<p><strong>Khối 11 (2,6,2, thời bình và chuyện chinh chiến):</strong></p>
+<p class="gk">καὶ γὰρ δὴ ἕως μὲν πόλεμος ἦν τοῖς Λακεδαιμονίοις πρὸς τοὺς Ἀθηναίους παρέμενεν, ἐπειδὴ δὲ εἰρήνη ἐγένετο, πείσας τὴν αὑτοῦ πόλιν ὡς οἱ Θρᾷκες ἀδικοῦσι τοὺς Ἕλληνας καὶ διαπραξάμενος ὡς ἐδύνατο παρὰ τῶν ἐφόρων ἐξέπλει ὡς πολεμήσων τοῖς ὑπὲρ Χερρονήσου καὶ Περίνθου Θρᾳξίν.</p>
+
+<p><strong>Khối 12 (2,6,4–5, bị xử chết, gặp Kyros, chiến đấu):</strong></p>
+<p class="gk">ἐκ τούτου καὶ ἐθανατώθη ὑπὸ τῶν ἐν Σπάρτῃ τελῶν ὡς ἀπειθῶν. ἤδη δὲ φυγὰς ὢν ἔρχεται πρὸς Κῦρον... δίδωσι δὲ αὐτῷ Κῦρος μυρίους δαρεικούς. ὁ δὲ λαβὼν οὐκ ἐπὶ ῥᾳθυμίαν ἐτράπετο, ἀλλ᾽ ἀπὸ τούτων τῶν χρημάτων συλλέξας στράτευμα ἐπολέμει τοῖς Θρᾳξί, καὶ μάχῃ τε ἐνίκησε καὶ ἀπὸ τούτου δὴ ἔφερε καὶ ἦγε τούτους καὶ πολεμῶν διεγένετο μέχρι Κῦρος ἐδεήθη τοῦ στρατεύματος· τότε δὲ ἀπῆλθεν ὡς ξὺν ἐκείνῳ αὖ πολεμήσων.</p>
+
+<p><strong>Khối 13 (2,6,6, ba nhịp &quot;ἐξόν...&quot;):</strong></p>
+<p class="gk">ταῦτα οὖν φιλοπολέμου μοι δοκεῖ ἀνδρὸς ἔργα εἶναι, ὅστις ἐξὸν μὲν εἰρήνην ἄγειν ἄνευ αἰσχύνης καὶ βλάβης αἱρεῖται πολεμεῖν, ἐξὸν δὲ ῥᾳθυμεῖν βούλεται πονεῖν ὥστε πολεμεῖν, ἐξὸν δὲ χρήματα ἔχειν ἀκινδύνως αἱρεῖται πολεμῶν μείονα ταῦτα ποιεῖν· ἐκεῖνος δὲ ὥσπερ εἰς παιδικὰ ἢ εἰς ἄλλην τινὰ ἡδονὴν ἤθελε δαπανᾶν εἰς πόλεμον.</p>
+
+<p><strong>Khối 14 (2,6,12, trong cơn nguy và ngoài cơn nguy):</strong></p>
+<p class="gk">ὅτε δ᾽ ἔξω τοῦ δεινοῦ γένοιντο καὶ ἐξείη πρὸς ἄλλον ἀρξομένους ἀπιέναι, πολλοὶ αὐτὸν ἀπέλειπον· τὸ γὰρ ἐπίχαρι οὐκ εἶχεν, ἀλλ᾽ ἀεὶ χαλεπὸς ἦν καὶ ὠμός· ὥστε διέκειντο πρὸς αὐτὸν οἱ στρατιῶται ὥσπερ παῖδες πρὸς διδάσκαλον.</p>
+
+<p>Trước khi xem dịch: (1) khối 11 là bộ máy của cả bài trong <em>một</em> câu – tách ra xem có bao nhiêu mệnh đề thời gian? (2) khối 13: <span class="gk">ἐξόν</span> xuất hiện ba lần – nó là phần từ của động từ nào, và đứng trơ trụi kiểu nào đã học ở Bài 20? (3) khối 14: động từ của mệnh đề <span class="gk">ὅτε</span> là <span class="gk">γένοιντο</span> – vì sao là optative?</p>
+
+<h3>Dịch tham khảo</h3>
+
+<h4>Văn bản I (Anabasis 3,1)</h4>
+<p><em>Khối 1:</em> &quot;Những gì người Hy Lạp đã làm trong cuộc tiến quân của Kyros cho đến trận đánh, và những gì đã xảy ra sau khi Kyros tạ thế, khi người Hy Lạp rút lui cùng Tissaphernes dưới bóng giao ước, phần trình bày trước đã cho thấy.&quot;</p>
+<p><em>Khối 2:</em> &quot;Bây giờ, một khi các tướng lĩnh đã bị tóm giữ và các đội trưởng lẫn binh sĩ đi theo họ đã mất mạng, người Hy Lạp lâm vào cảnh khốn cùng thực sự; họ ngẫm rằng mình đang đứng ngay trước thềm cửa nhà vua, tứ phía quanh mình toàn dân thù và thành thù; không ai sẽ còn mở chợ cho mình nữa; mình cách Hy Lạp không dưới một vạn stadia; không một người dẫn đường nào cho chuyến về; các dòng sông không thể vượt chắn giữa đường về nhà; bọn người ngoại đã từng theo Kyros tiến quân cũng phản bội mình rồi; còn mình bị bỏ lại một mình, không có nổi một kỵ sĩ đồng minh – đến nỗi rõ như ban ngày: thắng thì chẳng giết nổi một ai, mà bại thì chẳng một ai sẽ được sống sót.&quot;</p>
+<p><em>Khối 3:</em> &quot;Nghĩ đến những điều ấy với tâm trạng u ám, ít người trong đám họ nếm chút lương thực vào chiều hôm ấy, ít người nhóm lửa, nhiều kẻ đêm đó không đến đứng dưới vũ khí, từng người nằm nghỉ bất cứ ở đâu mình rơi vào; không tài nào ngủ được, vì nỗi đau và nỗi nhớ quê hương, cha mẹ, vợ con – những người họ chưa bao giờ dám tưởng còn được nhìn thấy nữa. Với tâm trạng như thế, tất cả chìm vào giấc.&quot;</p>
+<p><em>Khối 4:</em> &quot;Còn khi cảnh khốn cùng đã có đó, chàng Xenophon cũng âm thầm đau lòng như mọi người và không tài nào ngủ được; nhưng chợp được một chút giấc, chàng thấy một giấc mộng: dường như sấm nổ, một tia sét đánh thẳng vào tòa nhà của cha chàng, và từ đó cả tòa nhà rực sáng.&quot;</p>
+<p><em>Khối 5:</em> &quot;Hết sức hoảng sợ, chàng bật dậy. Về giấc mộng, theo một mặt, chàng xét là điềm lành: giữa gian lao và hiểm nghèo mà thấy ánh sáng lớn từ Zeus hiện ra; theo mặt kia, chàng cũng kinh sợ, rằng giấc mộng dường như đến từ Zeus Vua, mà ngọn lửa lại rực quanh mọi phía – sợ rằng chàng sẽ không thể nào thoát khỏi đất của vua, mà còn bị chặn đứng từ mọi phía bởi những nỗi khốn cùng.&quot;</p>
+<p><em>Khối 6:</em> &quot;Giấc mộng như thế báo điềm gì, có thể soi từ những gì xảy ra sau giấc mộng. Đâu có xa, việc xảy ra thế này: ngay khi chàng trỗi dậy, ý nghĩ đầu tiên xẹt vào chàng: 'Còn nằm ườn ra đây làm gì? Đêm đã gần tàn; hễ rạng sáng là giặc có thể kéo đến. Rồi nếu ta rơi vào tay vua, thì còn ai cản được việc: mắt trông thấy hết mọi chuyện gay go nhất, thân chịu hết mọi sự kinh khủng nhất, rồi bị sỉ nhục mà chết?'&quot;</p>
+<p><em>Khối 7:</em> &quot;Phần tôi, trừng nào giao ước còn, tôi chưa từng ngừng (than khóc): thương xót chúng ta, chúc phúc cho vua và bọn tùy tùng, ngắm nghía của họ: đất đai bao la và tốt đẹp thế nào, lương thực sung túng thế nào, tôi tớ bao nhiêu, gia súc bao nhiêu, vàng thì thôi, áo xống thì thôi.&quot;</p>
+<p><em>Khối 8:</em> &quot;Còn hễ mỗi lần tôi nghĩ đến phận binh lính – rằng mọi thứ tốt đẹp ấy không có phần gì cho ta, trừ phi mua mà lấy; mà cái để mua, tôi biết rồi, chỉ còn ít người còn giữ; còn cách xoay xở lương thực nào ngoài mua, thì (nỡ nào) chúng ta đã bị những lời thề trói chặt lại rồi – nghĩ đến những điều ấy, có lúc tôi còn sợ cái giao ước hơn cả cái chiến tranh ngày nay.&quot;</p>
+<p><em>Khối 9:</em> &quot;Rồi một khi bọn họ đã xé giao ước, tôi thấy rằng cả cái hỗn ngược của họ lẫn cái ngờ vực của ta đều được giải tỏa. Bởi những của cải kia đã nằm sẵn giữa trận, làm phần thưởng cho phe nào trong hai ta là những đấng nam nhi hơn; còn trọng tài cuộc thi là các thần – những vị, khá chắc, sẽ đứng về phía chúng ta.&quot;</p>
+
+<h4>Văn bản II (Anabasis 2,6)</h4>
+<p><em>Khối 10:</em> &quot;Các tướng lĩnh sau khi bị tóm như thế bị giải đến vua, và sau khi bị chặt đầu, tắt thở. Một người trong bọn họ, Klearchos, được mọi kẻ am tường về y công nhận là đã trở thành một con người vừa sỏi trận, vừa mộ chiến một cách tột cùng.&quot;</p>
+<p><em>Khối 11:</em> &quot;Thật vậy, miễn là cuộc chiến tranh giữa Sparta và Athens còn, (Klearchos) cứ ở lại (đó); nhưng sau khi hòa bình đến, y thuyết phục thành mình rằng người Thrace đang làm hại người Hy Lạp, và sau khi xoay xở với các đốc chính hết sức có thể, y nhổ trại ra khơi để đem quân đánh người Thrace ở bên Chersonesos và Perinthos.&quot;</p>
+<p><em>Khối 12:</em> &quot;Từ đó, y còn bị chính quyền Sparta xử chết, vì là kẻ không chịu phục tùng. Đã thành kẻ lưu đày, y đến với Kyros... Kyros tặng y một vạn đồng daric. Y nhận, nhưng chẳng hề quay sang sống nhàn hạ: với số tiền ấy y gom một đạo quân, đem đánh người Thrace; thắng một trận, và từ đó triền miên cướp bóc và bắt tù đem về, cứ thế mà chiến đấu cho đến khi Kyros xin đạo quân; lúc đó y ra đi, để cùng y lại đem quân.&quot;</p>
+<p><em>Khối 13:</em> &quot;Những việc ấy, theo tôi, là việc làm của một kẻ mộ chiến: kẻ mà vốn được phép sống hòa bình không tủi hổ, không tổn hại, lại chọn chiến tranh; được phép nhàn hạ, lại muốn lụ khụ cực nhọc, để mà chiến tranh; được phép giữ tiền của không nguy hiểm, lại chọn cách cứ chiến đấu mà làm cho những thứ ấy cứ nhỏ dần. Còn y, thì y tiêu tiền vào chiến tranh cũng như người ta tiêu vào những trò yêu đương hay một thứ khoái lạc nào khác.&quot;</p>
+<p><em>Khối 14:</em> &quot;Mà mỗi khi họ ra khỏi cơn nguy hiểm, và có thể đi theo những kẻ khác sắp cầm quyền, nhiều người bỏ y đi; y chẳng có cái duyên dễ chịu nào, mà bao giờ cũng gắt gỏng và tàn bạo; đến nỗi binh lính đối với y như trẻ con đối với thầy giáo.&quot;</p>
+
+<h3>Phân tích chính tả từng cụm (đọc sau khi tự bóc)</h3>
+
+<ul>
+<li><strong><span class="gk">ὅσα... ἔπραξαν... καὶ ὅσα ἐπεὶ Κῦρος ἐτελεύτησεν ἐγένετο</span> (khối 1):</strong> cặp &quot;bao nhiêu cái... và bao nhiêu cái...&quot; dùng quan hệ <span class="gk">ὅσος</span> hai lần (Bài 15); cả hai mệnh đề quan hệ chia <em>perfect</em> <span class="gk">δεδήλωται</span> &quot;đã được cho thấy (và nội dung vẫn còn đó)&quot; (Bài 14). Ở giữa, <span class="gk">ἐπεὶ</span> + aorist <span class="gk">ἐτελεύτησεν</span>: đúng khuôn &quot;sau khi&quot; của mục 3. Chú ý <span class="gk">ἀπιόντων τῶν Ἑλλήνων σὺν Τισσαφέρνει ἐν ταῖς σπονδαῖς</span>: cả cụm &quot;lúc người Hy Lạp đang rút lui...&quot; được đóng gói bằng <em>genitive absolute</em> (Bài 20) treo vào danh từ <span class="gk">ὅσα</span> – Xenophon không thèm dựng mệnh đề đầy đủ.</li>
+<li><strong><span class="gk">ἐπεὶ δὲ οἱ στρατηγοὶ συνειλημμένοι ἦσαν</span> (khối 2):</strong> biểu ngữ của mục 3: <span class="gk">ἐπεί</span> + <em>perfect</em>. Động từ chính <span class="gk">ἦσαν</span> + <span class="gk">ἐν πολλῇ ἀπορίᾳ</span> mô tả trạng thái; perfect nhấn &quot;đã bị tóm và còn trong tay kẻ địch&quot;. Cả câu sau là một chuỗi <span class="gk">μὲν... δὲ... δὲ... δὲ...</span> liệt kê từng chiếc đồng hồ báo tin dữ: <span class="gk">ἔμελλεν</span> (imperfect + tương lai nguyên mẫu: &quot;sắp không còn ai mở chợ&quot;), <span class="gk">προυδεδώκεσαν</span> (augment kép <span class="gk">προ-εδω-</span> co thành <span class="gk">προυδε-</span>, Bài 11), <span class="gk">καταλελειμμένοι</span> (perfect), và khép lại bằng <span class="gk">ὥστε εὔδηλον ἦν ὅτι...</span> – &quot;đến nỗi rõ như ban ngày là...&quot;, một mệnh đề kết quả có <span class="gk">εὔδηλον ἦν</span> + <span class="gk">ὅτι</span> gián tiếp (Bài 17).</li>
+<li><strong><span class="gk">οὓς οὔποτ᾽ ἐνόμιζον ἔτι ὄψεσθαι</span> (khối 3):</strong> AcI đã mổ ở mục 7, giờ nguyên cảnh: quan hệ <span class="gk">οὕς</span> (đối cách! – cùng &quot;gọng kẹp&quot; với động từ chính) làm chủ thể giả định của nguyên mẫu tương lai <span class="gk">ὄψεσθαι</span>. Dịch &quot;những người họ chưa bao giờ dám tưởng còn được nhìn thấy&quot;. Cặp <span class="gk">ὀλίγοι μὲν... ὀλίγοι δὲ...</span> và <span class="gk">διακείμενοι</span> (trạng thái &quot;với tâm thế như thế&quot;) là màn ôn tập cho phân từ hoàn cảnh (Bài 19).</li>
+<li><strong><span class="gk">ἐπεὶ δὲ ἀπορία ἦν... ἐλυπεῖτο</span> (khối 4):</strong> đây là <span class="gk">ἐπεί</span> lưỡng nghi: &quot;khi cảnh khốn cùng có đó&quot; cũng là &quot;vì cảnh khốn cùng có đó&quot;. Imperfect <span class="gk">ἐλυπεῖτο</span> vẽ nền: đau lòng triền miên (Bài 11). Tiếp theo là hai kho báu nhỏ: <span class="gk">μικρὸν ὕπνου λαχὼν</span> – &quot;nắm được một chút giấc ngủ&quot; với <span class="gk">λαγχάνω</span> &quot;nhận phần mình sổ trời định&quot; (nghĩa gốc: rút thăm); và <span class="gk">βροντῆς γενομένης</span> – <em>genitive absolute</em> nữa: &quot;sấm vừa nổ&quot; (Bài 20). Sau đó <span class="gk">ἔδοξεν αὐτῷ</span>  + nguyên mẫu: khuôn &quot;tưởng rằng/mộng thấy&quot; của <span class="gk">δοκέω</span> (Bài 17).</li>
+<li><strong><span class="gk">τῇ μὲν ἔκρινεν ἀγαθόν, ὅτι... τῇ δὲ καὶ ἐφοβεῖτο, ὅτι...</span> (khối 5):</strong> câu đối xứng tuyệt đẹp: &quot;theo một mặt chàng xét là điềm lành, <em>bởi vì</em>...; theo mặt kia chàng cũng kinh sợ, <em>bởi vì</em>...&quot;. Hai <span class="gk">ὅτι</span> đều là <em>nguyên nhân</em> (mục 4). Sau động từ sợ <span class="gk">ἐφοβεῖτο</span>, mệnh đề lo sợ trượt về <em>optative</em> theo chuỗi thời–thức (Bài 17): <span class="gk">μὴ οὐ δύναιτο... ἀλλ᾽ εἴργοιτο</span> &quot;kẻo sẽ không thể thoát, mà còn bị chặn...&quot;. Khuôn <span class="gk">μὴ</span> + động từ sau động từ sợ (câu lo sợ, <em>clause of fearing</em>) gặp lần đầu đây – học mặt, sẽ hệ thống ở Graecum II; cách đọc: <span class="gk">μὴ</span> = &quot;kẻo&quot;, <span class="gk">μὴ οὐ</span> = &quot;kẻo không... được&quot;.</li>
+<li><strong><span class="gk">εὐθὺς ἐπειδὴ ἀνηγέρθη</span> và <span class="gk">ἅμα δὲ τῇ ἡμέρᾳ</span> (khối 6):</strong> <span class="gk">ἐπειδὴ</span> nhấn &quot;ngay sau khi&quot; (mục 3), với <span class="gk">εὐθύς</span> đứng trước tăng gấp đôi độ sắc; <span class="gk">ἅμα</span> + tặng cách là biểu thức thời điểm của Bài 11 (&quot;hỡ rạng sáng&quot;). Khuôn mới <span class="gk">τί ἐμποδὼν μὴ οὐχὶ... ἀποθανεῖν;</span>: chủ thể giả định là những phân từ đối cách <span class="gk">ἐπιδόντας, παθόντας, ὑβριζομένους</span> + nguyên mẫu <span class="gk">ἀποθανεῖν</span> – AcI sau danh từ <span class="gk">τὸ ἐμποδών</span> &quot;chướng ngại&quot;; <span class="gk">μὴ οὐχί</span> đúp phủ định = &quot;chẳng nhẽ lại không...&quot;. Câu hỏi Hy Lạp giữ dấu <span class="gk">;</span>.</li>
+<li><strong><span class="gk">ἔστε μὲν αἱ σπονδαὶ ἦσαν οὔποτε ἐπαυόμην</span> (khối 7):</strong> <span class="gk">ἔστε</span> = <span class="gk">ἕως</span> &quot;trừng nào&quot; (mục 5). Ba phân từ <span class="gk">οἰκτίρων, μακαρίζων, διαθεώμενος</span> tả nỗi than khóc dằng co – một cặp phân từ hiện tại với một aorist; <span class="gk">ὅσην... ἔχοιεν</span> là <em>optative</em> sau <span class="gk">διαθεώμενος</span> (gián tiếp từ <span class="gk">θεάσομαι</span>, Bài 17).</li>
+<li><strong><span class="gk">ὁπότε ἐνθυμοίμην, ὅτι... μετείη, εἰ μὴ πριαίμεθα</span> (khối 8):</strong> bộ ba cửa của bài trong một hơi: <span class="gk">ὁπότε</span> + optative lặp lại &quot;mỗi khi tôi ngẫm&quot; (mục 6); bên trong, <span class="gk">ὅτι</span> gián tiếp với <span class="gk">μετείη</span> (oblique, Bài 17); và <span class="gk">εἰ μὴ</span> + giả định trung &quot;trừ phi mua mà lấy&quot; (Bài 21). Rồi một viên đá quý hiếm: <span class="gk">ὅρκους ἤδη κατέχοντας ἡμᾶς</span> – <em>toàn đối cách tuyệt đối</em> (accusative absolute): danh từ đối cách + phân từ đối cách đứng trơ trụi, kiểu anh em họ của genitive absolute nhưng hiếm hẳn hơn nhiều, gần như chỉ hay gặp ở văn tự sự (Xenophon, Thucydides). Học mặt: &quot;những lời thề (đang) trói chặt ta rồi&quot;. So sánh GA: khác <em>cách</em> khoác, cùng một việc &quot;mệnh đề tự do&quot;.</li>
+<li><strong><span class="gk">ἐπεὶ μέντοι ἐκεῖνοι ἔλυσαν τὰς σπονδάς, λελύσθαι μοι δοκεῖ... ὕβρις... ὑποψία</span> (khối 9):</strong> chơi chữ hoàn hảo: <span class="gk">ἔλυσαν</span> &quot;xé/xả giao ước&quot; – <span class="gk">λελύσθαι</span> &quot;được xả/giải tỏa (lời nguyền với nỗi ngờ)&quot;: cùng gốc <span class="gk">λύω</span> (Bài 13) mà một bên là đối cách chủ thể giả định trong AcI sau <span class="gk">δοκεῖ</span>. <span class="gk">ἐπεὶ μέντοι</span> là &quot;một khi (mà thật ra là: vì) bọn họ đã xé...&quot;. Rồi <span class="gk">ὁπότεροι ἂν ἡμῶν ἄνδρες ἀμείνονες ὦσιν</span>: khuôn <span class="gk">ὁπότερος</span> &quot;phe nào trong hai phe&quot; (Bài 15) + <span class="gk">ἂν</span> + giả định – họ hàng trực tiếp của <span class="gk">ὅταν</span>; và <span class="gk">ἀγωνοθέται δ᾽ οἱ θεοί εἰσιν</span> – &quot;trọng tài là các thần&quot;, tiếp nối món nợ <span class="gk">ἀγωνοθέτης</span> từ Bài 20.</li>
+<li><strong><span class="gk">δόξας γενέσθαι ἀνὴρ</span> (khối 10):</strong> đừng vội đọc <span class="gk">δόξας</span> là &quot;những ý nghĩ/danh vọng&quot; (danh từ <span class="gk">ἡ δόξα</span>): đây là <em>aorist phân từ chủ động của <span class="gk">δοκέω</span></em>, &quot;(được) cho là đã trở thành&quot; – &quot;<span class="gk">ἐκ πάντων... ἐχόντων δόξας γενέσθαι ἀνὴρ</span>&quot; = &quot;được mọi kẻ am tường về y công nhận là đã trở thành một con người...&quot;. Một vỏ, ba cách đọc (danh từ / phân từ; chủ động / bị động nghĩa) – cặp confusables cuối bảng còn quay lại em này.</li>
+<li><strong><span class="gk">ἕως μὲν πόλεμος ἦν... ἐπειδὴ δὲ εἰρήνη ἐγένετο</span> (khối 11):</strong> câu gánh hai chốt trục thời gian của mục 5 và mục 3: &quot;miễn là chiến tranh còn... nhưng một khi hòa bình đến...&quot;. Bên trong còn hai AcI trả nợ: <span class="gk">πείσας τὴν αὑτοῦ πόλιν ὡς οἱ Θρᾷκες ἀδικοῦσι</span> – <span class="gk">ὡς</span> + mệnh đề (Bài 18) đóng gói nội dung thuyết phục; và <span class="gk">ἐξέπλει ὡς πολεμήσων</span> – phân từ tương lai sau động từ chuyển động = mục đích (Bài 19): &quot;nhổ trại <em>để</em> đem quân đánh&quot;.</li>
+<li><strong><span class="gk">ὡς ἀπειθῶν</span> (khối 12):</strong> mục 4 đã bóc: nguyên nhân rút gọn bằng <span class="gk">ὡς</span> + phân từ. Cùng khối, <span class="gk">ἐδεήθη</span> (aorist của <span class="gk">δέομαι</span> + sở hữu cách, &quot;xin đạo quân&quot;) là ví dụ gián tiếp cho động từ kén cách đã học; <span class="gk">μάχῃ τε ἐνίκησε</span> – tặng cách công cụ (Bài 4): &quot;thắng bằng một trận đánh&quot;. Từ <span class="gk">ξὺν</span> giữ chính tả cổ của nguồn (đã học ở Arrian, Bài 18).</li>
+<li><strong><span class="gk">ἐξὸν μὲν... ἐξὸν δὲ... ἐξὸν δὲ...</span> (khối 13):</strong> ba nhịp bằng nhau của bài điếu. <span class="gk">ἐξόν</span> là phân từ trung cách bất biến của <span class="gk">ἔξεστι</span> &quot;được phép, có thể&quot; – kiểu &quot;mệnh đề tự do&quot; đứng trơ trụi như genitive absolute nhưng không khoác cách nào (học mặt): &quot;trong khi/vốn được phép...&quot;. Sau nó là cặp nguyên mẫu <span class="gk">ἄγειν/ῥᾳθυμεῖν</span> và <span class="gk">πονεῖν ὥστε πολεμεῖν</span> – &quot;lụ khụ cực nhọc <em>kéo theo</em> chiến tranh&quot;. Khối khép bằng <span class="gk">ὥσπερ εἰς παιδικὰ... ἤθελε δαπανᾶν εἰς πόλεμον</span>: so sánh giết người bằng một hình ảnh – y tiêu tiền vào chiến tranh như tiêu vào yêu đương.</li>
+<li><strong><span class="gk">ὅτε δ᾽ ἔξω τοῦ δεινοῦ γένοιντο</span> (khối 14):</strong> optative &quot;mỗi khi&quot; quá khứ của mục 6, nguyên văn trọn vẹn; <span class="gk">ἐξείη</span> (optative của <span class="gk">ἐξήν</span>, &quot;có thể được phép đi&quot;) cùng màu; <span class="gk">ἀρξομένους ἀπιέναι</span> là AcI sau <span class="gk">ἐξείη</span>: &quot;đi theo những kẻ khác <em>sắp</em> cầm quyền&quot; – phân từ tương lai trong AcI, bài ôn kép của Bài 18 + 19. Kết câu <span class="gk">ὥσπερ παῖδες πρὸς διδάσκαλον</span> – &quot;như trẻ con với thầy giáo&quot;: so sánh bằng <span class="gk">ὥσπερ</span> (đã gặp Bài 12).</li>
+</ul>
+
+<h2 id="vocab">10. Từ vựng trọng tâm</h2>
+
+<p>18 từ mới của bài, 15 từ ưu tiên (<span class="star">★</span> = nên học thuộc trước Anki nhóm 21–24). Đã kiểm tra không trùng từ vựng Bài 1–21.</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Translit.</th><th>English</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὅτε (liên từ)</td><td class="tr">hóte</td><td class="em">when, at which time</td><td>khi, vào lúc</td><td>một chữ, hai nghề: cửa thời gian (mục 1); nhấn mạnh: <span class="gk">ὁπότε</span> &quot;vào đúng lúc&quot;; thành ngữ <span class="gk">ἔσθ᾽ ὅτε</span> &quot;đôi khi&quot;, <span class="gk">ἦν ὅτε</span> &quot;đã có lúc&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἐπεί / ἐπειδή</td><td class="tr">epēi / epeidē</td><td class="em">after, since</td><td>sau khi; một khi; vì</td><td>hai nghề (mục 3–4); <span class="gk">ἐπειδάν</span> = + <span class="gk">ἄν</span> + giả định; đối chiếu Latin <em>postquam</em></td></tr>
+<tr><td class="gk"><span class="star">★</span> ἕως / ἔστε</td><td class="tr">héōs / éste</td><td class="em">as long as, until</td><td>miễn là; cho đến khi</td><td><span class="gk">ἕως ἄν</span> + giả định = &quot;miễn là (còn nữa)&quot;; <span class="gk">ἔστε</span> là biến thể chính tả, Anabasis 3,1 dùng lẫn cả hai</td></tr>
+<tr><td class="gk"><span class="star">★</span> πρίν</td><td class="tr">prín</td><td class="em">before (that)</td><td>trước khi</td><td>+ chỉ định khi hai việc thật; + nguyên mẫu khi vế chính phủ định (mục 5); họ hàng <span class="gk">πρό</span> + sở hữu cách (Bài 11)</td></tr>
+<tr><td class="gk"><span class="star">★</span> τὸ ὄναρ, -ατος</td><td class="tr">to ónar</td><td class="em">dream (in sleep)</td><td>giấc mộng</td><td>trung tính thân s (Bài 8); <span class="gk">εἶδεν ὄναρ</span> &quot;thấy một giấc mộng&quot; – 3,1,11; họ hàng <span class="gk">τὸ ἐνύπνιον</span> (Bài 21)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ βροντή, -ῆς</td><td class="tr">hē brontḗ</td><td class="em">thunder</td><td>tiếng sấm</td><td>gốc &quot;bronto-&quot; (Brontosaurus = thằn lằn sấm!); <span class="gk">βροντῆς γενομένης</span> – genitive absolute nổi tiếng của 3,1,11</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ σπονδή, -ῆς</td><td class="tr">hē spondḗ</td><td class="em">truce, treaty</td><td>giao ước ngừng chiến</td><td>nghĩa gốc &quot;giọt rượu cúng&quot;: rót rượu khấn hòa → giao ước; số nhiều <span class="gk">αἱ σπονδαί</span> như trong 3,1,19–21; động từ cùng gốc <span class="gk">σπένδω</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ἀπορία, -ας</td><td class="tr">hē aporía</td><td class="em">distress, difficulty</td><td>tình thế khốn cùng, bế tắc</td><td><span class="gk">ἀ-</span> + <span class="gk">ὁ πόρος</span> &quot;lối qua&quot;: hết lối; gốc từ quen &quot;aporia&quot;; 3,1: <span class="gk">ἐν πολλῇ ἀπορίᾳ ἦσαν</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ λοχαγός, -οῦ</td><td class="tr">ho lochagós</td><td class="em">captain</td><td>đội trưởng</td><td><span class="gk">ὁ λόχος</span> &quot;đội&quot; + <span class="gk">ἄγω</span> &quot;kẻ dắt đội&quot;; bậc dưới <span class="gk">ὁ στρατηγός</span> (Bài 12 vocab)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ σύμμαχος, -ον</td><td class="tr">ho sýmmachos</td><td class="em">ally</td><td>đồng minh</td><td><span class="gk">σύν</span> + <span class="gk">μάχομαι</span> (Bài 5) &quot;chiến đấu cùng&quot;; 3,1,2: <span class="gk">οὐδὲ ἱππέα οὐδένα σύμμαχον ἔχοντες</span>; gốc &quot;-machy&quot; (như <em>Navalmachy</em>? không cần: cứ nhớ cặp <span class="gk">συμμαχία</span> &quot;sự liên minh&quot;)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ θύρα, -ας</td><td class="tr">hē thýra</td><td class="em">door</td><td>cửa</td><td>3,1,2: <span class="gk">ἐπὶ ταῖς βασιλέως θύραις</span> &quot;trước thềm cửa nhà vua&quot;; gốc &quot;thyroid&quot; xoắn lại từ họ hàng <span class="gk">ὁ θυρεός</span> (khiên cửa hình cửa); cứ nhớ: cửa Hy Lạp là <span class="gk">θύρα</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ἡγεμών, -όνος</td><td class="tr">ho hēgemṓn</td><td class="em">guide, leader</td><td>người dẫn đường, thủ lĩnh</td><td>từ <span class="gk">ἡγέομαι</span> &quot;dẫn đầu&quot; (đã gặp ở Bài 16–17); gốc &quot;hegemon, hegemony&quot;; 3,1,2: <span class="gk">ἡγεμὼν δ᾽ οὐδεὶς τῆς ὁδοῦ ἦν</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ὑβρίς, -ιος</td><td class="tr">hē hybrís</td><td class="em">wanton violence, outrage</td><td>sự hỗn ngược, tội ngỗng ngược</td><td>gốc &quot;hubris&quot;; 3,1,21: <span class="gk">λελύσθαι... ἡ ἐκείνων ὕβρις</span> – họ hàng tính từ <span class="gk">ὑβριστής</span>, động từ <span class="gk">ὑβρίζω</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ εὐταξία, -ας</td><td class="tr">hē eutaxía</td><td class="em">good order, discipline</td><td>sự kỷ luật, trật tự tốt</td><td><span class="gk">εὖ</span> + <span class="gk">ἡ τάξις</span> (Bài 16: <span class="gk">τάσσω</span>) – 3,1,38: <span class="gk">ἡ μὲν γὰρ εὐταξία σῴζειν δοκεῖ</span>; đối lập <span class="gk">ἀταξία</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> φροντίζω (+ sở hữu cách)</td><td class="tr">phrontízō</td><td class="em">to think of, care for</td><td>suy nghĩ về, lo lắng cho</td><td>từ <span class="gk">ὁ φρήν, φρενός</span> &quot;tâm&quot;; 2,6,8: <span class="gk">ἱκανὸς... φροντίζειν ἦν ὅπως ἔχοι ἡ στρατιὰ αὐτῷ τὰ ἐπιτήδεια</span>; gốc &quot;phrenetic&quot;</td></tr>
+<tr><td class="gk">ὁ ἔφορος, -ου</td><td class="tr">ho éphoros</td><td class="em">overseer, Spartan magistrate</td><td>đốc chính (Sparta)</td><td><span class="gk">ἐπί</span> + <span class="gk">ὁράω</span> &quot;kẻ trông nom từ trên xuống&quot;; 2,6,2: <span class="gk">παρὰ τῶν ἐφόρων</span> – cơ quan năm đốc chính Sparta</td></tr>
+<tr><td class="gk">ὁ δαρεικός, -οῦ</td><td class="tr">ho dareikós</td><td class="em">daric (Persian gold coin)</td><td>đồng daric</td><td>đồng vàng Ba Tư khắc vua phóng cung; 2,6,4: <span class="gk">μυρίους δαρεικούς</span> &quot;một vạn đồng daric&quot; = cú hối lộ lớn nhất trong Anabasis</td></tr>
+<tr><td class="gk">ἡ ῥᾳθυμία, -ας</td><td class="tr">hē rhāithymía</td><td class="em">idleness, easy living</td><td>sự nhàn hạ, lười biếng</td><td><span class="gk">ῥᾴδιος</span> &quot;dễ dãi&quot; + <span class="gk">ὁ θυμός</span>; 2,6,5: <span class="gk">οὐκ ἐπὶ ῥᾳθυμίαν ἐτράπετο</span> – Klearchos không dùng tiền mua nhàn</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">11. Bảng tổng hợp so sánh các điểm dễ nhầm</h2>
+
+<table>
+<thead><tr><th>Cặp dễ nhầm</th><th>Phân biệt</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ὅτε</span> vs <span class="gk">ὅτι</span></td><td>&quot;khi, vào lúc&quot; (mệnh đề thời gian) vs &quot;rằng / bởi vì&quot; (tường thuật hoặc nguyên nhân) – một ký tự, hai nghề, thế lực của mỗi từ gần nhau đến mức bản viết tay cổ cũng hay lẫn</td><td>Thử dịch cả hai cách; vế theo sau là <em>điểm thời gian</em> (<span class="gk">ὅτε</span>) hay <em>nội dung/lý do</em> (<span class="gk">ὅτι</span>)? Chính chương 3,1 dùng cả hai: <span class="gk">ὅτε δὲ ταῦτα ἦν</span> &quot;đó là lúc...&quot; (3,1,33) và <span class="gk">ἐπιστάμεθα, ὅτι βασιλεὺς...</span> &quot;ta đều biết rằng vua...&quot; (3,1,35)</td></tr>
+<tr><td><span class="gk">ὅτε</span> vs <span class="gk">ὅταν</span></td><td>+ chỉ định = một lần có thật; + <span class="gk">ἄν</span> + giả định = &quot;mỗi khi / khi (đến lúc)&quot;</td><td>Hỏi: &quot;sự việc lặp lại hoặc chưa hẹn xảy ra?&quot; Đúng → phải có <span class="gk">ἄν</span>; sai → cấm <span class="gk">ἄν</span></td></tr>
+<tr><td><span class="gk">ἐπεί</span> vs <span class="gk">ἐπειδάν</span> vs <span class="gk">ἐπάν</span></td><td>cả ba cùng nhà: dạng trần (<span class="gk">ἐπεί, ἐπειδή</span>) + chỉ định = &quot;sau khi (một lần)&quot;; dạng có <span class="gk">ἄν</span> đã dính sẵn (<span class="gk">ἐπάν</span> = <span class="gk">ἐπεί</span> + <span class="gk">ἄν</span>; <span class="gk">ἐπειδάν</span> = <span class="gk">ἐπειδή</span> + <span class="gk">ἄν</span>) + giả định = &quot;mỗi khi / khi (sẽ)&quot;</td><td>Nhìn sau nó: giả định → có <span class="gk">ἄν</span> trong crasis rồi; chỉ định → dạng trần. Đừng đếm ký tự để đo nghĩa, hãy nhìn thức động từ</td></tr>
+<tr><td><span class="gk">ἐπεί</span> &quot;sau khi&quot; vs <span class="gk">ἐπεί</span> &quot;vì&quot;</td><td>cùng một chữ, hai nghề (mục 3–4); 2,6,2 là câu văn hai nghĩa cùng lúc</td><td>Hỏi vế chính có là <em>hệ quả logic</em> không; thử dịch &quot;một khi đã...&quot; – nếu xuôi, hai màu cùng sống</td></tr>
+<tr><td><span class="gk">ὅτι</span> &quot;bởi vì&quot; vs <span class="gk">ὅτι</span> &quot;rằng&quot;</td><td>nguyên nhân (mục 4) vs tường thuật gián tiếp (Bài 17)</td><td>Trước nó có động từ nói/nghĩ/trách không? Có → &quot;rằng&quot;. Nó treo lơ lửng giải thích tình huống → &quot;bởi vì&quot;. Cả 3,1,7 có cả hai: <span class="gk">ᾐτιᾶτο αὐτὸν ὅτι</span> &quot;rằng&quot;... <span class="gk">ἐπεὶ μέντοι</span> &quot;vì&quot;</td></tr>
+<tr><td><span class="gk">ἕως</span> vs <span class="gk">ἕως ἄν</span> vs <span class="gk">ἔστε</span></td><td>+ chỉ định = &quot;trừng nào (đoạn đã qua)&quot;; + <span class="gk">ἄν</span> + giả định = &quot;miễn là (còn nữa)&quot;; <span class="gk">ἔστε</span> chỉ là biến thể chính tả của <span class="gk">ἕως</span></td><td>Anabasis 3,1 có đủ ba: <span class="gk">ἔστε μὲν αἱ σπονδαὶ ἦσαν</span> (19), <span class="gk">ἕως ἂν ζῶσιν</span> (43) – so hai câu là thấy máy đổi màu</td></tr>
+<tr><td><span class="gk">πρίν</span> + chỉ định vs <span class="gk">πρίν</span> + nguyên mẫu</td><td>mệnh đề đầy đủ, vế chính khẳng định (thường quá khứ) vs vế chính phủ định, rút thành nguyên mẫu &quot;chưa từng... trước khi&quot;</td><td>Hỏi vế chính: khẳng định → <span class="gk">πρίν</span> đi với động từ chia; phủ định → thường rút thành nguyên mẫu. Mẫu 3,1,16: <span class="gk">οὐ... ἐξέφηναν πρὶν ἐνόμισαν...</span> – vế chính phủ định mà <span class="gk">πρίν</span> vẫn giữ chỉ định vì cả hai sự việc đều có thật một lần</td></tr>
+<tr><td><span class="gk">ὅταν</span> vs <span class="gk">ἐάν</span></td><td>&quot;mỗi khi / khi đến lúc&quot; (màu thời gian) vs &quot;nếu&quot; (màu điều kiện, Bài 21); cùng cỗ máy <span class="gk">ἄν</span> + giả định</td><td>Thử thay &quot;mỗi khi&quot; – dịch xuôi thì là <span class="gk">ὅταν</span>; nếu câu nhắm vào quyết định chờ đón (&quot;nếu bạn chịu... thì&quot;) → <span class="gk">ἐάν</span></td></tr>
+<tr><td><span class="gk">ὡς</span> + phân từ vs <span class="gk">ὡς</span> + mệnh đề</td><td>&quot;vì là...&quot; (nguyên nhân rút gọn, mục 4) vs &quot;rằng / sao mà&quot; (tường thuật hoặc câu hỏi gián tiếp, Bài 17–18)</td><td>Nhìn theo sau: phân từ → lý do; động từ chia → nội dung hoặc câu hỏi. 2,6,4: <span class="gk">ὡς ἀπειθῶν</span> &quot;vì là kẻ bất tuân&quot; – phân từ hiện tại, không phải mệnh đề</td></tr>
+<tr><td><span class="gk">ἐπεί</span> vs <span class="gk">ἐπί</span></td><td>liên từ &quot;sau khi/vì&quot; (accent trên <span class="gk">ει</span>) vs giới từ &quot;trên, tại, chống&quot; + danh cách (Bài 4; accent trên <span class="gk">ί</span>); bẫy thật sự không nằm ở accent mà ở <em>cái theo sau</em></td><td>Liên từ đòi mệnh đề (động từ chia); giới từ đòi danh cách. Nếu sau nó là <span class="gk">+ Gen./Dat./Akk.</span> tóm tắt trong ngoặc – chắc chắn là giới từ</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Mẹo ghi nhớ bằng một câu:</strong> tám cửa thời gian xếp theo trục: <span class="gk">πρίν – ὅτε/ὅταν – ἐπεί/ἐπειδάν – ἕως/ἔστε</span>; ba cửa nguyên nhân: <span class="gk">ὅτι – διότι – ἐπεί</span> (mượn cửa thời gian); và mọi màu khái quát đều do một chữ <span class="gk">ἄν</span> pha vào. Nếu một ngày nào đó bạn lỡ quên cái bảng này, chỉ cần nhớ đúng một điều: <em>ἄν trong mệnh đề thời gian = màu khái quát hóa</em> – mọi cái khác rơi lại chỗ cũ như đèn tắt vẫn nhớ đường về nhà.</p>
+</div>
+<h2 id="exercises">12. Bài tập tự luyện + đáp án</h2>
+<p><em>Đáp án chỉ hiện khi in (Ctrl+P → Save as PDF) – làm xong rồi mới in ra soát.</em></p>
+
+<h3>Bài tập 1 – Gán loại sáu mệnh đề phụ</h3>
+<p>Sáu câu dưới đây đều lấy nguyên văn từ hai bài đọc hôm nay. Với mỗi câu: khoanh mệnh đề phụ, gán <strong>cửa</strong> (thời gian một lần / thời gian lặp &quot;mỗi khi&quot; / thời gian giới hạn &quot;chừng nào&quot; / nguyên nhân / tường thuật / nguyên văn giữ trong gián tiếp), gán <strong>thức của động từ trong mệnh đề phụ</strong>, rồi dịch:</p>
+<ol>
+<li class="gk">ἐπεὶ Κῦρος ἐτελεύτησεν ἐγένετο ἀπιόντων τῶν Ἑλλήνων σὺν Τισσαφέρνει ἐν ταῖς σπονδαῖς.</li>
+<li class="gk">ἐννοούμενοι ὅτι ἐπὶ ταῖς βασιλέως θύραις ἦσαν.</li>
+<li class="gk">ἐγὼ μὲν οὖν ἔστε μὲν αἱ σπονδαὶ ἦσαν οὔποτε ἐπαυόμην ἡμᾶς μὲν οἰκτίρων.</li>
+<li class="gk">ὅτε δ᾽ ἔξω τοῦ δεινοῦ γένοιντο... πολλοὶ αὐτὸν ἀπέλειπον.</li>
+<li class="gk">πολεμικὸς δὲ αὖ ταύτῃ ἐδόκει εἶναι ὅτι φιλοκίνδυνός τε ἦν.</li>
+<li class="gk">εἶπε δὲ ὅτι ἐπειδὰν τάχιστα ἡ στρατεία λήξῃ, εὐθὺς ἀποπέμψει αὐτόν.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 1</h4>
+<p>(1) <strong>Thời gian một lần, aorist chỉ định</strong> (<span class="gk">ἐπεί</span>): &quot;sau khi Kyros mất, trong lúc người Hy Lạp rút lui cùng Tissaphernes dưới hòa ước...&quot; (3,1,1 – câu mở toàn tác phẩm). (2) <strong>Tường thuật</strong> (<span class="gk">ὅτι</span> + imperfect chỉ định, sau động từ nghĩ <span class="gk">ἐννοούμενοι</span>): &quot;đang ngẫm rằng họ đứng ngay trước thềm vua&quot; (3,1,2) – thử thay &quot;bởi vì&quot; sẽ méo câu: lý do không phải nội dung được nghĩ. (3) <strong>Thời gian giới hạn, imperfect chỉ định</strong> (<span class="gk">ἔστε</span>): &quot;còn tôi thì, chừng nào hòa ước còn, tôi chưa bao giờ ngừng thương xót chúng ta&quot; (3,1,19). (4) <strong>Thời gian lặp &quot;mỗi khi&quot;, optative aorist</strong> (<span class="gk">γένοιντο</span> sau vế chính imperfect): &quot;mỗi khi họ ra khỏi cơn nguy, nhiều người bỏ y đi&quot; (2,6,12). (5) <strong>Nguyên nhân, imperfect chỉ định</strong> (<span class="gk">ὅτι</span> sau <span class="gk">ἐδόκει εἶναι</span>): &quot;ông ta được coi là tay sỏi trận vì chuộng chỗ nguy hiểm&quot; (2,6,7) – thử thay &quot;rằng&quot; sẽ gãy luận lý. (6) <strong>Nguyên văn giữ trong gián tiếp</strong>: sau <span class="gk">εἶπε</span> quá khứ, lời Kyros vẫn giữ tương lai <span class="gk">ἀποπέμψει</span> và <span class="gk">ἐπειδὰν</span> + giả định <span class="gk">λήξῃ</span> (3,1,9). Pattern rút ra: <strong>cửa hỏi &quot;liên từ + thức&quot;</strong> – chỉ định = sự việc có thật (một lần hoặc &quot;chừng nào&quot;); optative sau quá khứ = lặp lại; <span class="gk">ὅτι</span> thử hai cách dịch &quot;rằng/bởi vì&quot; để chọn nghề; trong gián tiếp, trước khi &quot;sửa&quot; về oblique hãy xem có phải nguyên văn giữ.</p>
+</div></div>
+
+<h3>Bài tập 2 – Điền liên từ vào chỗ trống</h3>
+<p>Mỗi câu dưới đây đúng một chỗ trống; điền vào chỗ trống liên từ phù hợp với nghĩa được gợi ý bên cạnh. Thức của động từ đã cho đúng theo khuôn trong bài – bạn chỉ chọn cửa:</p>
+<ol>
+<li><span class="gk">[___] πόλεμος ἦν, παρέμενεν.</span> – <em>chừng nào còn chiến tranh (2,6,2)</em></li>
+<li><span class="gk">[___] Κῦρος ἐτελεύτησεν, ἐγένετο ἀπορία.</span> – <em>sau khi (một lần, 3,1)</em></li>
+<li><span class="gk">[___] δ᾽ ἔξω τοῦ δεινοῦ γένοιντο, πολλοὶ αὐτὸν ἀπέλειπον.</span> – <em>mỗi khi (quá khứ lặp lại, 2,6,12)</em></li>
+<li><span class="gk">[___] ἡ στρατεία λήξῃ, εὐθὺς ἀποπέμψει αὐτόν.</span> – <em>khi (tương lai/sắp tới, giả định giữ nguyên)</em></li>
+<li><span class="gk">ἐγὼ [___] αἱ σπονδαὶ ἦσαν, οὔποτε ἐπαυόμην.</span> – <em>miễn là (3,1,19)</em></li>
+<li><span class="gk">ἐθανατώθη [___] ἀπειθοῖ.</span> – <em>vì (mệnh đề đầy đủ, optative gián tiếp)</em></li>
+<li><span class="gk">ἐξέφηναν τὸν πόλεμον [___] ἐνόμισαν παρασκευάσασθαι.</span> – <em>trước khi (mệnh đề chia, 3,1,16)</em></li>
+<li><span class="gk">οὐκ ἀπῆλθον [___] ἰδεῖν τὸ τέλος.</span> – <em>trước khi (nguyên mẫu, câu dựng)</em></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 2</h4>
+<p>(1) <span class="gk">ἕως</span> (hoặc <span class="gk">ἔστε</span>): chỉ định quá khứ, giới hạn &quot;chừng nào&quot;. (2) <span class="gk">ἐπεί</span> (hoặc <span class="gk">ἐπειδή</span>): aorist chỉ định, &quot;sau khi&quot; một lần. (3) <span class="gk">ὅτε</span>: optative lặp lại sau vế chính quá khứ. (4) <span class="gk">ἐπειδάν</span> (hoặc <span class="gk">ὅταν</span>): giả định + <span class="gk">ἄν</span> đã dính trong liên từ, vế chính tương lai. (5) <span class="gk">ἔστε</span> (hoặc <span class="gk">ἕως</span>): &quot;miễn là&quot;. (6) <span class="gk">ὅτι</span>: nguyên nhân trong gián tiếp, optative theo chuỗi thời–thức (Bài 17). (7) <span class="gk">πρίν</span> + aorist chỉ định: hai sự việc ngang cấp đều có thật. (8) <span class="gk">πρίν</span> + nguyên mẫu: vế chính phủ định, việc kia chưa xảy ra. Pattern rút ra: <strong>thái của vế chính quyết chọn khuôn của <span class="gk">πρίν</span>; &quot;mỗi khi&quot; quá khứ nhìn thấy liền optative; &quot;chừng nào/miễn là&quot; và &quot;sau khi một lần&quot; dùng chỉ định và phân nhau ở <span class="gk">ἕως/ἔστε</span> vs <span class="gk">ἐπεί</span></strong>.</p>
+</div></div>
+
+<h3>Bài tập 3 – Biến đổi ὅτε ↔ ὅταν, ἐπεί ↔ ἐπειδάν</h3>
+<p>Bốn câu dưới đây đều đúng ngữ pháp; nhiệm vụ của bạn là <strong>đổi màu sắc theo yêu cầu trong ngoặc</strong>, chỉ đổi mệnh đề phụ (liên từ và/hoặc thức), giữ vế chính:</p>
+<ol>
+<li><span class="gk">ὅταν ἔλθῃ, ἀκούομεν.</span> – <em>đổi thành &quot;một lần trong quá khứ&quot; (vế chính trở thành quá khứ: ἠκούομεν)</em></li>
+<li><span class="gk">ὅτε ἦλθε, ἠκούομεν.</span> – <em>đổi thành &quot;mỗi khi&quot; hiện tại</em></li>
+<li><span class="gk">ὅτε δ᾽ ἔξω τοῦ δεινοῦ ἐγένοντο, πολλοὶ αὐτὸν ἀπέλειπον.</span> – <em>đổi thành &quot;mỗi khi&quot; quá khứ (2,6,12 nguyên văn)</em></li>
+<li><span class="gk">ἐπειδὴ δὲ εἰρήνη ἐγένετο, ἀπῆλθεν.</span> – <em>đổi thành &quot;mỗi khi / khi nào (sắp) có hòa bình&quot; (2,6,2 nguyên văn câu gốc)</em></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 3</h4>
+<p>(1) <span class="gk">ὅτε ἦλθε, ἠκούομεν</span> – bỏ <span class="gk">ἄν</span> (về <span class="gk">ὅτε</span>), aorist chỉ định: sự việc đơn lẻ đã xong. (2) <span class="gk">ὅταν ἔρχηται, ἀκούομεν</span> – thêm <span class="gk">ἄν</span> dính vào <span class="gk">ὅτε</span>, giả định hiện tại: thói quen đang còn; có thể dùng aorist giả định <span class="gk">ἔλθῃ</span> nếu muốn nhấn khung cảnh hoàn tất. (3) <span class="gk">ὅτε δ᾽ ἔξω τοῦ δεινοῦ γένοιντο, πολλοὶ αὐτὸν ἀπέλειπον</span> – chính là nguyên văn 2,6,12: câu chuyện quá khứ lặp lại không dùng giả định mà dùng <strong>optative lặp lại</strong>. (4) <span class="gk">ἐπειδὰν εἰρήνη γένηται</span> – đổi <span class="gk">ἐπειδὴ</span> + aorist chỉ định thành <span class="gk">ἐπειδάν</span> + aorist giả định. Pattern rút ra: <strong>công tắc &quot;một lần ↔ mỗi khi&quot; nằm ở hai điểm: chữ <span class="gk">ἄν</span> dính vào liên từ, và cặp chỉ định ↔ giả định/optative</strong>; quá khứ kể chuyện lặp nhiều lần chọn optative, vì giả định không đứng sau thời quá khứ.</p>
+</div></div>
+
+<h3>Bài tập 4 – Viết bốn câu tiếng Việt sang tiếng Hy Lạp theo khuôn</h3>
+<p>Dùng đúng khuôn đã học hôm nay; mọi từ đều nằm trong bảng từ vựng (mục 9) hoặc đã học trong các bài trước. Mỗi câu kèm gợi ý cửa trong ngoặc:</p>
+<ol>
+<li>&quot;Mỗi khi tôi nghĩ đến nỗi bối rối, tôi không ngủ được.&quot; <em>(thời gian lặp, hiện tại; φροντίζω + cách)</em></li>
+<li>&quot;Sau khi sấm nổi lên, chàng lập tức bật dậy.&quot; <em>(thời gian một lần, quá khứ)</em></li>
+<li>&quot;Vì hắn lười biếng, hắn không thể cầm quân.&quot; <em>(nguyên nhân, hiện tại)</em></li>
+<li>&quot;Trước khi hành quân, cần có các đồng minh.&quot; <em>(πρίν, nguyên mẫu)</em></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 4</h4>
+<p>(1) <span class="gk">ὅταν τῆς ἀπορίας φροντίζω, οὐ δύναμαι καθεύδειν</span> – <span class="gk">ὅταν</span> + giả định hiện tại, vế chính <span class="gk">δύναμαι</span> + nguyên mẫu (khuôn 3,1,11: <span class="gk">οὐκ ἐδύνατο καθεύδειν</span>); <span class="gk">ἀπορία</span> đứng cách sau <span class="gk">φροντίζω</span>. (2) <span class="gk">ἐπεὶ βροντὴ ἐγένετο, εὐθὺς ἀνηγέρθη</span> – <span class="gk">ἐπεί</span> + aorist chỉ định, vế chính aorist bị động (khuôn 3,1,12: <span class="gk">βροντῆς γενομένης... εὐθὺς ἀνηγέρθη</span>); nếu muốn đậm màu nguyên văn, có thể dùng cách tuyệt đối <span class="gk">βροντῆς γενομένης</span> (Bài 20). (3) <span class="gk">ὅτι ῥᾳθυμεῖ, οὐ δύναται ἄρχειν</span> – <span class="gk">ὅτι</span> nguyên nhân + chỉ định hiện tại; <span class="gk">ἄρχω</span> đã học ở mục 6.1. (4) <span class="gk">πρὶν στρατεύεσθαι χρὴ συμμάχους ἔχειν</span> – <span class="gk">πρίν</span> + nguyên mẫu vì vế chính <span class="gk">χρή</span> nói điều cần chung chung; so khuôn <span class="gk">χρὴ ποιεῖν</span> (3,1,7). Pattern rút ra: <strong>viết trước vế chính cho biết thái (sự thật / trông chừng / điều cần), rồi chọn cửa phụ theo đúng bốn hàng khuôn của mục 2, 3, 5</strong>.</p>
+</div></div>
+
+<h3>Bài tập 5 – Bóc mệnh đề trong ba câu bài đọc</h3>
+<p>Ba câu sau đều lấy nguyên văn từ bài đọc. Với mỗi câu: gạch chân (hoặc chép ra) toàn bộ mệnh đề phụ, gán loại, và dịch cả câu:</p>
+<ol>
+<li class="gk">ἐγὼ μὲν οὖν ἔστε μὲν αἱ σπονδαὶ ἦσαν οὔποτε ἐπαυόμην ἡμᾶς μὲν οἰκτίρων, βασιλέα δὲ καὶ τοὺς σὺν αὐτῷ μακαρίζων.</li>
+<li class="gk">ἕως μὲν πόλεμος ἦν τοῖς Λακεδαιμονίοις πρὸς τοὺς Ἀθηναίους παρέμενεν, ἐπειδὴ δὲ εἰρήνη ἐγένετο, πείσας τὴν αὑτοῦ πόλιν...</li>
+<li class="gk">οὐ πρότερον πρὸς ἡμᾶς τὸν πόλεμον ἐξέφηναν πρὶν ἐνόμισαν καλῶς τὰ ἑαυτῶν παρασκευάσασθαι.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 5</h4>
+<p>(1) Mệnh đề phụ: <span class="gk">ἔστε μὲν αἱ σπονδαὶ ἦσαν</span> – thời gian giới hạn &quot;chừng nào/miễn là&quot; + imperfect chỉ định; hai phân từ <span class="gk">οἰκτίρων... μακαρίζων</span> (Bài 19) nêu trạng thái kèm theo vế chính. Dịch: &quot;Còn tôi thì, chừng nào hòa ước còn, tôi chưa bao giờ ngừng thương xót chúng ta mà chúc phúc cho vua và bọn tay chân&quot; (3,1,19). (2) Hai mệnh đề phụ đi cặp: <span class="gk">ἕως μὲν πόλεμος ἦν</span> (giới hạn, imperfect) và <span class="gk">ἐπειδὴ δὲ εἰρήνη ἐγένετο</span> (một lần, aorist chỉ định). Dịch: &quot;Chừng nào còn chiến tranh giữa người Lakedaimon và người Athen thì y ở lại; còn sau khi hòa bình đến, y thuyết phục thành bang mình...&quot; (2,6,2) – cặp <span class="gk">μέν... δέ</span> dựng hai quãng thời gian lên xuống liền nhau. (3) Mệnh đề phụ: <span class="gk">πρὶν ἐνόμισαν καλῶς τὰ ἑαυτῶν παρασκευάσασθαι</span> – <span class="gk">πρίν</span> + aorist chỉ định, vì hai sự việc (tuyên chiến và chuẩn bị) đều có thật một lần trong quá khứ, dù vế chính có <span class="gk">οὐ</span>; nguyên mẫu <span class="gk">παρασκευάσασθαι</span> là phần của khuôn <span class="gk">νομίζω</span> + AcI (mục 7). Dịch: &quot;Bọn chúng chẳng bao giờ tuyên chiến với ta trước khi chúng thấy mình đã chuẩn bị chu đáo&quot; (3,1,16). Pattern rút ra: <strong>bóc từ liên từ, khoanh đến động từ chia kế tiếp; ngay sau đó hỏi ba câu: cửa nào – thức gì – vế chính mang thái nào</strong>.</p>
+</div></div>
+
+<h3>Bài tập 6 – Dịch ba câu tiếng Việt sang tiếng Hy Lạp</h3>
+<p>Ba câu sau là bản dịch của ba câu <em>nguyên văn</em> trong bài đọc; dịch lại cho khớp câu gốc. Mục tiêu không phải sáng tác mà là ghi nhớ nguyên văn:</p>
+<ol>
+<li>&quot;Còn tôi thì, chừng nào hòa ước còn, tôi chưa bao giờ ngừng thương xót chúng ta.&quot;</li>
+<li>&quot;Còn khi họ thoát khỏi cơn nguy và có thể đi đến kẻ khác sẽ cầm quân, nhiều người bỏ y đi.&quot;</li>
+<li>&quot;Vì vậy y bị chính người Sparta xử tử như kẻ không chịu phục tùng.&quot;</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 6</h4>
+<ol>
+<li class="gk">ἐγὼ μὲν οὖν ἔστε μὲν αἱ σπονδαὶ ἦσαν οὔποτε ἐπαυόμην ἡμᾶς οἰκτίρων.</li>
+<li class="gk">ὅτε δ᾽ ἔξω τοῦ δεινοῦ γένοιντο καὶ ἐξείη πρὸς ἄλλον ἀρξομένους ἀπιέναι, πολλοὶ αὐτὸν ἀπέλειπον.</li>
+<li class="gk">ἐκ τούτου καὶ ἐθανατώθη ὑπὸ τῶν ἐν Σπάρτῃ τελῶν ὡς ἀπειθῶν.</li>
+</ol>
+<p>Ghi chú: (1) 3,1,19: <span class="gk">ἔστε</span> + chỉ định, vế chính imperfect; nếu kể thành hai vế như câu gốc, đừng quên <span class="gk">μέν... δέ</span> cho cặp &quot;thương xót ta / chúc phúc vua&quot;. (2) 2,6,12: <span class="gk">γένοιντο</span> là optative aorist lặp lại, <span class="gk">ἐξείη</span> là optative aorist của <span class="gk">ἐξίημι</span> &quot;được phép ra đi&quot; – &quot;mỗi khi&quot; quá khứ giữ nguyên bộ optative. (3) 2,6,4: nguyên nhân rút gọn bằng <span class="gk">ὡς</span> + phân từ (Bài 19); nếu dựng thành mệnh đề đầy đủ phải là <span class="gk">ὅτι ἀπειθοῖ</span> + optative gián tiếp – bản gốc chọn giọng nhọn của phân từ.</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 22 – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: &quot;Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0&quot; · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Đối chiếu bản đọc: Xenophon, Anabasis 3,1; 2,6 (qua Perseus Digital Library, bản Marchant, public domain).</p>
+
+</main>
+</body>
+</html>

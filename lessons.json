@@ -561,6 +561,30 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "22-temporal-causal-clauses",
+      "num": 22,
+      "level": "graecum-1",
+      "title": "Mệnh đề thời gian và nguyên nhân: ὅταν/ὅτε, ἐπεί/ἐπειδή, ὅτι/διότι",
+      "topics": [
+        "ὅτε + chỉ định: điểm thời gian một lần; idiom ἔσθ᾽ ὅτε/ἦν ὅτε; achtung ὅτε vs ὅτι; Latin corner cum + chỉ định",
+        "ὅταν = ὅτε + ἄν: ba hàng hiện tại/aorist giả định/tương lai; nguyên văn Medeia 244 ὅταν τοῖς ἔνδον ἄχθηται ξυνών; achtung ὅταν vs ἐάν",
+        "ἐπεί/ἐπειδή + aorist/perfect chỉ định: mũi tên một chiều sau khi; εὐθύς ἐπειδὴ (ngay sau khi); ἐπειδάν + giả định; Latin corner postquam",
+        "mệnh đề nguyên nhân: ὅτι vs διότι vs ἐπεί vs ὡς + phân từ; cặp tường thuật/nguyên nhân từ chính đêm Anabasis: ᾐτιᾶτο... ὅτι (3,1,7) và ὑποπτεύσας... ὅτι (3,1,5)",
+        "ἕως/ἔστε/ἕως ἄν: giới hạn chừng nào/miễn là; nguyên văn 3,1,19 ἔστε μὲν αἱ σπονδαὶ ἦσαν; πρίν hai khuôn (chỉ định vs nguyên mẫu), 3,1,16",
+        "optative lặp lại mỗi-khi quá khứ: γένοιντο (2,6,12), ἄρξαιντο (2,6,14), ὁπότε ἐνθυμοίμην (3,1,20); nguyên văn giữ vs oblique trong gián tiếp (3,1,9 vs 3,1,26)",
+        "ôn nguyên mẫu tân ngữ (AcI): bốn nhóm động từ dẫn (νομίζω/οἴομαι/δοκέω/ἡγέομαι; ὑπισχνεῖτο/προσδοκῶ; δεῖ/χρή); achtung AcI mồ côi chủ thể",
+        "4 bước bóc mệnh đề thời gian/nguyên nhân + bản đồ cửa–màu–thời + bảng 5 bẫy chính tả",
+        "từ vựng 18 từ (★15): ὅτε, ἐπεί/ἐπειδή, ἕως/ἔστε, πρίν, τὸ ὄναρ, ἡ βροντή, ἡ σπονδή, ἡ ἀπορία, ὁ λοχαγός, ὁ σύμμαχος, ἡ θύρα, ὁ ἡγεμών, ἡ ὑβρίς, ἡ εὐταξία, φροντίζω",
+        "bài đọc: Xenophon, Anabasis 3,1 (đêm tuyệt vọng và giấc mộng của Xenophon) và 2,6 (chân dung Klearchos)"
+      ],
+      "reading": [
+        "Xenophon, Anabasis 3,1",
+        "Xenophon, Anabasis 2,6 (chân dung Klearchos)"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
