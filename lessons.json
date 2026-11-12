@@ -537,6 +537,30 @@
       "reading": [],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "21-conditional-clauses-1",
+      "num": 21,
+      "level": "graecum-1",
+      "title": "Câu điều kiện I: điều kiện thực, khái quát và tiềm năng",
+      "topics": [
+        "protasis/apodosis: bộ khung một câu điều kiện; ba loại (thực – khái quát/tương lai – tiềm năng) và bảng đối chiếu",
+        "εἰ + chỉ định: điều kiện thực hiện tại (εἰ ταῦτα λέγεις, ἀληθῆ λέγεις) và quá khứ; achtung: không bao giờ để tương lai sau εἰ; Latin corner si + ind.",
+        "ἐάν + subjunctive: trông chừng tương lai và chân lý khái quát; nguyên văn Athenaios ἐὰν ᾖ τι δυσαπόσπαστον; aorist vs hiện tại; μή phủ định; κἂν/ὅπου ἂν/ὅ τι ἂν",
+        "εἰ + optative + ἄν: điều kiện tiềm năng; nguyên văn Plato εὖ ἂν λέγοις; οὐ phủ định; bảng so sánh ba loại; Latin corner si dīcās; τί ποιοῖμεν;",
+        "εἰ δὲ μή rút gọn + χρεών: vế chính danh từ hóa; gián tiếp Theophrastos εἰ ποιήσειεν – điều kiện loại 2 trượt thành εἰ + optative",
+        "ὅταν/ἐπάν/ὁπόταν: điều kiện thời gian khái quát; nguyên văn Medeia 244 ἀνὴρ δʼ, ὅταν τοῖς ἔνδον ἄχθηται ξυνών; pattern ἄν = màu khái quát hóa",
+        "4 bước bóc câu điều kiện + bảng 5 bẫy (accent εἰ, κἂν vs κἀν, tam thể λύσῃ/λύσαι/λύσει, phủ định οὐ/μή, crasis)",
+        "bảng 4 câu hỏi tự kiểm tra; kết nối bản đồ Ôn tập #4; tipp quay lại Arrian εἴ του δέῃ, ὅ τι ἂν πείθῃς, οὗ ἂν ᾖς",
+        "từ vựng 18 từ (★15): ἄθλιος, γνώμη, φυτόν, δεσπότης, πόσις, πρίαμαι, ζυγόν, ἀδολέσχης, πονηρός, πυροί, ἐπιδημέω, πλόιμος, γεωργέω, μυστήριον, ἀνάγκη",
+        "bài đọc: Euripides, Medeia 230–247 (lời thổ lộ của Mêdeia với hợp xướng phụ nữ Corinth; câu 246 trong ngoặc {}); Theophrastos, Charaktere 4 (chân dung gã tán gẫu)"
+      ],
+      "reading": [
+        "Euripides, Medeia 230–247",
+        "Theophrastos, Charaktere 4 (Ἀδολεσχία)"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }

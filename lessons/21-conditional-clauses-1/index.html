@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 21 – Câu điều kiện I</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 21: Câu điều kiện I (conditional clauses): điều kiện thực, khái quát và tiềm năng</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Câu điều kiện: viên gạch cuối của bản đồ mệnh đề phụ thuộc</a></li>
+<li><a href="#s2">Loại 1: <span class="gk">εἰ</span> + chỉ định, điều kiện đặt ra như một sự việc</a></li>
+<li><a href="#s3">Loại 2: <span class="gk">ἐάν</span> + subjunctive, điều kiện chờ đón tương lai</a></li>
+<li><a href="#s4">Loại 3: <span class="gk">εἰ</span> + optative + <span class="gk">ἄν</span>, điều kiện tiềm năng</a></li>
+<li><a href="#s5">Đồng hồ hai vế, <span class="gk">εἰ δὲ μή</span>, và câu điều kiện trong lời gián tiếp</a></li>
+<li><a href="#s6"><span class="gk">ὅταν</span> và <span class="gk">ἐπάν</span>: điều kiện &quot;mỗi khi&quot;</a></li>
+<li><a href="#s7">Chiến lược &quot;bóc câu điều kiện&quot; và bẫy chính tả</a></li>
+<li><a href="#s8">Bản đồ quyết định: gặp <span class="gk">εἰ</span>/<span class="gk">ἐάν</span>, hỏi bốn câu</a></li>
+<li><a href="#reading">Bài đọc: Mêdeia tự nhận &quot;cây khốn khổ nhất&quot; (Euripides) – gã tán gẫu kể cả giấc mộng (Theophrastos)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) nhận diện và dịch đúng ba loại câu điều kiện (<span class="gk">εἰ</span> + chỉ định, <span class="gk">ἐάν</span> + subjunctive, <span class="gk">εἰ</span> + optative + <span class="gk">ἄν</span>) cùng họ hàng <span class="gk">ὅταν</span>/<span class="gk">ἐπάν</span>; (2) chọn đúng thức cho hai vế khi tự viết câu; (3) đọc gần nguyên văn bài diễn thuyết nổi tiếng của Mêdeia về số phận người vợ (Euripides, <em>Medeia</em> 230–247) và bóc từng câu điều kiện trong đó.</p>
+</div>
+
+<h2 id="s1">1. Câu điều kiện: viên gạch cuối của bản đồ mệnh đề phụ thuộc</h2>
+
+<p>Ở Ôn tập #4, bản đồ mệnh đề phụ thuộc sau Bài 20 còn thiếu đúng một ô: <strong>câu điều kiện</strong> (<em>conditional sentence</em>, <em>conditional clause</em>) ở đầy đủ ba kiểu. Từ Bài 16 đến Bài 20 ta đã gieo đủ nguyên liệu: <span class="gk">ἐάν</span> + subjunctive ở Bài 16 (điều kiện tương lai), bảng ba loại điều kiện sơ đồ ở Bài 17, và ở Bài 20, genitive absolute đã làm xong việc &quot;mệnh đề tự do&quot;. Bài này ghép nốt mảnh cuối: từ nay gặp <span class="gk">εἰ</span> hay <span class="gk">ἐάν</span>, bạn sẽ không phải đoán nữa.</p>
+
+<p>Trước hết, hai thuật ngữ &quot;giải phẫu&quot; của câu điều kiện, vì mọi sách ngữ pháp đều dùng chúng:</p>
+
+<table>
+<thead><tr><th>Thuật ngữ</th><th>Tiếng Anh</th><th>Vai trò</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td><strong>vế điều kiện</strong></td><td><em>protasis</em></td><td>vế &quot;nếu...&quot;, đặt điều kiện</td><td><span class="gk">εἰ ταῦτα λέγεις</span> &quot;nếu anh nói vậy&quot;</td></tr>
+<tr><td><strong>vế chính</strong></td><td><em>apodosis</em></td><td>vế &quot;thì...&quot;, kết quả</td><td><span class="gk">ἀληθῆ λέγεις</span> &quot;thì anh nói thật&quot;</td></tr>
+</tbody>
+</table>
+
+<p>Ghi nhớ nhanh bằng từ gốc: <em>protasis</em> (<span class="gk">πρότασις</span>, &quot;sự dật lên trước&quot;) là cái <em>đặt ra trước</em>; <em>apodosis</em> (<span class="gk">ἀπόδοσις</span>, &quot;sự trả về&quot;) là cái <em>trả lại sau</em>. Trong văn bản, vế điều kiện thường đứng trước vế chính, nhưng Hy Lạp thoải mái đổi chỗ, nên đừng tin vị trí, hãy tin <em>cửa</em>: <span class="gk">εἰ</span>, <span class="gk">ἐάν</span>, <span class="gk">κἂν</span>, <span class="gk">ὅταν</span> là cửa vào của protasis.</p>
+
+<p>Và đây là ba loại, xin ra mắt lại từ Bài 17, giờ có tên hẳn hoi:</p>
+
+<table>
+<thead><tr><th>Loại</th><th>Công thức</th><th>Nghĩa</th><th>Nhịp thời gian</th></tr></thead>
+<tbody>
+<tr><td><strong>1. Điều kiện thực</strong> (<em>open/real condition</em>)</td><td><span class="gk">εἰ</span> + <strong>chỉ định</strong> (indicative)</td><td>&quot;nếu X (thực sự thế) thì Y&quot;</td><td>hiện tại khái quát hoặc quá khứ</td></tr>
+<tr><td><strong>2. Điều kiện chờ đón</strong></td><td><span class="gk">ἐάν</span> + <strong>subjunctive</strong></td><td>&quot;nếu cứ X thì sẽ Y&quot;</td><td>tương lai hoặc hiện tại khái quát</td></tr>
+<tr><td><strong>3. Điều kiện tiềm năng</strong> (<em>potential condition</em>)</td><td><span class="gk">εἰ</span> + <strong>optative</strong> + <span class="gk">ἄν</span></td><td>&quot;nếu mà X thì cũng sẽ Y (biết mấy)&quot;</td><td>giả định, không hẹn</td></tr>
+</tbody>
+</table>
+
+<p>Đọc kỹ hàng thứ hai: <span class="gk">ἐάν</span> không phải từ mới, nó là <span class="gk">εἰ</span> + <span class="gk">ἄν</span> dính lại (<em>crasis</em>, bài 16). Còn hàng thứ ba: <span class="gk">ἄν</span> đứng lẻ loi trong <em>vế chính</em>, y như optative tiềm năng <span class="gk">εὖ ἂν λέγοις</span> đã học ở Bài 17. Cả ba loại đều đã đi qua tay bạn một lần, giờ chỉ việc hệ thống hóa.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> loại điều kiện = <em>thức của protasis + có/không ἄν trong apodosis</em>. Bạn không cần thuộc từng câu, chỉ cần nhìn hai tín hiệu: (1) thức của động từ sau <span class="gk">εἰ</span>/<span class="gk">ἐάν</span>, (2) vế chính có <span class="gk">ἄν</span> hay không. Hai tín hiệu này chia hết cả hệ thống: chỉ định, không <span class="gk">ἄν</span> = thực; subjunctive, không <span class="gk">ἄν</span> = chờ đón; optative, có <span class="gk">ἄν</span> = tiềm năng.</p>
+</div>
+
+<p>Ba mục sau đi vào từng loại. Sau đó mục 5 gộp chúng vào &quot;đồng hồ&quot; hai vế, mục 6 thêm họ hàng <span class="gk">ὅταν</span>/<span class="gk">ἐπάν</span> của điều kiện &quot;mỗi khi&quot;, và hai mục cuối là chiến lược bóc và bản đồ quyết định.</p>
+
+<h2 id="s2">2. Loại 1: <span class="gk">εἰ</span> + chỉ định, điều kiện đặt ra như một sự việc</h2>
+
+<p>Cửa vào: <span class="gk">εἰ</span> (<span class="tr">ei</span>) &quot;nếu&quot;, không bao giờ có <span class="gk">ἄν</span> đi kèm trong loại này. Thức: <strong>chỉ định</strong> (indicative). Nghĩa: người nói đặt điều kiện như đặt ra một <em>sự việc</em> – đúng hoặc sai thì chuyện đó biết ngay, không phải chờ tương lai, càng không mường tượng.</p>
+
+<p>Hai nhịp thời quen thuộc của loại này:</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">εἰ ταῦτα λέγεις, ἀληθῆ λέγεις.</td><td class="tr">ei taûta légeis, alēthê légeis.</td><td class="em">If you are saying this, you are telling the truth.</td><td>Nếu anh nói vậy thì anh đang nói thật.</td></tr>
+<tr><td class="gk">εἰ ἦλθεν, ἀκήκοας.</td><td class="tr">ei êlthen, akḗkoas.</td><td class="em">If he came, you heard (it).</td><td>Nếu hắn đã đến thì anh đã nghe thấy.</td></tr>
+</tbody>
+</table>
+
+<p>Câu thứ nhất là <strong>hiện tại khái quát</strong> (<em>present general</em>): hiện tại + hiện tại, nói về một cặp &quot;nếu – thì&quot; đang đúng. Câu thứ hai là điều kiện trong <strong>kể chuyện quá khứ</strong>: quá khứ + quá khứ, mệnh đề nếu chỉ nhấn nhá một chi kiện trong dòng tường thuật. Cả hai đều &quot;phẳng&quot;: thức chỉ định ở cả hai vế, không thêm phụ gia.</p>
+
+<p>Ngữ pháp truyền thống gọi vế chính không có gì nổi bật là &quot;nhạt&quot;, đúng như Bài 17 đã gặp với câu hỏi <span class="gk">τί ποιοῖμεν;</span> &quot;(kể ra thì) ta sẽ làm gì?&quot; – optative + <span class="gk">ἄν</span>. Ở đây ngược lại: <em>điều kiện thực thì apodosis cũng phẳng</em>. Một câu Hy Lạp chỉ cần thấy <span class="gk">εἰ</span> + chỉ định, không <span class="gk">ἄν</span>, là bạn dịch y như văn nói thường.</p>
+
+<p>Bài 17 đã gặp một &quot;người họ hàng&quot; của loại 1: lời ước hướng về quá khứ <span class="gk">εἰ γὰρ ἀπέθανον</span> &quot;giá mà (kể ra thì) tôi đã chết rồi&quot; – protasis quá khứ chỉ định, apodosis rút gọn. Đó không phải câu điều kiện đúng nghĩa mà là <em>ước mong tiếc nuối</em> (<em>unfulfilled wish</em>) mượn khung của nó; ghi nhớ để khỏi dịch nhầm nghĩa &quot;nếu&quot; thành nghĩa &quot;giá mà&quot;.</p>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> đừng đưa <strong>tương lai chỉ định</strong> vào protasis. Câu tiếng Việt &quot;nếu mai anh đến, chúng ta sẽ bàn&quot; <em>không</em> dịch là <span class="gk">εἰ ἀνίξῃ</span>... Hy Lạp gần như không dùng tương lai sau <span class="gk">εἰ</span>; thay vào đó nó chuyển cả ý &quot;tương lai đang chờ đón&quot; sang công thức của loại 2: <span class="gk">ἐὰν ἔλθῃς</span>. Tự kiểm tra: viết xong câu, nhìn động từ sau <span class="gk">εἰ</span>/<span class="gk">ἐάν</span> – nếu nó đuôi tương lai (<span class="gk">-σω</span>, <span class="gk">-σει</span>), gần như chắc chắn bạn đã nhầm cửa.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin cũng có loại điều kiện thực với chỉ định: <em>si id crēdis, errās</em> &quot;nếu anh tin thế thì anh lầm&quot;. Điểm khác biệt nằm ở loại 2: Latin nói điều kiện tương lai bằng chỉ định tương lai (<em>si vēnerit, dīcam</em>), còn Hy Lạp thì bằng subjunctive sau <span class="gk">ἐάν</span> – vì thế người học Latin khi gặp <span class="gk">ἐὰν ᾖ</span> hay quên rằng đây không phải &quot;giả định khó tin&quot; mà chỉ là &quot;khi nào/nếu mà&quot; bình thường của tương lai.</p>
+</div>
+
+<h2 id="s3">3. Loại 2: <span class="gk">ἐάν</span> + subjunctive, điều kiện chờ đón tương lai</h2>
+
+<p>Cửa vào: <span class="gk">ἐάν</span> (<span class="tr">eán</span>) = <span class="gk">εἰ</span> + <span class="gk">ἄν</span> dính lại. Thức: <strong>subjunctive</strong> (aorist hoặc hiện tại). Nghĩa: &quot;nếu cứ X thì chắc sẽ Y&quot;. Đây là công thức mặc định của <em>điều kiện tương lai</em> – điều kiện mà Bài 16 đã dạy dưới tên &quot;điều kiện tương lai (future more vivid)&quot;.</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἐὰν ἔλθῃς, ἀσπασόμεθα.</td><td class="tr">ean élthēis, aspasómetha.</td><td class="em">If you come, we will greet (you).</td><td>Nếu anh đến, chúng tôi sẽ chào anh.</td></tr>
+<tr><td class="gk">ἐὰν ᾖ τι δυσαπόσπαστον, παραινέσαιμι ἂν λέγειν.</td><td class="tr">ean êi ti dysapóspaston, parainésaimi an lég ein.</td><td class="em">If there be anything hard to tear away, I would advise telling it.</td><td>Nếu có điều gì khó rời bỏ, (tôi) xin khuyên nên nói ra.</td></tr>
+</tbody>
+</table>
+
+<p>Câu thứ hai là nguyên văn Athenaios (4,151e) từ bài đọc Bài 16 – gặp lại để thấy loại 2 không chỉ sống trong sách tập: <span class="gk">ἐὰν ᾖ</span> + subjunctive hiện tại, apodosis là optative tiềm năng (mục 4 sẽ làm rõ vì sao hai thức đó đứng được chung một câu). Câu hỏi quan trọng của loại 2: chọn <strong>aorist</strong> hay <strong>hiện tại</strong> cho subjunctive? Quy tắc giống như mọi nơi trong Hy Lạp: <em>aorist</em> = hành động trọn gói (chỉ cần đến là...), <em>hiện tại</em> = tiến trình (miễn là cứ...).</p>
+
+<table>
+<thead><tr><th>Chọn</th><th>Khi nào</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἐὰν</span> + aorist subj.</td><td>điều kiện một lần, chờ một sự kiện</td><td><span class="gk">ἐὰν λάβῃς, χαρήσῃ</span> &quot;nếu (một khi) anh nhận được, anh sẽ mừng&quot;</td></tr>
+<tr><td><span class="gk">ἐὰν</span> + pres subj.</td><td>điều kiện kéo dài, điều kiện khái quát</td><td><span class="gk">ἐὰν λέγῃ, ἀκούω</span> &quot;nếu cứ nói (hoài), tôi nghe&quot;</td></tr>
+</tbody>
+</table>
+
+<p>Nhịp &quot;hiện tại khái quát&quot; này chính là bản đồ: <span class="gk">ἐὰν</span> + hiện tại subj. → hiện tại chỉ định, nói một chân lý tổng quát, kiểu châm ngôn. Chân lý loại này cũng hay dùng <span class="gk">ὅταν</span> (mục 6) – hai công thức đan xen tự nhiên trong văn thật.</p>
+
+<p>Phủ định của loại 2 là <span class="gk">μή</span>: <span class="gk">ἐὰν μὴ ἔλθῃς, λυπησόμεθα</span> &quot;nếu anh không đến, chúng tôi sẽ buồn&quot;. Đây là lần nữa nguyên tắc vàng của Bài 16 – 17: <span class="gk">μή</span> đi với mọi thức &quot;non-indicative&quot;.</p>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> <span class="gk">ἐάν</span> <em>không bao giờ</em> nói về quá khứ. Vì subjunctive không có augment, nó vốn không có mặt trong quá khứ; thấy <span class="gk">ἐάν</span> + subj. thì nghĩa luôn hướng về tương lai hoặc chân lý khái quát. Nếu câu chuyện kể việc đã xảy ra mà bạn dịch &quot;nếu&quot; tương lai, hãy soát lại: rất có thể bạn vừa bóc nhầm <span class="gk">εἰ</span> (loại 1, quá khứ chỉ định) thành <span class="gk">ἐάν</span>.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> ba vỏ thường gặp của cùng một công thức <span class="gk">ἐάν</span> + subj.: <span class="gk">ἐάν</span> viết dính, <span class="gk">ἐὰν</span> trước nguyên âm, và <span class="gk">κἂν</span> = <span class="gk">καὶ ἐάν</span> &quot;và nếu, ngay cả nếu&quot; (crasis, sẽ gặp đầy trong bài đọc Mêdeia câu 241). Bốn vỏ chỉ là một: tìm subjunctive phía sau, bạn có ngay loại 2. Gặp <span class="gk">ὅ ἵ ἂν</span>, <span class="gk">ὅ τι ἂν</span>, <span class="gk">ὅπου ἂν</span> (Bài 16, 18) cũng là họ hàng: quan hệ từ + <span class="gk">ἄν</span> + subj. = &quot;bất kỳ/bất cứ đâu&quot;.</p>
+</div>
+
+<h2 id="s4">4. Loại 3: <span class="gk">εἰ</span> + optative + <span class="gk">ἄν</span>, điều kiện tiềm năng</h2>
+
+<p>Cửa vào vẫn là <span class="gk">εἰ</span>, nhưng thức trong protasis là <strong>optative</strong>, và vế chính mang thẻ <span class="gk">ἄν</span>. Nghĩa: &quot;nếu (mà) X thì chắc/chắc-chắn-y-là Y&quot; – một giả định khiêm tốn hơn: nói chuyện không hẹn, chỉ <em>suy diễn</em> cái sẽ xảy ra <em>nếu</em> điều này được thỏa. Ngữ pháp Anh gọi là <em>should/would</em>-condition; ta gọi là <strong>điều kiện tiềm năng</strong> (potential condition), đúng tên optative tiềm năng đã học ở Bài 17.</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">εἰ λέγοις ταῦτα, ὀρθῶς ἂν λέγοις.</td><td class="tr">ei légois taûta, orthôs an légoi.</td><td class="em">If you were to say this, you would be right.</td><td>Nếu (mà) anh nói vậy thì anh nói đúng (đấy).</td></tr>
+<tr><td class="gk">εὖ ἂν λέγοις.</td><td class="tr">eu an légoi.</td><td class="em">You would speak well.</td><td>Anh nói thế thì đúng biết mấy.</td></tr>
+</tbody>
+</table>
+
+<p>Câu thứ hai là nguyên văn Platon (<em>Protagoras</em> 310b) từ Bài 17: protasis chỉ được ngầm (&quot;nếu như lời Socrates&quot;), apodosis là optative + <span class="gk">ἄν</span>. Câu thứ nhất ghép đủ hai nửa. Bây giờ trả lời câu hỏi cuối mục 3: vì sao <span class="gk">ἐὰν ᾖ</span> (subj.) lại có thể đứng cạnh optative tiềm năng trong câu Athenaios? Vì hai vế của câu điều kiện <em>không cần cùng thức</em>; điều kiện chỉ cần báo trước &quot;tư thế&quot; của câu – chờ đón hay tiềm năng – còn apodosis tự chọn cách nói kết quả. Một cặp rất phổ biến: protasis chờ đón (<span class="gk">ἐάν</span> + subj.), apodosis tiềm năng (opt. + <span class="gk">ἄν</span>): &quot;nếu X, thì đáng lẽ/thường là Y&quot;.</p>
+
+<p>Phủ định của protasis tiềm năng là <span class="gk">οὐ</span>, vì optative tuy là thức giả định nhưng phủ định của nó dùng <span class="gk">οὐ</span> như chỉ định: <span class="gk">εἰ οὐ βοηθοίης</span> &quot;nếu anh không giúp&quot;. Ghi nhớ: <span class="gk">μή</span> chỉ đi cùng subjunctive và mệnh lệnh; optative lấy <span class="gk">οὐ</span>.</p>
+
+<div class="info">
+<p><strong>So sánh ba loại trong một nghĩa:</strong> &quot;nếu anh giúp (thì) mọi chuyện sẽ hay&quot;. Loại 2: <span class="gk">ἐὰν βοηθῇς, εὖ ἕξει</span> – tôi tin chắc anh sẽ giúp. Loại 3: <span class="gk">εἰ βοηθοίης, εὖ ἂν ἕχοι</span> – tôi chưa dám chắc anh có giúp không; nói &quot;sẽ&quot; một cách dè dặt. Người Hy Lạp chọn loại nào là chọn <em>mức độ tin</em> của mình, không phải đổi cấu trúc ngữ pháp. Đó là lý do cùng một câu tiếng Việt có thể có hai – ba bản Hy Lạp đúng, khác nhau ở thái độ.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin không có optative riêng (đã học Bài 17), nên điều kiện tiềm năng Latin phải mượn <em>subjunctive</em>: <em>si haec dīcās, bene dīcās</em> – na ná như &quot;si tu dis cela, tu dis bien&quot; của kiểu Pháp. Hy Lạp tinh hơn: <em>giữ nguyên hai cấp độ</em> – &quot;chờ đón&quot; (subj.) và &quot;tiềm năng&quot; (opt.) – còn Latin gộp chung một thức, người đọc phải đoán mức độ từ ngữ cảnh. Hệ quả khi học song ngôn: dịch Latin subjunctive trong điều kiện về Hy Lạp, phải hỏi thêm: đây là tương lai thực (→ ἐάν + subj.) hay chỉ tiềm năng (→ εἰ + opt.)?</p>
+</div>
+
+<p>Một người bạn của loại 3 đã gặp ở Bài 17: câu hỏi &quot;nhạt tương lai&quot; <span class="gk">τί ποιοῖμεν;</span> &quot;(kể ra thì) ta sẽ làm gì giờ?&quot; – protasis rút gọn, apodosis là optative + <span class="gk">ἄν</span>. Như vậy đến nay bạn đã thấy <span class="gk">ἄν</span> đính ở ba chỗ: <span class="gk">ἐάν</span> (chờ đón), <span class="gk">κἂν</span> (và nếu), và apodosis tiềm năng. Ba chỗ đó chính là &quot;đèn pin&quot; để soi loại câu – bảng tổng hợp ở mục 8 sẽ gộp lại.</p>
+
+<h2 id="s5">5. Đồng hồ hai vế, <span class="gk">εἰ δὲ μή</span>, và câu điều kiện trong lời gián tiếp</h2>
+
+<h3>Đồng hồ: thời của protasis tự kéo thời của apodosis</h3>
+
+<p>Quy tắc chung: <strong>vế chính không vượt quá một nhịp so với vế điều kiện</strong>. Xem bảng:</p>
+
+<table>
+<thead><tr><th>Protasis</th><th>Apodosis thường gặp</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">εἰ</span> + hiện tại ind.</td><td>hiện tại ind.</td><td>nếu giờ X thì giờ Y</td></tr>
+<tr><td><span class="gk">εἰ</span> + quá khứ ind.</td><td>quá khứ ind.</td><td>nếu khi ấy X thì khi ấy Y</td></tr>
+<tr><td><span class="gk">ἐὰν</span> + subj. (aor./pres.)</td><td>tương lai ind. hoặc pres. ind. (khái quát)</td><td>nếu cứ X thì sẽ Y</td></tr>
+<tr><td><span class="gk">εἰ</span> + opt. (+ <span class="gk">ἄν</span> ở apodosis)</td><td>opt. + <span class="gk">ἄν</span></td><td>nếu mà X thì chắc Y</td></tr>
+</tbody>
+</table>
+
+<p>Ngoại lệ đáng nhớ: apodosis của loại 2 và loại 3 có thể là <strong>mệnh lệnh hoặc lời khuyên</strong>, vì mệnh lệnh không có &quot;thời&quot;. Nguyên văn Theophrastos trong bài đọc (khối 2): <span class="gk">κἂν ὑπομένῃ τις αὐτόν, μὴ ἀφίστασθαι</span> &quot;ngay cả khi có người nán lại nghe gã, (gã) cũng chẳng chịu dứt ra&quot; – protasis là <span class="gk">κἂν</span> + subj., apodosis là <em>lệnh phủ định</em> <span class="gk">μὴ ἀφίστασθαι</span>. Điều kiện &quot;nếu cứ X&quot; tự nhiên dẫn đến lời đề nghị &quot;thì hãy Y&quot;; hai vế không cần cùng thức, chỉ cần cùng một tư thế.</p>
+
+<h3><span class="gk">εἰ δὲ μή</span>: &quot;còn nếu không...&quot;</h3>
+
+<p>Hy Lạp rất chuộng rút gọn apodosis khi nó đã rõ: <span class="gk">εἰ δὲ μή</span> = &quot;còn nếu không (thế) thì...&quot; – phần sau thường là một tính từ hoặc danh từ đứng trơ trụi, đôi khi là mệnh lệnh. Nguyên văn Mêdeia (bài đọc, câu 243): <span class="gk">ζηλωτὸς αἰών· εἰ δὲ μὴ, θανεῖν χρεών</span> – vế chính thứ nhất &quot;đời ấy đáng ghen tị&quot;; vế &quot;nếu không&quot; lật ngược cả câu: &quot;còn nếu không, thì phải chết&quot; (<span class="gk">χρεών</span> &quot;cần phải&quot; – đặng bất biến, họ hàng của <span class="gk">χρή</span>). Cách đọc: gặp <span class="gk">εἰ δὲ μή</span>, đừng tìm động từ; nó mượn lại ý của vế đứng trước rồi lật lại.</p>
+
+<h3>Câu điều kiện trong lời gián tiếp</h3>
+
+<p>Bài 17 đã dựng chuỗi thời – thức của tường thuật gián tiếp; giờ thêm một mảnh: <strong>điều kiện loại 2 khi được tường thuật lại thường trượt thành εἰ + optative</strong>, y như chỉ định trượt thành oblique optative. Nguyên văn Theophrastos (bài đọc, khối 2): <span class="gk">καὶ εἰ ποιήσειεν ὁ Ζεὺς ὕδωρ πλεῖον, τὰ ἐν τῇ γῇ βελτίω ἔσεσθαι</span> &quot;(gã kể rằng) nếu Zeus mà cho mưa nhiều hơn, thì mọi thứ trên đất sẽ tốt hơn&quot; – protasis <span class="gk">ποιήσειεν</span> là optative (aorist, không augment), apodosis là nguyên mẫu tương lai <span class="gk">ἔσεσθαι</span> trong cấu trúc AcI sau động từ tường thuật <span class="gk">λέγειν</span>. Nếu tách khỏi lời gián tiếp, câu này là một điều kiện tiềm năng thông thường; được tường thuật, nó mang một lớp &quot;da&quot; gián tiếp.</p>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> đừng nhầm <span class="gk">ποιήσειεν</span> (optative: đuôi <span class="gk">-ειεν</span>, không augment) với <span class="gk">ἐποίει</span> (imperfect: có augment) hay <span class="gk">ποιήσει</span> (tương lai). Ba vỏ này cùng họ; soi augment và đuôi trước khi gán loại điều kiện. Tự kiểm tra: optative không bao giờ có augment – nguyên tắc đã học ở Bài 17, giờ càng có ích.</p>
+</div>
+
+<h2 id="s6">6. <span class="gk">ὅταν</span> và <span class="gk">ἐπάν</span>: điều kiện &quot;mỗi khi&quot;</h2>
+
+<p>Bài 16 đã tách cặp <span class="gk">ὅταν</span> (mỗi khi, không hẹn) với <span class="gk">ὅτε</span> (khi, lần ấy). Giờ nhìn từ phía câu điều kiện: <span class="gk">ὅταν</span> = <span class="gk">ὅτε</span> + <span class="gk">ἄν</span>, tức là &quot;cửa thời gian&quot; khoác thêm <span class="gk">ἄν</span>, nên nó cũng đòi subjunctive (hoặc chỉ định) và mang nghĩa <em>khái quát</em> (<em>general condition</em>): &quot;mỗi khi/mỗi lần mà X thì Y&quot;.</p>
+
+<table>
+<thead><tr><th>Công thức</th><th>Thời</th><th>Nghĩa</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ὅταν</span> + pres. ind./subj.</td><td>hiện tại</td><td>&quot;mỗi khi&quot; (chân lý)</td><td><span class="gk">ὅταν πλείονες συνδειπνῶσι, φιλοτιμοῦνται</span> &quot;mỗi khi đông người cùng ăn, người ta hay ganh&quot; (Athenaios, bài 16)</td></tr>
+<tr><td><span class="gk">ὅταν</span> + aor. ind.</td><td>quá khứ</td><td>&quot;mỗi lần (trong quá khứ)&quot;</td><td><span class="gk">ὅταν ἦλθεν, ἐχάρημεν</span> &quot;mỗi lần hắn đến là chúng tôi vui&quot;</td></tr>
+<tr><td><span class="gk">ἐπάν</span> + subj.</td><td>tương lai/khái quát</td><td>như <span class="gk">ἐάν</span>, giọng Ionic/poetic</td><td>Herodot viết <span class="gk">ἐπάν</span> nơi Attic viết <span class="gk">ἐάν</span></td></tr>
+<tr><td><span class="gk">ὁπόταν</span> + subj.</td><td>như ὅταν</td><td>vỏ nhấn mạnh, thơ và văn cổ</td><td>Homer, Pindar hay dùng; nghĩa không đổi</td></tr>
+</tbody>
+</table>
+
+<p>Nguyên văn Mêdeia (bài đọc, câu 244): <span class="gk">ἀνὴρ δʼ, ὅταν τοῖς ἔνδον ἄχθηται ξυνών</span> &quot;đàn ông, mỗi khi bực mình người trong nhà, (lại) được cùng ở&quot; – <span class="gk">ὅταν</span> + subjunctive hiện tại <span class="gk">ἄχθηται</span>, một chân lý chung về hôn nhân, đúng kiểu khái quát. Còn <span class="gk">ὅτε</span> + chỉ định là &quot;buổi ấy&quot; kể chuyện: chọn sai cặp này thì câu mất nhịp &quot;mỗi khi&quot;.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> <span class="gk">ἄν</span> là &quot;màu khái quát hóa&quot;: bôi vào đâu, nơi đó biến từ &quot;việc đơn lẻ&quot; thành &quot;mọi việc kiểu này&quot;. <span class="gk">εἰ</span> + <span class="gk">ἄν</span> → <span class="gk">ἐάν</span> (nếu cứ), <span class="gk">ὅτε</span> + <span class="gk">ἄν</span> → <span class="gk">ὅταν</span> (mỗi khi), <span class="gk">ἐπί</span> + <span class="gk">ἄν</span> → <span class="gk">ἐπάν</span> (mỗi khi, giọng Ionic). Ngược lại, gỡ <span class="gk">ἄν</span> ra là câu trở về &quot;một lần một việc&quot;. Học một công thức, dùng được cho ba tiểu từ.</p>
+</div>
+
+<h2 id="s7">7. Chiến lược &quot;bóc câu điều kiện&quot; và bẫy chính tả</h2>
+
+<p>Đọc văn thật, bóc theo bốn bước:</p>
+
+<ol>
+<li><strong>Tìm cửa:</strong> quét tiểu từ <span class="gk">εἰ</span>, <span class="gk">ἐάν</span>, <span class="gk">κἂν</span>, <span class="gk">ὅταν</span>, <span class="gk">ἐπάν</span>, hoặc quan hệ từ + <span class="gk">ἄν</span> (<span class="gk">ὅς ἄν</span>, <span class="gk">ὅ τι ἂν</span>, <span class="gk">οὗ ἂν</span>). Cửa có thể đứng giữa câu vì Hy Lạp hay đẩy protasis vào giữa.</li>
+<li><strong>Soi thức của động từ phía sau cửa:</strong> chỉ định → loại 1; subjunctive → loại 2; optative → loại 3. Augment có/không là bằng chứng phụ: thấy augment là quá khứ chỉ định; không augment nhưng có <span class="gk">-σ-</span> và đuôi dài thì nghi aorist subj./opt.</li>
+<li><strong>Gán nhịp thời:</strong> hiện tại khái quát / quá khứ kể chuyện / tương lai chờ đón / tiềm năng &quot;would&quot; – dùng bảng đồng hồ mục 5.</li>
+<li><strong>Dịch vế chính với đúng sức:</strong> có <span class="gk">ἄν</span> trong apodosis thì thêm sắc thái &quot;chắc-chắn-lẽ-ra&quot;; không có thì dịch phẳng. Mệnh lệnh ở apodosis → dịch như lời đề nghị.</li>
+</ol>
+
+<p>Bẫy chính tả và vỏ trùng của cả hệ thống, gộp lại ở đây để rà một lượt:</p>
+
+<table>
+<thead><tr><th>Bẫy</th><th>Vỏ trùng</th><th>Cách soi</th></tr></thead>
+<tbody>
+<tr><td>Accent của <span class="gk">εἰ</span></td><td><span class="gk">εἰ</span> / <span class="gk">εἴ</span> / <span class="gk">εἶ</span> / <span class="gk">ἦ</span></td><td>proclitic: không dấu trước phụ âm, có dấu sắc trước nguyên âm (<span class="gk">εἴ</span> τις); <span class="gk">εἶ</span> &quot;bạn là&quot; và <span class="gk">ἦ</span> &quot;thật sao&quot; là hai từ khác hẳn.</td></tr>
+<tr><td>Crasis <span class="gk">κἂν</span> vs <span class="gk">κἀν</span></td><td><span class="gk">καὶ ἐάν</span> → <span class="gk">κἂν</span>; <span class="gk">καὶ ἐν</span> → <span class="gk">κἀν</span></td><td><span class="gk">κἂν</span> giữ dấu hô trên <span class="gk">ἂν</span>; <span class="gk">κἀν</span> không. Bài đọc Mêdeia có đủ hai vỏ trong cùng 7 câu (235 và 241).</td></tr>
+<tr><td><span class="gk">ἐάν</span> vs <span class="gk">εἰ</span> + <span class="gk">ἄν</span> rời</td><td>về nghĩa là một</td><td>chỉ khác vỏ: dính là <span class="gk">ἐάν</span>/<span class="gk">κἂν</span>, rời là <span class="gk">εἰ ἄν</span> (hiếm, văn cổ); thức phía sau vẫn là subj.</td></tr>
+<tr><td>Tam thể sau <span class="gk">εἰ</span></td><td><span class="gk">λύσῃ</span> (aor. subj.) / <span class="gk">λύσαι</span> (aor. opt.) / <span class="gk">λύσει</span> (fut. ind.)</td><td>Bài 17 đã gặp; giờ lặp lại: đuôi dài có iota sub = subj., <span class="gk">-σαι</span> không accent tròn = opt., <span class="gk">-σει</span> = fut. (loại 1 – hiếm trong protasis).</td></tr>
+<tr><td>Phủ định</td><td><span class="gk">εἰ οὐ</span> / <span class="gk">ἐὰν μή</span> / <span class="gk">εἰ οὐ</span> + opt.</td><td>chỉ định &amp; optative lấy <span class="gk">οὐ</span>; subjunctive lấy <span class="gk">μή</span>.</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> <span class="gk">εἰ μή</span> còn có một nghĩa rất hay gặp mà ta chưa đánh: <strong>&quot;trừ phi, nếu không có thì&quot;</strong> (restrictive): <span class="gk">πρὸς οὐδένα ἀποδειπνεῖ, εἰ μὴ πρὸς σὲ μοῦνον</span> &quot;hắn không ăn tối với ai, trừ phi chỉ với mình anh&quot; – ở nghĩa này <span class="gk">εἰ μή</span> chặn đứng vế đứng trước, không lập cặp &quot;nếu – thì&quot; đối xứng. Phân biệt bằng vị trí và ngữ điệu: <span class="gk">εἰ μή</span> &quot;trừ phi&quot; thường đứng sau và vế trước là kết quả; <span class="gk">ἐὰν μή</span> &quot;nếu không&quot; luôn mở protasis. Bài 16 đã gặp trong Parthenios: bản gốc dùng <span class="gk">εἰ μή</span> &quot;trừ phi&quot;.</p>
+</div>
+
+<h2 id="s8">8. Bản đồ quyết định: gặp <span class="gk">εἰ</span>/<span class="gk">ἐάν</span>, hỏi bốn câu</h2>
+
+<p>Gộp cả bài lại thành một bản đồ. Gặp câu có &quot;nếu&quot; tiếng Hy Lạp, hỏi theo đúng thứ tự:</p>
+
+<table>
+<thead><tr><th>Câu hỏi</th><th>Trả lời</th><th>Kết luận</th></tr></thead>
+<tbody>
+<tr><td>1. Cửa là gì?</td><td><span class="gk">εἰ</span> / <span class="gk">ἐάν</span>-<span class="gk">κἂν</span> / <span class="gk">ὅταν</span>-<span class="gk">ἐπάν</span> / quan hệ từ + <span class="gk">ἄν</span></td><td>biết protasis ở đâu, có hay không sắc thái &quot;cứ/mỗi khi&quot;</td></tr>
+<tr><td>2. Thức của động từ sau cửa?</td><td>ind. / subj. / opt.</td><td>loại 1 thực / loại 2 chờ đón / loại 3 tiềm năng</td></tr>
+<tr><td>3. Phủ định là gì?</td><td><span class="gk">οὐ</span> / <span class="gk">μή</span></td><td><span class="gk">μή</span> xác nhận subj. (hoặc &quot;trừ phi&quot; nếu là <span class="gk">εἰ μή</span> đứng sau vế kết quả)</td></tr>
+<tr><td>4. Apodosis có gì đặc biệt?</td><td><span class="gk">ἄν</span> / mệnh lệnh / rút gọn (<span class="gk">εἰ δὲ μή</span>) / đằng bất biến <span class="gk">χρεών</span></td><td>bổ sung sắc thái: tiềm năng, đề nghị, lật ngược, &quot;buộc phải&quot;</td></tr>
+</tbody>
+</table>
+
+<p>Khi trả lời xong bốn câu, bản đồ mệnh đề phụ thuộc của Ôn tập #4 (13 hàng) đã đủ quân: <span class="gk">ἵνα</span> mục đích, gián tiếp <span class="gk">ὅτι</span>/<span class="gk">ὡς</span>, câu hỏi gián tiếp, quan hệ, phân từ, genitive absolute – và giờ câu điều kiện. Từ Bài 22 trở đi, mọi thứ &quot;cửa&quot; bạn gặp trong văn thật đều là tổ hợp của những miếng đã có.</p>
+
+<div class="tipp">
+<p><strong>Tipp tự kiểm tra cuối bài học:</strong> lấy lại bài đọc Bài 18 (Arrian) và tìm ba cụm <span class="gk">εἴ του δέῃ</span>, <span class="gk">ὅ τι ἂν πείθῃς</span>, <span class="gk">οὗ ἂν ᾖς</span> – cả ba đều thuộc bảng này. Rồi thử dịch lại chúng mà không nhìn đáp án cũ. Nếu cả ba đều &quot;nghe được tiếng&quot; rồi, bạn đã sẵn sàng cho bài đọc của hôm nay.</p>
+</div>
+
+<h2 id="reading">9. Bài đọc: Mêdeia tự nhận &quot;cây khốn khổ nhất&quot; (Euripides, <em>Medeia</em> 230–247) – gã tán gẫu kể cả giấc mộng (Theophrastos, <em>Charaktere</em> 4)</h2>
+
+<div class="info">
+<p><strong>Văn bản I – Euripides, <em>Medeia</em> 230–247:</strong> Mêdeia, công chúa xứ Kolchis bên Biển Đen, đã theo Jason về Corinth, trả giá cho tình yêu bằng mọi thứ: quê nhà, anh em, danh dự. Giờ Jason sắp lấy con gái vua Kreon, và Mêdeia – người nước ngoài, không cha mẹ, không bạn bè – sắp bị trục xuất. Đoạn ta đọc là lời thổ lộ của Mêdeia với hợp xướng phụ nữ Corinth, được đánh giá là một trong những bài diễn thuyết bi thiết nhất của kịch Hy Lạp về thân phận người vợ: người phụ nữ phải &quot;mua&quot; lấy một ông chủ, phải đọc vị một người lạ, và nếu không may thì phải chết. Vở kịch dựng năm 431 trước CN, ngay khi Euripides bắt đầu chuỗi bi kịch &quot;người phụ nữ hiền mà bị phụ&quot; (Medeia, Hippolytos, Alkestis).</p>
+<p><strong>Nguồn:</strong> bản Greek theo HODOI ELEKTRONIKAI (Université catholique de Louvain, hodoi.fltr.ucl.ac.be, bản trình bày văn bản cổ public domain); đoạn 230–247 thuộc cảnh VI (câu 214–270). Bản in giữ đúng chính tả <span class="gk">ξυμ-</span> cổ của nguồn (<span class="gk">ξυνοικῇ</span>, <span class="gk">ξυνευνέτῃ</span>, <span class="gk">ξυνών</span>) – như đã gặp <span class="gk">ξυν-</span> trong Arrian bài 18. Câu 246 in trong ngoặc nhọn <span class="gk">{...}</span>: nhiều nhà biên tập cho đó là câu người đời sau thêm vào; bản nguồn in nguyên dấu, ta giữ nguyên.</p>
+<p><strong>Văn bản II – Theophrastos, <em>Charaktere</em> (Tính cách, chương 4 &quot;Ἀδολεσχία&quot; – kẻ tán gẫu):</strong> Theophrastos xứ Eresos (khoảng 371–287 trước CN), học trò và người kế nhiệm Aristotle, viết bộ 30 &quot;chân dung tính cách&quot; ngắn: mỗi loại người một chương, mỗi chương một chuỗi hành động cụ thể, không giảng đạo. Chương 4 vẽ gã tán gẫu: ngồi cạnh người lạ, khen vợ, kể giấc mộng, kể thực đơn bữa tối, khẳng định người đời nay tệ hơn xưa, và – đỉnh điểm – dởn lên giả định: &quot;nếu Zeus mà cho mưa nhiều hơn...&quot;. Bộ <em>Charaktere</em> là nguồn gốc của cả một dòng văn học &quot;miêu tả tính cách&quot; từ La Bruyère đến hôm nay.</p>
+<p><strong>Nguồn:</strong> bản Greek theo Ancient Library (ancientlibrary.net, bản điện tử văn bản cổ public domain), chương 4, đoạn 1–5. Chú thích phiên bản: nguồn ghi <span class="gk">Ποσιδεῶνος</span> (chính tả chuẩn hiện đại: <span class="gk">Ποσειδεῶνος</span>) và giữ một số dấu hơi khác ấn phẩm phê bình; từ hiếm <span class="gk">ἤμεσα</span> (LSJ: &quot;bị cấm dự lễ vì chưa thanh tẩy&quot;) và <span class="gk">ἀπύρευτος</span> (một số ấn bản sửa thành <span class="gk">ἀνύρευτος</span>; bản ta giữ nguyên đọc của nguồn) sẽ được chú ở phần phân tích. Hai dấu của nguồn được bản in chuẩn hóa theo lối hiện đại: <span class="gk">μέν ἐστι</span> in thành <span class="gk">μὲν ἐστὶ</span>, và <span class="gk">δᾷδα</span> (iota viết dưới) in thành <span class="gk">δαΐδα</span>; mọi từ khác giữ nguyên đọc của nguồn.</p>
+</div>
+
+<h4>Gloss nhanh cho hai văn bản (16 từ, đọc trước khi vào)</h4>
+
+<table>
+<thead>
+<tr><th>Từ</th><th>Nghĩa</th><th>Ghi chú nhanh</th></tr>
+</thead>
+<tbody>
+<tr><td><span class="gk">ἔμψυχος</span></td><td>sống, có linh hồn</td><td><span class="gk">ἐν</span> + <span class="gk">ψυχή</span> &quot;trong ấy có hồn&quot;; đối lập <span class="gk">ἄψυχος</span> &quot;vật vô tri&quot;</td></tr>
+<tr><td><span class="gk">ἡ ὑπερβολή</span></td><td>sự vượt mức, giá cắt cổ</td><td>từ động từ &quot;ném quá đích&quot; → nghĩa trừu tượng &quot;cái gì quá chừng&quot;; gốc từ quen &quot;hyperbole&quot;</td></tr>
+<tr><td><span class="gk">ἡ ἀπαλλαγή</span></td><td>lối thoát, cách rũ bỏ</td><td><span class="gk">ἀπό</span> + <span class="gk">ἀλλάσσω</span> &quot;đổi sang bên kia&quot;: con đường &quot;rời khỏi&quot;</td></tr>
+<tr><td><span class="gk">ἀνήνασθαι</span></td><td>ruồng bỏ, nhất quyết không nhận</td><td>aorist nguyên mẫu của <span class="gk">ἀναιρέω</span> &quot;nâng lên, nhấc ra khỏi&quot; → &quot;nhấc tay không nhận&quot;</td></tr>
+<tr><td><span class="gk">καινός</span></td><td>mới, lạ</td><td>báo hiệu &quot;chưa từng quen&quot;: <span class="gk">ἐς καινὰ ἤθη</span> &quot;vào nếp sống lạ&quot;</td></tr>
+<tr><td><span class="gk">ἡ μάντις</span></td><td>thầy bói, nhà tiên tri</td><td>cùng họ <span class="gk">μαίνομαι</span> &quot;phát cuồng&quot; – người &quot;linh cảm&quot;; nữ giới danh từ bất quy tắc</td></tr>
+<tr><td><span class="gk">ὁ ξυνευνέτης</span></td><td>bạn chung giường, bạn đời</td><td><span class="gk">ξυν-</span> (= <span class="gk">συν-</span>) + <span class="gk">εὐνή</span> &quot;giường&quot;: kẻ &quot;đồng giường&quot;</td></tr>
+<tr><td><span class="gk">ἐκπονέω</span></td><td>ra công sức làm</td><td><span class="gk">ἐκ</span> + <span class="gk">πονέω</span> &quot;đổ mồ hôi ra đến cùng&quot;</td></tr>
+<tr><td><span class="gk">ξυνοικέω</span></td><td>sống chung, làm bạn đời</td><td><span class="gk">ξυν</span> + <span class="gk">οἰκέω</span> &quot;cùng nhau ở&quot; → sống chồng vợ với nhau</td></tr>
+<tr><td><span class="gk">βίᾳ</span></td><td>bằng bạo lực, ép buộc</td><td>sở hữu cách của <span class="gk">ἡ βία</span> &quot;vũ lực&quot; dùng như trạng từ – tặng cách phương thức</td></tr>
+<tr><td><span class="gk">ζηλωτός</span></td><td>đáng ganh tỵ</td><td>từ <span class="gk">ζηλόω</span> &quot;ganh&quot; (zealot!); <span class="gk">ζηλωτὸς αἰών</span> &quot;đời đáng ghen&quot;</td></tr>
+<tr><td><span class="gk">ὁ αἰών</span></td><td>đời, kiếp sống</td><td>từ chỉ &quot;tuổi – đời&quot;, sau này thành &quot;đời đời&quot; (aion); ở đây = &quot;cả một đời&quot;</td></tr>
+<tr><td><span class="gk">χρεών</span></td><td>cần phải, tất phải</td><td>đặng bất biến, họ hàng <span class="gk">χρή</span>; luôn bắt nguyên mẫu đi kèm</td></tr>
+<tr><td><span class="gk">ἄσης</span></td><td>của sự mỏi mệt, khổ sở</td><td>sở hữu cách của <span class="gk">ἡ ἄσις</span> &quot;sự mỏi mệt, nỗi ám ảnh&quot; (LSJ: weariness)</td></tr>
+<tr><td><span class="gk">τό ἐνύπνιον</span></td><td>giấc mộng</td><td><span class="gk">ἐν</span> + <span class="gk">ὕπνος</span> &quot;trong giấc ngủ thấy cái&quot;</td></tr>
+<tr><td><span class="gk">ἀπύρευτος</span></td><td>chưa được thanh tẩy/điểm đạo</td><td>từ hiếm chỉ trong văn bản này và đôi nơi: kẻ &quot;chưa vào hàng&quot; của lễ bí truyền</td></tr>
+</tbody>
+</table>
+
+<h3>Văn bản I: Mêdeia thổ lộ với các phụ nữ Corinth (Euripides, <em>Medeia</em> 230–247)</h3>
+
+<p><strong>Khối 1 (câu 230–235, &quot;cây khốn khổ nhất&quot; và việc &quot;mua chồng&quot;):</strong></p>
+<p class="gk">πάντων δʼ ὅσʼ ἔστʼ ἔμψυχα καὶ γνώμην ἔχει
+γυναῖκές ἐσμεν ἀθλιώτατον φυτόν·
+ἃς πρῶτα μὲν δεῖ χρημάτων ὑπερβολῇ
+πόσιν πρίασθαι, δεσπότην τε σώματος
+λαβεῖν· κακοῦ γὰρ τοῦτʼ ἔτʼ ἄλγιον κακόν.
+κἀν τῷδʼ ἀγὼν μέγιστος, ἢ κακὸν λαβεῖν
+ἢ χρηστόν.</p>
+
+<p><strong>Khối 2 (câu 236–242, &quot;phải làm thầy bói&quot; và mối chồng tốt):</strong></p>
+<p class="gk">οὐ γὰρ εὐκλεεῖς ἀπαλλαγαὶ
+γυναιξὶν, οὐδʼ οἷόν τʼ ἀνήνασθαι πόσιν.
+ἐς καινὰ δʼ ἤθη καὶ νόμους ἀφιγμένην
+δεῖ μάντιν εἶναι, μὴ μαθοῦσαν οἴκοθεν,
+ὅτῳ μάλιστα χρήσεται ξυνευνέτῃ.
+κἂν μὲν τάδʼ ἡμῖν ἐκπονουμέναισιν εὖ
+πόσις ξυνοικῇ μὴ βίᾳ φέρων ζυγόν,
+ζηλωτὸς αἰών·</p>
+
+<p><strong>Khối 3 (câu 243–247, &quot;còn nếu không thì phải chết&quot; và nỗi &quot;chỉ có một tâm hồn&quot;):</strong></p>
+<p class="gk">εἰ δὲ μὴ, θανεῖν χρεών.
+ἀνὴρ δʼ, ὅταν τοῖς ἔνδον ἄχθηται ξυνών,
+ἔξω μολὼν ἔπαυσε καρδίαν ἄσης·
+{ἢ πρὸς φίλον τινʼ ἢ πρὸς ἥλικα τραπείς·}
+ἡμῖν δʼ ἀνάγκη πρὸς μίαν ψυχὴν βλέπειν.</p>
+
+<p>Đọc thử và tự đặt ba câu hỏi trước khi xem phân tích: (1) khối 2 mở đầu bằng <span class="gk">κἂν</span> – đó là crasis nào, và động từ theo sau là thức gì? (2) khối 3 mở đầu bằng <span class="gk">εἰ δὲ μὴ</span> – cái gì đã bị rút gọn? (3) <span class="gk">ὅταν</span> ở câu 244 đi với động từ nào, và vì sao câu ấy là chân lý &quot;mỗi khi&quot;?</p>
+
+<h3>Văn bản II: Gã tán gẫu (Theophrastos, <em>Charaktere</em> 4, đoạn 1–5)</h3>
+
+<p><strong>Khối 1 (đoạn 1–2, khen vợ, kể mộng, rồi khẳng định người đời tệ đi):</strong></p>
+<p class="gk">ὁ δὲ ἀδολέσχης τοιοῦτός τις, οἷος, ὃν μὴ γιγνώσκει, τούτῳ παρακαθεζόμενος πλησίον πρῶτον μὲν τῆς αὑτοῦ γυναικὸς εἰπεῖν ἐγκώμιον· εἶτα, ὃ τῆς νυκτὸς εἶδεν ἐνύπνιον, τοῦτο διηγήσασθαι· εἶθʼ ὧν εἶχεν ἐπὶ τῷ δείπνῳ τὰ καθʼ ἕκαστα διεξελθεῖν. εἶτα δὴ προχωροῦντος τοῦ πράγματος λέγειν, ὡς πολὺ πονηρότεροί εἰσιν οἱ νῦν ἄνθρωποι τῶν ἀρχαίων, καὶ ὡς ἄξιοι γεγόνασιν οἱ πυροὶ ἐν τῇ ἀγορᾷ, καὶ ὡς πολλοὶ ἐπιδημοῦσι ξένοι, καὶ τὴν θάλατταν ἐκ Διονυσίων πλόιμον εἶναι·</p>
+
+<p><strong>Khối 2 (đoạn 3–5, &quot;nếu Zeus mà...&quot; – và lời khuyên rún người nghe):</strong></p>
+<p class="gk">καὶ εἰ ποιήσειεν ὁ Ζεὺς ὕδωρ πλεῖον, τὰ ἐν τῇ γῇ βελτίω ἔσεσθαι, καὶ ὃν ἀγρὸν εἰς νέωτα γεωργήσει, καὶ ὡς χαλεπόν ἐστι τὸ ζῆν, καὶ ὡς Δάμιππος μυστηρίοις μεγίστην δαΐδα ἔστησεν, καὶ πόσοι εἰσὶ κίονες τοῦ Ὠιδείου, καὶ χθὲς ἤμεσα, καὶ τίς ἐστιν ἡμέρα τήμερον; κἂν ὑπομένῃ τις αὐτόν, μὴ ἀφίστασθαι. καὶ ὡς Βοηδρομιῶνος μὲν ἐστὶ τὰ μυστήρια, Πυανοψιῶνος δὲ Ἀπατούρια, Ποσιδεῶνος δὲ τὰ κατʼ ἀγροὺς Διονύσια.</p>
+<p class="gk">Παρασείσαντα δὴ δεῖ τοὺς τοιούτους τῶν ἀνθρώπων καὶ διαράμενον ἀπαλλάττεσθαι, ὅστις ἀπύρευτος βούλεται εἶναι· ἔργον γὰρ συναρκεῖσθαι τοῖς μήτε σχολὴν μήτε σπουδὴν διαγινώσκουσιν.</p>
+
+<p>Chú ý ngay hai tín hiệu đã học: <span class="gk">εἰ ποιήσειεν</span> – optative không augment sau <span class="gk">εἰ</span>, mảnh ghép của điều kiện tiềm năng; <span class="gk">κἂν ὑπομένῃ</span> – crasis <span class="gk">καὶ ἐάν</span> với subjunctive, họ hàng của <span class="gk">κἂν</span> trong Mêdeia câu 241. Một câu chuyện đời thường, mà lõi ngữ pháp chính là bài học hôm nay.</p>
+
+<h4>Câu hỏi đọc hiểu (trả lời trước khi xem dịch)</h4>
+<ol>
+<li>Theophrastos cho biết gã tán gẫu kể ba chuyện đầu tiên theo thứ tự nào, và cả ba đều có gì chung (gợi ý: ai là người quan tâm)?</li>
+<li>Trong câu &quot;nếu Zeus mà cho mưa nhiều hơn&quot;, phần kết quả nằm ở đâu, và nó là nguyên mẫu của thời nào (gợi ý: mục 5 đã nhắc <span class="gk">ἔσεσθαι</span>)?</li>
+<li>Chương kết thúc bằng lời khuyên gì với người gặp gã tán gẫu, và động từ nào cho thấy đó là hành động quyết liệt?</li>
+</ol>
+
+<h3>Dịch tham khảo</h3>
+
+<h4>Văn bản I (Mêdeia 230–247)</h4>
+<p><em>Khối 1:</em> &quot;Trong mọi loài có linh hồn và có trí khôn, chúng tôi, những người phụ nữ, là cây khốn khổ nhất. Phải trước hết là lấy chồng bằng giá cắt cổ: một kẻ chủ tể trên thân thể mình; mà đây là điều còn nhức nhối hơn cả điều nhức nhối. Rồi cuộc tranh tài lớn nhất của đời mới đến: hoặc bắt được kẻ xấu, hoặc kẻ tốt.</p>
+<p><em>Khối 2:</em> (Vì với phụ nữ) không có lối rũ bỏ nào vẻ vang, và cũng không thể nhất quyết ruồng bỏ chồng. Đã bước vào nếp sống lạ và luật lạ, mà – chưa từng được học ở nhà – người vợ phải làm đúng một thầy bói, biết trước mình sẽ hợp với giường ai. Nếu may mà, trong lúc ta đổ công sức, ông chồng chịu sống chung mà không mang ách bằng bạo lực, thì cả một đời ấy đáng ghen tị.</p>
+<p><em>Khối 3:</em> Còn nếu không, thì phải chết. Đàn ông, mỗi khi bực người trong nhà, chỉ cần bước ra ngoài là dứt được nỗi mỏi mệt, {hoặc tìm một người bạn, hoặc kẻ cùng lứa}; còn chúng tôi buộc phải nhìn vào một tâm hồn duy nhất.</p>
+<p>Lưu ý bản dịch: dòng cuối <span class="gk">ἡμῖν δʼ ἀνάγκη πρὸς μίαν ψυχὴν βλέπειν</span> dịch sát là &quot;với chúng tôi là điều tất phải: nhìn về một tâm hồn&quot; – &quot;một tâm hồn duy nhất&quot; vừa là chồng (người duy nhất để trông nom), vừa là chính mình (không có lối thoát nào khác).</p>
+
+<h4>Văn bản II (Theophrastos, Charaktere 4)</h4>
+<p><em>Khối 1:</em> &quot;Còn kẻ tán gẫu thì thế này: ngồi xuống sát cạnh một người mà hắn chẳng quen biết, hắn trước hết khen bài bản vợ mình; rồi kể giấc mộng đã thấy đêm qua; rồi điểm lại từng món trong bữa tối của hắn. Rồi chuyện tiến triển, hắn bắt đầu đàm: người đời bây giờ tệ hơn người xưa nhiều, lúa mì ở chợ năm nay xứng đáng lắm, khách phương xa tới đông lắm, biển từ lễ Dionysia trở đi là đi thuyền được lắm.</p>
+<p><em>Khối 2:</em> Và nếu Zeus mà cho mưa nhiều hơn, mọi thứ trên đất sẽ tốt hơn; và cánh đồng năm nay hắn sẽ cày thế nào; và sống thật là khó; và Damippos đã dựng ngọn đuốc to nhất cho lễ bí truyền; và nhà hát nhạc bây giờ có bao nhiêu cột; và hôm qua tôi bị cấm dự lễ; hôm nay là ngày mấy rồi nhỉ? Ngay cả khi có người nán lại nghe hắn, hắn cũng chẳng chịu dứt ra. Còn như: lễ bí truyền thì tháng Boedromion, lễ Apatouria thì tháng Pyanepsion, lễ Dionysia điền dã thì tháng Poseideon.&quot;</p>
+<p><em>Đoạn kết (câu chốt của chương):</em> &quot;Vậy nên những kẻ như thế, phải hất sang một bên rồi nguyền rủa mà thoát cho nhanh, với bất kỳ ai mà cứ muốn giữ mình ở trạng thái chưa điểm đạo; vì việc ngồi &quot;điểm đạo&quot; cùng những kẻ không biết phân biệt lúc rảnh với lúc bận, là một cực hình.&quot; (Chơi chữ: nghe gã tán gẫu cũng như ngồi dự một buổi &quot;điểm đạo&quot; – chỉ khác là không được thánh hóa mà chỉ được... mỏi tai.)</p>
+
+<h3>Phân tích chính tả từng cụm (đọc sau khi tự bóc)</h3>
+
+<ul>
+<li><strong><span class="gk">κἀν τῷδʼ ἀγὼν μέγιστος</span> (câu 235) vs <span class="gk">κἂν μὲν τάδʼ</span> (câu 241):</strong> hai vỏ crasis kề nhau trong một bài – <span class="gk">κἀν</span> = <span class="gk">καὶ ἐν</span> (&quot;và trong&quot;) không dấu hô, còn <span class="gk">κἂν</span> = <span class="gk">καὶ ἐάν</span> (&quot;nếu mà&quot;) giữ dấu hô của <span class="gk">ἂν</span>. Soi một chữ là biết câu 241 mở ra một protasis. Đây là cặp dễ nhầm nhất của bài, đã có mặt trong bảng mục 7.</li>
+<li><strong><span class="gk">γυναῖκές ἐσμεν ἀθλιώτατον φυτόν</span> (231):</strong> so sánh cao nhất <span class="gk">ἀθλιώτατον</span> (từ <span class="gk">ἄθλιος</span>, từ vựng hôm nay) khớp với <span class="gk">φυτόν</span> (trung tính, số ít) sau chủ ngữ số nhiều <span class="gk">γυναῖκές</span> – lối vị ngữ &quot;gộp một loại&quot; quen của Hy Lạp: &quot;chúng tôi, đàn bà, là (loại) cây khốn khổ nhất&quot;. <span class="gk">φυτόν</span> &quot;cây&quot; là ẩn dụ cả đoạn: người vợ như cây, không tự đi được, trồng ở đâu thì sống ở đấy.</li>
+<li><strong><span class="gk">ἃς πρῶτα μὲν δεῖ χρημάτων ὑπερβολῇ / πόσιν πρίασθαι, δεσπότην τε σώματος / λαβεῖν</span> (232–234):</strong> khuôn <span class="gk">δεῖ</span> + đối cách + nguyên mẫu (ôn AcI Bài 4/18): đại từ quan hệ <span class="gk">ἃς</span> (acc. giống-cái, Bài 15) bị <span class="gk">δεῖ</span> &quot;bắt&quot; làm tân ngữ, rồi dẫn theo <em>hai</em> nguyên mẫu <span class="gk">πρίασθαι</span>... <span class="gk">λαβεῖν</span>: &quot;những người mà trước hết phải (cầm) cả gia tài mà tậu chồng&quot;. <span class="gk">πρίασθαι</span> là aorist trung của <span class="gk">πρίαμαι</span> &quot;tậu, mua cho mình&quot; (từ vựng hôm nay): mua cho mình một <span class="gk">πόσιν</span> – rồi &quot;nhận&quot; thêm một <span class="gk">δεσπότην σώματος</span>, chủ tể của thân thể.</li>
+<li><strong><span class="gk">ἐς καινὰ δʼ ἤθη καὶ νόμους ἀφιγμένην / δεῖ μάντιν εἶναι μὴ μαθοῦσαν οἴκοθεν</span> (238–239):</strong> phân từ hoàn thành trung/bị động <span class="gk">ἀφιγμένην</span> (của <span class="gk">ἀφικνέομαι</span>) đứng đối cách giống-cái, khớp với chủ thể ngầm của <span class="gk">δεῖ</span>: người vợ. Sau đó nguyên tắc Bài 16 – 17 hiện nguyên hình: <span class="gk">μὴ</span> + aorist phân từ <span class="gk">μαθοῦσαν</span> = &quot;chưa từng được học&quot;. <span class="gk">οἴκοθεν</span> dùng hậu tố <span class="gk">-θεν</span> &quot;từ phía&quot;: &quot;từ nhà mình&quot;.</li>
+<li><strong><span class="gk">κἂν μὲν... πόσις ξυνοικῇ μὴ βίᾳ φέρων ζυγόν</span> (241–242):</strong> conditional &quot;ngôi sao&quot; của bài đọc: <span class="gk">κἂν</span> + subj. hiện tại <span class="gk">ξυνοικῇ</span> (động từ co <span class="gk">ξυνοικέω</span>, đuôi <span class="gk">-ῇ</span> như <span class="gk">ποιῇ</span> đã học) – &quot;nếu mà cứ&quot; khái quát. Phân từ <span class="gk">φέρων ζυγόν</span> &quot;mang ách&quot; bám vào <span class="gk">πόσις</span> (chủ thể của <span class="gk">ξυνοικῇ</span>): người chồng &quot;cùng ở mà không mang ách bằng bạo lực&quot;. Đủ ba mảnh đã học: crasis, động từ co, phân từ hoàn cảnh.</li>
+<li><strong><span class="gk">εἰ δὲ μὴ, θανεῖν χρεών</span> (243):</strong> <span class="gk">εἰ δὲ μή</span> rút gọn &quot;còn nếu không (may) thì...&quot; lật lại toàn bộ vế trước; <span class="gk">χρεών</span> là đặng bất biến &quot;tất phải&quot; + aorist nguyên mẫu <span class="gk">θανεῖν</span>. Bốn từ, một câu hoàn chỉnh – sức nén của bi kịch Hy Lạp.</li>
+<li><strong><span class="gk">ἀνὴρ δʼ, ὅταν τοῖς ἔνδον ἄχθηται ξυνών</span> (244):</strong> <span class="gk">ὅταν</span> + <span class="gk">ἄχθηται</span> (giả định hiện tại của <span class="gk">ἄχθομαι</span> &quot;bực mình, bực bội&quot; – đối chiếu chỉ định <span class="gk">ἄχθεται</span>) – chân lý &quot;mỗi khi&quot; về đàn ông. <span class="gk">τοῖς ἔνδον</span> là mạo từ + phó từ danh từ hóa (&quot;đám người trong nhà&quot;) – ôn lại danh từ hóa Bài 9. Đối chiếu: đàn ông giải tỏa được (<span class="gk">ἔξω μολὼν</span>, aorist phân từ <span class="gk">μολών</span> đã học Bài 13/19), còn câu 246 trong ngoặc là dòng nhiều nhà biên tập bỏ đi.</li>
+<li><strong><span class="gk">ἡμῖν δʼ ἀνάγκη πρὸς μίαν ψυχὴν βλέπειν</span> (247):</strong> <span class="gk">ἀνάγκη</span> + nguyên mẫu (từ vựng hôm nay) đóng vai &quot;đặng&quot; như <span class="gk">χρεών</span> câu 243 – hai đặng bất biến trong hai câu kề nhau. <span class="gk">μίαν ψυχήν</span> một tâm hồn: vừa là &quot;chỉ một người để trông nom&quot;, vừa là &quot;chính mình, không lối nào khác&quot;.</li>
+<li><strong><span class="gk">ὃν μὴ γιγνώσκει τούτῳ παρακαθεζόμενος</span> (Theophrastos 4.1):</strong> ngay câu đầu đã có bẫy: <span class="gk">μὴ</span> + chỉ định hiện tại <span class="gk">γιγνώσκει</span> – không phải lỗi, mà là lối quen của mệnh đề quan hệ bất định (&quot;người mà hắn không quen biết&quot;) trong văn xuôi đời thường của Theophrastos: <span class="gk">μή</span> phủ định cái &quot;nhận thức&quot;, dễ dãi về thức. Phân từ hiện tại trung <span class="gk">παρακαθεζόμενος</span> &quot;ngồi xuống cạnh&quot; vẽ cảnh tượng động.</li>
+<li><strong><span class="gk">καὶ εἰ ποιήσειεν ὁ Ζεὺς ὕδωρ πλεῖον, τὰ ἐν τῇ γῇ βελτίω ἔσεσθαι</span> (4.3):</strong> <span class="gk">ποιήσειεν</span> là optative aorist (đuôi <span class="gk">-σειεν</span>, không augment) – điều kiện tiềm năng; nhưng cả cụm nằm trong lời kể của <span class="gk">λέγειν</span>, nên apodosis là nguyên mẫu tương lai <span class="gk">ἔσεσθαι</span> trong AcI (ôn Bài 17–18): &quot;(hắn kể rằng) nếu Zeus mà... thì mọi thứ sẽ...&quot;. Một câu, hai lớp: điều kiện bên trong, tường thuật bên ngoài.</li>
+<li><strong><span class="gk">ὃν ἀγρὸν εἰς νέωτα γεωργήσει</span> (4.3):</strong> quan hệ từ + <em>tương lai chỉ định</em> <span class="gk">γεωργήσει</span> – dõng dạc như một khẳng định (&quot;cánh đồng năm nay hắn sẽ cày thế này&quot;), đúng kiểu kẻ tán gẫu: chả ai hỏi mà tự tin như thể đã xong. <span class="gk">εἰς νέωτα</span> = &quot;năm tới&quot; (thành ngữ với <span class="gk">νέατος</span>).</li>
+<li><strong><span class="gk">κἂν ὑπομένῃ τις αὐτόν, μὴ ἀφίστασθαι</span> (4.4):</strong> đúng công thức đã học: <span class="gk">κἂν</span> + pres subj. <span class="gk">ὑπομένῃ</span> (protasis &quot;ngay cả khi có ai nán lại&quot;), apodosis là lệnh phủ định <span class="gk">μὴ</span> + <em>hiện tại</em> nguyên mẫu <span class="gk">ἀφίστασθαι</span> – căn Bài 16: <span class="gk">μὴ</span> + hiện tại = &quot;đừng làm nữa&quot; (hắn không chịu dừng). Nếu ai dịch &quot;kể cả nếu bạn đợi hắn, đừng rời đi&quot; là ngược nghĩa: chủ thể của lệnh là chính gã tán gẫu.</li>
+<li><strong><span class="gk">Παρασείσαντα δὴ δεῖ... καὶ διαράμενον ἀπαλλάττεσθαι, ὅστις ἀπύρευτος βούλεται εἶναι</span> (4.5–6):</strong> <span class="gk">δεῖ</span> + đối cách + nguyên mẫu &quot;phải mà...&quot; (ôn AcI Bài 4/18); hai phân từ aorist <span class="gk">παρασείσαντα</span>, <span class="gk">διαράμενον</span> số ít chung chung dán lên toàn hành động. <span class="gk">ὅστις</span> bất định (Bài 18) + <span class="gk">ἀπύρευτος</span>: ai &quot;muốn giữ mình chưa điểm đạo&quot; thì cứ nghe – ngược đãi kín đáo của Theophrastos: ngồi nghe gã cũng là một &quot;buổi điểm đạo&quot;, chỉ khác không được thánh hóa. Đối chiếu <span class="gk">συναρκεῖσθαι</span> &quot;điểm đạo cùng nhau&quot; với <span class="gk">σχολὴν</span>/<span class="gk">σπουδὴν</span> – cặp &quot;nhàn – nghi&quot; của Aristotle, thầy của Theophrastos.</li>
+</ul>
+
+<h2 id="vocab">10. Từ vựng trọng tâm</h2>
+
+<p>18 từ mới của bài, 15 từ ưu tiên (<span class="star">★</span> = nên học thuộc trước Anki nhóm 21–24). Đã kiểm tra không trùng từ vựng Bài 1–20.</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Translit.</th><th>English</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὁ ἄθλιος, -ία, -ον</td><td class="tr">ho áthlios</td><td class="em">wretched, miserable</td><td>khốn khổ, tội nghiệp</td><td>so sánh hơn <span class="gk">ἀθλιώτερος</span>, so sánh nhất <span class="gk">ἀθλιώτατος</span>; họ hàng <span class="gk">ἆθλον</span> &quot;giải thưởng, sự thử thách&quot; → &quot;athlete&quot; là kẻ tranh <span class="gk">ἆθλον</span> (chạy giải)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ γνώμη, -ης</td><td class="tr">hē gnṓmē</td><td class="em">mind, thought, opinion</td><td>ý nghĩ, ý kiến, lập trường</td><td>từ <span class="gk">γιγνώσκω</span> (Bài 13): &quot;cái đã biết&quot;; gốc &quot;gnostic&quot;, &quot;diagnosis&quot; (= nhìn xuyên qua)</td></tr>
+<tr><td class="gk"><span class="star">★</span> τό φυτόν, -οῦ</td><td class="tr">to phyton</td><td class="em">plant</td><td>cây, thực vật</td><td>gốc &quot;phyto-&quot; (phytoplankton); Mêdeia 231: phụ nữ là <span class="gk">ἀθλιώτατον φυτόν</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ δεσπότης, -ου</td><td class="tr">ho despotēs</td><td class="em">master, lord</td><td>ông chủ, đấng chúa tể</td><td>gốc &quot;despot&quot;; trong bài đọc: chồng = <span class="gk">δεσπότης τοῦ σώματος</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ πόσις, πόσεως</td><td class="tr">ho posis, poseōs</td><td class="em">husband</td><td>chồng</td><td>chia thứ nhất kiểu <span class="gk">-εως</span> như <span class="gk">ὁ νεώς</span> (Bài 13); hơi văn chương, văn xuôi thường dùng <span class="gk">ὁ ἀνήρ</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> πρίαμαι, aor. ἐπριασάμην</td><td class="tr">priámai, epriasámēn</td><td class="em">to buy (for oneself)</td><td>mua, tậu (cho mình)</td><td>trung cách; <span class="gk">πόσιν πρίασθαι</span> &quot;tậu lấy chồng&quot; – Mêdeia 233; họ hàng <span class="gk">ὠνέομαι</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> τό ζυγόν, -οῦ</td><td class="tr">to zygón</td><td class="em">yoke</td><td>ách, cái ách cày</td><td>gốc &quot;zygote&quot;, &quot;syzygy&quot;; <span class="gk">μὴ βίᾳ φέρων ζυγόν</span> &quot;không mang ách bằng bạo lực&quot; (242)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ἀδολέσχης, -ου</td><td class="tr">ho adoléschēs</td><td class="em">chatterbox, babbler</td><td>kẻ tán gẫu, người ba láp</td><td>tên chương Theophrastos ta đọc; chỉ cần nhận mặt, không cần sản xuất</td></tr>
+<tr><td class="gk"><span class="star">★</span> πονηρός, -ά, -όν</td><td class="tr">ponērós</td><td class="em">worthless, wicked, annoying</td><td>tệ, xấu, khó ưa</td><td>từ <span class="gk">ὁ πόνος</span> &quot;sự nhọc nhằn&quot;: cái gì &quot;gây nhọc&quot; thì tệ; trong Koine: &quot;kẻ ác&quot; (Ma-thêu 5,37...)</td></tr>
+<tr><td class="gk"><span class="star">★</span> οἱ πυροί, -ῶν</td><td class="tr">hoi pyroí</td><td class="em">wheat</td><td>lúa mì</td><td>chỉ dùng số nhiều; cùng họ <span class="gk">πῦρ</span> &quot;lửa&quot; (màu vàng cam của lửa); Theophrastos: <span class="gk">ἄξιοι γεγόνασιν οἱ πυροί</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ἐπιδημέω</td><td class="tr">epidēméō</td><td class="em">to stay in town, visit</td><td>về ở trong thành, lui tới (thành phố)</td><td><span class="gk">ἐπί</span> + <span class="gk">δῆμος</span>: &quot;ở giữa dân&quot;; <span class="gk">πολλοὶ ἐπιδημοῦσι ξένοι</span> – khách lạ đông đúc</td></tr>
+<tr><td class="gk"><span class="star">★</span> πλόιμος, -ον</td><td class="tr">plóimos</td><td class="em">navigable</td><td>(biển) thông thuyền được</td><td>từ <span class="gk">πλέω</span> &quot;đi biển&quot;; từ hiếm, văn chương – gặp chủ yếu trong câu chuyện hàng hải</td></tr>
+<tr><td class="gk"><span class="star">★</span> γεωργέω</td><td class="tr">geōrgḗō</td><td class="em">to farm, till the land</td><td>làm ruộng, canh tác</td><td><span class="gk">γῆ</span> + <span class="gk">ἔργον</span> = &quot;làm việc trên đất&quot;; Virgil mượn làm tên tập <em>Georgica</em> – &quot;Georgics&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> τό μυστήριον, -ου</td><td class="tr">to mystḗrion</td><td class="em">mystery rite</td><td>nghi lễ bí truyền</td><td>từ <span class="gk">μύω</span> &quot;khép miệng/khép mắt&quot;: kẻ điểm đạo <span class="gk">ὁ μύστης</span> &quot;người im lặng&quot;; gốc &quot;mystery&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ἀνάγκη, -ης</td><td class="tr">hē anánkē</td><td class="em">necessity, compulsion</td><td>sự tất phải, nỗi cùng cực</td><td>dùng như cụm vô nhân xưng: <span class="gk">ἀνάγκη</span> + nguyên mẫu &quot;tất phải...&quot;; Latin <em>necessitās</em>; khắc nổi tiếng &quot;ἀνάγκη&quot; ở Delphi</td></tr>
+<tr><td class="gk">τό ἐγκώμιον, -ου</td><td class="tr">to enkṓmion</td><td class="em">(speech of) praise</td><td>lời khen, bài ca tụng</td><td><span class="gk">ἐν</span> + <span class="gk">κῶμος</span> &quot;đám rước tưng bừng&quot; → &quot;encomium&quot;; Theophrastos: gã tán gẫu mở đầu bằng <span class="gk">ἐγκώμιον</span> cho vợ</td></tr>
+<tr><td class="gk">ὁ κίων, -ονος</td><td class="tr">ho kíōn</td><td class="em">column, pillar</td><td>cột, trụ</td><td>chia thứ ba như <span class="gk">ὁ ὁδός</span>; <span class="gk">πόσοι εἰσὶ κίονες τοῦ Ὠιδείου</span> – câu hỏi cửa miệng của kẻ tán gẫu</td></tr>
+<tr><td class="gk">τό ᾨδέιον, -ου</td><td class="tr">to Ōidéion</td><td class="em">concert hall</td><td>nhà hát nhạc</td><td>từ <span class="gk">ἡ ἀοιδή</span> &quot;bài hát&quot; (gốc &quot;ode&quot;); <span class="gk">τὸ ᾨδέιον</span> của Perikles ở Athens: mái vòm mô phỏng trại vua Ba Tư</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">11. Bảng tổng hợp so sánh các điểm dễ nhầm</h2>
+
+<table>
+<thead><tr><th>Cặp dễ nhầm</th><th>Phân biệt</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">εἰ</span> / <span class="gk">εἴ</span> / <span class="gk">εἶ</span> / <span class="gk">ἦ</span></td><td>&quot;nếu&quot; (proclitic, có dấu sắc khi đứng trước nguyên âm) / &quot;bạn là&quot; (2 ngôi <span class="gk">εἶ</span>) / &quot;thật sao, vậy à&quot; (<span class="gk">ἦ</span>, cố định, không phải &quot;nếu&quot;)</td><td>Thay vào câu xem có dịch được &quot;nếu&quot; không; <span class="gk">ἦ</span> thường mở câu hỏi ngạc nhiên/giật mình hoặc nhấn mạnh khi kể lại</td></tr>
+<tr><td><span class="gk">ἐάν</span> vs <span class="gk">εἰ</span></td><td><span class="gk">ἐάν</span> + subj. = tương lai/khái quát; <span class="gk">εἰ</span> + ind. = sự việc thực/đã xảy ra</td><td>Câu có nói về quá khứ? Đúng → cấm <span class="gk">ἐάν</span>. Nói về &quot;sẽ&quot;? Đúng → thường <span class="gk">ἐάν</span></td></tr>
+<tr><td><span class="gk">κἂν</span> vs <span class="gk">κἀν</span></td><td><span class="gk">καὶ ἐάν</span> &quot;nếu mà&quot; (có dấu hô) vs <span class="gk">καὶ ἐν</span> &quot;và trong&quot; (không dấu)</td><td>Nhìn accent + động từ phía sau: subjunctive → <span class="gk">κἂν</span>; danh từ/tặng cách → <span class="gk">κἀν</span>. Mêdeia 235 vs 241 là ví dụ chuẩn</td></tr>
+<tr><td><span class="gk">οὐ</span> vs <span class="gk">μή</span> trong protasis</td><td>chỉ định &amp; optative lấy <span class="gk">οὐ</span>; subjunctive lấy <span class="gk">μή</span></td><td>Gán thức trước, chọn phủ định sau – đừng chọn phủ định trước rồi mới đoán thức</td></tr>
+<tr><td><span class="gk">ὅταν</span> vs <span class="gk">ὅτε</span></td><td>&quot;mỗi khi&quot; (khái quát, <span class="gk">ἄν</span> bám trong) vs &quot;lúc ấy&quot; (một lần, chỉ định)</td><td>Dịch thử với &quot;mỗi khi&quot; còn xuôi tai thì là <span class="gk">ὅταν</span>; ôn lại Bài 16</td></tr>
+<tr><td><span class="gk">ἐπάν</span> vs <span class="gk">ἐάν</span></td><td>cùng một công thức, khác giọng: <span class="gk">ἐπάν</span> là vỏ Ionic/poetic (Herodot), <span class="gk">ἐάν</span> là Attic</td><td>Đọc Herodot thấy <span class="gk">ἐπάν</span> đừng tưởng là từ lạ; Homer còn viết <span class="gk">εἰ</span> + subj.</td></tr>
+<tr><td><span class="gk">εἰ δὲ μή</span> vs <span class="gk">ἐὰν μὴ</span></td><td><span class="gk">εἰ δὲ μή</span> &quot;còn nếu không (thế)&quot; rút gọn, lật vế trước; <span class="gk">ἐὰν μὴ</span> phủ định đầy đủ của protasis tương lai</td><td><span class="gk">εἰ δὲ μή</span> thường đứng <em>sau</em> một vế hoàn chỉnh; <span class="gk">ἐὰν μὴ</span> mở đầu câu</td></tr>
+<tr><td><span class="gk">λύσῃ</span> / <span class="gk">λύσαι</span> / <span class="gk">λύσει</span></td><td>aorist subj. (đuôi dài, iota chìm) / aorist opt. (<span class="gk">-σαι</span>) / tương lai ind. (<span class="gk">-σει</span>)</td><td>Sau <span class="gk">ἐάν</span> chỉ gặp dạng thứ nhất; sau <span class="gk">εἰ</span> dạng hai (tiềm năng) hoặc dạng ba (hiếm); ôn Bài 17</td></tr>
+<tr><td><span class="gk">ὅστις ἄν</span> vs <span class="gk">ὅστις</span></td><td>quan hệ từ + <span class="gk">ἄν</span> + subj. = &quot;bất kỳ ai mà&quot; (khái quát); không <span class="gk">ἄν</span> = quan hệ bất định thường (&quot;kẻ mà...&quot;) hoặc hỏi gián tiếp</td><td>Một vỏ ba đời (Bài 16, 18): soi thức sau nó và xem cả câu là kể, hỏi, hay &quot;luật chung&quot;</td></tr>
+<tr><td><span class="gk">εἰ μή</span> &quot;trừ phi&quot; vs <span class="gk">ἐὰν μή</span> &quot;nếu không&quot;</td><td><span class="gk">εἰ μή</span> chặn vế trước (restrictive); <span class="gk">ἐὰν μή</span> mở protasis</td><td>Đặt &quot;trừ phi&quot; vào chỗ ấy còn hợp lý → là &quot;trừ phi&quot;; Bài 16 (Parthenios) đã gặp một lần</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">12. Bài tập tự luyện + đáp án</h2>
+<p><em>Đáp án chỉ hiện khi in (Ctrl+P → Save as PDF) – làm xong rồi mới in ra soát.</em></p>
+
+<h3>Bài tập 1 – Gán loại sáu câu điều kiện</h3>
+<p>Sáu câu dưới đây đều dùng khuôn đã gặp trong bài. Với mỗi câu: gán <strong>loại</strong> (thực / khái quát / tiềm năng / ước tiếc nuối / rút gọn) và <strong>thời</strong> (hiện tại / tương lai / quá khứ), rồi dịch:</p>
+<ol>
+<li class="gk">εἰ ταῦτα λέγεις, ἀληθῆ λέγεις.</li>
+<li class="gk">ἐὰν λέγῃ, ἀκούω.</li>
+<li class="gk">ἐὰν μὴ ἔλθῃς, λυπησόμεθα.</li>
+<li class="gk">εἰ γὰρ ἀπέθανον.</li>
+<li class="gk">εἰ βοηθοίης, εὖ ἂν ἕχοι.</li>
+<li class="gk">εἰ δὲ μὴ, θανεῖν χρεών.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 1</h4>
+<p>(1) <strong>Thực, hiện tại</strong>: <span class="gk">εἰ</span> + chỉ định hiện tại ở cả hai vế – &quot;nếu cậu nói vậy, cậu nói đúng&quot; (khối câu mở màn của mục 2). (2) <strong>Khái quát, hiện tại</strong>: <span class="gk">ἐάν</span> + giả định hiện tại, vế chính chỉ định hiện tại – &quot;mỗi khi hắn nói, ta nghe / ai nói ta cũng nghe&quot;. (3) <strong>Khái quát-tương lai</strong>: <span class="gk">ἐάν</span> + aorist giả định, vế chính tương lai – &quot;nếu cậu không đến, chúng ta sẽ buồn&quot;. (4) <strong>Ước tiếc nuối, quá khứ</strong>: <span class="gk">εἰ</span> + aorist chỉ định, vế chính rút gọn – &quot;giá mà (kể ra thì) tôi đã chết rồi&quot;; đây là khung điều kiện bị lời ước &quot;mượn&quot; (mục 2). (5) <strong>Tiềm năng, hiện tại</strong>: <span class="gk">εἰ</span> + optative + <span class="gk">ἄν</span> ở cả hai vế – &quot;nếu cậu giúp, mọi chuyện hẳn (đã) ổn&quot;. (6) <strong>Rút gọn</strong>: <span class="gk">εἰ δὲ μή</span> lật cả vế trước, vế chính chỉ còn <span class="gk">χρεών</span> + nguyên mẫu – &quot;còn nếu không, thì phải chết&quot; (Mêdeia 243). Pattern rút ra: <strong>bốn loại phân nhau ở cặp &quot;liên từ + thức&quot;</strong> – <span class="gk">εἰ</span> + chỉ định = thực hoặc đã xảy ra; <span class="gk">ἐάν</span> + giả định = trông chừng; <span class="gk">εἰ</span> + optative + <span class="gk">ἄν</span> = tiềm năng mờ; dấu chấm cuối là thời của vế chính.</p>
+</div></div>
+
+<h3>Bài tập 2 – Điền đúng thức theo gợi ý</h3>
+<p>Điền dạng đúng của động từ vào chỗ trống; gợi ý nằm ngay cạnh mỗi câu. Mọi đáp án đều là dạng đã &quot;học mặt&quot; trong bài hôm nay:</p>
+<ol>
+<li><span class="gk">ἐὰν [___], ἀκούω.</span> – <em>λέγω, hiện tại giả định</em></li>
+<li><span class="gk">ἐὰν μὴ [___], λυπησόμεθα.</span> – <em>ἔρχομαι, aorist giả định</em></li>
+<li><span class="gk">ἐὰν [___], χαήσῃ.</span> – <em>λαμβάνω, aorist giả định</em></li>
+<li><span class="gk">εἰ [___], εὖ ἂν ἕχοι.</span> – <em>βοηθέω, optative</em></li>
+<li><span class="gk">εἰ γὰρ [___].</span> – <em>ἀποθνῄσκω, aorist chỉ định</em> (ước tiếc nuối, ngôi 1 số ít)</li>
+<li><span class="gk">ἀνὴρ δʼ, ὅταν τοῖς ἔνδον [___] ξυνών.</span> – <em>ἄχθομαι, hiện tại giả định</em></li>
+<li><span class="gk">κἂν [___] τις αὐτόν, μὴ ἀφίστασθαι.</span> – <em>ὑπομένω, hiện tại giả định</em></li>
+<li><span class="gk">καὶ εἰ [___] ὁ Ζεὺς ὕδωρ πλεῖον, τὰ ἐν τῇ γῇ βελτίω ἔσεσθαι.</span> – <em>ποιέω, optative gián tiếp</em></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 2</h4>
+<p>(1) <span class="gk">λέγῃ</span> – giả định hiện tại, đuôi omega ngắn sau <span class="gk">ἐάν</span>. (2) <span class="gk">ἔλθῃς</span> – aorist giả định ngôi 2 của <span class="gk">ἔρχομαι</span>; phủ định trong protasis giả định là <span class="gk">μή</span>. (3) <span class="gk">λάβῃς</span> – cùng khuôn, động từ <span class="gk">λαμβάνω</span>. (4) <span class="gk">βοηθοίης</span> – optative hiện tại (nguyên âm nối <span class="gk">-οι-</span>, đuôi thứ cấp, không augment). (5) <span class="gk">ἀπέθανον</span> – aorist chỉ định <em>có</em> augment: dấu phân biệt với optative cùng họ (mục 3). (6) <span class="gk">ἄχθηται</span> – giả định trung/bị động hiện tại của <span class="gk">ἄχθομαι</span> sau <span class="gk">ὅταν</span>, nguyên văn Mêdeia 244. (7) <span class="gk">ὑπομένῃ</span> – giả định sau crasis <span class="gk">κἂν</span>, nguyên văn Theophrastos. (8) <span class="gk">ποιήσειεν</span> – optative &quot;trượt&quot; của điều kiện loại 2 trong lời kể, không augment, đuôi <span class="gk">-σειεν</span>; apodosis đã cho sẵn là nguyên mẫu tương lai. Tự kiểm tra sau khi điền: đọc cả câu, nếu thấy <span class="gk">ἐάν/κἂν/ὅταν</span> mà dạng điền không phải giả định omega-type, quay lại mục 7.</p>
+</div></div>
+
+<h3>Bài tập 3 – Từ trực tiếp sang gián tiếp (ôn Bài 17)</h3>
+<p>Bốn lời nói trực tiếp dưới đây được kể lại sau động từ dẫn cho trước. Viết lại thành câu gián tiếp. Nhớ hai nhịp của Bài 17: động từ dẫn <strong>hiện tại</strong> = chuỗi primary (giữ nguyên); động từ dẫn <strong>quá khứ</strong> = chuỗi secondary (chỉ định hiện tại trượt thành oblique optative; <span class="gk">ἐὰν</span> + giả định trượt thành <span class="gk">εἰ</span> + optative; tiềm năng optative + <span class="gk">ἄν</span> thì đứng vững):</p>
+<ol>
+<li>Direct: <span class="gk">ἐὰν ἔλθῃς, χαρήσῃ.</span> → kể lại sau: <span class="gk">ὁ ἀνὴρ λέγει ὅτι…</span></li>
+<li>Direct: <span class="gk">εἰ ταῦτα λέγεις, ἀληθῆ λέγεις.</span> → kể lại sau: <span class="gk">ὁ ἀνὴρ ἔφη ὅτι…</span></li>
+<li>Direct: <span class="gk">ἐὰν ὁ Ζεὺς ὕδωρ πλεῖον ποιήσῃ, τὰ ἐν τῇ γῇ βελτίω ἔσται.</span> → kể lại sau: <span class="gk">ἔφη ὅτι…</span></li>
+<li>Direct: <span class="gk">εἰ βοηθοίης, εὖ ἂν ἕχοι.</span> → kể lại sau: <span class="gk">ἔφη ὅτι…</span></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 3</h4>
+<p>(1) <span class="gk">ὁ ἀνὴρ λέγει ὅτι ἐὰν ἔλθῃς, χαήσῃ.</span> – chuỗi primary: <span class="gk">ἐάν</span> + giả định và tương lai đều đứng vững, nguyên vẹn lời trực tiếp. (2) <span class="gk">ὁ ἀνὴρ ἔφη ὅτι εἰ ταῦτα λέγοις, ἀληθῆ λέγοις.</span> – chuỗi secondary: chỉ định hiện tại được &quot;chụp&quot; thành optative hiện tại (oblique optative, Bài 17), còn <span class="gk">εἰ</span> giữ nguyên vì nó vốn đã hợp với chỉ định. (3) <span class="gk">ἔφη ὅτι εἰ ὁ Ζεὺς ὕδωρ πλεῖον ποιήσειεν, τὰ ἐν τῇ γῇ βελτίω ἔσεσθαι.</span> – đây chính là nguyên văn Theophrastos 4.3: <span class="gk">ἐάν</span> trượt thành <span class="gk">εἰ</span>, giả định <span class="gk">ποιήσῃ</span> thành optative <span class="gk">ποιήσειεν</span> (không augment), còn tương lai <span class="gk">ἔσται</span> của vế chính về nguyên mẫu <span class="gk">ἔσεσθαι</span> trong cấu trúc kể. (4) <span class="gk">ἔφη ὅτι εἰ βοηθοίης, εὖ ἂν ἕχοι.</span> – tiềm năng optative + <span class="gk">ἄν</span> không trượt khi kể lại: vế đã &quot;mờ&quot; sẵn từ đầu. Ba quy tắc chung: <strong>primary giữ nguyên, secondary làm mờ (ind → opt), tiềm năng đã mờ sẵn thì đứng im</strong>.</p>
+</div></div>
+
+<h3>Bài tập 4 – Viết bốn câu điều kiện từ tiếng Việt</h3>
+<p>Mỗi câu một loại; mọi từ và dạng đều có khuôn trong bài:</p>
+<ol>
+<li>&quot;Nếu cậu nói vậy, cậu nói đúng.&quot; (điều kiện thực, hiện tại)</li>
+<li>&quot;Nếu cậu nhận lấy, cậu sẽ vui.&quot; (trông chừng tương lai)</li>
+<li>&quot;Nếu ai đó chịu ở lại với hắn, (hắn bảo) đừng rời đi.&quot; (khái quát, dùng crasis)</li>
+<li>&quot;Nếu cậu giúp, mọi chuyện hẳn sẽ ổn.&quot; (tiềm năng)</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 4</h4>
+<ol>
+<li class="gk">εἰ ταῦτα λέγεις, ἀληθῆ λέγεις.</li>
+<li class="gk">ἐὰν λάβῃς, χαρήσῃ.</li>
+<li class="gk">κἂν ὑπομένῃ τις αὐτόν, μὴ ἀφίστασθαι.</li>
+<li class="gk">εἰ βοηθοίης, εὖ ἂν ἕχοι.</li>
+</ol>
+<p>Ghi chú: (1) thực hiện tại nên <span class="gk">εἰ</span> + chỉ định, không cần <span class="gk">ἄν</span>. (2) tương lai nên <span class="gk">ἐάν</span> + aorist giả định <span class="gk">λάβῃς</span>, vế chính tương lai <span class="gk">χαρήσῃ</span>. (3) khái quát với crasis <span class="gk">κἂν</span> (nhớ dấu hô phân biệt với <span class="gk">κἀν</span> = <span class="gk">καὶ ἐν</span>); vế chính là nguyên mẫu phủ định <span class="gk">μὴ ἀφίστασθαι</span> – nguyên văn Theophrastos. (4) tiềm năng nên cả hai vế đều optative, chỉ vế chính thêm <span class="gk">ἄν</span> – khuôn Plato <span class="gk">εὖ ἂν λέγοις</span> đại gia đình.</p>
+</div></div>
+
+<h3>Bài tập 5 – Bóc sáu câu điều kiện trong bài đọc</h3>
+<p>Sáu cụm dưới đây trích nguyên văn Mêdeia và Theophrastos. Với mỗi cụm: chỉ ra <strong>protasis</strong> và <strong>apodosis</strong>, gán loại điều kiện, rồi dịch. Chú ý: có một cụm là &quot;kẻ mạo danh&quot; nhìn như điều kiện mà không phải:</p>
+<ol>
+<li class="gk">κἀν τῷδʼ ἀγὼν μέγιστος ἢ κακὸν λαβεῖν ἢ χρηστόν.</li>
+<li class="gk">κἂν μὲν τάδʼ ἡμῖν ἐκπονουμέναισιν εὖ πόσις ξυνοικῇ μὴ βίᾳ φέρων ζυγόν, ζηλωτὸς αἰών.</li>
+<li class="gk">εἰ δὲ μὴ, θανεῖν χρεών.</li>
+<li class="gk">ἀνὴρ δʼ, ὅταν τοῖς ἔνδον ἄχθηται ξυνών, ἔξω μολὼν ἔπαυσε καρδίαν ἄσης·</li>
+<li class="gk">καὶ εἰ ποιήσειεν ὁ Ζεὺς ὕδωρ πλεῖον, τὰ ἐν τῇ γῇ βελτίω ἔσεσθαι.</li>
+<li class="gk">κἂν ὑπομένῃ τις αὐτόν, μὴ ἀφίστασθαι.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 5</h4>
+<p>(1) <strong>Kẻ mạo danh</strong>: <span class="gk">κἀν</span> đây là <span class="gk">καὶ ἐν</span> &quot;và trong&quot; (không dấu), theo sau là danh từ – &quot;và trong cuộc thi này, cái gay go nhất là nhận lấy chồng xấu hay chồng tốt&quot; (Mêdeia 235). Soi dấu hô và dạng phía sau: giả định → điều kiện, danh từ → <span class="gk">καὶ ἐν</span>. (2) Protasis: <span class="gk">κἂν … ξυνοικῇ</span> (crasis + aorist giả định); apodosis: <span class="gk">ζηλωτὸς αἰών</span> – khái quát-tương lai: &quot;nếu chồng chung sống tốt với chúng tôi, những người chịu khó vun vén, mà không đeo ách bằng bạo lực, thì đời đáng ghen&quot; (241–242). (3) <span class="gk">εἰ δὲ μή</span> rút gọn: vế phủ định lật câu trước (242), apodosis chỉ còn <span class="gk">θανεῖν χρεών</span> – &quot;còn nếu không, phải chết&quot; (243). (4) Protasis: <span class="gk">ὅταν τοῖς ἔνδον ἄχθηται ξυνών</span> (điều kiện thời gian khái quát, <span class="gk">ὅταν</span> + trung/bị động giả định); apodosis: <span class="gk">ἔξω μολὼν ἔπαυσε καρδίαν ἄσης</span> – &quot;đàn ông, mỗi khi ở cùng (họ) mà bực mình người trong nhà, chỉ cần bước ra ngoài là dứt khỏi nỗi quại trong tim&quot; (244–245). (5) Protasis: <span class="gk">εἰ ποιήσειεν ὁ Ζεὺς</span>; apodosis: <span class="gk">τὰ ἐν τῇ γῇ βελτίω ἔσεσθαι</span> – tiềm năng trong lời kể gián tiếp (secondary): &quot;(hắn kể rằng) nếu Zeus mà cho mưa nhiều hơn, mọi thứ trên đất hẳn sẽ tốt hơn&quot; (Theophrastos 4.3). (6) Protasis: <span class="gk">κἂν ὑπομένῃ τις αὐτόν</span>; apodosis: <span class="gk">μὴ ἀφίστασθαι</span> – khái quát: &quot;nếu ai chịu ở lại với hắn, đừng rời đi&quot; (4.5). Sáu cụm phủ đủ bốn đời của <span class="gk">ἄν</span>: mượn crasis (2, 6), ẩn trong <span class="gk">ὅταν</span> (4), trượt về optative (5), và cả cái tên mạo danh không phải <span class="gk">ἄν</span> nào (1).</p>
+</div></div>
+
+<h3>Bài tập 6 – Dịch ba câu tiếng Việt sang tiếng Hy Lạp</h3>
+<p>Mọi câu đều có khuôn nguyên văn trong bài đọc hôm nay – viết được chúng là trọn một vòng &quot;về nhà&quot; từ chữ của Euripides và Theophrastos:</p>
+<ol>
+<li>&quot;Còn nếu không, thì phải chết.&quot;</li>
+<li>&quot;Nếu ai đó chịu ở lại (nghe hắn), đừng rời bỏ.&quot;</li>
+<li>&quot;Đàn ông, mỗi khi ở cùng người trong nhà mà bực bội, chỉ cần bước ra ngoài là dứt khỏi nỗi quại trong tim.&quot;</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 6</h4>
+<ol>
+<li class="gk">εἰ δὲ μὴ, θανεῖν χρεών.</li>
+<li class="gk">κἂν ὑπομένῃ τις αὐτόν, μὴ ἀφίστασθαι.</li>
+<li class="gk">ἀνὴρ δʼ, ὅταν τοῖς ἔνδον ἄχθηται ξυνών, ἔξω μολὼν ἔπαυσε καρδίαν ἄσης·</li>
+</ol>
+<p>Ghi chú: (1) Mêdeia 243 nguyên văn, bốn từ mà đựng cả một protasis rút gọn và một apodosis danh từ hóa; (2) Theophrastos 4.5 nguyên văn: crasis <span class="gk">κἂν</span> + giả định, vế chính nguyên mẫu phủ định; (3) Mêdeia 244–245 nguyên văn: <span class="gk">ὅταν</span> + trung/bị động giả định <span class="gk">ἄχθηται</span>, vế chính chia ở aorist chỉ định <span class="gk">ἔπαυσε</span> kèm phân từ <span class="gk">μολὼν</span> – bài 19 vẫn còn hữu dụng. Cả ba câu đều lấy từ một trong hai bài đọc: mục tiêu không phải sáng tác mà là ghi nhớ nguyên văn.</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 21 – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: &quot;Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0&quot; · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Đối chiếu bản đọc: Euripides, Medeia 230–247 (qua HODOI ELEKTRONIKAI, Université catholique de Louvain, public domain); Theophrastos, Charaktere 4 (qua ancientlibrary.net, public domain).</p>
+
+</main>
+</body>
+</html>
