@@ -1,17 +1,17 @@
 # Graecum VN – Ancient Greek cho người Việt
 
-**Một hub tự học tiếng Hy Lạp cổ (Ancient Greek / Altgriechisch) hoàn toàn miễn phí, bằng tiếng Việt**, cho người học từ con số không đến đọc được Plato, Xenophon, Kinh Thánh Hy Lạp (Koine) và các văn bản trung–khó khác.
+**Một hub tự học tiếng Hy Lạp cổ (Ancient Greek / Altgriechisch) miễn phí, bằng tiếng Việt**, cho người học từ con số không đến đọc được Plato, Xenophon, Kinh Thánh Hy Lạp (Koine) và các văn bản trình độ trung–cao cấp.
 
-> Tất cả nội dung: **CC BY-SA 4.0** · Code: **MIT** · Biên soạn bởi **Trần Quốc Tân**, nghiên cứu viên tại **Institute for Studies of Science, Đại học Bielefeld** · Không quảng cáo, không paywall, không thu thập dữ liệu.
+> Tất cả nội dung: **CC BY-SA 4.0** · Code: **MIT** · Biên soạn bởi **Trần Quốc Tân**, nghiên cứu viên tại **Institute for Studies of Science, Đại học Bielefeld** · 
 
-**Bắt đầu học ngay – trang portal dẫn thẳng vào từng bài giảng:** **https://qtan-tran.github.io/graecum-vn/**
+**Trang portal dẫn thẳng vào từng bài giảng:** **https://qtan-tran.github.io/graecum-vn/**
 
-**Bản tiếng Anh:** [README.en.md](README.en.md) · [Portal tiếng Anh](https://qtan-tran.github.io/graecum-vn/en/)
+**Bản tiếng Anh:** [README.en.md](README.en.md) · [Portal tiếng Anh](https://qtan-tran.github.io/graecum-vn/en/) (mới dịch đến bài 8)
 
 ## Vì sao có project này?
 
-- Gần như **không có tài liệu tiếng Việt chất lượng cao** để tự học tiếng Hy Lạp cổ; người Việt phải học qua tiếng Đức, Anh, Pháp – một rào cản kép (học ngôn ngữ cổ bằng ngôn ngữ thứ ba).
-- Tài liệu miễn phí trên mạng (Perseus, Scaife, Logeion, ngữ pháp public domain) rất tốt nhưng **rải rác, bằng tiếng Anh**, và không có lộ trình.
+- Gần như **không có tài liệu tiếng Việt chất lượng cao** để tự học tiếng Hy Lạp cổ, người Việt phải học qua tiếng Đức, Anh, Pháp – đây là một rào cản kép (học ngôn ngữ cổ bằng ngôn ngữ thứ ba).
+- Tài liệu miễn phí trên mạng (Perseus, Scaife, Logeion, ngữ pháp public domain) rất tốt nhưng **rải rác, bằng tiếng Anh**, và không có lộ trình, nhiều công cụ phải trả phí (như Loeb Classical Library).
 - Project này là **lộ trình + bài giảng + văn bản đọc + công cụ** nối tất cả lại, để người tự học tiếng Việt có **một nơi duy nhất để bắt đầu và duy trì việc học**.
 
 ## Lộ trình 48 bài (2 cấp)
@@ -19,7 +19,7 @@
 | Cấp | Bài | Mục tiêu đầu ra |
 | --- | --- | --- |
 | **Graecum I** (tương đương trình độ chứng chỉ Graecum) | 1–24 | Nắm toàn bộ hình thái (declension, động từ các thì/thức) + cú pháp nền tảng; đọc văn xuôi Attic đơn giản (Xenophon adapted) với từ điển. |
-| **Graecum II** | 25–48 | Cú pháp nâng cao (participle, optative, indirect speech, articular infinitive…) và đọc văn bản gốc trung–khó: Plato, Xenophon, Euripides, NT, Homer, Herodot. |
+| **Graecum II** | 25–48 | Cú pháp nâng cao (participle, optative, indirect speech, articular infinitive…) và đọc văn bản gốc trung–khó: Plato, Xenophon, Euripides, Homer, Herodotus. |
 
 Tổng cộng **48 bài giảng + 10 bài ôn tập (Wiederholung)**: sau mỗi 5 bài có một bài ôn tập (Ôn tập #1 sau Bài 5, #2 sau Bài 10 … #10 sau Bài 48), gồm tóm tắt ngữ pháp, bảng tổng hợp hình thái, bộ Anki từ vựng nhóm 5 bài và chiến lược ôn tập.
 
@@ -49,7 +49,7 @@ Repo công cụ đi kèm: **[ancient-greek-toolkit](https://github.com/qtan-tran
 
 ## Phân tích câu – Satzanalyse VN
 
-Platform phân tích câu của project: **[satzanalyse-vn](https://github.com/qtan-tran/satzanalyse-vn)** – mở trực tiếp tại **https://qtan-tran.github.io/satzanalyse-vn/**: dán câu tiếng Hy Lạp (đến 1.500 ký tự), nhận khung phân tích Satzanalyse (HTML + LaTeX) với từ điển 800 từ + gợi ý hình thái theo bài 1–10 điền sẵn, kèm corpus 10 câu mẫu L1–10 được phân tích đầy đủ để tự điền rồi đối chiếu (L6 = John 1:1).
+Platform phân tích câu của project: hiện đang làm, chưa hoàn thiện
 
 ## Cấu trúc repo
 
@@ -74,7 +74,7 @@ Platform phân tích câu của project: **[satzanalyse-vn](https://github.com/q
 - Giải thích bằng **tiếng Việt**; thuật ngữ quen thuộc dùng tiếng Việt, chỉ khái niệm khó mới mở ngoặc thêm thuật ngữ Anh để tra cứu (*hiatus*, *vocative*, *ablative*…).
 - Ví dụ dùng **tiếng Anh hoặc tiếng Việt** để nhìn thấy pattern; thỉnh thoảng có **so sánh Latin** (hai ngôn ngữ rất gần nhau).
 - Từ vựng cấp I luôn kèm **phiên âm La tinh hóa** (VD: ὁ ἄνθρωπος → *ho ánthrōpos*) để người Việt đọc được ngay.
-- Mỗi bài: bảng ví dụ 4 cột (Hy Lạp – phiên âm – English – Việt), mục "Watch out" cho điểm dễ nhầm, bảng tổng hợp so sánh cuối bài, bài tập + đáp án ẩn (hiện khi in).
+- Mỗi bài: bảng ví dụ 4 cột (Hy Lạp – phiên âm – English – Việt), mục "Cẩn trọng" cho điểm dễ nhầm, bảng tổng hợp so sánh cuối bài, bài tập + đáp án ẩn (hiện khi in).
 
 Chi tiết: [docs/STYLE-AND-CONVENTIONS.md](docs/STYLE-AND-CONVENTIONS.md)
 
@@ -84,7 +84,7 @@ Nội dung biên soạn **độc lập**. Chỉ dùng: ngữ pháp/sự thật n
 
 ## Cách ghi công (bắt buộc khi tái sử dụng)
 
-Mọi nội dung do **Trần Quốc Tân** biên soạn và phát hành miễn phí theo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Khi cite, trích dẫn, dịch, in lại, dạy lại hoặc xây dựng material trên nội dung này, **phải ghi công rõ ràng**:
+Mọi nội dung do **Trần Quốc Tân** biên soạn và phát hành miễn phí theo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Khi cite, trích dẫn, dịch, in lại, dạy lại hoặc xây dựng material trên nội dung này, **vui lòng ghi**:
 
 > Nguồn: **Graecum VN** – biên soạn bởi **Trần Quốc Tân**, https://github.com/qtan-tran/graecum-vn, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -109,4 +109,4 @@ Xem: [docs/ROADMAP.md](docs/ROADMAP.md)
 
 ## Đóng góp
 
-Mọi đóng góp đều chào đón: soát lỗi tiếng Việt, viết bài tập, biên soạn văn bản đọc, làm Anki deck. Bắt đầu từ [docs/ROADMAP.md](docs/ROADMAP.md), [CONTRIBUTING.md](CONTRIBUTING.md) và Issues.
+Mọi đóng góp đều chào đón: soát lỗi tiếng Việt, cách dịch thuật ngữ ngôn ngữ học, viết bài tập, biên soạn văn bản đọc, làm Anki deck. Bắt đầu từ [docs/ROADMAP.md](docs/ROADMAP.md), [CONTRIBUTING.md](CONTRIBUTING.md) và Issues.
