@@ -47,6 +47,10 @@ Xem chi tiết từng bài: [docs/CURRICULUM.md](docs/CURRICULUM.md) · Bảng c
 
 Repo công cụ đi kèm: **[ancient-greek-toolkit](https://github.com/qtan-tran/ancient-greek-toolkit)** – mở trực tiếp tại **https://qtan-tran.github.io/ancient-greek-toolkit/** (bản tiếng Việt, có [bản tiếng Anh](https://qtan-tran.github.io/ancient-greek-toolkit/en/)): tra từ & hình thái (Logeion, Wiktionary), thư viện văn bản gốc (Perseus, Scaife, Theoi), gõ tiếng Hy Lạp & font, luyện tập & Anki, ngữ pháp tham chiếu (Smyth, public domain), bảng so sánh tài liệu, và các **kênh YouTube** học tiếng Hy Lạp cổ.
 
+## Phân tích câu – Satzanalyse VN
+
+Platform phân tích câu của project: **[satzanalyse-vn](https://github.com/qtan-tran/satzanalyse-vn)** – mở trực tiếp tại **https://qtan-tran.github.io/satzanalyse-vn/**: dán câu tiếng Hy Lạp (đến 1.500 ký tự), nhận khung phân tích Satzanalyse (HTML + LaTeX) với từ điển 800 từ + gợi ý hình thái theo bài 1–10 điền sẵn, kèm corpus 10 câu mẫu L1–10 được phân tích đầy đủ để tự điền rồi đối chiếu (L6 = John 1:1).
+
 ## Cấu trúc repo
 
 ```
@@ -55,7 +59,7 @@ Repo công cụ đi kèm: **[ancient-greek-toolkit](https://github.com/qtan-tran
 ├── readings/               # Văn bản đọc public domain + bản đơn giản hóa kèm phân tích
 ├── vocab/                  # Từ vựng theo bài, có phiên âm La tinh hóa; Anki decks
 ├── docs/                   # Kiến trúc, quy ước biên soạn, bản quyền, roadmap
-└── toolkit.md              # Trỏ sang repo riêng ancient-greek-toolkit (hub công cụ song ngữ VI/EN, đã tách)
+└── toolkit.md              # Công cụ học kèm: ancient-greek-toolkit + satzanalyse-vn (đã tách repo riêng)
 ```
 
 ## Cách dùng bài giảng
@@ -94,11 +98,12 @@ Nếu có chỉnh sửa, ghi thêm "có chỉnh sửa". Trường hợp thương
 | --- | --- |
 | Kiến trúc + tài liệu nền | ✅ Phần 1 |
 | Template bài giảng chuẩn | ✅ Phần 1 |
-| Bài 1–20 + Ôn tập #1–#3 (Graecum I) | ✅ đã xuất bản |
-| Bài 21–24 + Ôn tập #4–#5 (nốt Graecum I) | 📋 trong roadmap |
+| Bài 1–22 + Ôn tập #1–#4 (Graecum I) | ✅ đã xuất bản |
+| Bài 23–24 + Ôn tập #5 (nốt Graecum I) | 📋 trong roadmap |
 | Graecum II (25–48) | 📋 trong roadmap |
-| Vocab TSV + Anki decks (nhóm 1–15) | ✅ đã xuất bản |
+| Vocab TSV + Anki decks (nhóm 1–20) | ✅ đã xuất bản |
 | Toolkit repo (ancient-greek-toolkit) | ✅ đã tách, đã live |
+| Satzanalyse VN (platform phân tích câu) | ✅ đã tách, đã live |
 | Platform phân tích câu (satzanalyse) | 📋 trong roadmap |
 
 Xem: [docs/ROADMAP.md](docs/ROADMAP.md)
