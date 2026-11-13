@@ -1,4 +1,4 @@
-# ROADMAP phát triển project – cập nhật lần 36 (bản rút gọn)
+# ROADMAP phát triển project – cập nhật lần 37 (bản rút gọn)
 
 > **Quy ước làm việc**: công việc chia thành **Phần (Part)**; cuối mỗi Phần ghi **Continuation notes** vào file này. Cứ **6–7 steps** thì bản roadmap này được cập nhật và báo cáo lại cho người sở hữu project. Tốc độ không quan trọng – tính bền vững và chất lượng mới quyết định.
 

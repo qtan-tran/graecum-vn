@@ -104,7 +104,6 @@ Nếu có chỉnh sửa, ghi thêm "có chỉnh sửa". Trường hợp thương
 | Vocab TSV + Anki decks (nhóm 1–20) | ✅ đã xuất bản |
 | Toolkit repo (ancient-greek-toolkit) | ✅ đã tách, đã live |
 | Satzanalyse VN (platform phân tích câu) | ✅ đã tách, đã live |
-| Platform phân tích câu (satzanalyse) | 📋 trong roadmap |
 
 Xem: [docs/ROADMAP.md](docs/ROADMAP.md)
 
