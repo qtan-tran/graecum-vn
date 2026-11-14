@@ -656,6 +656,30 @@
       "reading": [],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "25-indirect-speech-sequence-of-tenses",
+      "num": 25,
+      "level": "graecum-2",
+      "title": "Tường thuật gián tiếp hệ thống hóa: tiếp thời và khôi phục lời nói (Lysias 12,8–11; Aristophanes, Eirene 948–992)",
+      "topics": [
+        "ba kênh tường thuật: ὅτι/ὡς + động từ chia, câu hỏi gián tiếp εἰ, nguyên mẫu trần (AcI); động từ dẫn và cách chọn kênh",
+        "tiếp thời (sequence of tenses): chuỗi chính và chuỗi phụ; kịch bản đẩy thức λύει/λύοι, λύσῃ/λύσαι(ν); perfect và pluperfect trong lời thuật",
+        "bảng đẩy thức 6 hàng trực tiếp → gián tiếp (4 hàng nguyên văn Lysias); οὐ/μή hai tầng trong gián tiếp; ἄν giữ nguyên",
+        "giữ nguyên thức (retained mood): ἀγαπήσειν με ἔφασκεν, εἰ τὸ σῶμα σώσω; ba khuôn giữ nguyên sau chuỗi phụ",
+        "nguyên mẫu gián tiếp: thời tương đối của nguyên mẫu; μὴ + nguyên mẫu cho lệnh cấm; historic present",
+        "chiến lược khôi phục lời thoại gốc: 4 bước bóc + bảng khôi phục 4 cặp Lysias tường thuật ↔ phục dựng + bảng tra nhanh 8 mục",
+        "bài đọc 1: Lysias 12,8–11 – hùng án 404/3 TCN sau 30 bạo chủ: rương bị đục, lời hứa một talent, lời thề tự nguyền (metoikos)",
+        "bài đọc 2: Aristophanes, Eirene 948–992 – nghi lễ lúa mạch và chén rượu tế; đùa chữ Λυσιμάχη; optative tiềm năng λεγοις ἂν ἄλλο",
+        "từ vựng 18 từ (★15): κανοῦν, στέμμα, μάχαιρα, βωμός, χέρνιψ, κριθή, εὐχή, γάμος, θυσία, κιβωτός, ἐργαστήριον, πίστις, φιάλη, καταλαμβάνω, παραδίδωμι",
+        "cặp dễ nhầm 10 hàng: εἶπον ὅτι λύοι/λύει, βούλοιτο/βούλεται, εἴην/εἴη/εἶεν, ποιήσειν/ποιήσω/ποιήσει, ὅτι rằng/bởi vì, ἠρώτων/ἠρώτησα"
+      ],
+      "reading": [
+        "Lysias 12,8–11 (bản Μνημοσύνη, Κέντρο Ελληνικής Γλώσσας, public domain)",
+        "Aristophanes, Eirene 948–992 (transcription Wikisource Hy Lạp, public domain)"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
