@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 24 – Tổng kết Graecum I: bản đồ hình thái + đọc liền mạch</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 24: Tổng kết Graecum I – bản đồ hình thái, ba văn bản kết tinh và một tấm bia thật</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Bản đồ hình thái Graecum I: hai bảng tra cứu theo số bài</a></li>
+<li><a href="#s2">Ba danh từ &quot;đặc sản&quot; của hôm nay: <span class="gk">ναῦς, βορρᾶς, γραμματεύς</span> (đủ bảng chia)</a></li>
+<li><a href="#s3">Phương pháp đọc 5 bước: từ bản đồ đến bản dịch</a></li>
+<li><a href="#s4">Từ <span class="gk">ψῆφος</span> đến <span class="gk">ψήφισμα</span>: giải phẫu một sắc lệnh tôn vinh</a></li>
+<li><a href="#s5">Đọc bia đá: bốn quy ước biên khắc và số hiệu ">IG II³</a></li>
+<li><a href="#reading1">Bài đọc 1: Xenophon, Anabasis 1,1 (kẻ em út khát ngôi vương)</a></li>
+<li><a href="#reading2">Bài đọc 2: Ailianos, Varia historia 12,61 (thần gió được nhận quốc tịch)</a></li>
+<li><a href="#reading3">Bài đọc 3: bia tôn vinh IG II³ 1137 (một sắc lệnh chạm trên đá, 228/7 TCN)</a></li>
+<li><a href="#s9">Chốt Graecum I: bạn đã có gì trong tay, và cây cầu sang Graecum II</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+
+<h2 id="s1">1. Bản đồ hình thái Graecum I: hai bảng tra cứu theo số bài</h2>
+
+<p>Bài cuối của cấp I không dạy &quot;một ngôi sao mới&quot;, mà làm việc mà mọi người học ngôn ngữ đều phải làm trước khi lên cấp: <strong>rút bản đồ ra khỏi hai mươi ba chuyến đi</strong>. Từ Bài 1 đến Bài 23, hình thái đã vào nhà bạn theo từng mảnh, mỗi bài một mảnh; hôm nay ta trải tất cả lên bàn. Cách dùng hai bảng dưới đây rất giản đơn: khi đọc văn bản mà vấp một đuôi lạ, đừng đoán, hãy <em>tra</em>: hàng nào phủ đuôi đó, cột &quot;Bài&quot; chỉ về nơi các quy tắc được học. Hai bảng này cũng chính là &quot;túi đồ&quot; bạn được phép mang vào Graecum II.</p>
+
+<h3>Bảng 1: danh từ, tính từ, đại từ (thế giới &quot;tên gọi&quot;)</h3>
+
+<table>
+<thead><tr><th>Khuôn</th><th>Bạn đã biết gì?</th><th>Đại diện tiêu biểu</th><th>Bài</th></tr></thead>
+<tbody>
+<tr><td>Nhóm o &amp; nhóm a (đuôi -ος/-η/-ον, -α/-ης)</td><td>Mạo từ, hai nhóm chia cơ bản nhất; danh từ hóa (τὸ ἀδικεῖν)</td><td class="gk">ὁ λόγος, ἡ ὁδός, τὸ ἔργον</td><td>1–3</td></tr>
+<tr><td>Chia 3 giống I (thân tận phụ âm câm)</td><td>Thân -τ/-δ/-θ, đuôi sát nhau</td><td class="gk">ἡ ἐλπίς, ὁ πέλεκυς</td><td>7–8</td></tr>
+<tr><td>Chia 3 giống II (thân ngắt, gan lì)</td><td>Thân tận -ντ/-ρ/-ς; số nhiều &quot;trốn&quot; đuôi</td><td class="gk">ὁ ποιμήν, ὁ πατήρ, ὁ ἀνήρ</td><td>7–8</td></tr>
+<tr><td>Số từ một đến vô hạn</td><td>εἷς/μία/ἕν, hai ba bốn..., danh số từ</td><td class="gk">εἷς, δύο, τρεῖς, δέκα, μυρίοι</td><td>8</td></tr>
+<tr><td>Tính từ 3/2 đuôi, trạng từ, so sánh</td><td>-ος/-ον hai đuôi, tạo trạng từ, danh từ hóa tính từ</td><td class="gk">ἀγαθός, σοφός, βέλτιστος</td><td>9</td></tr>
+<tr><td>Đại từ: ngôi, chỉ, quan hệ, sở hữu, phản thân</td><td>Cả họ -ος/-η/-ο + bất quy tắc ἐγώ, σύ, αὐτός</td><td class="gk">ἐγώ, οὗτος, ὅς, αὑτοῦ</td><td>4, 6, 15</td></tr>
+<tr><td>Danh từ bất quy tắc &quot;đặc sản&quot;</td><td>Thân trộn, Attic -εύς, đuôi -ᾶς; hôm nay thêm ba viên nữa</td><td class="gk">ὁ βασιλεύς, ἡ πόλις, ναῦς, βορρᾶς, γραμματεύς</td><td>2, 5, 24</td></tr>
+</tbody>
+</table>
+
+<h3>Bảng 2: động từ (thế giới &quot;hành động&quot;)</h3>
+
+<table>
+<thead><tr><th>Hệ thì</th><th>Bạn đã biết gì?</th><th>Đuôi nhận diện</th><th>Bài</th></tr></thead>
+<tbody>
+<tr><td>Present (hiện tại)</td><td>Sáu ngôi chủ động + trung/bị động, deponent</td><td class="gk">-ω/-εις/-ει, -ομαι</td><td>1–10</td></tr>
+<tr><td>Imperfect (quá khứ chưa hoàn thành)</td><td>Augment ἐ-, quá khứ kể chuyện</td><td class="gk">ἐ- + -ον/-ες/-ε(ν)</td><td>11</td></tr>
+<tr><td>Future (tương lai) + động từ co</td><td>-σ- tương lai, co -άω/-έω/-όω</td><td class="gk">-σω, -ῶ</td><td>12</td></tr>
+<tr><td>Aorist (quá khứ đơn) chủ động/trung</td><td>Sigmatic + thematic (second aorist)</td><td class="gk">-σα, ἔλαβον</td><td>13</td></tr>
+<tr><td>Aorist bị động, tương lai bị động, perfect trung/bị động</td><td>-θη-, perfect m/p</td><td class="gk">-θη-, -σαι/-σῃ/-ται</td><td>14, 19</td></tr>
+<tr><td>Perfect (hoàn thành) chủ động</td><td>Reduplication + -κα, nghĩa &quot;và còn vậy&quot;</td><td class="gk">λέλυκα, τέθνηκα</td><td>14, 19, 23</td></tr>
+<tr><td>Pluperfect (quá khứ hoàn thành hơn)</td><td>Perfect thêm augment + -ει/-εσαν: &quot;đã từng... (từ trước)&quot;</td><td class="gk">ἐλελύκει, ἀπωλώλεσαν</td><td>22, 24</td></tr>
+<tr><td>Subjunctive (giả định)</td><td>Đuôi dài -ω/-ῃ, ἄν/ἐάν, mệnh đề mục đích</td><td class="gk">-ω/-ῃ/-ωσι(ν)</td><td>16, 23</td></tr>
+<tr><td>Optative (cầu mong)</td><td>-οι/-σειεν, gián tiếp, tiềm năng</td><td class="gk">-οι, -σε</td><td>17, 23</td></tr>
+<tr><td>Phân từ (participle) I–II</td><td>Định ngữ, hoàn cảnh, sở hữu cách tuyệt đối</td><td class="gk">-ων/-ουσα/-ον, -σαι/-σει</td><td>19–20</td></tr>
+<tr><td>Động từ athematic (mi)</td><td>τίθημι/ἵστημι/δίδωμι/ἵημι/φημί + bảng 16 bất quy tắc lõi</td><td class="gk">-μι/-ς/-σι/-ασι</td><td>23</td></tr>
+</tbody>
+</table>
+
+<p>Còn phía cú pháp, sáu khuôn nối câu đã nằm gọn trong một câu duy nhất: <strong>AcI</strong> (Bài 4, 18), <strong>điều kiện</strong> (Bài 21), <strong>thời gian/nguyên nhân</strong> (Bài 22), <strong>phân từ và sở hữu cách tuyệt đối</strong> (Bài 19–20), <strong>subjunctive/optative</strong> (Bài 16–17), <strong>tường thuật gián tiếp</strong> (Bài 17–18). Hôm nay ba bài đọc sẽ gọi đủ tên mọi món trong túi: nếu một khuôn nào đó còn &quot;mờ&quot;, đó chính là ô của bạn cần ôn trước Ôn tập #5.</p>
+
+<div class="tipp">
+<p><strong>Cách dùng bản đồ khi đọc:</strong> đừng học thuộc bảng trên như bảng cửu chương. Hãy dùng nó như bản đồ thành phố: gặp một dạng lạ, (1) tách đuôi cuối (tra Bảng 2), (2) tách thân còn lại, (3) hỏi &quot;thân này thuộc hệ nào, bài nào từng cho tôi thấy nó?&quot;. Ví dụ nhanh từ chính bài đọc 2 hôm nay: <span class="gk">ἀπεκλήρωσαν</span> – thấy <span class="gk">-σαν</span> (quá khứ số nhiều) + augment ἀπ(ε)-: aorist hoặc imperfect; thân <span class="gk">-κλήρω-</span> gợi đúng <span class="gk">ὁ κλῆρος</span> &quot;phần đất được bốc&quot; (Bài 8) → &quot;họ bốc cho hắn một phần đất&quot;. Ba bước, không đoán mò.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner: cùng một mớ hỗn độn, hai cách dọn.</strong> Hy Lạp và Latin cùng thừa hưởng động từ bất quy tắc từ tổ Ấn-Âu, nhưng dọn nhà theo hai lối. Latin &quot;gộp sổ&quot;: perfect là một đuôi -ī duy nhất (dīxī, vēnī, cēpī), dù gốc bên dưới có thể nhảy tam thể (dīc-, dīx-, dīct-). Hy Lạp &quot;giữ sổ mở&quot;: mỗi mảnh một hệ đuôi riêng (λέλυκα, ἔλυσα, ἐλύθην), nên một động từ Hy Lạp như một hộp bút chì nhiều ngăn. Hệ quả: thuộc bảng Hy Lạp rồi quay sang Latin, đừng đi tìm &quot;perfect của δίδωμι&quot; theo khuôn Latin – Hy Lạp cho bạn <span class="gk">δέδωκα</span> (đuôi -κα), Latin cho <em>dedī</em> (đuôi -ī): cùng một ý &quot;đã cho&quot;, hai danh sách đuôi không trùng khớp. Còn danh từ thì hôm nay có một cặp đắt giá: <span class="gk">ἡ ναῦς, νεώς</span> và Latin <em>nāvis, nāvis</em> – mục 2 mổ kỹ.</p>
+</div>
+
+
+<h2 id="s2">2. Ba danh từ &quot;đặc sản&quot; của hôm nay: <span class="gk">ναῦς, βορρᾶς, γραμματεύς</span> (đủ bảng chia)</h2>
+
+<p>Ba bài đọc hôm nay may mắn đụng đúng ba danh từ &quot;gai&quot; mà sách ngữ pháp thường đẩy về phụ lục: con tàu <span class="gk">ναῦς</span> (bài đọc 2: Dionysios dẫn ba trăm chiến thuyền), gió bắc <span class="gk">βορρᾶς</span> (chính &quot;nhân vật chính&quot; của bài đọc 2), và thư ký <span class="gk">γραμματεύς</span> (người được sắc lệnh ở bài đọc 3 sai chép lên đá). Cả ba đều thuộc hàng đã có mặt trong chương trình: từ Bài 2 bạn đã biết <span class="gk">ὁ βασιλεύς</span> (khuôn Attic -εύς); hôm nay bổ sung đủ bộ ba khuôn thường gặp nhất trong văn xuôi Attic.</p>
+
+<h3><span class="gk">ἡ ναῦς, νεώς</span>: con tàu hai thân</h3>
+
+<p><span class="gk">ναῦς</span> là danh từ tận gốc <strong>-ς</strong> của một từ cổ: thân xưa <strong>νη-</strong> (sinh ra <span class="gk">νεώς, νεΐ</span>) đồng sinh cùng thân mới <strong>ναυ-</strong> (sinh ra <span class="gk">ναυσί(ν)</span>). Vì thế bảng của nó là bảng &quot;ghép hai tấm&quot;:</p>
+
+<table>
+<thead><tr><th></th><th>Số ít</th><th>Số nhiều</th></tr></thead>
+<tbody>
+<tr><td>Chủ cách</td><td class="gk">ἡ ναῦς</td><td class="gk">αἱ νεῆς (thơ: νήες)</td></tr>
+<tr><td>Sở hữu cách</td><td class="gk">τῆς νεώς</td><td class="gk">τῶν νεῶν</td></tr>
+<tr><td>Tặng cách</td><td class="gk">τῇ νεΐ</td><td class="gk">ταῖς ναυσί(ν)</td></tr>
+<tr><td>Tân cách</td><td class="gk">τὴν ναῦν</td><td class="gk">τὰς νᾶς (hoặc νέας)</td></tr>
+<tr><td>Gọi cách</td><td class="gk">ναῦ</td><td class="gk">νεῆς</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Achtung: <span class="gk">ναῦς</span> có hai nghề.</strong> Bài đọc 2 mở màn: <span class="gk">τριακοσίας ἦγεν ἐπʼ αὐτοὺς ναῦς ὁπλιτῶν πεπληρωμένας</span> &quot;y dẫn ba trăm chiếc... đóng đầy hoplite&quot;. Ba trăm cái gì? Chữ đứng trước là số từ <span class="gk">τριακοσίας</span> (tân cách số nhiều) và đuôi theo sau là <span class="gk">πεπληρωμένας</span> (phân từ giống tân cách số nhiều) – vậy <span class="gk">ναῦς</span> ở đây không phải chủ cách số ít &quot;con tàu&quot; mà là <strong>tân cách số nhiều &quot;các con tàu&quot;</strong>. Một mặt chữ, hai nhiệm vụ; các từ hòa hợp quanh nó cho bạn biết nó đang giữ vai nào. Cách tự kiểm: đếm đuôi hòa hợp xung quanh – nếu cả cụm là tân cách số nhiều thì nó là &quot;những con tàu (bị dẫn đi)&quot;.</p>
+</div>
+
+<h3><span class="gk">ὁ βορρᾶς, βορρᾶ</span>: gió bắc nhà Attic</h3>
+
+<p>Attic ưa gọi gió bắc bằng khuôn <strong>-ᾶς</strong> (như <span class="gk">ὁ νεανίας</span> &quot;chàng trai&quot; cùng kiểu): thân <span class="gk">βορρᾶ-</span> mập mạp, đuôi dán thẳng. (Thơ và văn chương thường dùng dạng <span class="gk">ὁ βορέας, βορέου</span> – cùng một ngọn gió, khuôn nhóm o.)</p>
+
+<table>
+<thead><tr><th></th><th>Số ít</th><th>Số nhiều</th></tr></thead>
+<tbody>
+<tr><td>Chủ cách</td><td class="gk">ὁ βορρᾶς</td><td class="gk">οἱ βορρᾶνες</td></tr>
+<tr><td>Sở hữu cách</td><td class="gk">τοῦ βορρᾶ</td><td class="gk">τῶν βορρᾶνων</td></tr>
+<tr><td>Tặng cách</td><td class="gk">τῷ βορρᾷ</td><td class="gk">τοῖς βορρᾶσι(ν)</td></tr>
+<tr><td>Tân cách</td><td class="gk">τὸν βορρᾶν</td><td class="gk">τοὺς βορρᾶνας</td></tr>
+<tr><td>Gọi cách</td><td class="gk">βορρᾶ</td><td class="gk">βορρᾶνες</td></tr>
+</tbody>
+</table>
+
+<p>Bài đọc 2 dùng đúng tặng cách <span class="gk">τῷ βορρᾷ</span>: dân Thourioi <em>tế cho</em> gió bắc – người nhận lễ bao giờ đứng tặng cách. Dấu mũ trên <span class="gk">ᾷ</span> (alpha dài + iota subscript) là mặt chữ dễ nhận nhất của khuôn này: <span class="gk">-ᾷ</span> tặng, <span class="gk">-ᾶν</span> tân, <span class="gk">-ᾶ</span> sở hữu.</p>
+
+<h3><span class="gk">ὁ γραμματεύς, γραμματέως</span>: khuôn Attic -εύς đủ bảng</h3>
+
+<p>Đến với <span class="gk">ὁ γραμματεῖς</span> (số nhiều) là gõ cửa khuôn <strong>Attic -εύς</strong>, họ hàng của <span class="gk">βασιλεύς</span> Bài 2: thân ghép <span class="gk">γραμματε-</span> + đuôi co. Điểm &quot;việc&quot; nhất của khuôn này nằm ở sở hữu cách số ít <span class="gk">-έως</span> và tân cách <span class="gk">-έα</span>, khác hẳn nhóm o quen thuộc (<span class="gk">-ου, -ον</span>):</p>
+
+<table>
+<thead><tr><th></th><th>Số ít</th><th>Số nhiều</th></tr></thead>
+<tbody>
+<tr><td>Chủ cách</td><td class="gk">ὁ γραμματεύς</td><td class="gk">οἱ γραμματεῖς</td></tr>
+<tr><td>Sở hữu cách</td><td class="gk">τοῦ γραμματέως</td><td class="gk">τῶν γραμματέων</td></tr>
+<tr><td>Tặng cách</td><td class="gk">τῷ γραμματεῖ</td><td class="gk">τοῖς γραμματεῦσι(ν)</td></tr>
+<tr><td>Tân cách</td><td class="gk">τὸν γραμματέα</td><td class="gk">τοὺς γραμματέας</td></tr>
+<tr><td>Gọi cách</td><td class="gk">γραμματεῦ</td><td class="gk">γραμματεῖς</td></tr>
+</tbody>
+</table>
+
+<p>Bài đọc 3 sai việc một cách trang trọng: <span class="gk">ἀναγράψαι... τὸν γραμματέα τοῦ δήμου</span> &quot;thư ký của dân chúng hãy chép (nghị quyết này)&quot; – tân cách <span class="gk">γραμματέα</span> được chạm chuẩn xác trên bia. Văn bia Athens thời Hy Lạp hóa đầy những chức danh cùng khuôn: <span class="gk">ὁ ἀγωνοθέτης</span> &quot;giám sát cuộc thi&quot;, <span class="gk">ὁ ταμίας</span> &quot;thủ quỹ&quot; (nhóm o!), <span class="gk">ὁ σωτήρ</span> &quot;đấng cứu độ&quot;. Nhớ tinh thần: <strong>-εύς = &quot;nghề, chức&quot;</strong>: <span class="gk">βασιλεύς</span> vua, <span class="gk">γραμματεύς</span> thư ký, <span class="gk">ἱππεύς</span> kỵ binh, <span class="gk">χαλκεύς</span> thợ rèn.</p>
+
+<div class="latin">
+<p><strong>Latin corner: <span class="gk">ναῦς</span> và <em>nāvis</em> – một con tàu xuyên đại dương ngôn ngữ.</strong> Hai chữ là anh em ruột từ tổ chung <em>*nāus-</em> &quot;con tàu&quot;: tiếng Hy Lạp đẩy âm thành <span class="gk">αυ</span> (<span class="gk">ναῦς</span>), tiếng Latin giữ nguyên âm <em>ā</em> dài (<em>nāvis</em> – để ý sở hữu cách Latin <em>nāvis</em> cũng y hệt khuôn <span class="gk">νηός</span> của Homēros!). Từ con tàu này, cả hai bên đẻ ra hạm đội từ vựng: Hy Lạp có <span class="gk">ὁ ναύτης</span> &quot;thủy thủ&quot;, <span class="gk">ἡ ναυμαχία</span> &quot;hải chiến&quot;; Latin mượn nguyên chữ Hy Lạp thành <em>nauta</em>, và tiếng Anh hôm nay nói chuyện bằng cả hai đường: <em>navy, naval, navigate</em> (đường Latin) và <em>nautical, nausea</em> (đường Hy Lạp – <span class="gk">ἡ ναυσία</span> &quot;bệnh say sóng&quot;: đất liền không quen biển). Còn <span class="gk">βορρᾶς</span>? Latin gọi gió bắc là <em>aquilo</em> hay <em>boreas</em> – mượn nguyên chữ Hy Lạp <span class="gk">βορέας</span>: người La Mã xin gió Hy Lạp về thổi dùm.</p>
+</div>
+
+
+<h2 id="s3">3. Phương pháp đọc 5 bước: từ bản đồ đến bản dịch</h2>
+
+<p>Hai mươi ba bài qua, bạn đã được tập bóc câu theo nhiều lối: bốn bước cho mệnh đề (Bài 21, 22), bốn bước cho mi-verb (Bài 23), từng bước cho phân từ (Bài 19–20). Bài cuối cấp I gom lại thành <strong>một đường ray duy nhất</strong> để bạn mang sang Graecum II và dùng cả đời. Năm bước dưới đây không phải quy trình &quot;một chiều bắt buộc&quot;; đó là danh mục kiểm tra (checklist) mà tay bạn sẽ dần làm gọn lại thành phản xạ.</p>
+
+<h3>Năm bước</h3>
+<ol>
+<li><strong>Tìm trục:</strong> quét câu, khoanh mọi động từ chia (finite verb). Câu Hy Lạp không cần chủ ngữ đứng trước; động từ chốt và những động từ chia khác quyết định câu có bao nhiêu mạch. Một câu gồm đúng một trục chính + các nhánh.</li>
+<li><strong>Gọi tên cụm danh từ:</strong> với mỗi cụm quanh trục, xác định giống, số, cách (mạo từ và đuôi là hai tay đo). Tặng cách hay bắt gặp nhận vai &quot;người/bên nhận&quot;; sở hữu cách là &quot;của ai&quot;; tân cách là &quot;nhận tác động trực tiếp&quot;.</li>
+<li><strong>Bóc vỏ phụ:</strong> mọi phân từ và nguyên mẫu là &quot;nhánh lá&quot; đang đu theo một chủ thể nào đó – hỏi chủ thể của nó là ai (cùng cách, cùng số?), và nó vẽ thời gian quan hệ nào (trước/sau/đồng thời với trục?).</li>
+<li><strong>Nối khuôn cú pháp:</strong> nhận diện các khuôn đã học – AcI, mệnh đề điều kiện, thời gian, mục đích, gián tiếp, sở hữu cách tuyệt đối, giới từ đã thành khuôn cố định – rồi gán vai từng nhánh vào đúng khuôn.</li>
+<li><strong>Ghép và soi chéo:</strong> ghép nghĩa tiếng Việt, rồi dịch ngược thử một nhịp: nếu dịch ngược ra Hy Lạp mà bạn lại chọn cách/đuôi khác bản gốc thì ngừng lại, đọc lại từ bước 2.</li>
+</ol>
+
+<h3>Worked example: một câu, năm bước, không bỏ một chữ</h3>
+
+<p>Lấy câu từ chính bài đọc 1 hôm nay (Xenophon kể mẹ của Kyros cứu con):</p>
+<p class="gk">ἡ δὲ μήτηρ ἐξαιτησαμένη αὐτὸν ἀποπέμπει πάλιν ἐπὶ τὴν ἀρχήν.</p>
+
+<p><strong>Bước 1 (trục):</strong> có đúng một động từ chia: <span class="gk">ἀποπέμπει</span> (present chỉ định, 3sg) – &quot;(nàng ta) gửi đi&quot;. Trục mang nghĩa hiện tại kể chuyện (historic present, Bài 12): Xenophon làm quá khứ sống dậy. Chủ ngữ không có đại từ riêng – nó nấp trong mạo từ của cụm chủ cách <span class="gk">ἡ δὲ μήτηρ</span>.</p>
+<p><strong>Bước 2 (cụm danh từ):</strong> (a) <span class="gk">ἡ δὲ μήτηρ</span>: nữ, số ít, chủ cách – chủ thể trục, chữ <span class="gk">δὲ</span> lật vai: từ mẹ hoàng hậu Parysatis vừa kể bên trên. (b) <span class="gk">αὐτόν</span>: nam, số ít, tân cách – &quot;ông ấy&quot;, ai? chính Kyros vừa bị bắt ở vế trước. (c) <span class="gk">ἐπὶ τὴν ἀρχήν</span>: giới từ <span class="gk">ἐπί</span> + tân cách – hướng chuyển động &quot;tới, trở về&quot;: <span class="gk">ἡ ἀρχή</span> là &quot;quyền tổng trấn&quot; của Kyros.</p>
+<p><strong>Bước 3 (vỏ phụ):</strong> <span class="gk">ἐξαιτησαμένη</span> là phân từ aorist trung động, nữ số ít (đuôi <span class="gk">-σαμένη</span> cho thấy cả hai) – chủ thể của nó phải là <span class="gk">ἡ μήτηρ</span>. Aorist: hành động <em>xảy ra trước</em> trục – &quot;sau khi xin (được) y về&quot;. <span class="gk">πάλιν</span> là trạng từ &quot;lại, trở lại&quot;, và nó cùng <span class="gk">ἐπί</span> + acc gói hướng chuyển động.</p>
+<p><strong>Bước 4 (khuôn):</strong> một khuôn lớn chiếm câu: <strong>phân từ hoàn cảnh aorist</strong> (Bài 19) trước trục. Ngoài ra <span class="gk">ἐξαιτέομαι</span> là động từ &quot;xin trả cho mình&quot; (<span class="gk">ἐξ-</span> + <span class="gk">αἰτέω</span>, trung động: lợi ích về người xin) – vì thế tân cách <span class="gk">αὐτόν</span> là món hàng được xin.</p>
+<p><strong>Bước 5 (ghép):</strong> &quot;Còn người mẹ, sau khi xin (được) y về, lại gửi y trở về địa bàn tổng trấn.&quot; Soi chéo: dịch ngược &quot;xin y về&quot; → Hy Lạp phải là trung động aorist phân từ nữ (<span class="gk">ἐξαιτησαμένη</span> ✓) và &quot;gửi đi&quot; phải là <span class="gk">ἀποπέμπει</span> với tân cách (<span class="gk">αὐτόν</span> ✓). Không chữ nào bỏ sót, không chữ nào thừa.</p>
+
+<h3>Bản đồ cú pháp của một đoạn dài</h3>
+<p>Đọc liền mạch (nhiều câu) chỉ khác đọc một câu ở chỗ: bạn phải thấy <em>cây</em>, không chỉ <em>cành</em>. Với mỗi đoạn, hãy vẽ trong đầu một bản đồ ba tầng:</p>
+<ul>
+<li><strong>Tầng trục:</strong> các động từ chia xếp thành xương sống của truyện – ai làm gì, theo thứ tự thời gian của thừa nhận.</li>
+<li><strong>Tầng nhánh:</strong> phân từ và mệnh đề phụ treo vào trục, mỗi nhánh gắn một mốc thời gian (trước/đồng thời/sau) và một chủ thể.</li>
+<li><strong>Tầng gạch nối:</strong> các hạt nhỏ nhưng cầm lái (<span class="gk">δὲ, μέν, γάρ, οὖν, τε...καί</span>) giống đèn rẽ làn trên cao tốc: mất đèn là đọc lệch mạch.</li>
+</ul>
+<p>Ở mục 12 (Bài tập), bạn sẽ được yêu cầu vẽ đúng bản đồ này cho một đoạn từ bia đá – công việc của một nhà biên khắc học thực thụ.</p>
+
+
+<h2 id="s4">4. Từ <span class="gk">ψῆφος</span> đến <span class="gk">ψήφισμα</span>: giải phẫu một sắc lệnh tôn vinh</h2>
+
+<p>Bài đọc 3 hôm nay là một nghị quyết thật của dân Athens, chạm trên đá. Trước khi đọc bia, hãy làm quen với <em>ngôn ngữ nhà nước</em> mà tấm bia đó nói – thứ tiếng hành chính có khuôn chuẩn đến mức bạn có thể &quot;bóc mà không cần từ điển cho từng từ&quot;. Mọi thứ xoay quanh một gia đình từ đã gặp ở Bài 20: viên sỏi <span class="gk">ἡ ψῆφος</span>.</p>
+
+<h3>Gia đình ba đời của viên sỏi</h3>
+<table>
+<thead><tr><th>Từ</th><th>Hình dạng</th><th>Nghĩa</th><th>Ví dụ / ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἡ ψῆφος, -ου</td><td>viên sỏi; trong hội Athens là &quot;viên bỏ phiếu&quot;</td><td>một lá phiếu; nói chung: hòn sỏi nhỏ (Homēros)</td><td>cha đẻ của cả nhà; đã học Bài 20</td></tr>
+<tr><td class="gk">ψηφίζομαι</td><td>động từ trung động theo khuôn &quot;làm cho nhà nước&quot;</td><td>biết bằng phiếu, nghị quyết</td><td>chuẩn tắc: <span class="gk">ἐψηφίσαντο εἶναι τὸν ἄνεμον πολίτην</span> &quot;họ nghị quyết phong gió làm công dân&quot; (bài đọc 2!)</td></tr>
+<tr><td class="gk">τὸ ψήφισμα, -τος</td><td>danh từ hành động: kết quả của cuộc bỏ phiếu</td><td>nghị quyết, sắc lệnh</td><td>sản phẩm cuối: thứ được chép lên <span class="gk">στήλη</span> ở bài đọc 3</td></tr>
+</tbody>
+</table>
+
+<p>Mạch quan hệ đúng như logic nhà nước: <em>sỏi</em> (phương tiện) → <em>bỏ phiếu</em> (hành động) → <em>nghị quyết</em> (sản phẩm). Gặp bất kỳ chữ nào trong ba đời, bạn gọi được cả họ – cách học từ vựng bằng &quot;cây gia đình&quot; thay vì học rời rạc.</p>
+
+<h3>Giải phẫu sắc lệnh: sáu tầng theo thứ tự nghi thức</h3>
+<p>Không riêng gì Athens: văn bản nghị quyết Hy Lạp từ thời nền dân chủ Athens đến thời Hy Lạp hóa đều theo một khung sáu tầng. Đọc bia = đọc khung trước, chữ sau:</p>
+<ol>
+<li><strong>Dòng thần:</strong> <span class="gk">θεοί</span> (hoặc <span class="gk">ἀγαθῇ τύχῃ</span> &quot;cho gặp lành&quot;) – mở đầu cầu phúc.</li>
+<li><strong>Ngày tháng:</strong> <span class="gk">ἐπὶ Ἡλιοδώρου ἄρχοντος</span> &quot;khi Heliodoros làm archon&quot; + prytany (phiên hội đồng) + tháng Attic – dân Athens ghi ngày theo archon đương nhiệm.</li>
+<li><strong>Người đề xuất:</strong> <span class="gk">Λύσιστρατος Φυλαρχίδου Οἰ̣ναῖος εἶπεν</span> &quot;Lysistratos con của Phylarchides, xứ Oineus, đã nói (đề xướng)&quot; – tên + tên cha + deme (xã): bộ ba nhận diện công dân Athens.</li>
+<li><strong>Mệnh đề <span class="gk">ἐπειδὴ</span> (lý do):</strong> kể công trạng của người được tôn vinh – vì sao đáng thưởng. Đây là phần dài nhất và dễ đọc nhất: thuần truyện kể.</li>
+<li><strong>Nghị quyết (<span class="gk">δεδόχθαι</span> + nguyên mẫu):</strong> các quyết định cụ thể, mỗi quyết một nguyên mẫu aorist: <span class="gk">ἐπαινέσαι</span> &quot;(hội) khen&quot;, <span class="gk">στεφανῶσαι</span> &quot;trao vương miện&quot;, <span class="gk">στῆσαι</span> &quot;dựng (tượng)&quot;, <span class="gk">ἀναγράψαι</span> &quot;chép lên (đá)&quot;.</li>
+<li><strong>Chỉ dẫn thi hành:</strong> ai trả tiền (<span class="gk">μερίσαι τὸν ταμίαν</span> &quot;thủ quỹ phân bổ&quot;), dựng ở đâu, chép mấy bản.</li>
+</ol>
+
+<h3><span class="gk">δεδόχθαι</span>: trái tim của sắc lệnh</h3>
+<p>Chữ chuyển mạch từ &quot;kể chuyện&quot; sang &quot;quyết&quot; là <span class="gk">δεδόχθαι τῶι δήμωι</span>: nguyên mẫu hoàn thành bị động của <span class="gk">δοκέω</span> – nghĩa đen &quot;đã được ưng thuận cho dân chúng&quot;. Ba điểm cần bóc:</p>
+<ul>
+<li><strong>Hoàn thành + bị động:</strong> quyết định được trình bày như việc <em>đã xong</em> và được <em>định đoạt bởi</em> hội – ngữ pháp tự nó thể hiện chế độ: ý kiến (<span class="gk">τὸ δοκοῦν</span>) đã thành quyết định (<span class="gk">τὸ δεδογμένον</span>).</li>
+<li><strong>Nguyên mẫu:</strong> không chia ngôi – vì chủ thể là hội, đã có sẵn trong <span class="gk">τῶι δήμωι</span>; các quyết định liệt kê sau đó đều chung chủ thể ấy.</li>
+<li><strong>Đừng lẫn với <span class="gk">δοκεῖ</span> &quot;hình như, có vẻ&quot;:</strong> cùng một động từ, nhưng trong sắc lệnh <span class="gk">δεδόχθαι</span> là thuật ngữ kỹ thuật (xem cặp dễ nhầm ở mục 11). Latin dịch khéo: <em>placuit</em> &quot;(việc này) đã được ưng&quot; – cùng một cú pháp bị động vô chủ.</li>
+</ul>
+
+<h3><span class="gk">ἕνεκα</span>: giới từ biết &quot;đi sau&quot;</h3>
+<p>Một hạt nhỏ khó tinh khỏi: <span class="gk">ἕνεκα</span> &quot;vì lợi ích của, vì phần của&quot; luôn đòi sở hữu cách, và thường <strong>đi sau</strong> danh từ chỉ lý do: <span class="gk">εὐνοίας ἕνεκα</span> &quot;vì lòng thiện ý&quot; (bài đọc 3), <span class="gk">τοῦ παιδὸς ἕνεκα</span> &quot;vì đứa con&quot;. Người mới hay dịch lộn thành &quot;vì lòng thiện ý&quot; kiểu tiếng Việt rồi thắc mắc vì sao chữ &quot;vì&quot; đứng cuối. Nguyên tắc: hãy coi <span class="gk">ἕνεκα</span> là <em>hậu trí từ</em> (postposition) – nó móc ngược về danh từ đứng trước nó. Latin không có từ tương đương trực tiếp (phải dùng <em>grātiā</em>, cũng hậu trí: <em>amicī grātiā</em> &quot;vì bạn&quot;) – hai nhà ngữ pháp, một thói quen.</p>
+
+<div class="tipp">
+<p><strong>Tipp đọc nhanh văn bản nghị quyết:</strong> khi gặp một tấm bia hy lạp mà chưa kịp tra từ điển, hãy (1) dò <span class="gk">ἐπὶ</span> + tên genitive tìm archon (tầm năm), (2) dò <span class="gk">εἶπεν</span> tìm người đề xướng, (3) dò <span class="gk">δεδόχθαι</span> – từ đó về sau là phần &quot;kết luận hành chính&quot;, (4) mọi nguyên mẫu aorist đứng sau đó = một quyết định. Bốn mốc này đủ để bạn phác thảo toàn bộ nội dung một sắc lệnh chưa từng đọc.</p>
+</div>
+
+
+<h2 id="s5">5. Đọc bia đá: bốn quy ước biên khắc và số hiệu ">IG II³</h2>
+
+<p>Bài đọc 3 mở ra một lớp văn bản mà hai mươi ba bài trước ta chưa từng chạm: <strong>chữ thật trên đá thật</strong>. Đá thì nứt, mòn, mất góc; người đời sau gắn thêm, đục mất chữ. Khoa học biên khắc (epigraphy) vì thế có bộ quy ước trình bày riêng – và kỳ diệu thay, bốn quy ước quan trọng nhất đều có mặt ngay trong tấm bia hôm nay. Học bốn ký hiệu này xong, bạn đọc được gần như mọi bản chép bia trong sách giáo khoa.</p>
+
+<h3>Bốn quy ước</h3>
+<table>
+<thead><tr><th>Quy ước</th><th>Mặt chữ</th><th>Nghĩa</th><th>Ví dụ trong bia hôm nay</th></tr></thead>
+<tbody>
+<tr><td>Ngoặc vuông <span class="gk">[ ]</span></td><td><span class="gk">τὸ[ν] Ἀθηναίων, τῶι δήμω[ι]</span></td><td>chữ <em>không còn trên đá</em> (mẻ, mất), biên tập gia phục dựng theo ngữ pháp và các bản tương tự</td><td>gần như tấm bia Attic nào cũng có ít nhiều; chỗ phục dựng càng ít, văn bản càng đáng tin</td></tr>
+<tr><td>Chấm dưới</td><td><span class="gk">Οἰ̣ναῖος, δι̣αμένειν</span></td><td>chữ <em>còn đọc được nhưng mờ hoặc bất định</em> – biên tập ghi lại kèm dấu chấm nhỏ dưới chân chữ</td><td>tên xã của người đề xuất và một nguyên âm giữa câu: đọc được, nhưng đá mòn</td></tr>
+<tr><td>Lỗ trống (<em>vacat</em>)</td><td>sau phần quyết định, bia chừa một khoảng trống không khắc chữ</td><td>khoảng chừa <em>có chủ đích</em>: ngăn cách các phần của văn bản như dòng trống trong văn bản hành chính</td><td>ghi trong bản chép là <em>vacat</em> kèm chiều dài tính bằng mét</td></tr>
+<tr><td>Iota adscript</td><td><span class="gk">τῶι δήμωι, χρυσῶι, ἐμ παντὶ καιρῶι</span></td><td>người khắc bia viết <em>đầy đủ</em> iota sau nguyên âm dài (ᾳ viết thành αι riêng), không gộp xuống dưới như văn bản in hiện đại (ᾳ subscript)</td><td>iota subscript chỉ là mốt chữ in của thời hiện đại; trên đá, đuôi iota đứng ngang hàng như một chữ thường</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Achtung: adscript là &quot;chữ thật&quot;, subscript là &quot;mốt in&quot;.</strong> Trong mọi bài trước, bạn quen <span class="gk">τῷ δήμῳ</span> (iota subscript). Trên bia, cùng một từ viết <span class="gk">τῶι δήμωι</span>. Cách đọc hoàn toàn giống nhau; chỉ khác thói quen ghi. Vì thế <span class="gk">καιρῶι</span> trên bia chính là <span class="gk">καιρῷ</span> mà bạn đã đọc suốt hai mươi bài qua. Ngược lại đừng vội coi <span class="gk">τῶι</span> là &quot;sai chính tả&quot; khi copy bia sang bài tập: hãy nhớ hai nguyên tắc: (1) nguyên văn bia giữ adscript, (2) khi chuyển sang văn chương thì dùng subscript.</p>
+</div>
+
+<h3>Trước phụ âm môi: <span class="gk">ἐμ</span>, không phải <span class="gk">ἐν</span></h3>
+<p>Trên bia hôm nay có hai địa điểm ngữ pháp thú vị. Một: <span class="gk">ἐμ παντὶ καιρῶι</span> &quot;trong mọi lúc&quot; – sao <span class="gk">ἐν</span> biến thành <span class="gk">ἐμ</span>? Hai: <span class="gk">ἐγ Κρήτει</span> &quot;tại Crete&quot; – sao lại <span class="gk">ἐγ</span>? Đây là hiện tượng <strong>đồng hóa của tiếng nói</strong> được phản ánh trung thực trên đá: <span class="gk">ἐν</span> mượn môi của chữ đứng sau: trước <span class="gk">π, β, φ, μ</span> → <span class="gk">ἐμ</span>; trước <span class="gk">κ, γ, χ</span> → <span class="gk">ἐγ</span> (chữ đá khắc theo miệng người đọc). Văn chương in ấn thường &quot;gọt&quot; về <span class="gk">ἐν</span> cho gọn; bia thì ghi đúng tiếng nói. Hai từ này rất đáng nhớ vì chúng là bằng chứng sống: <em>người Hy Lạp xưa đọc to ra sao, đá chép như thế ấy</em>.</p>
+
+<h3>Số hiệu ">IG II³ nghĩa là gì?</h3>
+<p>Tấm bia hôm nay mang ba loại số hộ khẩu:</p>
+<ul>
+<li><strong>">IG II² 844:</strong> số trong <em>Inscriptiones Graecae</em> tập II, bản thứ hai (Kirchner, 1913) – bộ sưu tập bia Attic kinh điển, mọi sách cũ đều dẫn theo số này.</li>
+<li><strong>">IG II³ 1137:</strong> số trong bản tái bản tập II, phần III đang xuất hiện từ 2012 – mỗi bia Attic được đánh số lại. Hai số biểu thị <em>cùng một tấm đá</em>: sách cũ nói 844, sách mới nói 1137. Bài học khi tra cứu: luôn kiểm tra cả hai số.</li>
+<li><strong>PHI 347432:</strong> số trong ngân hàng bia điện tử PHI (Packard Humanities Institute) – nơi bạn đọc bản chép miễn phí trực tuyến; AIO (Attic Inscriptions Online) kèm ảnh bức bia thật và bản dịch tiếng Anh.</li>
+</ul>
+
+<div class="tipp">
+<p><strong>Tipp in theo dòng:</strong> bia không viết chảy như sách: người khắc chia <em>cột</em>, mỗi dòng tràn hết chiều ngang của đá rồi mới xuống dòng, thậm chí cắt giữa từ. Bản chép của bài đọc 3 đã nối lại các từ bị cắt dòng và đánh số dòng biên (1, 5, 10...) để bạn đối chiếu. Khi tự tra bia trên PHI hoặc AIO, cứ tìm dòng đánh số làm mốc.</p>
+</div>
+
+
+<h2 id="reading1">6. Bài đọc 1: Xenophon, Anabasis 1,1 (kẻ em út khát ngôi vương)</h2>
+
+<div class="info">
+<p><strong>Văn bản – Xenophon, <em>Anabasis</em> 1,1 (mở đầu):</strong> Anabasis là &quot;cuộc hành quân lên phía bắc&quot; mà hậu thế gọi tắt là &quot;Mười nghìn&quot;: một đội quân Hy Lạp Lớn đi lính cho hoàng tử Ba Tư Kyros, và sau khi chủ tướng chết, phải tự chiến đấu đường về. Vấn đề của toàn bộ cuốn sách nằm ngay ở câu đầu của chương đầu: Kyros, em cùng mẹ với vua Artaxerxes, muốn lấy ngôi của anh. Ba khối hôm nay bóc mở màn đó: khối 1 là <strong>bản đơn giản hóa do project biên soạn</strong> từ 1,1,1–2 (sửa gì so với nguyên bản, bảng dưới liệt kê từng chỗ); khối 2 và khối 3 là <strong>nguyên văn</strong> 1,1,3–4 và 1,1,6, chữ so từng dấu với bản Marchant trên Perseus Digital Library (public domain). Chuẩn hóa hiển thị (khác nguồn, đọc giữ nguyên): dấu &quot;:&quot; của bản nguồn in thành &quot;·&quot; giữa câu và &quot;.&quot; cuối câu; dấu elision chuẩn thành ʼ; bỏ khoảng trắng trước dấu câu.</p>
+</div>
+
+<h3>Khối 1 (bản đơn giản hóa từ 1,1,1–2): hai hoàng tử, một ngai</h3>
+<p class="gk">Δαρεῖος ὁ βασιλεὺς καὶ Παρύσατις εἶχον παῖδας δύο· πρεσβύτερος μὲν ἦν Ἀρταξέρξης, νεώτερος δὲ Κῦρος. ἐπεὶ δὲ Δαρεῖος ἠσθένει, ἐβούλετο τοὺς παῖδας ἀμφοτέρους παρεῖναι. ὁ μὲν οὖν Ἀρταξέρξης παρὼν ἐτύγχανεν· Κῦρον δὲ ὁ πατὴρ μεταπέμπεται ἀπὸ τῆς ἀρχῆς, ἧς αὐτὸν σατράπην ἐποίησε. ὁ δὲ Κῦρος ἀνέβη λαβὼν ὡς φίλον Τισσαφέρνην καὶ ὁπλίτας τῶν Ἑλλήνων τριακοσίους.</p>
+
+<p><strong>Bảng đối chiếu chỗ đơn giản hóa (đọc xong khối 1, soi vào đây):</strong></p>
+<table>
+<thead><tr><th>Nguyên văn (1,1,1–2)</th><th>Bản đơn giản hóa</th><th>Vì sao đổi</th></tr></thead>
+<tbody>
+<tr><td class="gk">Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο</td><td class="gk">Δαρεῖος ὁ βασιλεὺς καὶ Παρύσατις εἶχον παῖδας δύο</td><td>sở hữu cách chỉ chủ thể (<span class="gk">Δαρείου</span> &quot;của Darius&quot;) + <span class="gk">γίγνομαι</span> &quot;sinh ra&quot; là khuôn gián tiếp hơn; thay bằng chủ cách + động từ sở hữu quen thuộc</td></tr>
+<tr><td class="gk">ὑπώπτευε τελευτὴν τοῦ βίου</td><td>(cắt)</td><td>thành ngữ &quot;nghi ngại (kế cả) cái kết của đời sống&quot; – nét chữ đẹp của Xenophon nhưng phụ; giữ <span class="gk">ἠσθένει</span> &quot;y ngã bệnh&quot; làm mốc duy nhất</td></tr>
+<tr><td class="gk">ἐβούλετο τὼ παῖδε ἀμφοτέρω παρεῖναι</td><td class="gk">ἐβούλετο τοὺς παῖδας ἀμφοτέρους παρεῖναι</td><td>đôi số hai (dual: <span class="gk">τὼ παῖδε</span> &quot;cả hai đứa con&quot;) – số nhiều dễ bắt hơn cho lần đọc đầu</td></tr>
+<tr><td class="gk">καὶ στρατηγὸν δὲ αὐτὸν ἀπέδειξε πάντων ὅσοι ἐς Καστωλοῦ πεδίον ἁθροίζονται</td><td>(cắt)</td><td>mệnh đề định nghĩa về chức &quot;tổng chỉ huy tất cả quân tụ về đồng Castolos&quot; – nhiều tên riêng, để dành cho lần đọc nguyên văn sau</td></tr>
+<tr><td class="gk">ἀναβαίνει οὖν ὁ Κῦρος</td><td class="gk">ὁ δὲ Κῦρος ἀνέβη</td><td>historic present (Bài 12) chuyển thành aorist và thêm <span class="gk">δὲ</span> để mạch kể phẳng lại – một lựa chọn hiển thị, không phải sửa ngữ pháp</td></tr>
+<tr><td class="gk">ἄρχοντα δὲ αὐτῶν Ξενίαν Παρράσιον</td><td>(cắt)</td><td>tên viên chỉ hạn của ba trăm lính – chi tiết thứ cấp</td></tr>
+</tbody>
+</table>
+
+<h3>Khối 2 (nguyên văn 1,1,3–4): gièm pha, bắt giữ, mẹ cứu, và một toan tính lớn</h3>
+<p class="gk">ἐπεὶ δὲ ἐτελεύτησε Δαρεῖος καὶ κατέστη εἰς τὴν βασιλείαν Ἀρταξέρξης, Τισσαφέρνης διαβάλλει τὸν Κῦρον πρὸς τὸν ἀδελφὸν ὡς ἐπιβουλεύοι αὐτῷ. ὁ δὲ πείθεται καὶ συλλαμβάνει Κῦρον ὡς ἀποκτενῶν· ἡ δὲ μήτηρ ἐξαιτησαμένη αὐτὸν ἀποπέμπει πάλιν ἐπὶ τὴν ἀρχήν. ὁ δʼ ὡς ἀπῆλθε κινδυνεύσας καὶ ἀτιμασθείς, βουλεύεται ὅπως μήποτε ἔτι ἔσται ἐπὶ τῷ ἀδελφῷ, ἀλλά, ἢν δύνηται, βασιλεύσει ἀντʼ ἐκείνου. Παρύσατις μὲν δὴ ἡ μήτηρ ὑπῆρχε τῷ Κύρῳ, φιλοῦσα αὐτὸν μᾶλλον ἢ τὸν βασιλεύοντα Ἀρταξέρξην.</p>
+
+<h3>Khối 3 (nguyên văn 1,1,6): gom quân trong im lặng</h3>
+<p class="gk">τὴν δὲ Ἑλληνικὴν δύναμιν ἥθροιζεν ὡς μάλιστα ἐδύνατο ἐπικρυπτόμενος, ὅπως ὅτι ἀπαρασκευότατον λάβοι βασιλέα. ὧδε οὖν ἐποιεῖτο τὴν συλλογήν. ὁπόσας εἶχε φυλακὰς ἐν ταῖς πόλεσι παρήγγειλε τοῖς φρουράρχοις ἑκάστοις λαμβάνειν ἄνδρας Πελοποννησίους ὅτι πλείστους καὶ βελτίστους, ὡς ἐπιβουλεύοντος Τισσαφέρνους ταῖς πόλεσι. καὶ γὰρ ἦσαν αἱ Ἰωνικαὶ πόλεις Τισσαφέρνους τὸ ἀρχαῖον ἐκ βασιλέως δεδομέναι, τότε δὲ ἀφειστήκεσαν πρὸς Κῦρον πᾶσαι πλὴν Μιλήτου·</p>
+<p><em>Nguyên bản nối tiếp qua §7 (chuyện thành Miletos); ta dừng chốt ở đây để sang bài đọc 2.</em></p>
+
+<p>Trước khi xem dịch: (1) Khối 2 có đúng một optative – <span class="gk">ἐπιβουλεύοι</span> – nó đứng trong khuôn nào của Bài 17, và ai là chủ thể bị xưng danh? (2) Cặp <span class="gk">ὡς ἀποκτενῶν</span> và <span class="gk">ὡς ἐπιβουλεύοντος Τισσαφέρνους</span> (khối 3): một bên phân từ giống cách, một bên sở hữu cách – hai khuôn &quot;như thể/với lý do cho rằng&quot; (Bài 20) khác nhau chỗ nào về chủ thể? (3) Khối 3: <span class="gk">ἀφειστήκεσαν</span> mang augment <em>và</em> reduplication – nó là perfect hay một thì &quot;trời thứ tư&quot; đã ghi ở Bảng 2 mục 1?</p>
+
+<h3>Dịch tham khảo</h3>
+<p><em>Khối 1:</em> &quot;Vua Darius và Parysatis có hai người con; người lớn là Artaxerxes, kẻ em là Kyros. Khi Darius ngã bệnh, ông muốn cả hai đứa con có mặt. Artaxerxes thì tình cờ đang ở đấy; còn Kyros, cha cho đòi về từ địa bàn tổng trấn, nơi ông đã đặt y làm satrap. Kyros lên đường, mang theo Tissaphernes như một người bạn, cùng ba trăm hoplite người Hy Lạp.&quot;</p>
+<p><em>Khối 2:</em> &quot;Khi Darius mất và Artaxerxes lên ngôi, Tissaphernes gièm pha Kyros với anh y rằng y đang âm mưu chống anh. Vua tin, và sai bắt Kyros định giết; nhưng người mẹ, xin (được) y về, lại gửi y trở về địa bàn tổng trấn. Ra đi sau cơn nguy hiểm và nhục nhã, Kyros toan tính sao cho từ nay không còn lệ thuộc anh, mà nếu làm được, sẽ lên thay ngôi của y. Parysatis, người mẹ, vốn đứng về phía Kyros: bà thương y hơn cả đức vua đang trị vì là Artaxerxes.&quot;</p>
+<p><em>Khối 3:</em> &quot;Còn lực lượng Hy Lạp, y gom hết mức có thể được, che giấu kỹ, hầu bắt vua ở tư thế chưa chuẩn bị gì. Y làm việc quy tụ như sau. Bao nhiêu đồn binh y có trong các thành, y truyền lệnh cho từng viên chỉ huy đồn tuyển người Peloponnesos, càng nhiều càng giỏi, với lý do Tissaphernes đang âm mưu chống các thành. Vì các thành Ionia xưa vốn được vua ban cho Tissaphernes, mà lúc ấy đã kéo ra theo Kyros cả, trừ Miletos...&quot;</p>
+
+<h3>Phân tích từng cụm (đọc sau khi tự bóc)</h3>
+<ul>
+<li><strong><span class="gk">ἐπειδὴ δὲ ἐτελεύτησε Δαρεῖος</span> (khối 2):</strong> mệnh đề thời gian &quot;mũi tên một chiều&quot; của Bài 22: <span class="gk">ἐπεί</span> + aorist = &quot;sau khi&quot;. <span class="gk">ἐτελεύτησε</span> là aorist chủ động của <span class="gk">τελευτάω</span> &quot;chạm đến đích, tắt đời&quot; – động từ vocab hôm nay; người viết sử ưa dùng nó cho vua chúa như một cách nói cung kính &quot;băng hà&quot;.</li>
+<li><strong><span class="gk">κατέστη εἰς τὴν βασιλείαν Ἀρταξέρξης</span> (khối 2):</strong> <span class="gk">καθίστημι</span> (con của <span class="gk">ἵστημι</span> – Bài 23!) ở aorist: &quot;an vị, được đưa lên&quot;; <span class="gk">ἡ βασιλεία</span> vừa là &quot;ngôi vương&quot; vừa là &quot;vương quốc&quot; – từ vocab hôm nay. Đi với <span class="gk">εἰς</span> + acc: hướng chuyển động &quot;vào trong chức&quot;.</li>
+<li><strong><span class="gk">Τισσαφέρνης διαβάλλει τὸν Κῦρον πρὸς τὸν ἀδελφὸν ὡς ἐπιβουλεύοι αὐτῷ</span> (khối 2):</strong> <span class="gk">διαβάλλω</span> là vocab hôm nay: &quot;ném (ἐμβάλλω – δια-) qua giữa hai bên&quot; = gièm pha; theo khuôn Bài 17, <span class="gk">ὡς</span> + optative tường thuật gián tiếp &quot;rằng y đang âm mưu&quot; – chủ thể của <span class="gk">ἐπιβουλεύοι</span> là Kyros (đã được điểm tên ở <span class="gk">τὸν Κῦρον</span> đứng trước), còn <span class="gk">αὐτῷ</span> &quot;chống lại y&quot; là đức vua anh – tường thuật gián tiếp tự xoay xở chủ thể bằng hoán dụ.</li>
+<li><strong><span class="gk">ὁ δὲ πείθεται καὶ συλλαμβάνει Κῦρον ὡς ἀποκτενῶν</span> (khối 2):</strong> <span class="gk">συλλαμβάνω</span> = <span class="gk">συν</span> + <span class="gk">λαμβάνω</span> &quot;túm lấy, bắt giữ&quot; (vocab hôm nay); <span class="gk">ὡς ἀποκτενῶν</span> là phân từ tương lai chỉ mục đích: &quot;để (sau đó) giết y&quot; – đừng dịch &quot;như kẻ giết&quot;; khuôn Bài 19 phân từ mục đích. Chủ thể của phân từ: đức vua.</li>
+<li><strong><span class="gk">ἡ δὲ μήτηρ ἐξαιτησαμένη αὐτὸν ἀποπέμπει πάλιν ἐπὶ τὴν ἀρχήν</span> (khối 2):</strong> chính là worked example của mục 3 hôm nay – giờ bạn bóc lại trong một lượt.</li>
+<li><strong><span class="gk">ὁ δʼ ὡς ἀπῆλθε κινδυνεύσας καὶ ἀτιμασθείς, βουλεύεται...</span> (khối 2):</strong> <span class="gk">ὡς</span> + chỉ định ở đây là <span class="gk">ὡς</span> thời gian &quot;sau khi y ra đi...&quot;; hai phân từ aorist bị động/chủ động (<span class="gk">ἀτιμασθείς</span> bị động: &quot;bị sỉ nhục&quot;) giải thích hoàn cảnh ra đi. <span class="gk">βουλεύεται ὅπως μήποτε ἔτι ἔσται...</span> – mệnh đề <span class="gk">ὅπως</span> mục đích với subjunctive future-periphrastic (<span class="gk">ἔσται</span>), khuôn Bài 16.</li>
+<li><strong><span class="gk">ἀλλά, ἢν δύνηται, βασιλεύσει ἀντʼ ἐκείνου</span> (khối 2):</strong> vế điều kiện tương lai Bài 21: <span class="gk">ἢν (= ἐάν) + δύνηται</span> (subjunctive của <span class="gk">δύναμαι</span>, Bài 6) + <span class="gk">βασιλεύσει</span> tương lai. <span class="gk">ἀντʼ ἐκείνου</span>: elision trước nguyên âm (mục 11 sẽ soi); <span class="gk">ἀντί</span> + sở hữu cách = &quot;thay cho y&quot;.</li>
+<li><strong><span class="gk">τὴν δὲ Ἑλληνικὴν δύναμιν ἥθροιζεν... ἐπικρυπτόμενος</span> (khối 3):</strong> imperfect <span class="gk">ἥθροιζεν</span> (&quot;y cứ gom, gom dần&quot;) + phân từ trung động dữ dằn: &quot;để mình được che giấu&quot;. Câu đầu của cả đoạn đã đập vào mắt cấu trúc mục đích: <span class="gk">ὅπως ὅτι ἀπαρασκευότατον λάβοι βασιλέα</span> &quot;để bắt vua ở trạng thái không chuẩn bị nhất&quot; – <span class="gk">ὅπως</span> + optative (sau <span class="gk">ὡς</span> lịch sử của ý định), chính khuôn Bài 16–17.</li>
+<li><strong><span class="gk">παρήγγειλε τοῖς φρουράρχοις ἑκάστοις λαμβάνειν ἄνδρας</span> (khối 3):</strong> động từ ra lệnh + AcI kép (Bài 18): <span class="gk">παρήγγειλε [τοῖς φρουράρχοις] [ἄνδρας λαμβάνειν]</span> &quot;y truyền cho từng viên chỉ huy đồn (rằng) hãy lấy lính&quot;. <span class="gk">ὅτι πλείστους καὶ βελτίστους</span> – &quot;rằng (càng) nhiều và tốt nhất có thể&quot;: mệnh đề nội dung sau động từ ra lệnh.</li>
+<li><strong><span class="gk">ὡς ἐπιβουλεύοντος Τισσαφέρνους</span> (khối 3):</strong> so sánh với khối 2: đây là <span class="gk">ὡς</span> + sở hữu cách phân từ – &quot;với lý do cho là Tissaphernes đang âm mưu&quot;: chủ thể của phân từ (Tissaphernes) đứng sở hữu cách vì khuôn &quot;lý do nêu ra&quot; (Bài 20); bên khối 2 optative sau <span class="gk">ὡς</span> là lời gièm pha được thuật lại. Cùng một <span class="gk">ὡς</span>, ba chức năng trong một trang: chức năng quyết định bằng cấu trúc theo sau.</li>
+<li><strong><span class="gk">ἀφειστήκεσαν</span> (khối 3):</strong> augment <span class="gk">ἀφ(ε)-</span> + reduplication <span class="gk">ι</span> + thân perfect <span class="gk">-στηκ-</span> + đuôi <span class="gk">-εσαν</span>: <strong>pluperfect</strong> (Bảng 2 mục 1; sổ nợ Bài 22) của <span class="gk">ἀφίστημι</span> – &quot;các thành đã (từng) kéo ra khỏi (quyền Tissaphernes) từ trước&quot;. Bốn mảnh hợp thành một mặt chữ: đây là câu trả lời cho câu hỏi trước khi dịch.</li>
+</ul>
+
+
+<h2 id="reading2">7. Bài đọc 2: Ailianos, Varia historia 12,61 (thần gió được nhận quốc tịch)</h2>
+
+<div class="info">
+<p><strong>Văn bản – Aelianos (Aelian), <em>Varia historia</em> (Ποικίλη ἱστορία) 12,61:</strong> Aelianos, cây bút Atticist thế kỷ 2–3 sau CN, ghi chép tạp chí về muôn mặt đời xưa; §61 này kể một công dân danh dự bất thường nhất lịch sử: <em>ngọn gió bắc</em>. Bối cảnh cần biết trước: ở Athens, gió bắc Boreas là &quot;con rể quốc dân&quot; – thần bắt Oreithyia, con gái vua Erechtheus của Athens, về làm vợ; và theo Herodotos (7,189), chính Boreas đã đập tan hạm đội Ba Tư ngoài mũi Sepias để &quot; trả lễ&quot; cho nhà vợ. Herodotos nói dân Athens tin vậy; Aelianos đẩy câu chuyện một bước hài hước hơn: dân thành Thourioi (miền Ý, do Athens dựng nên) từng bị tên độc tài Dionysios của Syracuse tấn công, và khi gió bắc đập tan đội tàu của y, họ tôn gió lên hàng công dân – kèm nhà cửa, đất đai và lễ tế hằng năm. Pausanias còn ghi thêm cả dân Megalopolis. Văn bản theo bản Hercher (Teubner 1866, public domain; qua Gadsden Classics và poesialatina), toàn §61, chuẩn hóa khoảng trắng trước dấu câu và dấu elision thành ʼ.</p>
+</div>
+
+<h3>Gloss nhanh (đọc trước khi vào)</h3>
+<table>
+<thead><tr><th>Từ</th><th>Nghĩa</th><th>Ghi chú nhanh</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἐπέπλει</span></td><td>hải hành tới (đánh)</td><td>imperfect của <span class="gk">ἐπιπλέω</span> (động từ co Bài 12): &quot;y đang thủy hành tới&quot; – hành động mở màn chiến tranh</td></tr>
+<tr><td><span class="gk">πεπληρωμένας</span></td><td>(tàu) chở đầy</td><td>phân từ hoàn thành bị động của <span class="gk">πίμπλημι</span> &quot;đổ cho đầy ắp&quot; – mi-verb của Bài 23! <span class="gk">πι-πληρ-ο-</span> đúng khuôn lặp như <span class="gk">δί-δω-μι</span></td></tr>
+<tr><td><span class="gk">ἀντιπνεύσας</span></td><td>(sau khi) thổi ngược lại</td><td>phân từ aorist chủ động của <span class="gk">ἀντιπνέω</span> <span class="gk">πνέω</span> &quot;thổi&quot;: cùng họ <span class="gk">ἄνεμος</span> (trong câu!) và <em>pneuma</em></td></tr>
+<tr><td><span class="gk">τὰ σκάφη</span></td><td>các khối tàu</td><td>trung tính số nhiều (<span class="gk">τὸ σκάφος</span> &quot;thân tàu, lòng máng&quot;): bản thân là &quot;cái được khoét ra&quot; – gốc <span class="gk">σκάπτω</span> &quot;đào&quot;</td></tr>
+<tr><td><span class="gk">ἠφάνισεν</span></td><td>quét sạch, xóa sổ</td><td>aorist của <span class="gk">ἀφανίζω</span> <span class="gk">ἀφανής</span> &quot;không còn thấy&quot;: chữ dùng cho cả thảm họa lẫn phá sản</td></tr>
+<tr><td><span class="gk">ἔθυσαν</span></td><td>đã tế</td><td>aorist của <span class="gk">θύω</span> &quot;tế thần&quot; (Bài 22): xương sống của mọi quan hệ người – thần</td></tr>
+<tr><td><span class="gk">ἀπεκλήρωσαν</span></td><td>bốc (cho y) một phần</td><td>aorist của <span class="gk">ἀποκληρόω</span>, built trên <span class="gk">ὁ κλῆρος</span> &quot;phần được bốc&quot; (Bài 8) – như thể gió cũng được chia ruộng như dân thường</td></tr>
+<tr><td><span class="gk">ἐπετέλουν</span></td><td>cử hành trọn vẹn</td><td>imperfect của <span class="gk">ἐπετελέω</span> &quot;đem tới đích&quot; (<span class="gk">τελευτ-</span> cùng rễ với <span class="gk">τελευτάω</span> vocab hôm nay): tế lễ y <em>hằng năm</em></td></tr>
+<tr><td><span class="gk">ὁ κηδεστής, -οῦ</span></td><td>người thông gia</td><td><span class="gk">ὁ κηδεστής</span> = &quot;người nhà bên rể/dâu&quot;: quan hệ hôn nhân tạo nghĩa vụ giúp đỡ – đấy là tước hiệu Athen dành cho Boreas nhà vợ Oreithyia</td></tr>
+<tr><td><span class="gk">ἐπέγραψαν</span></td><td>ghi lên, phong tặng</td><td>aorist của <span class="gk">ἐπιγράφω</span> &quot;viết lên trên&quot;: chính là chữ của bia đá (mục 8 hôm nay) – <em>γράφω</em> họ hàng với <span class="gk">γραμματεύς</span></td></tr>
+</tbody>
+</table>
+
+<h3>Văn bản (toàn §61)</h3>
+<p><strong>Khối 1 (đòn bẩy của thần gió):</strong></p>
+<p class="gk">Θουρίοις ἐπέπλει Διονύσιος, καὶ τριακοσίας ἦγεν ἐπʼ αὐτοὺς ναῦς ὁπλιτῶν πεπληρωμένας· βορρᾶς δὲ ἀντιπνεύσας τὰ σκάφη συνέτριψε, καὶ τὴν δύναμιν αὐτοῦ τὴν ναυτικὴν ἠφάνισεν.</p>
+<p><strong>Khối 2 (quyết định &quot;công dân hóa&quot; kèm nhà và đất):</strong></p>
+<p class="gk">ἐκ δὴ τούτων οἱ Θούριοι τῷ βορρᾷ ἔθυσαν, καὶ ἐψηφίσαντο εἶναι τὸν ἄνεμον πολίτην, καὶ οἰκίαν αὐτῷ καὶ κλῆρον ἀπεκλήρωσαν, καὶ καθʼ ἕκαστον ἔτος ἐπετέλουν αὐτῷ. οὔκουν Ἀθηναῖοι μόνοι κηδεστὴν αὐτὸν ἐνόμιζον, ἀλλὰ καὶ Θούριοι εὐεργέτην αὐτὸν ἐπέγραψαν. Παυσανίας δέ φησιν ὅτι καὶ Μεγαλοπολῖται.</p>
+
+<p>Trước khi xem dịch: (1) Khối 1: <span class="gk">ναῦς</span> hôm nay giữ vai gì – chủ cách số ít hay tân cách số nhiều (soi bằng achtung mục 2)? (2) Khối 2: <span class="gk">ἐψηφίσαντο εἶναι τὸν ἄνεμον πολίτην</span> là khuôn AcI sau động từ nghị quyết – trong bia đá hôm nay, khuôn tương tự xuất hiện với động từ nào? (3) Cả khối 2 chỉ có động từ thời quá khứ: hãy gom chúng và gọi đúng thì của từng chữ (<span class="gk">ἔθυσαν, ἐψηφίσαντο, ἀπεκλήρωσαν, ἐπετέλουν, ἐνόμιζον, ἐπέγραψαν</span>).</p>
+
+<h3>Dịch tham khảo</h3>
+<p><em>Khối 1:</em> &quot;Dionysios hải hành tới đánh Thourioi, và dẫn đến chỗ chúng ba trăm con tàu chở đầy hoplite; nhưng gió bắc, thổi ngược lại, đập tan các khối tàu, và quét sạch lực lượng hải quân của y.&quot;</p>
+<p><em>Khối 2:</em> &quot;Từ đấy, dân Thourioi tế gió bắc, nghị quyết phong ngọn gió là công dân, bốc cho y một ngôi nhà và một phần đất, và hằng năm cử hành lễ y. Vậy không phải chỉ dân Athens coi y là người thông gia: dân Thourioi còn ghi y là ân nhân. Pausanias nói rằng cả dân Megalopolis nữa.&quot;</p>
+
+<h3>Phân tích từng cụm (đọc sau khi tự bóc)</h3>
+<ul>
+<li><strong><span class="gk">Θουρίοις ἐπέπλει Διονύσιος</span> (khối 1):</strong> <span class="gk">ἐπιπλέω</span> là động từ co (Bài 12): imperfect <span class="gk">ἐπέπλει</span> vẽ cảnh đang diễn ra; <span class="gk">Θουρίοις</span> tặng cách số nhiều = &quot;tới đánh (chống) người Thourioi&quot; – chiến tranh trong tiếng Hy Lạp &quot;hải hành <em>cho/đánh</em> ai&quot; (dative of hostility).</li>
+<li><strong><span class="gk">τριακοσίας ἦγεν ἐπʼ αὐτοὺς ναῦς ὁπλιτῶν πεπληρωμένας</span> (khối 1):</strong> chuỗi hòa hợp tân cách số nhiều feminine: <span class="gk">τριακοσίας (ναῦς) πεπληρωμένας</span> – số từ, danh từ, phân từ cùng đuôi; <span class="gk">ναῦς</span> chính vì thế lộ chân tân cách số nhiều (mục 2). <span class="gk">ὁπλιτῶν</span> sở hữu cách phủ nghĩa cho cả cụm: &quot;tàu-of-hoplite&quot;. <span class="gk">ἐπʼ αὐτούς</span> + tân cách: &quot;hướng về phía chúng&quot; – elision trước nguyên âm.</li>
+<li><strong><span class="gk">βορρᾶς δὲ ἀντιπνεύσας τὰ σκάφη συνέτριψε</span> (khối 1):</strong> chủ ngữ <span class="gk">βορρᾶς</span> (khuôn -ᾶς, bảng mục 2) đứng như một nhân vật bước vào sân khấu, chữ <span class="gk">δὲ</span> lật vai; phân từ aorist <span class="gk">ἀντιπνεύσας</span> = hành động trước trục <span class="gk">συνέτριψε</span>: &quot;sau khi thổi ngược, đập tan&quot; – khuôn phân từ hoàn cảnh Bài 19.</li>

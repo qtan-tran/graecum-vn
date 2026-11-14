@@ -43,7 +43,7 @@
 | 21 | Câu điều kiện I (điều kiện thực/lý tưởng) | Euripides, Medeia 230–247; Theophrast, Charaktere |
 | 22 | Mệnh đề thời gian/nguyên nhân; ὅταν/ὅτε; ôn nguyên mẫu tân ngữ | Xenophon, Anabasis 3,1; 2,6 |
 | 23 | Động từ athematic (δίδωμι, τίθημι, ἵστημι, ἵημι, φημί); động từ bất quy tắc lõi | Xenophon, Apologie 28; Lukian, Deorum dialogi 8 |
-| 24 | Tổng kết Graecum I: ôn hình thái + đọc liền mạch văn xuôi Xenophon (bản đơn giản hóa do project biên soạn) | Ailianos, Varia historia 12,61; IG II² 1137 |
+| 24 | Tổng kết Graecum I: ôn hình thái + đọc liền mạch văn xuôi Xenophon (bản đơn giản hóa do project biên soạn) | Ailianos, Varia historia 12,61; IG II³ 1137 (= IG II² 844) |
 | Ôn tập #5 | **Ôn tập #5 – Bài 21–24 (kết Graecum I)** (Wiederholung): tóm tắt ngữ pháp chính; bảng tổng quan động từ, mạo từ, danh từ, tính từ, đại từ đã học; file import Anki (`.apkg` + `vocab/anki-21-24.txt`) + quy tắc thẻ; chiến lược ôn tập nhóm | – |
 
 ## Graecum II (Bài 25–48)
@@ -85,3 +85,4 @@
 - Mọi văn bản gốc đều **public domain**; bản đơn giản hóa do project biên soạn là nội dung mới, license CC BY-SA 4.0.
 - Từ bài 39 mỗi bài thường chỉ một bài đọc (độ dài tăng).
 - Nơi đọc bản gốc: Perseus (Scaife), die-bibel.de (NA28), Theoi, Wikisource (el), packhum (văn bia), maurelius.app – chi tiết trong `readings/README.md`.
+

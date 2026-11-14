@@ -608,6 +608,31 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "24-graecum-i-capstone",
+      "num": 24,
+      "level": "graecum-1",
+      "title": "Tổng kết Graecum I: ôn hình thái + đọc liền mạch (Xenophon, Anabasis 1,1; Aelian; bia tôn vinh)",
+      "topics": [
+        "bản đồ hình thái Graecum I: hai bảng tra cứu danh từ và động từ theo số bài, tự kiểm cuối cấp",
+        "ba danh từ đặc sản: ἡ ναῦς νεώς (họ Attic hai thân), ὁ βορρᾶς -ᾶ (khuôn -ᾶς), ὁ γραμματεύς -έως (khuôn -εύς nghề và chức)",
+        "phương pháp đọc 5 bước: trục → cụm danh từ → vỏ phụ → khuôn → ghép; worked example ἡ δὲ μήτηρ ἐξαιτησαμένη...; bản đồ cú pháp một đoạn dài",
+        "từ ψῆφος đến ψήφισμα: gia đình ba đời viên sỏi, giải phẫu sắc lệnh 6 tầng, δεδόχθαι τῶι δήμωι, ἕνεκα hậu trí",
+        "đọc bia: iota adscript, ngoặc vuông phục dựng, chấm dưới, ἐμ/ἐν trước âm môi, EI cổ trên đá, vacat; số hiệu IG II³ / IG II²",
+        "bài đọc 1: Xenophon, Anabasis 1,1 – Cyrus, Darius và Artaxerxes (ba khối: bản đơn giản hóa + nguyên văn §3–4 + §6)",
+        "bài đọc 2: Aelianos, Varia historia 12,61 – Boreas thổi tan hạm đội Dionysios; Thourioi bầu ông gió bắc làm công dân, cấp nhà và đất",
+        "bài đọc 3: IG II³ 1137 (= IG II² 844) – sắc lệnh tôn vinh Eumaridas của Kydonia 228/7 TCN, bốn khối nguyên văn kèm quy ước biên khắc",
+        "từ vựng 18 từ (★15): ὅλος (thanh toán nợ B23), ὁ σατράπης, ἡ βασιλεία, ἡ ναῦς, ὁ βορρᾶς, ὁ ἄνεμος, ὁ ὁπλίτης, ὁ εὐεργέτης, ἐπαινέω, ὁ γραμματεύς, ἡ στήλη, ἡ εἰκών, τὸ ψήφισμα, τὸ τάλαντον, τελευτάω",
+        "cặp dễ nhầm 10 hàng: νεώς / ναοῦ, βορρᾶς / βορέας, δεδόχθαι / δοκεῖ, ἐπί+gen / ἐπί+acc, ἐμ / ἐν, [ ] và chấm dưới trên bia"
+      ],
+      "reading": [
+        "Xenophon, Anabasis 1,1 (bản đơn giản hóa do project biên soạn)",
+        "Aelianos, Varia historia 12,61",
+        "IG II³ 1137 (= IG II² 844)"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
