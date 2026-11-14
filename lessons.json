@@ -585,6 +585,29 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "23-athematic-verbs",
+      "num": 23,
+      "level": "graecum-1",
+      "title": "Động từ athematic (mi-verb): τίθημι, ἵστημι, δίδωμι, ἵημι, φημί",
+      "topics": [
+        "nhà mi vs nhà ω: không nguyên âm chủ đề, đuôi -μι/-ς/-σι/-ασi, lặp và thang nguyên âm ở thân; sổ nợ imperfect m/p -μην/-σο/-το/-σθω",
+        "present chủ động của τίθημι/ἵστημι/δίδωμι/ἵημι: nguyên tắc ghép thân+đuôi không chủ đề; achtung ἵστημι vs ἵστην (accent + iota subscript), ἱστᾶσι vs ἱστῶσι",
+        "imperfect không augment: ἐτίθην, ἵστην, ἐδίδουν, εἵην; từ ἵημι hiếm gặp trần, nhớ qua hợp thành ἀφίημι/ἐξίημι/παρίημι; ἵστημι một động từ bốn nghề (giao động vs quá độ)",
+        "aorist: second aorist ἔθην/ἔστην/ἔδων/ἧκα (ἵημι đuôi -κα) và sigmatic thuê ἔθησα/ἔστησα/ἔδωκα; κ chỉ số ít, -σαν số nhiều; perfect ἕστηκα, τέθηκα, δέδωκα",
+        "way/thức: subjunctive dài -ῶ (τιθῶ, ἱστῶ, διδῶ), optative -είην/-οίην (τιθείην, ἱσταίην, διδοίην, ἱείην), mệnh lệnh τίθει, ἵστη, δίδου, δός",
+        "φημί 'nói': enclitic trừ φῄς; imperfect ἔφην (Xenophon thường ἔφη), subjunctive φῶ, optative φαίην, nguyên mẫu φάναι; οὐ φημί = Latin nego",
+        "họ hàng athematic: nhà ω giữ mảnh cổ (ἔγνων, τέθνηκα, ἀπόλωλα, ἔλαθον, ἐλελήθεις); bảng 16 động từ bất quy tắc lõi + chiến lược bóc mi-verb bốn bước",
+        "từ vựng 18 từ (★15): τίθημι, ἵστημι, δίδωμι, ἵημι, ἀποθνῄσκω, ὁ πέλεκυς, ἡ πληγή, τὸ κρανίον, ὁ μῆνιγξ, ὁ ἐγκέφαλος, εὐήθης, ὁ ἐπιθυμητής, ἐρᾶν, ἔνοπλος, ὁ θυμός",
+        "bài đọc: Xenophon, Apologie 28–29 (Socrates rắc bụi lên đầu Apollodoros) và Lukian, Deorum dialogi 8 (Hephaistos, chiếc rìu và sự ra đời của Athena)"
+      ],
+      "reading": [
+        "Xenophon, Apologie 28–29",
+        "Lukian, Deorum dialogi 8 (đánh số truyền thống; = 13 MacLeod)"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }

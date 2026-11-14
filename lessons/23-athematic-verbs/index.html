@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 23 – Động từ athematic và động từ bất quy tắc lõi</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 23: Động từ athematic (<span class="gk">τίθημι, ἵστημι, δίδωμι, ἵημι, φημί</span>) và động từ bất quy tắc lõi</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Động từ athematic: bạn đã gặp nhà <span class="gk">-μι</span> từ lâu rồi (sổ nợ hôm nay trả)</a></li>
+<li><a href="#s2">Present active của bộ tứ: <span class="gk">τίθημι, ἵστημι, δίδωμι, ἵημι</span> – &quot;dài số ít, ngắn số nhiều&quot;</a></li>
+<li><a href="#s3">Present middle/passive và imperfect: hai bảng xưa và hai vế không augment</a></li>
+<li><a href="#s4">Aorist: con đường <span class="gk">κ</span> số ít, con đường gốc <span class="gk">ἔστην</span>, và cả nhà bổ khuyết</a></li>
+<li><a href="#s5">Bộ đuôi dài: subjunctive, optative, imperative, nguyên mẫu, phân từ của cả hai hệ</a></li>
+<li><a href="#s6"><span class="gk">φημί</span>: động từ &quot;nói&quot; bé nhỏ mà đầy ắp</a></li>
+<li><a href="#s7">Họ hàng athematic: khi động từ <span class="gk">-ω</span> đẻ ra aorist/perfect mi (<span class="gk">ἔγνων, τέθνηκα, ἀπόλωλα</span>)</a></li>
+<li><a href="#s8">Bảng &quot;động từ bất quy tắc lõi&quot; và chiến lược bóc mi-verb bốn bước</a></li>
+<li><a href="#reading">Bài đọc: Chết cho đáng (Xenophon, Apologie 28–29) – Cái rìu của Hephaistos (Lukian, Deorum dialogi 8)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<h2 id="s1">1. Động từ athematic: bạn đã gặp nhà <span class="gk">-μι</span> từ lâu rồi (sổ nợ hôm nay trả)</h2>
+
+<p>Từ Bài 1 đến giờ, phần lớn động từ của ta chia theo khuôn <strong>-ω</strong>: nguyên âm giúp <strong class="gk">ο/ε</strong> đứng giữa thân và đuôi (<span class="gk">λύ-ο-μεν</span>, <span class="gk">γράφ-ε-τε</span>). Đó là lớp <em>thematic</em> &quot;có nguyên âm nối&quot;. Hôm nay ta mở lớp thứ hai: <strong>athematic</strong> &quot;không nguyên âm nối&quot; – đuôi số ít dán thẳng vào thân, và vì thân nhà này dài và nặng nên bảng số nhiều lại thổi vào một nguyên âm giúp. Khuôn số ít là <span class="gk">-μι / -ς / -σι</span> (thay cho <span class="gk">-ω / -εις / -ει</span>), nên sách ngữ pháp gọi nhà này là <strong>động từ <span class="gk">-μι</span></strong> (mi-verbs) hoặc <strong>động từ athematic</strong>. Hai tên, một nhà.</p>
+
+<p>Đừng nhầm &quot;athematic&quot; với &quot;hiếm&quot;: đây là <em>tầng cổ</em> của tiếng Hy Lạp. Vô vàn động từ nhà mi đã chết hoặc nhập tịch sang nhà ω từ thời Homer; cái còn lại trong văn xuôi Attic chính là bốn viên đá tảng của bản ngữ: <span class="gk">τίθημι</span> &quot;tôi đặt&quot;, <span class="gk">ἵστημι</span> &quot;tôi đứng/đặt đứng&quot;, <span class="gk">δίδωμι</span> &quot;tôi cho&quot;, <span class="gk">ἵημι</span> &quot;tôi thả/để đi&quot;, cộng thêm viên đá thứ năm: <span class="gk">φημί</span> &quot;tôi nói (tán thành)&quot;. Năm viên này bạn <em>không thể</em> né: không một văn xuôi Attic nào lại không có mặt ít nhất một trong năm đứa.</p>
+
+<p>Nhìn kỹ mặt tên của bốn viên đầu, bạn sẽ thấy khuôn &quot;lặp&quot; (reduplication) đã quen từ <span class="gk">γέγονα</span> (Bài 9) và <span class="gk">τέθνηκα</span> (Bài 19):</p>
+
+<table>
+<thead><tr><th>Động từ</th><th>Tách khối</th><th>Nghĩa gốc</th></tr></thead>
+<tbody>
+<tr><td class="gk">τίθημι</td><td class="gk">τι-θε-μι</td><td>lặp <span class="gk">τι-</span> + thân <span class="gk">θε-</span> &quot;đặt&quot; (thân của <span class="gk">θήσω, ἔθηκα</span>)</td></tr>
+<tr><td class="gk">ἵστημι</td><td class="gk">ἱ-στα-μι</td><td>lặp <span class="gk">ἱ-</span> + thân <span class="gk">στα-</span> &quot;đứng&quot; (thân của <span class="gk">στάς, στῆναι</span>)</td></tr>
+<tr><td class="gk">δίδωμι</td><td class="gk">δι-δο-μι</td><td>lặp <span class="gk">δι-</span> + thân <span class="gk">δο-</span> &quot;cho&quot; (thân của <span class="gk">δός, δοῦναι</span>)</td></tr>
+<tr><td class="gk">ἵημι</td><td class="gk">ἱ-ἑ-μι</td><td>lặp <span class="gk">ἱ-</span> + thân <span class="gk">ἑ-</span> &quot;thả, để đi&quot; (thân của <span class="gk">ἕς, εἷναι</span>)</td></tr>
+</tbody>
+</table>
+
+<p>Nhà mi còn một chi thứ nhỏ hơn, đuôi <span class="gk">-νυμι</span> (<span class="gk">δείκνυμι</span> &quot;chỉ&quot; đã gặp lướt qua ở Bài 8): thân + <span class="gk">-νυ</span> + đuôi. Ta sẽ chỉ cần nhận mặt nó, còn chương hôm nay dồn hết cho bộ tứ + <span class="gk">φημί</span>.</p>
+
+<div class="tipp">
+<p><strong>Ba luật hộ chiếu của nhà mi (rút từ ngữ pháp chuẩn Smyth):</strong> (1) Mi-đuôi chỉ xuất hiện ở <em>present</em>, <em>imperfect</em> và <em>second aorist</em> – mọi thời còn lại (aorist <span class="gk">κ</span>, perfect, future, aorist passive) chia y như động từ ω. Nói cách khác: nhà mi chỉ &quot;quốc hữu hóa&quot; ba thời cổ nhất; còn lại thuê đuôi nhà ω. (2) Vì vậy một động từ mi <em>không</em> khó gấp đôi động từ ω: phần khó chỉ dài thêm hai bảng (pres/impf) và một hệ aorist gốc. (3) Compounds (hợp thành) giữ nguyên cách chia nhà mi: <span class="gk">ἀπο-δίδωμι</span>, <span class="gk">ἐξ-ίημι</span>, <span class="gk">παρα-τίθημι</span> – biết một là biết cả xóm.</p>
+</div>
+
+<h3>Sổ nợ hôm nay trả</h3>
+<p>Đây chính là lý do bài này đến muộn: bạn đã mượn rất nhiều dạng mi từ các bài trước, và giờ gom một lần trả sạch. Đọc từng dòng và tự hỏi &quot;mình đã đoán đúng chưa?&quot; – sau bài hôm nay, mọi dòng dưới đây sẽ hiện nguyên công thức:</p>
+
+<table>
+<thead><tr><th>Dạng đã gặp</th><th>Bài</th><th>Hôm nay biết được gì</th></tr></thead>
+<tbody>
+<tr><td class="gk">δίδωσι δὲ αὐτῷ Κῦρος μυρίους δαρεικούς</td><td>22 (Anabasis 2,6,4)</td><td>present active 3sg của <span class="gk">δίδωμι</span>, historic present (Bài 12): &quot;Kyros tặng y mười nghìn daric&quot;</td></tr>
+<tr><td class="gk">κατεθέμεθα</td><td>13</td><td>aorist middle 1pl của <span class="gk">κατατίθημι</span> &quot;chốt lại (về phía mình)&quot; – hôm nay giải phẫu trọn động từ</td></tr>
+<tr><td class="gk">ἐξείη</td><td>22 (BT 6)</td><td>aorist optative của <span class="gk">ἐξίημι</span> = <span class="gk">ἐκ + ἵημι</span> &quot;được phép ra đi&quot; – con của <span class="gk">ἵημι</span>!</td></tr>
+<tr><td class="gk">ἔφη / φάναι</td><td>18</td><td>imperfect và nguyên mẫu của <span class="gk">φημί</span> – nghề &quot;y nói&quot; của người kể chuyện</td></tr>
+<tr><td class="gk">ἐφάνη vs ἔφην</td><td>14 (achtung)</td><td>hai họ khác nhau: &quot;xuất hiện&quot; (<span class="gk">φαίνομαι</span>) vs &quot;(hắn) nói&quot; (<span class="gk">φημί</span>) – mục 6 lột trần</td></tr>
+<tr><td class="gk">τεθνεώς / τεθνηκώς</td><td>19</td><td>perfect participle của <span class="gk">ἀποθνῄσκω</span> &quot;đã chết (và còn chết)&quot; – họ hàng athematic, mục 7</td></tr>
+<tr><td class="gk">ἀπωλώλεσαν</td><td>22 (gloss)</td><td>pluperfect của <span class="gk">ἀπόλλυμι</span> – mục 7 đính chính lại ghi chú cũ: không phải aorist!</td></tr>
+<tr><td class="gk">σταθείς / κατασταθείς</td><td>18–19</td><td>aorist passive participle của <span class="gk">ἵστημι</span>: &quot;sau khi được dựng đứng&quot; – đuôi nhà ω mượn, đúng luật (1)</td></tr>
+<tr><td class="gk">ὤν, οὖσα, ὄν</td><td>19</td><td>participle mi của <span class="gk">εἰμί</span> – đúng họ hàng athematic của &quot;tôi là&quot;</td></tr>
+<tr><td class="gk">οἶδα</td><td>14 (info)</td><td>second perfect mi nghĩa hiện tại &quot;tôi biết&quot;, pluperfect <span class="gk">ᾔδη(ν)</span> = &quot;tôi đã biết&quot; – mục 7</td></tr>
+<tr><td class="gk">δεῖ / χρὴ</td><td>18, 21</td><td>hai &quot;trợ động từ&quot; bất biến nguyên bản: <span class="gk">δεῖ</span> là 3sg của động từ mi <span class="gk">δέω</span> (họ <span class="gk">ἐνδέω, ἐπιδέω</span>), <span class="gk">χρή</span> là danh từ hóa &quot;cái cần&quot; của cùng họ <span class="gk">χή</span> – cả hai về nhà mi</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Achtung: đừng gọi nhà mi là &quot;động từ lai&quot;.</strong> Câu trả lời bài 12 đã định nghĩa &quot;lai&quot; = <em>hỗn chủng</em> (hybrid) cho danh từ số nhiều lai <span class="gk">τὰ κέντρα</span>. Động từ athematic <em>không lai</em> về hình thái: bảng mi thuần một, bảng ω thuê đuôi thuần một. Nhầm hai khái niệm này sẽ khiến bạn &quot;phục hịch&quot; sai cả danh từ lẫn động từ.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner: một nhà chia ba ngả.</strong> Cùng tổ Ấn-Âu nguyên thủy, ba thứ tiếng đã gỡ cùng một gói hàng theo ba cách: gốc <em>*deh₃-</em> &quot;cho&quot; → Hy Lạp lặp + cấp dài: <span class="gk">δί-δω-μι</span>; Latin giữ thân ngắn <em>dō, dare</em> – và cũng &quot;ngắn số nhiều&quot;: <em>dās, dat</em> (dài) nhưng <em>damus, datis, dant</em> (ngắn), đúng cùng quy tắc dài/ngắn mà bạn sẽ học ở mục 2; tiếng Đức hiện đại <em>geben</em> đổi hoàn toàn. Gốc <em>*steh₂-</em> &quot;đứng&quot; → Hy Lạp <span class="gk">ἵστημι</span> + aorist gốc <span class="gk">ἔστην</span>; Latin <em>stāre</em> với perfect <em>stetī</em> – chính là &quot;aorist gốc&quot; sống lại; gốc từ này cho ta <em>status, stasis, ecstasy</em> (ἐκ-στα-σις &quot;trạng thái đứng ra ngoài mình&quot;). Gốc <em>*bhā-</em> &quot;nói&quot; → Hy Lạp <span class="gk">φημί, φα-μέν, φα-σί</span>; Latin <em>fārī, fātur, fāmur</em> – nguyên vẹn trong <em>infāns</em> &quot;đứa trẻ chưa biết nói&quot;, <em>fābula</em> &quot;cái được kể&quot; (sân khấu La Mã vay đúng mạch này), <em>fātum</em> &quot;lời phán&quot;. Ba gói hàng, ba kho tàng từ vựng &quot;tự do&quot; cho bạn.</p>
+</div>
+
+<h2 id="s2">2. Present active của bộ tứ: <span class="gk">τίθημι, ἵστημι, δίδωμι, ἵημι</span> – &quot;dài số ít, ngắn số nhiều&quot;</h2>
+
+<p>Hộp số ít của nhà mi &quot;nổ máy&quot; bằng thân <strong>cấp dài</strong> (nguyên âm kéo giãn), còn số nhiều thở bằng thân <strong>cấp ngắn</strong>. Đây chính là phép <strong>biến đổi nguyên âm</strong> (vowel gradation / ablaut) đã ló mặt từ aorist mạnh (<span class="gk">λείπω → ἔλιπον</span>, <span class="gk">ἔρχομαι → ἦλθον</span>: thân đổi nguyên âm, không đổi phụ âm); nhà mi chỉ đưa phép cũ ấy chạy đều trong cùng một thời present, và chia đều cho hai chân của cùng một động từ:</p>
+
+<table>
+<thead><tr><th>Động từ</th><th>Cấp dài (số ít)</th><th>Cấp ngắn (số nhiều)</th><th>Nguyên âm giúp của pl</th></tr></thead>
+<tbody>
+<tr><td class="gk">τίθημι &quot;đặt&quot;</td><td class="gk">θη</td><td class="gk">θε</td><td class="gk">ε</td></tr>
+<tr><td class="gk">ἵστημι &quot;đứng&quot;</td><td class="gk">στη</td><td class="gk">στα</td><td class="gk">α</td></tr>
+<tr><td class="gk">δίδωμι &quot;cho&quot;</td><td class="gk">δω</td><td class="gk">δο</td><td class="gk">ο</td></tr>
+<tr><td class="gk">ἵημι &quot;thả&quot;</td><td class="gk">η</td><td class="gk">ε</td><td class="gk">ε</td></tr>
+</tbody>
+</table>
+
+<p>Đuôi số ít nhà mi: <span class="gk">-μι, -ς, -σι(ν)</span>. Số nhiều lấy đuôi quen thuộc của động từ ω (<span class="gk">-μεν, -τε</span>), riêng 3pl là <span class="gk">-ᾱσι/-ασι</span> với nguyên âm giúp nạp vào thân ngắn. Toàn bộ present active như sau:</p>
+
+<table>
+<thead><tr><th></th><th class="gk">τίθημι</th><th class="gk">ἵστημι</th><th class="gk">δίδωμι</th><th class="gk">ἵημι</th></tr></thead>
+<tbody>
+<tr><td><strong>Số ít</strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1</td><td class="gk">τίθημι</td><td class="gk">ἵστημι</td><td class="gk">δίδωμι</td><td class="gk">ἵημι</td></tr>
+<tr><td>2</td><td class="gk">τίθης</td><td class="gk">ἵστης</td><td class="gk">δίδως</td><td class="gk">ἵης (ἱείς)</td></tr>
+<tr><td>3</td><td class="gk">τίθησι(ν)</td><td class="gk">ἵστησι(ν)</td><td class="gk">δίδωσι(ν)</td><td class="gk">ἵησι(ν)</td></tr>
+<tr><td><strong>Số nhiều</strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1</td><td class="gk">τιθέμεν</td><td class="gk">ἵσταμεν</td><td class="gk">διδόμεν</td><td class="gk">ἵεμεν</td></tr>
+<tr><td>2</td><td class="gk">τιθέτε</td><td class="gk">ἵστατε</td><td class="gk">διδότε</td><td class="gk">ἵετε</td></tr>
+<tr><td>3</td><td class="gk">τιθέασι(ν)</td><td class="gk">ἱστᾶσι(ν)</td><td class="gk">διδόασι(ν)</td><td class="gk">ἱᾶσι(ν)</td></tr>
+<tr><td><strong>Số đôi</strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td class="gk">τιθέτον</td><td class="gk">ἵστατον</td><td class="gk">διδότον</td><td class="gk">ἵετον</td></tr>
+<tr><td>3</td><td class="gk">τιθέτην</td><td class="gk">ἱστήτην</td><td class="gk">διδότην</td><td class="gk">ἱέτην</td></tr>
+</tbody>
+</table>
+
+<p>Bốn vế + một khuôn: đọc to bảng theo hàng ngang (<span class="gk">τίθημι... ἵστημι... δίδωμι... ἵημι</span>), rồi theo hàng dọc – hai mươi phút là thuộc cả bốn, vì mọi ô đều là &quot;lặp + thân + đuôi&quot;. Trọng âm luôn nép về phía đầu (recessive), và với động từ lặp thì đứng yên trên âm tiết lặp: <span class="gk">τί-θη-μι, ἵ-στη-μι</span>.</p>
+
+<div class="tipp">
+<p><strong>Pattern chuyển sang động từ khác:</strong> đây không phải bốn bảng để học thuộc rời rạc, mà là <em>một</em> quy tắc + <em>bốn</em> gốc thân. Gặp bất kỳ hợp thành nào, chỉ việc ghép tiền tố vào trước (accent nhà hợp thành thường lui về tiền tố): <span class="gk">ἀπο-τίθημι</span> &quot;cất đi&quot;, <span class="gk">ἐπι-τίθημι</span> &quot;đặt lên&quot;, <span class="gk">ἀπο-δίδωμι</span> &quot;trả lại&quot;, <span class="gk">ἀφ-ίημι</span> &quot;thả đi, tha cho&quot;, <span class="gk">παρ-ίημι</span> &quot;(để mình) đi ngang&quot; – đúng dạng <span class="gk">παρίων, παριοῦσα</span> sẽ gặp ở bài đọc hôm nay.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Achtung: 3pl không phải &quot;thêm α vào 3sg&quot;.</strong> Hãy nhìn thật kỹ cặp <span class="gk">τίθησι → τιθέασι</span> và <span class="gk">ἵστησι → ἱστᾶσι</span>: khi đổi sang số nhiều, <em>cả thân đổi cấp</em> (η → ε, ω → ο). Sai phổ biến nhất của người mới là viết <span class="gk">τίθηντι</span> hoặc <span class="gk">τίθηασι</span> – kiểu &quot;giữ thân dài rồi đeo đuôi số nhiều&quot;. Không có dạng nào như vậy tồn tại. Tự kiểm tra: với nhà mi, nhìn thấy <em>bốn</em> âm tiết trở lên mà thân vẫn còn cấp dài thì quay lại bảng; thân dài chỉ sống ở ba ngôi số ít.</p>
+</div>
+
+<p>Một câu thật từ chính bài đọc tuần trước (Anabasis 2,6,4): <span class="gk">δίδωσι δὲ αὐτῷ Κῦρος μυρίους δαρεικούς</span> &quot;Kyros <em>tặng</em> y mười nghìn (đồng) daric&quot; –historic present (Bài 12) làm cảnh quá khứ như đang diễn: 3sg <span class="gk">δίδωσι</span> nguyên vẹn trên trang. Giờ bạn đọc lại câu đó và thấy nó &quot;trong suốt&quot;: δί-δω-σι, lặp + thân dài + đuôi mi, không còn gì phải đoán.</p>
+
+<div class="latin">
+<p><strong>Latin corner: con số nhiều của &quot;cho&quot;.</strong> Latin <em>dō</em> giữ đúng khuôn tương tự ở số nhiều: <em>dāmus, dātis, dant</em> – nguyên âm gốc co lại còn <em>a</em> ngắn, và <em>dant</em> (họ hàng trực tiếp của Hy Lạp <span class="gk">διδόασι</span> về nguồn: cả hai từ *<em>deh₃-nti</em> &quot;họ cho&quot;). Người La Mã cũng cảm thấy động từ này &quot;lép&quot; bất thường và ghi nó đầu danh sách động từ bất quy tắc – cùng tâm lý với chính ta hôm nay. Ai học tiếng Đức có thể nối thêm: <em>geben</em> cũng là con cháu của *deh₃-, nhưng đã bỏ lặp từ thời cổ: ba ngã, một gói hàng.</p>
+</div>
+
+<h2 id="s3">3. Present middle/passive và imperfect: hai bảng xưa và hai vế không augment</h2>
+
+<h3>Present middle/passive: đuôi nhà ω, thân nhà mi</h3>
+<p>Một tin vui trước khi vào bảng: m/p của nhà mi không có gì &quot;mi&quot; cả – đuôi <span class="gk">-μαι, -σαι, -ται, -μεθα, -σθε, -νται</span> y hệt bạn đã học từ Bài 6–7. Việc duy nhất: nạp thân <em>cấp ngắn</em> vào đuôi đó (như số nhiều active). Bốn cột dưới đây đọc một lượt là xong.</p>
+
+<table>
+<thead><tr><th></th><th class="gk">τίθημι</th><th class="gk">ἵστημι</th><th class="gk">δίδωμι</th><th class="gk">ἵημι</th></tr></thead>
+<tbody>
+<tr><td>1sg</td><td class="gk">τίθεμαι</td><td class="gk">ἵσταμαι</td><td class="gk">δίδομαι</td><td class="gk">ἵεμαι</td></tr>
+<tr><td>2sg</td><td class="gk">τίθεσαι</td><td class="gk">ἵστασαι</td><td class="gk">δίδοσαι</td><td class="gk">ἵεσαι</td></tr>
+<tr><td>3sg</td><td class="gk">τίθεται</td><td class="gk">ἵσταται</td><td class="gk">δίδοται</td><td class="gk">ἵεται</td></tr>
+<tr><td>1pl</td><td class="gk">τιθέμεθα</td><td class="gk">ἱστάμεθα</td><td class="gk">διδόμεθα</td><td class="gk">ἱέμεθα</td></tr>
+<tr><td>2pl</td><td class="gk">τίθεσθε</td><td class="gk">ἵστασθε</td><td class="gk">δίδοσθε</td><td class="gk">ἵεσθε</td></tr>
+<tr><td>3pl</td><td class="gk">τιθένται</td><td class="gk">ἵστανται</td><td class="gk">διδόνται</td><td class="gk">ἵενται</td></tr>
+</tbody>
+</table>
+
+<h3>Imperfect active: khuôn &quot;thân dài + đuôi quá khứ&quot;</h3>
+<p>Imperfect của nhà mi giữ đúng tinh thần &quot;dài số ít, ngắn số nhiều&quot;: số ít lại dùng <em>cấp dài</em>, số nhiều lại dùng <em>cấp ngắn</em>. Đuôi quá khứ là bộ ba xưa nhất của hệ Ấn-Âu: 1sg <span class="gk">-ν</span>, 2sg <span class="gk">-ς</span>, 3sg <em>trần</em> (không đuôi), số nhiều <span class="gk">-μεν, -τε, -σαν</span> như imperfect nhà ω. Khi đuôi <span class="gk">ς</span> hoặc ngôi trần chạm vào nguyên âm thân dài, phép co nguyên âm hiện rõ: <span class="gk">θη + ς → θεις</span> (2/3sg của <span class="gk">τίθημι</span>), <span class="gk">δο → δου</span> (của <span class="gk">δίδωμι</span>), còn <span class="gk">στη</span> đứng im (<span class="gk">ἵστης, ἵστη</span>). Hai động từ <span class="gk">ἵ-</span> thì <em>từ chối augment</em>: mảnh lặp đã mang sẵn sắc thái &quot;quá khứ&quot; của nó, nên dạng không có <span class="gk">ἐ-</span> và accent vẫn đứng yên trên lặp:</p>
+
+<table>
+<thead><tr><th></th><th class="gk">τίθημι</th><th class="gk">ἵστημι</th><th class="gk">δίδωμι</th><th class="gk">ἵημι</th></tr></thead>
+<tbody>
+<tr><td>1sg</td><td class="gk">ἐτίθην</td><td class="gk">ἵστην</td><td class="gk">ἐδίδουν</td><td class="gk">ἵην</td></tr>
+<tr><td>2sg</td><td class="gk">ἐτίθεις</td><td class="gk">ἵστης</td><td class="gk">ἐδίδους</td><td class="gk">ἵεις</td></tr>
+<tr><td>3sg</td><td class="gk">ἐτίθει</td><td class="gk">ἵστη</td><td class="gk">ἐδίδου</td><td class="gk">ἵει</td></tr>
+<tr><td>1pl</td><td class="gk">ἐτιθέμεν</td><td class="gk">ἵσταμεν</td><td class="gk">ἐδιδόμεν</td><td class="gk">ἵεμεν</td></tr>
+<tr><td>2pl</td><td class="gk">ἐτιθέτε</td><td class="gk">ἵστατε</td><td class="gk">ἐδιδότε</td><td class="gk">ἵετε</td></tr>
+<tr><td>3pl</td><td class="gk">ἐτίθεσαν</td><td class="gk">ἵστασαν</td><td class="gk">ἐδίδοσαν</td><td class="gk">ἵεσαν</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Achtung 1: hai mạch khác nhau trong chính bảng trên.</strong> <span class="gk">ἐτίθην</span> và <span class="gk">ἐδίδουν</span> <em>có augment</em> nhưng mỗi nhà một kiểu: <span class="gk">ἐτίθεις / ἐτίθει</span> kéo đuôi <span class="gk">-εις / -ει</span> (kiểu đặc biệt, không phải <span class="gk">-ες / -ε</span> của imperfect nhà ω!), còn <span class="gk">ἐδίδους / ἐδίδου</span> co thành bộ <span class="gk">-ους / -ου</span> giống hệt imperfect của động từ co <span class="gk">-έω</span> (Bài 7). Trong khi đó <span class="gk">ἵστην, ἵην</span> <em>không augment</em>: dấu nhận biết duy nhất của quá khứ là đuôi <span class="gk">-ν</span> cộng ngữ cảnh. Đọc text mà gặp <span class="gk">ἵστη</span>, hãy hỏi: &quot;đây là quá khứ &quot;(hắn) đang đứng&quot;, hay mình đã nhầm với present <span class="gk">ἵστησι</span>?&quot; – câu trả lời nằm ở đuôi và câu chữ, không nằm ở augment.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Achtung 2: đừng augment cho ἵστημι/ἵημι ở imperfect.</strong> Lỗi hay gặp: viết <span class="gk">ἐἵστην</span>, hoặc đọc <span class="gk">ἵστην</span> thành tương lai. Không có dạng <span class="gk">ἐἵστην</span>; tương lai là <span class="gk">στήσω</span> (mục 4), khác mạch hẳn. Quy tắc tự kiểm tra: <em>động từ mi có mảnh lặp tiếng hít ở đầu (ἱ-, τι-, δι-) thì imperfect không thêm augment</em> – kể cả khi có tiền tố hợp thành: <span class="gk">ἀφίην, καθίστην</span> vẫn trần như thường. Chỉ có hệ <em>aorist</em> của hợp thành mới augment, và đó là chuyện của mục 4.</p>
+</div>
+
+<h3>Imperfect middle/passive: bảng m/p + augment (hoặc không)</h3>
+<p>Đuôi y hệt bảng m/p ở trên, chỉ đổi 2sg thành <span class="gk">-σο</span> và 3sg <span class="gk">-το</span>... chính xác hơn: imperfect m/p lấy đuôi <span class="gk">-μην, -σο, -το, -μεθα, -σθε, -ντο</span> của Bài 11. Bốn dạng quan trọng nhất, giữ trong túi:</p>
+<table>
+<thead><tr><th></th><th class="gk">τίθημι</th><th class="gk">ἵστημι</th><th class="gk">δίδωμι</th><th class="gk">ἵημι</th></tr></thead>
+<tbody>
+<tr><td>1sg</td><td class="gk">ἐτιθέμην</td><td class="gk">ἱστάμην</td><td class="gk">ἐδιδόμην</td><td class="gk">ἱέμην</td></tr>
+<tr><td>2sg</td><td class="gk">ἐτίθεσο</td><td class="gk">ἵστασο</td><td class="gk">ἐδίδοσο</td><td class="gk">ἵεσο</td></tr>
+<tr><td>3sg</td><td class="gk">ἐτίθετο</td><td class="gk">ἵστατο</td><td class="gk">ἐδίδοτο</td><td class="gk">ἵετο</td></tr>
+<tr><td>3pl</td><td class="gk">ἐτίθεντο</td><td class="gk">ἵσαντο</td><td class="gk">ἐδίδοντο</td><td class="gk">ἵεντο</td></tr>
+</tbody>
+</table>
+
+<p>Trở lại sổ nợ bài 13: <span class="gk">κατεθέμεθα</span> giờ tự lột vỏ: <span class="gk">κατα-τίθημι</span>, aorist middle 1pl <span class="gk">κατε-θέ-μεθα</span> &quot;chúng ta đã chốt đặt (về phía mình)&quot; – tiền tố <span class="gk">κατά</span> + augment <span class="gk">ἐ</span> chui vào giữa + thân ngắn <span class="gk">θε</span> + đuôi aorist middle <span class="gk">-μεθα</span> của động từ ω. Mỗi âm tiết đều đã có mặt trong những bài bạn đã học; chỉ thiếu liên kết, và hôm nay liên kết đã có.</p>
+
+<div class="tipp">
+<p><strong>Mẹo ghi bảng:</strong> hãy học theo <em>hàng</em> chứ không theo cột: <span class="gk">ἐτίθην, ἵστην, ἐδίδουν, ἵην</span> đọc lên thành một câu nhịp; số nhiều <span class="gk">ἐτιθέμεν, ἵσταμεν, ἐδιδόμεν, ἵεμεν</span> thành một câu khác. Trong tai, đuôi của ω-verbs đã thuộc từ lâu, nên chỉ cần &quot;nhét&quot; thân ngắn nhà mi vào trước đuôi cũ. Số ít là chỗ dễ lún – nếu lún thì cả ba nhà đều về một quy tắc: <em>thân dài + đuôi mi/ει-κhuôn đặc biệt</em>.</p>
+</div>
+
+<h2 id="s4">4. Aorist: con đường <span class="gk">κ</span> số ít, con đường gốc <span class="gk">ἔστην</span>, và cả nhà bổ khuyết</h2>
+
+<h3>Aorist active: <span class="gk">ἔθηκα, ἔδωκα, ἧκα</span> – kappa chỉ dành cho số ít!</h3>
+<p>Ở thời aorist, <span class="gk">τίθημι, δίδωμι, ἵημι</span> bắc vào thân một phụ âm <span class="gk">κ</span> rồi chia... như aorist đầu (1st aorist) của nhà ω – nhưng <em>chỉ ở số ít</em>. Số nhiều quay về mạch second aorist với thân ngắn, không <span class="gk">κ</span>. Đây là một trong những chi tiết &quot;phản trực giác&quot; nhất tiếng Hy Lạp cho người mới: cùng một aorist, hai bộ mặt.</p>
+
+<table>
+<thead><tr><th></th><th class="gk">τίθημι</th><th class="gk">δίδωμι</th><th class="gk">ἵημι</th><th class="gk">ἵστημι</th></tr></thead>
+<tbody>
+<tr><td><strong>Số ít (thân + κ)</strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1</td><td class="gk">ἔθηκα</td><td class="gk">ἔδωκα</td><td class="gk">ἧκα</td><td><em>(xem dưới)</em></td></tr>
+<tr><td>2</td><td class="gk">ἔθηκας</td><td class="gk">ἔδωκας</td><td class="gk">ἧκας</td><td></td></tr>
+<tr><td>3</td><td class="gk">ἔθηκε(ν)</td><td class="gk">ἔδωκε(ν)</td><td class="gk">ἧκε(ν)</td><td></td></tr>
+<tr><td><strong>Số nhiều (thân ngắn, không κ)</strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1</td><td class="gk">ἔθεμεν</td><td class="gk">ἔδομεν</td><td class="gk">εἷμεν</td><td class="gk">ἔστημεν</td></tr>
+<tr><td>2</td><td class="gk">ἔθετε</td><td class="gk">ἔδοτε</td><td class="gk">εἷτε</td><td class="gk">ἔστητε</td></tr>
+<tr><td>3</td><td class="gk">ἔθεσαν</td><td class="gk">ἔδοσαν</td><td class="gk">εἷσαν</td><td class="gk">ἔστησαν</td></tr>
+</tbody>
+</table>
+
+<p>Về nguồn, <span class="gk">κ</span> không phải đuôi &quot;gắn vào cho có aorist&quot; mà là một biến thể thân có từ thời trước Hy Lạp (so sánh hoàn toàn tương đồng: Latin <em>fēc-</em> trong <em>fēcī</em> cũng là biến thể thân gắn sẵn). Trong văn chương, 3pl <span class="gk">ἔδωκαν</span> (với κ!) thỉnh thoảng ló mặt – nhưng chuỗi <span class="gk">ἔδομεν, ἔδοσαν</span> không cần κ vẫn aorist đàng hoàng, vì đuôi <span class="gk">-σαν</span> của second aorist đứng cạnh thân ngắn.</p>
+
+<h3><span class="gk">ἵστημι</span>: động từ duy nhất có hai aorist active thẳng hàng nhau</h3>
+<p>Vì thân <span class="gk">στα-</span> &quot;đứng&quot; mang cả nghĩa <em>giao động</em> (đứng = đứng) lẫn <em>quá độ</em> (đặt ai đứng lên), <span class="gk">ἵστημι</span> trả tiền gấp đôi bằng <em>hai</em> aorist, và bạn bắt buộc phân biệt chúng theo nghĩa, không theo hình:</p>
+<table>
+<thead><tr><th>Aorist</th><th>Khuôn</th><th>Nghĩa</th><th>Ví dụ khuôn câu</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἔστην, ἔστης, ἔστη... ἔστησαν</td><td>second aorist gốc (root aorist): thân trần <span class="gk">στη-</span> + đuôi mi aorist, có augment</td><td>&quot;(ai) đã đứng lại/bụt đứng&quot; – giao động, không có tân ngữ</td><td class="gk">ἔστη δὲ ὁ στρατηγὸς ἐν μέσῳ</td></tr>
+<tr><td class="gk">ἔστησα, ἔστησας, ἔστησε(ν), ἔστησαν</td><td>first aorist thường của nhà ω (đuôi <span class="gk">-σα</span>)</td><td>&quot;(ai) đã dựng đứng (cái gì)&quot; – quá độ, có tân ngữ</td><td class="gk">ἔστησε τὸ τρόπαιον</td></tr>
+</tbody>
+</table>
+<p><em>Aorist gốc</em> (root aorist) là khái niệm mới cần một dòng định nghĩa: aorist lấy <em>thân từ vựng trần</em> (không nguyên âm giúp, không đuôi thời) cộng trực tiếp đuôi aorist xưa – cùng bộ đuôi <span class="gk">-ν / -ς / – / -μεν / -τε / -σαν</span> (gạch ngang nhỏ = ngôi trần, không đuôi) bạn vừa gặp ở imperfect nhà mi. Khác nhau duy nhất: aorist gốc <em>luôn augment</em> (<span class="gk">ἔστην</span>), còn imperfect của <span class="gk">ἵστημι</span> thì không (<span class="gk">ἵστην</span>). Cùng một phụ âm, khác nhau một mảnh <span class="gk">ἐ</span> và một trọng âm – và khác hẳn nghĩa thì.</p>
+
+<div class="achtung">
+<p><strong>Achtung: cặp sát thủ ἵστην vs ἔστην.</strong> <span class="gk">ἵστην</span> = imperfect &quot;(hắn) đang đứng&quot;; <span class="gk">ἔστην</span> = aorist &quot;(hắn) đã đứng&quot;. Một mảnh augment, quyết định toàn bộ thời. Khi gạch đầu dòng từ trên trang sách, hãy khoanh <span class="gk">ἐ-</span> trước khi dịch: thói quen này cứu bạn trong cả trăm câu Xenophon.</p>
+</div>
+
+<h3>Aorist middle và passive</h3>
+<p>Aorist middle về căn bản là second aorist middle: thân ngắn + đuôi middle xưa, nhưng 2sg co đặc biệt thành <span class="gk">-ου</span> (đuôi <span class="gk">-σο</span> mất ς sau nguyên âm):</p>
+<table>
+<thead><tr><th></th><th class="gk">τίθημι</th><th class="gk">δίδωμι</th><th class="gk">ἵημι</th><th class="gk">ἵστημι</th></tr></thead>
+<tbody>
+<tr><td>1sg</td><td class="gk">ἐθέμην</td><td class="gk">ἐδόμην</td><td class="gk">εἵμην</td><td class="gk">ἐμησάμην</td></tr>
+<tr><td>2sg</td><td class="gk">ἔθου</td><td class="gk">ἔδου</td><td class="gk">εἷσο</td><td>–</td></tr>
+<tr><td>3sg</td><td class="gk">ἔθετο</td><td class="gk">ἔδοτο</td><td class="gk">εἷτο</td><td>–</td></tr>
+<tr><td>3pl</td><td class="gk">ἔθεντο</td><td class="gk">ἔδοντο</td><td class="gk">εἷντο</td><td>–</td></tr>
+</tbody>
+</table>
+<p>Ba ngôi chấm gạch của <span class="gk">ἵστημι</span> không phải &quot;khuyết&quot; một cách ngẫu nhiên: như đã nói, nó đi đường riêng – mượn <em>toàn bộ</em> first aorist middle <span class="gk">ἐμησάμην, ἐμησάμην..., ἐμησάμενος</span> từ chính mạch <span class="gk">ἔστησα</span>. <span class="gk">ἵημι</span> và aorist middle của nó gần như chỉ sống trong hợp thành (<span class="gk">εἵμην, εἷσο, εἷτο</span> với tiền tố). Mượn mảnh giữa các bộ phận của cùng một động từ gọi là phép <strong>bổ khuyết</strong> (suppletion) – khái niệm sẽ làm việc nặng ở mục 7–8.</p>
+<p>Aorist passive thì ngược lại: hoàn toàn &quot;nhà ω&quot;, đuôi <span class="gk">-θην</span> quen thuộc gắn vào thân ngắn: <span class="gk">ἐτέθην</span> (được đặt), <span class="gk">ἐδόθην</span> (được trao), <span class="gk">ἐστάθην</span> (được dựng đứng), và trong hợp thành của <span class="gk">ἵημι</span>: <span class="gk">ἐξ-έθην, ἀφ-έθην</span>. Sổ nợ Bài 18–19: <span class="gk">σταθείς, κατασταθείς</span> chính là phân từ aorist passive của mạch này – đuôi <span class="gk">-θείς</span> đã gặp từ lâu, giờ mới rõ thân nó đứng nhà nào.</p>
+
+<h3>Future và perfect: toàn bộ thuê nhà ω</h3>
+<p>Để khép lại bức tranh: future <span class="gk">θήσω, στήσω, δώσω</span> (dạng đơn của <span class="gk">ἵημι</span> hiếm, hợp thành <span class="gk">ἀφήσω, ἐξήσω</span>); perfect <span class="gk">τέθηκα, δέδωκα</span> (dạng đơn hiếm, hợp thành <span class="gk">ἀναδέδωκα, ἀποδέδωκα</span> phổ biến hơn). Riêng <span class="gk">ἵστημι</span> có viên ngọc đặc biệt: <strong>second perfect</strong> <span class="gk">ἕστηκα</span> &quot;tôi đang đứng (trạng thái)&quot; với số nhiều <span class="gk">ἕσταμεν, ἑστᾶσι</span> – nghĩa <em>hiện tại</em> mặc áo perfect, như <span class="gk">οἶδα</span> mà bạn đã học ở Bài 14. Cả bốn thời này đều không cần bảng mới: nạp thân vào khuôn ω là xong.</p>
+
+<div class="tipp">
+<p><strong>Kiểm tra nhanh bằng &quot;hành trình của một hợp thành&quot;:</strong> lấy <span class="gk">ἐκ + τίθημι</span> &quot;đặt ra ngoài&quot;: present <span class="gk">ἐκτίθημι</span> – imperfect <span class="gk">ἐξετίθην</span> – aorist act <span class="gk">ἐξέθηκα</span> (sg) / <span class="gk">ἐξέθεμεν, ἐξέθεσαν</span> (pl) – aorist mid <span class="gk">ἐθεμην</span>-mạch <span class="gk">ἐξεθέμην</span> – aorist pass <span class="gk">ἐξετέθην</span> – future <span class="gk">ἐκθήσω</span>. Sáu thời, mỗi thời chỉ hỏi đúng một câu: &quot;mảnh ghép nhà nào được thuê ở đây?&quot; Augment luôn chui vào giữa tiền tố và thân – đúng luật tổng quát của Bài 11.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner: stetī, nơi cấp nguyên âm sống lại.</strong> Perfect của <em>stāre</em> là <em>stetī</em>, số nhiều <em>stemimus, stetistis, stetērunt</em> – nguyên âm gốc đổi sang cấp <em>e</em> (so với present <em>stāmus</em> với <em>a</em> dài): chính là phép &quot;cấp dài số ít, cấp ngắn số nhiều&quot; nhà mi sống sót trong Latin. Latin không giữ mạch đuôi mi của aorist gốc (nên không có tầng tương đương của <span class="gk">ἔστην</span>), nhưng cả hai thứ tiếng đều chứng kiến cùng một hiện tượng: thân gốc đổi màu theo thời, còn đuôi thì đi thuê. Ghi cặp tương phản: Hy Lạp <span class="gk">ἵστημι / ἵστην / ἔστην</span> ↔ Latin <em>stō / stāre / stetī</em> – một công ty, ba cổ đông.</p>
+</div>
+
+<h2 id="s5">5. Bộ đuôi dài: subjunctive, optative, imperative, nguyên mẫu, phân từ của cả hai hệ</h2>
+
+<p>Mục này là &quot;phần thưởng&quot; của bài: mọi dạng ở đây đều dài và giàu trọng âm, nhưng khuôn thì <em>rất</em> đều, vì chúng được ghép từ hai mảnh bạn đã thuộc: (1) thân dài của nhà mi, (2) đuôi mood của nhà ω. Hãy đọc hai bảng dưới thành nhịp, đừng học từng ô.</p>
+
+<h3>Hệ present</h3>
+<table>
+<thead><tr><th></th><th class="gk">τίθημι</th><th class="gk">ἵστημι</th><th class="gk">δίδωμι</th><th class="gk">ἵημι</th></tr></thead>
+<tbody>
+<tr><td>Subj 1/2/3sg</td><td class="gk">τιθῶ, τιθῇς, τιθῇ</td><td class="gk">ἱστῶ, ἱστῇς, ἱστῇ</td><td class="gk">διδῶ, διδῷς, διδῷ</td><td class="gk">ἱῶ, ἱῇς, ἱῇ</td></tr>
+<tr><td>Subj 1/2/3pl</td><td class="gk">τιθῶμεν, τιθῆτε, τιθῶσι</td><td class="gk">ἱστῶμεν, ἱστῆτε, ἱστῶσι</td><td class="gk">διδῶμεν, διδῶτε, διδῶσι</td><td class="gk">ἱῶμεν, ἱῆτε, ἱῶσι</td></tr>
+<tr><td>Opt 1sg (biến thể)</td><td class="gk">τιθείην (τιθεῖμεν)</td><td class="gk">ἱσταίην (ἱσταῖμεν)</td><td class="gk">διδοίην (διδοῖμεν)</td><td class="gk">ἱείην (ἱεῖμεν)</td></tr>
+<tr><td>Imp 2sg / 3sg</td><td class="gk">τίθει / τιθέτω</td><td class="gk">ἵστη / ἱστάτω</td><td class="gk">δίδου / διδότω</td><td class="gk">ἵει / ἱέτω</td></tr>
+<tr><td>Imp 2pl</td><td class="gk">τίθετε</td><td class="gk">ἵστατε</td><td class="gk">δίδοτε</td><td class="gk">ἵετε</td></tr>
+<tr><td>Nguyên mẫu</td><td class="gk">τιθέναι</td><td class="gk">ἱστάναι</td><td class="gk">διδόναι</td><td class="gk">ἱέναι</td></tr>
+<tr><td>Phân từ</td><td class="gk">τιθείς, -εῖσα, -έν</td><td class="gk">ἱστάς, -ᾶσα, -άν</td><td class="gk">διδούς, -οῦσα, -όν</td><td class="gk">ἱείς, -εῖσα, -έν</td></tr>
+</tbody>
+</table>
+
+<p>Ba chi tiết đáng chú ý: (1) subjunctive của <span class="gk">δίδωμι</span> đồng phục cả sáu ngôi với dấu circumflex trên <span class="gk">ω/ῷ</span> – không ngôi nào mang accent giống ngôi tương ứng của present; (2) optative có hai bộ đuôi song song, <span class="gk">-ιη-</span> (cổ) và <span class="gk">-οι-</span> (Attic thường), cùng nghĩa, ví dụ <span class="gk">τιθείην</span> ≈ <span class="gk">τιθεῖμεν</span>-mạch – gặp dạng nào cũng đừng hoảng; (3) phân từ masc mang accent ép sát âm tiết cuối: <span class="gk">τιθείς, ἱστάς, διδούς, ἱείς</span> – đúng khuôn phân từ aorist <span class="gk">λαβών</span> vừa gặp trong bài đọc 22 (<span class="gk">ὁ δὲ λαβὼν οὐκ ἐπὶ ῥᾳθυμίαν ἐτράπετο</span>).</p>
+
+<h3>Hệ aorist: thân ngắn, đuôi dài</h3>
+<p>Aorist mood của nhà mi ném bỏ mảnh lặp, ném bỏ kappa (kappa chỉ sống ở số ít indicative, không theo ra mood nào), và đứng trần với thân gốc <span class="gk">θε-/ στα-/ δο-/ ἑ-</span>. Kết quả: những từ ngắn nhất, nặng accent nhất của tiếng Hy Lạp:</p>
+<table>
+<thead><tr><th></th><th class="gk">τίθημι</th><th class="gk">ἵστημι</th><th class="gk">δίδωμι</th><th class="gk">ἵημι</th></tr></thead>
+<tbody>
+<tr><td>Subj 1/2/3sg</td><td class="gk">θῶ, θῇς, θῇ</td><td class="gk">στῶ, στῇς, στῇ</td><td class="gk">δῶ, δῷς, δῷ</td><td class="gk">ὧ, ᾗς, ᾗ</td></tr>
+<tr><td>Subj 1/2/3pl</td><td class="gk">θῶμεν, θῆτε, θῶσι</td><td class="gk">στῶμεν, στῆτε, στῶσι</td><td class="gk">δῶμεν, δῶτε, δῶσι</td><td class="gk">ὧμεν, ᾧτε, ᾧσι</td></tr>
+<tr><td>Opt 1sg act</td><td class="gk">θείην</td><td class="gk">σταίην</td><td class="gk">δοίην</td><td class="gk">εἵην</td></tr>
+<tr><td>Opt 1sg mid</td><td class="gk">θοίμην</td><td class="gk">σταίμην</td><td class="gk">δοίμην</td><td class="gk">εἵμην</td></tr>
+<tr><td>Imp 2sg / 3sg</td><td class="gk">θές / θέτω</td><td class="gk">στῆθι / στήτω</td><td class="gk">δός / δότω</td><td class="gk">ἕς / ἕτω</td></tr>
+<tr><td>Imp 2sg mid</td><td class="gk">θοῦ</td><td>–</td><td class="gk">δοῦ</td><td class="gk">οὗ (trong hợp thành)</td></tr>
+<tr><td>Nguyên mẫu act / mid</td><td class="gk">θεῖναι / θέσθαι</td><td class="gk">στῆναι / –</td><td class="gk">δοῦναι / δόσθαι</td><td class="gk">εἷναι / ἕσθαι</td></tr>
+<tr><td>Phân từ act / mid</td><td class="gk">θείς / θέμενος</td><td class="gk">στάς / –</td><td class="gk">δούς / δόμενος</td><td class="gk">εἵς / ἕμενος</td></tr>
+</tbody>
+</table>
+
+<p>Nhìn <span class="gk">εἵην</span> ở góc phải: đó chính là aorist optative của <span class="gk">ἵημι</span> – và với tiền tố <span class="gk">ἐκ-</span> nó thành <span class="gk">ἐξείη</span>, dạng khiến BT 6 của Bài 22 phải hẹn: <span class="gk">ἐξείη... ἀπιέναι</span> &quot;(nếu) được phép ra đi&quot;. Sổ nợ xong trọn bộ. Ba nguyên mẫu <span class="gk">δοῦναι, θεῖναι, στῆναι</span> là ba từ sẽ ám ảnh mọi trang văn Attic từ Homer đến Plutarch – hãy cho chúng ba ghế riêng trong Anki hôm nay.</p>
+
+<div class="achtung">
+<p><strong>Achtung: accent là con đường duy nhất phân biệt indicative và subjunctive ở 3pl.</strong> <span class="gk">ἱστᾶσι</span> (indicative &quot;họ đang đứng/đặt&quot;) vs <span class="gk">ἱστῶσι</span> (subjunctive &quot;(để) họ đứng/đặt&quot;): cùng chữ cái, khác dấu thanh. Trong bản chép tay cổ, dấu thanh viết muộn hơn chữ – người đọc cổ phân biệt bằng ngữ pháp; bạn hôm nay phải phân biệt bằng mắt, nên khi gạch bài hãy khoanh cả dấu thanh, không chỉ chữ.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Mẹo đọc nhanh hệ aorist:</strong> thân hệ aorist chính là &quot;phần còn lại&quot; sau khi gỡ lặp: <span class="gk">τί-θημι → θ-</span>, <span class="gk">ἵ-στημι → στα-</span>, <span class="gk">δί-δωμι → δο-</span>, <span class="gk">ἵ-ημι → ἑ-</span>. Mọi dạng mood bắt đầu bằng mảnh trần này đều là aorist; mọi dạng bắt đầu bằng lặp <span class="gk">τι-/ἱσ-/διδ-/ἱε-</span> đều là present. Đây là phép &quot;tách vỏ&quot; nhanh nhất của cả bài học hôm nay.</p>
+</div>
+
+<h2 id="s6">6. <span class="gk">φημί</span>: động từ &quot;nói&quot; bé nhỏ mà đầy ắp</h2>
+
+<p>Viên đá thứ năm nhỏ hơn bốn anh em: chỉ có nghĩa &quot;nói (một cách khẳng định)&quot;, thân ngắn <span class="gk">φα-/φη-</span>, không lặp, không hợp thành thông dụng. Nhưng nó đóng hai vai không thay thế được trong văn xuôi: nói chuyện và kể chuyện. Bảng present + imperfect:</p>
+
+<table>
+<thead><tr><th></th><th>Indicative</th><th>Subjunctive</th><th>Optative</th><th>Imperative</th></tr></thead>
+<tbody>
+<tr><td>1sg</td><td class="gk">φημί</td><td class="gk">φῶ</td><td class="gk">φαίην</td><td>–</td></tr>
+<tr><td>2sg</td><td class="gk">φῄς</td><td class="gk">φῇς</td><td class="gk">φαίης</td><td class="gk">φαθί (φάθι)</td></tr>
+<tr><td>3sg</td><td class="gk">φησί(ν)</td><td class="gk">φῇ</td><td class="gk">φαίη</td><td class="gk">φάτω</td></tr>
+<tr><td>1pl</td><td class="gk">φαμέν</td><td class="gk">φῶμεν</td><td class="gk">φαῖμεν</td><td>–</td></tr>
+<tr><td>2pl</td><td class="gk">φατέ</td><td class="gk">φῆτε</td><td class="gk">φαίητε</td><td class="gk">φάτε</td></tr>
+<tr><td>3pl</td><td class="gk">φασί(ν)</td><td class="gk">φῶσι</td><td class="gk">φαῖεν</td><td class="gk">φάντων</td></tr>
+</tbody>
+</table>
+
+<p>Imperfect: <span class="gk">ἔφην, ἔφησθα (ἔφης), ἔφη(ν), ἔφαμεν, ἔφατε, ἔφασαν</span>; nguyên mẫu <span class="gk">φάναι</span>; phân từ <span class="gk">φάς, φᾶσα, φάν</span> (thi ca; văn xuôi dùng <span class="gk">φάσκων</span>); tương lai <span class="gk">φήσω</span>; aorist <span class="gk">ἔφησα</span> – nhưng chỉ với nghĩa &quot;nói có/tán thành&quot;. Vài ngôi 2sg phải thuộc lòng: <span class="gk">ἔφησθα</span> (imperfect) và <span class="gk">φαθί</span> (imperative) là hai dạng độc hành của toàn tiếng Hy Lạp.</p>
+
+<div class="achtung">
+<p><strong>Achtung: gần như cả bảng present đều là enclitic.</strong> Trừ <span class="gk">φῄς</span>, mọi ngôi present đều &quot;nép mình&quot; về sau (<span class="gk">φημί, φησί, φαμέν, φατέ, φασί</span>) và đẩy accent cho từ đứng trước – nên trong bản text, bạn thường thấy chúng dính hơi mà không mang dấu. Câu tuyệt đối phải giữ đầu: <strong><span class="gk">οὐ φημί</span> = &quot;tôi từ chối&quot;</strong> (bất biến tổ hợp: phủ định + nói = không chịu nói = từ chối), và đây là đứa em song sinh của Latin <em>negō</em> – <em>nego</em> cũng chỉ là <em>ne</em> + <em>aiō</em> &quot;nói không&quot;. Đừng dịch <span class="gk">οὐ φημί</span> thành &quot;tôi không nói&quot; trong câu như <span class="gk">οὐ φημὶ τοῦτό γε</span> &quot;tôi không công nhận chuyện này&quot; – dịch vậy là bán rẻ sắc thái.</p>
+</div>
+
+<h3>Hai nghề của <span class="gk">φημί</span> trên trang sách</h3>
+<p><strong>Nghề 1: nói trong đoạn đối thoại.</strong> <span class="gk">φημί</span> đưa ra một nhận định mang tính &quot;đồng ý rằng&quot;, thường là xác nhận một điều ai đó vừa nói hoặc điều mình tin: <span class="gk">οὐ φημὶ ἀδικεῖν</span> &quot;tôi không nhận là mình làm sai&quot;. Về mặt cú pháp, nó là một động từ dẫn tường thuật của Bài 17: theo sau là nguyên mẫu tân ngữ (AcI) hoặc mệnh đề, khuôn <span class="gk">ἔφη αὐτὸν ποιῆσαι</span> &quot;y nói rằng hắn đã làm&quot;.</p>
+<p><strong>Nghề 2: nói trong lời kể.</strong> <span class="gk">ἔφη</span> (imperfect) và <span class="gk">φάναι</span> (nguyên mẫu) là hai &quot;thẻ&quot; chèn giữa câu đối thoại của người kể chuyện, y hệt <em>inquit</em> tiếng Latin: <span class="gk">ἔφη, ὦ φίλτατε Ἀπολλόδωρε</span> &quot;(Socrates) nói: này, Apollodoros thân mến ơi...&quot;. Bạn sẽ thấy nghề này làm việc ngay ở bài đọc hôm nay, <em>hai lần</em>, trong hai màu: một lần <span class="gk">ἔφη</span> như inquit, một lần <span class="gk">οὐκ ἔφην</span> như &quot;tôi đã từng nói không&quot;.</p>
+
+<table>
+<thead><tr><th>Dạng &quot;nói&quot; đã học</th><th>Nghề</th><th>Nhớ bằng</th></tr></thead>
+<tbody>
+<tr><td class="gk">λέγω</td><td>nói (chung chung), từ Bài 1–2</td><td>&quot;cái đế&quot; mặc định của mọi hoạt động nói</td></tr>
+<tr><td class="gk">εἶπον / εἶπεν</td><td>nói (aorist-bất quy tắc, đã gặp Bài 18): nói một lần, kể một câu</td><td>bộ khung trích dẫn của Xenophon</td></tr>
+<tr><td class="gk">ἔφη / φάναι</td><td>&quot;y nói&quot; – chèn giữa lời trực tiếp; hôm nay: imperfect/nguyên mẫu của <span class="gk">φημί</span></td><td><em>inquit</em>; chỉ dùng cho người, không dùng cho nội dung</td></tr>
+<tr><td class="gk">φημί / φησί</td><td>&quot;tôi/t nó khẳng định&quot; – tán thành một nhận định</td><td><span class="gk">οὐ φημί</span> = <em>negō</em></td></tr>
+<tr><td class="gk">ἐφάνη</td><td>&quot;x hiện ra&quot; – KHÔNG phải nhà này! Aorist passive của <span class="gk">φαίνομαι</span> (Bài 14)</td><td>phaínomai = nhánh khác của cùng gốc <span class="gk">φα-</span>: &quot;cho thấy mặt&quot;</td></tr>
+</tbody>
+</table>
+
+<div class="latin">
+<p><strong>Latin corner: fārī và hàng xóm của nó.</strong> <em>fārī, fātur, fāmur</em> chia đúng khuôn <span class="gk">φημί, φησί, φαμέν</span> – đến mức những từ vay mượn nhìn nhau như anh em ruột: <em>infāns</em> &quot;đứa trẻ chưa biết nói&quot; (nhà φημί: chưa <span class="gk">φημί</span> được), <em>fāma</em> &quot;lời đồn&quot; (họ hàng Hy Lạp <span class="gk">φήμη</span>, <span class="gk">τὸ φᾶμα</span>), <em>fātum</em> &quot;lời phán định&quot;, <em>fābula</em> &quot;cái được kể&quot;. Khi sân khấu La Mã du nhập từ Hy Lạp, chính họ <em>fābula</em> này được dùng để gọi tất cả những gì người Hy Lạp gọi là <span class="gk">τὸ δρᾶμα</span> – nhưng kho từ vựng &quot;phát ngôn&quot; thì họ giữ bản quyền nhà <em>fārī</em>. Ghi thêm một cặp tương quan về nghĩa: <em>negō</em> ↔ <span class="gk">οὐ φημί</span> là cặp đôi hiếm hoi mà hai thứ tiếng dựng <em>cùng một cấu trúc ngữ pháp</em> (phủ định + động từ nói) để sinh ra một động từ mới.</p>
+</div>
+
+<h2 id="s7">7. Họ hàng athematic: khi động từ <span class="gk">-ω</span> đẻ ra aorist/perfect mi (<span class="gk">ἔγνων, τέθνηκα, ἀπόλωλα</span>)</h2>
+
+<p>Nếu nhà mi là &quot;tầng cổ&quot; của tiếng Hy Lạp, thì điều tự nhiên là nhiều động từ hiện đại nhà ω vẫn giữ <em>tài sản cổ</em> ở vài ngăn kéo: present thì diện áo ω, nhưng aorist hoặc perfect lại đuôi mi. Ba ví dụ đều đã gặp trong các bài trước – hôm nay chỉ cần gắn nhãn:</p>
+
+<table>
+<thead><tr><th>Present (nhà ω)</th><th>Aorist</th><th>Perfect</th><th>Ghi chú sinh ra</th></tr></thead>
+<tbody>
+<tr><td class="gk">γιγνώσκω &quot;tôi nhận biết&quot;</td><td class="gk">ἔγνων <span class="notyet">aorist gốc mi</span></td><td class="gk">ἔγνωκα</td><td>lặp <span class="gk">γι-</span> + thân <span class="gk">γνω-</span> + hậu tố <span class="gk">-σκ-</span>; aorist vứt bỏ lặp và hậu tố, đứng trần <span class="gk">γνο-/γνω-</span> + đuôi mi (1sg <span class="gk">ἔγνων</span>, 3sg <span class="gk">ἔγνω</span>, 3pl <span class="gk">ἔγνωσαν</span>)</td></tr>
+<tr><td class="gk">ἀποθνῄσκω &quot;tôi chết&quot;</td><td class="gk">ἔθανον <span class="notyet">aorist gốc</span></td><td class="gk">τέθνηκα <span class="notyet">second perfect</span></td><td>cùng khuôn <span class="gk">-σκ-</span>; perfect lặp <span class="gk">τε-</span>; phân từ <span class="gk">τεθνεώς / τεθνηκώς</span> (hai biến thể đã gặp ở Bài 19), pluperfect <span class="gk">ἐτεθνήκη(ν)</span> &quot;đã chết rồi (mãi)&quot;</td></tr>
+<tr><td class="gk">ἀπόλλυμι &quot;tôi làm mất / tôi bị mất&quot;</td><td class="gk">ἀπώλεσα <span class="notyet">first aorist ω</span></td><td class="gk">ἀπόλωλα <span class="notyet">second perfect</span></td><td>chi thứ <span class="gk">-νυμι</span>; xem achtung dưới – một động từ, hai diễn viên</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Achtung: ἀπόλλυμι và đính chính một gloss của Bài 22.</strong> Đây là cái bẫy &quot;phản nghĩa nhà mi&quot; hay gặp nhất: <span class="gk">ἀπόλλυμι</span> có <em>hai</em> mạch nghĩa tách rời: <strong>quá độ</strong> &quot;làm mất, tiêu diệt (cái gì)&quot; đi với aorist <span class="gk">ἀπώλεσα</span>; <strong>giao động</strong> &quot;đi đời, bị mất mạng&quot; đi với second perfect <span class="gk">ἀπόλωλα</span> (1sg), pluperfect <span class="gk">ἀπωλώλεσαν</span> (3pl). Trong bài đọc 22, câu <span class="gk">τῶν λοχαγῶν καὶ τῶν στρατιωτῶν οἱ συνεπόμενοι ἀπωλώλεσαν</span> &quot;các đội trưởng và binh sĩ đi theo họ <em>đã mất mạng</em>&quot;: gloss cũ của bài 22 ghi &quot;aorist của ἀπόλλυμι&quot; – <em>sai</em>; đúng là <em>pluperfect</em> (quá khứ hoàn thành) của second perfect <span class="gk">ἀπόλωλα</span>, thân <span class="gk">ἀπόωλο-</span>: &quot;đã ở trong trạng thái mất mạng&quot;. Xin đính chính lại đúng một dòng đó; phần còn lại của gloss kia giữ nguyên.</p>
+</div>
+
+<h3><span class="gk">οἶδα</span>: viên đá thứ năm của tầng cổ</h3>
+<p>Nhắc lại info box Bài 14 cho đủ bộ sưu tập: <span class="gk">οἶδα</span> &quot;tôi biết&quot; là <em>second perfect nguyên bản</em> với nghĩa hiện tại (<span class="gk">οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν)</span>); pluperfect <span class="gk">ᾔδη(ν), ᾔδησθα, ᾔδει...</span> &quot;tôi đã biết&quot;; tương lai <span class="gk">εἰδήσω</span>. Nó từng là perfect của một động từ &quot;nhìn thấy&quot; nguyên thủy (họ hàng <span class="gk">εἶδον</span>!) – nghĩa &quot;đã thấy → biết&quot; – và là minh họa sống cho việc tại sao perfect lại có thể mang nghĩa hiện tại. Cặp bổ khuyết kinh điển: <span class="gk">γιγνώσκω</span> &quot;trải qua việc biết (học ra, nhận ra)&quot; cung cấp present, còn <span class="gk">οἶδα</span> cung cấp perfect cho cùng một khái niệm &quot;biết&quot;.</p>
+
+<div class="tipp">
+<p><strong>Khái niệm: phép bổ khuyết (suppletion).</strong> Khi một động từ không tự đẻ nổi một thời nào đó, tiếng Hy Lạp cho nó mượn của một động từ khác <em>cùng trường nghĩa</em>, và hai đứa sống thành một cặp gắn bo: <span class="gk">ἔρχομαι / ἦλθον / ἐλεύσομαι / ἐλήλυθα</span> (đi) là bốn mảnh của bốn động từ khác nhau; <span class="gk">ὁράω / εἶδον / ὀφθήσομαι / ἑώρακα / ὤφθην</span> (nhìn/xuất hiện) năm mảnh; <span class="gk">λαμβάνω / ἔλαβον / εἴληφα / λήμψομαι</span> (lấy). Người học Latin đã thấy mẹo này trong <em>ferō / tulī / lātum</em> – ba thân, một động từ. Chiến lược thực tế: với động từ &quot;bất quy tắc lõi&quot; (mục 8), đừng hỏi &quot;đuôi này từ thân nào&quot; – hãy hỏi &quot;mảnh này thuộc viên nào của ban nhạc&quot;.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner: gnōscō và nōscō đi cùng một con đường.</strong> <em>gnōscō</em> (nhận ra, nhà <span class="gk">γιγνώσκω</span>) giữ đúng khuôn <em>-sk-</em> &quot;bắt đầu/bước vào trạng thái&quot;; <em>nōscō/nōvī</em> thì như <span class="gk">ἔγνων/γιγνώσκω</span>: một cặp present/nhận-thấy và perfect/biết. Đáng ngạc nhiên hơn cả là Latin không giữ tầng perfect lặp như <span class="gk">τέθνηκα, ἀπόλωλα</span> – tầng đó Latin bỏ từ trước sử ký; và cũng chẳng có chi thứ <span class="gk">-νυμι</span>. Tóm lại: nhà mi Hy Lạp không phải &quot;bản sao&quot; một loại hình nào đó của Latin – hai thứ tiếng cùng mở hộp công cụ Ấn-Âu nhưng mỗi bên giữ lại những ngăn kéo khác nhau. Biết điều này, bạn sẽ ngừng đòi hỏi &quot;tiếng Latin đâu có...&quot; mỗi lần gặp mi-verb: hai đường phát triển, hai hệ quả.</p>
+</div>
+
+<h2 id="s8">8. Bảng &quot;động từ bất quy tắc lõi&quot; và chiến lược bóc mi-verb bốn bước</h2>
+
+<p>Từ Bài 13 đến 22, portal đã nhặt dần những mảnh bất quy tắc qua từng bài đọc. Giờ là lúc trải toàn bộ trên một bàn: mười sáu động từ &quot;gánh&quot; phần lớn văn xuôi Attic. Cột Future/Aorist/Perfect liệt kê những mảnh chính đã gặp hoặc sắp gặp; ô – nghĩa là mảnh đó hiếm hoặc không dùng (và thường được mượn – xem phép bổ khuyết ở mục 7).</p>
+
+<table>
+<thead><tr><th>Nghĩa</th><th>Present</th><th>Future</th><th>Aorist</th><th>Perfect</th></tr></thead>
+<tbody>
+<tr><td>đi, đến</td><td class="gk">ἔρχομαι</td><td class="gk">ἐλεύσομαι</td><td class="gk">ἦλθον</td><td class="gk">ἐλήλυθα</td></tr>
+<tr><td>đi (định mệnh)</td><td class="gk">εἶμι</td><td class="gk">εἶμι (nghĩa tương lai)</td><td>–</td><td>–</td></tr>
+<tr><td>đem, mang</td><td class="gk">φέρω</td><td class="gk">οἴσω</td><td class="gk">ἤνεγκα</td><td class="gk">ἐνήνοχα</td></tr>
+<tr><td>nói</td><td class="gk">λέγω</td><td class="gk">ἐρῶ</td><td class="gk">εἶπον</td><td class="gk">εἴρηκα</td></tr>
+<tr><td>ăn</td><td class="gk">ἐσθίω</td><td class="gk">ἔδομαι</td><td class="gk">ἔφαγον</td><td>–</td></tr>
+<tr><td>uống</td><td class="gk">πίνω</td><td class="gk">πίομαι</td><td class="gk">ἔπιον</td><td class="gk">πέπωκα</td></tr>
+<tr><td>dẫn, đưa</td><td class="gk">ἄγω</td><td class="gk">ἀξῶ</td><td class="gk">ἤγαγον</td><td>–</td></tr>
+<tr><td>biết</td><td class="gk">γιγνώσκω</td><td class="gk">γνώσομαι</td><td class="gk">ἔγνων</td><td class="gk">ἔγνωκα</td></tr>
+<tr><td>biết (trạng thái)</td><td class="gk">οἶδα</td><td class="gk">εἰδήσω</td><td class="gk">ᾔδη(ν)</td><td>–</td></tr>
+<tr><td>nhìn; xuất hiện</td><td class="gk">ὁράω</td><td class="gk">ὄψομαι / ὀφθήσομαι</td><td class="gk">εἶδον / ὤφθην</td><td class="gk">ἑώρακα</td></tr>
+<tr><td>trải qua, chịu</td><td class="gk">πάσχω</td><td class="gk">πείσομαι</td><td class="gk">ἔπαθον</td><td class="gk">πέπονθα</td></tr>
+<tr><td>ném</td><td class="gk">βάλλω</td><td class="gk">βαλῶ</td><td class="gk">ἔβαλον / ἐβλήθην</td><td class="gk">βέβληκα</td></tr>
+<tr><td>lấy, nhận</td><td class="gk">λαμβάνω</td><td class="gk">λήμψομαι</td><td class="gk">ἔλαβον</td><td class="gk">εἴληφα</td></tr>
+<tr><td>trốn mắt ai</td><td class="gk">λανθάνω</td><td class="gk">λήσω</td><td class="gk">ἔλαθε(ν)</td><td class="gk">λέληθα</td></tr>
+<tr><td>may mắn được</td><td class="gk">τυγχάνω</td><td class="gk">τεύξομαι</td><td class="gk">ἔτυχον</td><td class="gk">τετύχηκα</td></tr>
+<tr><td>học ra</td><td class="gk">μανθάνω</td><td class="gk">μαθήσομαι</td><td class="gk">ἐμάθον</td><td class="gk">μεμάθηκα</td></tr>
+</tbody>
+</table>
+
+<p>Đọc bảng theo hàng ngang thành &quot;bài đồng dao&quot;: <span class="gk">φέρω, οἴσω, ἤνεγκα, ἐνήνοχα</span> – bốn thân, một nghĩa. Ghi chú một ô: <span class="gk">ᾔδη(ν)</span> về hình là pluperfect của <span class="gk">οἶδα</span> nhưng mang giá trị &quot;đã biết&quot; như một aorist (mục 7). Trong mười sáu hàng, chỉ ba hàng là động từ athematic thật sự ở present (<span class="gk">εἶμι</span> có khuôn mi, <span class="gk">οἶδα</span> là perfect mi, <span class="gk">γιγνώσκω, λανθάνω, τυγχάνω, μανθάνω</span> mang hậu tố <span class="gk">-σκ-/αν-</span> của tầng cổ); phần còn lại là động từ ω có tài sản bất quy tắc rải rác theo thời. Đó chính là lý do bảng này để ở cuối bài: nó <em>tổng kết</em> cách nhà mi và nhà ω chia nhau giữ mọi ngăn kéo.</p>
+
+<div class="tipp">
+<p><strong>Chiến lược &quot;bóc mi-verb&quot; bốn bước (dùng cho mọi dạng lạ gặp trên trang):</strong></p>
+<ol>
+<li><strong>Tách vỏ ngoài:</strong> gạch tiền tố hợp thành (<span class="gk">ἀπ-, ἐκ-, κατα-, παρα-, ἐπι-</span>...) và mảnh lặp (<span class="gk">τι-, ἱ-, δι-</span>) hoặc hậu tố cổ (<span class="gk">-σκ-, -νυ-</span>). Coi phần còn lại là thân ứng viên.</li>
+<li><strong>Hỏi thân là ai:</strong> đối chiếu thân ứng viên với bốn gốc <span class="gk">θε-/στα-/δο-/ἑ-</span> (hoặc <span class="gk">φα-</span> của <span class="gk">φημί</span>): <span class="gk">θε</span> đặt, <span class="gk">στα</span> đứng, <span class="gk">δο</span> cho, <span class="gk">ἑ</span> thả. Vài giây này quyết định 80% câu dịch.</li>
+<li><strong>Gán hệ thời:</strong> có lặp (hoặc <span class="gk">-νυ-</span>) và đuôi đặc trưng → hệ present/imperfect; thân trần + đuôi aorist xưa → hệ second aorist; thân + <span class="gk">-σα/-ση-</span>, <span class="gk">-θη-</span>, <span class="gk">-κα</span> → nhà ω thuê (aorist thường, aorist passive, perfect) – áp dụng mọi quy tắc ω đã học.</li>
+<li><strong>Ghép nghĩa cuối cùng:</strong> nghĩa thân + nghĩa tiền tố; rồi mới tra bảng ở trên để bắt phần bổ khuyết (nếu thân không tự đẻ nổi mảnh này – ví dụ <span class="gk">ἐξείη</span> chỉ có ở aorist optative, hoặc <span class="gk">εἶδον</span> chỉ có ở aorist của <span class="gk">ὁράω</span>).</li>
+</ol>
+</div>
+
+<div class="achtung">
+<p><strong>Achtung: đừng dùng bảng này để &quot;đoán ngược&quot; dạng chưa gặp.</strong> Bảng tổng kết cho phép <em>nhận ra</em> và <em>dịch</em>, không cho phép <em>sáng tác</em>: các động từ này mỗi mảnh phải học riêng như từ vựng. Nguyên tắc an toàn khi viết: chỉ viết một dạng nếu bạn đã thấy nó (trong bảng trên, trong bài đọc, hoặc trong từ điển đang mở) – đừng ghép thân + thời theo logic &quot;hợp lý&quot;, vì logic hợp lý chính là thứ tiếng Hy Lạp cổ đã phá ở hàng trăm ngã.</p>
+</div>
+
+<p>Bài đọc hôm nay sẽ để bạn luyện đúng chiến lược này: văn bản II có <span class="gk">κατενεγκών</span> (bước 1: <span class="gk">κατα-</span> tiền tố; bước 2: thân <span class="gk">ἐνεκ-</span> không khớp bốn gốc? – vì nó là aorist của <span class="gk">καταφέρω</span> &quot;đem xuống&quot;, đúng hàng <span class="gk">φέρω</span> của bảng trên, mảnh <span class="gk">ἤνεγκα</span> sau khi thêm tiền tố), và văn bản I có <span class="gk">παριόντα</span> (bước 1: <span class="gk">παρ-</span>; bước 2: thân <span class="gk">ἰοντ-</span> là participle; bước 3: hệ present; bước 4: <span class="gk">παρίημι</span> &quot;đi ngang&quot;). Hai câu thực hành thật, bốn bước mỗi câu.</p>
+
+<h2 id="reading">9. Bài đọc: Chết cho đáng (Xenophon, Apologie 28–29) – Cái rìu của Hephaistos (Lukian, Deorum dialogi 8)</h2>
+
+<div class="info">
+<p><strong>Văn bản I – Xenophon, <em>Apologie</em> 28–29, &quot;Chết cho đáng&quot;:</strong> bên cạnh Hồi ký và Kyrou paideia, Xenophon để lại một tiểu luận ngắn dựng lại lời bào chữa của Socrates sau bản án (năm 399 trước CN, Socrates đã bị tuyên; bức này được Xenophon viết như phụ chú cho hồi ức của chính y về người thầy). Hai đoạn ta đọc nằm ở cuối: §28 – Apollodoros, người hâm mộ trung thành mà cả Plato lẫn Xenophon đều nhớ mặt (y chính là kẻ khóc thảm thiết trong Phaidon), kêu lên vì thấy Socrates sắp chết một cách bất công; và câu trả lời được trích nhiều nhất của bản văn: &quot;thế ông muốn tôi chết một cách công bằng hơn à?&quot;. §29 – Anytos đi ngang qua, một trong ba kẻ tố cáo, thợ thuộc da giàu có; Socrates thả một câu châm chọc về nghề &quot;thuộc da&quot; cho con trai y. Hai chữ sẽ được mổ ở mục 6 đều có mặt ở đây: <span class="gk">ἔφη</span> (inquit) và <span class="gk">οὐκ ἔφην</span> (&quot;tôi đã từng nói không&quot;).</p>
+<p><strong>Văn bản II – Lukian, <em>Deorum dialogi</em> 8 (đánh số truyền thống; = 13 trong bản MacLeod), &quot;Cái rìu của Hephaistos&quot;:</strong> Lukian xứ Samosata (thế kỷ 2 sau CN), cây bút châm biếm viết tiếng Attic muộn nhưng sạch, đưa các vị thần Olympus vào skit hài kịch ngắn: đúng thể loại &quot;văn học giải trí cho người mới học&quot; – câu ngắn, ngữ pháp chuẩn, thoại kiểu sân khấu. Cảnh này: Zeus đau đầu kinh khủng (Athena sắp chào đời ngay trong sọ!), sai Hephaistos đem rìu đến để... chẻ đôi đầu mình. Còn đòn rìu thì bản văn truyền lại <em>không kể</em> (khoảng trống bản chép tay, ta đánh dấu &quot;...&quot;) – và ngay sau khoảng trống, một cô gái toàn vũ trang nhảy ra múa. Cú twist cuối là thương vụ &quot;công sức đỡ đẻ&quot;: Hephaistos đòi trả công bằng chính... cô dâu tương lai.</p>
+<p><strong>Nguồn (cả hai văn bản):</strong> Xenophon, <em>Apologie</em> 28–29 theo Perseus Digital Library (bản Marchant, public domain); Lukian, <em>Deorum dialogi</em> 8 theo bản chữ của Perseus/ancientlibrary và el.wikisource (bản MacLeod, khớp từng chữ giữa hai nguồn). Bốn chuẩn hóa hiển thị (khác nguồn, mọi từ giữ nguyên đọc): (1) dấu &quot;:&quot; của bản nguồn in theo quy ước hiện đại – giữa câu thành <span class="gk">·</span>, cuối câu thành &quot;.&quot;; (2) dấu elision/koronis chuẩn hóa thành ʼ; (3) đôi chữ in <span class="gk">ῤ</span> (rho + psili) của nguồn hiện thành <span class="gk">ῥ</span> thường: <span class="gk">θαρρῶν, πυρριχίζει</span>; (4) khoảng trống bản chép tay ở văn bản II đánh dấu bằng &quot;...&quot; và giải thích tại chỗ. Tên vai diễn (<span class="gk">Ζεύς, Ἥφαιστος</span>) giữ như bản in.</p>
+</div>
+
+<h4>Gloss nhanh cho hai văn bản (16 từ, đọc trước khi vào)</h4>
+
+<table>
+<thead>
+<tr><th>Từ</th><th>Nghĩa</th><th>Ghi chú nhanh</th></tr>
+</thead>
+<tbody>
+<tr><td><span class="gk">καταψήσαντα</span></td><td>(sau khi) rắc (đất bụi) lên</td><td>aorist phân từ của <span class="gk">καταψάω</span> &quot;rắc lên&quot;; nghi thức khóc thương: rắc bụi đất lên đầu mình – Apollodoros làm đúng tục, Xenophon chua chát gọi y là &quot;ngây thơ&quot; (§28)</td></tr>
+<tr><td><span class="gk">ἐπιγελάσαι</span></td><td>cười theo, bật cười</td><td>aorist nguyên mẫu của <span class="gk">ἐπιγελάω</span> + dative; <span class="gk">καὶ ἅμα ἐπιγελάσαι</span> &quot;vừa dứt lời thì cười&quot; – Socrates cười <em>trước cả</em> khi nói câu mỉa</td></tr>
+<tr><td><span class="gk">ἡ βύρσα, -ης</span></td><td>da (thuộc); nghề thuộc da</td><td>nghề nhà Anytos; ký ức Athen đã móc nghề này nhiều lần – Socrates chọn từ này không phải ngẫu nhiên (§29)</td></tr>
+<tr><td><span class="gk">κυδρός</span></td><td>oai phong, lẫm liệt</td><td>thân <span class="gk">τὸ κῦδος</span> &quot;vinh quang&quot;; dùng mỉa: Anytos đi ngang &quot;oai như làm nên chuyện lớn&quot;</td></tr>
+<tr><td><span class="gk">διαπέπρακται / διαπεπραγμένος</span></td><td>đã toại việc (và còn vậy)</td><td>perfect của <span class="gk">διαπράττω</span> &quot;toại công&quot; – sổ nợ Bài 14 (perfect &quot;còn đó&quot;) tái xuất trọn câu</td></tr>
+<tr><td><span class="gk">παριόντα</span></td><td>đang đi ngang</td><td>present phân từ của <span class="gk">παρίημι</span> = <span class="gk">παρ(α)- + ἵημι</span> &quot;(để mình) đi qua&quot; – con trực tiếp của <span class="gk">ἵημι</span>, mổ ở mục 8 bước 4</td></tr>
+<tr><td><span class="gk">ἥκω</span></td><td>tôi đến đây / tôi hiện diện</td><td>perfect gốc mang nghĩa hiện tại (như <span class="gk">οἶδα</span> &quot;đã thấy → biết&quot;): &quot;tôi đã đến → có mặt đây rồi&quot;</td></tr>
+<tr><td><span class="gk">ὀξύτατος</span></td><td>sắc bén nhất</td><td>so sánh nhất của <span class="gk">ὀξύς</span> &quot;sắc, nhọn, gắt&quot;; ở đây với <span class="gk">ὁ πέλεκυς</span> – danh từ vocab của hôm nay</td></tr>
+<tr><td><span class="gk">δίελε</span></td><td>(ngươi) chẻ đi!</td><td>aorist mệnh lệnh 2sg của <span class="gk">διαιρέω</span> &quot;chia đôi&quot;; mệnh lệnh aorist đã học (Bài 12): từng mệnh lệnh = mỗi hành động</td></tr>
+<tr><td><span class="gk">κατενεγκών</span></td><td>(sau khi) vung xuống</td><td>aorist phân từ của <span class="gk">καταφέρω</span> &quot;đem (rìu) chém xuống&quot; – mảnh <span class="gk">ἤνεγκα</span> của hàng <span class="gk">φέρω</span> trong bảng mục 8</td></tr>
+<tr><td><span class="gk">καθικνεῖσθαι</span></td><td>giáng xuống (cú đánh)</td><td>aorist middle nguyên mẫu của <span class="gk">καθικνέομαι</span> &quot;tới sát, chạm xuống&quot; (<span class="gk">κατά + ἵκνεομαι</span>); ở đây: hạ thủ toàn lực</td></tr>
+<tr><td><span class="gk">πρόσταττε</span></td><td>cứ ra lệnh!</td><td>present mệnh lệnh của <span class="gk">προστάσσω</span> &quot;xếp việc, chỉ định&quot; – họ <span class="gk">τάσσω</span>: <span class="gk">στρατηγός</span> (Bài 2), <span class="gk">ἡ τάξις</span></td></tr>
+<tr><td><span class="gk">ἀναστρέφουσιν</span></td><td>lật ngược, khuấy đảo</td><td><span class="gk">ἀναστρέφω</span> nghĩa đen ở đây &quot;xoay ngược lên&quot;; khác <span class="gk">ἀναστρέφομαι</span> &quot;quay về&quot; đã gặp – chủ ngữ là các cơn đau đẻ</td></tr>
+<tr><td><span class="gk">μαιώσεταί / ἡ μαίωτρα</span></td><td>sẽ làm bà đỡ / bà đỡ trưởng</td><td>tương lai của <span class="gk">μαίομαι</span> &quot;đỡ đẻ&quot;; <span class="gk">ἡ μαῖα, ἡ μαίωτρα</span> &quot;bà đỡ&quot; – <em>ngề</em> của cả văn bản: Zeus sinh bằng rìu, nên Hephaistos tự phong làm bà đỡ</td></tr>
+<tr><td><span class="gk">ἀναιμωτὶ</span></td><td>không một giọt máu</td><td>trạng từ bất biến từ <span class="gk">ἀναίμων</span> &quot;không máu&quot; (<span class="gk">ἀν-</span> + <span class="gk">αἷμα</span>); Hephaistos an ủi: sinh kiểu này... sạch sẽ hơn thường lệ</td></tr>
+<tr><td><span class="gk">πυρριχίζει</span></td><td>múa pyrrhichē</td><td>pyrrhichē: vũ điệu vũ trang (khiên + giáo) trong lễ hội Athena; bản nguồn in <span class="gk">ῤ</span> – hiển thị chuẩn hóa thành <span class="gk">ῥ</span></td></tr>
+</tbody>
+</table>
+
+<h3>Văn bản I: Chết cho đáng (Apologie 28–29)</h3>
+
+<p><strong>Khối 1 (§28, Apollodoros kêu lên, Socrates đáp):</strong></p>
+<p class="gk">παρὼν δέ τις Ἀπολλόδωρος, ἐπιθυμητὴς μὲν ὢν ἰσχυρῶς αὐτοῦ, ἄλλως δʼ εὐήθης, εἶπεν ἄρα· ἀλλὰ τοῦτο ἔγωγε, ὦ Σώκρατες, χαλεπώτατα φέρω, ὅτι ὁρῶ σε ἀδίκως ἀποθνῄσκοντα. τὸν δὲ λέγεται καταψήσαντα αὐτοῦ τὴν κεφαλὴν εἰπεῖν· σὺ δέ, ὦ φίλτατε Ἀπολλόδωρε, μᾶλλον ἐβούλου με ὁρᾶν δικαίως ἢ ἀδίκως ἀποθνῄσκοντα; καὶ ἅμα ἐπιγελάσαι.</p>
+
+<p><strong>Khối 2 (§29, Anytos đi ngang, Socrates thả một câu):</strong></p>
+<p class="gk">λέγεται δὲ καὶ Ἄνυτον παριόντα ἰδὼν εἰπεῖν· ἀλλʼ ὁ μὲν ἀνὴρ ὅδε κυδρός, ὡς μέγα τι καὶ καλὸν διαπεπραγμένος, εἰ ἀπέκτονέ με, ὅτι αὐτὸν τῶν μεγίστων ὑπὸ τῆς πόλεως ὁρῶν ἀξιούμενον οὐκ ἔφην χρῆναι τὸν υἱὸν περὶ βύρσας παιδεύειν. ὡς μοχθηρὸς οὗτος, ἔφη, ὃς οὐκ ἔοικεν εἰδέναι ὅτι ὁπότερος ἡμῶν καὶ συμφορώτερα καὶ καλλίω εἰς τὸν ἀεὶ χρόνον διαπέπρακται, οὗτός ἐστι καὶ ὁ νικῶν.</p>
+
+<p>Trước khi xem dịch: (1) Khối 1: tách <span class="gk">ἐπιθυμητὴς μὲν ὢν ἰσχυρῶς αὐτοῦ, ἄλλως δʼ εὐήθης</span> thành hai phân từ cách diện (Bài 19) – ai là chủ thể thật của <span class="gk">εἶπεν</span>? (2) <span class="gk">τὸν δὲ λέγεται... εἰπεῖν</span> là khuôn AcI đã học ở Bài 21: chủ thể giả định <span class="gk">τὸν</span> (ai?) + nguyên mẫu <span class="gk">εἰπεῖν</span> (nói gì?) – trong khối đó còn một AcI nữa nằm lồng trong lời nói; tìm nó. (3) Khối 2: <span class="gk">οὐκ ἔφην χρῆναι τὸν υἱὸν... παιδεύειν</span> – <span class="gk">ἔφην</span> hôm nay vừa học ở mục 6: động từ dẫn tường thuật đòi nguyên mẫu; vậy <span class="gk">χρῆναι</span> và <span class="gk">παιδεύειν</span> xếp chồng nhau thế nào?</p>
+
+<h3>Văn bản II: Cái rìu của Hephaistos (Deorum dialogi 8)</h3>
+
+<p><strong>Khối 3 (gọi thợ, lệnh đầu tiên, một câu nài):</strong></p>
+<p class="gk">Ἥφαιστος: Τί με, ὦ Ζεῦ, δεῖ ποιεῖν; ἥκω γάρ, ὡς ἐκέλευσας, ἔχων τὸν πέλεκυν ὀξύτατον, εἰ καὶ λίθους δέοι μιᾷ πληγῇ διατεμεῖν.</p>
+<p class="gk">Ζεύς: Εὖ γε, ὦ Ἥφαιστε· ἀλλὰ δίελέ μου τὴν κεφαλὴν εἰς δύο κατενεγκών.</p>
+<p class="gk">Ἥφαιστος: Πειρᾷ μου, εἰ μέμηνα; πρόσταττε δʼ οὖν τἀληθὲς ὅπερ θέλεις σοι γενέσθαι.</p>
+<p class="gk">Ζεύς: Τοῦτο αὐτό, διαιρεθῆναί μοι τὸ κρανίον· εἰ δὲ ἀπειθήσεις, οὐ νῦν πρῶτον ὀργιζομένου πειράσῃ μου. ἀλλὰ χρὴ καθικνεῖσθαι παντὶ τῷ θυμῷ μηδὲ μέλλειν· ἀπόλλυμαι γὰρ ὑπὸ τῶν ὠδίνων, αἵ μοι τὸν ἐγκέφαλον ἀναστρέφουσιν.</p>
+
+<p><strong>Khối 4 (cảnh báo, lệnh bêu, khoảng trống, và một tiếng kêu):</strong></p>
+<p class="gk">Ἥφαιστος: Ὅρα, ὦ Ζεῦ, μὴ κακόν τι ποιήσωμεν· ὀξὺς γὰρ ὁ πέλεκύς ἐστι καὶ οὐκ ἀναιμωτὶ οὐδὲ κατὰ τὴν Εἰλήθυιαν μαιώσεταί σε.</p>
+<p class="gk">Ζεύς: Κατένεγκε μόνον, ὦ Ἥφαιστε, θαρρῶν· οἶδα γὰρ ἐγὼ τὸ σύμφερον.</p>
+<p class="gk">Ἥφαιστος: Κατοίσω· τί γὰρ χρὴ ποιεῖν σοῦ κελεύοντος; ...</p>
+<p><em>Khoảng trống bản chép tay: giữa câu chịu lệnh và tiếng kêu dưới đây, mọi bản in đều mất một dòng – đòn rìu rơi và khoảnh khắc Athena bật ra; ta giữ nguyên lỗ hổng, đánh dấu bằng &quot;...&quot;.</em></p>
+<p class="gk">Ἥφαιστος: τί τοῦτο; κόρη ἔνοπλος; μέγα, ὦ Ζεῦ, κακὸν εἶχες ἐν τῇ κεφαλῇ· εἰκότως γοῦν ὀξύθυμος ἦσθα τηλικαύτην ὑπὸ τὴν μήνιγγα παρθένον ζωογονῶν καὶ ταῦτα ἔνοπλον· ἦ που στρατόπεδον, οὐ κεφαλὴν ἐλελήθεις ἔχων.</p>
+
+<p><strong>Khối 5 (Athena nhảy ra, múa vũ điệu chiến binh):</strong></p>
+<p class="gk">ἡ δὲ πηδᾷ καὶ πυρριχίζει καὶ τὴν ἀσπίδα τινάσσει καὶ τὸ δόρυ πάλλει καὶ ἐνθουσιᾷ καὶ τὸ μέγιστον, καλὴ πάνυ καὶ ἀκμαία γεγένηται δὴ ἐν βραχεῖ· γλαυκῶπις μέν, ἀλλὰ κοσμεῖ τοῦτο ἡ κόρυς.</p>
+
+<p><strong>Khối 6 (đòi công, trả giá, punchline):</strong></p>
+<p class="gk">Ἥφαιστος: ὥστε, ὦ Ζεῦ, μαίωτρά μοι ἀπόδος ἐγγυήσας ἤδη αὐτήν.</p>
+<p class="gk">Ζεύς: Ἀδύνατα αἰτεῖς, ὦ Ἥφαιστε· παρθένος γὰρ ἀεὶ ἐθελήσει μένειν. ἐγὼ δʼ οὖν τό γε ἐπʼ ἐμοὶ οὐδὲν ἀντιλέγω.</p>
+<p class="gk">Ἥφαιστος: Τοῦτʼ ἐβουλόμην· ἐμοὶ μελήσει τὰ λοιπά, καὶ ἤδη συναρπάσω αὐτήν.</p>
+<p class="gk">Ζεύς: Εἴ σοι ῥᾴδιον, οὕτω ποίει· πλὴν οἶδα ὅτι ἀδυνάτων ἐρᾷς.</p>
+
+<p>Trước khi xem dịch: (1) Khối 3: liệt kê mọi nguyên mẫu/optative – <span class="gk">δέοι, διατεμεῖν, κατενεγκών, διαιρεθῆναί, καθικνεῖσθαι</span> – với mỗi dạng, gán aorist hay present, chủ động hay trung/passive (bảng mục 5 là bản đồ). (2) Khối 4: <span class="gk">μὴ κακόν τι ποιήσωμεν</span> dùng subjunctive sau <span class="gk">μή</span> – là khuôn deliberative của Bài 21; còn <span class="gk">ἐλελήθεις ἔχων</span> là perfect của động từ nào trong bảng mục 8? (3) Khối 6: cả ba động từ <span class="gk">ἀπόδος, ἐγγυήσας, ἐρᾷς</span> đều sẽ có mặt trong bảng vocab – đoán trước nghĩa của chúng từ bối cảnh rồi kiểm tra ở mục 10.</p>
+
+<h3>Dịch tham khảo</h3>
+
+<h4>Văn bản I (Apologie 28–29)</h4>
+<p><em>Khối 1:</em> &quot;Có mặt ở đó, một người tên Apollodoros, kẻ khao khát y một cách mãnh liệt mà tính tình thì ngây thơ, lên tiếng: 'Nhưng này, Socrates ơi, chuyện này tôi chịu đựng khó hơn cả: thấy ông chết một cách bất công.' Người ta kể rằng (Socrates) vừa rắc bụi lên đầu y vừa nói: 'Thế ông Apollodoros thân mến ơi, ông lại muốn thấy tôi chết một cách công bằng, hơn là bất công chăng?' – và vừa dứt lời thì bật cười.&quot;</p>
+<p><em>Khối 2:</em> &quot;Người ta còn kể rằng (Socrates), thấy Anytos đi ngang, nói: 'Kìa, chàng này oai phong lẫm liệt, như vừa toại một việc lớn lao và đẹp đẽ, nếu y giết tôi – bởi vì thấy y được thành phố tôn vinh với những chức vụ to lớn nhất, tôi đã từng nói không rằng con y nên được dạy dỗ quanh chuyện thuộc da.' – 'Kẻ đốn mạt này, y nói, chẳng biết rằng: ai trong hai ta đã trọn cả kiếp làm những điều may hơn và đẹp hơn, kẻ ấy mới là kẻ thắng.'&quot;</p>
+
+<h4>Văn bản II (Deorum dialogi 8)</h4>
+<p><em>Khối 3:</em> <em>Hephaistos:</em> &quot;Phải làm gì đây, Zeus ơi? Tôi đến rồi, theo lệnh ngài, tay cầm chiếc rìu sắc nhất – dù có phải chẻ đá thì một nhát cũng xuyên.&quot; <em>Zeus:</em> &quot;Tốt lắm, Hephaistos: nhưng hãy chẻ đầu ta ra đôi, cứ vung xuống.&quot; <em>Hephaistos:</em> &quot;Ngài thử tôi đấy à, tưởng tôi điên? Vậy thì cứ ra lệnh thật: điều ngài muốn xảy ra cho mình là gì.&quot; <em>Zeus:</em> &quot;Chính đó: đầu ta bị chẻ đôi. Nếu ngươi không nghe, đây đâu phải lần đầu ngươi thử cơn giận của ta. Rồi phải ra tay với hết cơn thịnh nộ, đừng chần chừ: ta chết ngợp vì những cơn đau đẻ, chúng lật ngược cả bộ não ta lên.&quot;</p>
+<p><em>Khối 4:</em> <em>Hephaistos:</em> &quot;Coi chừng đấy, Zeus, kẻo ta làm hỏng một việc gì đó. Rìu này sắc lắm, và (cái sinh) này không không-máu được, cũng chẳng theo lối của Eileithyia mà (nàng) sẽ đỡ cho ngài.&quot; <em>Zeus:</em> &quot;Chỉ cần ngươi vung xuống, Hephaistos, cứ mạnh dạn: ta biết điều gì có lợi cho ta.&quot; <em>Hephaistos:</em> &quot;Tôi vung đây; còn gì phải làm nữa khi ngài đã ra lệnh? ...&quot; <em>(khoảng trống bản chép tay)</em> &quot;... Cái gì thế này? Một cô gái toàn vũ trang? Zeus ơi, ngài nuôi trong đầu một con quái vật khủng khiếp thế! Chả khác nào ngài cay cấn: sinh ngay dưới màng sọ một trinh nữ, lại còn toàn vũ trang – ngài mang trong đầu cả một trại binh chứ đâu phải một cái đầu!&quot;</p>
+<p><em>Khối 5:</em> &quot;Nàng nhảy lên, múa vũ điệu pyrrhichē, lắc tấm khiên, vung cây giáo, phấn khích hết cỡ – và điều lớn nhất: rất đẹp, và đã chín mận trong một khoảnh khắc. Đúng là mắt cú, nhưng chiếc mũ trụ lại làm cho (đôi mắt ấy) đẹp thêm.&quot;</p>
+<p><em>Khối 6:</em> <em>Hephaistos:</em> &quot;Vậy thì, Zeus, ngài trả tôi công bà đỡ: đã hứa hẹn (em nàng), giờ giao nàng đây.&quot; <em>Zeus:</em> &quot;Ngươi đòi điều bất khả, Hephaistos: trinh nữ thì đời đời chỉ muốn ở thế. Còn phần của ta, tôi chẳng cãi gì.&quot; <em>Hephaistos:</em> &quot;Đó chính là điều tôi muốn; phần còn lại để tôi lo, và ngay bây giờ tôi sẽ túm lấy nàng.&quot; <em>Zeus:</em> &quot;Nếu ngươi thấy dễ thế, cứ làm; nhưng ta biết trước: ngươi đang yêu một chuyện bất khả.&quot;</p>
+
+<h3>Phân tích chính tả từng cụm (đọc sau khi tự bóc)</h3>
+
+<ul>
+<li><strong><span class="gk">ἐπιθυμητὴς μὲν ὢν ἰσχυρῶς αὐτοῦ, ἄλλως δʼ εὐήθης</span> (khối 1):</strong> hai phân từ cách diện (Bài 19) vẽ Apollodoros bằng hai nét: &quot;khao khát mãnh liệt&quot; + &quot;ngây thơ&quot; – đúng hai từ ưu tiên của bảng mục 10 hôm nay (<span class="gk">ὁ ἐπιθυμητής, εὐήθης</span>). Khung <span class="gk">μέν... δέ</span> giữ cân; <span class="gk">ἰσχυρῶς</span> là trạng từ so sánh bằng (<span class="gk">ἰσχυρός</span>) – mô-típ &quot;tình lớn não bé&quot; mà cả Xenophon lẫn Plato đều gán cho Apollodoros.</li>
+<li><strong><span class="gk">τὸν δὲ λέγεται καταψήσαντα... εἰπεῖν</span> (khối 1):</strong> AcI sau <span class="gk">λέγεται</span> (Bài 21): chủ thể giả định <span class="gk">τὸν</span> = Socrates, hành động <span class="gk">εἰπεῖν</span>. Trong lời nói còn AcI thứ hai: <span class="gk">ὁρῶ σε ἀδίκως ἀποθνῄσκοντα</span> – &quot;thấy ông đang chết&quot;: phân từ present giữ hành động diễn ra (Bài 19). Câu mỉa <span class="gk">μᾶλλον ἐβούλου με ὁρᾶν δικαίως ἢ ἀδίκως ἀποθνῄσκοντα;</span> dùng khuôn <span class="gk">μᾶλλον... ἢ</span> &quot;hơn là&quot; với imperfect <span class="gk">ἐβούλου</span> – giả định lịch sự: &quot;ông lại <em>muốn</em>... chăng?&quot;. Cả hai vocab <span class="gk">ἀποθνῄσκω</span> đều trong câu này.</li>
+<li><strong><span class="gk">λέγεται δὲ καὶ Ἄνυτον παριόντα ἰδὼν εἰπεῖν</span> (khối 2):</strong> bộ ba AcI lồng nhau: <span class="gk">λέγεται</span> [Socrates] <span class="gk">ἰδὼν</span> [Anytos <span class="gk">παριόντα</span>] <span class="gk">εἰπεῖν</span>. Trong đó <span class="gk">παριόντα</span> là màn diễn tập chiến lược mục 8: tiền tố <span class="gk">παρ-</span> + thân <span class="gk">ἰ-</span> → phân từ present của <span class="gk">παρίημι</span> &quot;(để) đi ngang&quot;. Bài tập 4 sẽ cho bạn tự đi lại đúng bốn bước.</li>
+<li><strong><span class="gk">εἰ ἀπέκτονέ με... ὅτι... οὐκ ἔφην χρῆναι τὸν υἱὸν... παιδεύειν</span> (khối 2):</strong> hai kho báu. Một: <span class="gk">εἰ ἀπέκτονέ</span> là aorist subjunctive của <span class="gk">ἀποκτέννυμι</span> &quot;giết&quot; – đúng chi thứ <span class="gk">-νυμι</span> của mục 1, và là ví dụ sống cho εἰ + giả định chưa hẹn (không ἄν) giữ màu &quot;nếu (rồi) y giết tôi&quot;. Hai: <span class="gk">οὐκ ἔφην χρῆναι τὸν υἱὸν περὶ βύρσας παιδεύειν</span> – <span class="gk">φημί</span> (mục 6!) dẫn <em>hai tầng</em> nguyên mẫu: <span class="gk">ἔφην</span> [χρῆναι [τὸν υἱὸν παιδεύειν]] &quot;tôi đã từng nói không rằng cần để con y... được dạy (bên) da&quot;. <span class="gk">χρῆναι</span> là aorist nguyên mẫu bất biến của <span class="gk"> χρή</span> (sổ nợ mục 1); <span class="gk">περὶ βύρσας</span> mượn &quot;quanh chuyện thuộc da&quot; – xiên nghề nhà Anytos.</li>
+<li><strong><span class="gk">Τί με... δεῖ ποιεῖν; / εἰ καὶ λίθους δέοι... διατεμεῖν</span> (khối 3):</strong> câu hỏi deliberative mở màn; <span class="gk">δεῖ</span> giờ đã lộ gốc nhà mi (mục 1). <span class="gk">δέοι</span> là optative present của <span class="gk">δεῖ</span> trong vế <span class="gk">εἰ καὶ... δέοι</span> &quot;ngay cả nếu cần...&quot; – optative &quot;màu tiềm năng&quot; của Bài 21. <span class="gk">κατενεγκών</span> đã mổ ở mục 8 (hàng <span class="gk">φέρω</span>); <span class="gk">διαιρεθῆναί μοι τὸ κρανίον</span> là nguyên mẫu aorist passive &quot;đầu ta bị chẻ đôi&quot; + tặng cách lợi ích <span class="gk">μοι</span> &quot;cho ta&quot;.</li>
+<li><strong><span class="gk">μὴ κακόν τι ποιήσωμεν / μαιώσεταί σε / ἐλελήθεις ἔχων</span> (khối 4):</strong> <span class="gk">ποίησωμεν</span> là subjunctive deliberative sau <span class="gk">μή</span> &quot;kẻo ta...&quot; (Bài 21). <span class="gk">μαιώσεταί σε</span>: tương lai mid + tân ngữ trực tiếp – Eileithyia là nữ thần đỡ đẻ, nên câu là &quot;(Athena) sẽ không đỡ đẻ cho ngài như một Eileithyia&quot;: sinh bằng rìu thì khỏi bàn chuyện bà đỡ. Còn <span class="gk">ἐλελήθεις ἔχων</span> là perfect của <span class="gk">λανθάνω</span> (bảng mục 8): &quot;ngài mang... mà hoàn toàn không hay biết&quot; – nghĩa thành ngữ của cả hàng này.</li>
+<li><strong><span class="gk">ἡ δὲ πηδᾷ... γεγένηται δὴ ἐν βραχεῖ</span> (khối 5):</strong> <span class="gk">ἡ δὲ</span> lật vai diễn sang Athena; chuỗi present sống động của xúc tác kịch (nhảy, múa, lắc, vung) đột ngột hạ một nốt <span class="gk">γεγένηται</span> perfect: &quot;đã trở thành (và cứ thế)&quot; (sổ nợ Bài 14). <span class="gk">γλαυκῶπις</span> = <span class="gk">γλαύξ</span> &quot;con cú&quot; + <span class="gk">ὤψ</span> &quot;mắt&quot; – epithet chính thức của Athena (trên acropolis Athens, đàn cú là hàng xóm); <span class="gk">ἡ κόρυς</span> &quot;mũ trụ&quot; gloss tại chỗ: hài ở đây là &quot;mắt cú (xấu) nhưng mũ trụ vẫn cứu&quot;.</li>
+<li><strong><span class="gk">μαίωτρά μοι ἀπόδος ἐγγυήσας ἤδη αὐτήν / ἀδυνάτων ἐρᾷς</span> (khối 6):</strong> <span class="gk">ἀπόδος</span> là aorist middle mệnh lệnh 2sg của <span class="gk">ἀποδίδωμι</span> &quot;trao trả&quot; – con của chính nhà <span class="gk">δίδωμι</span> hôm nay, đúng khuôn <span class="gk">δός/δοῦ</span> mục 5! <span class="gk">ἐγγυήσας</span> (aorist phân từ của <span class="gk">ἐγγυάω</span> &quot;bảo chứng, hứa&quot;) gói punchline thần thoại: Hephaistos được hứa cưới Athena – đòn rìu bây giờ thành &quot;công đẻ&quot;. Câu cuối <span class="gk">ἀδυνάτων ἐρᾷς</span> &quot;ngươi đang yêu chuyện bất khả&quot; đóng skit kiểu sitcom: luật thần thoại (Athena trinh nữ vĩnh viễn) thắng hợp đồng – nhưng cái bướng của Hephaistos thì cũng vĩnh viễn như thế.</li>
+</ul>
+
+<h2 id="vocab">10. Từ vựng trọng tâm</h2>
+
+<p>18 từ của bài, 15 từ ưu tiên (<span class="star">★</span> = nên học thuộc trước Anki nhóm 21–24). Đã kiểm tra không trùng từ vựng Bài 1–22 (riêng <span class="gk">ὁ Ζεύς</span> đã có ở Bài 4, tái xuất vì bài đọc hôm nay dùng tặng cách và cách gọi).</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Translit.</th><th>English</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> τίθημι</td><td class="tr">títhēmi</td><td class="em">to put, place</td><td>đặt, để</td><td>thân <span class="gk">θε-</span> &quot;đặt&quot; (mục 2); hợp thành: <span class="gk">ἀποτίθημι</span> cất đi, <span class="gk">ἐπιτίθημι</span> đặt lên; gốc &quot;thesis&quot; (<span class="gk">ἡ θέσις</span> &quot;sự đặt ra&quot;)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἵστημι</td><td class="tr">hístēmi</td><td class="em">to stand, set up</td><td>đứng; dựng đứng</td><td>bộ sáu dạng chủ chốt: <span class="gk">ἵστημι / ἵστην / ἔστην / ἔστησα / ἕστηκα / στῆναι</span> (mục 3–5); gốc &quot;stasis, ecstasy&quot;; Latin họ hàng <em>stāre</em></td></tr>
+<tr><td class="gk"><span class="star">★</span> δίδωμι</td><td class="tr">dídōmi</td><td class="em">to give</td><td>cho, trao</td><td>đã gặp <span class="gk">δίδωσι</span> trong Anabasis 2,6,4 (Bài 22); mệnh lệnh <span class="gk">δός</span>, nguyên mẫu <span class="gk">δοῦναι</span>; Latin họ hàng <em>dō, dare</em></td></tr>
+<tr><td class="gk"><span class="star">★</span> ἵημι</td><td class="tr">híēmi</td><td class="em">to let go, send forth</td><td>thả, để đi</td><td>dạng đơn hiếm; nhớ qua hợp thành: <span class="gk">ἀφίημι</span> thả/tha, <span class="gk">ἐξίημι</span> cho ra (nguồn của <span class="gk">ἐξείη</span> Bài 22), <span class="gk">παρίημι</span> &quot;đi ngang&quot; (bài đọc I)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἀποθνῄσκω</td><td class="tr">apothnḗskō</td><td class="em">to die</td><td>chết, từ trần</td><td>ba tầng đã mổ ở mục 7: <span class="gk">ἔθανον / τέθνηκα / τεθνεώς</span>; bài đọc I: <span class="gk">ἀποθνῄσκοντα</span> (và <span class="gk">δικαίως ἢ ἀδίκως</span> &quot;công bằng hay bất công&quot;)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ πέλεκυς, -εως</td><td class="tr">ho pélekys</td><td class="em">axe</td><td>cái rìu</td><td>nhóm âm s (đuôi -εως); bài đọc II đuôi nó theo <span class="gk">τὸν πέλεκυν ὀξύτατον</span> &quot;chiếc rìu sắc nhất&quot;; đồng hành tự nhiên với <span class="gk">ἡ πληγή</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ πληγή, -ῆς</td><td class="tr">hē plēgḗ</td><td class="em">blow, stroke</td><td>cú đánh</td><td>họ <span class="gk">πλήσσω</span> &quot;đánh&quot;; Latin mượn đường này thành <em>plaga</em> rồi sinh &quot;plague&quot;; bài đọc II: <span class="gk">μιᾷ πληγῇ</span> &quot;một nhát&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> τὸ κρανίον, -ου</td><td class="tr">to kraníon</td><td class="em">skull</td><td>cái sọ</td><td>trung tính nhóm o (Bài 3); Latin mượn thành <em>cranium</em>; bài đọc II: <span class="gk">διαιρεθῆναί μοι τὸ κρανίον</span> &quot;đầu ta bị chẻ đôi&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ μῆνιγξ, -ιγγος</td><td class="tr">ho mēninx</td><td class="em">membrane</td><td>khối màng (não)</td><td>số nhiều <span class="gk">οἱ μήνιγγες</span> = meninges trong y học; bài đọc II: <span class="gk">ὑπὸ τὴν μήνιγγα</span> &quot;ngay dưới màng sọ&quot;</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ἐγκέφαλος, -ου</td><td class="tr">ho enképhalos</td><td class="em">brain</td><td>bộ não</td><td><span class="gk">ἐν</span> &quot;trong&quot; + <span class="gk">ἡ κεφαλή</span> &quot;đầu&quot; = &quot;cái nằm trong đầu&quot;; gốc &quot;encephalitis&quot;; bài đọc II: <span class="gk">τὸν ἐγκέφαλον ἀναστρέφουσιν</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> εὐήθης, -ες</td><td class="tr">euḗthēs</td><td class="em">simple, naive</td><td>ngây thơ, tử tế mà non dại</td><td><span class="gk">εὖ</span> &quot;tốt&quot; + <span class="gk">τὸ ἦθος</span> &quot;bản tính&quot; (gốc &quot;ethics&quot;): bản tính tốt nhưng thiếu trải đời; Apollodoros trong bài đọc I</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ἐπιθυμητής, -οῦ</td><td class="tr">ho epithymētḗs</td><td class="em">one who longs</td><td>kẻ khao khát</td><td>từ <span class="gk">ἐπιθυμέω</span> (Bài 17) + <span class="gk">ἡ ἐπιθυμία</span> &quot;sự khao khát&quot;; kẻ &quot;-της&quot; làm nghề gì: bài đọc I gán đúng nghề cho Apollodoros</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἐρᾶν</td><td class="tr">erân</td><td class="em">to love passionately</td><td>yêu say đắm</td><td>động từ khiếm khuyết: chủ yếu present và tương lai <span class="gk">ἐρῶ</span>; <span class="gk">ἐρᾷς</span> chốt văn bản II; gốc &quot;erotic&quot; (<span class="gk">ὁ ἔρως</span>, <span class="gk">ἡ ἐρωτική</span>)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἔνοπλος, -ον</td><td class="tr">énoplos</td><td class="em">armed</td><td>có vũ trang</td><td><span class="gk">ἐν</span> + <span class="gk">τὰ ὅπλα</span> &quot;vũ khí&quot;: &quot;mang vũ khí trong mình&quot;; họ chữ sinh ra &quot;hoplite&quot;; <span class="gk">κόρη ἔνοπλος</span> mở màn trận sinh nở của văn bản II</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ θυμός, -οῦ</td><td class="tr">ho thymós</td><td class="em">anger, spirit</td><td>cơn giận dữ, sinh khí</td><td>từ lõi của Homer: vừa &quot;phẫn nộ&quot; vừa &quot;sinh khí/sự sống&quot;; bài đọc II: <span class="gk">παντὶ τῷ θυμῷ</span> &quot;hết cơn thịnh nộ&quot;; <span class="gk">θυμοῦμαι</span> &quot;tức giận&quot;</td></tr>
+<tr><td class="gk">ὁ Ζεύς, Διός</td><td class="tr">ho Zeús</td><td class="em">Zeus</td><td>thần Zeus</td><td>đã học Bài 4 (dạng tặng <span class="gk">Τῷ Διὶ</span>); hôm nay gặp cách gọi <span class="gk">ὦ Ζεῦ</span> và các đuôi xác định trong văn bản II; <span class="gk">Διός</span> là tặng cách gốc s bất quy tắc</td></tr>
+<tr><td class="gk">ὁ Ἥφαιστος</td><td class="tr">ho Hēphaistos</td><td class="em">Hephaestus</td><td>thần Hephaistos</td><td>thợ rèn của Olympus; kẻ bị gắn trên mạng với Aphrodite, nhưng văn bản II cho y một &quot;hợp đồng&quot; khác: cầu hôn Athena</td></tr>
+<tr><td class="gk">ὁ Ἀπολλόδωρος</td><td class="tr">ho Apollodōros</td><td class="em">Apollodorus</td><td>Apollodoros (tên riêng)</td><td>kẻ hâm mộ trung thành của Socrates; cả Plato (<em>Phaidon</em>) lẫn Xenophon đều khắc cho y hai chữ: khao khát, và ngây thơ (bài đọc I)</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">11. Cặp dễ nhầm</h2>
+
+<p>Bài về động từ <span class="gk">-μι</span> là bài của những bộ mặt na ná nhau. Mười cặp dưới đây phủ gần hết vấp ngón của cả bài, và tất cả đều có mặt trong hai văn bản đọc hôm nay.</p>
+
+<table>
+<thead><tr><th>Cặp dễ nhầm</th><th>Phân biệt</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἵστην – ἔστην</td><td><span class="gk">ἵστην</span> là imperfect, đang đứng hoặc đang dựng tiếp, <em>không augment</em>; <span class="gk">ἔστην</span> là aorist, đã đứng hoặc đã dừng hẳn, <em>có augment</em> ἐ-. Cùng một chữ ἵστημι, hai thì khác nhau.</td><td>Nhìn chữ mở đầu: còn nguyên ἵ- với iota subscript là imperfect; thấy augment ἐ- trước thân η dài là aorist.</td></tr>
+<tr><td class="gk">ἔστησα – ἔστην</td><td><span class="gk">ἔστησα</span> là aorist <em>quá độ</em>: đặt ai hoặc cái gì đứng (<span class="gk">τὸν ἵππον ἔστησα</span> &quot;ta cho ngựa đứng&quot;). <span class="gk">ἔστην</span> là aorist <em>giao động</em>: tự đứng lên, hoặc dừng lại, không cần đối tượng.</td><td>Hỏi: sau động từ có một đối tượng bị dựng đứng không? Có thì ἔστησα, không thì ἔστην.</td></tr>
+<tr><td class="gk">ἔφην – ἐφάνη</td><td><span class="gk">ἔφην</span> là imperfect của <span class="gk">φημί</span>, &quot;đã nói, từng nói&quot; (chủ từ chủ động phát ngôn; Xenophon thường viết gọn <span class="gk">ἔφη</span>, bỏ ν di động). <span class="gk">ἐφάνη</span> là aorist bị động của <span class="gk">φαίνω</span>: &quot;đã hiện ra, đã bộc lộ&quot;.</td><td>Nhìn thân sau augment: <span class="gk">φη-</span> là nhà &quot;nói&quot;, <span class="gk">φαν-</span> là nhà &quot;hiện&quot;. Nghĩa câu sẽ chốt lại lựa chọn.</td></tr>
+<tr><td class="gk">φησί – ἐστί(ν) – εἶσι</td><td>Ba từ bé dễ đọc lẫn: <span class="gk">φησί</span> &quot;nói rằng&quot; (present của <span class="gk">φημί</span>), <span class="gk">ἐστί(ν)</span> &quot;là&quot; (εἰμί), <span class="gk">εἶσι</span> &quot;đi&quot; (present của <span class="gk">εἶμι</span> &quot;sẽ đi&quot;).</td><td><span class="gk">εἶσι</span> luôn mang iota subscript dưới ῖ; <span class="gk">ἐστί(ν)</span> bắt đầu bằng ἐ- thẳng; còn <span class="gk">φησί</span> bắt đầu bằng φ. Đọc cả câu trước khi quyết.</td></tr>
+<tr><td class="gk">ἵημι – εἶμι</td><td><span class="gk">ἵημι</span> &quot;thả, để đi&quot; (mi-verb hôm nay); <span class="gk">εἶμι</span> &quot;sẽ đi&quot; (suppletive với <span class="gk">ἔρχομαι</span>). Đường hợp thành cũng tách nhau: <span class="gk">ἀφίημι</span> &quot;thả, tha&quot; nhưng <span class="gk">ἄπειμι</span> &quot;sẽ rời đi&quot;.</td><td>Nhìn nguyên âm giữa chữ: <span class="gk">-ιη-</span> (iota dài) nhà ἵημι, <span class="gk">-ει-</span> nhà εἶμι.</td></tr>
+<tr><td class="gk">ἱστᾶσι – ἱστῶσι</td><td><span class="gk">ἱστᾶσι</span> indicative, &quot;họ đang dựng đứng&quot;; <span class="gk">ἱστῶσι</span> subjunctive, &quot;họ (có thể / hãy) dựng đứng&quot;. Khác nhau chỉ ở một dấu accent.</td><td>Quy tắc chung cho mọi động từ: -ᾶ- (circumflex) là indicative, -ῶ- là subjunctive. Đọc to câu lên: subjunctive hay đứng trong mệnh đề PURPOSE hoặc sau ἐάν.</td></tr>
+<tr><td class="gk">ἔδωκε(ν) – ἔδοσαν</td><td>Cùng aorist của <span class="gk">δίδωμι</span>: <span class="gk">ἔδωκε(ν)</span> số ít &quot;đã cho&quot;, <span class="gk">ἔδοσαν</span> số nhiều &quot;họ đã cho&quot;. Mi-verb aorist có hai bộ đuôi: nhóm -κε(ν) số ít, nhóm -σαν số nhiều.</td><td>Hỏi chủ từ số ít hay số nhiều; chữ κ chỉ xuất hiện ở đuôi số ít.</td></tr>
+<tr><td class="gk">δίδου – δοῦ</td><td><span class="gk">δίδου</span> là mệnh lệnh present, &quot;hãy (đang tiếp tục) cho&quot;; <span class="gk">δοῦ</span> là mệnh lệnh aorist, &quot;hãy cho (một lần, ngay)&quot;.</td><td>Accent: <span class="gk">δίδου</span> mang dấu sắc ở âm tiết đầu, <span class="gk">δοῦ</span> mang dấu mũ ở âm cuối. Một dấu accent đổi cả thì của động từ.</td></tr>
+<tr><td class="gk">δοῦναι – δοῦσθαι</td><td>Nguyên mẫu aorist: <span class="gk">δοῦναι</span> chủ động &quot;việc cho (ai đó cho)&quot;, <span class="gk">δοῦσθαι</span> trung động &quot;việc tự cho mình / xin cho mình&quot;.</td><td>Đuôi -ναι luôn chủ động; đuôi -σθαι luôn trung động hoặc bị động. Câu hỏi: ai hưởng kết quả của việc cho?</td></tr>
+<tr><td class="gk">μᾶλλον – μάλα</td><td><span class="gk">μᾶλλον</span> &quot;hơn&quot; (bậc so sánh), <span class="gk">μάλα</span> &quot;rất&quot; (bậc tăng cường). Bài đọc I dùng đúng cặp này: <span class="gk">μᾶλλον ἐβούλου ... ἢ ...</span> &quot;ngươi muốn ... hơn là ...&quot;.</td><td>Thấy <span class="gk">ἢ</span> &quot;hơn là&quot; đứng sau thì chữ trước nó là <span class="gk">μᾶλλον</span>; <span class="gk">μάλα</span> đứng một mình làm phó từ &quot;rất&quot;.</td></tr>
+<tr><td class="gk">τίθει – τίθετε – τιθέτω</td><td>Bộ ba mệnh lệnh present của <span class="gk">τίθημι</span>: <span class="gk">τίθει</span> &quot;(ngươi) hãy đặt&quot;, <span class="gk">τίθετε</span> &quot;(các ngươi) hãy đặt&quot;, <span class="gk">τιθέτω</span> &quot;(hắn) hãy đặt&quot;.</td><td>Đối chiếu ngôi người nghe với đuôi: -ει là ngươi, -ετε là các ngươi, -τω là hắn (ngôi ba).</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">12. Bài tập tự luyện + đáp án</h2>
+
+<p><em>Đáp án chỉ hiện khi in (Ctrl+P → Save as PDF) – làm xong rồi mới in ra soát.</em></p>
+
+<h3>Bài tập 1 – Gọi tên giống loài</h3>
+<p>Chín dạng dưới đây đều lấy từ hai văn bản hôm nay và hai đoạn Anabasis đã đọc ở Bài 22. Với mỗi dạng: nói ra họ động từ (gốc <span class="gk">θε-</span>, <span class="gk">στα-</span>, <span class="gk">δο-</span>, <span class="gk">ἑ-</span>, <span class="gk">φα-</span>, hoặc họ hàng ở bảng mục 8), rồi thì, thức, ngôi số, rồi một nhịp nghĩa tiếng Việt:</p>
+<ol>
+<li class="gk">δίδωσι</li>
+<li class="gk">ἐξείη</li>
+<li class="gk">οὐκ ἔφην χρῆναι</li>
+<li class="gk">εἰ ἀπέκτονέ με</li>
+<li class="gk">Ἄνυτον παριόντα</li>
+<li class="gk">ἀπόδος</li>
+<li class="gk">καθικνεῖσθαι</li>
+<li class="gk">ἐλελήθεις</li>
+<li class="gk">μαιώσεταί σε</li>
+</ol>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 1</h4>
+<p>(1) <span class="gk">δίδωμι</span>, present chỉ định 3sg: &quot;hắn đang cho&quot; – lặp <span class="gk">δι-</span> + thân <span class="gk">δο-</span>, không augment. (2) <span class="gk">ἐξίημι</span> (ἐκ + ἵημι), aorist optative chủ động 3sg: &quot;cho ra, cho phép ra đi&quot; – đúng mảnh bổ khuyết đã học ở Bài 22 trong mạch &quot;mỗi khi&quot; quá khứ. (3) <span class="gk">φημί</span>, imperfect 1sg (hoặc 3sg theo ngữ cảnh): &quot;(tao) đã không chịu nói rằng nên...&quot; – augment <span class="gk">ἐ-</span> + thân <span class="gk">φη-</span>; theo sau là AcI <span class="gk">χρῆναι ... παιδεύειν</span>. (4) <span class="gk">ἀποκτέννυμι</span> (họ <span class="gk">-νυμι</span>, mục 1), aorist gốc <span class="gk">ἀπέκτονον</span> để ở thức subjunctive 3sg: &quot;nếu y giết ta&quot; – <span class="gk">εἰ</span> + giả định chưa hẹn, không ἄν. (5) <span class="gk">παρίημι</span> (παρ(α) + ἵημι), phân từ present giống acc: &quot;(Anytos) đang đi ngang qua&quot;. (6) <span class="gk">ἀπόδιδωμι</span>, mệnh lệnh aorist trung động 2sg: &quot;hãy trả lại!&quot; – con của nhà <span class="gk">δίδωμι</span>. (7) <span class="gk">καθικνέομαι</span> (κατά + ἵκνεομαι), nguyên mẫu aorist trung động: &quot;giáng xuống (một cú)&quot;. (8) <span class="gk">λανθάνω</span> (bảng mục 8), perfect 2sg có augment: &quot;ngươi đã lọt khỏi (sự để mắt), hoàn toàn không hay biết&quot;. (9) <strong>bẫy!</strong> – thân <span class="gk">μαι-</span> không nằm trong bốn gốc, và đuôi <span class="gk">-σεται</span> là tương lai trung động 3sg của động từ thường <span class="gk">μαίωμαι</span> &quot;làm mụ đỡ&quot;: &quot;nàng sẽ đỡ đẻ cho ngươi (đấy chứ đừng mơ)&quot;. Bước 2 của chiến lược bóc mi-verb đã gạt bạn ra khỏi nhà mi sai.</p>
+</div></div>
+
+<h3>Bài tập 2 – Lấp bảng present chủ động</h3>
+<p>Lấp năm ô trống (cột τίθημι chia đầy để đối chiếu; cả ba động từ đều ở hệ present không augment):</p>
+<table>
+<thead><tr><th>Ngôi</th><th>τίθημι</th><th>ἵστημι</th><th>δίδωμι</th></tr></thead>
+<tbody>
+<tr><td>1sg</td><td class="gk">τίθημι</td><td class="gk">ἵστημι</td><td class="gk">δίδωμι</td></tr>
+<tr><td>2sg</td><td class="gk">τίθης</td><td class="gk">(1)</td><td class="gk">δίδως</td></tr>
+<tr><td>3sg</td><td class="gk">τίθησι</td><td class="gk">ἵστησι</td><td class="gk">(2)</td></tr>
+<tr><td>1pl</td><td class="gk">τίθεμεν</td><td class="gk">ἵσταμεν</td><td class="gk">(3)</td></tr>
+<tr><td>2pl</td><td class="gk">τίθετε</td><td class="gk">ἵστατε</td><td class="gk">δίδοτε</td></tr>
+<tr><td>3pl</td><td class="gk">(4)</td><td class="gk">(5)</td><td class="gk">διδόασι</td></tr>
+</tbody>
+</table>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 2</h4>
+<p>(1) <span class="gk">ἵστης</span>, (2) <span class="gk">δίδωσι</span>, (3) <span class="gk">δίδομεν</span>, (4) <span class="gk">τιθέασι</span>, (5) <span class="gk">ἱστᾶσι</span>.</p>
+<p>Hai điểm cần tự soi: số nhiều 3 ngôi luôn nhoi một nguyên âm (<span class="gk">-ασι</span> thay vì <span class="gk">-σι</span>), và <span class="gk">ἱστᾶσι</span> mang dấu mũ trên ᾶ ở chỉ định – đổi thành <span class="gk">ἱστῶσι</span> là sang subjunctive (mục 11).</p>
+</div></div>
+
+<h3>Bài tập 3 – Một động từ, bốn nghề</h3>
+<p>Năm dạng sau đều thuộc một mình <span class="gk">ἵστημι</span>. Với mỗi dạng: nói thì, phân biệt <strong>giao động</strong> (không đối tượng) hay <strong>quá độ</strong> (có đối tượng bị dựng đứng), và dịch một nhịp:</p>
+<ol>
+<li class="gk">ἵστησι</li>
+<li class="gk">ἵστη</li>
+<li class="gk">ἔστην</li>
+<li class="gk">ἔστησε(ν)</li>
+<li class="gk">ἕστηκα</li>
+</ol>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 3</h4>
+<p>(1) present chỉ định 3sg, giao động hoặc quá độ tùy ngữ cảnh: &quot;hắn đang đứng / đang dựng cái gì đó&quot;. (2) mệnh lệnh present 2sg: &quot;hãy đứng! / hãy dựng!&quot; (chọn nghĩa theo có-không đối tượng). (3) aorist giao động, có augment: &quot;hắn đã đứng lại / đã dừng lại&quot;. (4) aorist quá độ, đuôi sigmatic <span class="gk">-σε(ν)</span>: &quot;hắn đã cho cái gì đó đứng dậy&quot;. (5) perfect chủ động: &quot;hắn đang ở trạng thái đã đứng&quot; – kết quả còn nguyên tới hiện tại (mục 4).</p>
+</div></div>
+
+<h3>Bài tập 4 – Bóc mi-verb bốn bước</h3>
+<p>Đóng cuốn bài lại, lấy giấy nháp, tự đi lại <strong>đúng bốn bước</strong> của mục 8 (tách vỏ ngoài → hỏi thân là ai → gán hệ thời → ghép nghĩa cuối cùng) cho hai câu sau. Mỗi câu chỉ cần bóc một dạng in đậm:</p>
+<ol>
+<li><span class="gk">λέγεται δὲ καὶ Ἄνυτον <strong>παριόντα</strong> ἰδὼν εἰπεῖν</span></li>
+<li><span class="gk">ἀλλὰ χρὴ <strong>καθικνεῖσθαι</strong> παντὶ τῷ θυμῷ μηδὲ μέλλειν</span></li>
+</ol>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 4</h4>
+<p>(1) Bước 1: gạch tiền tố <span class="gk">παρ(α)-</span>, không augment, không mảnh lặp. Bước 2: thân ứng viên <span class="gk">ἰοντ-</span> có hậu tố phân từ <span class="gk">-οντ-</span>, thân thật là <span class="gk">ἰ-</span> (biến thể của <span class="gk">ἑ-</span> trước nguyên âm). Bước 3: không lặp nhưng thuộc hệ present vì <span class="gk">ἵημι</span> mượn thân <span class="gk">ἰ-</span> ở present–imperfect. Bước 4: <span class="gk">παρίημι</span> &quot;để đi ngang&quot; → acc. đích + phân từ: &quot;thấy Anytos đang đi ngang qua&quot;. (2) Bước 1: gạch tiền tố <span class="gk">καθ(α)-</span> (κατά co cụm trước nguyên âm hít). Bước 2: thân <span class="gk">ἱκνε-</span> không khớp bốn gốc – tra bảng 16 động từ mục 8: đây là mảnh aorist của <span class="gk">ἵκνεομαι</span> &quot;tới, chạm xuống&quot;. Bước 3: đuôi <span class="gk">-σθαι</span> = nguyên mẫu trung động, hệ aorist. Bước 4: <span class="gk">καθικνέομαι</span> &quot;giáng xuống&quot; → với <span class="gk">παντὶ τῷ θυμῷ</span>: &quot;phải giáng (rìu) hết cơn thịnh nộ, chớ chần chừ&quot;.</p>
+</div></div>
+
+<h3>Bài tập 5 – Dịch hai câu trích</h3>
+<p>Dịch sang tiếng Việt, giữ giọng nhân vật (một câu là lời Zeus trần trụi, một câu là câu mỉa của Socrates). Trước khi dịch, khoanh mọi dạng thuộc bài hôm nay:</p>
+<ol>
+<li class="gk">ὥστε, ὦ Ζεῦ, μαίωτρά μοι ἀπόδος ἐγγυήσας ἤδη αὐτήν.</li>
+<li class="gk">σὺ δέ, ὦ φίλτατε Ἀπολλόδωρε, μᾶλλον ἐβούλου με ὁρᾶν δικαίως ἢ ἀδίκως ἀποθνῄσκοντα;</li>
+</ol>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 5</h4>
+<p>(1) &quot;Vậy thì, Zeus ơi, ngài trả tôi công bà đỡ: đã hứa hẹn (em nàng), giờ giao nàng đây.&quot; – khoanh <span class="gk">ἀπόδος</span> (mệnh lệnh aorist của <span class="gk">ἀπόδιδωμι</span>); <span class="gk">ἐγγυήσας</span> là phân từ aorist của <span class="gk">ἐγγυάω</span> &quot;bảo chứng, hứa&quot;: người ta hứa gả Athena cho Hephaistos, nên nhát rìu thành &quot;công đẻ&quot;. (2) &quot;Thế ông Apollodoros thân mến ơi, ông lại muốn thấy tôi chết một cách công bằng, hơn là bất công chăng?&quot; – khoanh <span class="gk">ἀποθνῄσκοντα</span> (phân từ present trong AcI, giữ hành động đang diễn ra) và khuôn <span class="gk">μᾶλλον ... ἢ</span> &quot;hơn là&quot; (mục 11); <span class="gk">ἐβούλου</span> imperfect tạo giọng lịch sự của câu mỉa.</p>
+</div></div>
+
+<h3>Bài tập 6 – Nối mảnh bổ khuyết</h3>
+<p>Cột trái là dạng quá khứ, cột phải là động từ present. Nối đúng cặp, rồi gán quan hệ: <strong>(a)</strong> cùng một gốc, <strong>(b)</strong> đổi nguyên âm của gốc (ablaut), hay <strong>(c)</strong> bổ khuyết hoàn toàn (khác nguồn hẳn):</p>
+<table>
+<thead><tr><th>Cột trái</th><th>Cột phải</th></tr></thead>
+<tbody>
+<tr><td class="gk">1. ἔγνων</td><td class="gk">A. ὁράω</td></tr>
+<tr><td class="gk">2. τέθνηκα</td><td class="gk">B. ἀπόλλυμι</td></tr>
+<tr><td class="gk">3. ἀπόλωλα</td><td class="gk">C. λανθάνω</td></tr>
+<tr><td class="gk">4. εἶδον</td><td class="gk">D. γιγνώσκω</td></tr>
+<tr><td class="gk">5. ἔλαθον</td><td class="gk">E. ἀποθνῄσκω</td></tr>
+</tbody>
+</table>
+
+<div class="answer"><div class="loesung">
+<h4>Đáp án 6</h4>
+<p>1–D (b): aorist gốc <span class="gk">γνο-</span> đổi nguyên âm so với <span class="gk">γνω-</span>, kèm lặp <span class="gk">γι-</span> ở present. 2–E (a): perfect <span class="gk">τε-θνη-κα</span> cùng gốc θνη với <span class="gk">ἀποθνῄσκω</span>. 3–B (b): second perfect <span class="gk">ἀπό-ωλ-ε</span>, gốc <span class="gk">ὀλ-</span> so với present <span class="gk">ὀλλυ-</span>; từ đây mà Bài 22 có pluperfect <span class="gk">ἀπωλώλεσαν</span> &quot;đã mất mạng (và còn vậy)&quot;. 4–A (c): <span class="gk">εἶδον</span> là mảnh aorist của <span class="gk">ὁράω</span>, khác nguồn hẳn; họ <span class="gk">εἰδ-</span> này còn sinh perfect <span class="gk">οἶδα</span> &quot;biết&quot;. 5–C (a): aorist gốc <span class="gk">λαθ-</span> trùng thân của <span class="gk">λανθάνω</span> (đúng dạng xuất hiện trong bài đọc II ở perfect <span class="gk">ἐλελήθεις</span>).</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 23 – Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: &quot;Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0&quot; · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF). Đối chiếu bản đọc: Xenophon, Apologie 28–29; Lukian, Deorum dialogi 8 (qua Perseus Digital Library / el.wikisource, public domain).</p>
+
+</main>
+</body>
+</html>
