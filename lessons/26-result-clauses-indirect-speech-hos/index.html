@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 26 – Mệnh đề kết quả (ὥστε) và tường thuật với ὡς</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 26: Mệnh đề kết quả với ὥστε và tường thuật với ὡς – hai mảnh ghép trước màn nhác</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Bản đồ: hai mảnh mới ghép vào hệ thống đã có</a></li>
+<li><a href="#s2">Mệnh đề kết quả là gì: vế sau nói điều đã xảy ra</a></li>
+<li><a href="#s3">Kết quả thực tế: ὥστε + chỉ định</a></li>
+<li><a href="#s4">Kết quả khái quát: ὥστε + ἄν + optative</a></li>
+<li><a href="#s5">Tường thuật với ὡς "rằng": người anh em của ὅτι</a></li>
+<li><a href="#s6">Một chữ ὡς, bốn chiếc chìa: bản đồ đa dụng</a></li>
+<li><a href="#s7">Chiến lược đọc: gặp ὥστε và ὡς trong văn thật</a></li>
+<li><a href="#reading1">Bài đọc 1: Hypothesis zur Antigone (đề diễn giải của một vở kịch)</a></li>
+<li><a href="#reading2">Bài đọc 2: Aesop 143 – Sư tử và con bò mộng (Chambry 211)</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) nhận ra mệnh đề kết quả (result clause) bằng <span class="gk">ὥστε</span> và phân biệt kết quả thực tế (chỉ định) với kết quả khái quát (optative + <span class="gk">ἄν</span>); (2) dùng <span class="gk">ὡς</span> làm dẫn từ "rằng" trong tường thuật gián tiếp, đúng luật tiếp thời của Bài 25; (3) bóc một chữ <span class="gk">ὡς</span> theo bốn vai (so sánh, mục đích, nguyên nhân, tường thuật) mà không dịch nhầm; (4) đọc trọn hai văn bản "trước màn nhác": bản đề diễn giải của vở Antigone và một ngụ ngôn Aesop nguyên văn.</p>
+</div>
+
+<h2 id="s1">1. Bản đồ: hai mảnh mới ghép vào hệ thống đã có</h2>
+
+<p>Giữa Graecum II, mỗi bài là một mảnh ghép. Bạn đã cầm trong tay: mệnh đề thời gian và nguyên nhân (Bài 22), điều kiện (Bài 21), mục đích với <span class="gk">ἵνα</span> + giả định (Bài 16), optative và các khuôn của nó (Bài 17), và ở Bài 25 cả hệ thống tường thuật gián tiếp với tiếp thời (sequence of tenses). Hôm nay hai mảnh mới kẹp vào đúng hai khe hở còn lại:</p>
+<table>
+<thead><tr><th>Mảnh mới</th><th>Khe hở nó lấp</th><th>Phần dưới</th></tr></thead>
+<tbody>
+<tr><td>Mệnh đề kết quả với <span class="gk">ὥστε</span></td><td>Cho đến nay bạn mới nói được "để cho..." (mục đích, hướng tới việc <em>chưa</em> xảy ra); chưa có khuôn nói "đến nỗi... (và nó <em>đã/thường</em> xảy ra)"</td><td>Mục 2–4</td></tr>
+<tr><td>Tường thuật với <span class="gk">ὡς</span> "rằng"</td><td>Bài 25 dạy kênh 1 là <span class="gk">ὅτι</span> + động từ chia; nhưng văn thật rất hay thay <span class="gk">ὅτι</span> bằng một chữ khác mà bạn chưa được trang bị</td><td>Mục 5–6</td></tr>
+</tbody>
+</table>
+
+<p>Hai văn bản đọc hôm nay đều là văn bản "trước màn nhác" (paratext): <strong>bản đề diễn giải (hypothesis)</strong> gắn đầu vở Antigone của Sophokles, cho khán giả-xem-đọc biết cốt truyện trước khi nhập đề; và <strong>một ngụ ngôn Aesop</strong>, thể loại tự gói mình trong một câu học đạo lý ngay câu chốt. Một vở bi kịch, một chuyện cười cướp đời sống: hai cái đầu triệt đối nhau của văn chương Hy Lạp, gặp nhau ở cùng một cấu trúc ngữ pháp: <em>kể lại một cách chắc nịch điều mà người khác có thể chỉ được nghe nghe</em>.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> cả hai mảnh hôm nay đều là "gói nối hai vế": mệnh đề trước nêu <em>nguyên nhân/mức độ</em>, mệnh đề sau nêu <em>hệ quả</em> (<span class="gk">ὥστε</span>); động từ dẫn nêu <em>ai nói</em>, mệnh đề sau nêu <em>nói gì</em> (<span class="gk">ὡς</span>). Mỗi lần gặp một liên từ/đạo từ mới, hãy tự hỏi nó nối <em>hai thứ gì</em>, thì không phải học thuộc từng công dụng một cách rời rạc.</p>
+</div>
+
+<h2 id="s2">2. Mệnh đề kết quả là gì: vế sau nói điều đã xảy ra</h2>
+
+<p>Mệnh đề kết quả (result clause, còn gọi consecutive clause) là mệnh đề phụ trả lời câu hỏi "hệ quả thế nào?": <em>thú gì to đến thế, đến nỗi...</em>, <em>y sợ đến nỗi...</em>. Vế chính nêu nguyên nhân ở dạng một nhận định, vế <span class="gk">ὥστε</span> nêu hậu quả <em>như một dữ kiện</em>:</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ λέων οὕτως ἐφοβήθη ὥστε ὁ ταῦρος ἀπηλλάττετο.</td><td class="tr">ho léōn hoûtos ephobḗthē hōste ho taûros apēllátteto.</td><td class="em">The lion became so afraid that the bull went away.</td><td>Sư tử sợ đến nỗi con bò rời đi luôn.</td></tr>
+</tbody>
+</table>
+
+<p>Điểm phân biệt số một là <strong>kết quả khác mục đích</strong>, dù cả hai cùng là mệnh đề phụ "chỉ về việc theo sau":</p>
+<table>
+<thead><tr><th></th><th>Mục đích (purpose, Bài 16)</th><th>Kết quả (result, hôm nay)</th></tr></thead>
+<tbody>
+<tr><td>Hỏi về việc kia</td><td>Chưa xảy ra, chỉ là <em>ý định</em> hướng tới</td><td>Đã xảy ra, hoặc thường xảy ra, như <em>sự kiện có thật</em></td></tr>
+<tr><td>Dẫn từ + thức</td><td class="gk">ἵνα / ὡς</td><td class="gk">ὥστε</td></tr>
+<tr><td>Tiếng Việt</td><td>"để cho, hầu cho"</td><td>"đến nỗi, tới mức"</td></tr>
+<tr><td>Tiếng Đức</td><td><em>damit, um ... zu</em></td><td><em>so dass</em></td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> lỗi kinh điển là dịch <span class="gk">ὥστε</span> thành "để". Câu <span class="gk">ὥστε</span> không hứa hẹn gì cả, nó <em>báo cáo hệ quả</em>. Cách tự kiểm tra: đọc vế chính rồi hỏi <em>"và rồi sao?"</em>, nếu vế phụ trả lời được thì đó là kết quả; nếu phải hỏi <em>"nhằm để làm gì?"</em> thì mới là mục đích.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin dùng <em>ut</em> cho cả hai: <em>tam fortis est ut omnes superet</em> (kết quả) và <em>venit ut omnes videat</em> (mục đích), cả hai đều chia giả định; phân biệt nằm ở văn cảnh và thời. Hy Lạp tách bạch hơn bằng <em>thức</em>: mục đích = giả định, kết quả thực = chỉ định, kết quả khái quát = optative. Ai học Latin trước sẽ thấy Hy Lạp gọn hơn ở điểm này.</p>
+</div>
+<h2 id="s3">3. Kết quả thực tế: ὥστε + chỉ định</h2>
+
+<p>Khi hệ quả là <strong>sự kiện có thật</strong>, vế <span class="gk">ὥστε</span> chia động từ ở <strong>chỉ định (indicative)</strong>: hiện tại, quá khứ, hoàn thành đều được, đúng thời của sự kiện. Vế chính không bắt buộc có từ "to đến mức" tương ứng, nhưng văn hay dùng <span class="gk">οὕτως</span> "như vậy" hoặc <span class="gk">τοσοῦτος</span> "to đến thế" để mở mức độ:</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">οὕτως δεινὸς ἦν ὁ λέων ὥστε οὐδεὶς προσιέναι ἐτόλμα.</td><td class="tr">hoûtos deinòs ên ho léōn hōste oudeìs prosiénai etólma.</td><td class="em">The lion was so fearsome that no one dared to come near.</td><td>Sư tử ghê gớm đến nỗi không ai dám lại gần.</td></tr>
+<tr><td class="gk">τοσοῦτοι ἦσαν οἱ ὀβελίσκοι ὥστε ὁ ταῦρος ἐφοβήθη.</td><td class="tr">tosoûtoi êsan hoi obelískoi hōste ho taûros ephobḗthē.</td><td class="em">The skewers were so many that the bull took fright.</td><td>Xiên nướng nhiều đến nỗi con bò sợ mất.</td></tr>
+<tr><td class="gk">οὕτως ἐφοβήθη ὥστε οὐδὲν εἶπεν.</td><td class="tr">hoûtos ephobḗthē hōste oudèn eîpen.</td><td class="em">He was so frightened that he said nothing.</td><td>Nó sợ đến nỗi không nói một lời.</td></tr>
+</tbody>
+</table>
+
+<p>Ba điều quan sát: (1) chủ từ của vế <span class="gk">ὥστε</span> <strong>không cần trùng</strong> chủ từ vế chính: sư tử sợ, con bò bỏ đi; (2) phủ định trong kết quả thực là <span class="gk">οὐ</span>, vì đây là tường thuật một dữ kiện; (3) thời của vế <span class="gk">ὥστε</span> tự do theo sự kiện, không bị "kéo" theo vế chính như trong tường thuật gián tiếp (Bài 25): kết quả là <em>thế giới riêng</em> của nó.</p>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> không dùng <strong>tương lai chỉ định</strong> trong kết quả thực. Hệ quả "chưa xảy ra" không còn là kết quả nữa, nó thành dự đoán; tiếng Hy Lạp đẩy trường hợp đó sang khuôn khái quát của mục 4. Cách tự kiểm tra: thay thử bằng quá khứ, nếu câu vẫn đúng nghĩa thì nó là kết quả thực; nếu chỉ là "sẽ thế này thế kia" thì dịch "đến nỗi có thể" và dùng optative.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> mức độ nằm ở vế chính (tùy chọn <span class="gk">οὕτως</span>/<span class="gk">τοσοῦτος</span>), hệ quả nằm ở vế sau: <span class="gk">ὥστε</span> + chỉ định + <span class="gk">οὐ</span> (nếu phủ định). Dịch trước vế chính với "to/sợ/nhiều ... đến nỗi", rồi để vế <span class="gk">ὥστε</span> kể chuyện đã xảy ra: như đọc hai câu chuyện nối đuôi, một câu gây, một câu chịu.</p>
+</div>
+
+<h2 id="s4">4. Kết quả khái quát: ὥστε + ἄν + optative</h2>
+
+<p>Khi hệ quả <strong>chưa hẳn xảy ra mà chỉ có thể xảy ra</strong>, hoặc xảy ra theo kiểu "ai cũng có thể, bất kể lần nào", vế <span class="gk">ὥστε</span> chia <strong>optative</strong>, thường kèm <span class="gk">ἄν</span>. Nghĩa dịch: "đến nỗi <em>có thể</em>...". Khuôn này hay gặp sau vế chính phủ định hoặc giả định: "chẳng có gì đáng sợ <em>đến nỗi phải</em>..." là màu điển hình:</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">οὕτω λανθάνει ὁ δόλος ὥστε μή τις αὐτὸν ἴδοι.</td><td class="tr">hoûto lanthánei ho dólos hōste mḗ tis autòn ídoi.</td><td class="em">The trick lies so hidden that no one could see it.</td><td>Mưu gian kín đến nỗi không ai có thể nhìn ra nó.</td></tr>
+<tr><td class="gk">τοσοῦτος ἦν ὁ δόλος ὥστε ἂν καὶ τὸν φρόνιμον ἐξαπατοίη.</td><td class="tr">tosoûtos ên ho dólos hōste àn kaì tòn phrónimon exapatoíē.</td><td class="em">The trick was so great that it could deceive even the wise.</td><td>Mưu gian to đến nỗi có thể lừa cả kẻ sáng suốt.</td></tr>
+</tbody>
+</table>
+
+<p>Hai chi tiết: (1) phủ định trong kết quả khái quát là <span class="gk">μή</span>, không phải <span class="gk">οὐ</span>: vế đã rời đất "dữ kiện" sang đất "khả năng", và vùng khả năng thì <span class="gk">μή</span> cai trị, đúng như lời ước ở Bài 17; (2) văn xuôi cổ (Herodotos, văn Attic đời đầu) hay <strong>bỏ <span class="gk">ἄν</span></strong> mà chỉ để optative trơ một mình, thời Attic kinh điển thêm <span class="gk">ἄν</span> cho rõ màu tiềm năng. Gặp vế <span class="gk">ὥστε</span> + optative không <span class="gk">ἄν</span> trong văn cổ, đừng sửa người cổ, hãy cứ dịch "đến nỗi có thể".</p>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> đừng lẫn vế <span class="gk">ὥστε</span> + <span class="gk">ἄν</span> + optative với <strong>apodosis của điều kiện tiềm năng</strong> (Bài 21: <span class="gk">εἰ</span> + optative + <span class="gk">ἄν</span>). Cùng một "bộ ba", khác vai: điều kiện tiềm năng đứng <em>sau vế nếu</em> và tự lập một cặp giả thiết-kết quả; kết quả khái quát thì <em>bám một mức độ</em> ở vế chính. Cách tự kiểm tra: có <span class="gk">εἰ</span> không? Không có mà có "to/nhiều/sợ đến nỗi" phía trước thì là kết quả.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin gói cả hai loại kết quả vào <em>ut</em> + giả định: <em>tam callidus est ut quemvis fallat</em> "y xảo quyệt đến nỗi có thể lừa bất kể ai" và <em>tam callidus erat ut omnem fefellisset</em> đều là giả định, phân biệt bằng thời và văn cảnh. Hy Lạp cho bạn một "đèn signal" rõ hơn: chỉ định = đã thật, optative = có thể.</p>
+</div>
+
+<h2 id="s5">5. Tường thuật với ὡς "rằng": người anh em của ὅτι</h2>
+
+<p>Bài 25 dạy kênh 1 của tường thuật gián tiếp là <span class="gk">ὅτι</span> "rằng" + động từ chia. Hôm nay thêm đạo từ thứ hai cùng chức năng: <span class="gk">ὡς</span>. Sau động từ nói, nghĩ, thấy, biết, <span class="gk">ὡς</span> mở lời thuật y hệt <span class="gk">ὅτι</span>, và <strong>toàn bộ luật tiếp thời của Bài 25 giữ nguyên</strong>: chuỗi chính giữ chỉ định, chuỗi phụ đẩy xuống optative lệch:</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th><th>Tiếng Việt</th></tr></thead>
+<tbody>
+<tr><td class="gk">ὁ λέων φησὶν ὡς τὸ πρόβατον τέθυκε.</td><td class="tr">ho léōn phēsìn hōs tò próbaton tétuke.</td><td class="em">The lion says that he has sacrificed the sheep.</td><td>Sư tử nói rằng (nó) đã giết tế con cừu rồi.</td></tr>
+<tr><td class="gk">ὁ ταῦρος ἔφη ὡς οὐ μάτην τοῦτο ποιοῖ.</td><td class="tr">ho taûros éphē hōs ou mátēn toûto poioî.</td><td class="em">The bull said that he was not doing this in vain.</td><td>Con bò nói rằng nó làm thế không phải vô ích.</td></tr>
+</tbody>
+</table>
+
+<p>Hai ví dụ trên đều "mượn" lời thoại thật từ bài đọc 2 hôm nay; ví dụ 1 giữ chỉ định hoàn thành (chuỗi chính, và hoàn thành khoe "xong rồi", đúng chất lời của kẻ nói dối), ví dụ 2 đẩy hiện tại <span class="gk">ποιῶ</span> thành <span class="gk">ποιοῖ</span> vì <span class="gk">ἔφη</span> quá khứ (chuỗi phụ). Đổi <span class="gk">ὡς</span> thành <span class="gk">ὅτι</span> ở cả hai câu: nghĩa không thay đổi. Vậy khi nào văn thật chọn <span class="gk">ὡς</span>? Hai khuynh hướng: <span class="gk">ὡς</span> ưa đứng sau <span class="gk">φημί, νομίζω, δοκεῖ</span> và các động từ "hiện ra, có vẻ" (lời thuật pha màu <em>diễn giải</em> của người kể), còn <span class="gk">ὅτι</span> trung tính hơn về giọng.</p>
+
+<p>Một khuôn phụ đáng biết: sau động từ <strong>hy vọng, hứa, mong</strong>, <span class="gk">ὡς</span> thường đi với <strong>nguyên mẫu</strong> thay vì mệnh đề: <span class="gk">ἤλπισεν ὡς ἐλεύσεσθαι</span> "y hy vọng (rằng) sẽ đến", nối thẳng với kênh 3 (nguyên mẫu) mà bạn đã bóc ở Bài 25. Cùng một chữ <span class="gk">ὡς</span>, hai tấm vé: mệnh đề chia hoặc nguyên mẫu, chọn tấm nào còn tùy động từ dẫn.</p>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> sau động từ quá khứ, <span class="gk">ἔφη ὡς ποιοῖ</span> rất dễ bị dịch nhầm thành mục đích ("nói để làm...") vì optative trông giống vế giả định của Bài 16. Cách tự kiểm tra: quét về <em>trước</em> <span class="gk">ὡς</span>: có động từ nói/nghĩ/biết không? Có thì đây là "rằng" và optative là optative lệch của chuỗi phụ, không phải giả định mục đích.</p>
+</div>
+
+<h2 id="s6">6. Một chữ ὡς, bốn chiếc chìa: bản đồ đa dụng</h2>
+
+<p><span class="gk">ὡς</span> là chữ lặp mặt nhiều nhất của văn xuôi Hy Lạp. Thay vì học "thành ngữ từng câu", hãy giữ một bản đồ vai, rồi tự hỏi <em>đứng sau ὡς là cái gì</em>:</p>
+
+<table>
+<thead><tr><th>Vai của ὡς</th><th>Dấu hiệu nhận biết</th><th>Ví dụ</th><th>Dịch</th></tr></thead>
+<tbody>
+<tr><td>So sánh "như"</td><td>Sau nó là danh từ/đại từ (thường kèm <span class="gk">εἰς</span>, <span class="gk">ἐπί</span>... hoặc một mệnh đề so sánh)</td><td class="gk">παρασκευὴν οὐχὶ ὡς εἰς πρόβατον</td><td>"sự chuẩn bị không <em>như</em> (cho) con cừu" (bài đọc 2, nguyên văn)</td></tr>
+<tr><td>Mục đích "để"</td><td>Sau nó là <strong>nguyên mẫu</strong></td><td class="gk">ἦλθεν ὡς ἰδεῖν τὸν λέβητα</td><td>"y đến <em>để</em> xem cái nồi"</td></tr>
+<tr><td>Nguyên nhân "vì là, với vai trò" (Bài 22)</td><td>Sau nó là danh từ ở đối cách làm vị ngữ, hoặc mệnh đề, khi động từ chính mang màu đánh giá</td><td class="gk">ἔφυγον ὡς πονηρόν</td><td>"họ trốn y, <em>vì</em> (theo họ) y là kẻ xấu"</td></tr>
+<tr><td>Tường thuật "rằng" (hôm nay)</td><td>Sau nó là <strong>động từ chia</strong>, và <em>trước nó</em> có động từ nói/nghĩ/biết</td><td class="gk">ἔφη ὡς οὐ μάτην τοῦτο ποιοῖ</td><td>"y nói <em>rằng</em> y làm thế không phải vô ích"</td></tr>
+</tbody>
+</table>
+
+<p>Còn một vai thứ năm chỉ cần "nhận mặt", không cần sản xuất: <span class="gk">ὡς</span> cảm thán đứng đầu câu, kèm dấu cảm: <span class="gk">ὡς δεινόν</span>! "Ghê gớm làm sao!", đặc sản của kịch trường mà bạn sẽ gặp khi Graecum II đọc bi kịch.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> chuỗi tự kiểm tra gồm ba mũi hỏi theo đúng thứ tự: (1) <em>sau</em> <span class="gk">ὡς</span> là nguyên mẫu không? → mục đích. (2) Là động từ chia? → <em>trước</em> <span class="gk">ὡς</span> có động từ nói/nghĩ không? → "rằng". (3) Là danh từ? → "như" hoặc "vì là", quyết bằng văn cảnh: có chỗ so sánh không, hay có màu đánh giá ở vế chính? Ba mũi hỏi này xử lý được chín phần mười các <span class="gk">ὡς</span> bạn gặp.</p>
+</div>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> trong bài đọc 2 hôm nay, <span class="gk">οὐχὶ ὡς εἰς πρόβατον, ἀλλ᾿ εἰς ταῦρον</span> là <em>so sánh</em>, không phải "rằng" hay "để": con bò so sự chuẩn bị với một bữa tiệc cừu rồi phủ nhận. Và đừng đọc <span class="gk">ὥστε</span> thành <span class="gk">ὡς</span> (hoặc ngược lại): một dấu nặng và cụm <span class="gk">-στε</span> đổi cả mệnh đề kết quả thành... cái gì cũng được, vì <span class="gk">ὥστε</span> nguyên thủy chính là <span class="gk">ὡς</span> + tiểu từ nhấn <span class="gk">τε</span> "chính như thế": cùng nhà, nhưng đến nay đã hai chức năng rạch ròi.</p>
+</div>
+
+<h2 id="s7">7. Chiến lược đọc: gặp ὥστε và ὡς trong văn thật</h2>
+
+<p>Ghép hai khuôn của hôm nay vào đường ống đọc tổng quát (Bài 24–25):</p>
+<ol>
+<li><strong>Gặp <span class="gk">ὥστε</span></strong>: hỏi <em>thực hay khái quát?</em> Chỉ định → thực (dịch "đến nỗi [đã]"); optative (+ <span class="gk">ἄν</span> hoặc trơ một mình) → khái quát ("đến nỗi có thể"). Rồi hỏi <em>phủ định gì?</em> <span class="gk">οὐ</span> = phủ nhận dữ kiện; <span class="gk">μή</span> = phủ nhận khả năng.</li>
+<li><strong>Gặp <span class="gk">ὡς</span></strong>: chạy ba mũi hỏi của mục 6. Chỉ khi khẳng định được vai, mới tra từ điển mở rộng; tra từ trước mới hỏi sau là cách đọc chậm nhất mà quên nhanh nhất.</li>
+<li><strong>Gặp văn "trước màn nhác"</strong> (hypothesis, ngụ ngôn): hai thể loại này có <em>khung cứng</em>. Đọc khung trước, chữ sau: hypothesis luôn đi qua các ô "cốt truyện → bản kể khác → bối cảnh, dàn dựng → danh mục", ngụ ngôn luôn khép bằng kết ngữ (epimythium). Biết khung, bạn chỉ cần nhét ngữ pháp vào ô trống.</li>
+</ol>
+
+<p>Bảng thuật ngữ "khung đề diễn giải" mà bạn cần cho bài đọc 1 (học dạng nhận diện là đủ, không cần sản xuất):</p>
+<table>
+<thead><tr><th>Greek</th><th>Nghĩa</th><th>Vai trong hypothesis</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἡ σκηνή</td><td>bối cảnh, cảnh sân khấu</td><td>cho biết vở diễn ở đâu</td></tr>
+<tr><td class="gk">ὁ χορός</td><td>đồng ca</td><td>cho biết đồng ca gồm những ai</td></tr>
+<tr><td class="gk">προλογίζει</td><td>phát ngôn mở màn</td><td>cho biết nhân vật nào đọc prolog</td></tr>
+<tr><td class="gk">τὸ κεφάλαιον</td><td>điều cốt lõi</td><td>tóm tắt các biến cố chính</td></tr>
+<tr><td class="gk">ἡ διδασκαλία</td><td>việc dàn dựng (một vở)</td><td>ở đây KHÔNG phải "sự dạy học": cùng một từ, hai thế giới</td></tr>
+<tr><td class="gk">τριακοστὸν δεύτερον</td><td>thứ ba mươi hai</td><td>số thứ tự của vở trong danh mục tác phẩm</td></tr>
+<tr><td class="gk">Φασί</td><td>"người ta kể rằng" (số nhiều bất định)</td><td>đánh dấu truyền thuyết, không cam kết nguồn</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>Kỹ năng hôm nay: đọc metadata như người Alexandria.</strong> Hypothesis là "giấy đọng gác" của các học giả thư viện Alexandria cho độc giả của họ: đúng những gì họ cần trước khi mở vở. Khi đọc, hãy tô trong đầu bốn ô: cốt truyện (mệnh đề kể), bản khác (sau <span class="gk">Κεῖται ... καὶ παρὰ</span> "câu chuyện cũng nằm ở"), bối cảnh-dàn dựng (bảng trên), danh mục (đuôi câu). Bốn ô đó xong là bạn đọc xong văn bản, không cần hiểu từng phân từ.</p>
+</div>
+<h2 id="reading1">8. Bài đọc 1: Hypothesis zur Antigone (đề diễn giải của một vở kịch)</h2>
+
+<div class="info">
+<p><strong>Bản văn và nguồn.</strong> <em>Hypothesis</em> (đề diễn giải) là bản tóm tắt cốt truyện cùng thông tin dàn dựng được gắn đầu các vở kịch trong tay bản; truyền thống gán nhóm văn này cho học giả Alexandria <strong>Aristophanes von Byzantion</strong> (khoảng 257–180 TCN), thủ thư của thư viện Alexandria, thầy của Aristarchos. Bản hôm nay là hypothesis của vở <strong>Antigone</strong> của Sophokles (diễn khoảng 442 TCN), gồm hai phần: phần kể và phần "argumentum" (khung dàn dựng). Nguồn chữ: bản kèm tài liệu luyện đọc của Benediktinergymnasium Ettal (PD), đối chiếu bản Nauck 1848 (qua cổng ancientlibrary) và bản của Đại học Crete: ba chứng nhân đồng thuận từng câu, khác nhau vài chi tiết chính tả (ghi chú dưới). Bản thân vở Antigone được dựng trên truyền thuyết vòng Thebes: con gái chống lệnh vua để chôn anh trai.</p>
+<p><strong>Vì sao đọc hypothesis ở bài này?</strong> Đây là văn xuôi học thuật đời Alexandria: nhịp kể gọn, phân từ dày, và một câu tường thuật gián tiếp hoàn chỉnh (<span class="gk">Φασὶ δὲ τὸν Σοφοκλέα ἠξιῶσθαι</span>, kênh 3 của Bài 25) đóng đuôi. Nó không dùng <span class="gk">ὥστε</span> hay <span class="gk">ὡς</span> "rằng": hai mảnh ngữ pháp hôm nay được bổ khuyết bằng phần lý thuyết, còn bài đọc cung cấp <em>sân tập thật</em> cho phân từ, mạo từ và kênh 3.</p>
+</div>
+
+<h3>Khối 1 – phần kể: bốn mạng người trong hai câu</h3>
+<p class="gk">Ἀντιγόνη παρὰ τὴν πρόσταξιν τῆς πόλεως θάψασα τὸν Πολυνείκην ἐφωράθη, καὶ εἰς μνημεῖον κατάγειον ἐντεθεῖσα παρὰ τοῦ Κρέοντος ἀνήρηται· ἐφ᾿ ᾧ καὶ Αἵμων δυσπαθήσας διὰ τὸν εἰς αὐτὴν ἔρωτα ξίφει ἑαυτὸν διεχειρίσατο. Ἐπὶ δὲ τῷ τούτου θανάτῳ καὶ ἡ μήτηρ Εὐρυδίκη ἑαυτὴν ἀνεῖλε.</p>
+<p>Dịch: "Antigone chôn Polyneikes ngược với lệnh của thành, và bị bắt quả tang; bị nhốt vào ngôi mộ dưới lòng đất theo lệnh Kreon, nàng đã tự kết liễu; vì việc ấy, Haemon, khổ sở vì tình yêu dành cho nàng, đã tự xử lấy mình bằng thanh kiếm. Còn trên cái chết của chàng, mẹ chàng là Eurydike cũng tự kết liễu mình."</p>
+<ul>
+<li><span class="gk">παρὰ τὴν πρόσταξιν</span> – "ngược với lời ra lệnh của thành": <span class="gk">παρά</span> + đối cách mang nghĩa "ngược lại, trái với": đúng nội động của cả câu chuyện, vì danh từ đứng sau nó là mệnh lệnh và mệnh lệnh ấy sẽ bị phá. <span class="gk">ἡ πρόσταξις</span> từ <span class="gk">προστάσσω</span> "ra lệnh đứng trước": nôm na là "bài lệnh treo đầu chợ".</li>
+<li><span class="gk">θάψασα ... ἐφωράθη</span> – chuỗi hai phân từ–động từ: phân từ aorist chủ động <span class="gk">θάψασα</span> "sau khi chôn" (ngôi nữ, từ <span class="gk">θάπτω</span>, vocab hôm nay) nói <em>hành động có chủ đích trước đó</em>; rồi <span class="gk">ἐφωράθη</span>, aorist bị động của <span class="gk">φωράω</span> (vocab hôm nay): "bị bắt quả tang". Văn hypothesis không thề thốt: nó cứ việc kể như biên bản.</li>
+<li><span class="gk">μνημεῖον κατάγειον</span> – "ngôi mộ <em>xuống dưới đất</em>": <span class="gk">κατάγειος</span> là tính từ ghép "nằm dưới", mẫu ghép <span class="gk">κατά</span> + gốc danh từ (<span class="gk">γῆ</span> "đất") bạn đã bắt gặp ở phân từ ghép Bài 23–24.</li>
+<li><span class="gk">ἐντεθεῖσα</span> – phân từ aorist bị động ngôi nữ của <span class="gk">ἐντίθημι</span> (<span class="gk">ἐν</span> + <span class="gk">τίθημι</span>, họ <span class="gk">μι</span> của Bài 23): "bị đặt vào" – mô tả kèm của <span class="gk">ἀνήρηται</span>.</li>
+<li><span class="gk">ἀνήρηται</span> – hoàn thành bị động của <span class="gk">ἀναιρέω</span> "lấy đi (mạng sống)": "đã bị giết, và trạng thái còn vậy". Ghi chú đối chiếu: bản Nauck 1848 viết <span class="gk">ἀνῄρηται</span> (augment ngắn hơn), các bản khác <span class="gk">ἀνήρηται</span>: chứng nhân khác nhau một dấu nguyên âm, nghĩa không đổi – thư tay thời trung cổ cũng "cười" như bản thảo hôm nay của người học.</li>
+<li><span class="gk">ἐφ᾿ ᾧ</span> – <span class="gk">ἐπί</span> + đại từ quan hệ tặng cách: "trên việc ấy, do việc ấy": bản Nauck viết <span class="gk">ἐφ᾿ ᾗ</span>; một đuôi tối nghĩa, hai truyền thống chữ.</li>
+<li><span class="gk">δυσπαθήσας</span> – <span class="gk">δυσ-</span> + <span class="gk">πάθος</span> (Bài 21): "khổ sở", phân từ aorist ghép tiền tố mức độ: đúng cái máy tính từ ghép của các bài ghép.</li>
+<li><span class="gk">διὰ τὸν εἰς αὐτὴν ἔρωτα</span> – "vì mối tình <em>hướng về nàng</em>": <span class="gk">ὁ ἔρως</span> (vocab hôm nay) đứng trong một cụm sở hữu cách phức: giữa <span class="gk">διὰ τὸν</span> và <span class="gk">ἔρωτα</span> cắm một định ngữ giới từ <span class="gk">εἰς αὐτὴν</span>, mô-típ đã luyện ở Bài 15 (định ngữ xen giữa).</li>
+<li><span class="gk">ξίφει ... διεχειρίσατο</span> – tặng cách công cụ "bằng thanh kiếm" (<span class="gk">τὸ ξίφος</span>, vocab hôm nay); <span class="gk">διεχειρίσατο</span> trung cách aorist của <span class="gk">διαχειρίζομαι</span> "xử lý trọn, tự kết liễu" (bản Nauck có biến thể <span class="gk">διεχρήσατο</span> – lại một khác biệt chứng nhân).</li>
+<li><span class="gk">ἑαυτὴν ἀνεῖλε</span> – cuối cùng mẹ Eurydike: <span class="gk">ἀνεῖλε</span> là aorist <em>chủ động</em> của cùng một họ <span class="gk">ἀναιρέω</span>: cùng một động từ "lấy mạng", hai giọng: con dâu bị động (<span class="gk">ἀνήρηται</span>), mẹ tự chủ động (<span class="gk">ἀνεῖλε</span>) – bảng "một nhà bốn bộ mặt" nằm ở confusables.</li>
+</ul>
+
+<h3>Khối 2 – argumentum: khung dàn dựng của một vở kịch</h3>
+<p class="gk">Κεῖται ἡ μυθοποιΐα καὶ παρὰ Εὐριπίδη ἐν «Ἀντιγόνη»· πλὴν ἐκεῖ φωραθεῖσα μετὰ τοῦ Αἵμονος δίδοται πρὸς γάμου κοινωνίαν καὶ τέκνον τίκτει τὸν Μαίονα. Ἡ μὲν σκηνὴ τοῦ δράματος ὑπόκειται ἐν Θήβαις ταῖς Βοιωτικαῖς. Ὁ δὲ χορὸς συνέστηκεν ἐξ ἐπιχωρίων γερόντων. Προλογίζει ἡ Ἀντιγόνη· ὑπόκειται δὲ τὰ πράγματα ἐπὶ τῶν Κρέοντος βασιλείων. Τὸ δὲ κεφάλαιόν ἐστι τάφος Πολυνείκους, Ἀντιγόνης ἀναίρεσις, θάνατος Αἵμονος καὶ μόρος Εὐρυδίκης τῆς Αἵμονος μητρός. Φασὶ δὲ τὸν Σοφοκλέα ἠξιῶσθαι τῆς ἐν Σάμῳ στρατηγίας εὐδοκιμήσαντα ἐν τῇ διδασκαλίᾳ τῆς Ἀντιγόνης. Λέλεκται δὲ τὸ δρᾶμα τοῦτο τριακοστὸν δεύτερον.</p>
+<p>Dịch: "Câu chuyện cũng nằm ở Euripides, trong (vở) Antigone; trừ là ở đó, sau khi bị bắt cùng Haemon, nàng được trao cho chàng phần dự đám cưới, và sinh ra đứa con trai là Maion. Bối cảnh của vở kịch đặt tại Thebes xứ Boiotia. Đồng ca dựng nên từ các bô lão bản địa. Antigone phát ngôn mở màn; việc vở đặt dưới các triều của Kreon. Điều cốt lõi là: phần mộ Polyneikes, sự tự kết liễu của Antigone, cái chết của Haemon và cái chết của Eurydike, mẹ của Haemon. Người ta kể rằng Sophokles được coi xứng đáng với chức tướng ở (đảo) Samos, sau khi thành công với việc dàn dựng vở Antigone. Vở này được kể là (vở) thứ ba mươi hai."</p>
+<ul>
+<li><span class="gk">Κεῖται ἡ μυθοποιΐα καὶ παρὰ Εὐριπίδη</span> – "câu chuyện <em>nằm</em> (cũng) ở Euripides": <span class="gk">κεῖμαι</span> "nằm" làm động từ "hiện diện tại một tác giả" là idiom thư viện: sách "nằm" ở đâu, chuyện cũng "nằm" ở đấy. <span class="gk">ἡ μυθοποιΐα</span> "sự dựng chuyện" (<span class="gk">μῦθος</span> + <span class="gk">ποιέω</span>).</li>
+<li><span class="gk">πλὴν ἐκεῖ</span> – "trừ là ở đó": <span class="gk">πλήν</span> "trừ" đi với mệnh đề/mệnh lược để nói "chỉ khác chỗ này":<span class="gk"> φωραθεῖσα μετὰ τοῦ Αἵμονος</span> – lại <span class="gk">φωράω</span>! Trong bản Euripides, nàng bị bắt <em>cùng</em> người yêu: một động từ, hai cốt truyện.</li>
+<li><span class="gk">δίδοται πρὸς γάμου κοινωνίαν</span> – hiện tại bị động "được trao" + <span class="gk">πρός</span> + đối cách mục đích: "được trao cho phần chia của đám cưới" (<span class="gk">κοινωνία</span> từ <span class="gk">κοινός</span> "chung").</li>
+<li><span class="gk">τέκνον τίκτει τὸν Μαίονα</span> – chép theo bản Ettal; bản Crete đọc <span class="gk">τὸν Αἵμονα</span> (con trai cùng tên cha): một lần nữa, chứng nhân chia nhau một chữ – mà lần này đổi luôn tên đứa trẻ.</li>
+<li><span class="gk">ὑπόκειται</span> – "nằm dưới" làm động từ "bối cảnh đặt tại": <span class="gk">ὑπό</span> + <span class="gk">κεῖμαι</span>, cùng máy ẩn dụ thư viện với <span class="gk">κεῖται</span>.</li>
+<li><span class="gk">συνέστηκεν ἐξ ἐπιχωρίων γερόντων</span> – hoàn thành của <span class="gk">συνίστημι</span> (<span class="gk">σύν</span> + <span class="gk">ἵστημι</span>, họ <span class="gk">μι</span> Bài 23): "được dựng nên từ các bô lão bản địa" (<span class="gk">ἐπιχώριος</span>: <span class="gk">ἐπί</span> + <span class="gk">χώρα</span> "đất").</li>
+<li><span class="gk">Τὸ δὲ κεφάλαιόν ἐστι</span> – "điều cốt lõi là": <span class="gk">τὸ κεφάλαιον</span> từ <span class="gk">ἡ κεφαλή</span> "cái đầu", danh từ hóa tính từ <span class="gk">κεφάλαιος</span>: "cái đầu của chuyện". Bốn biến cố liệt kê bằng cách đối cách kể như cột mốc.</li>
+<li><span class="gk">Ἀντιγόνης ἀναίρεσις</span> – danh từ hóa <span class="gk">ἀναιρέω</span>: "sự tự kết liễu của Antigone", đúng nghĩa "sự lấy đi".</li>
+<li><span class="gk">μόρος Εὐρυδίκης</span> – <span class="gk">ὁ μόρος</span> "cái chết" là từ thơ; bản văn học thuật mượn nó để đổi giọng, tránh lặp <span class="gk">θάνατος</span> ba lần.</li>
+<li><span class="gk">Φασὶ δὲ τὸν Σοφοκλέα ἠξιῶσθαι</span> – ngôi sao tường thuật của khối 2: <span class="gk">Φασί</span> "người ta kể rằng" (số nhiều bất định, không ai chịu trách nhiệm), kênh 3: đối cách + nguyên mẫu aorist bị động <span class="gk">ἠξιῶσθαι</span> của <span class="gk">ἀξιόω</span> "đem là xứng đáng". Phần sau, <span class="gk">εὐδοκιμήσαντα</span> (phân từ aorist "sau khi thành công", <span class="gk">εὖ</span> + <span class="gk">δοκέω</span>), nói rõ lý do. Truyền thống cổ kể vở Antigone thành công đến mức Sophokles được bầu làm tướng trong liên minh đánh Samos (441/440 TCN), cùng Perikles: "Φασί" đứng đầu câu chính là dấu hiệu "đây là giai thoại, không phải biên niên".</li>
+<li><span class="gk">ἐν τῇ διδασκαλίᾳ τῆς Ἀντιγόνης</span> – ở đây <span class="gk">διδασκαλία</span> là "việc dàn dựng vở kịch" (nghề của nhà thơ "dạy" đồng ca): một từ, hai thế giới, mục 7 đã cảnh báo.</li>
+<li><span class="gk">Λέλεκται ... τριακοστὸν δεύτερον</span> – hoàn thành bị động <span class="gk">λέλεκται</span> "được kể là": con số đếm thứ tự sắp theo bảng chữ cái của danh mục Alexandria: "vở thứ 32".</li>
+</ul>
+
+<h3>Câu hỏi đọc hiểu 1</h3>
+<ol>
+<li>Theo phần kể, chết trước, chết sau thế nào? Liệt kê đúng thứ tự bốn con người và cách thức.</li>
+<li> Bản Euripides khác bản Sophokles ở điểm nào (theo argumentum)?</li>
+<li> Vì sao – theo "người ta kể" – Sophokles được coi xứng đáng với chức tướng ở Samos?</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án đọc hiểu 1</h4>
+<ol>
+<li>Thứ tự: (1) Antigone tự kết liễu trong mộ (<span class="gk">ἀνήρηται</span>, hoàn thành – trạng thái); (2) Haemon tự xử bằng kiếm (<span class="gk">διεχειρίσατο</span>) vì nàng; (3) Eurydike, mẹ Haemon, tự kết liễu (<span class="gk">ἑαυτὴν ἀνεῖλε</span>) trên cái chết của con. Polyneikes thì đã chết trước cả vở diễn: chàng chỉ hiện diện bằng phần mộ (<span class="gk">τάφος Πολυνείκους</span>).</li>
+<li>Ở Euripides, Antigone bị bắt <em>cùng Haemon</em> (<span class="gk">μετὰ τοῦ Αἵμονος</span>), được tha để cưới chàng và sinh con Maion; ở Sophokles, nàng bị bắt một mình và cả ba mạng người đổ sau đó.</li>
+<li>Vì vở Antigone thành công (<span class="gk">εὐδοκιμήσαντα ἐν τῇ διδασκαλίᾳ τῆς Ἀντιγόνης</span>): "người ta" kể thế, và <span class="gk">Φασί</span> báo hiệu đây là giai thoại.</li>
+</ol>
+</div></div>
+
+<h2 id="reading2">9. Bài đọc 2: Aesop 143 – Sư tử và con bò mộng (Chambry 211)</h2>
+
+<div class="info">
+<p><strong>Bản văn và nguồn.</strong> Ngụ ngôn số <strong>Perry 143</strong>, trong bộ Chambry là số <strong>211</strong> (dự án đánh số theo Perry, như Bài 17 đã dùng; Chambry 143 là chuyện khác). Bản chữ Hy Lạp theo bản in Chambry 1927 qua cổng mythfolklore, đối chiếu bản in scan (djvu) trên Wikisource Hy Lạp. <strong>Ghi chú chép:</strong> các bản chép trực tuyến ghi <span class="gk">παμεμγέθει</span>, không phải từ tiếng Hy Lạp; bản in scan đọc rõ <span class="gk">παμμεγέθει</span> (tặng cách của <span class="gk">παμμεγέθης</span> "rất to", có mục riêng trong LSJ), khớp nghĩa với các bản dịch hiện đại ("con bò khổng lồ"): ta chuẩn hóa theo bản in, và đây cũng là bài học rằng cả nguồn số cũng cần soi qua hai chứng nhân.</p>
+<p><strong>Thể loại.</strong> Ngụ ngôn Aesop khép bằng <em>kết ngữ (epimythium)</em> – câu đạo lý tách khỏi truyện, khuôn "câu chuyện cho thấy rằng...": hôm nay là <span class="gk">ὁ λόγος δηλοῖ ὅτι</span>... – và nó dẫn nội dung bằng <span class="gk">ὅτι</span> "rằng", kênh 1 nguyên thủy của tường thuật. Văn truyện chỉ ba câu, nhưng dày đặc phân từ: đúng một buổi tập tổng hợp.</p>
+</div>
+
+<h3>Khối 1 – lời mời mọc: một ý định giấu dao (câu 1)</h3>
+<p class="gk">Λέων ταύρῳ παμμεγέθει ἐπιβουλεύων ἐβούληθη δόλῳ αὐτοῦ περιγενέσθαι.</p>
+<p>Dịch: "Sư tử, mưu toan chống lại con bò mộng, đã muốn thắng nó bằng mưu."</p>
+<ul>
+<li><span class="gk">ταύρῳ παμμεγέθει</span> – hai tặng cách đứng cạnh: <span class="gk">ταύρῳ</span> là đích của <span class="gk">ἐπιβουλεύω</span> (nghĩa là: động từ này chi phối <strong>tặng cách</strong> – vocab hôm nay), còn <span class="gk">παμμεγέθει</span> là tặng cách tính từ mô tả cho <span class="gk">ταύρῳ</span>: <span class="gk">παμ-</span> (như <span class="gk">πάντα</span>) + <span class="gk">μέγας</span> "to như thế gian": đúng máy ghép tiền tố mức độ.</li>
+<li><span class="gk">ἐπιβουλεύων ἐβούληθη</span> – hiện tại phân từ "đang mưu toan" + aorist <span class="gk">ἐβούληθη</span>: aorist <em>bị động hình thức</em> của <span class="gk">βούλομαι</span> nhưng nghĩa chủ động "đã muốn" (confusables số 8). Chữ <span class="gk">βουλ-</span> "ý, muốn" đi hai lượt: bản mưu (<span class="gk">ἐπιβουλή</span>) và bản tự muốn (<span class="gk">ἐβούληθη</span>).</li>
+<li><span class="gk">δόλῳ ... περιγενέσθαι</span> – tặng cách công cụ "bằng mưu" (<span class="gk">ὁ δόλος</span>, vocab hôm nay); <span class="gk">περιγενέσθαι</span> nguyên mẫu aorist của <span class="gk">περιγίγνομαι</span> (<span class="gk">περί</span> + gia đình <span class="gk">γίγνομαι</span> đã học ở Bài 24): "vượt qua, thắng hơn": nguyên mẫu đứng sau động từ muốn.</li>
+</ul>
+
+<h3>Khối 2 – lời mời dự tiệc (câu 2)</h3>
+<p class="gk">Διόπερ πρόβατον τεθυκέναι φήσας ἐφ᾿ ἑστίασιν αὐτὸν ἐκάλεσε, βουλόμενος κατακλιθέντα αὐτὸν καταγωνίσασθαι.</p>
+<p>Dịch: "Vì thế, nói rằng đã giết tế một con cừu, y mời nó đến dự tiệc, muốn sau khi nó nằm xuống thì đè bẹp nó trong vật lộn."</p>
+<ul>
+<li><span class="gk">Διόπερ</span> – "chính vì thế": <span class="gk">διό</span> "vì thế" + tiểu từ nhấn <span class="gk">περ</span>: các bài trước đã gặp <span class="gk">διό</span>; đuôi nhấn là nốt lặng gay cấn.</li>
+<li><span class="gk">πρόβατον τεθυκέναι φήσας</span> – cụm đắt nhất truyện: nguyên mẫu <strong>hoàn thành</strong> <span class="gk">τεθυκέναι</span> (của <span class="gk">θύω</span>, vocab hôm nay) sau phân từ <span class="gk">φήσας</span> "nói": hoàn thành = "đã giết tế <em>xong rồi</em>": lời nói dối mang chuẩn mực ngữ pháp hoàn hảo. So sánh với nguyên mẫu hiện tại: <span class="gk">θύειν</span> sẽ là "luôn giết tế" – thời của nguyên mẫu là <em>thời tương đối</em> (Bài 25).</li>
+<li><span class="gk">ἐφ᾿ ἑστίασιν</span> – "đến bữa tiệc": <span class="gk">ἐπί</span> + tặng cách (đích/hoàn cảnh) + <span class="gk">ἡ ἑστίασις</span> (vocab hôm nay), từ <span class="gk">ἡ ἑστία</span> "bếp lửa": tiệc Hy Lạp là chuyện của cái bếp. Chữ <span class="gk">ἑ-</span> mang dấu hơi thô – đổi một dấu là ra từ khác.</li>
+<li><span class="gk">κατακλιθέντα ... καταγωνίσασθαι</span> – hai "κατά" đối mặt: <span class="gk">κατακλιθέντα</span>, phân từ aorist bị động (đúng: bị xếp nằm xuống), phụ đề "nó", rồi <span class="gk">καταγωνίσασθαι</span> trung cách aorist nguyên mẫu của <span class="gk">καταγωνίζομαι</span> "đè xuống trong cuộc vật lộn": kế hoạch nghe được bằng tiền tố.</li>
+</ul>
+
+<h3>Khối 3 – con bò đọc khói bếp (câu 3)</h3>
+<p class="gk">Ὁ δὲ ἐλθὼν καὶ θεασάμενος λέβητάς τε πολλοὺς καὶ ὀβελίσκους μεγάλους, τὸ δὲ πρόβατον οὐδαμοῦ, μηδὲν εἰπὼν ἀπηλλάττετο.</p>
+<p>Dịch: "Còn nó (con bò) đến và trông thấy: những cái nồi rất nhiều và những cây xiên nướng to; còn con cừu thì không thấy đâu; không nói một lời, nó bỏ đi."</p>
+<ul>
+<li><span class="gk">Ὁ δὲ</span> – mạo từ + <span class="gk">δέ</span> đổi vai nhân vật: kể đến con bò. Sau đó là hai phân từ aorist dồn dập <span class="gk">ἐλθὼν καὶ θεασάμενος</span> "sau khi đến và trông thấy" (Bài 19): đúng nhịp văn kể chuyện.</li>
+<li><span class="gk">λέβητάς τε πολλοὺς καὶ ὀβελίσκους μεγάλους</span> – khuôn cặp <span class="gk">τε ... καί</span>, mỗi danh từ có số từ và tính từ riêng (vocab hôm nay: <span class="gk">λέβης</span>, <span class="gk">ὀβελίσκος</span>): một bếp nấu cho cả một tiệc tùng.</li>
+<li><span class="gk">τὸ δὲ πρόβατον οὐδαμοῦ</span> – câu danh từ lược động từ (Bài 3): "còn con cừu – không đâu cả": <span class="gk">οὐδαμοῦ</span> "không nơi nào", đối trọng <span class="gk">τε ... καί</span> của trước đó.</li>
+<li><span class="gk">μηδὲν εἰπὼν ἀπηλλάττετο</span> – "không nói gì, nó rời đi": <span class="gk">ἀπηλλάττετο</span> imperfect (vocab hôm nay) vẽ cử động "một mạch": kết luận im lặng của con bò – phân từ nói lý do, imperfect nói nhịp.</li>
+</ul>
+
+<h3>Khối 4 – sư tử hỏi, con bò đáp (câu 4–5)</h3>
+<p class="gk">Τοῦ δὲ λέοντος αἰτιωμένου αὐτὸν καὶ τὴν αἰτίαν πυνθανομένου δι᾿ ἣν οὐδὲν δεινὸν παθὼν ἄλογος ἄπεισιν, ἔφη· «Ἀλλ᾿ ἔγωγε οὐ μάτην τοῦτο ποιῶ· ὁρῶ γὰρ παρασκευὴν οὐχὶ ὡς εἰς πρόβατον, ἀλλ᾿ εἰς ταῦρον ἡτοιμασμένην.»</p>
+<p>Dịch: "Còn con sư tử trách nó và hỏi xem vì cớ gì, tuy chẳng gặp gì ghê gớm, nó ra đi vô cớ, thì nó đáp: "Thật vậy tôi làm thế không phải vô ích đâu: vì tôi nhìn thấy sự chuẩn bị không như cho một con cừu, mà đã được sắp sẵn cho một con bò.""</p>
+<ul>
+<li><span class="gk">Τοῦ δὲ λέοντος αἰτιωμένου ... πυνθανομένου</span> – <em>sở hữu cách tuyệt đối</em> (genitive absolute, Bài 20): hai phân từ mang đuôi sở hữu cách của con sư tử, trong khi chủ từ câu chính là con bò: hai thế giới tách rời trong một câu – phân từ đứng ngoài, chủ động từ bên trong. <span class="gk">αἰτιωμένου</span> là dạng Attic cổ hơn của <span class="gk">αἰτιῶμαι</span> "trách, hỏi tội" (vocab hôm nay); <span class="gk">πυνθανομένου</span> "hỏi" là từ đã thuộc từ Bài 18.</li>
+<li><span class="gk">δι᾿ ἣν ... ἄπεισιν</span> – hỏi qua đại từ quan hệ "vì cớ gì mà...": <span class="gk">ἄπεισιν</span> hiện tại "nó cứ thế bước đi" (đuôi <span class="gk">-εισιν</span> có ν di động): kể như đang chứng kiến.</li>
+<li><span class="gk">οὐδὲν δεινὸν παθὼν ἄλογος</span> – "chẳng gặp gì ghê gớm mà (lại) vô cớ": <span class="gk">δεινός</span> (vocab hôm nay) + <span class="gk">πάσχω</span> (gia đình <span class="gk">πάθος</span>, Bài 21); <span class="gk">ἄλογος</span> "vô cớ, không ra lẽ": đúng chữ mà giáo trình trường học gán nghĩa "phi lý" – một từ, hai vùng nghĩa, xem confusables.</li>
+<li><span class="gk">Ἀλλ᾿ ἔγωγε οὐ μάτην τοῦτο ποιῶ</span> – "Thật vậy, chính tôi đây làm thế không phải vô ích": <span class="gk">ἔγωγε</span> nhấn ngôi "chính tôi"; <span class="gk">μάτην</span> (vocab hôm nay) trạng từ "vô ích".</li>
+<li><span class="gk">ὁρῶ γὰρ παρασκευὴν οὐχὶ ὡς εἰς πρόβατον, ἀλλ᾿ εἰς ταῦρον ἡτοιμασμένην</span> – ngôi sao của bài đọc: <span class="gk">ὡς</span> <strong>so sánh</strong> "như" sau <span class="gk">οὐχί ... ἀλλά</span> (mục 6): con bò không tố cáo, nó chỉ so sánh hai bữa tiệc. <span class="gk">ἡτοιμασμένην</span>: phân từ hoàn thành bị động của <span class="gk">ἑτοιμάζω</span> "sắp sẵn" – trước nguyên âm có dấu hơi thô, ν di động hiện đầy đủ (<span class="gk">ἡ-</span> + <span class="gk">τοιμασμένην</span>): mọi dấu hiệu hợp lại trong một từ.</li>
+</ul>
+
+<h3>Khối 5 – kết ngữ (epimythium, câu 6)</h3>
+<p class="gk">Ὁ λόγος δηλοῖ ὅτι τοὺς φρονίμους τῶν ἀνθρώπων αἱ τῶν πονηρῶν τέχναι οὐ λανθάνουσιν.</p>
+<p>Dịch: "Câu chuyện cho thấy rằng: những mưu thuật của đám xấu không lọt khỏi mắt những kẻ khôn ngoan của loài người."</p>
+<ul>
+<li><span class="gk">Ὁ λόγος δηλοῖ ὅτι</span> – khuôn kết ngữ chuẩn: động từ "cho thấy" + <span class="gk">ὅτι</span> "rằng": kênh 1 nguyên thủy của tường thuật, đúng nội dung mục 5: động từ dẫn không nhất thiết là "nói", "cho thấy" cũng dẫn.</li>
+<li><span class="gk">τοὺς φρονίμους τῶν ἀνθρώπων</span> – tính từ mang mạo từ thành danh từ (Bài 9): "những kẻ khôn ngoan trong số loài người" – khuôn "một phần của": đúng cấu trúc đã luyện.</li>
+<li><span class="gk">αἱ τῶν πονηρῶν τέχναι</span> – "những mưu thuật của đám xấu": danh từ giữa hai mạo từ, định ngữ sở hữu cách ôm lấy: cách xếp tầng đã gặp ở bia Bài 24. <span class="gk">πονηρός</span> là từ đã học (Bài 25 vocab).</li>
+<li><span class="gk">οὐ λανθάνουσιν</span> – chủ ngữ <span class="gk">αἱ τέχναι</span>, tân ngữ <span class="gk">τοὺς φρονίμους</span>: "không <em>lọt mắt</em>" (vocab hôm nay <span class="gk">λανθάνω</span>): động từ "vô hình hóa" dùng cho "thoát được sự chú ý của ai" – người ta không "không thấy nó", nó "không thoát khỏi người ta": chủ thể đổi phe, sắc thái đổi theo.</li>
+</ul>
+
+<h3>Câu hỏi đọc hiểu 2</h3>
+<ol>
+<li>Vì sao con bò không chịu ăn? Nó "đọc" được gì từ bếp tiệc?</li>
+<li>Sư tử định giết con bò bằng cách nào (kế hoạch gốc, trước lời mời)?</li>
+<li>Trong câu kết ngữ, chủ ngữ và tân ngữ của <span class="gk">οὐ λανθάνουσιν</span> là gì? Dịch lại câu ấy sao cho giữ nguyên sắc thái "không lọt mắt"?</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án đọc hiểu 2</h4>
+<ol>
+<li>Vì bếp không khớp với lời mời: nhiều nồi, xiên to – nhưng <span class="gk">τὸ δὲ πρόβατον οὐδαμοῦ</span>, "con cừu thì không thấy đâu": bếp "kể" một thực đơn khác (<span class="gk">παρασκευὴν οὐχὶ ὡς εἰς πρόβατον, ἀλλ᾿ εἰς ταῦρον ἡτοιμασμένην</span>).</li>
+<li>Mời dự tiệc để con bò nằm xuống (<span class="gk">κατακλιθέντα</span>) rồi vật lộn đè bẹp (<span class="gk">καταγωνίσασθαι</span>): bàn tiệc là bẫy.</li>
+<li>Chủ ngữ: <span class="gk">αἱ τῶν πονηρῶν τέχναι</span> "những mưu thuật của đám xấu"; tân ngữ: <span class="gk">τοὺς φρονίμους</span> "những kẻ khôn ngoan". Nghĩa sắc thái: "không <em>thoát được mắt</em> những kẻ khôn ngoan" – người khôn là điểm neo, mưu thuật là kẻ bị soi.</li>
+</ol>
+</div></div>
+<h2 id="vocab">10. Từ vựng trọng tâm</h2>
+
+<p>18 từ của bài, 15 từ ưu tiên (<span class="star">★</span> = nên học thuộc trước khi đợi Anki nhóm 25–29). Đã kiểm tra không trùng từ vựng Bài 1–25. Bảng hôm nay nghiêng về <em>từ vựng mưu đồ và kịch trường</em>: mưu (<span class="gk">δόλος</span>), bẫy tiệc (<span class="gk">ἑστίασις</span>), bếp (<span class="gk">λέβης</span>, <span class="gk">ὀβελίσκος</span>), và bộ "kịch" của đề diễn giải (<span class="gk">θάπτω</span>, <span class="gk">φωράω</span>, <span class="gk">ξίφος</span>, <span class="gk">ἔρως</span>): đúng hai thế giới của hai bài đọc.</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Translit.</th><th>English</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> ὥστε</td><td class="tr">hōste</td><td class="em">so that (result)</td><td>đến nỗi, tới mức</td><td>liên từ kết quả của mục 2–4; nguyên thủy là <span class="gk">ὡς</span> + tiểu từ nhấn <span class="gk">τε</span> "chính như thế"; biết gốc ghép giúp nhớ vì sao nó mang sắc thái nhấn: <em>và kết quả là</em> đấy, không chỉ "như thế"</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ταῦρος, -ου</td><td class="tr">ho taûros</td><td class="em">bull</td><td>con bò mộng</td><td>bài đọc 2: <span class="gk">ταύρῳ παμμεγέθει</span> "con bò rất to" (tặng cách – đích của <span class="gk">ἐπιβουλεύω</span>); chữ này bay sang Latin (<em>taurus</em>) rồi tới mọi khoa học thuần vật: "Taurus" cung Kim Ngưu</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ δόλος, -ου</td><td class="tr">ho dólos</td><td class="em">trick, guile</td><td>mưu gian, mưu đồ</td><td>bài đọc 2: <span class="gk">δόλῳ αὐτοῦ περιγενέσθαι</span> "thắng nó bằng mưu"; tặng cách công cụ là khuôn thường gặp của nó; họ hàng Latin <em>dolus</em> "lừa gạt" – còn trong "dolo" của luật hình</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἐπιβουλεύω</td><td class="tr">epibouleúō</td><td class="em">to plot against</td><td>mưu toan chống lại</td><td>chi phối tặng cách (Dat.); <span class="gk">ἐπί</span> + <span class="gk">βουλή</span> "ý đồ": "đặt ý đồ lên ai" – ai bị đặt, người ấy ở tặng cách (Dat.); bài đọc 2: <span class="gk">Λέων ταύρῳ ... ἐπιβουλεύων</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> θάπτω, θάψω, ἔθαψα</td><td class="tr">tháptō, thápsō, éthapsa</td><td class="em">to bury</td><td>chôn cất</td><td>bài đọc 1 mở màn bằng phân từ nữ của nó: <span class="gk">θάψασα τὸν Πολυνείκην</span> "sau khi chôn Polyneikes" – chính hành động bị cấm của vở Antigone; tương lai <span class="gk">θάψω</span> theo khuôn âm mũi của phụ âm mềm</td></tr>
+<tr><td class="gk"><span class="star">★</span> φωράω, ἐφώρασα, ἐφωράθην</td><td class="tr">phōráō, ephōrḗsa, ephōráthēn</td><td class="em">to catch in the act</td><td>bắt quả tang</td><td>bài đọc 1: <span class="gk">ἐφωράθη</span> "bị bắt quả tang" (aorist bị động); xuất hiện đúng hai lần trong hai khối bài đọc 1: aorist bị động <span class="gk">ἐφωράθη</span> và phân từ bị động <span class="gk">φωραθεῖσα</span>: một động từ, hai thời, hai bản kể</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ἔρως, -ωτος</td><td class="tr">ho érōs</td><td class="em">love, desire</td><td>tình yêu say đắm</td><td>bài đọc 1: <span class="gk">διὰ τὸν εἰς αὐτὴν ἔρωτα</span> "vì mối tình hướng về nàng" – lý do Haemon tự kết liễu; tính từ đuôi là <span class="gk">ἐρωτικός</span>, còn nguyên trong "erotic" (nghĩa gốc: "thuộc về tình yêu")</td></tr>
+<tr><td class="gk"><span class="star">★</span> τὸ ξίφος, -ους</td><td class="tr">to xíphos</td><td class="em">sword</td><td>thanh kiếm</td><td>chương 3 giống trung <span class="gk">-ος/-ους</span> như <span class="gk">τὸ ἄστυ</span> mà bạn đã quen; bài đọc 1: <span class="gk">ξίφει ἑαυτὸν διεχειρίσατο</span> "tự xử bằng thanh kiếm"; con của nó vẫn bơi: cá kiếm <em>xiphias</em></td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ἑστίασις, -εως</td><td class="tr">hē hestías</td><td class="em">banquet, feast</td><td>bữa tiệc</td><td>từ <span class="gk">ἡ ἑστία</span> "bếp lửa": bữa tiệc Hy Lạp bắt đầu từ bếp; bài đọc 2: <span class="gk">ἐφ᾿ ἑστίασιν αὐτὸν ἐκάλεσε</span> "mời nó đến tiệc"; ngay chữ đầu có dấu hơi thô – đừng viết <span class="gk">ἐστίασις</span></td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ λέβης, -ητος</td><td class="tr">ho lébēs</td><td class="em">cauldron, pot</td><td>cái nồi to</td><td>bài đọc 2: <span class="gk">λέβητάς τε πολλοὺς</span> "rất nhiều nồi" – dấu hiệu bữa tiệc không như lời mời; từ đi ngang Latin (<em>lebes</em>) vào khảo cổ học bình gốm: vẫn là tên loại bình trong bảo tàng</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ὀβελίσκος, -ου</td><td class="tr">ho obelískos</td><td class="em">spit, skewer</td><td>xiên nướng</td><td>giống nhỏ của <span class="gk">ὁ ὀβελός</span> "cây xiên": bếp của sư tử có những cây xiên "to nồi"; qua Latin nó thành <em>obeliscus</em> rồi "obelisk": tên cột đá kiếm hình... cây xiên; dấu chẩm (<em>obelus</em>) trong văn bản học cũng nhà này</td></tr>
+<tr><td class="gk"><span class="star">★</span> λανθάνω, λήσω, ἔλαθον</td><td class="tr">lanthánō, lḗsō, élathon</td><td class="em">to escape notice</td><td>lọt khỏi mắt, thoát sự chú ý</td><td>bài đọc 2 khép: <span class="gk">οὐ λανθάνουσιν</span> "không lọt mắt (họ)"; aorist <span class="gk">ἔλαθον</span> họ hàng Latin <em>lateo</em> "nằm im" – "latency" hôm nay là hậu duệ của động từ này</td></tr>
+<tr><td class="gk"><span class="star">★</span> αἰτιάομαι (αἰτιῶμαι)</td><td class="tr">aitiáomai</td><td class="em">to blame, accuse</td><td>trách, hỏi tội</td><td>bài đọc 2 dùng dạng Attic cổ: <span class="gk">αἰτιωμένου</span> "đang trách" (phân từ sở hữu cách tuyệt đối); danh từ bà con là <span class="gk">ἡ αἰτία</span> "lỗi, nguyên nhân" đã gặp ở Bài 22</td></tr>
+<tr><td class="gk"><span class="star">★</span> μάτην</td><td class="tr">mátēn</td><td class="em">in vain</td><td>vô ích, uổng công</td><td>trạng từ bất biến; bài đọc 2, câu cửa miệng của con bò: <span class="gk">οὐ μάτην τοῦτο ποιῶ</span> "tôi làm thế không phải vô ích"; "mất công" tiếng Việt là bản dịch tình cờ khá đúng chất của nó</td></tr>
+<tr><td class="gk"><span class="star">★</span> δεινός, -ή, -όν</td><td class="tr">deinós</td><td class="em">terrible, mighty</td><td>khủng khiếp, ghê gớm</td><td>bài đọc 2: <span class="gk">οὐδὲν δεινὸν παθών</span> "chẳng gặp gì ghê gớm"; Hy Lạp nói năng: "ngôn ngữ ghê gớm" (<span class="gk">δεινὰ λέγειν</span>) là "nói những chuyện ghê người"; Richard Owen ghép chữ này với <span class="gk">σαῦρος</span> "thằn lằn" đặt tên "dinosaur": "thằn lằn ghê gớm"</td></tr>
+<tr><td class="gk">θύω, θύσω (τέθυκα)</td><td class="tr">thúō, thúsō</td><td class="em">to sacrifice, slaughter</td><td>giết tế, dâng tế</td><td>bài đọc 2: nguyên mẫu hoàn thành <span class="gk">τεθυκέναι φήσας</span> "nói rằng đã giết tế xong" – lời nói dối; từ họ với <span class="gk">ἡ θυσία</span> "lễ vật" (vocab Bài 25): một động từ cho cả nhà</td></tr>
+<tr><td class="gk">ἡ παρασκευή, -ῆς</td><td class="tr">hē paraskeuḗ</td><td class="em">preparation</td><td>sự chuẩn bị</td><td>bài đọc 2: <span class="gk">ὁρῶ γὰρ παρασκευὴν</span> "tôi nhìn thấy sự chuẩn bị" – chính từ này khiến con bò biết rõ thực đơn; trong tiếng Hy Lạp hiện đại <span class="gk">Παρασκευή</span> là "thứ Sáu", ngày "chuẩn bị" cho ngày sabat</td></tr>
+<tr><td class="gk">ἀπαλλάττομαι, ἀπηλλάγην</td><td class="tr">apalláttomai, apēllágēn</td><td class="em">to depart, be rid of</td><td>rời đi, thoát khỏi</td><td>bài đọc 2: <span class="gk">μηδὲν εἰπὼν ἀπηλλάττετο</span> "không nói gì, nó rời đi"; aorist <span class="gk">ἀπηλλάγην</span> "đã thoát hẳn" mang gốc <span class="gk">-αγ-</span>: rời đi một lần là thoát hẳn, không nửa vời</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">11. Cặp dễ nhầm</h2>
+
+<p>Mười một cặp dưới đây rút từ chính hai văn bản đọc hôm nay và các bảng mục 2–6; mỗi cặp tự kiểm tra được bằng một câu hỏi nhỏ.</p>
+
+<table>
+<thead><tr><th>Cặp dễ nhầm</th><th>Phân biệt</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ὥστε</span> + chỉ định – <span class="gk">ὥστε</span> + <span class="gk">ἄν</span>/optative</td><td>Kết quả thực (chỉ định, phủ định <span class="gk">οὐ</span>): hệ quả là dữ kiện; kết quả khái quát (optative, thường kèm <span class="gk">ἄν</span>, phủ định <span class="gk">μή</span>): hệ quả là khả năng.</td><td>Hỏi: việc này đã thật xảy ra (tin được) hay chỉ "có thể xảy ra"? Đáp án nằm ở <em>thức</em>, đừng đoán bằng nghĩa vế chính.</td></tr>
+<tr><td class="gk">ὥστε – ἵνα</td><td>Kết quả báo cáo điều <em>đã</em> xảy ra; mục đích (Bài 16) nhắm việc <em>chưa</em> xảy ra (<span class="gk">ἵνα</span> + giả định). Dịch "đến nỗi" vs "để cho".</td><td>Hỏi: "và rồi sao?" trả lời được → kết quả; "nhằm làm gì?" trả lời được → mục đích.</td></tr>
+<tr><td class="gk">ὥστε – ὡς</td><td>Cùng nhà (nguyên thủy <span class="gk">ὡς</span> + <span class="gk">τε</span>) nhưng nay rạch ròi: <span class="gk">ὥστε</span> dẫn kết quả, <span class="gk">ὡς</span> đóng bốn vai khác (mục 6).</td><td>Nhìn mặt chữ: có <span class="gk">-στε</span> và dấu nặng trên <span class="gk">ώ</span> → kết quả; ngắn hơn → chạy ba mũi hỏi của ὡς.</td></tr>
+<tr><td><span class="gk">ὡς</span> "như" – <span class="gk">ὡς</span> "rằng"</td><td>Bài đọc 2: <span class="gk">παρασκευὴν οὐχὶ ὡς εἰς πρόβατον</span> là so sánh; <span class="gk">ἔφη ὡς οὐ μάτην ποιοῖ</span> là tường thuật. Một chữ, hai thế giới.</td><td>Sau <span class="gk">ὡς</span> là danh từ/đối cách → nghi "như"; là động từ chia và trước nó có động từ nói/nghĩ → "rằng".</td></tr>
+<tr><td><span class="gk">ὡς</span> + nguyên mẫu – <span class="gk">ὡς</span> + mệnh đề</td><td>Nguyên mẫu sau <span class="gk">ὡς</span> là mục đích "để" (<span class="gk">ἦλθεν ὡς ἰδεῖν</span>) hoặc kênh 3 sau hy vọng/hứa (<span class="gk">ἤλπισεν ὡς ἐλεύσεσθαι</span>); động từ chia là mệnh đề (tường thuật hoặc nguyên nhân).</td><td>Đếm hậu tố: <span class="gk">ὡς</span> + <em>-ειν/-σαι/-ναι</em> → nguyên mẫu; có ngôi, có thời → mệnh đề. Rồi mới hỏi vai.</td></tr>
+<tr><td class="gk">ἔφη ὡς ποιοῖ – ἔφη ὡς ποιῶ</td><td>Cùng khối "nói rằng" nhưng <span class="gk">ποιοῖ</span> là optative lệch (lời nhân vật, chuỗi phụ, Bài 25); <span class="gk">ποιῶ</span> giữ ngôi 1 chỉ định là người kể chen tiếng "chính tôi bảo".</td><td>Hỏi ai cầm câu: nhân vật (đẩy, đổi ngôi) hay người kể (giữ nguyên, giữ ngôi).</td></tr>
+<tr><td class="gk">τεθυκέναι – θύειν</td><td>Nguyên mẫu hoàn thành "đã giết tế <em>xong</em>" (kết quả còn đó, chuẩn của lời khoe) vs nguyên mẫu hiện tại "giết tế (luôn/đang)". Thời của nguyên mẫu là thời tương đối (Bài 25).</td><td>Tìm tiền tố hoàn thành: <span class="gk">τε-</span> + đuôi đỏ (<span class="gk">-εναι</span>) → "đã xong rồi"; không → hỏi tiếp nhịp.</td></tr>
+<tr><td class="gk">ἐβούληθη – βούλεται</td><td><span class="gk">ἐβούληθη</span> là aorist <em>bị động hình thức</em> của <span class="gk">βούλομαι</span> mà nghĩa chủ động "đã muốn"; <span class="gk">βούλεται</span> hiện tại "muốn". Bài đọc 2 mở màn bằng aorist: "y đã muốn".</td><td>Đây là động từ "bất quy tắc nghĩa": đừng dịch bị động "đã bị muốn". Augment + <span class="gk">-θη</span> mà ngôi mình hiểu nghĩa không khớp → tra lại chính động từ, không phải tra đuôi.</td></tr>
+<tr><td class="gk">ἀνήρηται – ἀνεῖλε – ἀναίρεσις</td><td>Một họ <span class="gk">ἀναιρέω</span> "lấy (mạng) đi": hoàn thành bị động "đã bị giết (và còn vậy)" – Antigone; aorist chủ động "đã tự kết liễu" – Eurydike; danh từ hóa "sự lấy đi" – trong <span class="gk">Ἀντιγόνης ἀναίρεσις</span>.</td><td>Hỏi: ai là chủ của cái chết? Bị động = số phận từ ngoài; chủ động = tự tay; danh từ = liệt kê biến cố.</td></tr>
+<tr><td><span class="gk">ἄλογος</span> "vô cớ" – <span class="gk">ἄλογος</span> "phi lý"</td><td>Cùng chữ, hai vùng: trong bài đọc 2, <span class="gk">ἄλογος ἄπεισιν</span> = "ra đi <em>vô cớ</em>" (không có <span class="gk">λόγος</span> = lý do để giải trình); triết học dùng nó cho "phi lý" (không có <span class="gk">λόγος</span> = lý lẽ).</td><td>Hỏi cái gì bị "trừ": lý do giải trình, hay lý lẽ trí tuệ? Văn cảnh của động từ chính sẽ trả lời.</td></tr>
+<tr><td class="gk">Φασὶ – λέλεκται</td><td>Cùng là tường thuật "bình luận khuyết chủ": <span class="gk">Φασί</span> "người ta kể" (số nhiều bất định, giai thoại) vs <span class="gk">λέλεκται</span> "được kể là" (hoàn thành bị động, danh mục Alexandrian chắc nịch).</td><td>Hỏi mức cam kết: "người ta nói" = hãy để dành một phần hoài nghi; "được kể là" = ghi nhận vào sổ.</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">12. Bài tập tự luyện</h2>
+<p>Làm bằng bút trên giấy trước, rồi mới mở đáp án: in trang này (Ctrl+P → Save as PDF), đáp án sẽ hiện ở bản in. Mọi câu Greek trong đề và đáp án đều theo khuôn đã gặp trong bài hoặc trong hai bài đọc.</p>
+
+<h3>Bài tập 1 – Gán loại vế ὥστε</h3>
+<p>Mỗi câu sau: (a) kết quả thực, kết quả khái quát, hay mục đích; (b) dịch.</p>
+<ol>
+<li><span class="gk">ὁ ταῦρος οὕτως ἐφοβήθη ὥστε ὁ λέων ἐλύπησε.</span></li>
+<li><span class="gk">τοσοῦτός ἐστιν ὁ δόλος ὥστε μή τις αὐτὸν ἴδοι.</span></li>
+<li><span class="gk">ὁ λέων ἦλθεν ἐφ᾿ ἑστίασιν ὥστε τὸν ταῦρον καταγωνίσασθαι.</span></li>
+<li><span class="gk">οὕτω δειναὶ αἱ τέχναι εἰσὶν ὥστε ἂν καὶ τοὺς φρονίμους ταράξαιεν.</span></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 1</h4>
+<ol>
+<li>Kết quả thực (<span class="gk">ἐφοβήθη, ἐλύπησε</span> chỉ định quá khứ): "con bò sợ đến nỗi sư tử buồn" – chủ từ hai vế khác nhau, đúng luật mục 3.</li>
+<li>Kết quả khái quát (<span class="gk">ἴδοι</span> optative + <span class="gk">μή</span>, không <span class="gk">ἄν</span>, văn cổ): "mưu gian to đến nỗi không ai có thể nhìn ra".</li>
+<li>Không phải vế kết quả dữ kiện: <span class="gk">καταγωνίσασθαι</span> là <em>nguyên mẫu</em>, không phải động từ chia; <span class="gk">ὥστε</span> + nguyên mẫu diễn tả hệ quả theo ý đồ ("nhằm để đè bẹp nó"): câu này bẫy bạn bằng sự gần nhau của hai dịch "đến nỗi/để" – hãy đếm hậu tố trước khi phán.</li>
+<li>Kết quả khái quát (<span class="gk">τάραξαιεν</span> aorist optative + <span class="gk">ἄν</span>): "các mưu thuật ghê gớm đến nỗi có thể làm xáo trộn cả những kẻ khôn ngoan".</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 2 – Chọn thức và phủ định cho vế ὥστε</h3>
+<p>Hoàn thành vế <span class="gk">ὥστε</span> với động từ trong ngoặc: chọn thức (chỉ định hay optative kèm <span class="gk">ἄν</span>) và phủ định (<span class="gk">οὐ</span> hay <span class="gk">μή</span>) theo nghĩa cho trước.</p>
+<ol>
+<li><span class="gk">τοσοῦτοι ἦσαν οἱ ὀβελίσκοι ὥστε ὁ ταῦρος</span> ____ (<span class="gk">φοβέομαι</span>; "và nó thật sự sợ")</li>
+<li><span class="gk">οὕτω λανθάνει ὁ δόλος ὥστε</span> ____ <span class="gk">τις αὐτὸν ἴδοι</span> ("không ai <em>có thể</em> nhìn ra")</li>
+<li><span class="gk">ὁ ταῦρος μηδὲν εἶπεν ὥστε ὁ λέων</span> ____ (<span class="gk">λυπέομαι</span>; "và y thật sự buồn")</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 2</h4>
+<ol>
+<li><span class="gk">ἐφοβήθη</span> (aorist chỉ định; kết quả thực): <span class="gk">τοσοῦτοι ἦσαν οἱ ὀβελίσκοι ὥστε ὁ ταῦρος ἐφοβήθη</span>.</li>
+<li><span class="gk">μή</span> + optative, không cần <span class="gk">ἄν</span> (văn cổ) hoặc kèm <span class="gk">ἄν</span> (Attic kinh điển): <span class="gk">οὕτω λανθάνει ὁ δόλος ὥστε μή τις αὐτὸν ἴδοι</span> (hoặc <span class="gk">ὥστε ἂν μή τις αὐτὸν ἴδοι</span> – thứ tự <span class="gk">ἄν</span> linh hoạt sau <span class="gk">ὥστε</span>).</li>
+<li><span class="gk">ἐλυποῦτο</span> (imperfect chỉ định; kết quả thực): <span class="gk">ὥστε ὁ λέων ἐλυποῦτο</span> – bất kể thời nào của chỉ định đều được, miễn là dữ kiện.</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 3 – Tường thuật lại bằng ὡς</h3>
+<p>Cho lời thoại trực tiếp (trong ngoặc); hãy thuật lại sau động từ dẫn cho trước, dùng <span class="gk">ὡς</span> + động từ chia, đúng luật tiếp thời.</p>
+<ol>
+<li>Sư tử nói (bây giờ): "πρόβατον τέθυκα" → <span class="gk">ὁ λέων φησὶν ὡς</span> ____</li>
+<li>Con bò đáp (kể lại sau <span class="gk">ἔφη</span>): "Ἀλλ᾿ ἔγωγε οὐ μάτην τοῦτο ποιῶ" → <span class="gk">ὁ ταῦρος ἔφη ὡς οὐ μάτην τοῦτο</span> ____</li>
+<li>Hypothesis dùng kênh 3: <span class="gk">Φασὶ δὲ τὸν Σοφοκλέα ἠξιῶσθαι τῆς ἐν Σάμῳ στρατηγίας</span>; hãy viết lại ý đó bằng kênh 1 với <span class="gk">ὡς</span>: <span class="gk">φασὶν ὡς ὁ Σοφοκλῆς</span> ____ <span class="gk">τῆς ἐν Σάμῳ στρατηγίας</span> (<span class="gk">ἀξιόω</span>, giữ hoàn thành)</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 3</h4>
+<ol>
+<li><span class="gk">τὸ πρόβατον τέθυκε</span> (chuỗi chính giữ chỉ định hoàn thành).</li>
+<li><span class="gk">ποιοῖ</span> (chuỗi phụ: <span class="gk">ποιῶ</span> → optative lệch, ngôi đổi từ 1 sang 3).</li>
+<li><span class="gk">ἠξίωται</span> (kênh 3 <span class="gk">ἠξιῶσθαι</span> bung ra thành mệnh đề với hoàn thành bị động 3 ngôi; <span class="gk">Φασί</span> hiện tại → chuỗi chính, giữ hoàn thành): "người ta kể rằng Sophokles đã được coi xứng đáng với chức tướng ở Samos".</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 4 – Đọc hiểu hai văn bản</h3>
+<ol>
+<li>Theo hypothesis, điểm khác nhau giữa bản Antigone của Euripides và bản của Sophokles nằm ở chỗ nào (chính xác theo chữ)?</li>
+<li>Vì sao Antigone "bị bắt quả tang" hai lần trong văn bản hôm nay, theo hai động từ ở hai khối?</li>
+<li>Con bò đưa ra "bằng chứng" gì cho nhận định của mình, và bằng chứng ấy nằm trong cấu trúc ngữ pháp nào?</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 4</h4>
+<ol>
+<li>Euripides: <span class="gk">φωραθεῖσα μετὰ τοῦ Αἵμονος δίδοται πρὸς γάμου κοινωνίαν καὶ τέκνον τίκτει τὸν Μαίονα</span> – bị bắt cùng Haemon, được cưới, sinh con; Sophokles: bị bắt một mình, bị nhốt mộ, ba mạng người đổ sau đó.</li>
+<li>Một động từ <span class="gk">φωράω</span>, hai thời: khối 1 dùng aorist bị động <span class="gk">ἐφωράθη</span> (chuyện vở Sophokles), khối 2 dùng phân từ aorist bị động <span class="gk">φωραθεῖσα</span> (chuyện vở Euripides): "bị bắt quả tang" là biến cố mở cả hai bản kể.</li>
+<li>Bằng chứng là cái bếp: <span class="gk">παρασκευὴν οὐχὶ ὡς εἰς πρόβατον, ἀλλ᾿ εἰς ταῦρον ἡτοιμασμένην</span> – so sánh phủ định-khẳng định (<span class="gk">οὐχί ... ἀλλά</span>) với <span class="gk">ὡς</span> so sánh, và phân từ hoàn thành bị động "đã được sắp sẵn": con bò tranh luận bằng ngữ pháp trước khi tranh luận bằng lời.</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 5 – Gán vai cho từng ὡς</h3>
+<p>Mỗi <span class="gk">ὡς</span> sau đóng vai gì (so sánh, mục đích, nguyên nhân, tường thuật, cảm thán)?</p>
+<ol>
+<li><span class="gk">παρασκευὴν οὐχὶ ὡς εἰς πρόβατον</span> (bài đọc 2)</li>
+<li><span class="gk">ἦλθεν ὡς ἰδεῖν τὸν λέβητα</span></li>
+<li><span class="gk">ἔφη ὡς οὐ μάτην τοῦτο ποιοῖ</span></li>
+<li><span class="gk">ἔφυγον ὡς πονηρόν</span></li>
+<li><span class="gk">ὡς δεινόν</span>!</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 5</h4>
+<ol>
+<li>So sánh "như" (sau <span class="gk">ὡς</span> là cụm giới từ).</li>
+<li>Mục đích "để" (nguyên mẫu <span class="gk">ἰδεῖν</span>).</li>
+<li>Tường thuật "rằng" (động từ chia sau động từ nói).</li>
+<li>Nguyên nhân "vì là" (đối cách vị ngữ sau động từ mang màu đánh giá).</li>
+<li>Cảm thán "làm sao!" (đứng đầu, dấu cảm).</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 6 – Hoàn thành họ ἀναιρέω</h3>
+<p>Điền vào chỗ trống một trong ba dạng: <span class="gk">ἀνήρηται, ἀνεῖλε, ἀναίρεσις</span> (mỗi dạng dùng một lần), theo tóm tắt của hypothesis.</p>
+<ol>
+<li><span class="gk">ἐντεθεῖσα παρὰ τοῦ Κρέοντος</span> ____ – Antigone trong mộ.</li>
+<li><span class="gk">ἐπὶ δὲ τῷ τούτου θανάτῳ καὶ ἡ μήτηρ Εὐρυδίκη ἑαυτὴν</span> ____ – Eurydike tự tay.</li>
+<li><span class="gk">τὸ δὲ κεφάλαιόν ἐστι τάφος Πολυνείκους, Ἀντιγόνης</span> ____ – trong danh mục biến cố.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 6</h4>
+<ol>
+<li><span class="gk">ἀνήρηται</span> (hoàn thành bị động: số phận từ ngoài).</li>
+<li><span class="gk">ἀνεῖλε</span> (aorist chủ động: tự tay).</li>
+<li><span class="gk">ἀναίρεσις</span> (danh từ hóa: liệt kê biến cố). Ba bộ mặt của một họ, đúng ba kiểu chết của ba người trong hai câu văn Alexandria.</li>
+</ol>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 26 — Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN — Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF).</p>
+
+</main>
+</body>
+</html>

@@ -680,6 +680,30 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "26-result-clauses-indirect-speech-hos",
+      "num": 26,
+      "level": "graecum-2",
+      "title": "Mệnh đề kết quả (ὥστε) và tường thuật với ὡς (Hypothesis zur Antigone; Aesop 143)",
+      "topics": [
+        "bản đồ bài: mệnh đề kết quả (ὥστε) và tường thuật với ὡς ghép vào hệ thống mệnh đề đã học; vế sau nói điều đã xảy ra",
+        "kết quả thực tế: ὥστε + chỉ định; phân biệt kết quả thực, kết quả khái quát, mục đích qua ba câu hỏi",
+        "kết quả khái quát: ὥστε + ἄν + optative cho xu hướng, nhận định chung; đối chiếu cùng một sự việc qua hai khối",
+        "tường thuật với ὡς \"rằng\": người anh em của ὅτι, chuỗi chính/phụ đẩy thức như Bài 25; khuôn ὡς + nguyên mẫu sau động từ hy vọng, hứa, mong",
+        "một chữ ὡς, bốn chiếc chìa: \"rằng\", \"để\", \"như\", nguyên nhân; chiến lược hỏi vai trước khi dịch",
+        "chiến lược đọc trong văn thật: khung đề diễn giải kịch (hypothesis), bảng khung và dấu hiệu nhận ὥστε, ὡς",
+        "bài đọc 1: Hypothesis zur Antigone – Antigone chôn Polyneikes chống lệnh Creon, Haemon và Eurydike tự vẫn; φασὶ δὲ τὸν Σοφοκλέα ἀξιωθῆναι τῆς ἐν Σάμῳ στρατηγίας",
+        "bài đọc 2: Aesop 143 – sư tử mời bò mộng dự tiệc (ὁρῶ γὰρ παρασκευὴν οὐχὶ ὡς εἰς πρόβατον...); sở hữu cách tuyệt đối; kết ngữ ὁ λόγος δηλοῖ ὅτι",
+        "từ vựng 18 từ (★15): ὥστε, ταῦρος, δόλος, ἐπιβουλεύω, θάπτω, φωράω, ἔρως, ξίφος, ἑστίασις, λέβης, ὀβελίσκος, λανθάνω, αἰτιάομαι, μάτην, δεινός",
+        "cặp dễ nhầm 11 hàng: ὥστε/ὡς, ὡς \"như\"/ὡς \"rằng\", ὡς + nguyên mẫu/ὡς + mệnh đề, ἔφη ὡς ποιοῖ/ποιῶ, τεθυκέναι/θύειν"
+      ],
+      "reading": [
+        "Hypothesis zur Antigone (bản in Ettal, đối chiếu Nauck 1848 và bản Đại học Crete, public domain)",
+        "Aesop, fabula 143 = Chambry 211 (mythfolklore, đối chiếu scan Chambry 1927 trên Wikisource Hy Lạp, public domain)"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
