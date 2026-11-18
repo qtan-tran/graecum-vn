@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 13 – The active/middle aorist (sigmatic &amp; thematic forms)</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  td.em, th.em { font-style: italic; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 13: The active/middle aorist (sigmatic &amp; thematic forms)</h1>
+
+<p style="font-size:0.9em; color:#64748b;">English edition · Original (Tiếng Việt): <a href="../../lessons/13-aorist-sigmatic-thematic/index.html">Lesson 13 – Graecum VN</a> – identical content, structure and exercises.</p>
+
+<div class="toc">
+<p><strong>Contents</strong></p>
+<ol>
+<li><a href="#s1">The aorist: the tense of the complete event</a></li>
+<li><a href="#s2">The sigmatic active aorist: ἔλυσα</a></li>
+<li><a href="#s3">The consonant + σ rules return: ἔγραψα, ἐδίωξα, ἔπεισα</a></li>
+<li><a href="#s4">The sigmatic middle/passive aorist &amp; deponents: ἐλυσάμην</a></li>
+<li><a href="#s5">The thematic aorist: ἦλθον, ἔλαβον, ἐγενόμην</a></li>
+<li><a href="#s6">The aorist of liquid stems: ἔμεινα, ἔκρῑνα, ἀπεκρινάμην</a></li>
+<li><a href="#s7">The four-tense clock &amp; the strategy of "peeling the aorist"</a></li>
+<li><a href="#reading">Reading I: The dream of Plato's temple (Aristides, Or. 51 Keil 61–63)</a></li>
+<li><a href="#reading2">Reading II: Klearchos deposits friendship (Xenophon, Anabasis 2,5)</a></li>
+<li><a href="#vocab">Core vocabulary</a></li>
+<li><a href="#confusables">Summary table of easily confused points</a></li>
+<li><a href="#exercises">Exercises</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Goals for this lesson:</strong> you can (1) explain the <strong>aorist</strong> as the "complete event" view and contrast it with the present, imperfect and future on the same axis; (2) decline the six persons of the <strong>sigmatic aorist (first aorist)</strong> active (<span class="gk">ἔλυσα</span>…), the consonant + <span class="gk">σ</span> rules included (<span class="gk">ἔγραψα, ἐδίωξα, ἔπεισα</span>), and the aorist of contract verbs (<span class="gk">ἐποίησα</span> – the twin of <span class="gk">ποιήσω</span> from Lesson 12); (3) decline the <strong>sigmatic middle/passive aorist</strong> (<span class="gk">ἐλυσάμην</span>) and use deponent aorists (<span class="gk">ἐβουλευσάμην, ἡγήσατο</span>); (4) recognize and decline the <strong>thematic aorist (second aorist)</strong> with its new stem (<span class="gk">ἦλθον, ἔλαβον, εὗρον, ἐγενόμην</span>) and the aorist of liquid stems (<span class="gk">ἔμεινα, ἔκρῑνα, ἀπεκρινάμην</span>); (5) read two original passages: Aristides, Or. 51 Keil 61–63 and Xenophon, Anabasis 2,5.</p>
+</div>
+
+<h2 id="s1">1. The aorist: the tense of the complete event</h2>
+
+<p>So far you have held two views of an action: "in progress" (present, imperfect) and "about to unfold" (future). Today we add the third view – and it is the backbone of every Greek narrative: the <strong>aorist</strong> – the tense that views an event as <strong>one complete block</strong>: it happened, it closed, and we do not cut into its inside to see "how it was unfolding".</p>
+
+<table>
+<thead><tr><th>Tense</th><th>The view</th><th>Visual</th><th>Example with <span class="gk">λύω</span> "loosen"</th></tr></thead>
+<tbody>
+<tr><td><strong>Present</strong></td><td>unfolding at the moment of speaking</td><td>──●──▶ (now)</td><td><span class="gk">λύω</span> – I am loosening</td></tr>
+<tr><td><strong>Imperfect</strong> (Lesson 11)</td><td>unfolding at a point in the past</td><td>──▶<span style="color:#b45309;">●</span>──▶ (back then)</td><td><span class="gk">ἔλυον</span> – (back then) I was loosening</td></tr>
+<tr><td><strong>Aorist</strong> – new today</td><td>the event as a complete block in the past</td><td>───<span style="color:#dc2626;">▮</span>─── (done)</td><td><span class="gk">ἔλυσα</span> – I loosened (one event)</td></tr>
+<tr><td><strong>Future</strong> (Lesson 12)</td><td>the event still to come</td><td>──▶▶<span style="color:#2563eb;">●</span></td><td><span class="gk">λύσω</span> – I shall loosen</td></tr>
+</tbody>
+</table>
+
+<p>The two past tenses divide the work very clearly in narrative: <strong>the imperfect paints the background</strong> (scenery, unfolding developments, habits – Lesson 11), while <strong>the aorist narrates the main events</strong>, the events that "click the story forward beat by beat". If a story is a film, the imperfect is the camera panning around the room; the aorist is the "cuts" that carry the story on: he <em>arrived</em>, <em>spoke</em>, <em>took</em>, <em>went</em> – each verb one complete block.</p>
+
+<div class="info">
+<p><strong>The name:</strong> <span class="gk">ἀόριστος</span> (<span class="tr">aóristos</span>) means "not bounded": <span class="gk">ἀ-</span> "not" + <span class="gk">ὁρίζω</span> "to set a boundary" (its cognate noun is <span class="gk">τὸ ὅρος</span> "boundary, standard" – also the root of the English word <em>horizon</em>). The Alexandrian grammarians named it so because the aorist <em>says nothing</em> about the duration or the internal course of the event: it only says "the thing happened, viewed as a block". In the indicative the aorist stands in the past; but the "complete block" view also lives on in imperatives and subordinate clauses – you will meet these gradually in later lessons.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> the role of "narrating a completed event" is played by the Latin <em>perfect</em>: <em>amāvī</em> "I loved (and the matter is closed)". Latin wraps two things into one tense: "the complete event" and "the result still standing today". Greek splits the two: the <strong>aorist</strong> for the complete event (today's lesson), while "the result still standing" is the perfect (Lesson 14). Practical lesson: when translating the aorist, it nearly always corresponds to the Latin <em>perfect</em> in narrative – Caesar wrote <em>vēnī, vīdī, vīcī</em> "I came, I saw, I won"; if Caesar had been a Greek, that sentence would be a chain of three aorists: <span class="gk">ἦλθον, εἶδον, ἐνίκησα</span> (the first two are thematic aorists, the last a sigmatic aorist of the contract verb <span class="gk">νικάω</span> "win" – today you will be able to build all three).</p>
+</div>
+
+<h2 id="s2">2. The sigmatic active aorist: ἔλυσα</h2>
+
+<p>The most common aorist is packaged with the letter <span class="gk">σ</span> – familiar from the future of Lesson 12: the <strong>sigmatic aorist</strong>, also called the <strong>first aorist</strong>. The formula, with the two σ brothers side by side:</p>
+
+<table>
+<thead><tr><th></th><th>Future (Lesson 12)</th><th>Sigmatic aorist (today)</th></tr></thead>
+<tbody>
+<tr><td><strong>Formula</strong></td><td>present stem + <span class="gk">σ</span> + <strong>present</strong> active endings</td><td><span class="gk">ἐ-</span> (augment) + stem + <span class="gk">σα</span> + <strong>secondary</strong> endings</td></tr>
+<tr><td><strong>Recognition key</strong></td><td>the letter <span class="gk">σ</span>, <strong>no augment</strong></td><td>augment <span class="gk">ἐ-</span> + the <strong>block <span class="gk">-σα-</span></strong></td></tr>
+<tr><td><strong>παιδεύω "educate"</strong></td><td><span class="gk">παιδεύσω, παιδεύσεις, παιδεύσει</span></td><td><span class="gk">ἐπαίδευσα, ἐπαίδευσας, ἐπαίδευσε(ν)</span></td></tr>
+</tbody>
+</table>
+
+<p>You already know the secondary endings from the imperfect (<span class="gk">ἐπαίδευον, ἐπαίδευες, ἐπαίδευε(ν)</span>…); the sigmatic aorist takes exactly that set, attached after the block <span class="gk">-σα-</span>. The full six persons of <span class="gk">λύω</span> "loosen, release":</p>
+
+<table>
+<thead><tr><th>Person</th><th>Ending</th><th><span class="gk">λύω</span> "loosen"</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td><strong>1 Sg.</strong></td><td><span class="gk">-σα</span></td><td><span class="gk">ἔλυσα</span></td><td><span class="tr">élusa</span></td><td>I loosened</td></tr>
+<tr><td><strong>2 Sg.</strong></td><td><span class="gk">-σας</span></td><td><span class="gk">ἔλυσας</span></td><td><span class="tr">élusas</span></td><td>you loosened</td></tr>
+<tr><td><strong>3 Sg.</strong></td><td><span class="gk">-σε(ν)</span></td><td><span class="gk">ἔλυσε(ν)</span></td><td><span class="tr">éluse(n)</span></td><td>he/she loosened</td></tr>
+<tr><td><strong>1 Pl.</strong></td><td><span class="gk">-σαμεν</span></td><td><span class="gk">ἐλύσαμεν</span></td><td><span class="tr">elúsamen</span></td><td>we loosened</td></tr>
+<tr><td><strong>2 Pl.</strong></td><td><span class="gk">-σατε</span></td><td><span class="gk">ἐλύσατε</span></td><td><span class="tr">elúsate</span></td><td>you (pl.) loosened</td></tr>
+<tr><td><strong>3 Pl.</strong></td><td><span class="gk">-σαν</span></td><td><span class="gk">ἔλυσαν</span></td><td><span class="tr">élusan</span></td><td>they loosened</td></tr>
+</tbody>
+</table>
+
+<p>Three details to engrave at once: (1) <strong>the augment is obligatory</strong> in the indicative – an aorist without <span class="gk">ἐ-</span> is not a narrative aorist (see the achtung below); (2) <strong>the accent recesses</strong> by the general rule: <span class="gk">ἔλυσα, ἐλύσαμεν, ἔλυσαν</span> – the accent anchors on the last eligible syllable (ἔ- because the word begins with the augment, which never carries the accent); (3) <strong>movable nu</strong> in 3 Sg. <span class="gk">ἔλυσε(ν)</span> – exactly like <span class="gk">ἐπαίδευε(ν)</span> of the imperfect: the nu appears when the next word begins with a vowel or at the end of a sentence.</p>
+
+<div class="achtung">
+<p><strong>Achtung – the augment is the border between two shores:</strong> the most dangerous pair of the whole σ system: <span class="gk">λύσω</span> (future, no augment) vs <span class="gk">ἔλυσα</span> (aorist, with augment). One <span class="gk">ἐ-</span> prefix turns "still to come" into "already happened". Quick self-check: see a <span class="gk">σ</span> → ask "where is the augment?": with <span class="gk">ἐ-</span> or a lengthened initial vowel → an aorist in the past; without → a future. Note the third shore: the augment does <em>not</em> belong to the aorist alone – the imperfect also has one (<span class="gk">ἐπαίδευον</span>); the σ is what tells them apart.</p>
+</div>
+
+<div class="tipp">
+<p><strong>How to memorize the endings:</strong> the sigmatic aorist endings = the imperfect endings "wearing" an extra <span class="gk">-σα-</span>: <span class="gk">-ον/-ες/-ε</span> → <span class="gk">-σα/-σας/-σε</span>; <span class="gk">-ομεν/-ετε/-ον</span> → <span class="gk">-σαμεν/-σατε/-σαν</span>. If you know the imperfect table of Lesson 11, you already know the aorist: only the front of the ending changes.</p>
+</div>
+
+<h2 id="s3">3. The consonant + σ rules return: ἔγραψα, ἐδίωξα, ἔπεισα</h2>
+
+<p>When the block <span class="gk">-σα-</span> touches the final consonant of a stem, out comes exactly the ψ/ξ/σ rule set you learned in section 2 of Lesson 12 – nothing new to learn, just swap "future" for "aorist":</p>
+
+<table>
+<thead><tr><th>Stem ends in</th><th>Transformation</th><th>Future (Lesson 12)</th><th>Aorist (today)</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">π, β, φ</span></td><td>+ <span class="gk">σ</span> → <span class="gk">ψ</span></td><td><span class="gk">γράψω</span> "will write"</td><td><span class="gk">ἔγραψα</span> "wrote"</td></tr>
+<tr><td><span class="gk">κ, γ, χ</span></td><td>+ <span class="gk">σ</span> → <span class="gk">ξ</span></td><td><span class="gk">διώξω</span> "will pursue"</td><td><span class="gk">ἐδίωξα</span> "pursued"</td></tr>
+<tr><td><span class="gk">τ, δ, θ</span></td><td>the dental drops out, + <span class="gk">σ</span> → <span class="gk">σ</span></td><td><span class="gk">πείσω</span> "will persuade"</td><td><span class="gk">ἔπεισα</span> "persuaded"</td></tr>
+<tr><td><span class="gk">σσ</span> (from *κ/γ)</td><td>+ <span class="gk">σ</span> → <span class="gk">ξ</span></td><td><span class="gk">πράξω</span></td><td><span class="gk">ἔπραξα</span> "did, accomplished"</td></tr>
+<tr><td><span class="gk">ζ</span></td><td>falls away, with compensatory vowel lengthening</td><td><span class="gk">ἐλπίσω</span></td><td><span class="gk">ἤλπισα</span> "hoped" (vowel augment ἐ → η)</td></tr>
+</tbody>
+</table>
+
+<p>Note on augmentation: verbs beginning with a short vowel take the <strong>vocalic augment (temporal augment)</strong> as in Lesson 11: <span class="gk">ἐλπίζω</span> → <span class="gk">ἤλπισα</span> (ἐ → η), <span class="gk">ἄγω</span> → <span class="gk">ἦξα</span> "led" (ἀ with rough breathing + ἐ → ἦ – the same mechanism as <span class="gk">ἀκούω → ἤκουον</span>). Compound verbs slot the augment between prefix and stem, by the old rule: <span class="gk">προσβαίνω</span>? – to stay safe, remember the pieces already met: <span class="gk">προέκρινεν</span> (Lesson 11), and today you will peel one more, <span class="gk">παρῆλθον</span>, in Reading I.</p>
+
+<h3>Contract verbs: an aorist without contraction, just like the future</h3>
+<p>Contract verbs (Lesson 12) build their aorist from exactly the same material as the future: the stem's long final vowel + <span class="gk">σ</span> giving <span class="gk">η</span>, and then the block <span class="gk">-σα-</span> takes the endings:</p>
+<table>
+<thead><tr><th>Family</th><th>Present (contracted)</th><th>Future (Lesson 12)</th><th>Aorist (today)</th><th>English</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ποιέω</span></td><td><span class="gk">ποιῶ</span></td><td><span class="gk">ποιήσω</span></td><td><span class="gk">ἐποίησα</span></td><td>made, did</td></tr>
+<tr><td><span class="gk">τιμάω</span></td><td><span class="gk">τιμῶ</span></td><td><span class="gk">τιμήσω</span></td><td><span class="gk">ἐτίμησα</span></td><td>honoured</td></tr>
+<tr><td><span class="gk">δηλόω</span></td><td><span class="gk">δηλῶ</span></td><td><span class="gk">δηλώσω</span></td><td><span class="gk">ἐδήλωσα</span></td><td>made clear</td></tr>
+<tr><td><span class="gk">νικάω</span></td><td><span class="gk">νικῶ</span></td><td><span class="gk">νικήσω</span></td><td><span class="gk">ἐνίκησα</span></td><td>won</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Achtung – the two σ "cousins" of contract verbs are identical to the letter:</strong> <span class="gk">ποιήσω</span> and <span class="gk">ἐποίησα</span> share the stem <span class="gk">ποιησ-</span> (the η is the trace of ε + σ). They differ in two points: the augment (only the aorist has it) and the accent – the future keeps the accent <strong>standing still on the long stem vowel</strong> throughout the paradigm (<span class="gk">ποιήσω, ποιήσεις, ποιήσομεν</span> – its own rule from Lesson 12), while the aorist accent <strong>recesses by the general rule</strong>: <span class="gk">ἐποίησα, ἐποίησας, ἐποίησε(ν), ἐποιήσαμεν, ἐποιήσατε, ἐποίησαν</span>. Lay the two paradigms side by side and read them aloud three times: your ear will pick up this accent pair for the rest of your reading life.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> the <span class="gk">σ</span> of the Greek aorist and the <em>-s-</em> of the Latin perfect are, in many verbs, <em>the very same relic</em> of the common parent language: <em>dīcō</em> "say" → perfect <em>dīxī</em> (dīc- + s- → <em>dīxī</em>, with long ῑ); Greek: <span class="gk">δεικνύω</span> "show" → <span class="gk">ἔδειξα</span> (δεικ- + σα → <span class="gk">ἔδειξα</span>, the same ξ!). Two languages, one ancient snap of the fingers: insert <em>-s-</em> to close off the event as a block. That is why historical grammarians read these two endings as true brothers: <em>dīxī</em> and <span class="gk">ἔδειξα</span> carry the same inherited scar.</p>
+</div>
+
+<h2 id="s4">4. The sigmatic middle/passive aorist &amp; deponents: ἐλυσάμην</h2>
+
+<p>The middle/passive aorist also works with the block <span class="gk">-σα-</span>; the endings are the secondary middle/passive set you met in the imperfect table of Lesson 11 – only attached after <span class="gk">-σα-</span>:</p>
+
+<table>
+<thead><tr><th>Person</th><th>Ending</th><th><span class="gk">λύω</span> middle/passive</th><th>Transliteration</th><th>English (middle)</th></tr></thead>
+<tbody>
+<tr><td><strong>1 Sg.</strong></td><td><span class="gk">-σαμην</span></td><td><span class="gk">ἐλυσάμην</span></td><td><span class="tr">elusámēn</span></td><td>I loosened (for myself)</td></tr>
+<tr><td><strong>2 Sg.</strong></td><td><span class="gk">-σω</span></td><td><span class="gk">ἐλύσω</span></td><td><span class="tr">elúsō</span></td><td>you loosened (for yourself)</td></tr>
+<tr><td><strong>3 Sg.</strong></td><td><span class="gk">-σατο</span></td><td><span class="gk">ἐλύσατο</span></td><td><span class="tr">elúsato</span></td><td>he/she loosened (for himself)</td></tr>
+<tr><td><strong>1 Pl.</strong></td><td><span class="gk">-σαμεθα</span></td><td><span class="gk">ἐλυσάμεθα</span></td><td><span class="tr">elusámetha</span></td><td>we loosened (for ourselves)</td></tr>
+<tr><td><strong>2 Pl.</strong></td><td><span class="gk">-σασθε</span></td><td><span class="gk">ἐλύσασθε</span></td><td><span class="tr">elúsasthe</span></td><td>you (pl.) loosened (for yourselves)</td></tr>
+<tr><td><strong>3 Pl.</strong></td><td><span class="gk">-σαντο</span></td><td><span class="gk">ἐλύσαντο</span></td><td><span class="tr">elúsanto</span></td><td>they loosened (for themselves)</td></tr>
+</tbody>
+</table>
+
+<p>Lay this table beside the imperfect middle/passive table (<span class="gk">ἐλυόμην, ἐλύου, ἐλύετο…</span>) and the one-to-one relation is visible: <strong>the σ family</strong> is exactly the imperfect family with <span class="gk">-σα-</span> added: <span class="gk">ἐλυόμην → ἐλυσάμην</span>, <span class="gk">ἐλύετο → ἐλύσατο</span>. The middle meaning is still the middle you learned: the subject acts <em>for itself</em> or <em>with itself in view</em> – <span class="gk">ἐλυσάμην</span> can be "I loosened for myself", and in classical military language "I ransomed". A separate passive form with the block <span class="gk">-θη-</span> is reserved for Lesson 14; for today, memorize the two most common classes in use:</p>
+
+<table>
+<thead><tr><th>Class</th><th>Present</th><th>Aorist</th><th>English</th></tr></thead>
+<tbody>
+<tr><td><strong>Ordinary middle</strong></td><td><span class="gk">βουλεύω</span> "deliberate"</td><td><span class="gk">ἐβουλευσάμην</span></td><td>I deliberated, weighed</td></tr>
+<tr><td><strong>Deponent</strong></td><td><span class="gk">ἡγέομαι</span> "lead; consider"</td><td><span class="gk">ἡγήσατο</span></td><td>he considered, led</td></tr>
+<tr><td><strong>Contract deponent</strong></td><td><span class="gk">ἀκολουθέω</span> "follow" (+ dative, Lesson 12)</td><td><span class="gk">ἠκολούθησα</span></td><td>followed (active in meaning; this verb keeps an active aorist although its present is contract – real Greek is not always tidy)</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>How to remember:</strong> the block <span class="gk">-σα-</span> is a shared "water pipe" for active and middle/passive alike: whatever ending from Lesson 11 flows out of the pipe, that is the person you get. Learn the secondary ending map once, and it serves for the imperfect, the active aorist and the m/p aorist.</p>
+</div>
+
+<h2 id="s5">5. The thematic aorist: ἦλθον, ἔλαβον, ἐγενόμην</h2>
+
+<p>Besides the σ family, Greek has a second aorist family with a completely different packaging: the <strong>thematic aorist</strong>, also called the <strong>second aorist</strong>. The name "thematic" reminds you of the thematic vowel <span class="gk">-ο-/-ε-</span> from Lesson 6: these forms join stem and ending with the thematic vowel, imperfect-style. And the formula is strikingly simple:</p>
+<p style="text-align:center;"><strong>augment + a <em>new stem</em> + imperfect endings</strong></p>
+
+<p>The key lies in the words "new stem": the verb switches to a <em>different</em> stem – usually shorter, older – and conjugates it with the secondary endings of the imperfect. Compare the sigmatic sibling: <span class="gk">ἔλυσα</span> takes the present stem <span class="gk">λυ-</span>; but <span class="gk">ἦλθον</span> abandons the present stem <span class="gk">ἐρχ-</span> for the stem <span class="gk">ἐλθ-</span>. The four most familiar pairs (plus one):</p>
+
+<table>
+<thead><tr><th>Present</th><th>Thematic aorist</th><th>English</th><th>Transliteration pair</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἔρχομαι</span></td><td><span class="gk">ἦλθον</span></td><td>come, go</td><td><span class="tr">érchomai – êlthon</span></td></tr>
+<tr><td><span class="gk">λαμβάνω</span></td><td><span class="gk">ἔλαβον</span></td><td>take, receive</td><td><span class="tr">lambánō – élabon</span></td></tr>
+<tr><td><span class="gk">εὑρίσκω</span></td><td><span class="gk">εὗρον</span></td><td>find</td><td><span class="tr">heurískō – heûron</span></td></tr>
+<tr><td><span class="gk">γίγνομαι</span></td><td><span class="gk">ἐγενόμην</span></td><td>become; happen</td><td><span class="tr">gígnomai – egenómēn</span></td></tr>
+<tr><td><span class="gk">λέγω</span></td><td><span class="gk">εἶπον</span></td><td>say</td><td><span class="tr">légō – eîpon</span></td></tr>
+</tbody>
+</table>
+
+<p>The full six persons, with <span class="gk">ἔρχομαι</span> as the model (the endings follow exactly the active imperfect table of Lesson 11):</p>
+
+<table>
+<thead><tr><th>Person</th><th><span class="gk">ἔρχομαι</span> "come"</th><th>Transliteration</th><th><span class="gk">λαμβάνω</span> "take"</th></tr></thead>
+<tbody>
+<tr><td><strong>1 Sg.</strong></td><td><span class="gk">ἦλθον</span></td><td><span class="tr">êlthon</span></td><td><span class="gk">ἔλαβον</span></td></tr>
+<tr><td><strong>2 Sg.</strong></td><td><span class="gk">ἦλθες</span></td><td><span class="tr">êlthes</span></td><td><span class="gk">ἔλαβες</span></td></tr>
+<tr><td><strong>3 Sg.</strong></td><td><span class="gk">ἦλθε(ν)</span></td><td><span class="tr">êlthe(n)</span></td><td><span class="gk">ἔλαβε(ν)</span></td></tr>
+<tr><td><strong>1 Pl.</strong></td><td><span class="gk">ἦλθομεν</span></td><td><span class="tr">êlthomen</span></td><td><span class="gk">ἐλάβομεν</span></td></tr>
+<tr><td><strong>2 Pl.</strong></td><td><span class="gk">ἦλθετε</span></td><td><span class="tr">êlthete</span></td><td><span class="gk">ἐλάβετε</span></td></tr>
+<tr><td><strong>3 Pl.</strong></td><td><span class="gk">ἦλθον</span></td><td><span class="tr">êlthon</span></td><td><span class="gk">ἔλαβον</span></td></tr>
+</tbody>
+</table>
+
+<p>Three notes: (1) <strong>1 Sg. = 3 Pl.</strong>, just like the imperfect (<span class="gk">ἦλθον</span> is both "I came" and "they came" – context decides); (2) <span class="gk">εὗρον</span> and <span class="gk">εἶπον</span> have the <strong>long-vowel form of the augment</strong> at the front (<span class="gk">εὑ-</span> with rough breathing, <span class="gk">εἰ-</span>) – the same ε-lengthening phenomenon as Lesson 11; (3) <span class="gk">ἐγενόμην</span> is a <strong>thematic middle/passive aorist</strong>: the deponent <span class="gk">γίγνομαι</span> conjugates with the secondary m/p endings of Lesson 11: <span class="gk">ἐγενόμην, ἐγένου, ἐγένετο, ἐγενόμεθα, ἐγένεσθε, ἐγένοντο</span> – and you will read the exact form <span class="gk">κατεθέμεθα</span> "we deposited" in Reading II: the ending <span class="gk">-εμεθα</span> is in its slot, only the accent differs.</p>
+
+<div class="achtung">
+<p><strong>Achtung – the thematic aorist "wears the imperfect's coat":</strong> <span class="gk">ἔλαβον</span> and <span class="gk">ἐλάμβανον</span> differ by <em>one syllable</em> in front: the "complete block" view (<span class="gk">ἔλαβον</span>) vs the "in progress" view (<span class="gk">ἐλάμβανον</span>). In a story, the first narrates the event, the second paints the background. Self-check: strip off the augment and ask "is the remaining stem the present stem?": <span class="gk">ἐλάμβαν-</span> is precisely the present stem (the βαν fits <span class="gk">λαμβάνω</span>) → imperfect; <span class="gk">ἐλαβ-</span> is a <em>different</em> stem (check the pair table above) → thematic aorist. Dictionaries list the present–aorist pair ready-made, and the vocabulary table at the end of this lesson also lists pairs: learn the pair, never the single form.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Reading trick:</strong> meet a form with augment + imperfect endings and the familiar verb "does not come out" – odds are you are looking at a thematic aorist: try looking up the stripped stem (remove the augment, remove the ending): <span class="gk">ἦλθ-</span>, <span class="gk">ἐλαβ-</span>, <span class="gk">εὑρ-</span> – these three short stems are the "code names" of three extremely common verbs.</p>
+</div>
+
+<h2 id="s6">6. The aorist of liquid stems: ἔμεινα, ἔκρῑνα, ἀπεκρινάμην</h2>
+
+<p>Lesson 12 taught you the liquid future of verbs with stems in λ/μ/ν/ρ: <span class="gk">μένω → μενῶ</span>. This family has a matching "liquid" aorist – the <strong>liquid aorist</strong>, in essence a first aorist in which the <span class="gk">σ</span> drops out before the liquid consonant and the preceding vowel lengthens in compensation (compensatory lengthening, as in Lesson 12):</p>
+
+<table>
+<thead><tr><th>Present</th><th>Liquid future (Lesson 12)</th><th>Liquid aorist (today)</th><th>English</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">μένω</span></td><td><span class="gk">μενῶ</span></td><td><span class="gk">ἔμεινα</span></td><td>remain – remained</td></tr>
+<tr><td><span class="gk">κρῑνω</span></td><td><span class="gk">κρῑνῶ</span></td><td><span class="gk">ἔκρῑνα</span></td><td>judge – judged</td></tr>
+<tr><td><span class="gk">στέλλω</span></td><td><span class="gk">στελῶ</span></td><td><span class="gk">ἔστειλα</span></td><td>send – sent</td></tr>
+</tbody>
+</table>
+
+<p>The endings attach exactly as in the sigmatic aorist set (<span class="gk">-α, -ας, -ε(ν), -αμεν, -ατε, -αν</span>): <span class="gk">ἔμεινα, ἔμεινας, ἔμεινε(ν), ἐμείναμεν, ἐμείνατε, ἔμειναν</span>. A familiar deponent also switches to its aorist on the liquid basis: <span class="gk">ἀποκρίνομαι</span> "answer" (Lesson 10) → aorist <span class="gk">ἀπεκρινάμην</span> "I answered": the augment slots between the prefix <span class="gk">ἀπο-</span> and the stem <span class="gk">κρῑν-</span>, then come the thematic m/p endings: <span class="gk">ἀπεκρινάμην, ἀπεκρίνω, ἀπεκρίνατο, ἀπεκρινάμεθα, ἀπεκρίνασθε, ἀπεκρίναντο</span>. Compare with the imperfect <span class="gk">ἀπεκρινόμην</span> (Lesson 10) to watch one and the same verb change endings as the tense changes.</p>
+
+<div class="achtung">
+<p><strong>Achtung – three pieces of one <span class="gk">μένω</span>:</strong> <span class="gk">μένω</span> (present) – <span class="gk">μενῶ</span> (liquid future, circumflex) – <span class="gk">ἔμεινα</span> (liquid aorist, augment + recessive accent). Same family, same σ-loss, but only the aorist has the augment; only the future has the circumflex standing at the end of the stem. Put the three forms in one row in your notebook: they are the "three ages" of the verb, and you will draw this same row for <span class="gk">κρῑνω, στέλλω</span> in the exercises.</p>
+</div>
+
+<h2 id="s7">7. The four-tense clock &amp; the strategy of "peeling the aorist"</h2>
+
+<p>With all four indicative tenses in hand, you now hold the entire basic "clock" of the Greek verb. These four tenses are not just four points on a timeline, but two axes stacked on each other: <strong>time location</strong> (past / non-past / future) and <strong>aspect</strong> – the view of how the event unfolds:</p>
+
+<table>
+<thead><tr><th></th><th>"In progress" view (imperfective)</th><th>"Complete block" view (perfective)</th></tr></thead>
+<tbody>
+<tr><td><strong>Non-past</strong></td><td><strong>Present</strong>: <span class="gk">λύω</span> "I am loosening"</td><td>– (the perfective in the past: the aorist)</td></tr>
+<tr><td><strong>Past</strong></td><td><strong>Imperfect</strong>: <span class="gk">ἔλυον</span> "(back then) I was loosening"</td><td><strong>Aorist</strong>: <span class="gk">ἔλυσα</span> "I loosened (one block)"</td></tr>
+<tr><td><strong>Later</strong></td><td><strong>Future</strong>: <span class="gk">λύσω</span> "I shall loosen"</td><td>(Lesson 14 adds the perfect – a third kind of view: "the result still standing")</td></tr>
+</tbody>
+</table>
+
+<p>When reading narrative, think of it this way: <strong>aorist = the beat of events</strong>, <strong>imperfect = the background scene</strong>, <strong>historic present (Lesson 12) = a camera close-up</strong>. A typical stretch of Xenophon opens with an imperfect setting the scene, then a chain of aorists carries the story: <span class="gk">ἐπορεύετο</span> "he was marching" → <span class="gk">ἦλθεν</span> "he arrived", <span class="gk">εἶπεν</span> "he spoke", <span class="gk">ἔλαβεν</span> "he took". Reading I today shows you both views interwoven in a single dream.</p>
+
+<h3>The "peel the aorist" strategy – four steps</h3>
+<ol>
+<li><strong>Find the augment:</strong> <span class="gk">ἐ-</span> at the front (or slotted inside a compound prefix), or a lengthened initial vowel: <span class="gk">ἦ- (ἦλθον), εὑ- (εὗρον), εἰ- (εἶπον), ἠ- (ἤλπισα)</span>. No augment → not a past tense → try the future.</li>
+<li><strong>Find the block <span class="gk">-σα-</span>:</strong> present → a <strong>sigmatic aorist</strong> (active or m/p according to the ending that follows it).</li>
+<li><strong>Strip the secondary ending</strong> (<span class="gk">-ον/-ες/-ε/-ομεν/-ετε/-ον</span> or the m/p set): what remains is the stem – if the stem is <em>different</em> from the present stem → a <strong>thematic aorist</strong>; check the pair table or the dictionary.</li>
+<li><strong>Liquid stem</strong> (λ/μ/ν/ρ) + aorist endings attached after a long vowel → a <strong>liquid aorist</strong>.</li>
+</ol>
+
+<div class="achtung">
+<p><strong>Achtung – the augment is not an aorist certificate:</strong> the imperfect also has one. The form <span class="gk">προὔτεινεν</span> in Reading I below has an augment (with vowel crasis: <span class="gk">προε-</span> → <span class="gk">προὐ-</span>) but <em>no σα</em>, and the ending <span class="gk">-εν</span> stands on the present stem <span class="gk">τειν-</span>: that is an imperfect of <span class="gk">προτείνω</span> "hold out, extend". The golden question, always, after finding the augment is: "where is the σα? – does the ending stand on the present stem or on a different stem?"</p>
+</div>
+
+<p>One vocabulary key accompanies narrative aorists: <span class="gk">ἔπειτα</span> "after that" – an adverb announcing a chain of events, which you will meet densely in later readings. And to round off today's ration, here is a small map for quick consultation while reading:</p>
+
+<table>
+<thead><tr><th>Form met</th><th>Peel</th><th>Conclusion</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἔγραψεν</span></td><td><span class="gk">ἐ- γραφ/ψ -εν</span>? → φ + σ → ψ, 3 Sg. ending</td><td>sigmatic aorist 3 Sg. "he wrote"</td></tr>
+<tr><td><span class="gk">ἐλαβόμην</span></td><td><span class="gk">ἐ- λαβ -όμην</span>, stem ≠ present stem</td><td>thematic aorist m/p 1 Sg. "I took (for myself)"</td></tr>
+<tr><td><span class="gk">ἐποιησάμην</span></td><td><span class="gk">ἐ- ποιη σα -μην</span>, m/p ending</td><td>sigmatic aorist m/p 1 Sg. "I made (for myself)"</td></tr>
+<tr><td><span class="gk">ἔμεινας</span></td><td><span class="gk">ἐ- μειν -ας</span>, liquid stem, aorist ending</td><td>liquid aorist 2 Sg. "you remained"</td></tr>
+</tbody>
+</table>
+
+<h2 id="reading">8. Reading I: The dream of Plato's temple (Aristides, Or. 51 Keil 61–63)</h2>
+
+<p><strong>Context.</strong> <strong>Aelius Aristides</strong> (AD 117–181) was the most celebrated orator of the Roman Empire after Demosthenes – his contemporaries ranked the two men as a pair. He suffered from a wasting illness for decades, and his <em>Hieroi Logoi</em> (<em>Sacred Tales</em>) record his symptoms, remedies and the commands the god Asclepius sent him through dreams. Book V tells of a summer of stomach pain and a midnight march on the god's orders; its final part is a chain of dreams about the city of Athens, in which Asclepius promises him an oratorical rank beside Plato's. The passage below is one scene from that dream chain; the retelling keeps nearly the full original wording, replacing only participles (not yet learned) with indicative verbs and trimming a few clauses – each spot is noted. (Section numbers follow the Keil edition: Or. 51 Keil = Or. 27 Dindorf, because the two collections number differently.)</p>
+
+<p class="gk" style="font-size:1.12em;">(1) μετὰ ταῦτα ἐχωροῦμεν πρὸς τὸ Λύκειον, καὶ νεώς τις ἐξεδέχετο πάνυ μέγας καὶ καλός. (2) ἔβαινον ἄνω, καὶ παιδάριον προὔτεινεν ᾠὰ τρία· ἐγὼ δὲ παρῆλθον καὶ οὐκ ἔλαβον. (3) ἐνθύμιον ἐποιησάμην ὅτι χρὴ λαβεῖν τοῦ συμβόλου ἕνεκα. (4) ἐπέστρεψα οὖν καὶ ἔλαβον τὰ ᾠά. (5) ἐν δὲ τῷ προνάῳ ὁρῶ τὸν νεὼ Πλάτωνος ὄντα τοῦ φιλοσόφου, καὶ τὸ ἄγαλμα αὐτοῦ μέγα καὶ καλόν. (6) εἶπέ τις· "καὶ τρεῖς ἔδει νεὼς εἶναι Πλάτωνός γε." (7) κἀγὼ ἔφην· "τί δ' οὐ καὶ Δημοσθένους ὀγδοήκοντα, καὶ Ὁμήρου γε, οἶμαι;" (8) "τοὺς μὲν νεὼς τοῖς θεοῖς προσήκει καθιεροῦν· τοὺς δὲ ἄνδρας τοὺς ἐλλογίμους τῇ τῶν βιβλίων ἀναθέσει τιμᾶν." (9) τοιαῦτα εἶπον, καὶ ἐπανῄειν.</p>
+
+<h3>Sentence-by-sentence dissection</h3>
+<h4>Sentence 1</h4>
+<p><span class="gk">μετὰ ταῦτα ἐχωροῦμεν πρὸς τὸ Λύκειον, καὶ νεώς τις ἐξεδέχετο πάνυ μέγας καὶ καλός</span> – "After that we were making our way toward the Lyceum, and a temple came into view, very large and very beautiful". Two imperfects paint the background, as discussed in section 7: <span class="gk">ἐχωροῦμεν</span> (from <span class="gk">χωρέω</span>; gloss: make one's way) "advance toward", <span class="gk">ἐξεδέχετο</span> (from <span class="gk">ἐκδέχομαι</span>; gloss: come into view) "come into view". <span class="gk">τὸ Λύκειον</span> (gloss: the Lyceum) "the Lyceum" – the famous gymnasium of Athens, where Aristotle once taught; <span class="gk">ὁ νεώς, -οῦ</span> "temple" is a new word of this lesson (note the double spelling: the same word is also written <span class="gk">ὁ ναός</span>). The original uses <span class="gk">ᾗ</span> "to where" – a relative adverb not yet learned, so the retelling substitutes <span class="gk">πρὸς</span> + accusative.</p>
+
+<h4>Sentence 2</h4>
+<p><span class="gk">ἔβαινον ἄνω, καὶ παιδάριον προὔτεινεν ᾠὰ τρία· ἐγὼ δὲ παρῆλθον καὶ οὐκ ἔλαβον</span> – "I was walking up, and a little boy was holding out three eggs; but I passed by and did not take them". This is the "star" sentence of the lesson:</p>
+<ul>
+<li><span class="gk">ἔβαινον</span> – imperfect of <span class="gk">βαίνω</span> "walk, step" (augment + stem <span class="gk">βαιν-</span> + secondary ending): background scene.</li>
+<li><span class="gk">προὔτεινεν</span> – imperfect of <span class="gk">προτείνω</span> "hold out, extend": prefix <span class="gk">προ-</span> + augment (with vowel crasis <span class="gk">προε-</span> → <span class="gk">προὐ-</span>, a contraction of <span class="gk">προετεῖνεν</span>) + the 3 Sg. ending <span class="gk">-εν</span>. Dissected in the achtung of section 7: <em>an augment without a σα</em> – imperfect!</li>
+<li><span class="gk">παρῆλθον</span> – <strong>thematic aorist</strong> of <span class="gk">παρέρχομαι</span> "pass by": prefix <span class="gk">παρ(α)-</span> + η augment (the alpha drops and ε lengthens into η: <span class="gk">παρ-ή-λθ-ον</span>) + the stem <span class="gk">ἐλθ-</span> familiar from <span class="gk">ἦλθον</span> + the 1 Sg./3 Pl. ending. Context here fixes "I passed by".</li>
+<li><span class="gk">ἔλαβον</span> – thematic aorist of <span class="gk">λαμβάνω</span> "take": <span class="gk">ἐ-λαβ-ον</span>, the ending <span class="gk">-ον</span> standing on a stem <em>different</em> from the present stem <span class="gk">λαμβαν-</span>. <span class="gk">τὸ παιδάριον</span> (gloss: little boy) "little boy"; <span class="gk">τὸ ᾠόν, -οῦ</span> (gloss: egg) "egg", plural <span class="gk">τὰ ᾠά</span>.</li>
+</ul>
+
+<h4>Sentence 3</h4>
+<p><span class="gk">ἐνθύμιον ἐποιησάμην ὅτι χρὴ λαβεῖν τοῦ συμβόλου ἕνεκα</span> – "I formed the reflection that one must take them, for the sake of the token". <span class="gk">ἐποιησάμην</span> – <strong>sigmatic aorist m/p 1 Sg.</strong> of the contract verb <span class="gk">ποιέω</span> "make" (Lesson 12): augment <span class="gk">ἐ-</span> + stem <span class="gk">ποιησ-</span> (the same η as in <span class="gk">ποιήσω</span>!) + m/p ending <span class="gk">-άμην</span> – a "make for oneself" = "I resolved, noted in my mind". The middle meaning "for oneself" lives exactly in this sentence. <span class="gk">ἐνθύμιον</span> (gloss: reflection) here works adverbially like "in my mind"; <span class="gk">χρὴ</span> (gloss: one must) "one must" + infinitive <span class="gk">λαβεῖν</span> (aorist infinitive of <span class="gk">λαμβάνω</span> – infinitives will be collected in Lesson 18); <span class="gk">ἕνεκα</span> + genitive (gloss: for the sake of) "for the sake of"; <span class="gk">τὸ σύμβολον</span> (gloss: token) "token, sign" – in the dream, the eggs are the token offered to the god.</p>
+
+<h4>Sentence 4</h4>
+<p><span class="gk">ἐπέστρεψα οὖν καὶ ἔλαβον τὰ ᾠά</span> – "So I turned back and took the eggs". A sigmatic aorist and a thematic one stand side by side in one sentence: <span class="gk">ἐπέστρεψα</span> (from <span class="gk">ἐπιστρέφω</span> "turn back": φ + σ → ψ, 1 Sg. ending <span class="gk">-α</span>) and <span class="gk">ἔλαβον</span> (an old friend again). The original wraps both ideas into the aorist participles <span class="gk">ἐπιστραφεὶς καὶ λαβών</span> "having turned back and taken" – forms not yet learned, to be met in Lesson 24; today they are split into two indicative verbs.</p>
+
+<h4>Sentence 5</h4>
+<p><span class="gk">ἐν δὲ τῷ προνάῳ ὁρῶ τὸν νεὼ Πλάτωνος ὄντα τοῦ φιλοσόφου, καὶ τὸ ἄγαλμα αὐτοῦ μέγα καὶ καλόν</span> – "And in the vestibule I see the temple of Plato the philosopher, and his statue was very large and very beautiful". <span class="gk">ὁρῶ</span> is a <strong>historic present</strong> (Lesson 12): the dream is still flowing and Aristides presses the "close-up" button – translate into the past: "I saw". <span class="gk">ὁ προνάος, -ου</span> (gloss: vestibule) "vestibule, front hall"; <span class="gk">ὄντα</span> is the accusative participle of <span class="gk">εἰμί</span> "to be" (<span class="gk">τὸν νεὼ … ὄντα</span> "the temple <em>being</em> Plato's") – the participle of <span class="gk">εἰμί</span> is just familiar forms of "to be"; read it through. <span class="gk">τὸ ἄγαλμα, -ατος</span> "votive statue" (neuter -μα, Lesson 7); <span class="gk">ὁ φιλόσοφος</span> "philosopher".</p>
+
+<h4>Sentence 6</h4>
+<p><span class="gk">εἶπέ τις· "καὶ τρεῖς ἔδει νεὼς εἶναι Πλάτωνός γε."</span> – "Someone said: 'There ought to be three temples for Plato at least.'" <span class="gk">εἶπέ τις</span> – <strong>thematic aorist 3 Sg.</strong> of <span class="gk">λέγω</span> "say" (<span class="gk">εἶπε(ν)</span>) + <span class="gk">τις</span> "someone" (Lesson 5). <span class="gk">ἔδει</span> – imperfect of <span class="gk">δεῖ</span> "it is necessary" (gloss: it was necessary). <span class="gk">τρεῖς νεώς</span> – the numeral "three" (Lesson 8) + accusative plural of <span class="gk">ὁ νεώς</span>: "three temples"; <span class="gk">γε</span> (gloss: at least) a balancing particle, "at least, anyhow". The original uses a genitive-absolute construction ("someone said" standing in the genitive absolute) – not yet learned, so the retelling turns it into direct speech.</p>
+
+<h4>Sentence 7</h4>
+<p><span class="gk">κἀγὼ ἔφην· "τί δ' οὐ καὶ Δημοσθένους ὀγδοήκοντα, καὶ Ὁμήρου γε, οἶμαι;"</span> – "And I said: 'Why not eighty for Demosthenes, and for Homer too, I suppose?'". <span class="gk">κἀγὼ</span> is a crasis of <span class="gk">καὶ ἐγώ</span> "and I" – the same crasis you have met before; <span class="gk">ἔφην</span> – imperfect of <span class="gk">φημί</span> "say" (Lesson 12 already read <span class="gk">ἔφη</span>); <span class="gk">τί δ' οὐ</span> "why not"; <span class="gk">ὀγδοήκοντα</span> (gloss: eighty) "eighty" (kin to the numerals of Lesson 8); <span class="gk">οἶμαι</span> – a present deponent "I suppose". A playful detail: Demosthenes and Homer are the other two "giants" of letters, so Aristides allots each of them eighty temples.</p>
+
+<h4>Sentence 8</h4>
+<p><span class="gk">τοὺς μὲν νεὼς τοῖς θεοῖς προσήκει καθιεροῦν· τοὺς δὲ ἄνδρας τοὺς ἐλλογίμους τῇ τῶν βιβλίων ἀναθέσει τιμᾶν</span> – "Temples are fitting to consecrate to the gods; but renowned men one should honour by the dedication of books". <span class="gk">προσήκει</span> (gloss: it is fitting) "it is fitting" + accusative + infinitive – the same "four-component" frame as <span class="gk">δεῖ</span> (Lesson 4). <span class="gk">καθιεροῦν</span> – present infinitive of <span class="gk">καθιερόω</span> "consecrate (a temple)"; the men–de pair (<span class="gk">μὲν … δὲ …</span>) shoulders both halves: <span class="gk">τοὺς νεώς</span> "temples (accusative plural)" vs <span class="gk">τοὺς ἄνδρας τοὺς ἐλλογίμους</span> "renowned men" – an accusative string as in Lesson 11; <span class="gk">ἐλλόγιμος</span> (gloss: renowned) "renowned" (a two-ending adjective, Lesson 9); <span class="gk">τῇ τῶν βιβλίων ἀναθέσει</span> – the dative of means: "by the dedication (of) books" – <span class="gk">ἡ ἀνάθεσις</span> (gloss: dedication) "dedication", <span class="gk">τὸ βιβλίον</span> "book". This is Aristides' "law of honours": <em>temples for the gods, books for the talented</em> – the orator's profession embraces the second half.</p>
+
+<h4>Sentence 9</h4>
+<p><span class="gk">τοιαῦτα εἶπον, καὶ ἐπανῄειν</span> – "Having said such words, I was going home". <span class="gk">εἶπον</span> – thematic aorist 1 Sg. of <span class="gk">λέγω</span>; <span class="gk">τοιαῦτα</span> "such words" (an accusative form of <span class="gk">τοιοῦτος</span>, learn to recognize it); <span class="gk">ἐπανῄειν</span> – imperfect 1 Sg. of <span class="gk">ἐπανέρχομαι</span> "return" (long augment <span class="gk">ηι</span> + the ending <span class="gk">-ν</span> after a vowel). The closing sentence is a textbook aspect pair: the aorist <span class="gk">εἶπον</span> closes off the event "spoke", the imperfect <span class="gk">ἐπανῄειν</span> lets the scene "on the way home" drift on inside the dream.</p>
+
+<p><strong>Full translation:</strong> "After that we were making our way toward the Lyceum, and a temple came into view, very large and very beautiful. I was walking up, and a little boy was holding out three eggs; but I passed by and did not take them. I formed the reflection that one must take them, for the sake of the token. So I turned back and took the eggs. And in the vestibule I saw the temple of Plato the philosopher, and his statue was very large and very beautiful. Someone said: 'There ought to be three temples for Plato at least.' And I said: 'Why not eighty for Demosthenes, and for Homer too, I suppose?' Temples are fitting to consecrate to the gods; but renowned men one should honour by the dedication of books. Having said such words, I was going home."</p>
+
+<div class="info">
+<p><strong>The original, verbatim:</strong> <span class="gk">ἀνιόντι οὖν μοι παιδάριον προὔτεινεν ᾠὰ τρία· κἀγὼ, παρῆλθον γὰρ οὐ λαβών, ἐνθύμιον ἐποιησάμην ὅτι χρὴ μέντοι λαβεῖν τοῦ συμβόλου ἕνεκα … τοιαῦτα εἰπὼν καὶ ἀκούσας ἐπανῄειν</span>. Three active aorist participles play the three roles in the original: <span class="gk">λαβών</span> "without taking", <span class="gk">εἰπών</span> "having spoken", <span class="gk">ἀκούσας</span> "having heard" – all built from aorist stems you have just learned (<span class="gk">ἔλαβον, εἶπον</span> and <span class="gk">ἤκουσα</span>). The participle system will be dissected around Lesson 24; today you only need to recognize the shell: <span class="gk">-ών/-ᾶς</span> attached to an aorist stem. And one piece of history worth keeping: this dream closes with a good omen for Aristides' own oratorical rank – the dream of "Plato's temple" is the god's confirmation of the very claim the whole <em>Sacred Tales</em> cradles.</p>
+</div>
+
+<h2 id="reading2">9. Reading II: Klearchos deposits friendship (Xenophon, Anabasis 2,5)</h2>
+
+<p><strong>Context.</strong> The battle of Cunaxa (401 BC) is over: Cyrus the Younger (Lesson 12) has fallen, and ten thousand Greek soldiers stand stranded in Mesopotamia without a commander, without supplies. On the Persian side, Tissaphernes – the satrap of Sardis, the outstanding cavalryman of King Artaxerxes II – is now the direct adversary. He proposes peace and then invites Klearchos (the Spartan general you met in Lesson 12, the man who once gathered an army with ten thousand dareiks) to his tent to negotiate. At this meeting Klearchos delivers a speech declaring his trust to Tissaphernes; sections 2,5,7–9 keep the speech nearly word for word, trimming only one optative sentence (Lesson 17) and one relative clause (Lesson 15).</p>
+
+<p class="gk" style="font-size:1.12em;">(1) πρῶτον μὲν γὰρ καὶ μέγιστον οἱ θεῶν ἡμᾶς ὅρκοι κωλύουσι πολεμίους εἶναι ἀλλήλοις. (2) περὶ μὲν δὴ τῶν θεῶν τε καὶ τῶν ὅρκων οὕτω γιγνώσκω. (3) παρὰ τοῖς θεοῖς γὰρ τὴν φιλίαν ἡμεῖς κατεθέμεθα. (4) τῶν δ' ἀνθρωπίνων σὲ ἐγὼ ἐν τῷ παρόντι νομίζω μέγιστον εἶναι ἡμῖν ἀγαθόν. (5) σὺν μὲν γὰρ σοὶ πᾶσα μὲν ὁδὸς εὔπορος, πᾶς δὲ ποταμὸς διαβατός, τῶν τε ἐπιτηδείων οὐκ ἀπορία· (6) ἄνευ δὲ σοῦ πᾶσα μὲν διὰ σκότους ἡ ὁδός· οὐδὲν γὰρ αὐτῆς ἐπιστάμεθα· (7) πᾶς δὲ ποταμὸς δύσπορος, πᾶς δὲ ὄχλος φοβερός, φοβερώτατον δ' ἐρημία· μεστὴ γὰρ πολλῆς ἀπορίας ἐστίν.</p>
+
+<h3>Sentence-by-sentence dissection</h3>
+<h4>Sentence 1</h4>
+<p><span class="gk">πρῶτον μὲν γὰρ καὶ μέγιστον οἱ θεῶν ἡμᾶς ὅρκοι κωλύουσι πολεμίους εἶναι ἀλλήλοις</span> – "First and greatest: the oaths by the gods prevent us from being enemies to one another". The sentence opens with two adjectives (comparatives and superlatives get their own lesson, Lesson 22; for now read them as set phrases): <span class="gk">πρῶτον … μέγιστον</span> "the first and greatest point". The subject is <span class="gk">οἱ θεῶν ὅρκοι</span> – "the oaths <em>of</em> the gods" (an embedded genitive <span class="gk">θεῶν</span>, Lesson 1); the verb <span class="gk">κωλύουσι</span> (gloss: prevent) "prevent" + the accusative + infinitive frame (AcI, Lesson 4): "prevent <em>us</em> <em>from being enemies</em>"; <span class="gk">ὁ πολέμιος</span> (Lesson 11) "enemy" stands here in the accusative plural <span class="gk">πολεμίους</span>; <span class="gk">ἀλλήλοις</span> (gloss: one another) "one another" – the reciprocal pronoun, learn to recognize it.</p>
+
+<h4>Sentence 2</h4>
+<p><span class="gk">περὶ μὲν δὴ τῶν θεῶν τε καὶ τῶν ὅρκων οὕτω γιγνώσκω</span> – "Concerning the gods and the oaths, this is how I understand the matter". <span class="gk">γιγνώσκω</span> "know, understand" (its aorist kinsman <span class="gk">ἔγνων</span> will appear later); <span class="gk">οὕτω</span> "in this way" (Lesson 12); <span class="gk">δὴ</span>, <span class="gk">τε</span> – two balancing particles, read them through. The frame <span class="gk">περὶ</span> + genitive "concerning a matter" is familiar from earlier lessons.</p>
+
+<h4>Sentence 3</h4>
+<p><span class="gk">παρὰ τοῖς θεοῖς γὰρ τὴν φιλίαν ἡμεῖς κατεθέμεθα</span> – "For we deposited our friendship with the gods". Slow down for this one:</p>
+<ul>
+<li><span class="gk">κατεθέμεθα</span> – <strong>thematic aorist m/p 1 Pl.</strong>: prefix <span class="gk">κατ(α)-</span> + augment <span class="gk">ἐ-</span> + stem <span class="gk">θε-</span> + the ending <span class="gk">-μεθα</span>, exactly the secondary m/p slot of Lesson 11. The verb is <span class="gk">κατατίθημι</span> "set down, deposit" – a mi-verb (dissected in Lesson 20); today learn the face of <span class="gk">κατεθέμεθα</span> as "we set down, we deposited".</li>
+<li>The middle meaning "for ourselves" shows clearly: depositing <em>a pledge for oneself</em> – the oath is a shared asset, both parties lodge it with the gods.</li>
+<li>The original: <span class="gk">παρ' οὓς ἡμεῖς τὴν φιλίαν συνθέμενοι κατεθέμεθα</span> "with the very gods with whom we, after cementing it, deposited our friendship" – it has a relative clause (<span class="gk">οὓς</span>, Lesson 15) and an aorist m/p participle (<span class="gk">συνθέμενοι</span> "after cementing", from <span class="gk">συντίθημι</span>); the retelling joins the pieces straight for compactness.</li>
+</ul>
+
+<h4>Sentence 4</h4>
+<p><span class="gk">τῶν δ' ἀνθρωπίνων σὲ ἐγὼ ἐν τῷ παρόντι νομίζω μέγιστον εἶναι ἡμῖν ἀγαθόν</span> – "And of the things that belong to men, at present I consider you the greatest good we have". <span class="gk">ἐν τῷ παρόντι</span> (gloss: at present) "at present" – an idiom built on the participle of <span class="gk">εἰμί</span>; <span class="gk">νομίζω</span> "consider" (Lesson 4) opens an AcI: <span class="gk">σὲ … μέγιστον … ἀγαθόν</span> "you are the greatest good" – <span class="gk">ἀγαθός</span> substantivized as "good (thing)" (Lesson 9). This sentence – a Spartan general speaking to the man about to betray him – is the summit of the whole chapter.</p>
+
+<h4>Sentence 5</h4>
+<p><span class="gk">σὺν μὲν γὰρ σοὶ πᾶσα μὲν ὁδὸς εὔπορος, πᾶς δὲ ποταμὸς διαβατός, τῶν τε ἐπιτηδείων οὐκ ἀπορία</span> – "For with you: every road is easy to travel, every river crossable, no lack of provisions". <span class="gk">σύν</span> + dative "together with" (Lesson 4); the ending <span class="gk">-τος</span> on an adjective expresses <em>possibility</em> "able to be X-ed" – <span class="gk">εὔπορος</span> (gloss: easy to travel) "easy to travel", <span class="gk">διαβατός</span> (gloss: crossable) "crossable", the opposite of <span class="gk">δύσπορος</span> (gloss: hard to travel) "hard to travel" in sentence 7 (eu/dus "easy/hard" – learn to recognize them; the comparison lesson will gather them); <span class="gk">ἡ ἀπορία</span> (gloss: want, lack) "lack", <span class="gk">τὰ ἐπιτήδεια</span> (gloss: provisions) "provisions".</p>
+
+<h4>Sentence 6</h4>
+<p><span class="gk">ἄνευ δὲ σοῦ πᾶσα μὲν διὰ σκότους ἡ ὁδός· οὐδὲν γὰρ αὐτῆς ἐπιστάμεθα</span> – "But without you: every road lies through darkness; for we know nothing of it". <span class="gk">ἄνευ</span> + genitive (gloss: without) "without"; <span class="gk">διὰ σκότους</span> "through darkness" (<span class="gk">τὸ σκότος, -ους</span>, a third-declension neuter); <span class="gk">ἐπιστάμεθα</span> – present m/p 1 Pl. of the deponent <span class="gk">ἐπίσταμαι</span> (gloss: know) "know" + a genitive for the thing known (<span class="gk">αὐτῆς</span> "of it", namely <span class="gk">ὁδός</span>). Sentence 6 continues the men–de flow of the whole passage: the half <span class="gk">σὺν σοὶ</span> (sentence 5) – the half <span class="gk">ἄνευ σοῦ</span> (sentence 6).</p>
+
+<h4>Sentence 7</h4>
+<p><span class="gk">πᾶς δὲ ποταμὸς δύσπορος, πᾶς δὲ ὄχλος φοβερός, φοβερώτατον δ' ἐρημία· μεστὴ γὰρ πολλῆς ἀπορίας ἐστίν</span> – "every river hard to cross, every crowd terrifying, most terrifying of all is the desert; for it is full of many wants". A rapid string of three nominal clauses (nominal sentences, Lesson 3); <span class="gk">ὁ ὄχλος</span> "crowd", <span class="gk">ἡ ἐρημία</span> "desert, loneliness" – two new words of this lesson; <span class="gk">φοβερώτατον</span> is the superlative (Lesson 22) of <span class="gk">φοβερός</span> "terrifying" (Lesson 11): read "most terrifying"; <span class="gk">μεστὴ … ἐστίν</span> (gloss: full of) "full of …" + genitive.</p>
+
+<p><strong>Full translation:</strong> "First and greatest: the oaths by the gods prevent us from being enemies to one another. Concerning the gods and the oaths, this is how I understand the matter: for we deposited our friendship with the gods. And of the things that belong to men, at present I consider you the greatest good we have. For with you: every road is easy to travel, every river crossable, no lack of provisions; but without you: every road lies through darkness – for we know nothing of it – every river hard to cross, every crowd terrifying, most terrifying of all is the desert; for it is full of many wants."</p>
+
+<div class="info">
+<p><strong>The original, the sentence left out (2,5,7):</strong> <span class="gk">τὸν γὰρ θεῶν πόλεμον οὐκ οἶδ' οὔτ' ἀπὸ ποίου ἂν τάχους οὔτε ὅποι ἄν τις φεύγων ἀποφύγοι οὔτ' εἰς ποῖον ἂν σκότος ἀποδραίη</span> – "a war against the gods: I know not at what speed, nor where one would flee and escape, nor into what dark one would slip away". The verbs <span class="gk">ἀποφύγοι, ἀποδραίη</span> belong to the optative (Lesson 17), so the retelling leaves them for later. <strong>The rest of the chapter (2,5,31–32) is the tragedy:</strong> <span class="gk">ἐπεὶ δὲ ἦσαν ἐπὶ θύραις ταῖς Τισσαφέρνους, οἱ μὲν στρατηγοὶ παρεκλήθησαν εἴσω … οἵ τε ἔνδον ξυνελαμβάνοντο καὶ οἱ ἔξω κατεκόπησαν</span> – "when they were at the doors of Tissaphernes' tent, the generals were invited inside … those inside were arrested and those outside were cut down". Tissaphernes obeyed the king: the Greek generals were <em>handed over</em> (that is the meaning of the chapter's title in the source collection) and executed; <span class="gk">παρεκλήθησαν, κατεκόπησαν</span> are <em>passive</em> aorists – the form Lesson 14 will teach, while <span class="gk">ξυνελαμβάνοντο</span> is an m/p imperfect with the archaic spelling <span class="gk">ξυν-</span> (= <span class="gk">συν-</span>). Klearchos, the man of Lesson 12 who gathered an army with ten thousand dareiks, placed his whole friendship in a treacherous man's hands – because walking through darkness without a guide is exactly what he himself had described.</p>
+</div>
+
+<h2 id="vocab">10. Core vocabulary</h2>
+
+<p>New words of this lesson (<span class="star">★</span>); the first column lists the present – aorist pairs learned in the tables above:</p>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> λύω, ἔλυσα</td><td class="tr">lúō, élusa</td><td>loosen; release (the model verb of the course)</td></tr>
+<tr><td class="gk"><span class="star">★</span> γράφω, ἔγραψα</td><td class="tr">gráphō, égrapsa</td><td>write (φ + σ → ψ)</td></tr>
+<tr><td class="gk"><span class="star">★</span> λαμβάνω, ἔλαβον</td><td class="tr">lambánō, élabon</td><td>take (thematic aorist, stem λαμβ- → λαβ-)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἔρχομαι, ἦλθον</td><td class="tr">érchomai, êlthon</td><td>come, go (deponent present, active thematic aorist)</td></tr>
+<tr><td class="gk"><span class="star">★</span> εὑρίσκω, εὗρον</td><td class="tr">heurískō, heûron</td><td>find (thematic aorist, rough breathing)</td></tr>
+<tr><td class="gk"><span class="star">★</span> γίγνομαι, ἐγενόμην</td><td class="tr">gígnomai, egenómēn</td><td>become; happen (m/p in both tenses)</td></tr>
+<tr><td class="gk"><span class="star">★</span> κρῑνω, ἔκρῑνα</td><td class="tr">krīnō, ékrīna</td><td>judge; decide (liquid aorist)</td></tr>
+<tr><td class="gk"><span class="star">★</span> παρέρχομαι, παρῆλθον</td><td class="tr">parérchomai, parêlthon</td><td>pass by</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ὅρκος, -ου</td><td class="tr">ho hórkos</td><td>oath</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ θεός, -οῦ</td><td class="tr">ho theós</td><td>god (plural <span class="gk">οἱ θεοί</span> "the gods")</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ νεώς, -οῦ</td><td class="tr">ho neṓs</td><td>temple (the same word also written <span class="gk">ναός</span>)</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ποταμός, -οῦ</td><td class="tr">ho potamós</td><td>river</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ὁδός, -οῦ</td><td class="tr">hē hodós</td><td>road, way</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ὄχλος, -ου</td><td class="tr">ho óchlos</td><td>crowd</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ἐρημία, -ας</td><td class="tr">hē erēmía</td><td>deserted place, loneliness</td></tr>
+<tr><td class="gk"><span class="star">★</span> τὸ βιβλίον, -ου</td><td class="tr">tò biblíon</td><td>book</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ ἀνδριάς, -αντος</td><td class="tr">ho andriás</td><td>statue (of a man)</td></tr>
+<tr><td class="gk"><span class="star">★</span> τὸ ἄγαλμα, -ατος</td><td class="tr">tò ágalma</td><td>votive statue</td></tr>
+</tbody>
+</table>
+
+<p><strong>Quick review (no ★):</strong> <span class="gk">εἰμί</span> am, <span class="gk">ἦν</span> was (Lessons 2, 11); <span class="gk">φημί, ἔφη</span> say (Lesson 12); <span class="gk">λέγω</span> say (Lesson 5); <span class="gk">νομίζω</span> consider (Lesson 4); <span class="gk">δεῖ</span> it is necessary (Lesson 4); <span class="gk">ὁ πολέμιος</span> enemy, <span class="gk">φοβερός</span> terrifying, <span class="gk">ἀγαθός</span> good (Lessons 11, 11, 9); <span class="gk">τὸ ἄγαλμα</span> belongs to the neuter -μα family (Lesson 7); <span class="gk">πᾶς, πᾶσα, πᾶν</span> every, all (Lesson 9); <span class="gk">μεγάλος</span> large, <span class="gk">καλός</span> beautiful (Lesson 9); <span class="gk">τρεῖς</span> three (Lesson 8); <span class="gk">τις</span> someone (Lesson 5); <span class="gk">πολλά</span> many things (Lesson 7); <span class="gk">οὐδείς, οὐδέν</span> nothing (Lesson 8); <span class="gk">σύν</span> + dative together with (Lesson 4).</p>
+
+<p><strong>Glosses needed only for the readings (not yet vocabulary):</strong> <span class="gk">χωρέω</span> make one's way; <span class="gk">ἐκδέχομαι</span> come into view; <span class="gk">τὸ παιδάριον</span> little boy; <span class="gk">τὸ ᾠόν</span> egg; <span class="gk">προτείνω</span> hold out; <span class="gk">τὸ ἐνθύμιον</span> reflection; <span class="gk">τὸ σύμβολον</span> token; <span class="gk">ἕνεκα</span> + genitive for the sake of; <span class="gk">ἐπιστρέφω</span> turn back; <span class="gk">ὁ προνάος</span> vestibule; <span class="gk">ὁ φιλόσοφος</span> philosopher; <span class="gk">ἐλλόγιμος</span> renowned; <span class="gk">ἡ ἀνάθεσις</span> dedication; <span class="gk">καθιερόω</span> consecrate; <span class="gk">κατεθέμεθα</span> deposited (mi-verb, Lesson 20); <span class="gk">εἶπον, εἶπε(ν)</span> said; <span class="gk">ἐπανέρχομαι</span> return; <span class="gk">ἐπίσταμαι</span> know; <span class="gk">εὔπορος</span> easy to travel / <span class="gk">δύσπορος</span> hard to travel / <span class="gk">διαβατός</span> crossable; <span class="gk">τὰ ἐπιτήδεια</span> provisions; <span class="gk">ἄνευ</span> + genitive without; <span class="gk">τὸ σκότος</span> darkness; <span class="gk">μεστός</span> full; <span class="gk">ἔπειτα</span> after that; <span class="gk">χρὴ</span> one must; <span class="gk">ἀλλήλοις</span> one another; <span class="gk">ὁ ὄχλος</span> crowd; <span class="gk">κωλύω</span> prevent; <span class="gk">προσήκει</span> it is fitting; <span class="gk">γιγνώσκω</span> understand; <span class="gk">ἀπορία</span> want, lack; <span class="gk">μεστὴ</span> (fem. form) full.</p>
+
+<h2 id="confusables">11. Summary table of easily confused points</h2>
+
+<table>
+<thead><tr><th>Easily confused pair / set</th><th>Where they differ</th><th>How to self-check</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἔλυσε(ν)</span> vs <span class="gk">ἐλύσει</span></td><td>aorist 3 Sg. vs future 3 Sg.</td><td>the augment <span class="gk">ἐ-</span> = it happened; bare stem + σ = still to come (the "augment border" principle of L12)</td></tr>
+<tr><td><span class="gk">ἔλυσας</span> vs <span class="gk">ἐλύσεις</span> vs <span class="gk">ἐλύεις</span></td><td>aorist vs future vs present, all 2 Sg.</td><td>the ending <span class="gk">-σας</span> is aorist (σ then α), <span class="gk">-σεις</span> future, <span class="gk">-εις</span> present; augmentation is the key</td></tr>
+<tr><td><span class="gk">ἔλυσαν</span> vs <span class="gk">ἐλύσαντο</span> vs <span class="gk">ἐλύοντο</span></td><td>aorist active 3 Pl. vs aorist m/p 3 Pl. vs imperfect m/p 3 Pl.</td><td>the ending <span class="gk">-σαν</span> is active vs <span class="gk">-σαντο</span> m/p; an extra vowel <span class="gk">ο</span> between stem and ending = imperfect</td></tr>
+<tr><td><span class="gk">ἔλαβον</span> vs <span class="gk">ἐλάμβανον</span></td><td>thematic aorist vs imperfect of <span class="gk">λαμβάνω</span></td><td>two different stems: <span class="gk">λαβ-</span> (short) = aorist, <span class="gk">λαμβαν-</span> (long, with the syllable -αν-) = imperfect</td></tr>
+<tr><td><span class="gk">ἦλθον</span> vs <span class="gk">ἐρχόμην</span></td><td>aorist vs present of <span class="gk">ἔρχομαι</span></td><td>the present is m/p (<span class="gk">-ομαι</span>) but the aorist is active (<span class="gk">ἦλθ-ον</span>): "was going" vs "came"</td></tr>
+<tr><td><span class="gk">ἐγενόμην</span> vs <span class="gk">ἐγινόμην</span></td><td>aorist vs imperfect of <span class="gk">γίγνομαι</span></td><td>the aorist stem <span class="gk">γεν-</span> (with ε) vs the present stem <span class="gk">γιν-</span> (with ι): do not write *ἐγενόμην for the imperfect</td></tr>
+<tr><td><span class="gk">ἐλυσάμην</span> vs <span class="gk">ἐλυόμην</span></td><td>aorist vs imperfect m/p 1 Sg.</td><td>a σ right after the stem = aorist; the variable vowel + ending = imperfect</td></tr>
+<tr><td><span class="gk">ἔμεινα</span> vs <span class="gk">μενῶ</span> vs <span class="gk">μένω</span></td><td>aorist vs future vs present of <span class="gk">μένω</span></td><td>three signs, three tenses: the augment (<span class="gk">ἐ-</span>), the liquid stem ν + σ contracted into the future <span class="gk">μενῶ</span>, the bare <span class="gk">μένω</span> present</td></tr>
+<tr><td><span class="gk">ἐποίησα</span> vs <span class="gk">ποιήσω</span></td><td>aorist vs future of the contract verb <span class="gk">ποιέω</span></td><td>the same stem <span class="gk">ποιησ-</span>, differing only in the augment; the aorist accent recesses by the general rule once the augment is added, the future keeps the dictionary position</td></tr>
+<tr><td><span class="gk">ἔγραψεν</span> vs <span class="gk">ἔγραφεν</span> vs <span class="gk">γράψει</span></td><td>aorist vs imperfect vs future of <span class="gk">γράφω</span></td><td>read from left to right: augment + ψ = aorist; augment + the original consonant φ (no σ) = imperfect; bare stem + ψ = future</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">12. Exercises</h2>
+
+<h3>Exercise 1 – Decline the aorist paradigm</h3>
+<p>Decline the active aorist of <span class="gk">λύω</span> in all six persons and the m/p aorist of <span class="gk">λύω</span>; add the transliteration of the 2nd singular in each paradigm.</p>
+<div class="answer"><div class="loesung"><h4>Answers 1</h4>
+<p>Active: <span class="gk">ἔλυσα, ἔλυσας, ἔλυσε(ν), ἐλύσαμεν, ἐλύσατε, ἔλυσαν</span> – 2 Sg. <span class="tr">élusas</span>. Middle: <span class="gk">ἐλυσάμην, ἐλύσω, ἐλύσατο, ἐλυσάμεθα, ἐλύσασθε, ἐλύσαντο</span> – 2 Sg. <span class="tr">elúsō</span>. The same stem <span class="gk">λυσ-</span>, only the endings differ; the recessive accent draws back near the augment in both paradigms.</p>
+</div></div>
+
+<h3>Exercise 2 – Consonant + σ</h3>
+<p>For the following stems (augment supplied), write the 1 Sg. aorist: <span class="gk">ἐ-γραφ-, ἐ-παιδευ-, ἐ-κηρυκ-, ἐ-ποιη-, ἐ-δοκ-</span>. Give the meaning of each form (write, educate, proclaim, make, seem).</p>
+<div class="answer"><div class="loesung"><h4>Answers 2</h4>
+<p><span class="gk">ἔγραψα</span> (φ + σ → ψ) "I wrote"; <span class="gk">ἐπαίδευσα</span> "I educated"; <span class="gk">ἐκήρυξα</span> (κ + σ → ξ) "I proclaimed"; <span class="gk">ἐποίησα</span> "I made"; <span class="gk">ἔδοξα</span> (κ + σ → ξ) "I seemed".</p>
+</div></div>
+
+<h3>Exercise 3 – Sigmatic or thematic?</h3>
+<p>Sort the following forms into (a) sigmatic aorist, (b) thematic aorist, (c) imperfect: <span class="gk">εὗρον, ἐβουλευσάμην, ἐποίει, ἔμεινα, ἐγένετο, ἔλυσας, ἦλθε(ν)</span>.</p>
+<div class="answer"><div class="loesung"><h4>Answers 3</h4>
+<p>(a) sigmatic: <span class="gk">ἐβουλευσάμην</span> (m/p), <span class="gk">ἔλυσας</span>. (b) thematic: <span class="gk">εὗρον</span>, <span class="gk">ἔμεινα</span> (the liquid aorist also belongs to the group with thematic endings), <span class="gk">ἐγένετο</span> (m/p), <span class="gk">ἦλθε(ν)</span>. (c) imperfect: <span class="gk">ἐποίει</span> – the variable vowel <span class="gk">ει</span> stands between stem and ending, with no σ.</p>
+</div></div>
+
+<h3>Exercise 4 – Translate into Greek</h3>
+<p>Translate: (1) "I found the book." (2) "The gods prevented the war." (3) "We deposited the oath." (use the aorists: <span class="gk">εὑρίσκω, κωλύω, κατατίθημι</span>).</p>
+<div class="answer"><div class="loesung"><h4>Answers 4</h4>
+<p>(1) <span class="gk">εὗρον τὸ βιβλίον</span>. (2) <span class="gk">οἱ θεοὶ ἐκώλυσαν τὸν πόλεμον</span>. (3) <span class="gk">τὸν ὅρκον κατεθέμεθα</span>. All three show the augment: the past carries its "marker" at the front of the word.</p>
+</div></div>
+
+<h3>Exercise 5 – Reading in context</h3>
+<p>Read the passage <span class="gk">ἔβαινον ἄνω, καὶ παιδάριον προὔτεινεν ᾠὰ τρία· ἐγὼ δὲ παρῆλθον καὶ οὐκ ἔλαβον</span> (Reading I, sentence 2) and answer: which verbs paint the background (imperfect) and which verbs record events (aorist)? Why do all four verbs carry an augment, yet only two of them are aorists?</p>
+<div class="answer"><div class="loesung"><h4>Answers 5</h4>
+<p>Background: <span class="gk">ἔβαινον</span>, <span class="gk">προὔτεινεν</span> (secondary endings, no σ, carrying the flowing scene "walking up, holding out the eggs"). Events: <span class="gk">παρῆλθον</span>, <span class="gk">ἔλαβον</span> (thematic aorists: the σ is hidden inside the stem, and the ending <span class="gk">-ον</span> closes off "passed by, did not take"). The augment only says "past"; the shape of the stem and the ending says "background or closing beat": the imperfect carries the scene with variable-vowel secondary endings, while the aorist closes the event with its own characteristic endings.</p>
+</div></div>
+
+<h3>Exercise 6 – Listen and spell</h3>
+<p>Read aloud (or have someone read to you) the following forms and then write them from memory with a tense label: <span class="gk">ἔλυσαν, ἐλύσαντο, ἐλύσαντο, ἐλύοντο</span> – which two forms coincide, and why is this sentence a listening "trap"?</p>
+<div class="answer"><div class="loesung"><h4>Answers 6</h4>
+<p><span class="gk">ἐλύσαντο</span> appears twice in the question because the aorist m/p 3 Pl. has only one form. The rest: <span class="gk">ἔλυσαν</span> (aorist active "they loosened"), <span class="gk">ἐλύοντο</span> (imperfect m/p "they were loosening for themselves"). The trap lies in two near-identical pairs: <span class="gk">ἔλυσαν</span> vs <span class="gk">ἐλύσαντο</span> (active vs m/p) and <span class="gk">ἐλύσαντο</span> vs <span class="gk">ἐλύοντο</span> (aorist vs imperfect): close to the ear, but in writing the variable vowel σα/ο differs.</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Lesson 13 – Graecum VN · Compiled by Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · When citing or reusing, give credit: "Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Exercise answers appear only when printing (Ctrl+P → Save as PDF). Reference reading: Aristides, Or. 51 Keil (= 27 Dindorf) 61–63; Xenophon, Anabasis 2,5 (public domain Greek text).</p>
+
+</main>
+</body>
+</html>
