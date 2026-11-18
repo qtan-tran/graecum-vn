@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 14 – Passive aorist &amp; future; the perfect middle/passive</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  td.em, th.em { font-style: italic; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 14: Passive aorist &amp; future; the perfect middle/passive</h1>
+
+<p style="font-size:0.9em; color:#64748b;">English edition · Original (Tiếng Việt): <a href="../../lessons/14-aorist-future-passive-perfect-medpass/index.html">Lesson 14 – Graecum VN</a> – identical content, structure and exercises.</p>
+
+<div class="toc">
+<p><strong>Contents</strong></p>
+<ol>
+<li><a href="#s1">The true passive: the marker <span class="gk">-θη-</span> and the aorist passive <span class="gk">ἐλύθην</span></a></li>
+<li><a href="#s2">The second aorist passive &amp; contract verbs: <span class="gk">ἐφάνην, ἠλλάγην, ἐτιμήθην</span></a></li>
+<li><a href="#s3">The passive future: <span class="gk">λυθήσομαι</span></a></li>
+<li><a href="#s4">The perfect middle/passive: <span class="gk">λέλυμαι, πέπαυται</span></a></li>
+<li><a href="#s5">The map of six stems: <span class="gk">λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην</span></a></li>
+<li><a href="#s6">The strategy of "peeling the passive" &amp; the agent <span class="gk">ὑπό</span> + genitive</a></li>
+<li><a href="#s7">Quick-reference table of the whole system (Lessons 2–14)</a></li>
+<li><a href="#reading">Reading I: The market of knowledge (Plato, Protagoras 313d–e)</a></li>
+<li><a href="#reading2">Reading II: Can virtue be taught? (Plato, Meno 89d–92c)</a></li>
+<li><a href="#vocab">Core vocabulary</a></li>
+<li><a href="#confusables">Summary table of easily confused points</a></li>
+<li><a href="#exercises">Exercises</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Goals for this lesson:</strong> you can (1) explain how the true passive differs from the middle voice, and conjugate the <strong>passive aorist</strong> of the first class (<span class="gk">ἐλύθην</span>) in all six persons, contract verbs included (<span class="gk">ἐτιμήθην</span>); (2) recognize and conjugate the <strong>second aorist passive</strong> with the short <span class="gk">-η-</span> (<span class="gk">ἐφάνην, ἠλλάγην, ἐβλάβην</span>); (3) conjugate the <strong>passive future</strong> <span class="gk">λυθήσομαι</span> and explain why it borrows the endings of the middle future; (4) conjugate the <strong>perfect middle/passive</strong> <span class="gk">λέλυμαι</span> and grasp the meaning "a state still remaining"; (5) build the <strong>map of six stems (principal parts)</strong> of a verb and know which tenses each stem produces; (6) read two original passages: Plato, Protagoras 313d–e and Meno 89d–92c.</p>
+</div>
+
+<h2 id="s1">1. The true passive: the marker <span class="gk">-θη-</span> and the aorist passive <span class="gk">ἐλύθην</span></h2>
+
+<p>In Lesson 10 you learned a mildly surprising truth: the Greek present has <strong>no</strong> passive form of its own – middle and passive share one set of endings (<span class="gk">παιδεύεται</span> is both "he educates himself" and "he is educated"). But in the aorist, Greek suddenly splits into two clearly marked paths: the middle aorist (<span class="gk">ἐλυσάμην</span>, Lesson 13) wears the middle endings, while the <strong>true passive</strong> receives an ending of its own, never met before: <span class="gk">-θη-</span>, inserted between the stem and the personal ending.</p>
+
+<table>
+<thead><tr><th>You meet</th><th>Form</th><th>Meaning</th></tr></thead>
+<tbody>
+<tr><td>Middle aorist (Lesson 13)</td><td><span class="gk">ἐλυσάμην</span></td><td>"I loosened for myself / I saw to the loosing" – the subject <em>does it himself</em></td></tr>
+<tr><td>Passive aorist – new today</td><td><span class="gk">ἐλύθην</span></td><td>"I was loosened" – the subject <em>undergoes</em> the action, someone else acts upon him</td></tr>
+</tbody>
+</table>
+
+<p>The full paradigm of the <strong>first aorist passive</strong> with the model verb <span class="gk">λύω</span>:</p>
+
+<table>
+<thead><tr><th>Person</th><th>Form</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td><span class="gk">ἐλύθην</span></td><td><span class="tr">elýthēn</span></td><td>I was loosened</td></tr>
+<tr><td>2 Sg.</td><td><span class="gk">ἐλύθης</span></td><td><span class="tr">elýthēs</span></td><td>you were loosened</td></tr>
+<tr><td>3 Sg.</td><td><span class="gk">ἐλύθη</span></td><td><span class="tr">elýthē</span></td><td>he/she/it was loosened</td></tr>
+<tr><td>1 Pl.</td><td><span class="gk">ἐλύθημεν</span></td><td><span class="tr">elýthēmen</span></td><td>we were loosened</td></tr>
+<tr><td>2 Pl.</td><td><span class="gk">ἐλύθητε</span></td><td><span class="tr">elýthēte</span></td><td>you (pl.) were loosened</td></tr>
+<tr><td>3 Pl.</td><td><span class="gk">ἐλύθησαν</span></td><td><span class="tr">elýthēsan</span></td><td>they were loosened</td></tr>
+</tbody>
+</table>
+
+<p>Reading this table closely reveals three familiar patterns plus one new thing: (1) the <strong>augment <span class="gk">ἐ-</span></strong> stands at the front as in every past tense (Lesson 11); (2) the ending set <span class="gk">-ν/-ς/-μεν/-τε/-σαν</span> (the 3 Sg. has no ending) is precisely the <strong>active</strong> ending set of the sigmatic aorist (<span class="gk">ἔλυσα, ἔλυσας, ἔλυσε(ν)…</span>, Lesson 13) – the passive "borrows back" the active endings; (3) the only genuinely new thing is the block <span class="gk">-θη-</span> wedged between stem and ending. The infinitive of the aorist passive is <span class="gk">λυθῆναι</span> "to be loosened" – compare the present middle infinitive <span class="gk">λύεσθαι</span> (Lesson 10): the passive adds <span class="gk">-θη-</span> and ends in <span class="gk">-ναι</span>.</p>
+
+<div class="achtung">
+<p><strong>Achtung – accent:</strong> the syllable <span class="gk">-θη-</span> always "pulls" the accent onto itself across the whole paradigm (<span class="gk">ἐλύθην, ἐλύθημεν, ἐλύθησαν</span>) – do not drag the accent back to the augment in the recessive manner of <span class="gk">ἔλυσα</span>. This is a rule of its own for the aorist passive: <strong>the accent sits on <span class="gk">-θη-</span></strong>. One quick test: if you "see" a past-tense word whose accented syllable stands immediately before the ending -ν/-ς/-μεν/-τε/-σαν, together with an augment, it is almost certainly an aorist passive.</p>
+<p><strong>Achtung – meaning:</strong> <span class="gk">ἐλύθη</span> is not "he loosened"! Same stem <span class="gk">λυ-</span>, but <span class="gk">-θη-</span> flips the roles: the subject becomes the one <em>acted upon</em>. Mistranslating in this direction is the classic beginner's error: <span class="gk">ἔλυσε</span> "he loosened" (active, Lesson 13) vs <span class="gk">ἐλύθη</span> "he was loosened" (passive, today) – the whole difference is one block <span class="gk">-θη-</span>.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin wraps the whole passive system into single endings: present <em>docētur</em> "he is taught" – attached the same way as Greek <span class="gk">παιδεύεται</span>. But for past and future passives, Latin must <em>compound</em>: <em>doctus est</em> "was taught" (participle + the verb <em>esse</em>), <em>doctus erit</em> "will be taught". Greek still packs it into one word: <span class="gk">ἐδιδάχθη</span>, <span class="gk">διδαχθήσεται</span>. The consequence when translating Latin into Greek: whenever you meet <em>amātus est</em>, think at once of an aorist passive <span class="gk">ἐλύθη</span>; two Latin words = one Greek word.</p>
+</div>
+<h2 id="s2">2. The second aorist passive &amp; contract verbs: <span class="gk">ἐφάνην, ἠλλάγην, ἐτιμήθην</span></h2>
+
+<p>Just as the active aorist comes in two lines (sigmatic <span class="gk">ἔλυσα</span> and thematic <span class="gk">ἦλθον</span> – Lesson 13), the passive aorist also has two lines: the first plugs in the long <span class="gk">-θη-</span> (section 1), the second uses a <strong>short <span class="gk">-η-</span></strong> – called the <strong>second aorist passive</strong>. For some verbs this passive stem is even more "clipped" than the present stem:</p>
+
+<table>
+<thead><tr><th>Present</th><th>Second aorist passive</th><th>Passive meaning</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">φαίνω</span> "shine; bring to light"</td><td><span class="gk">ἐφάνην</span> (<span class="tr">ephánēn</span>)</td><td>"I was shown forth / I appeared"</td></tr>
+<tr><td><span class="gk">ἀλλάσσω</span> "change"</td><td><span class="gk">ἠλλάγην</span> (<span class="tr">ēllágēn</span>)</td><td>"I was changed (over to the other side)"</td></tr>
+<tr><td><span class="gk">βλάπτω</span> "harm"</td><td><span class="gk">ἐβλάβην</span> (<span class="tr">eblábēn</span>)</td><td>"I was harmed"</td></tr>
+<tr><td><span class="gk">στέλλω</span> "send"</td><td><span class="gk">ἐστάλην</span> (<span class="tr">estálēn</span>)</td><td>"I was sent"</td></tr>
+</tbody>
+</table>
+
+<p>The paradigm with <span class="gk">ἐφάνην</span> – note the 3 Pl. ending:</p>
+
+<table>
+<thead><tr><th>Person</th><th>Form</th><th>Transliteration</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td><span class="gk">ἐφάνην</span></td><td><span class="tr">ephánēn</span></td></tr>
+<tr><td>2 Sg.</td><td><span class="gk">ἐφάνης</span></td><td><span class="tr">ephánēs</span></td></tr>
+<tr><td>3 Sg.</td><td><span class="gk">ἐφάνη</span></td><td><span class="tr">ephánē</span></td></tr>
+<tr><td>1 Pl.</td><td><span class="gk">ἐφάνημεν</span></td><td><span class="tr">ephánēmen</span></td></tr>
+<tr><td>2 Pl.</td><td><span class="gk">ἐφάνητε</span></td><td><span class="tr">ephánēte</span></td></tr>
+<tr><td>3 Pl.</td><td><span class="gk">ἐφάνησαν</span></td><td><span class="tr">ephánēsan</span></td></tr>
+</tbody>
+</table>
+
+<p>Two differences from the first line: the <span class="gk">-η-</span> is <strong>short</strong> (no <span class="gk">θ</span>), and the 3 Pl. ends in <span class="gk">-σαν</span> – exactly like the 3 Pl. of the sigmatic active aorist (<span class="gk">ἔλυσαν</span>, Lesson 13). The mnemonic pattern: <strong>second-passive endings = the endings of the second/third active aorist plus <span class="gk">-η-</span></strong>. Contract verbs (Lesson 12), for their part, hold no surprises: the contract stem <span class="gk">τιμη-</span> stays intact when passivized, simply adding <span class="gk">-θη-</span>: <span class="gk">ἐτιμήθην</span> "I was honored", <span class="gk">ἐδηλώθη</span> "it was brought to light" – the long <span class="gk">-η-</span> of the contract stem and the <span class="gk">-θη-</span> line up neatly, with the accent resting on the stem's long vowel.</p>
+
+<div class="achtung">
+<p><strong>Achtung – the double trap:</strong> (1) <span class="gk">ἐφάνη</span> (aorist passive of <span class="gk">φαίνω</span>) looks just one "sip" away from <span class="gk">ἔφην</span> – the imperfect of <span class="gk">φημί</span> "to say" (Lesson 12: <span class="gk">ἔφη</span> "he said"). Both words are thick on the ground in Platonic dialogue and are easy to misread: <strong>accent on <span class="gk">-άν-</span> = the passive "appeared"; accent on the augment = "said"</strong>. (2) Do not "add" <span class="gk">-θη-</span> onto the second aorist passive: <span class="gk">ἐφάνην</span> already <em>is</em> the passive form; the form *ἐφανθέν does not exist at this tense.</p>
+</div>
+
+<div class="info">
+<p><strong>Where <span class="gk">-θη-</span> comes from:</strong> historical grammarians read <span class="gk">-θη-</span> as a <em>causative</em> ("make-do") element of the old language: <span class="gk">φαίνω</span> "bring to light" has a kinsman in Sanskrit <em>bhā́ti</em>. The trace of the "make" meaning is still audible in some words that carry <span class="gk">-θη-</span> yet are best translated actively: <span class="gk">ἐβουλήθην</span> "I wanted" (aorist of the deponent <span class="gk">βούλομαι</span> – passive in form, entirely active in meaning; compare the imperfect <span class="gk">ἐβουλόμην</span> of Lesson 11 and the future <span class="gk">βουλήσομαι</span> of Lesson 12). This is "the deponent of the aorist passive" – it returns in the confusables table at the end of the lesson.</p>
+</div>
+
+<h2 id="s3">3. The passive future: <span class="gk">λυθήσομαι</span></h2>
+
+<p>The natural next question: if the aorist has a passive of its own, where is the future's? The answer is delicate: Greek <strong>builds no new ending</strong> for the passive future – it borrows the whole set of middle future endings from Lesson 12 (<span class="gk">-σομαι/-σῃ/-σεται…</span>), but attaches that set to the <em>aorist passive stem</em>. The formula:</p>
+
+<table>
+<thead><tr><th>Component</th><th>Aorist passive</th><th>Passive future</th></tr></thead>
+<tbody>
+<tr><td>Stem</td><td><span class="gk">λυ-θη-</span> (augment marking the past)</td><td><span class="gk">λυ-θη-</span> (no augment: future business)</td></tr>
+<tr><td>Endings</td><td>the active set <span class="gk">-ν/-ς/-μεν/-τε/-σαν</span></td><td>the middle future set <span class="gk">-σομαι/-σῃ/-σεται…</span></td></tr>
+<tr><td>Result</td><td><span class="gk">ἐλύθην</span> "I was loosened"</td><td><span class="gk">λυθήσομαι</span> "I will be loosened"</td></tr>
+</tbody>
+</table>
+
+<p>The full six-person paradigm:</p>
+
+<table>
+<thead><tr><th>Person</th><th>Form</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td><span class="gk">λυθήσομαι</span></td><td><span class="tr">lythḗsomai</span></td><td>I will be loosened</td></tr>
+<tr><td>2 Sg.</td><td><span class="gk">λυθήσῃ</span></td><td><span class="tr">lythḗsēi</span></td><td>you will be loosened</td></tr>
+<tr><td>3 Sg.</td><td><span class="gk">λυθήσεται</span></td><td><span class="tr">lythḗsetai</span></td><td>he/she/it will be loosened</td></tr>
+<tr><td>1 Pl.</td><td><span class="gk">λυθησόμεθα</span></td><td><span class="tr">lythēsómetha</span></td><td>we will be loosened</td></tr>
+<tr><td>2 Pl.</td><td><span class="gk">λυθήσεσθε</span></td><td><span class="tr">lythḗsesthe</span></td><td>you (pl.) will be loosened</td></tr>
+<tr><td>3 Pl.</td><td><span class="gk">λυθήσονται</span></td><td><span class="tr">lythḗsontai</span></td><td>they will be loosened</td></tr>
+</tbody>
+</table>
+
+<p>The second aorist passive breeds its future by the same formula, simply with the short <span class="gk">-η-</span>: <span class="gk">φανήσομαι</span> "I will appear / be shown forth", <span class="gk">ἀλλαγήσομαι</span> "I will be changed". And the star pair in today's real text: <span class="gk">διδαχθήσομαι</span> "I will be taught" – from <span class="gk">διδάσκω</span>, the central verb of both readings today.</p>
+
+<div class="achtung">
+<p><strong>Achtung – the mirror pair, to be weighed by its stem:</strong> <span class="gk">λυθήσομαι</span> and <span class="gk">λύσομαι</span> (middle future, Lesson 12) differ by <em>exactly one <span class="gk">-θη-</span></em>, just like the past pair <span class="gk">ἐλύθην</span>/<span class="gk">ἐλυσάμην</span>. When you meet a <span class="gk">-σομαι</span> form, ask: is this stem the present stem (middle future) or the aorist passive stem (passive future)? The anchor: if a long <span class="gk">-η-</span> stands next to the <span class="gk">-σ-</span> → it smells passive: <span class="gk">βουλήσομαι</span> "will want" (the inherited contract stem <span class="gk">βουλη-</span> of <span class="gk">βούλομαι</span>) vs <span class="gk">λυθήσομαι</span> "will be loosened" (the stem <span class="gk">λυθη-</span> bred by the aorist passive). Neither can have an augment – the augment cannot help you in the future; only the stem can.</p>
+</div>
+
+<div class="tipp">
+<p><strong>A pattern for life:</strong> one dictionary line equips you to build two passive tenses: the entry "aorist passive" gives <span class="gk">ἐλύθην</span> → you know the stem <span class="gk">λυθη-</span> → the aorist passive (<span class="gk">ἐλύθην, ἐλύθης, ἐλύθη…</span>) and the passive future (<span class="gk">λυθήσομαι, λυθήσῃ, λυθήσεται…</span>) – two tenses, one stem. This is why people call the aorist passive stem "the passive stem" of a verb: it serves both past and future.</p>
+</div>
+<h2 id="s4">4. The perfect middle/passive: <span class="gk">λέλυμαι, πέπαυται</span></h2>
+
+<p>Now for the last tense still missing from the map: the <strong>perfect</strong> – the tense that says "<strong>X has happened, and the state of X is still with us</strong>". Unlike the aorist (a closed event in the past, Lesson 13), the perfect stands in the present to report the legacy of the past: <span class="gk">πέπαυται</span> "it has stopped – and is still at rest"; <span class="gk">κέκλημαι</span> "I have been called – and still carry that name".</p>
+
+<p>The perfect's number-one formal sign is <strong>reduplication</strong>: the initial consonant of the stem is repeated + <span class="gk">-ε-</span>: stem <span class="gk">λυ-</span> → <span class="gk">λε-λυ-</span>; <span class="gk">παυ-</span> → <span class="gk">πε-παυ-</span>; <span class="gk">κλη-</span> (the stem of <span class="gk">καλέω</span>) → <span class="gk">κε-κλη-</span>. With verbs that begin with a vowel, the initial vowel is lengthened instead (<span class="gk">ἀ-</span> → <span class="gk">ᾱ-</span>, augment-style: <span class="gk">ἀκούω</span> → <span class="gk">ἀκήκοα</span>) – precisely the "vowel augment" you know from Lesson 11.</p>
+
+<p>The paradigm of the <strong>perfect middle/passive</strong> of <span class="gk">λύω</span>:</p>
+
+<table>
+<thead><tr><th>Person</th><th>Form</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td>1 Sg.</td><td><span class="gk">λέλυμαι</span></td><td><span class="tr">lélumai</span></td><td>I am in the state of having been loosened</td></tr>
+<tr><td>2 Sg.</td><td><span class="gk">λέλυσαι</span></td><td><span class="tr">lélusai</span></td><td>you are in the state of having been loosened</td></tr>
+<tr><td>3 Sg.</td><td><span class="gk">λέλυται</span></td><td><span class="tr">lélutai</span></td><td>he/she/it is in the state of having been loosened</td></tr>
+<tr><td>1 Pl.</td><td><span class="gk">λελύμεθα</span></td><td><span class="tr">lelúmetha</span></td><td>we are in the state of having been loosened</td></tr>
+<tr><td>2 Pl.</td><td><span class="gk">λέλυσθε</span></td><td><span class="tr">lélusthe</span></td><td>you (pl.) are in the state of having been loosened</td></tr>
+<tr><td>3 Pl.</td><td><span class="gk">λέλυνται</span></td><td><span class="tr">léluntai</span></td><td>they are in the state of having been loosened</td></tr>
+</tbody>
+</table>
+
+<p>A big pattern emerges: the endings <span class="gk">-μαι/-σαι/-ται/-μεθα/-σθε/-νται</span> are precisely <strong>the middle endings of the present</strong> (Lesson 10: <span class="gk">λύομαι, λύῃ, λύεται…</span>). Slotting this into the system you know: <strong>the imperfect m/p borrows the secondary endings</strong> (<span class="gk">-μην/-σο/-το…</span>, Lesson 11), while <strong>the perfect m/p borrows the primary ones</strong> – same stem, only reduplication and endings change. The meaning of the perfect m/p is doubled like its form: both middle ("be in a state for oneself") and passive ("have been X-ed") – the text decides which, and every dictionary lists these endings in one line.</p>
+
+<div class="achtung">
+<p><strong>Achtung – do not demand an augment:</strong> the perfect <strong>has no augment</strong> – the job of saying "I speak of what has happened" is already done by the reduplication. A common error: writing *ἐλέλυμαι. Quick check: reduplication <span class="gk">λε-λε-/πε-πε-/κε-κε-</span> at the head of the word → perfect → <em>no</em> augment, with the accent following the recessive rule (<span class="gk">λέλυμαι, λελύμεθα</span>). The awkward pair: <span class="gk">λέλυται</span> (perfect m/p) vs <span class="gk">λύεται</span> (present m/p, Lesson 10) – one reduplication apart, and a whole timeframe apart in meaning: "has been loosened (and still is)" vs "is being loosened".</p>
+</div>
+
+<div class="info">
+<p><strong>The true ancestor: <span class="gk">οἶδα</span>.</strong> The finest verb of the perfect tense is <span class="gk">οἶδα</span> "I know" (<span class="tr">oîda</span>). In form it is the perfect of an old verb <span class="gk">εἴδω</span> "see" (gloss: see) – its original meaning is "I have seen, therefore I know". That is why its paradigm wears today's face: <span class="gk">οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν)</span> – with the 3 Sg. <span class="gk">οἶδε</span> and the 3 Pl. <span class="gk">ἴσασι(ν)</span> thick on the ground in Plato, all with the <em>present</em> meaning "know". A valuable pattern: many languages use "have seen" = "know" – Latin likewise has <em>nōvī</em> (perfect of <em>nōscere</em>) with the present meaning "I know well". In both readings today, <span class="gk">ἴσασιν</span> "they know" will play a lead role.</p>
+</div>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> the Latin <em>perfectum</em> (<em>amāvī</em>) packs both views – "event closed" and "state remaining" – whereas Greek splits them: the aorist <span class="gk">ἔλυσα</span> packs the event (Lesson 13), the perfect <span class="gk">λέλυκα</span> packs the state (today + the map in section 5). Translating Latin → Greek you must <em>ask after the intent</em>: <em>vēnī</em> in a told story is an aorist <span class="gk">ἦλθον</span>; <em>cognōvī</em> "I have come to know (and still remember)" is a perfect. In the other direction, translating a Greek perfect into English usually needs an added "…and still is" so that it does not collapse into an aorist.</p>
+</div>
+
+<h2 id="s5">5. The map of six stems: <span class="gk">λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην</span></h2>
+
+<p>Enough! After thirteen lessons of gathering pieces, today we assemble the whole map. Every Greek verb is introduced by the dictionary through a series of forms called the <strong>six principal parts</strong> – and each part is a "workshop" producing a whole cluster of tenses and voices:</p>
+
+<table>
+<thead><tr><th>#</th><th>Principal part of <span class="gk">λύω</span></th><th>Name</th><th>What it produces</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><span class="gk">λύω</span> (<span class="tr">lúō</span>)</td><td>present</td><td>present active + the whole present m/p (<span class="gk">λύω, λύομαι, λύεται…</span>) and the imperfect (<span class="gk">ἔλυον, ἐλυόμην</span>, Lesson 11)</td></tr>
+<tr><td>2</td><td><span class="gk">λύσω</span> (<span class="tr">lúsō</span>)</td><td>future active/middle</td><td>future active <span class="gk">λύσω</span> + middle future <span class="gk">λύσομαι</span> (Lesson 12)</td></tr>
+<tr><td>3</td><td><span class="gk">ἔλυσα</span> (<span class="tr">élusa</span>)</td><td>active aorist</td><td>sigmatic aorist <span class="gk">ἔλυσα</span> + middle aorist <span class="gk">ἐλυσάμην</span> (Lesson 13)</td></tr>
+<tr><td>4</td><td><span class="gk">λέλυκα</span> (<span class="tr">léluka</span>)</td><td>active perfect</td><td><span class="gk">λέλυκα, λέλυκας, λέλυκε(ν)…</span> – preview: full anatomy later in the course</td></tr>
+<tr><td>5</td><td><span class="gk">λέλυμαι</span> (<span class="tr">lélumai</span>)</td><td>perfect middle/passive</td><td>the whole table of section 4 today</td></tr>
+<tr><td>6</td><td><span class="gk">ἐλύθην</span> (<span class="tr">elýthēn</span>)</td><td>aorist passive</td><td>aorist passive <span class="gk">ἐλύθην</span> + <strong>passive future <span class="gk">λυθήσομαι</span></strong> (section 3: one stem, two tenses)</td></tr>
+</tbody>
+</table>
+
+<p>Look at row 6 one last time: the aorist passive stem is the only double-duty stem of the system – every other stem produces one cluster, this one alone produces two (past + future). That is Greek economy for you: having gone to the trouble of building a passive stem, the language exploits it to the full.</p>
+
+<div class="achtung">
+<p><strong>Achtung – the map does not always have six squares:</strong> whatever a verb lacks, the dictionary leaves blank, and you are not allowed to "improvise" it. <span class="gk">ἔρχομαι</span> has no aorist passive (the meaning "go" resists passivization); many deponents list only the m/p line. And wherever a square is empty, Greek often solves it with a <strong>suppletive</strong> verb: the present <span class="gk">ὁρῶ</span> "I see" borrows the aorist of an entirely different verb: <span class="gk">εἶδον</span> (Lesson 13); <span class="gk">λέγω</span> "I say" borrows <span class="gk">εἶπον</span>. The reading lesson: do not look up each new form as a fresh headword – look up its <strong>family of six stems</strong> once and mark it.</p>
+</div>
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin needs only <strong>four principal parts</strong>: <em>amō, amāre, amāvī, amātum</em> – because from <em>amāv-</em> you can compute <em>amāt-</em>, and from <em>amāre</em> you can compute <em>amābā-/amāb-</em>: Latin endings can be derived from one another. Greek <strong>cannot be computed</strong>: <span class="gk">ἦλθον</span> is not visible from <span class="gk">ἔρχομαι</span>, <span class="gk">εἶδον</span> is not visible from <span class="gk">ὁρῶ</span> – hence the drill of learning the set of six forms like a phone number for each verb. This is one of the reasons a Greek dictionary is thicker than a Latin dictionary of the same size.</p>
+</div>
+
+<h2 id="s6">6. The strategy of "peeling the passive" &amp; the agent <span class="gk">ὑπό</span> + genitive</h2>
+
+<p>Pull all the signals of thirteen lessons into one four-question sequence – the order of the questions matters like the steps of an operation: the wrapping first, the core last:</p>
+
+<table>
+<thead><tr><th>Step</th><th>The question shone onto the form</th><th>Conclusion</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Is there an augment <span class="gk">ἐ-</span> or an initial-vowel lengthening?</td><td>Past (imperfect, aorist, aorist passive); none → present, future, or perfect (reduplication replaces the augment)</td></tr>
+<tr><td>2</td><td>Is there reduplication <span class="gk">λε-λε-/πε-πε-/-κε-</span>?</td><td>Perfect; endings <span class="gk">-μαι/-σαι/-ται</span> → middle/passive (<span class="gk">λέλυμαι</span>)</td></tr>
+<tr><td>3</td><td>Is there a <span class="gk">-θη-</span> before the ending?</td><td>First aorist passive (<span class="gk">ἐλύθην</span>) – or a deponent (<span class="gk">ἐβουλήθην</span> "wanted": check the stem in the dictionary)</td></tr>
+<tr><td>4</td><td>Bare stem (no augment) + <span class="gk">-θήσομαι</span>?</td><td>Passive future (<span class="gk">λυθήσομαι</span>) – aorist passive stem + middle future endings</td></tr>
+</tbody>
+</table>
+
+<p>A passive needs to say <em>who</em> performed the action: the <strong>agent</strong> stands in the <strong>genitive with <span class="gk">ὑπό</span></strong> (review of Lesson 10) – the twin of Latin <em>ā/ab</em> + ablative:</p>
+
+<table>
+<thead><tr><th>Active</th><th>Passive</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ὁ σοφιστὴς ἐβλάψε τὸν νέον</span><br />"the sophist harmed the young man"</td><td><span class="gk">ὁ νέος ἐβλάβη ὑπὸ τοῦ σοφιστοῦ</span><br />"the young man was harmed <em>by</em> the sophist"</td></tr>
+</tbody>
+</table>
+
+<p>The mechanics of the transformation: the accusative object <span class="gk">τὸν νέον</span> rises to become the nominative subject <span class="gk">ὁ νέος</span>; the old subject <span class="gk">ὁ σοφιστής</span> drops into a genitive phrase after <span class="gk">ὑπό</span>; the verb swaps into passive endings. This is exactly the Latin chain of transformation (<em>sophistam laesit</em> → <em>iuvenis ā sophista laesus est</em>) – except that Greek wraps it into one word.</p>
+
+<div class="achtung">
+<p><strong>Achtung – the two detours:</strong> (1) <span class="gk">-θη-</span> has <em>no monopoly</em> on the passive: the deponent <span class="gk">ἐβουλήθην</span> "wanted" wears a passive face with an active meaning – only the dictionary can judge (section 2). (2) Conversely, <em>not</em> every passive meaning carries <span class="gk">-θη-</span>: in the present, the passive still uses the middle endings (<span class="gk">παιδεύεται</span>, Lesson 10); in the middle aorist, some verbs carry a nearly passive meaning (<span class="gk">ἠγάσθη</span> "was admired", Lesson 12 – middle endings, translated passively). The reading rule: <strong>the face tells you the tense, the dictionary tells you the meaning</strong> – two independent pieces of information; do not merge them.</p>
+</div>
+
+<h2 id="s7">7. Quick-reference table of the whole system (Lessons 2–14)</h2>
+
+<p>Every indicative form of the model verb <span class="gk">λύω</span> you have learned, sorted by recognition signals – the map for quick lookup while reading:</p>
+
+<table>
+<thead><tr><th>Form</th><th>Tense – voice</th><th>Recognition signal</th><th>Lesson</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">λύω</span></td><td>present active</td><td>bare stem + primary endings</td><td>2</td></tr>
+<tr><td><span class="gk">λύομαι, λύεται</span></td><td>present middle/passive</td><td>endings <span class="gk">-ομαι/-εται</span></td><td>10</td></tr>
+<tr><td><span class="gk">λύσω</span></td><td>future active</td><td>bare σ (no augment)</td><td>12</td></tr>
+<tr><td><span class="gk">λύσομαι</span></td><td>middle future</td><td>σ + middle endings</td><td>12</td></tr>
+<tr><td><span class="gk">ἔλυον</span></td><td>imperfect active</td><td>augment + variable vowel</td><td>11</td></tr>
+<tr><td><span class="gk">ἐλυόμην</span></td><td>imperfect middle/passive</td><td>augment + secondary middle endings</td><td>11</td></tr>
+<tr><td><span class="gk">ἔλυσα</span></td><td>active aorist</td><td>augment + σ + active endings</td><td>13</td></tr>
+<tr><td><span class="gk">ἐλυσάμην</span></td><td>middle aorist</td><td>augment + σ + secondary middle endings</td><td>13</td></tr>
+<tr><td><span class="gk">ἐλύθην</span></td><td>aorist passive</td><td>augment + <span class="gk">-θη-</span> + active endings, accent on <span class="gk">-θη-</span></td><td>14</td></tr>
+<tr><td><span class="gk">λυθήσομαι</span></td><td>passive future</td><td>bare stem with <span class="gk">-θη-</span> + middle future endings</td><td>14</td></tr>
+<tr><td><span class="gk">λέλυκα</span></td><td>active perfect (preview)</td><td>reduplication + <span class="gk">-κα</span></td><td>14 (bottom)</td></tr>
+<tr><td><span class="gk">λέλυμαι</span></td><td>perfect middle/passive</td><td>reduplication + primary middle endings</td><td>14</td></tr>
+<tr><td><span class="gk">λυθῆναι</span></td><td>aorist passive infinitive</td><td><span class="gk">-θῆναι</span></td><td>14</td></tr>
+</tbody>
+</table>
+
+<div class="tipp">
+<p><strong>How to use it while reading:</strong> meeting an unknown form, proceed in this order: (1) peel off the prefix (if any) and examine the rest; (2) scan the table in exactly the signal order of section 6; (3) once the table answers "tense and voice", only the last step remains: the meaning – check the dictionary. A quick example with a form that awaits you in the reading: <span class="gk">λωβηθῆναι</span> → no augment, no reduplication → it ends in <span class="gk">-ναι</span> = an infinitive; it carries <span class="gk">-θη-</span> → the aorist passive infinitive of <span class="gk">λωβέω</span> "insult" → "to be insulted". Never met this verb? No matter – <span class="gk">-θῆναι</span> has already told you what it is grammatically.</p>
+</div>
+<h2 id="reading">8. Reading I: The market of knowledge (Plato, Protagoras 313d–e)</h2>
+
+<p><strong>Context:</strong> the young Hippokrates wakes Socrates in the dead of night: tomorrow morning he wants to hand over money to Protagoras – the most famous sophist in Greece – in order to "learn to be outstanding". Socrates draws him out into the courtyard and reads him a comparison: buying knowledge is more dangerous than buying food. The whole passage is a story about a <em>market</em> – and in a market, sellers praise everything.</p>
+
+<p class="gk" style="font-size:1.12em;">(1) οἵ τε κάπηλοι ὧν ἄγουσιν ἀγωγίμων οὔτε αὐτοὶ ἴσασιν ὅτι χρηστὸν ἢ πονηρόν· ἐπαινοῦσι δὲ πάντα πωλοῦντες. (2) οὔτε οἱ ὠνούμενοι παρ᾽ αὐτῶν, ἐὰν μή τις τύχῃ γυμναστικὸς ἢ ἰατρὸς ὤν. (3) οὕτω δὲ καὶ οἱ τὰ μαθήματα περιάγοντες κατὰ τὰς πόλεις ἐπαινοῦσιν πάντα ἃ πωλοῦσιν. (4) εἰ μὲν οὖν σὺ ἐπιστήμων εἶ τούτων, ἀσφαλές σοι ὠνεῖσθαι μαθήματα καὶ παρὰ Πρωταγόρου καὶ παρ᾽ ἄλλου ὁτουοῦν. (5) εἰ δὲ μή, ὅρα, ὦ μακάριε· πολὺ μείζων κίνδυνος ἐν τῇ τῶν μαθημάτων ὠνῇ ἢ ἐν τῇ τῶν σιτίων.</p>
+
+<p><strong>Sentence-by-sentence dissection:</strong></p>
+<p>(1) <span class="gk">οἵ τε κάπηλοι</span> "the hucksters" (a noun phrase with the plural article, Lesson 7); <span class="gk">ὧν ἄγουσιν ἀγωγίμων</span> – a relative clause preview (Lesson 15): "(the wares) which they carry along" – <span class="gk">ἄγω</span> (gloss: lead) "lead, carry" + <span class="gk">ἀγωγίμος</span> "carriable ware", a kinsman of today's -τος adjectives; <span class="gk">ἴσασιν</span> is the 3 Pl. of <span class="gk">οἶδα</span> – <strong>perfect in form, present in meaning</strong> (section 4): "they know"; <span class="gk">χρηστὸν ἢ πονηρόν</span> "good or bad" – the adjective pair of Lesson 9; <span class="gk">ἐπαινοῦσι δὲ πάντα πωλοῦντες</span> – a present active participle (met by sight in Lesson 13): "they praise everything while selling".</p>
+<p>(2) <span class="gk">οἱ ὠνούμενοι</span> – a <strong>present m/p participle</strong> of the deponent <span class="gk">ὠνέομαι</span> (gloss: buy) "buy": "the buyers"; <span class="gk">ἐὰν μή τις τύχῃ γυμναστικὸς ἢ ἰατρὸς ὤν</span> "unless someone happens to be a trainer or a doctor" – <span class="gk">τυγχάνω</span> + noun phrase, and <span class="gk">ὤν</span> the participle of <span class="gk">εἰμί</span> (Lesson 2): two faces met by sight, extremely common in Plato; <span class="gk">γυμναστικός</span> for the body, <span class="gk">ἰατρικός</span> for illness – whoever "knows the trade" cannot be cheated.</p>
+<p>(3) <span class="gk">οὕτω δὲ καὶ…</span> "and so, likewise…" – the turn from food to knowledge; <span class="gk">τὰ μαθήματα</span> "the lessons" (today's lesson has this word in its vocabulary); <span class="gk">περιάγοντες</span> (gloss: carry around) "carrying around" – <span class="gk">περί</span> + <span class="gk">ἄγω</span>: a familiar active compound; <span class="gk">ἃ πωλοῦσιν</span> – the relative <span class="gk">ἅ</span> (Lesson 15 preview): "the things (they) sell"; the pair <span class="gk">κατὰ τὰς πόλεις</span> "throughout the cities" – accusative plural of <span class="gk">ἡ πόλις</span> (Lesson 3).</p>
+<p>(4) The key sentence: <span class="gk">ἐπιστήμων εἶ</span> "you are a knower" (<span class="gk">ἐπιστήμων</span>, -ονος – the adjective brother of <span class="gk">ἐπιστήμη</span>); <span class="gk">ἀσφαλές σοι ὠνεῖσθαι</span> – the pattern "adjective + dative of person + infinitive" like <span class="gk">δεῖ</span> (Lesson 4): "it is safe for you to buy"; <span class="gk">ὠνεῖσθαι</span> the present m/p infinitive of <span class="gk">ὠνέομαι</span>; <span class="gk">ὁτουοῦν</span> (gloss: anyone whatsoever) "anyone at all". Socrates' logic: only someone who <em>already knows</em> is safe buying knowledge – the mocking paradox: if you already know, why buy at all?</p>
+<p>(5) <span class="gk">εἰ δὲ μή</span> – the shorthand idiom "if not (so)" (εἰ μὲν…εἰ δὲ μή is a paired condition construction, Lesson 21 preview); <span class="gk">ὅρα, ὦ μακάριε</span> – the 2nd-person imperative + vocative (Lesson 4): "take care, my blessed friend"; <span class="gk">πολὺ μείζων… κίνδυνος</span> – a comparative (Lesson 22 preview) "a much greater danger"; <span class="gk">ἐν τῇ τῶν μαθημάτων ὠνῇ</span> – a genitive inside a dative: "in the buying of lessons" – <span class="gk">ἡ ὠνή</span> the noun kin of <span class="gk">ὠνέομαι</span>, the counterpart of Latin <em>emptiō</em>.</p>
+
+<div class="info">
+<p><strong>The next lines (314a):</strong> Socrates continues: <span class="gk">μὴ περὶ τοῖς φιλτάτοις κυβεύῃς</span> "do not gamble with what is dearest to you" – food once bought can be loaded onto a cart, and an expert can be invited to taste it; but knowledge goes <span class="gk">εἰς τὴν ψυχὴν</span> "into the soul" the moment you learn it, and it cannot be given back. This warning will become a familiar one to every Greek family whose son pays a sophist.</p>
+</div>
+
+<p><strong>Full translation:</strong> "The hucksters do not themselves know whether the wares they carry along are good or bad; they praise everything they sell. Nor do those who buy from them know – unless someone happens to be a trainer or a doctor. And so those who carry lessons around through the cities likewise praise all the things they sell. If, then, you are a knower of these things, it is safe for you to buy lessons, both from Protagoras and from anyone else at all. But if not, take care, my blessed friend: buying lessons is a far greater danger than buying food."</p>
+<h2 id="reading2">9. Reading II: Can virtue be taught? (Plato, Meno 89d–92c)</h2>
+
+<p><strong>Context:</strong> Menon, an aristocrat from Thessaly, asks Socrates: can virtue (<span class="gk">ἀρετή</span>) be taught (<span class="gk">διδακτόν</span>)? Socrates nods in his own fashion: if virtue is knowledge, then it is certainly teachable – but let us look for <em>who</em> teaches it. He turns to an Athenian sitting nearby: the politician Anytos. This passage is one of the most ironic situations Plato ever wrote.</p>
+
+<p class="gk" style="font-size:1.12em;">(1) εἰ ἔστιν διδακτὸν ὁτιοῦν πρᾶγμα, μὴ μόνον ἀρετή, οὐκ ἀναγκαῖον αὐτοῦ καὶ διδασκάλους καὶ μαθητὰς εἶναι; (2) οὗ μήτε διδάσκαλοι μήτε μαθηταὶ εἶεν, καλῶς ἂν εἰκάζοιμεν μὴ διδακτὸν εἶναι. (3) πολλάκις γοῦν ζητῶν εἴ τινες εἶεν αὐτῆς διδάσκαλοι, πάντα ποιῶν οὐ δύναμαι εὑρεῖν. (4) Ἄνυτος: Ἡράκλεις, εὐφήμει, ὦ Σώκρατες· μηδένα τῶν ἐμῶν τοιαύτη μανία λάβοι, ὥστε παρὰ τούτους ἐλθόντα λωβηθῆναι. (5) ἐπεὶ οὗτοι γε φανερά ἐστι λώβη τε καὶ διαφθορὰ τῶν συγγιγνομένων. (6) οἶδα γὰρ ἄνδρα ἕνα Πρωταγόραν πλείω χρήματα κτησάμενον ἀπὸ ταύτης τῆς σοφίας ἢ Φειδίαν. (7) Πρωταγόρας δὲ ὅλην τὴν Ἑλλάδα ἐλάνθανεν διαφθείρων τοὺς συγγιγνομένους, καὶ ἔτι εἰς τὴν ἡμέραν ταύτην εὐδοκιμῶν οὐδὲν πέπαυται. (8) Σωκράτης: ἠδίκηκέ τίς σε τῶν σοφιστῶν; – Ἄνυτος: οὐδὲ μὰ Δία ἔγωγε συγγέγονα πώποτε αὐτῶν οὐδενί. (9) Σωκράτης: μάντις εἶ ἴσως, ὦ Ἄνυτε.</p>
+
+<p><strong>Sentence-by-sentence dissection:</strong></p>
+<p>(1) The whole logic of the question: <span class="gk">εἰ ἔστιν διδακτὸν ὁτιοῦν πρᾶγμα</span> "if any thing at all is teachable"; <span class="gk">διδακτόν</span> is precisely the <strong>-τος</strong> adjective from <span class="gk">διδάσκω</span>: "able-to-be-taught" – a kinsman of today's -τος pattern (see the info box below section 9); <span class="gk">ὁτιοῦν</span> "anything at all"; <span class="gk">οὐκ ἀναγκαῖον… εἶναι;</span> – the rhetorical question: "is it not necessary that it have both teachers and learners?" (<span class="gk">ἀναγκαῖον</span> + infinitive, the pattern of <span class="gk">δεῖ</span> from Lesson 4).</p>
+<p>(2) <span class="gk">οὗ μήτε… μήτε…</span> "that which has neither… nor…"; <span class="gk">εἶεν</span> and <span class="gk">εἰκάζοιμεν</span> – two <strong>optative</strong> forms (Lesson 17): today just learn the faces, translating "were"/"we would guess"; <span class="gk">μὴ διδακτὸν εἶναι</span> – the negated infinitive with <span class="gk">μὴ</span> (Lesson 4). Socrates builds his syllogism: teachable → it has teachers; no teachers → not teachable.</p>
+<p>(3) <span class="gk">πολλάκις γοῦν</span> "at all events, many times"; <span class="gk">ζητῶν</span> the present participle of <span class="gk">ζητέω</span> "seek"; <span class="gk">αὐτῆς</span> the genitive referring to <span class="gk">ἀρετή</span> (Lesson 3: the feminine genitive); <span class="gk">πάντα ποιῶν</span> – an idiom to trust word for word: "doing everything"; <span class="gk">οὐ δύναμαι εὑρεῖν</span> – <span class="gk">δύναμαι</span> + infinitive (Lesson 2), <span class="gk">εὑρεῖν</span> the aorist infinitive of <span class="gk">εὑρίσκω</span> – you already met <span class="gk">εὗρον</span> in Lesson 13: same verb, sigmatic infinitive.</p>
+<p>(4) The grammatical star of the reading: <span class="gk">Ἡράκλεις, εὐφήμει</span> – an exclamation + the 2nd-person imperative: "By Heracles, hold your tongue!" (gloss: fie!, hold your tongue); <span class="gk">τοιαύτη μανία λάβοι</span> – <span class="gk">τοιοῦτος</span> the demonstrative (Lesson 6), <span class="gk">μανία</span> "madness", <span class="gk">λάβοι</span> an optative (Lesson 17); <span class="gk">ὥστε παρὰ τούτους ἐλθόντα λωβηθῆναι</span> – <span class="gk">ὥστε</span> + infinitive "so as to…": <span class="gk">ἐλθόντα</span> an aorist participle (met by sight in Lesson 13), and <span class="gk">λωβηθῆναι</span> – the <strong>aorist passive infinitive</strong> of <span class="gk">λωβέω</span> "insult" (the quick-reference table of section 7 demoed exactly this form): "so that, after going to them, he be insulted". The subject of the passive is Anytos' own folk – the insulters are the sophists.</p>
+<p>(5) <span class="gk">ἐπεὶ</span> "since" + indicative; <span class="gk">φανερά ἐστι</span> – the predicative plural adjective of <span class="gk">φανερός</span> "manifest, plain to see" (more than one subject, hence plural), a kinsman of <span class="gk">φαίνω/ἐφάνην</span> from section 2 today; the noun pair <span class="gk">ἡ λώβη</span> "disgrace, outrage", <span class="gk">ἡ διαφθορὰ</span> "corruption, ruin" – from <span class="gk">διαφθείρω</span> (gloss: corrupt); <span class="gk">τῶν συγγιγνομένων</span> – the present m/p participle of <span class="gk">συγγίγνομαι</span> (σύν + γίγνομαι, Lesson 13): "those who keep company with them" – the genitive of the object (Lesson 3).</p>
+<p>(6) <span class="gk">οἶδα γὰρ ἄνδρα ἕνα</span> "I know one man" – <span class="gk">οἶδα</span> again, with its present meaning; <span class="gk">Πρωταγόραν πλείω χρήματα κτησάμενον</span> – <span class="gk">κτησάμενον</span> an <strong>aorist m/p participle</strong> (Lesson 13): "having acquired for himself", accusative because it stands inside the AcI frame of <span class="gk">οἶδα</span>; <span class="gk">ἢ Φειδίαν</span> – the comparison: Protagoras earned more money than even Phidias, the sculptor of the Parthenon; <span class="gk">πλείω</span> the comparative (met by sight, Lesson 22) of <span class="gk">πολύς</span>.</p>
+<p>(7) The second star: <span class="gk">ἐλάνθανεν</span> – the imperfect of <span class="gk">λανθάνω</span> "escape notice" (met by sight in Lesson 12 in <span class="gk">ἐλάνθανεν</span> Cyrus); here + the participle <span class="gk">διαφθείρων</span>: "he escaped the notice of the whole of Greece while corrupting those who kept company with him" – that is, "he corrupted the whole of Greece without anyone noticing"; <span class="gk">καὶ ἔτι εἰς τὴν ἡμέραν ταύτην εὐδοκιμῶν οὐδὲν πέπαυται</span> – <span class="gk">πέπαυται</span> is the <strong>perfect m/p</strong> of <span class="gk">παύω</span>: "and to this very day, while enjoying repute, he has not stopped in the least". The perfect used exactly as it means: a state begun in the past and <em>still remaining</em> – after forty years of practice, Protagoras' reputation is intact.</p>
+<p>(8) <span class="gk">ἠδίκηκέ τίς σε τῶν σοφιστῶν;</span> – <span class="gk">ἠδίκηκεν</span> the active perfect (preview, section 5): "has one of the sophists wronged you?"; the oath <span class="gk">οὐδὲ μὰ Δία</span> "by Zeus, no"; <span class="gk">συγγέγονα</span> – the <strong>active perfect</strong> of <span class="gk">συγγίγνομαι</span>: "I have never kept company with a single one of them". One sentence, two perfects, two lingering meanings: experience leaves traces – and Anytos insists he has <em>no</em> trace at all (never kept company, never been harmed) – yet he still "knows" what the sophists are.</p>
+<p>(9) <span class="gk">μάντις εἶ ἴσως</span> "perhaps you are a seer" – <span class="gk">ἴσως</span> (gloss: perhaps) "perhaps"; Socrates smiles: Anytos has never kept company with them, yet can still pronounce who is good and who is bad – then only one profession can explain it: a seer. (92c continues: <span class="gk">ἐξ ὧν αὐτὸς λέγεις θαυμάζοιμ᾽ ἄν</span> – "from what you yourself say, I should be amazed": to know what the sophists are like without ever having met a single one of them.)</p>
+
+<div class="info">
+<p><strong>History's iron mask:</strong> the Anytos of this passage is an Athenian politician with real power. Four years later (399 BC), together with two others, he is one of the men who sign the indictment against Socrates – the charge: corrupting the youth of Athens. Plato wrote the Meno <em>after</em> that trial, and the readers of the day knew this fate by heart. So when Socrates asks <span class="gk">ἠδίκηκέ τίς σε τῶν σοφιστῶν;</span> and Anytos answers <span class="gk">ἄπειρος εἶ παντάπασι τῶν ἀνδρῶν</span> "you are entirely without experience of these men" – the whole dialogue plays out like a drama steeped in destiny. Anytos' own words indict him: the man who claims to "know" without experience is the very embodiment of what Socrates calls the most dangerous kind of "knowledge".</p>
+</div>
+
+<div class="tipp">
+<p><strong>Faces planted for Lesson 17:</strong> today's reading is a museum of the verb system: the aorist passive infinitive <span class="gk">λωβηθῆναι</span> (new today), the perfects <span class="gk">πέπαυται, ἠδίκηκεν, συγγέγονα</span> (today), participles of every kind (<span class="gk">ἐλθόντα, κτησάμενον, διαφθείρων, συγγιγνομένων</span> – Lessons 19–20), and three optatives <span class="gk">εἶεν, εἰκάζοιμεν, λάβοι</span> (Lesson 17). Fold this page: three lessons from now you will dissect each of these models again and find them old friends.</p>
+</div>
+
+<p><strong>Full translation:</strong> "If any thing at all is teachable, and not virtue alone, must it not have both teachers and learners? And for whatever has neither teachers nor learners, we would reasonably conclude that it is not teachable. Yet I, though I have often sought whether there are any teachers of it, cannot find one, do everything I can. – Anytos: By Heracles, hold your tongue, Socrates! Let no one of my folk take into his head such madness as to be insulted after going to these men. For they are, plain to see, the disgrace and the ruin of those who keep company with them. I know one man, Protagoras, who acquired more money from this very wisdom than Phidias. Protagoras corrupted those who kept company with him unnoticed through the whole of Greece; and to this very day, while he still enjoys repute, he has not stopped in the least. – Socrates: Has one of the sophists wronged you? – Anytos: By Zeus, no: I have never kept company with one of them, not ever. – Socrates: Then perhaps you are a seer, Anytus."</p>
+<h2 id="vocab">10. Core vocabulary</h2>
+
+<p>New words of the lesson (<span class="star">★</span>); the first column gives the present – aorist passive pair (or the characteristic form) learned in the tables above:</p>
+<table>
+<thead><tr><th>Greek</th><th>Transliteration</th><th>English</th></tr></thead>
+<tbody>
+<tr><td><span class="star">★</span> <span class="gk">λωβέω, ἐλωβήθην</span></td><td><span class="tr">lōbéō, elōbḗthēn</span></td><td>insult, maltreat (the star of Reading II)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">φαίνω, ἐφάνην</span></td><td><span class="tr">phaínō, ephánēn</span></td><td>shine; show; in the passive "be revealed, come to light"</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ἀλλάσσω, ἠλλάγην</span></td><td><span class="tr">allássō, ēllágēn</span></td><td>change; in the passive "be changed, be brought over (to the other side)"</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">βλάπτω, ἐβλάβην</span></td><td><span class="tr">bláptō, eblábēn</span></td><td>harm; in the passive "be harmed" (second aorist)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">καλέω, ἐκλήθην</span></td><td><span class="tr">kaléō, eklḗthēn</span></td><td>call; in the passive "be called" – a kinsman of <span class="gk">κέκλημαι</span></td></tr>
+<tr><td><span class="star">★</span> <span class="gk">παύω, πέπαυμαι</span></td><td><span class="tr">paúō, pépaumai</span></td><td>stop (transitive); m/p "have ceased" – <span class="gk">πέπαυται</span> is the star of the reading</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ σοφιστής, -οῦ</span></td><td><span class="tr">ho sophistḗs</span></td><td>sophist – one who teaches for pay; the root of the English word "sophistry"</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ἡ μανία, -ας</span></td><td><span class="tr">hē manía</span></td><td>madness (the root of "mania")</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">τὸ μάθημα, -ατος</span></td><td><span class="tr">tò máthēma</span></td><td>lesson, thing learned (the root of "mathematics")</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ κάπηλος, -ου</span></td><td><span class="tr">ho kápēlos</span></td><td>huckster, retail trader in all kinds of wares</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ ἔμπορος, -ου</span></td><td><span class="tr">ho émporos</span></td><td>merchant (<span class="gk">ἐν</span> + <span class="gk">πόρος</span> "way, sea-passage")</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ἀσφαλής, -ές</span></td><td><span class="tr">asphalḗs</span></td><td>safe, secure – the root of "asphalt" (the stuff that "cannot be made to fall")</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">τὸ ὑπόδημα, -ατος</span></td><td><span class="tr">tò hypódēma</span></td><td>shoe (a neuter in -μα, Lesson 7)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">τὸ ἱμάτιον, -ου</span></td><td><span class="tr">tò himátion</span></td><td>cloak</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">διδακτός, -ή, -όν</span></td><td><span class="tr">didaktós</span></td><td>teachable – the -τος adjective of the Meno's central question</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ἡ ψυχή, -ῆς</span></td><td><span class="tr">hē psychḗ</span></td><td>soul – the root of "psychology"</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ Πρωταγόρας</span></td><td><span class="tr">ho Prōtagóras</span></td><td>Protagoras – the most famous sophist of Greece (Abdera, ~490–420 BC)</td></tr>
+<tr><td><span class="star">★</span> <span class="gk">ὁ Ἄνυτος</span></td><td><span class="tr">ho Ánytos</span></td><td>Anytus – an Athenian politician, one of those who later prosecuted Socrates</td></tr>
+</tbody>
+</table>
+
+<p><strong>Quick review (no ★):</strong> <span class="gk">παιδεύω, ἐπαιδεύθην</span> – the course's model verb, now complete with its passive line; <span class="gk">διδάσκω, ἐδίδαξα/ἐδιδάχθην</span> "teach / be taught"; <span class="gk">πέμπω, ἐπέμφθην</span> "send / be sent"; <span class="gk">μανθάνω, ἐμάθον</span> "learn" (thematic aorist, Lesson 11); <span class="gk">εὑρίσκω, εὗρον, εὑρεῖν</span> (Lesson 13); <span class="gk">φημί, ἔφη</span> "say" (Lesson 12) – the easily confused enemy of <span class="gk">ἐφάνη</span>; <span class="gk">γυμνάζω</span> "train", <span class="gk">ἀνήρ, ἀνδρός</span> "man" (Lesson 12); <span class="gk">ἀγαθός</span> "good", <span class="gk">κακός</span> "bad" (Lesson 9); <span class="gk">ἡ πόλις</span> "city" (Lesson 3); <span class="gk">αὐτός</span> – "self/same/the very one" (Lesson 6); <span class="gk">οὗτος</span> "this man" (Lesson 6); <span class="gk">ἀρχή</span> "rule" (Lesson 11).</p>
+
+<p><strong>Glosses for reading only (not yet vocabulary):</strong> <span class="gk">ἀγωγίμος</span> "carriable ware"; <span class="gk">γυμναστικός</span> trainer; <span class="gk">ἰατρικός</span> doctor; <span class="gk">ἐπαινέω</span> praise; <span class="gk">ὠνέομαι, ὠνήσομαι</span> buy (deponent; infinitive <span class="gk">ὠνεῖσθαι</span>); <span class="gk">ἡ ὠνή</span> buying; <span class="gk">πωλέω/πωλῶ</span> sell; <span class="gk">περιάγω</span> carry around; <span class="gk">ὁτουοῦν, ὁτιοῦν</span> any whatsoever; <span class="gk">τυγχάνω</span> happen to be; <span class="gk">κυβεύω</span> gamble; <span class="gk">ὁ κίνδυνος</span> danger; <span class="gk">τὰ σιτία</span> food; <span class="gk">ἡ λώβη</span> disgrace; <span class="gk">ἡ διαφθορὰ</span> corruption; <span class="gk">διαφθείρω</span> corrupt; <span class="gk">συγγίγνομαι, συγγέγονα</span> keep company with; <span class="gk">εὐδοκιμέω</span> enjoy repute; <span class="gk">μοχθηρός</span> wretched; <span class="gk">πλείω</span> more (comparative); <span class="gk">χρήματα</span> money (plural of <span class="gk">τὸ χρῆμα</span>); <span class="gk">ἡ σοφία</span> wisdom; <span class="gk">ὁ Φειδίας</span> Phidias; <span class="gk">ἀνδριαντοποιός</span> statue-maker; <span class="gk">τριάκοντα</span> thirty; <span class="gk">τετταράκοντα</span> forty; <span class="gk">λανθάνω, ἐλάνθανεν</span> escape notice (met by sight in Lesson 12); <span class="gk">ἐξακούομαι</span> be set loose entirely; <span class="gk">ἀγγεῖον</span> jar; <span class="gk">ἐλαύνω, ἐξελαύνουσαι</span> drive out, expel; <span class="gk">ἐπιτρέπω</span> entrust; <span class="gk">ἐάω</span> allow; <span class="gk">εὐφήμει!</span> "hold your tongue!"; <span class="gk">Ἡράκλεις!</span> "By Heracles!"; <span class="gk">μὰ Δία</span> "by Zeus"; <span class="gk">ἄπειρος</span> without experience; <span class="gk">ὁ μάντις</span> seer; <span class="gk">ἴσως</span> perhaps; <span class="gk">φλαῦρος</span> wretched, poor; <span class="gk">ὁ μαθητής</span> pupil; <span class="gk">ὁ διδάσκαλος</span> teacher.</p>
+
+<h2 id="confusables">11. Summary table of easily confused points</h2>
+
+<table>
+<thead><tr><th>Confusable pair / set</th><th>Distinction</th><th>Self-check</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">ἐλύθη</span> vs <span class="gk">ἐλύσατο</span> vs <span class="gk">ἔλυσε</span></td><td>passive "was loosened" vs middle "loosened for himself" vs active "loosened"</td><td><span class="gk">-θη-</span> = passive; <span class="gk">-σατο</span> = middle aorist (Lesson 13); short <span class="gk">-σε</span> = active aorist</td></tr>
+<tr><td><span class="gk">ἐλύθη</span> vs <span class="gk">ἐλύθην</span></td><td>3 Sg. vs 1 Sg.</td><td>a final <span class="gk">-ν</span> = 1st person; none = 3rd. The 3 Pl. <span class="gk">ἐλύθησαν</span> also has a ν, but its ending <span class="gk">-σαν</span> is unmistakable</td></tr>
+<tr><td><span class="gk">ἐφάνη</span> vs <span class="gk">ἔφην</span></td><td>second aorist passive of <span class="gk">φαίνω</span> vs imperfect of <span class="gk">φημί</span> "say"</td><td>accent on <span class="gk">-άν-</span> = passive; accent on the augment = "was saying"</td></tr>
+<tr><td><span class="gk">λυθήσομαι</span> vs <span class="gk">λύσομαι</span> vs <span class="gk">βουλήσομαι</span></td><td>passive future vs middle future vs deponent future</td><td>three forms with the same ending <span class="gk">-σομαι</span>: the stem <span class="gk">λυθη-</span> (passive) vs the present stem <span class="gk">λυ-</span> vs the inherited contract stem <span class="gk">βουλη-</span> of <span class="gk">βούλομαι</span></td></tr>
+<tr><td><span class="gk">λέλυμαι</span> vs <span class="gk">λέλυται</span> vs <span class="gk">λύεται</span></td><td>perfect m/p 1 Sg. vs 3 Sg. vs present m/p 3 Sg.</td><td>reduplication <span class="gk">λε-</span> = perfect; that one reduplication turns "has been and still is" into "is being"</td></tr>
+<tr><td><span class="gk">ἐβουλήθην</span> vs <span class="gk">ἐβουλευσάμην</span></td><td>deponent aorist of <span class="gk">βούλομαι</span> "wanted" vs middle aorist of <span class="gk">βουλεύω</span> "took counsel"</td><td>passive form + active meaning = deponent: check the dictionary; do not translate <span class="gk">ἐβουλήθην</span> as "was wanted"</td></tr>
+<tr><td><span class="gk">ἐκλήθη</span> vs <span class="gk">ἐκάλεσα</span> vs <span class="gk">κέκλημαι</span></td><td>aorist passive vs active aorist vs perfect m/p of <span class="gk">καλέω</span></td><td>three tenses, three voices, one verb: "was called / called / carries the name of having-been-called"</td></tr>
+<tr><td><span class="gk">πέπαυται</span> vs <span class="gk">παύεται</span> vs <span class="gk">ἐπαύσατο</span></td><td>perfect m/p vs present m/p vs middle aorist</td><td>read the two halves: reduplication → "has stopped (and still is)"; bare → "is stopping"; augment + <span class="gk">-σατο</span> → "stopped himself"</td></tr>
+<tr><td><span class="gk">ἐβλάβην</span> vs <span class="gk">ἔβλαψα</span></td><td>second aorist passive "was harmed" vs active aorist "harmed"</td><td>the same accent seat on the stem: the second aorist keeps the accent on the stem's long vowel (<span class="gk">βλά</span>, like the <span class="gk">φάν</span> of <span class="gk">ἐφάνην</span>), while the sigmatic aorist drops the accent back to the augment (<span class="gk">ἔ</span>βλαψα)</td></tr>
+<tr><td><span class="gk">διδακτόν</span> vs <span class="gk">διδαχθήσομαι</span> vs <span class="gk">ἐδιδάχθην</span></td><td>the -τος adjective "teachable" vs passive future vs aorist passive of <span class="gk">διδάσκω</span></td><td>three different patterns carrying one passive idea: ability (adjective), what is coming (future), what is done (aorist) – the trio of the Meno</td></tr>
+</tbody>
+</table>
+<h2 id="exercises">12. Exercises</h2>
+
+<h3>Exercise 1 – The passive paradigms</h3>
+<p>Conjugate the aorist passive of <span class="gk">λύω</span> and the passive future of <span class="gk">λύω</span> in all six persons; add the transliteration of the 2 Sg. in each table.</p>
+<div class="answer"><div class="loesung"><h4>Answers 1</h4>
+<p>Aorist: <span class="gk">ἐλύθην, ἐλύθης, ἐλύθη, ἐλύθημεν, ἐλύθητε, ἐλύθησαν</span> – 2 Sg. <span class="tr">elýthēs</span>. Future: <span class="gk">λυθήσομαι, λυθήσῃ, λυθήσεται, λυθησόμεθα, λυθήσεσθε, λυθήσονται</span> – 2 Sg. <span class="tr">lythḗsēi</span>. Both share the stem <span class="gk">λυθη-</span>; the aorist accent sits on <span class="gk">-θη-</span>, and the future accent likewise sits on <span class="gk">-θή-</span>, because the long syllable pulls the mark.</p>
+</div></div>
+
+<h3>Exercise 2 – Building the aorist passive</h3>
+<p>Given these already-augmented stems, write the 3 Sg. aorist passive and say whether it belongs to the first or the second line: <span class="gk">ἐ-παιδευ-, ἐ-γραφ-, ἐ-τιμη-, ἐ-φαν-, ἐ-αλλαγ-</span>.</p>
+<div class="answer"><div class="loesung"><h4>Answers 2</h4>
+<p><span class="gk">ἐπαιδεύθη</span> (I) "was educated"; <span class="gk">ἐγράφη</span> (II, from <span class="gk">γράφω</span> – the φ drops out, leaving <span class="gk">-η-</span>) "was written"; <span class="gk">ἐτιμήθη</span> (I, contract verb) "was honored"; <span class="gk">ἐφάνη</span> (II) "came to light"; <span class="gk">ἠλλάγη</span> (II) "was changed". Note: <span class="gk">γράφω</span> has no first aorist passive; its only passive form is the second aorist <span class="gk">ἐγράφην</span> (1 Sg.) / <span class="gk">ἐγράφη</span> (3 Sg.).</p>
+</div></div>
+
+<h3>Exercise 3 – Sorting labels</h3>
+<p>Attach a label to each form: (a) first aorist passive, (b) second aorist passive, (c) passive future, (d) perfect m/p, (e) passive-form deponent: <span class="gk">κέκληται, ἐβουλήθη, λυθήσεται, ἐφάνημεν, λέλυσθε, ἠλλάγησαν, ἐτιμήθη, πέπαυμαι</span>.</p>
+<div class="answer"><div class="loesung"><h4>Answers 3</h4>
+<p>(d) <span class="gk">κέκληται, λέλυσθε, πέπαυμαι</span> (reduplication + middle endings); (e) <span class="gk">ἐβουλήθη</span> (<span class="gk">βούλομαι</span>, "wanted"); (c) <span class="gk">λυθήσεται</span>; (b) <span class="gk">ἐφάνημεν, ἠλλάγησαν</span> (short <span class="gk">-η-</span>; 3 Pl. <span class="gk">-σαν</span>); (a) <span class="gk">ἐτιμήθη</span> (<span class="gk">-θη-</span> after the contract verb's long vowel).</p>
+</div></div>
+
+<h3>Exercise 4 – Turning into the passive</h3>
+<p>Turn each sentence into the passive, bringing the agent into the frame <span class="gk">ὑπό</span> + genitive: (1) <span class="gk">ὁ σοφιστὴς ἐβλάψε τὸν νέον</span>. (2) <span class="gk">οἱ ἄνθρωποι ἐκάλεσαν τὸν Πρωταγόραν σοφόν</span>. (3) <span class="gk">ἡ πόλις τιμήσει τοὺς σοφούς</span>.</p>
+<div class="answer"><div class="loesung"><h4>Answers 4</h4>
+<p>(1) <span class="gk">ὁ νέος ἐβλάβη ὑπὸ τοῦ σοφιστοῦ</span>. (2) <span class="gk">ὁ Πρωταγόρας ὑπὸ τῶν ἀνθρώπων ἐκλήθη σοφός</span> (the accusative <span class="gk">σοφόν</span> stays in place like an object complement). (3) <span class="gk">οἱ σοφοὶ ὑπὸ τῆς πόλεως τιμηθήσονται</span> – passive future: the aorist passive stem <span class="gk">τιμηθη-</span> + middle future endings.</p>
+</div></div>
+
+<h3>Exercise 5 – The map of six stems</h3>
+<p>The dictionary gives the verb <span class="gk">καλέω</span> as: <span class="gk">καλέω, καλῶ, ἐκάλεσα, κέκληκα, κέκλημαι, ἐκλήθην</span>. Place each of the following forms into the right slot of the map (name the stem number): <span class="gk">ἐκάλεσαν, κέκληται, ἐκλήθημεν, καλῶ, κεκλήμεθα</span>? (be careful with the last one!) and give a quick translation of each form.</p>
+<div class="answer"><div class="loesung"><h4>Answers 5</h4>
+<p><span class="gk">ἐκάλεσαν</span> – stem 3 (active aorist): "they called"; <span class="gk">κέκληται</span> – stem 5 (perfect m/p): "he carries the name of having-been-called"; <span class="gk">ἐκλήθημεν</span> – stem 6 (aorist passive): "we were called"; <span class="gk">καλῶ</span> – stem 1 (present, contract verb): "I call". The last trap: <span class="gk">κεκλήμεθα</span> is a perfectly valid 1 Pl. perfect m/p – the accent standing on <span class="gk">-κλή-</span> is just the recessive rule: a four-syllable form pulls the accent at most back to the antepenult, exactly the shape of <span class="gk">λελύμεθα</span> (accent on <span class="gk">-λύ-</span>). Anyone who drags the accent onto the first syllable <span class="gk">κέ</span> is wrong.</p>
+</div></div>
+
+<h3>Exercise 6 – Reading in context</h3>
+<p>Re-read sentence (7) of Reading II: <span class="gk">Πρωταγόρας δὲ ὅλην τὴν Ἑλλάδα ἐλάνθανεν διαφθείρων τοὺς συγγιγνομένους, καὶ ἔτι εἰς τὴν ἡμέραν ταύτην εὐδοκιμῶν οὐδὲν πέπαυται</span>. Answer: (1) why is <span class="gk">ἐλάνθανεν</span> an imperfect and not an aorist? (2) why does Plato choose <span class="gk">πέπαυται</span> (perfect) instead of the aorist <span class="gk">ἐπαύσατο</span>? (3) what role do the two participles <span class="gk">διαφθείρων, εὐδοκιμῶν</span> play for the two finite verbs?</p>
+<div class="answer"><div class="loesung"><h4>Answers 6</h4>
+<p>(1) <span class="gk">ἐλάνθανεν</span> + participle is an imperfect painting the background: the "escaping notice" drags on for forty years; it is not a single closing event. (2) <span class="gk">πέπαυται</span> reports a state <em>still remaining</em>: "to this very day he has not stopped enjoying repute" – the aorist <span class="gk">ἐπαύσατο</span> would cut the story back into a single event closed in the past and lose the brazen persistence of Protagoras' reputation. (3) The two present active participles carry the side meanings "while corrupting / while enjoying repute" alongside the main verbs – the very "background + closing beat" division you learned in Lesson 13.</p>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Lesson 14 – Graecum VN · Compiled by Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · When citing or reusing, give credit: "Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Exercise answers appear only when printing (Ctrl+P → Save as PDF). Reference reading: Plato, Protagoras 313d–e; Meno 89d–92c (public domain Greek text).</p>
+
+</main>
+</body>
+</html>
