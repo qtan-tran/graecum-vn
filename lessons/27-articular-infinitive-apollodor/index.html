@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson 27 – Nguyên mẫu có mạo từ (articular infinitive)</title>
+<style>
+  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.55; }
+  body { margin: 0; background: #f8fafc; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 28px 60px; background: #ffffff; }
+  h1 { color: #14532d; font-size: 1.6em; border-bottom: 3px solid #14532d; padding-bottom: 8px; }
+  h2 { color: #14532d; font-size: 1.35em; margin-top: 2em; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; }
+  h3 { color: #166534; font-size: 1.1em; margin-top: 1.5em; }
+  h4 { color: #166534; margin-bottom: 4px; }
+  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
+  .tr { font-style: italic; color: #475569; } /* transliteration */
+  table { border-collapse: collapse; width: 100%; margin: 14px 0 20px; }
+  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #14532d; color: #ffffff; }
+  tbody tr:nth-child(even) { background: #f0fdf4; }
+  .achtung { background: #FFF8E1; border: 2px solid #C62828; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .achtung p:first-child { margin-top: 0; } .achtung p:last-child { margin-bottom: 0; }
+  .tipp { background: #E3F2FD; border-left: 5px solid #1565C0; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .tipp p:first-child { margin-top: 0; } .tipp p:last-child { margin-bottom: 0; }
+  .latin { background: #FDF2F8; border-left: 5px solid #9D174D; border-radius: 4px; padding: 10px 16px; margin: 16px 0; }
+  .latin p:first-child { margin-top: 0; } .latin p:last-child { margin-bottom: 0; }
+  .info { background: #F1F5F4; border-left: 5px solid #4b5563; border-radius: 4px; padding: 10px 16px; margin: 16px 0; font-size: 0.95em; }
+  .info p:first-child { margin-top: 0; } .info p:last-child { margin-bottom: 0; }
+  .notyet { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; border-radius: 10px; font-size: 0.78em; padding: 1px 8px; white-space: nowrap; }
+  .star { color: #b45309; font-weight: bold; }
+  .toc { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 22px; }
+  .toc ol { margin: 8px 0; padding-left: 20px; }
+  .answer { display: none; }
+  .loesung { border: 1px dashed #64748b; border-radius: 6px; padding: 10px 16px; margin: 10px 0 22px; }
+  @media print {
+    .answer { display: block !important; }
+    .achtung, body, main { background: #fff !important; }
+    table, tr, .achtung { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    main { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Lesson 27: Nguyên mẫu có mạo từ (articular infinitive) – động từ khoác áo danh từ, và hai chuyện Argos trên đất Attika</h1>
+
+<div class="toc">
+<p><strong>Nội dung bài học</strong></p>
+<ol>
+<li><a href="#s1">Bản đồ: từ nguyên mẫu trần sang nguyên mẫu có mạo từ</a></li>
+<li><a href="#s2">τὸ + nguyên mẫu: một danh từ trung tính biết làm việc động từ</a></li>
+<li><a href="#s3">Bản đồ giới từ + mạo từ + nguyên mẫu</a></li>
+<li><a href="#s4">Chủ ngữ bên trong: đối cách, và động từ đòi hai đối cách</a></li>
+<li><a href="#s5">Thời tương đối và phủ định μή</a></li>
+<li><a href="#s6">Latin corner: gerund và gerundive</a></li>
+<li><a href="#s7">Chiến lược đọc: ba câu hỏi và bẫy "mạo từ giả"</a></li>
+<li><a href="#reading1">Bài đọc 1: Apollodor 3,10 – Hermes trộm bò của Apollon</a></li>
+<li><a href="#reading2">Bài đọc 2: Apollodor 3,14 – Poseidon, Athena và đứa trẻ trong cũi</a></li>
+<li><a href="#vocab">Từ vựng trọng tâm</a></li>
+<li><a href="#confusables">Bảng tổng hợp so sánh các điểm dễ nhầm</a></li>
+<li><a href="#exercises">Bài tập tự luyện + đáp án</a></li>
+</ol>
+</div>
+
+<div class="tipp">
+<p><strong>Mục tiêu sau bài học:</strong> bạn có thể (1) nhận ra nguyên mẫu có mạo từ (<span class="gk">τὸ / τοῦ / τῷ / τὸ</span> + nguyên mẫu) và đọc ra chức năng của nó: chủ ngữ, vị ngữ, tân ngữ hay tổ hợp sau giới từ; (2) dịch các khuôn hay gặp như <span class="gk">διὰ τὸ</span>, <span class="gk">ἐν τῷ</span>, <span class="gk">μετὰ τὸ</span>, <span class="gk">πρὸς τὸ</span>, <span class="gk">τοῦ</span> + <span class="gk">ἕνεκα</span> mà không dịch nhầm thành mệnh đề; (3) xác định chủ ngữ đối cách đứng bên trong nguyên mẫu và chọn đúng phủ định <span class="gk">μή</span>; (4) quan trọng nhất: phân biệt nguyên mẫu <em>trần</em> (sau <span class="gk">θέλω</span>, <span class="gk">κελεύω</span>, <span class="gk">δοκέω</span>) với nguyên mẫu <em>có mạo từ</em>, kể cả khi danh từ xen giữa làm mặt nạ; (5) đọc trọn hai câu chuyện thần thoại Argos và Athens từ quyển Thư viện của Apollodor.</p>
+</div>
+
+<h2 id="s1">1. Bản đồ: từ nguyên mẫu trần sang nguyên mẫu có mạo từ</h2>
+
+<p>Nguyên mẫu (infinitive) đến nay luôn xuất hiện <em>trần trụi</em>: <span class="gk">παιδεύειν</span> là một khối, đứng đâu là <em>không thay hình đổi dạng</em>. Bạn đã biết nó làm chủ ngữ và tân ngữ từ Bài 4, làm trung tâm của AcI và mang thời tương đối ở Bài 18, vào tường thuật gián tiếp ở Bài 25. Nhưng danh từ Hy Lạp thì <em>luôn đi trong áo mạo từ</em> (<span class="gk">ὁ λόγος, τοῦ λόγου, τῷ λόγῳ, τὸν λόγον</span>), và khi nguyên mẫu muốn <strong>hoàn toàn làm việc như một danh từ</strong> (làm chủ ngữ của câu, ghép với giới từ, đứng sau liên từ chi phối một cách), tiếng Hy Lạp cho nó mặc chiếc áo ấy: mạo từ trung tính <strong>τὸ</strong>, biến cách đủ cả bốn vai.</p>
+
+<table>
+<thead><tr><th>Mảnh ghép hôm nay</th><th>Khe hở nó lấp</th><th>Phần dưới</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">τὸ</span> + nguyên mẫu: nguyên mẫu danh từ hóa, biến cách được</td><td>Đến nay nguyên mẫu chỉ ghép được với <em>động từ</em> (AcI, sau <span class="gk">θέλω</span>); muốn ghép với <em>giới từ</em>, với <em>câu</em>, muốn đứng làm chủ ngữ một cách công khai, nó cần hình thức danh từ</td><td>Mục 2–4</td></tr>
+<tr><td>Cục bộ tiêu chuẩn sau giới từ và các khuôn hay gặp</td><td>Bài 22 đã cho bạn giới từ + danh từ; hôm nay giới từ ôm thêm được cả một <em>hành động</em>: <span class="gk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span> "vì không tài nào tìm ra dấu vết"</td><td>Mục 3, 5, 7</td></tr>
+</tbody>
+</table>
+
+<p>Trích dẫn chuẩn để tra cứu: Smyth, <em>Greek Grammar for Colleges</em>, §§2025–2032 gọi toàn bộ hiện tượng này là <em>the infinitive with the article</em> (articular infinitive); §2028 nêu luật phủ định <span class="gk">μή</span>; §2030 nêu điều kiện xuất hiện mạo từ: <em>mạo từ dùng thường quy khi quan hệ giữa nguyên mẫu với từ khác phải diễn đạt bằng sở hữu cách, tặng cách hoặc giới từ</em>. Đó chính là "cây dọc" của cả bài.</p>
+
+<p>Hai bài đọc hôm nay đều lấy từ quyển <strong>Βιβλιοθήκη</strong> (Thư viện) gán tên Apollodor: chuyện Hermes còn nằm nôi đã trộm bò của Apollon (3,10) và cuộc tranh Poseidon và Athena đất Attika cùng số phận đứa trẻ Erichthonios trong chiếc cũi cấm mở (3,14). Một phát hiện thú vị chờ bạn ở mục 7: trong <em>trọn hai chương</em> ấy, nguyên mẫu có mạo từ thật sự chỉ xuất hiện <strong>đúng một lần</strong>; phần còn lại là nguyên mẫu trần và những "mạo từ giả". Bài học hôm nay vì thế là bài học về <em>con mắt phân biệt</em>: biết tự chế là biết nhận ra hàng giả.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> một từ trong tiếng Hy Lạp được ghép vào câu theo bốn kiểu kết nối: làm động từ của mệnh đề, làm tân ngữ trần cho động từ khác, làm định ngữ (chia giống-cách-số), hoặc làm danh từ hóa (mạo từ + đuôi danh từ). Phân từ Bài 19 đã đi con đường thứ ba; hôm nay nguyên mẫu đi con đường thứ tư. Một hệ bốn ngã này giải thích gần như mọi "hiện tượng đặc biệt" bạn còn gặp.</p>
+</div>
+
+<h2 id="s2">2. τὸ + nguyên mẫu: một danh từ trung tính biết làm việc động từ</h2>
+
+<p>Nguyên mẫu có mạo từ là <strong>danh từ trung tính</strong>: nó được biến cách đủ bốn vai (không có hô cách), và mỗi một cách mang một nhiệm vụ như danh từ vẫn làm (Smyth §2026). Lấy khuôn <span class="gk">ποιεῖν</span> "làm" làm mẫu:</p>
+
+<table>
+<thead><tr><th>Cách</th><th>Hình thức</th><th>Nghĩa đen</th><th>Nghĩa học được</th></tr></thead>
+<tbody>
+<tr><td>Chủ cách</td><td class="gk">τὸ ποιεῖν</td><td>"cái việc làm"</td><td>làm (như khái niệm)</td></tr>
+<tr><td>Sở hữu cách</td><td class="gk">τοῦ ποιεῖν</td><td>"của việc làm"</td><td>của/làm việc... (giới hạn, sau giới từ)</td></tr>
+<tr><td>Tặng cách</td><td class="gk">τῷ ποιεῖν</td><td>"cho việc làm"</td><td>bằng việc làm, cùng lúc với việc làm</td></tr>
+<tr><td>Đối cách</td><td class="gk">τὸ ποιεῖν</td><td>"cái việc làm" (làm tân ngữ)</td><td>làm (làm tân ngữ của động từ)</td></tr>
+</tbody>
+</table>
+
+<p>Ba nghề danh từ của nó (Smyth §2027):</p>
+
+<table>
+<thead><tr><th>Nghề</th><th>Ví dụ</th><th>Translit.</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td>Làm chủ ngữ</td><td class="gk">τὸ λαλεῖν ῥᾴδιον ἐστίν.</td><td class="tr">to laleîn rhḗdion estín.</td><td>Nói chuyện thì dễ.</td></tr>
+<tr><td>Làm vị ngữ sau động từ "là"</td><td class="gk">τὸ μὲν ἀδικεῖν αἰσχρόν, τὸ δὲ ἀδικεῖσθαι δυστυχές.</td><td class="tr">to mèn adikeîn aischrón, to dè adikeîsthai dystychés.</td><td>Làm điều sai là xấu, bị làm điều sai là bất hạnh.</td></tr>
+<tr><td>Làm tân ngữ</td><td class="gk">ἐπίσταμαι τὸ γράφειν.</td><td class="tr">epístamai to gráphein.</td><td>Tôi biết viết.</td></tr>
+</tbody>
+</table>
+
+<p>Ba quan sát: (1) vị ngữ tính từ phải đặt <em>trung tính</em> cho khớp (<span class="gk">ῥᾴδιον</span>, <span class="gk">αἰσχρόν</span>): nguyên mẫu có mạo từ là trung tính, không còn là "trung tính trừu tượng" mà là danh từ thật; (2) đối cách và chủ cách <em>đồng hình</em> <span class="gk">τὸ</span>: phân biệt bằng nhiệm vụ trong câu, y như phân biệt <span class="gk">τὸ ἀγαθόν</span> làm chủ ngữ hay tân ngữ; (3) trong nghề tân ngữ, nó hay đi sau các động từ "biết/làm/chọn" mà nguyên mẫu trần vốn đã quen thuộc: cặp <span class="gk">μέμφομαι τὸ ποιεῖν</span> và <span class="gk">μέμφομαι ποιεῖν</span> cùng tồn tại, mạo từ chỉ nhấn "cái việc" như một khối được nêu tên.</p>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> đừng đánh đồng mọi <span class="gk">τὸ</span> đứng cạnh nguyên mẫu. <span class="gk">θέλω τὸ πράττειν</span> là nguyên mẫu có mạo từ (tân ngữ); nhưng <span class="gk">θέλω τὸν πατέρα ἰδεῖν</span> là AcI bình thường, ở đó <span class="gk">τὸν πατέρα</span> là mạo từ của <em>danh từ</em> "cha", còn <span class="gk">ἰδεῖν</span> là nguyên mẫu trần. Câu hỏi phân biệt chỉ một: <strong>mạo từ đi với nguyên mẫu hay đi với danh từ?</strong> Nghĩa câu không đổi mấy, nhưng "cái ta gán cho nhau" đổi hẳn, và khi câu phức lên (mục 7) đó là khác biệt giữa đọc đúng và hiểu nhầm.</p>
+</div>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> nguyên mẫu có mạo từ là "hành động được đóng gói thành đồ vật". Mỗi lần gặp, dịch thử bằng danh từ tiếng Việt: <span class="gk">τὸ γράφειν</span> = "cái-sự-viết", rồi nới lỏng theo văn cảnh ("việc viết", "cách viết", "viết" trần). Cách nào giữ được chức năng của nguyên mẫu trong câu, dùng cách đó.</p>
+</div>
+
+<h2 id="s3">3. Bản đồ giới từ + mạo từ + nguyên mẫu</h2>
+
+<p>Đây là khu vực nguyên mẫu có mạo từ sống nhiều nhất trong văn thật (Smyth §2030: quan hệ cần giới từ thì mạo bắt buộc phải có). Giới từ đứng trước, mạo từ mang đúng cách mà giới từ ấy đòi, nguyên mẫu theo sau; cả cụm là một <em>gói hành động</em> có thể cầm, đặt, so hàng với danh từ khác. Bảng dưới là bản đồ những khuôn hay gặp nhất, chia theo cách của mạo từ:</p>
+
+<table>
+<thead><tr><th>Khuôn</th><th>Cách</th><th>Nghĩa gốc</th><th>Chuyển sang tiếng Việt</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td class="gk">διὰ τὸ + nguyên mẫu</td><td>đối</td><td>xuyên qua "cái việc"</td><td>vì / nhờ việc...</td><td class="gk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</td></tr>
+<tr><td class="gk">διὰ τοῦ + nguyên mẫu</td><td>sở hữu</td><td>nhờ "cái việc"</td><td>bằng cách...</td><td class="gk">διὰ τοῦ λέγειν πείθει</td></tr>
+<tr><td class="gk">ἐν τῷ + nguyên mẫu (hiện tại)</td><td>tặng</td><td>trong "cái việc" đang diễn ra</td><td>khi đang..., trong lúc...</td><td class="gk">ἐν τῷ φεύγειν ἐκραύγαζεν</td></tr>
+<tr><td class="gk">ἐν τῷ + nguyên mẫu (aorist)</td><td>tặng</td><td>trong "cái việc" đã xong</td><td>sau khi...</td><td class="gk">ἐν τῷ βασιλεῦσαι Κέκροπα</td></tr>
+<tr><td class="gk">ἐπὶ τῷ + nguyên mẫu</td><td>tặng</td><td>dựa trên "cái việc"</td><td>với điều kiện là..., sau khi đã...</td><td class="gk">ἐπὶ τῷ νικᾶν ἀνεχώρησεν</td></tr>
+<tr><td class="gk">μετὰ τὸ + nguyên mẫu</td><td>đối</td><td>sau "cái việc"</td><td>sau khi...</td><td class="gk">μετὰ τὸ ἀνοῖξαι ἔφυγον</td></tr>
+<tr><td class="gk">μετὰ τοῦ + nguyên mẫu</td><td>sở hữu</td><td>cùng với "cái việc"</td><td>kèm theo việc..., đồng thời...</td><td class="gk">μετὰ τοῦ γελᾶν</td></tr>
+<tr><td class="gk">πρὸς τὸ + nguyên mẫu</td><td>đối</td><td>hướng về "cái việc"</td><td>cho để..., nhằm việc...</td><td class="gk">πρὸς τὸ ἴχνος λαβεῖν</td></tr>
+<tr><td class="gk">πρό / ἕνεκα / ὑπὲρ τοῦ + nguyên mẫu</td><td>sở hữu</td><td>trước / vì "cái việc"</td><td>để..., cho khỏi...</td><td class="gk">ὑπὲρ τοῦ σῴζειν τοὺς παῖδας</td></tr>
+</tbody>
+</table>
+
+<p>Một nhận xét về "cặp cùng tiền tố, khác cách": <span class="gk">διὰ</span> rẽ hai lối theo cách của mạo từ (đối = nguyên nhân, sở hữu = phương tiện); <span class="gk">μετὰ</span> cũng vậy (đối = sau khi, sở hữu = kèm theo). Đó chính là tính hai vế của giới từ mà Bài 22 đã dạy, giờ áp dụng cho cả một hành động.</p>
+
+<p>Ví dụ duy nhất của bảng nằm trong bài đọc 1, và xứng đáng là câu "đẹp nhất" của khối: <span class="gk">οὐκ ἔχειν δὲ εἰπεῖν ποῖ ποτε ἠλάθησαν διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span> "và không thể nói được (bò) đã mất tích ở đâu, vì không tài nào tìm ra dấu vết". Nguyên mẫu có mạo từ <span class="gk">εὑρεῖν</span> aorist nằm gọn trong gói <span class="gk">διὰ τὸ</span> nguyên nhân; chủ ngữ bên trong hiểu ngầm là "người dân Pylos". Cả một mệnh đề "vì họ không tìm ra vết" được nén lại thành sáu chữ.</p>
+
+<div class="tipp">
+<p><strong>Pattern để vận dụng:</strong> khuôn giới từ + mạo từ + nguyên mẫu là "trợ từ dịch" sẵn: gặp <span class="gk">διὰ τὸ</span> cứ viết "vì", <span class="gk">ἐν τῷ</span> viết "khi/sau khi" (nhìn thời nguyên mẫu!), <span class="gk">μετὰ τὸ</span> viết "sau khi", <span class="gk">πρὸς τὸ</span> viết "nhằm". Bắt đầu bằng câu khung dịch, rồi nới cho tự nhiên: đó là lý do nên học các khuôn này như học một liên từ, không phải như một công thức ngữ pháp khô.</p>
+</div>
+
+<h2 id="s4">4. Chủ ngữ bên trong: đối cách, và động từ đòi hai đối cách</h2>
+
+<p>Nguyên mẫu không chia ngôi, nhưng hành động của nó vẫn cần <em>người làm</em>. Khi nguyên mẫu có mạo từ (hoặc nguyên mẫu trần trong AcI) mang chủ thể riêng, chủ thể ấy đứng <strong>đối cách</strong>, đúng khuôn bạn thuộc từ Bài 18:</p>
+
+<table>
+<thead><tr><th>Ví dụ</th><th>Translit.</th><th>Chủ ngữ trong nguyên mẫu</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td class="gk">ἐν τῷ τὸν πατέρα ἀπαγγεῖλαι πάντες ἔφυγον.</td><td class="tr">en tōi tòn patéra apangeîlai pántes éphygon.</td><td><span class="gk">τὸν πατέρα</span></td><td>Khi cha báo tin, mọi người đều bỏ trốn.</td></tr>
+<tr><td class="gk">διὰ τὸ τοὺς θεοὺς οὕτω βουλεύειν θαυμάζομεν.</td><td class="tr">dià to toùs theoùs hoûtos bouleúein thaumázomen.</td><td><span class="gk">τοὺς θεούς</span></td><td>Vì các thần bàn tính thế đấy, ta hết sức ngưỡng mộ.</td></tr>
+<tr><td class="gk">ἔδοξε τοῖς θεοῖς πόλεις καταλαβέσθαι.</td><td class="tr">édoke toîs theoîs póleis katalabésthai.</td><td><span class="gk">τοῖς θεοῖς</span> (tặng cách của động từ chính, kéo lên làm chủ thể)</td><td>Các thần quyết định chiếm lấy các thành (bài đọc 2).</td></tr>
+</tbody>
+</table>
+
+<p>Một ngoại lệ đáng nhớ (Smyth 2032c): nếu nguyên mẫu nói về <em>chính chủ thể của động từ chính</em>, chủ ngữ có thể đứng chủ cách, vì không cần "nộp ai" cả: <span class="gk">ἐπὶ τούτου ἔδοξε ... καταλαβέσθαι</span> "trong triều vua ấy (các thần) quyết định chiếm thành" là loại câu kiểu này quen thuộc từ văn tường thuật.</p>
+
+<p>Và một quà tặng từ Bài 2: <strong>đối cách kép (double accusative)</strong> lặng lẽ sống khỏe trong nguyên mẫu. Động từ đòi hai đối cách (<span class="gk">διδάσκω τινά τι</span> "dạy ai cái gì", <span class="gk">ἐρωτάω τινά τι</span> "hỏi ai điều gì") giữ nguyên bộ đôi ấy khi rút thành nguyên mẫu: <span class="gk">διὰ τὸ διδάσκειν τοὺς νέους τὴν μουσικήν</span> "vì dạy bọn trẻ nhạc". Đừng ngạc nhiên khi thấy hai đối cách xếp hàng sau một nguyên mẫu: đếm người nhận trước, đếm của cải sau.</p>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> lỗi kinh điển khi dịch khuôn <span class="gk">ἐν τῷ τὸν βασιλέα ἥκειν</span> là đọc <span class="gk">τὸν βασιλέα</span> thành tân ngữ của động từ chính ("trong nhà vua đến"?). Cách tự kiểm tra: che nguyên mẫu đi, xem câu chính có thiếu tân ngữ không; nếu câu chính đã vẹn toàn, đối cách ấy là <em>chủ ngữ bên trong</em> của nguyên mẫu.</p>
+</div>
+
+<h2 id="s5">5. Thời tương đối và phủ định μή</h2>
+
+<p>Trong nguyên mẫu có mạo từ, thời vẫn là <strong>thời tương đối</strong> đúng như Bài 18 và 25 đã thiết lập: hiện tại = cùng lúc với động từ chính; aorist = trước đó (hoặc một lần); hoàn thành = trước đó, kết quả còn đó; tương lai = sau đó. Cặp khuôn <span class="gk">ἐν τῷ</span> là nơi điều này lộ rõ nhất: <span class="gk">ἐν τῷ</span> + hiện tại = "khi đang", <span class="gk">ἐν τῷ</span> + aorist = "sau khi".</p>
+
+<table>
+<thead><tr><th>Thời của nguyên mẫu</th><th>Độ nghiêng so với động từ chính</th><th>Ví dụ trong bài đọc</th><th>Đọc là</th></tr></thead>
+<tbody>
+<tr><td>hiện tại</td><td>cùng lúc</td><td class="gk">ἀθάνατον θέλουσα ποιῆσαι</td><td>muốn làm cho (nó) bất tử (khi nuôi, cùng lúc vẫn mong)</td></tr>
+<tr><td>aorist</td><td>một lần / nhịp chốt</td><td class="gk">ὅπλα κατασκευάσαι θέλουσα</td><td>muốn chế tạo binh khí (việc cần khoanh một lần)</td></tr>
+<tr><td>aorist</td><td>hành động bị phủ định</td><td class="gk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</td><td>vì không tài nào tìm ra vết (việc tìm không xảy ra)</td></tr>
+<tr><td>hiện tại</td><td>hành động cấm kéo dài</td><td class="gk">ἀπειποῦσα τὴν κίστην ἀνοίγειν</td><td>cấm (các cô) mở chiếc rương (không mở, bao lâu cũng vậy)</td></tr>
+</tbody>
+</table>
+
+<p>Về phủ định, luật ngắn và cứng (Smyth §2028): <strong>phủ định của nguyên mẫu có mạo từ là <span class="gk">μή</span></strong>, kể cả khi nghĩa thông thường là "không" thực tế. Bài đọc 1 tả việc rất "thực" (bò biến mất thật mà), vẫn phải viết <span class="gk">διὰ τὸ μὴ εὑρεῖν</span>, không phải <span class="gk">διὰ τὸ οὐχ εὑρεῖν</span>: hành động nằm trong "gói việc", và gói việc thì mang màu <span class="gk">μή</span> như mọi thứ mang màu kỳ vọng, ý muốn. Cùng logic đó là <span class="gk">ἀπειποῦσα ... ἀνοίγειν</span> ở bài đọc 2: động từ "cấm" tự choăng sẵn <span class="gk">μή</span>, nên nguyên mẫu trần đi sau không cần phủ định tường minh.</p>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> đối chiếu với Bài 26: trong <em>mệnh đề kết quả thực</em> (<span class="gk">ὥστε</span> + chỉ định) phủ định là <span class="gk">οὐ</span>, vì đó là mệnh đề báo cáo dữ kiện; trong <em>nguyên mẫu</em> phủ định gần như luôn là <span class="gk">μή</span>. Gặp <span class="gk">οὐ</span> đứng ngay trước nguyên mẫu, hãy xem lại: hoặc đó là mệnh đề chỉ định có động từ chia, hoặc bạn vừa phát hiện một ý "dữ kiện" hiếm hoi cần soi ngữ cảnh.</p>
+</div>
+
+<h2 id="s6">6. Latin corner: gerund và gerundive</h2>
+
+<div class="latin">
+<p><strong>Latin corner:</strong> Latin <em>không có</em> nguyên mẫu có mạo từ: trong tiếng Latin, nguyên mẫu không bao giờ đội mạo từ, vậy nên mỗi khi Hy Lạp gói hành động thành danh từ để lôi đi theo giới từ, Latin phải "mở gói" ra thành mệnh đề hoặc dùng hai hình thức danh từ hóa riêng của mình. <strong>Gerund</strong> là danh từ động từ trung tính không chia giống: <em>ars legendi</em> "nghệ thuật đọc" (so sánh <span class="gk">ἡ τοῦ ἀναγιγνώσκειν τέχνη</span> cùng khuôn sở hữu cách!). <strong>Gerundive</strong> là tính từ động từ bị động mang màu phải-làm: <em>ad libros legendos venio</em> "tôi đến để đọc sách" (danh từ chia theo, gerundive hòa theo giống-cách-số). Thêm khuôn <em>causā / gratiā</em> + sở hữu cách gerund: <em>docendi causā</em> "vì việc dạy" chính là <span class="gk">διδάσκειν ἕνεκα</span>, từng chữ một. Còn các khuôn Hy Lạp mở đầu bằng giới từ thì Latin dịch bằng mệnh đề: <span class="gk">ἐν τῷ ἀκούειν</span> thành <em>dum audit</em> hay <em>cum audiret</em>; <span class="gk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span> thành <em>quod vestigia invenire non poterant</em> "vì không thể tìm ra vết": cùng nội dung, nhưng Latin phải mọc đủ chủ ngữ-động từ, còn Hy Lạp thả gói sáu chữ điệp và để người đọc tự dựng lại.</p>
+<p>Ai học cả hai ngôn ngữ sẽ thấy đây là ví dụ đẹp của một định luật chung: <em>mỗi ngôn ngữ chọn phần nói ít nhất để nén</em>. Hy Lạp nén hành động bằng mạo từ; Latin nén bằng đuôi danh từ hóa. Hiểu "cái gì đang bị nén" thì hai bên cùng sáng.</p>
+</div>
+
+<h2 id="s7">7. Chiến lược đọc: ba câu hỏi và bẫy "mạo từ giả"</h2>
+
+<p>Ba câu hỏi hỏi đúng chỗ, theo đúng thứ tự:</p>
+<ol>
+<li><strong>Mạo từ này đi với ai?</strong> Nhìn chéo qua cụm: nếu ngay sau mạo từ (hoặc sau vài định ngữ xen giữa) là nguyên mẫu đuôi <span class="gk">-ειν/-σαι/-ναι/-εισθαι</span>, bạn đang có nguyên mẫu có mạo từ; nếu là danh từ/adject, mạo từ chỉ làm nghề thường ngày của nó.</li>
+<li><strong>Nếu là nguyên mẫu: nó đóng vai gì?</strong> Có giới từ đứng trước mạo từ (tra bản đồ mục 3); không có thì hỏi nó là chủ ngữ, vị ngữ hay tân ngữ (mục 2).</li>
+<li><strong>Chủ ngữ bên trong là ai, phủ định là gì?</strong> Rà soát các đối cách "lơ lửng" gần đó (mục 4) và xác nhận màu phủ định <span class="gk">μή</span> (mục 5).</li>
+</ol>
+
+<p>Và đây là phần "soi hàng giả". Nếu bạn quét hai chương Apollodor của hôm nay bằng câu hỏi số 1, kết quả bất ngờ: <strong>chỉ đúng một</strong> nguyên mẫu có mạo từ thật (<span class="gk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span>); mọi cặp "mạo từ + nguyên mẫu trông gần nhau" còn lại đều là <em>mạo từ giả</em>, thuộc về danh từ:</p>
+
+<table>
+<thead><tr><th>Câu văn</th><th>Đánh giá</th><th>Vì sao</th></tr></thead>
+<tbody>
+<tr><td class="gk">Ἀθηνᾶ παρεγένετο πρὸς Ἥφαιστον, ὅπλα κατασκευάσαι θέλουσα.</td><td>nguyên mẫu trần</td><td><span class="gk">κατασκευάσαι</span> là tân ngữ trần của <span class="gk">θέλουσα</span>; không mạo từ nào bén mảng tới nó</td></tr>
+<tr><td class="gk">ἀπειποῦσα τὴν κίστην ἀνοίγειν.</td><td>nguyên mẫu trần</td><td><span class="gk">τὴν κίστην</span> là mạo từ của danh từ "rương" (tân ngữ của <span class="gk">ἀνοίγειν</span> bên trong); <span class="gk">ἀνοίγειν</span> trần sau động từ cấm <span class="gk">ἀπειπέω</span></td></tr>
+<tr><td class="gk">ἔδοξε τοῖς θεοῖς πόλεις καταλαβέσθαι.</td><td>nguyên mẫu trần</td><td><span class="gk">τοῖς θεοῖς</span> là mạo từ của "các thần"; <span class="gk">καταλαβέσθαι</span> trần sau <span class="gk">δοκέω</span></td></tr>
+<tr><td class="gk">καὶ τὰς τοῦ θεοῦ δωρήσασθαι θέλων χάριτας ἀνθρώποις.</td><td>nguyên mẫu trần (bẫy hyperbaton)</td><td><span class="gk">τὰς ... χάριτας</span> là <em>một</em> cụm tân ngữ "các ân huệ của thần" bị nguyên mẫu <span class="gk">δωρήσασθαι</span> (trần, sau <span class="gk">θέλων</span>) xén ra làm hai; đối cách người <span class="gk">ἀνθρώποις</span> đứng chốt hậu</td></tr>
+</tbody>
+</table>
+
+<p>Bảng tra nhanh cuối bài, mang theo khi đọc:</p>
+<table>
+<thead><tr><th>Gặp trong văn</th><th>Đọc là</th><th>Ghi nhớ</th></tr></thead>
+<tbody>
+<tr><td class="gk">διὰ τὸ + nguyên mẫu</td><td>"vì việc..."</td><td>phủ định luôn <span class="gk">μή</span></td></tr>
+<tr><td class="gk">ἐν τῷ + hiện tại / aorist</td><td>"khi đang..." / "sau khi..."</td><td>thời nguyên mẫu quyết định</td></tr>
+<tr><td class="gk">μετὰ τὸ + nguyên mẫu</td><td>"sau khi..."</td><td>đối cách; đối lập <span class="gk">μετὰ τοῦ</span> "kèm theo"</td></tr>
+<tr><td class="gk">πρὸς τὸ + nguyên mẫu</td><td>"nhằm để..."</td><td>cận họ hàng với <span class="gk">πρὸς</span> + đích chuyển động</td></tr>
+<tr><td class="gk">ἕνεκα / ὑπὲρ / πρό τοῦ + nguyên mẫu</td><td>"để..."; <span class="gk">τοῦ μή</span> = "cho khỏi..."</td><td>mục đích, gồm mục đích phủ định</td></tr>
+<tr><td class="gk">τὸ + nguyên mẫu không giới từ</td><td>chủ ngữ / vị ngữ / tân ngữ</td><td>"cái việc..." đọc thử trước</td></tr>
+<tr><td>mạo từ + danh từ + nguyên mẫu lủng lẳng gần</td><td>nguy cơ hàng giả</td><td>hỏi: mạo từ ôm danh từ hay ôm hành động?</td></tr>
+</tbody>
+</table>
+
+<div class="achtung">
+<p><strong>Watch out:</strong> hai lỗi phân biệt nhau một dấu chấm: (1) <em>thêm mạo từ</em> cho nguyên mẫu sau <span class="gk">θέλω</span>, <span class="gk">κελεύω</span>, <span class="gk">δοκέω</span>: sai, các động từ này giữ nguyên mẫu trần; (2) <em>bỏ sót</em> mạo từ khi nguyên mẫu ghép giới từ hoặc làm chủ ngữ công khai: thiếu, vì đó đúng là chỗ §2030 bắt buộc mạo từ. Một câu tự kiểm tra gộp: <em>đọc cụm thành tiếng Việt có từ "cái việc" đứng sau giới từ được không?</em> Được thì cần mạo từ; không thì để trần.</p>
+</div>
+
+<h2 id="reading1">8. Bài đọc 1: Apollodor 3,10 – Hermes trộm bò của Apollon</h2>
+
+<div class="info">
+<p><strong>Bản văn và nguồn.</strong> Quyển <strong>Βιβλιοθήκη</strong> (Thư viện) gán tên Apollodor, một cẩm nang thần thoại biên soạn khoảng thế kỷ 1 đến 2 SCN, là nguồn kể liên mạch truyền thuyết Hy Lạp quan trọng nhất còn lại. Bản chữ: chương 3,10 của bản Perseus Hopper, theo bản Frazer 1921 (Loeb, public domain), đã đối chiếu nguyên văn từng câu. Đoạn đọc hôm nay là mục 3,10,2: chuyện Hermes còn nằm nôi đã trộm bò của Apollon rồi phát minh ra đàn lyre, một trong những câu chuyện được yêu thích nhất của thần thoại Hy Lạp.</p>
+<p><strong>Vì sao đọc đoạn này ở bài này?</strong> Đây là "sân tập thật" của nguyên mẫu: nguyên mẫu trần xếp thành hàng sau <span class="gk">ἔφασκον</span>, <span class="gk">κελεύοντος</span>, <span class="gk">ἤθελε</span>, và đúng <em>một</em> nguyên mẫu có mạo từ của cả hai chương nằm gọn trong câu đắt nhất. Ngoài ra đoạn này gõ vào gần hết hệ thống đã học: <span class="gk">ἵνα</span> + giả định (Bài 16), sở hữu cách tuyệt đối (Bài 20), <span class="gk">αἰτιάομαι</span> và <span class="gk">φωράω</span>, <span class="gk">λανθάνω</span> (từ vựng Bài 26), họ <span class="gk">τίθημι</span> (Bài 23), <span class="gk">ἀκούω</span> + sở hữu cách (Bài 12), định ngữ xen giữa (Bài 15), viên sỏi <span class="gk">ψῆφος</span> (Bài 24).</p>
+</div>
+
+<h3>Khối 1 – trộm xong giấu sạch dấu (3,10,2, phần một)</h3>
+<p class="gk">Μαῖα μὲν οὖν ἡ πρεσβυτάτη Διὶ συνελθοῦσα ἐν ἄντρῳ τῆς Κυλλήνης Ἑρμῆν τίκτει. οὗτος ἐν σπαργάνοις ἐπὶ τοῦ λίκνου κείμενος, ἐκδὺς εἰς Πιερίαν παραγίνεται, καὶ κλέπτει βόας ἃς ἔνεμεν Ἀπόλλων. ἵνα δὲ μὴ φωραθείη ὑπὸ τῶν ἰχνῶν, ὑποδήματα τοῖς ποσὶ περιέθηκε, καὶ κομίσας εἰς Πύλον τὰς μὲν λοιπὰς εἰς σπήλαιον ἀπέκρυψε, δύο δὲ καταθύσας τὰς μὲν βύρσας πέτραις καθήλωσε, τῶν δὲ κρεῶν τὰ μὲν κατηνάλωσεν ἑψήσας τὰ δὲ κατέκαυσε: καὶ ταχέως εἰς Κυλλήνην ᾤχετο.</p>
+<p>Dịch: "Maia, người chị cả, sau khi chung sống với Zeus trong hang núi Kyllene, sinh ra Hermes. Đứa bé, còn nằm trong tã trên chiếc nôi, cởi tã ra là có mặt ở Pieria, và trộm đàn bò mà Apollon đang chăn. Để khỏi bị lộ qua những vết chân, nó đóng giày cho hai bàn chân mình, và sau khi chăn về tận Pylos, giấu phần bò còn lại vào một hang, còn hai con thì giết: da nó đóng đinh vào đá, thịt thì một phần nó nấu chín dùng sạch, một phần đốt đi; rồi vội trở về Kyllene."</p>
+<ul>
+<li><span class="gk">Μαῖα μὲν οὖν ἡ πρεσβυτάτη ... τίκτει</span> – nhịp gia phả quen của quyển Thư viện: <span class="gk">μέν</span> nêu chủ đề, phân từ aorist <span class="gk">συνελθοῦσα</span> "sau khi chung sống" neo tiền sử, rồi động từ <span class="gk">τίκτει</span> hiện tại lịch sử (Bài 12) chốt sự kiện.</li>
+<li><span class="gk">ἐν σπαργάνοις ἐπὶ τοῦ λίκνου κείμενος, ἐκδὺς ... παραγίνεται</span> – ba phân từ nhào vào nhau: hiện tại <span class="gk">κείμενος</span> vẽ cảnh nền (Bài 19), aorist <span class="gk">ἐκδύς</span> "cởi (tã) xong" mở màn hành động; <span class="gk">ἐπὶ τοῦ λίκνου</span> là <span class="gk">ἐπί</span> + sở hữu cách (Bài 22): "trên chiếc nôi".</li>
+<li><span class="gk">κλέπτει βόας ἃς ἔνεμεν Ἀπόλλων</span> – <span class="gk">ἃς</span> là đại từ quan hệ đối cách (Bài 15): "đàn bò <em>mà</em> Apollon chăn"; <span class="gk">κλέπτει</span> hiện tại lịch sử: chuyện kể như đang diễn ra. Gốc động từ là <span class="gk">κλέπτω</span> (từ vựng hôm nay).</li>
+<li><span class="gk">ἵνα δὲ μὴ φωραθείη ὑπὸ τῶν ἰχνῶν</span> – mục đích phủ định (Bài 16): <span class="gk">ἵνα μὴ</span> + aorist giả định <em>bị động</em> <span class="gk">φωραθείη</span> của <span class="gk">φωράω</span> (từ vựng Bài 26); tác nhân <span class="gk">ὑπό</span> + sở hữu cách (Bài 10); "để khỏi bị phát giác qua vết chân". Chữ <span class="gk">ἴχνος</span> (từ vựng hôm nay) ở đây mới là "hung tin" nhẹ: nó sẽ trở thành chìa khóa của câu đắt nhất khối sau.</li>
+<li><span class="gk">τὰς μὲν ... δύο δὲ ... τὰς μὲν ... τὰ δὲ</span> – hai tầng <span class="gk">μέν/δέ</span> xếp chồng: chia đàn bò (phần nhiều giấu, hai con giết), rồi chia thịt (nấu, đốt): văn Apollodor kể của cải bằng bộ đếm rất gọn.</li>
+<li><span class="gk">ᾤχετο</span> – "ra đi, biến mất": động từ.middle <span class="gk">οἴχομαι</span> mang augment dài; ở câu này cũng hé lộ một tính cách: xong việc là chuồn.</li>
+</ul>
+
+<h3>Khối 2 – cây đàn đổi đàn bò: câu đắt nhất của cả bài (3,10,2, phần hai)</h3>
+<p class="gk">καὶ εὑρίσκει πρὸ τοῦ ἄντρου νεμομένην χελώνην. ταύτην ἐκκαθάρας, εἰς τὸ κύτος χορδὰς ἐντείνας ἐξ ὧν ἔθυσε βοῶν καὶ ἐργασάμενος λύραν εὗρε καὶ πλῆκτρον. Ἀπόλλων δὲ τὰς βόας ζητῶν εἰς Πύλον ἀφικνεῖται, καὶ τοὺς κατοικοῦντας ἀνέκρινεν. οἱ δὲ ἰδεῖν μὲν παῖδα ἐλαύνοντα ἔφασκον, οὐκ ἔχειν δὲ εἰπεῖν ποῖ ποτε ἠλάθησαν διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι. μαθὼν δὲ ἐκ τῆς μαντικῆς τὸν κεκλοφότα πρὸς Μαῖαν εἰς Κυλλήνην παραγίνεται, καὶ τὸν Ἑρμῆν ᾐτιᾶτο. ἡ δὲ ἐπέδειξεν αὐτὸν ἐν τοῖς σπαργάνοις. Ἀπόλλων δὲ αὐτὸν πρὸς Δία κομίσας τὰς βόας ἀπῄτει. Διὸς δὲ κελεύοντος ἀποδοῦναι ἠρνεῖτο. μὴ πείθων δὲ ἄγει τὸν Ἀπόλλωνα εἰς Πύλον καὶ τὰς βόας ἀποδίδωσιν. ἀκούσας δὲ τῆς λύρας ὁ Ἀπόλλων ἀντιδίδωσι τὰς βόας. Ἑρμῆς δὲ ταύτας νέμων σύριγγα πάλιν πηξάμενος ἐσύριζεν. Ἀπόλλων δὲ καὶ ταύτην βουλόμενος λαβεῖν, τὴν χρυσῆν ῥάβδον ἐδίδου ἣν ἐκέκτητο βουκολῶν. ὁ δὲ καὶ ταύτην λαβεῖν ἀντὶ τῆς σύριγγος ἤθελε καὶ τὴν μαντικὴν ἐπελθεῖν: καὶ δοὺς διδάσκεται τὴν διὰ τῶν ψήφων μαντικήν. Ζεὺς δὲ αὐτὸν κήρυκα ἑαυτοῦ καὶ θεῶν ὑποχθονίων τίθησι.</p>
+<p>Dịch: "Và nó tìm thấy một con rùa đang gặm cỏ trước hang. Làm sạch nó xong, nó căng dây vào cái mai, từ (những con bò) nó đã giết, và làm ra cây đàn lyre cùng cái gảy. Apollon, đi tìm đàn bò, đến Pylos và tra hỏi dân cư. Họ nói là có thấy một đứa trẻ lái (bò), nhưng không thể nói được (bò) đã lọt mất ở đâu, vì không tài nào tìm ra vết chân. Biết được qua thuật bói (tên) kẻ trộm, Apollon đến Maia ở Kyllene và trách Hermes; bà cho xem đứa bé còn trong tã. Apollon đem nó đến Zeus, đòi lại đàn bò; Zeus ra lệnh trả lại, nhưng nó chối. Vì không thuyết phục được, nó đưa Apollon đến Pylos và trả đàn bò. Nghe tiếng đàn, Apollon trao lại đàn bò (cho nó). Hermes chăn bò, làm một cây sáo rồi thổi; Apollon cũng muốn lấy cây sáo ấy, nên đưa cây trượng vàng mà mình có được của các người chăn. Nó cũng muốn lấy cây này thay cho cây sáo, và muốn theo đuổi luôn cả thuật bói: trao (trượng) xong, nó được học thuật bói bằng viên sỏi. Zeus đặt nó làm sứ giả của chính mình và của các thần dưới đất."</p>
+<ul>
+<li><span class="gk">οἱ δὲ ἰδεῖν μὲν παῖδα ἐλαύνοντα ἔφασκον, οὐκ ἔχειν δὲ εἰπεῖν ...</span> – cầu nối AcI kép: <span class="gk">ἔφασκον</span> "họ cứ nói rằng" (imperfect của <span class="gk">φημί</span>, Bài 17) dẫn hai nguyên mẫu trần <span class="gk">ἰδεῖν</span> "thấy" và <span class="gk">εἰπεῖν</span> "nói được", khoác theo cặp <span class="gk">μέν/δέ</span>: dân Pylos không đổ lỗi, họ chỉ... không biết. Động từ dẫn + nguyên mẫu trần: khuôn A của cả bài.</li>
+<li><span class="gk">ποῖ ποτε ἠλάθησαν διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span> – câu đắt nhất: <span class="gk">ἠλάθησαν</span> là pluperfect "đã lọt khỏi mắt" của <span class="gk">λανθάνω</span> (từ vựng Bài 26): đàn bò "đã thoát sự chú ý" từ đời nào không rõ; và nguyên nhân được nén trong nguyên mẫu có mạo từ duy nhất của cả hai chương: <span class="gk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span> "vì không tài nào tìm ra vết chân" (mục 3 đã bóc). Chính đôi giày ở khối 1 đã xoá dấu: chi tiết kể và công cụ ngữ pháp cùng nói một điều, <em>vết chân không còn nữa</em>.</li>
+<li><span class="gk">μαθὼν δὲ ἐκ τῆς μαντικῆς τὸν κεκλοφότα</span> – phân từ hoàn thành <span class="gk">κεκλοφότα</span> "kẻ <em>đã</em> trộm" của <span class="gk">κλέπτω</span> (từ vựng hôm nay): Apollon không cần chứng cứ, chỉ cần thuật bói của chính mình; đối cách <span class="gk">τὸν κεκλοφότα</span> là tân ngữ của <span class="gk">μαθών</span>.</li>
+<li><span class="gk">τὸν Ἑρμῆν ᾐτιᾱτο</span> – imperfect của <span class="gk">αἰτιάομαι</span> "trách, hỏi tội" (từ vựng Bài 26): lên án một đứa bé còn nằm tã: thần Apollon nghiêm trang y như đạo luật.</li>
+<li><span class="gk">Διὸς δὲ κελεύοντος ἀποδοῦναι ἠρνεῖτο</span> – sở hữu cách tuyệt đối (Bài 20): "với Zeus ra lệnh"; nguyên mẫu trần <span class="gk">ἀποδοῦναι</span> sau <span class="gk">κελεύω</span> là mệnh lệnh gián tiếp (Bài 18): "ra lệnh <em>phải trả lại</em>"; <span class="gk">ἠρνεῖτο</span> imperfect "nó cứ chối": định luật không lay chuyển nổi đứa trẻ.</li>
+<li><span class="gk">μὴ πείθων</span> – phân từ phủ định <span class="gk">μή</span> "không thuyết phục được": màu phủ định của nguyên mẫu/ý định bám theo cả phân từ.</li>
+<li><span class="gk">ἀκούσας δὲ τῆς λύρας ... ἀντιδίδωσι τὰς βόας</span> – <span class="gk">ἀκούω</span> + sở hữu cách (Bài 12): "nghe <em>tiếng</em> đàn"; <span class="gk">ἀντιδίδωσι</span> hiện tại lịch sử: đổi chiều cuộc trao đổi chỉ bằng một câu chuyện âm nhạc.</li>
+<li><span class="gk">βουλόμενος λαβεῖν ... ἤθελε ... ἐπελθεῖν</span> – ba lần nguyên mẫu trần sau các động từ "muốn" (<span class="gk">βουλόμενος</span>, <span class="gk">ἤθελε</span>), không một mạo từ: bằng chứng văn thật cho achtung của mục 7; <span class="gk">ἐπελθεῖν</span> "theo đuổi tiếp", một nền giáo dục trọn gói: đàn, sáo, trượng, rồi cả nghề bói.</li>
+<li><span class="gk">τὴν διὰ τῶν ψήφων μαντικήν</span> – định ngữ xen giữa (Bài 15): "nghệ thuật bói <em>qua viên sỏi</em>": <span class="gk">ψῆφος</span> đã học ở Bài 24, giờ trọn nghề với Hermes.</li>
+<li><span class="gk">Ζεὺς δὲ αὐτὸν κήρυκα ... τίθησι</span> – kết thúc hoàn hảo cho bài về nguyên mẫu: họ <span class="gk">τίθημι</span> (Bài 23) + đối cách kép (Bài 2): "đặt <em>nó</em> làm <em>sứ giả</em>" của Zeus và các thần dưới đất: từ kẻ trộm thành quyền thần buôn tin, tất cả trong một câu.</li>
+</ul>
+
+<h3>Câu hỏi đọc hiểu 1</h3>
+<ol>
+<li>Hermes dùng thủ thuật gì để không bị lộ, vì sao dân Pylos vẫn không chỉ ra được đàn bò mất ở đâu, và câu văn nào của khối 2 "gài" thủ thuật ấy vào ngữ pháp?</li>
+<li>Kể đúng thứ tự các món đồ trong cuộc trao đổi giữa Hermes và Apollon.</li>
+<li>Tìm trong khối 2 hai động từ dẫn khác nhau, một cái lấy nguyên mẫu làm "mệnh lệnh gián tiếp", một cái chỉ "báo rằng": dịch lại cả hai lần nguyên mẫu ấy.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án đọc hiểu 1</h4>
+<ol>
+<li>Đóng giày cho hai bàn chân để xoá vết chân (<span class="gk">ἵνα δὲ μὴ φωραθείη ὑπὸ τῶν ἰχνῶν</span>); dân Pylos "không thể nói được vì không tài nào tìm ra vết chân": <span class="gk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span>, nguyên mẫu có mạo từ duy nhất của hai chương, nén toàn bộ nguyên nhân vào gói sáu chữ.</li>
+<li>Hermes trả đàn bò, đổi lấy cây đàn lyre (do chính nó làm từ mai rùa và dây ruột bò); rồi cây sáo đổi lấy cây trượng vàng; rồi cả nghệ thuật bói viên sỏi: ba cuộc trao nối tiếp, mỗi lần Apollon "cũng muốn" một món nữa.</li>
+<li><span class="gk">Διὸς δὲ κελεύοντος ἀποδοῦναι</span>: Zeus ra lệnh (phải) trả lại, nguyên mẫu là mệnh lệnh gián tiếp trong sở hữu cách tuyệt đối; <span class="gk">ἰδεῖν μὲν παῖδα ἐλαύνοντα ἔφασκον</span>: "họ cứ nói là thấy một đứa trẻ lái bò", nguyên mẫu trần báo tin dưới <span class="gk">φημί</span>.</li>
+</ol>
+</div></div>
+
+<h2 id="reading2">9. Bài đọc 2: Apollodor 3,14 – Poseidon, Athena và đứa trẻ trong cũi</h2>
+
+<div class="info">
+<p><strong>Bản văn và nguồn.</strong> Cũng quyển Thư viện, chương 3,14. Bản chữ: Perseus Hopper theo bản Frazer 1921 (public domain). Khối 1 đọc toàn bộ mục 3,14,1: cuộc tranh Poseidon và Athena giành đất Attika, tiền truyện của tên gọi Athens. Khối 2 là đoạn trích giữa mục 3,14,6: chuyện sinh ra của Erichthonios và chiếc rương cấm mở. <strong>Ghi chú biên tập:</strong> bản Perseus đặt chú thích xen câu bằng cặp ngoặc nguyên bản rộng; như các bài trước, bản in của ta chuẩn hóa thành ngoặc thường, không đổi một chữ nào của nguyên văn.</p>
+<p><strong>Vì sao đọc đoạn này?</strong> Hai khối là hai "phòng thí nghiệm" đối xứng của nguyên mẫu: khối 1 giàu mệnh đề (<span class="gk">ὅτι</span> tường thuật, giả định, sở hữu cách tuyệt đối kép), khối 2 dày đặc nguyên mẫu trần sau <span class="gk">θέλω</span> và <span class="gk">ἀπειπέω</span> ("muốn chế binh khí", "muốn làm cho bất tử", "cấm mở rương"): đọc xong bạn biết vì sao mục 7 phải cảnh báo bẫy thêm mạo từ. Và không khí hai khối, từ toà án mười hai vị thần đến chiếc rương bị tò mò mở ra, là hai cảnh nền của cả văn hoá Athens.</p>
+</div>
+
+<h3>Khối 1 – toà án của mười hai vị thần (3,14,1)</h3>
+<p class="gk">Κέκροψ αὐτόχθων, συμφυὲς ἔχων σῶμα ἀνδρὸς καὶ δράκοντος, τῆς Ἀττικῆς ἐβασίλευσε πρῶτος, καὶ τὴν γῆν πρότερον λεγομένην Ἀκτὴν ἀφ᾿ ἑαυτοῦ Κεκροπίαν ὠνόμασεν. ἐπὶ τούτου, φασίν, ἔδοξε τοῖς θεοῖς πόλεις καταλαβέσθαι, ἐν αἷς ἔμελλον ἔχειν τιμὰς ἰδίας ἕκαστος. ἧκεν οὖν πρῶτος Ποσειδῶν ἐπὶ τὴν Ἀττικήν, καὶ πλήξας τῇ τριαίνῃ κατὰ μέσην τὴν ἀκρόπολιν ἀπέφηνε θάλασσαν, ἣν νῦν Ἐρεχθηίδα καλοῦσι. μετὰ δὲ τοῦτον ἧκεν Ἀθηνᾶ, καὶ ποιησαμένη τῆς καταλήψεως Κέκροπα μάρτυρα ἐφύτευσεν ἐλαίαν, ἣ νῦν ἐν τῷ Πανδροσείῳ δείκνυται. γενομένης δὲ ἔριδος ἀμφοῖν περὶ τῆς χώρας, διαλύσας Ζεὺς κριτὰς ἔδωκεν, οὐχ ὡς εἶπόν τινες, Κέκροπα καὶ Κραναόν, οὐδὲ Ἐρυσίχθονα, θεοὺς δὲ τοὺς δώδεκα. καὶ τούτων δικαζόντων ἡ χώρα τῆς Ἀθηνᾶς ἐκρίθη, Κέκροπος μαρτυρήσαντος ὅτι πρώτη τὴν ἐλαίαν ἐφύτευσεν. Ἀθηνᾶ μὲν οὖν ἀφ᾿ ἑαυτῆς τὴν πόλιν ἐκάλεσεν Ἀθήνας, Ποσειδῶν δὲ θυμῷ ὀργισθεὶς τὸ Θριάσιον πεδίον ἐπέκλυσε καὶ τὴν Ἀττικὴν ὕφαλον ἐποίησε.</p>
+<p>Dịch: "Kekrops, người sinh từ đất, mang thân trên người dưới rắn, trị vì Attika đầu tiên, và gọi vùng đất trước có tên Akte thành Kekropia theo tên mình. Trong triều vua ấy, người ta kể, các thần quyết định chiếm lấy các thành, nơi mỗi vị sẽ có phần thờ riêng. Poseidon đến Attika trước, và đập cây đinh ba ngay giữa thành luỹ trên cao, phơi ra một biển nước, nay người ta gọi là (biển) Erechtheis. Sau chàng, Athena đến; lập Kekrops làm nhân chứng của cuộc chiếm đóng, nàng trồng một cây oliu, nay được chỉ cho xem tại Pandroseion. Khi tranh chấp nổ ra giữa hai vị về vùng đất, Zeus phân giải, đặt ra các trọng tài: không phải như một số người kể, là Kekrops cùng Kranaos, hay Erysichthon, mà là mười hai vị thần. Các vị ấy xét xử, vùng đất được phán cho Athena, vì Kekrops làm chứng rằng chính nàng đã trồng cây oliu trước. Athena bèn gọi thành theo tên mình là Athens; còn Poseidon, giận trong bụng, cho ngập đồng bằng Thriasios và làm Attika chìm dưới nước."</p>
+<ul>
+<li><span class="gk">Κέκροψ αὐτόχθων</span> – từ vựng hôm nay: "sinh từ đất" (<span class="gk">αὐτός</span> + <span class="gk">χθών</span>): thân rắn của vua đầu tiên chính là con người "mọc ra từ đất", huyền thoại của chủ quyền bản địa Athens.</li>
+<li><span class="gk">ἐπὶ τούτου, φασίν, ἔδοξε τοῖς θεοῖς πόλεις καταλαβέσθαι</span> – khuôn biên niên "trong triều vua ấy" bằng <span class="gk">ἐπί</span> + sở hữu cách (mô-típ <span class="gk">ἐπ᾿ ἄρχοντος</span>, Bài 11); <span class="gk">φασίν</span> "người ta kể" (Bài 26 gặp <span class="gk">Φασί</span>); <span class="gk">ἔδοξε</span> + tặng cách + nguyên mẫu trần: "các thần quyết định chiếm thành": nguyên mẫu sau <span class="gk">δοκέω</span> không mạo từ.</li>
+<li><span class="gk">ἐν αἷς ἔμελλον ἔχειν τιμὰς ἰδίας ἕκαστος</span> – mệnh đề quan hệ chứa <span class="gk">μέλλω</span> + nguyên mẫu trần: "nơi từng vị sắp có phần thờ riêng": dự định nằm trong tương lai, nguyên mẫu vẫn trần.</li>
+<li><span class="gk">πλήξας τῇ τριαίνῃ ... ἀπέφηνε θάλασσαν</span> – phân từ aorist "sau khi đập", tặng cách công cụ với <span class="gk">τρίαινα</span> (từ vựng hôm nay); <span class="gk">ἀπέφηνε</span> "phơi ra": vết thương đinh ba thành dòng nước biển phun lên ngay giữa thành luỹ trên cao (<span class="gk">ἀκρόπολις</span>, từ vựng hôm nay): hai dấu ấn của hai vị thần cạnh nhau trên cùng một mảnh đất</li>
+<li><span class="gk">ποιησαμένη τῆς καταλήψεως Κέκροπα μάρτυρα ἐφύτευσεν ἐλαίαν</span> – một câu, ba từ vựng hôm nay: <span class="gk">μάρτυς</span> (đối cách kép: "làm Kekrops <em>thành</em> nhân chứng", Bài 2 + 23), <span class="gk">φυτεύω</span>, <span class="gk">ἐλαία</span>. Athena vào toà chưa quên chuẩn bị chứng nhân: cây oliu là "con dấu" của nàng.</li>
+<li><span class="gk">γενομένης δὲ ἔριδος ἀμφοῖν</span> – sở hữu cách tuyệt đối (Bài 20): "khi tranh chấp (<span class="gk">ἔρις</span>, từ vựng hôm nay) nổ ra giữa hai vị".</li>
+<li><span class="gk">οὐχ ὡς εἶπόν τινες ... θεοὺς δὲ τοὺς δώδεκα</span> – "không phải như một số người kể": quyển Thư viện sửa ngay truyền thuyết đối thủ; dàn trong toà là mười hai vị thần, không phải vua người.</li>
+<li><span class="gk">τούτων δικαζόντων ... Κέκροπος μαρτυρήσαντος ὅτι πρώτη τὴν ἐλαίαν ἐφύτευσεν</span> – hai sở hữu cách tuyệt đối lồng nhau (<span class="gk">δικαζόντων</span> "khi chư thần xét xử", <span class="gk">μαρτυρήσαντος</span> "vì Kekrops làm chứng"), và lời chứng dẫn bằng <span class="gk">ὅτι</span> + chỉ định, kênh 1 của tường thuật (Bài 25): chứng cứ lịch sử trao cho thần đọc, ngữ pháp trao cho người học.</li>
+<li><span class="gk">θυμῷ ὀργισθεὶς ... ὕφαλον ἐποίησε</span> – phân từ aorist bị động "giận dữ" + <span class="gk">ὕφαλος</span> "chìm dưới nước": thần thua kiện trả đũa bằng lũ: cú phạt cuối nhắc nhở rằng phần thua không phải bao giờ nằm im.</li>
+</ul>
+
+<h3>Khối 2 – chiếc rương cấm mở (3,14,6, đoạn trích)</h3>
+<p class="gk">τοῦτον οἱ μὲν Ἡφαίστου καὶ τῆς Κραναοῦ θυγατρὸς Ἀτθίδος εἶναι λέγουσιν, οἱ δὲ Ἡφαίστου καὶ Ἀθηνᾶς, οὕτως: Ἀθηνᾶ παρεγένετο πρὸς Ἥφαιστον, ὅπλα κατασκευάσαι θέλουσα. ὁ δὲ ἐγκαταλελειμμένος ὑπὸ Ἀφροδίτης εἰς ἐπιθυμίαν ὤλισθε τῆς Ἀθηνᾶς, καὶ διώκειν αὐτὴν ἤρξατο: ἡ δὲ ἔφευγεν. ὡς δὲ ἐγγὺς αὐτῆς ἐγένετο πολλῇ ἀνάγκῃ (ἦν γὰρ χωλός), ἐπειρᾶτο συνελθεῖν. ἡ δὲ ὡς σώφρων καὶ παρθένος οὖσα οὐκ ἠνέσχετο: ὁ δὲ ἀπεσπέρμηνεν εἰς τὸ σκέλος τῆς θεᾶς. ἐκείνη δὲ μυσαχθεῖσα ἐρίῳ ἀπομάξασα τὸν γόνον εἰς γῆν ἔρριψε. φευγούσης δὲ αὐτῆς καὶ τῆς γονῆς εἰς γῆν πεσούσης Ἐριχθόνιος γίνεται. τοῦτον Ἀθηνᾶ κρύφα τῶν ἄλλων θεῶν ἔτρεφεν, ἀθάνατον θέλουσα ποιῆσαι: καὶ καταθεῖσα αὐτὸν εἰς κίστην Πανδρόσῳ τῇ Κέκροπος παρακατέθετο, ἀπειποῦσα τὴν κίστην ἀνοίγειν. αἱ δὲ ἀδελφαὶ τῆς Πανδρόσου ἀνοίγουσιν ὑπὸ περιεργίας, καὶ θεῶνται τῷ βρέφει παρεσπειραμένον δράκοντα: καὶ ὡς μὲν ἔνιοι λέγουσιν, ὑπ᾿ αὐτοῦ διεφθάρησαν τοῦ δράκοντος, ὡς δὲ ἔνιοι, δι᾿ ὀργὴν Ἀθηνᾶς ἐμμανεῖς γενόμεναι κατὰ τῆς ἀκροπόλεως αὑτὰς ἔρριψαν.</p>
+<p>Dịch: "Về đứa trẻ này, có kẻ nói là con của Hephaistos và Atthis con gái Kranaos; kẻ nói là của Hephaistos và Athena, chuyện xảy ra thế này: Athena đến Hephaistos, vì muốn chế binh khí. Y, bị Aphrodite bỏ lại, trượt ngã vào lòng ham muốn Athena và bắt đầu đuổi theo nàng; nàng bỏ chạy. Khi y áp sát nàng bằng một sức ép lớn (vì y là người què), y cố chiếm đoạt; nàng, là người đoan trang và còn trinh, không chịu; y xuất tinh vào chân nữ thần. Nàng, ghê tởm, lau cái hạt ấy bằng len và ném xuống đất. Khi nàng bỏ chạy và khi cái hạt rơi xuống đất, Erichthonios sinh thành. Athena lén nuôi nó, tránh mắt các thần khác, vì muốn làm cho nó bất tử; và đặt nó vào một chiếc rương, giao cho Pandrosos con gái Kekrops, cấm mở chiếc rương. Nhưng các chị em của Pandrosos, do tò mò hiếu kỳ, mở ra, và thấy đứa bé có con rắn quấn quanh: theo một số người, chúng bị chính con rắn ấy giết; theo số khác, do cơn giận Athena, chúng hóa cuồng và tự ném mình khỏi thành luỹ trên cao."</p>
+<ul>
+<li><span class="gk">οἱ μὲν ... εἶναι λέγουσιν, οἱ δὲ ...</span> – khuôn "dò thác liệu" (<span class="gk">οἱ μὲν</span>/<span class="gk">οἱ δὲ</span>) mở đầu bằng AcI nguyên mẫu trần <span class="gk">εἶναι</span> sau <span class="gk">λέγουσιν</span>: hai giả thuyết, cùng một động từ dẫn: văn biên soạn không chọn phe, chỉ chép các phe.</li>
+<li><span class="gk">Ἀθηνᾶ παρεγένετο πρὸς Ἥφαιστον, ὅπλα κατασκευάσαι θέλουσα</span> – ngôi sao của phần lý thuyết mục 7: <span class="gk">θέλουσα</span> + nguyên mẫu trần <span class="gk">κατασκευάσαι</span>, không mạo từ: "muốn chế binh khí". Ai thêm <span class="gk">τὸ</span> vào đây là làm hỏng câu văn cổ.</li>
+<li><span class="gk">ὁ δὲ ἐγκαταλελειμμένος ὑπὸ Ἀφροδίτης</span> – phân từ hoàn thành <em>bị động</em> "bị bỏ lại từ lâu" + tác nhân <span class="gk">ὑπό</span> + sở hữu cách (Bài 10): Hephaistos cô đơn là tiền đề bi kịch.</li>
+<li><span class="gk">ὡς δὲ ἐγγὺς αὐτῆς ἐγένετο πολλῇ ἀνάγκῃ (ἦν γὰρ χωλός)</span> – chú thích xen câu bằng ngoặc: <span class="gk">ἦν γὰρ χωλός</span> "vì y què", chi tiết mà Homer và các bi kịch đều biết về ông thợ rèn; tặng cách <span class="gk">πολλῇ ἀνάγκῃ</span> chỉ "cỡ của sự ép buộc": đúng tặng cách của mức độ (Bài 4).</li>
+<li><span class="gk">φευγούσης δὲ αὐτῆς καὶ τῆς γονῆς εἰς γῆν πεσούσης Ἐριχθόνιος γίνεται</span> – <em>kép</em> sở hữu cách tuyệt đối (Bài 20): hai chủ thể hai hành động ("nàng bỏ chạy", "hạt rơi xuống đất") nối bằng <span class="gk">καί</span>, rồi kết quả chốt bằng hiện tại lịch sử: sinh ra. Sinh học thần thoại gói trong hai sở hữu cách.</li>
+<li><span class="gk">ἀθάνατον θέλουσα ποιῆσαι</span> – lần hai: <span class="gk">θέλω</span> + nguyên mẫu trần; <span class="gk">ἀθάνατος</span> (từ vựng hôm nay) đối cách làm tân ngữ bên trong: "làm cho <em>nó</em> bất tử": Athena nuôi kín đứa trẻ là để trao cho nó món ân huệ lớn nhất mà một thần có thể trao: sự bất tử.</li>
+<li><span class="gk">καταθεῖσα αὐτὸν εἰς κίστην ... παρακατέθετο, ἀπειποῦσα τὴν κίστην ἀνοίγειν</span> – <span class="gk">κίστη</span> (từ vựng hôm nay) + <span class="gk">ἀνοίγω</span> (từ vựng hôm nay): "cấm (các cô) mở chiếc rương": động từ <span class="gk">ἀπειπέω</span> "cấm" + đối cách + nguyên mẫu trần là mệnh lệnh gián tiếp phủ định (Bài 18): <span class="gk">ἀνοίγειν</span> hiện tại cho hành động cấm <em>kéo dài</em>: không mở, lần nào cũng không mở.</li>
+<li><span class="gk">ἀνοίγουσιν ὑπὸ περιεργίας</span> – và <span class="gk">ὑπό</span> + sở hữu cách lần này là <em>nguyên nhân</em>: "do tò mò hiếu kỳ" (<span class="gk">ἡ περιεργία</span>, từ vựng hôm nay, nhà <span class="gk">ἔργον</span> của Bài 15): tội của các cô gái là tò mò, và tò mò thì, theo mọi truyền thống, không được tha.</li>
+<li><span class="gk">θεῶνται τῷ βρέφει παρεσπειραμένον δράκοντα</span> – <span class="gk">θεωμέθα</span> họ nhà "xem": đối cách kép một lần nữa: "thấy đứa trẻ (có) con rắn quấn quanh"; phân từ hoàn thành bị động <span class="gk">παρεσπειραμένον</span> "được trồng vây quanh": hình ảnh Erichthonios với rắn sẽ thành con dấu trên tiền Athens.</li>
+<li><span class="gk">ὡς μὲν ἔνιοι λέγουσιν ... ὡς δὲ ἔνιοι ...</span> – lần hai trong cùng một khối, khuôn "theo một số người / theo số khác": kết cục các cô gái (bị rắn giết, hay phát cuồng tự ném mình khỏi thành luỹ trên cao) cũng bị "dò thác liệu"; <span class="gk">αὑτὰς ἔρριψαν</span> là đại từ phản thân đối cách (Bài 15): <span class="gk">αὑτάς</span> khác <span class="gk">αὐτάς</span> chỉ nhờ dấu ha hơi trên chữ đầu, một vết phun hơi đủ đổi cả người ném lẫn người bị ném.</li>
+</ul>
+
+<h3>Câu hỏi đọc hiểu 2</h3>
+<ol>
+<li>Hai vị thần mang "quà" gì đến Attika, ai thắng và nhờ bằng chứng nào? Vì sao chứng cứ ấy lại là một chi tiết chính trị: ai là "người sinh từ đất" ở đây?</li>
+<li>Vì sao Erichthonios không được nuôi công khai, và chiếc rương bị mở vì nguyên nhân gì (đúng theo văn bản)?</li>
+<li>Phân tích câu <span class="gk">φευγούσης δὲ αὐτῆς καὶ τῆς γονῆς εἰς γῆν πεσούσης Ἐριχθόνιος γίνεται</span>: có mấy sở hữu cách tuyệt đối, mỗi chủ thể làm gì, và động từ chính chia thời gì?</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án đọc hiểu 2</h4>
+<ol>
+<li>Poseidon phô ra biển (<span class="gk">ἀπέφηνε θάλασσαν</span>) bằng cây đinh ba, Athena trồng cây oliu và lập trước Kekrops làm nhân chứng; Athena thắng nhờ lời chứng "chính nàng trồng oliu trước" (<span class="gk">Κέκροπος μαρτυρήσαντος ὅτι πρώτη τὴν ἐλαίαν ἐφύτευσεν</span>). Kekrops là <span class="gk">αὐτόχθων</span>, người sinh từ đất: vua người làm chứng cho vị thần đắc dụng, chính là huyền thoại hợp pháp hóa chủ quyền bản địa của người Athens trên đất mình.</li>
+<li>Athena nuôi kín để <span class="gk">ἀθάνατον θέλουσα ποιῆσαι</span> "muốn làm cho nó bất tử" (tránh mắt các thần khác); chiếc rương bị mở <span class="gk">ὑπὸ περιεργίας</span> "do tò mò hiếu kỳ" của các chị em Pandrosos: văn bản nói rõ nguyên nhân bằng đúng khuôn <span class="gk">ὑπό</span> + sở hữu cách đã học.</li>
+<li>Một khuôn kép gồm hai sở hữu cách tuyệt đối cùng nối vào một kết quả: <span class="gk">φευγούσης αὐτῆς</span> "khi nàng (Athena) bỏ chạy" và <span class="gk">τῆς γονῆς εἰς γῆν πεσούσης</span> "khi cái hạt rơi xuống đất"; chủ thể của động từ chính <span class="gk">γίνεται</span> "sinh thành" là Erichthonios; động từ chính chia hiện tại lịch sử, gieo cảm giác "và thế là có": cả hai mệnh đề tuyệt đối khác chủ thể với động từ chính, đúng quy tắc vàng của Bài 20.</li>
+</ol>
+</div></div>
+
+<h2 id="vocab">10. Từ vựng trọng tâm</h2>
+
+<p>18 từ của bài, 15 từ ưu tiên (<span class="star">★</span> = nên học thuộc trước khi đợi Anki nhóm 25 đến 29). Đã kiểm tra không trùng từ vựng Bài 1 đến 24 và không trùng hai bài Graecum II trước. Bảng hôm nay là <em>bộ đồ vật và chứng tích của hai câu chuyện</em>: dấu chân, mai rùa, dây đàn, cây sáo, đinh ba, cây oliu, chiếc rương, và hai chữ đắt giá đằng sau toà án (<span class="gk">μάρτυς</span>, <span class="gk">αὐτόχθων</span>): từ vựng đi theo tay người kể chuyện, không theo từ điển.</p>
+
+<table>
+<thead><tr><th>Greek</th><th>Translit.</th><th>English</th><th>Tiếng Việt</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td class="gk"><span class="star">★</span> τὸ ἴχνος, -ους</td><td class="tr">to íchnos</td><td class="em">track, footprint</td><td>vết chân, dấu vết</td><td>trung tính chia thứ ba thân s như <span class="gk">τὸ γένος</span> (Bài 8); bài đọc 1: <span class="gk">ὑπὸ τῶν ἰχνῶν</span> "qua những vết chân" và <span class="gk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span>, nguyên mẫu có mạo từ duy nhất của hai chương; cổ sinh vật học gọi vết hóa thạch là <em>ichnite</em>, ngành nghiên cứu dấu vết là <em>ichnology</em>: cả hai mượn chữ này</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ χελώνη, -ης</td><td class="tr">hē chelṓnē</td><td class="em">tortoise</td><td>con rùa</td><td>bài đọc 1: <span class="gk">εὑρίσκει ... νεμομένην χελώνην</span>: mai rùa là "thân đàn" đầu tiên của thế giới; các nhà nghiên cứu bò sát gọi bộ rùa là <em>Chelonia</em>, và <em>chelonian</em> là tính từ ra từ đây</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ λύρα, -ας</td><td class="tr">hē lýra</td><td class="em">lyre</td><td>đàn lyre</td><td>bài đọc 1: <span class="gk">ἐργασάμενος λύραν εὗρε καὶ πλῆκτρον</span>, rồi <span class="gk">ἀκούσας δὲ τῆς λύρας</span> (sở hữu cách sau <span class="gk">ἀκούω</span>, Bài 12): một nhạc khí đổi chủ luôn đàn bò; thơ hát theo đàn lyre là "thơ trữ tình" (<em>lyric</em>) của loài người</td></tr>
+<tr><td class="gk">ἡ σύριγξ, -ιγγος</td><td class="tr">hē sýrinx</td><td class="em">pan-pipe</td><td>cây sáo (sáo quạt)</td><td>chia thứ ba thân s với đôi <span class="gk">γγ</span> hiếm gặp, họ hàng khuôn với <span class="gk">ἡ πόλις</span> (Bài 7); bài đọc 1: <span class="gk">σύριγγα πάλιν πηξάμενος ἐσύριζεν</span> "làm (thêm) một cây sáo rồi thổi"; tiếng Latin mượn thành <em>syrinx</em>, rồi "syringe": cây sáo và cây kim tiêm cùng một nghĩa gốc là "ống sậy"</td></tr>
+<tr><td class="gk"><span class="star">★</span> κλέπτω, ἔκλεψα</td><td class="tr">kléptō, éklepsa</td><td class="em">to steal</td><td>trộm, ăn trộm</td><td>bài đọc 1: <span class="gk">κλέπτει βόας</span> (hiện tại lịch sử) và phân từ hoàn thành <span class="gk">τὸν κεκλοφότα</span> "kẻ đã trộm": thân <span class="gk">κλοφ-</span> là biến âm thường của họ này; <span class="gk">ὁ κλέπτης</span> "kẻ trộm", và "kleptomania" thời nay vẫn giữ nguyên gốc</td></tr>
+<tr><td class="gk">ὁ κήρυξ, -υκος</td><td class="tr">ho kḗryx</td><td class="em">herald, messenger</td><td>sứ giả, người truyền tin</td><td>chia thứ ba thân s như <span class="gk">ὁ μάρτυς</span> (bảng hôm nay); bài đọc 1 khép: <span class="gk">Ζεὺς δὲ αὐτὸν κήρυκα ... τίθησι</span>, đối cách kép sau <span class="gk">τίθημι</span> (Bài 23): kẻ trộm nôi thành sứ giả của thần; <span class="gk">τὸ κήρυγμα</span> "bản truyền tin" qua đường "kerygma" của các nhà thần học</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ τρίαινα, -ης</td><td class="tr">hē triaina</td><td class="em">trident</td><td>cây đinh ba</td><td>bài đọc 2: <span class="gk">πλήξας τῇ τριαίνῃ</span>, tặng cách công cụ; tiền tố <span class="gk">τρι-</span> "ba" như <span class="gk">τρεῖς</span> (Bài 8): vũ khí của Poseidon chính là con số ba gắn vào cán; từ "trident" lại là Latin (<em>tridens</em> "ba răng"), còn Hy Lạp giữ nguyên tiếng gọi của mình</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ἐλαία, -ας</td><td class="tr">hē elaía</td><td class="em">olive tree</td><td>cây oliu</td><td>bài đọc 2: <span class="gk">ἐφύτευσεν ἐλαίαν</span>, và lời chứng <span class="gk">πρώτη τὴν ἐλαίαν ἐφύτευσεν</span> "chính nàng trồng oliu trước": món quà thắng toà của Athena; <span class="gk">τὸ ἔλαιον</span> "dầu oliu" cho nhà bếp và đèn; Latin mượn thành <em>oliva</em>, gốc của "olive" hôm nay</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ἀκρόπολις, -εως</td><td class="tr">hē akrópolis</td><td class="em">acropolis</td><td>thành luỹ trên cao</td><td><span class="gk">ἄκρος</span> "trên cùng" + <span class="gk">ἡ πόλις</span> (Bài 7); cách sở hữu <span class="gk">-εως</span> đúng khuôn <span class="gk">ὁ βασιλεύς</span> (Bài 8); bài đọc 2: <span class="gk">κατὰ μέσην τὴν ἀκρόπολιν</span> biển phun lên "giữa" thành, <span class="gk">κατὰ τῆς ἀκροπόλεως αὑτὰς ἔρριψαν</span> các cô gái rơi khỏi thành: một mảnh đất, hai kết cục</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ ἔρις, -ίδος</td><td class="tr">hē éris</td><td class="em">strife, contest</td><td>sự tranh chấp, sự tranh hơn</td><td>chia thứ ba thân s như <span class="gk">ἡ πόλις</span>; bài đọc 2: <span class="gk">γενομένης δὲ ἔριδος ἀμφοῖν</span>, sở hữu cách tuyệt đối (Bài 20): "khi tranh chấp nổ ra giữa hai vị"; nữ thần bất hoà cũng mang tên này, người ném quả táo vàng gây chiến thành Troia; "eristic" là nghệ thuật tranh hơn (và cãi) của các trường triết</td></tr>
+<tr><td class="gk"><span class="star">★</span> ὁ μάρτυς, -υος</td><td class="tr">ho mártys</td><td class="em">witness</td><td>nhân chứng</td><td>bài đọc 2 dùng cả hai bộ mặt: danh từ <span class="gk">Κέκροπα μάρτυρα</span> "lập Kekrops làm nhân chứng" (đối cách kép, Bài 2 và 23) và động từ họ nhà nó <span class="gk">μαρτυρήσαντος ὅτι</span> "vì (Kekrops) làm chứng rằng" (<span class="gk">ὅτι</span> + chỉ định, Bài 25); người ta gọi người chết vì chứng từ là <em>martyr</em>: chữ nghĩa gốc "kẻ đứng ra làm chứng" đó</td></tr>
+<tr><td class="gk">ἡ θάλασσα, -ης</td><td class="tr">hē thálassa</td><td class="em">sea</td><td>biển</td><td>bài đọc 2: <span class="gk">ἀπέφηνε θάλασσαν</span> "phơi ra một biển": quà của Poseidon là nước mặn giữa đất; khoa học giữ nó trong các ghép như "thalassotherapy" (liệu pháp biển), còn ta cứ nhớ nó là quà thua kiện trong bài đọc 2</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ κίστη, -ης</td><td class="tr">hē kístē</td><td class="em">basket, chest</td><td>chiếc rương, chiếc giỏ</td><td>bài đọc 2: <span class="gk">καταθεῖσα αὐτὸν εἰς κίστην</span> "đặt nó vào chiếc rương" và <span class="gk">ἀπειποῦσα τὴν κίστην ἀνοίγειν</span> "cấm mở chiếc rương": cặp hình với <span class="gk">ἀνοίγω</span> dưới; trong nghi lễ Dionysos có chiếc "cista mystica" (rương thánh) cũng là chữ này qua Latin</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἀνοίγω, ἠνοῖξα</td><td class="tr">anoígō, ēnoîxa</td><td class="em">to open</td><td>mở</td><td>bài đọc 2: nguyên mẫu <span class="gk">τὴν κίστην ἀνοίγειν</span> (trần, sau động từ cấm) và <span class="gk">ἀνοίγουσιν ὑπὸ περιεργίας</span> (hiện tại lịch sử + <span class="gk">ὑπό</span> + sở hữu cách nguyên nhân); trong thần thoại Hy Lạp, động từ này gần như luôn báo họa: Pandora, Erichthonios, và về sau Psyche, cùng một câu: rương cấm thì đừng mở</td></tr>
+<tr><td class="gk"><span class="star">★</span> φυτεύω</td><td class="tr">phyteúō</td><td class="em">to plant</td><td>trồng, trồng cây</td><td>bài đọc 2: <span class="gk">ἐφύτευσεν ἐλαίαν</span>, hai lần trong cùng một đoạn, vì cây oliu vừa là quà vừa là chứng cứ; từ họ với <span class="gk">τὸ φυτόν</span> "cây" (từ vựng Bài 21): "cây" đẻ ra động từ "trồng cây"; tiếng khoa học giữ <em>phyto-</em> như trong "phytoplankton" (từ một gốc khác, cùng họ xa: "sinh ra")</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἀθάνατος, -ον</td><td class="tr">athánatos</td><td class="em">immortal</td><td>bất tử</td><td><span class="gk">ἀ-</span> "không" + <span class="gk">ὁ θάνατος</span> "cái chết" (gặp ở bài đọc Bài 26): "không-cái-chết"; bài đọc 2: <span class="gk">ἀθάνατον θέλουσα ποιῆσαι</span> "muốn làm cho (nó) bất tử": tham vọng của Athena cho con nuôi; "athanasia" trong tiếng Anh cổ là sự bất tử: một từ học hôm nay, dùng được cho mọi bài đọc về thần thoại sau này</td></tr>
+<tr><td class="gk"><span class="star">★</span> αὐτόχθων, -ονος</td><td class="tr">autóchthōn</td><td class="em">earthborn, autochthonous</td><td>sinh từ đất, bản địa</td><td><span class="gk">αὐτός</span> + <span class="gk">ἡ χθών</span> "đất": "chính-mình-từ-đất"; bài đọc 2: <span class="gk">Κέκροψ αὐτόχθων</span>, và chương 3,10 cũng có <span class="gk">Λέλεγος αὐτόχθονος</span>: huyền thoại hợp pháp hóa "ta sinh từ đất này"; tiếng chính trị học hôm nay vẫn dùng <em>autochthonous</em> cho loài và dân tộc bản địa</td></tr>
+<tr><td class="gk"><span class="star">★</span> ἡ περιεργία, -ας</td><td class="tr">hē periergía</td><td class="em">curiosity, meddlesomeness</td><td>sự tò mò hiếu kỳ</td><td><span class="gk">περι-</span> "quanh, quá" + <span class="gk">τὸ ἔργον</span> "công việc" (Bài 15): "làm quá việc của mình", snoop; bài đọc 2: <span class="gk">ἀνοίγουσιν ὑπὸ περιεργίας</span> "mở ra do tò mò": nguyên nhân của bi kịch được gọi đích danh bằng một danh từ; tính từ <span class="gk">περίεργος</span> "tò mò, hay thò tay" cũng dùng như lời trách</td></tr>
+</tbody>
+</table>
+
+<h2 id="confusables">11. Cặp dễ nhầm</h2>
+
+<p>Mười một cặp dưới đây rút từ chính hai văn bản đọc hôm nay và các bảng mục 2 đến 6; mỗi cặp tự kiểm tra được bằng một câu hỏi nhỏ.</p>
+
+<table>
+<thead><tr><th>Cặp dễ nhầm</th><th>Phân biệt</th><th>Cách tự kiểm tra</th></tr></thead>
+<tbody>
+<tr><td><span class="gk">τὸ</span> + nguyên mẫu – <span class="gk">τό</span> đại từ – <span class="gk">διὰ τοῦτο</span></td><td><span class="gk">τὸ</span> có thể là mạo từ của nguyên mẫu, mạo từ của danh từ trung tính, hoặc (dấu thanh khác) đại từ "cái ấy"; <span class="gk">διὰ τοῦτο</span> là "vì thế" nguyên hiện thành.</td><td>Nhìn chữ ngay sau: đuôi <span class="gk">-ειν/-σαι/-ναι</span> → nguyên mẫu; danh từ → mạo từ thường; mà <span class="gk">τοῦτο</span> dài với <span class="gk">-οῦ-</span> là "cái ấy + vì thế".</td></tr>
+<tr><td><span class="gk">διὰ τὸ</span> + nguyên mẫu – <span class="gk">διὰ</span> + đối cách</td><td><span class="gk">διὰ τὸ μὴ εὑρεῖν</span> là "vì không tìm ra" (nguyên nhân); <span class="gk">διὰ τὴν πόλιν</span> là "qua/xuyên qua thành" (chuyển động, Bài 22).</td><td>Hỏi sau <span class="gk">διὰ τὸ</span>: là hành động hay vật? Hành động → nguyên nhân; vật → "qua".</td></tr>
+<tr><td><span class="gk">ἐν τῷ</span> + nguyên mẫu – <span class="gk">ἐν</span> + tặng cách nơi chốn</td><td><span class="gk">ἐν τῷ ἀνοίγειν</span> "khi đang mở"; <span class="gk">ἐν τῷ Πανδροσείῳ</span> (bài đọc 2) "tại Pandroseion": cùng tặng cách, khác nhau một trời một "nơi".</td><td>Cùng khuôn tặng cách, nhưng <span class="gk">ἐν τῷ</span> ôm nguyên mẫu → thời gian; ôm danh từ nơi chốn → vị trí.</td></tr>
+<tr><td><span class="gk">πρὸς τὸ</span> + nguyên mẫu – <span class="gk">πρὸς</span> + đối cách người/vật</td><td><span class="gk">πρὸς τὸ ἴχνος λαβεῖν</span> "nhằm lấy dấu vết"; <span class="gk">πρὸς Ἥφαιστον</span> (bài đọc 2) "tới (nhà) Hephaistos": đích chuyển động.</td><td>Đuôi nguyên mẫu sau mạo từ → khuynh hướng/mục đích; danh từ người/vật → hướng tới.</td></tr>
+<tr><td><span class="gk">μετὰ τὸ</span> + nguyên mẫu – <span class="gk">μετὰ τοῦ</span> + nguyên mẫu – <span class="gk">μετὰ</span> + danh từ</td><td>Đối cách = "sau khi" (hành động một nhịp); sở hữu cách + nguyên mẫu = "kèm theo việc"; còn <span class="gk">μετὰ δὲ τοῦτον ἧκεν Ἀθηνᾶ</span> (bài đọc 2) là "sau chàng (Poseidon), Athena đến": danh từ thường.</td><td>Hỏi: sau <span class="gk">μετὰ</span> là nguyên mẫu hay danh từ? Rồi hỏi cách: đối = sau khi, sở hữu = cùng với (Bài 22).</td></tr>
+<tr><td><span class="gk">μή</span> – <span class="gk">οὐ</span> trong nguyên mẫu</td><td>Phủ định của nguyên mẫu (kể cả có mạo từ) hầu như luôn là <span class="gk">μή</span> (Smyth §2028): <span class="gk">διὰ τὸ μὴ εὑρεῖν</span>; <span class="gk">οὐ</span> dành cho mệnh đề chỉ định báo dữ kiện.</td><td>Gặp phủ định + nguyên mẫu, mặc định <span class="gk">μή</span>; chỉ xét lại <span class="gk">οὐ</span> khi thấy động từ chia đầy đủ.</td></tr>
+<tr><td><span class="gk">θέλω</span> + nguyên mẫu trần – thêm mạo từ</td><td>Bài đọc 2: <span class="gk">ὅπλα κατασκευάσαι θέλουσα</span>, <span class="gk">ἀθάνατον θέλουσα ποιῆσαι</span>, <span class="gk">βουλόμενος λαβεῖν</span>: sau "muốn", nguyên mẫu trần, không mạo từ; ai thêm <span class="gk">τὸ</span> là dịch ngược văn cổ.</td><td>Đếm: động từ dẫn là "muốn/ra lệnh/nghĩ" → trần; chỉ gói giới từ hoặc chủ ngữ công khai mới có mạo từ.</td></tr>
+<tr><td><span class="gk">ἐπί</span> ba vai: <span class="gk">ἐπὶ τοῦ λίκνου</span> – <span class="gk">ἐπὶ τὴν Ἀττικήν</span> – <span class="gk">ἐπὶ τούτου</span> – <span class="gk">ἐπὶ τῷ</span> + nguyên mẫu</td><td>Sở hữu cách = "trên/nôi" và "trong triều (vua)"; đối cách = đích "tới Attika" (Bài 22); tặng cách + nguyên mẫu = "dựa trên việc..."; cả ba vai đều xuất hiện trong hai bài đọc.</td><td>Hỏi cách trước, hỏi nghĩa sau: cách cho biết họ hàng nghề của <span class="gk">ἐπί</span>, văn cảnh chọn nghề chính xác.</td></tr>
+<tr><td><span class="gk">τοῦ</span> + nguyên mẫu – <span class="gk">τοῦ</span> + danh từ</td><td><span class="gk">ἕνεκα τοῦ ποιεῖν</span> "để làm" là nguyên mẫu có mạo từ sau khuôn mục đích; <span class="gk">τοῦ Ἀπόλλωνος ἐρώμενον</span> (3,10,3) "đứa yêu của Apollon" là sở hữu cách của danh từ bình thường.</td><td>Nhìn chữ kế sau mạo từ: nguyên mẫu → hỏi khuôn nào đứng trước (<span class="gk">ἕνεκα/πρό/ὑπὲρ</span> = mục đích); danh từ → quan hệ thông thường.</td></tr>
+<tr><td>Nguyên mẫu hiện tại – aorist trong khuôn có mạo từ</td><td><span class="gk">ἐν τῷ ἀνοίγειν</span> "khi đang mở" (cùng lúc) vs <span class="gk">ἐν τῷ ἀνοῖξαι</span> "sau khi đã mở": thời tương đối của Bài 25 quyết định "khi" hay "sau khi".</td><td>Với khuôn <span class="gk">ἐν τῷ</span>: đuôi hiện tại → "đang"; đuôi aorist <span class="gk">-σαι</span> → "đã xong".</td></tr>
+<tr><td>"Mạo từ giả" khi danh từ xen giữa: <span class="gk">τὰς τοῦ θεοῦ δωρήσασθαι θέλων χάριτας ἀνθρώποις</span></td><td>Không phải nguyên mẫu có mạo từ: <span class="gk">τὰς ... χάριτας</span> là <em>một</em> tân ngữ "các ân huệ của thần" bị nguyên mẫu trần <span class="gk">δωρήσασθαι</span> (sau <span class="gk">θέλων</span>) xén đôi; <span class="gk">ἀνθρώποις</span> là đối cách người chốt hậu.</td><td>Bóc hyperbaton (Bài 15 và 24): gắn mạo từ với danh từ cùng giống-cách-số trước tiên, rồi xem phần thừa còn lại là ai: ở đây phần thừa là nguyên mẫu trần sau động từ "muốn".</td></tr>
+</tbody>
+</table>
+
+<h2 id="exercises">12. Bài tập tự luyện</h2>
+<p>Làm bằng bút trên giấy trước, rồi mới mở đáp án: in trang này (Ctrl+P → Save as PDF), đáp án sẽ hiện ở bản in. Mọi câu Greek trong đề và đáp án đều theo khuôn đã gặp trong bài hoặc trong hai bài đọc; câu trích nguyên văn đều có số hiệu để tra lại.</p>
+
+<h3>Bài tập 1 – Gán: nguyên mẫu trần hay có mạo từ?</h3>
+<p>Với mỗi cụm, trả lời "trần" hay "có mạo từ", rồi giải thích vì sao trong một câu ngắn.</p>
+<ol>
+<li><span class="gk">ὅπλα κατασκευάσαι θέλουσα</span> (bài đọc 2)</li>
+<li><span class="gk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span> (bài đọc 1)</li>
+<li><span class="gk">ἀπειποῦσα τὴν κίστην ἀνοίγειν</span> (bài đọc 2)</li>
+<li><span class="gk">τὰς τοῦ θεοῦ δωρήσασθαι θέλων χάριτας ἀνθρώποις</span> (3,14,7)</li>
+<li><span class="gk">ἐν τῷ καιρῷ ἐκείνῳ μάχην νικᾶν ἐβούλετο</span> (tự dựng)</li>
+<li><span class="gk">ἐν τῷ νικᾶν ᾖξεν</span> (tự dựng)</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 1</h4>
+<ol>
+<li>Trần: nguyên mẫu sau <span class="gk">θέλουσα</span>, không mạo từ nào ôm nó.</li>
+<li>Có mạo từ: <span class="gk">τὸ</span> + <span class="gk">εὑρεῖν</span> trong gói <span class="gk">διὰ τὸ</span> nguyên nhân; chủ ngữ hiểu ngầm (người Pylos).</li>
+<li>Trần: <span class="gk">τὴν κίστην</span> là mạo từ của danh từ "rương", tân ngữ của <span class="gk">ἀνοίγειν</span>; <span class="gk">ἀνοίγειν</span> trần sau động từ cấm.</li>
+<li>Trần (bẫy): <span class="gk">τὰς ... χάριτας</span> là tân ngữ của <span class="gk">δωρήσασθαι</span>, còn nguyên mẫu ấy trần sau <span class="gk">θέλων</span>; hyperbaton xén đôi cụm danh từ.</li>
+<li>Trần: <span class="gk">τῷ καιρῷ</span> là mạo từ của danh từ "lúc ấy"; <span class="gk">νικᾶν</span> trần sau <span class="gk">ἐβούλετο</span>.</li>
+<li>Có mạo từ: <span class="gk">τῷ</span> + <span class="gk">νικᾶν</span> trong khuôn <span class="gk">ἐν τῷ</span>: "khi thắng (trận), y nhảy dựng lên".</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 2 – Chức năng của τὸ + nguyên mẫu</h3>
+<p>Mỗi câu: <span class="gk">τὸ</span> + nguyên mẫu làm chủ ngữ, vị ngữ, tân ngữ hay thuộc khuôn giới từ?</p>
+<ol>
+<li><span class="gk">τὸ λαλεῖν ῥᾴδιον ἐστίν.</span></li>
+<li><span class="gk">ἐπίσταμαι τὸ γράφειν.</span></li>
+<li><span class="gk">τὸ μὲν ἀδικεῖν αἰσχρόν, τὸ δὲ ἀδικεῖσθαι δυστυχές.</span></li>
+<li><span class="gk">διὰ τὸ τοὺς θεοὺς οὕτω βουλεύειν θαυμάζομεν.</span></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 2</h4>
+<ol>
+<li>Chủ ngữ (nội dung được nêu bình luận): "nói chuyện thì dễ".</li>
+<li>Tân ngữ của <span class="gk">ἐπίσταμαι</span>: "tôi biết viết".</li>
+<li>Hai chủ ngữ song song với cặp <span class="gk">μέν/δέ</span>: "làm điều sai là xấu, bị làm điều sai là bất hạnh".</li>
+<li>Thuộc khuôn giới từ <span class="gk">διὰ τὸ</span> nguyên nhân, với chủ ngữ đối cách <span class="gk">τοὺς θεούς</span> bên trong: "vì các thần bàn tính thế đấy, ta hết sức ngưỡng mộ".</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 3 – Điền cách của mạo từ</h3>
+<p>Điền <span class="gk">τὸ</span>, <span class="gk">τοῦ</span> hay <span class="gk">τῷ</span> theo khuôn:</p>
+<ol>
+<li><span class="gk">διὰ</span> ____ <span class="gk">ποιεῖν</span> (nguyên nhân)</li>
+<li><span class="gk">ἐν</span> ____ <span class="gk">ποιεῖν</span> (khi đang / sau khi)</li>
+<li><span class="gk">μετὰ</span> ____ <span class="gk">ποιεῖν</span> (sau khi)</li>
+<li><span class="gk">μετὰ</span> ____ <span class="gk">ποιεῖν</span> (kèm theo việc)</li>
+<li><span class="gk">ἕνεκα</span> ____ <span class="gk">σῴζειν τοὺς παῖδας</span> (để cứu bọn trẻ)</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 3</h4>
+<ol>
+<li><span class="gk">διὰ τὸ</span> (đối cách, nguyên nhân).</li>
+<li><span class="gk">ἐν τῷ</span> (tặng cách; thời nguyên mẫu sẽ nói "đang" hay "đã xong").</li>
+<li><span class="gk">μετὰ τὸ</span> (đối cách, "sau khi").</li>
+<li><span class="gk">μετὰ τοῦ</span> (sở hữu cách, "kèm theo việc").</li>
+<li><span class="gk">ἕνεκα τοῦ</span> (sở hữu cách sau khuôn mục đích).</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 4 – Chủ ngữ bên trong nguyên mẫu</h3>
+<p>Dịch, nêu ai làm hành động trong nguyên mẫu:</p>
+<ol>
+<li><span class="gk">ἐν τῷ τὸν βασιλέα ἥκειν ἀνεχώρησαν.</span></li>
+<li><span class="gk">διὰ τὸ τοὺς νέους τὴν μουσικήν διδάσκειν ἐδοξάζετο.</span></li>
+<li><span class="gk">ἐν τῷ Κέκροπα βασιλεύειν ἐγένετο ὁ κατακλυσμός.</span></li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 4</h4>
+<ol>
+<li>"Khi nhà vua đến, họ rút lui": <span class="gk">τὸν βασιλέα</span> là chủ ngữ đối cách bên trong; "họ" là chủ ngữ của động từ chính.</li>
+<li>"Vì dạy bọn trẻ nhạc, y được ca ngợi": chủ ngữ bên trong là người dạy (hiểu ngầm); <span class="gk">τοὺς νέους</span> và <span class="gk">τὴν μουσικήν</span> là đối cách kép của <span class="gk">διδάσκω</span> (Bài 2).</li>
+<li>"Trong triều Kekrops, nạn lụt xảy ra": <span class="gk">Κέκροπα</span> là chủ ngữ bên trong (đối cách; đặt ở chủ cách cũng gặp, vì nói về chính chủ thể của câu); chú ý là "khi vua trị vì" với danh từ thường phải dùng <span class="gk">ἐπὶ τούτου</span> + sở hữu cách như bài đọc 2.</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 5 – Dịch nguyên văn Apollodor</h3>
+<ol>
+<li><span class="gk">ἵνα δὲ μὴ φωραθείη ὑπὸ τῶν ἰχνῶν</span> (3,10,2)</li>
+<li><span class="gk">ἐπὶ τούτου, φασίν, ἔδοξε τοῖς θεοῖς πόλεις καταλαβέσθαι</span> (3,14,1)</li>
+<li><span class="gk">τοῦτον Ἀθηνᾶ κρύφα τῶν ἄλλων θεῶν ἔτρεφεν, ἀθάνατον θέλουσα ποιῆσαι</span> (3,14,6)</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 5</h4>
+<ol>
+<li>"Để khỏi bị phát giác qua những vết chân": <span class="gk">ἵνα μὴ</span> + aorist giả định bị động (Bài 16), tác nhân <span class="gk">ὑπό</span> + sở hữu cách (Bài 10).</li>
+<li>"Trong triều vua ấy, người ta kể, các thần quyết định chiếm lấy các thành": <span class="gk">ἐπί</span> + sở hữu cách thời gian (Bài 11); <span class="gk">φασίν</span> "người ta kể" (Bài 26); <span class="gk">ἔδοξε</span> + tặng cách + nguyên mẫu trần.</li>
+<li>"Athena lén nuôi nó tránh mắt các thần khác, vì muốn làm cho nó bất tử": nguyên mẫu trần <span class="gk">ποιῆσαι</span> sau <span class="gk">θέλουσα</span>, tân ngữ đối cách <span class="gk">ἀθάνατον</span> bên trong nguyên mẫu.</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 6 – Ghép theo khuôn</h3>
+<p>Ghép hai mảnh thành một câu, dùng khuôn cho trước:</p>
+<ol>
+<li>"Bò đã lọt mất + (người Pylos) không tìm ra vết" → dùng <span class="gk">διὰ τὸ</span> + nguyên mẫu, theo khuôn bài đọc 1.</li>
+<li>"Các cô gái mở rương + chúng tò mò hiếu kỳ" → dùng <span class="gk">ὑπό</span> + sở hữu cách + danh từ, theo khuôn bài đọc 2.</li>
+<li>"(Athena) trốn chạy + hạt rơi xuống đất + Erichthonios sinh ra" → dùng sở hữu cách tuyệt đối kép, theo khuôn bài đọc 2.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 6</h4>
+<ol>
+<li><span class="gk">ἠλάθησαν διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span>: "chúng đã lọt mất, vì không tài nào tìm ra vết" (câu gốc: <span class="gk">ποῖ ποτε ἠλάθησαν διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span>).</li>
+<li><span class="gk">ἀνοίγουσιν ὑπὸ περιεργίας</span>: "chúng mở ra do tò mò hiếu kỳ": danh từ <span class="gk">περιεργία</span> đứng trong khuôn nguyên nhân của <span class="gk">ὑπό</span> + sở hữu cách.</li>
+<li><span class="gk">φευγούσης δὲ αὐτῆς καὶ τῆς γονῆς εἰς γῆν πεσούσης Ἐριχθόνιος γίνεται</span>: hai sở hữu cách tuyệt đối ("nàng bỏ chạy", "hạt rơi xuống đất") cùng kết thúc ở một động từ chính; chủ thể khác chủ thể động từ chính, đúng quy tắc vàng (Bài 20).</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 7 – Đúng hay sai: phủ định của nguyên mẫu</h3>
+<ol>
+<li>Phủ định của nguyên mẫu có mạo từ luôn là <span class="gk">οὐ</span>.</li>
+<li><span class="gk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span> nghĩa là "vì không tài nào tìm ra vết chân".</li>
+<li><span class="gk">μή</span> trong nguyên mẫu chỉ được dùng khi động từ chính là mệnh lệnh.</li>
+<li><span class="gk">ἵνα δὲ μὴ φωραθείη</span> (bài đọc 1) là mệnh đề mục đích, không phải nguyên mẫu.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 7</h4>
+<ol>
+<li>Sai: là <span class="gk">μή</span> (Smyth §2028); <span class="gk">οὐ</span> là của mệnh đề chỉ định.</li>
+<li>Đúng: nguyên nhân phủ định vẫn dùng <span class="gk">μή</span> dù chuyện rất "thực".</li>
+<li>Sai: <span class="gk">μή</span> theo màu của "gói việc", không phụ thuộc thức của động từ chính.</li>
+<li>Đúng: <span class="gk">φωραθείη</span> là aorist giả định bị động (đuôi dài <span class="gk">-ειη</span>, không augment), do <span class="gk">ἵνα μὴ</span> dẫn: mục đích phủ định của Bài 16.</li>
+</ol>
+</div></div>
+
+<h3>Bài tập 8 – Bóc "mạo từ giả"</h3>
+<p>Câu 3,14,7: <span class="gk">καὶ τὰς τοῦ θεοῦ δωρήσασθαι θέλων χάριτας ἀνθρώποις, ἀφικνεῖται πρός τινας ποιμένας.</span></p>
+<ol>
+<li><span class="gk">τὰς</span> ôm cái gì? Tìm danh từ cùng giống-cách-số với nó.</li>
+<li><span class="gk">δωρήσασθαι</span> là nguyên mẫu gì (trần hay có mạo từ), và đi sau động từ nào?</li>
+<li>Dịch cả câu.</li>
+</ol>
+<div class="answer"><div class="loesung">
+<h4>Đáp án 8</h4>
+<ol>
+<li><span class="gk">τὰς</span> ôm <span class="gk">χάριτας</span> "các ân huệ" (đối cách số nhiều, giống cái): cụm <span class="gk">τὰς τοῦ θεοῦ ... χάριτας</span> "các ân huệ của thần" là <em>một</em> tân ngữ bị xén đôi.</li>
+<li>Nguyên mẫu trần <span class="gk">δωρήσασθαι</span> (aorist middle) sau phân từ <span class="gk">θέλων</span> "muốn"; không mạo từ nào thuộc về nó.</li>
+<li>"Và vì muốn đem các ân huệ của thần ban cho loài người, y đến gặp mấy người chăn": <span class="gk">ἀνθρώποις</span> là đối cách người nhận, chốt cụm; chủ ngữ (<span class="gk">Ἰκάριος</span>, chương trước) đứng ngoài câu này. Bài học: đếm mạo từ sau khi đã gắn cặp giống-cách-số, đừng để hyperbaton đánh lừa.</li>
+</ol>
+</div></div>
+
+<hr>
+<p style="font-size:0.85em; color:#64748b;">Bài giảng Lesson 27 — Graecum VN · Biên soạn bởi Trần Quốc Tân · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: "Graecum VN — Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0" · Đáp án bài tập chỉ hiện khi in (Ctrl+P → Save as PDF).</p>
+
+</main>
+</body>
+</html>

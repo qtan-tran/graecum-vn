@@ -704,6 +704,30 @@
       ],
       "status": "published",
       "rev": 1
+    },
+    {
+      "id": "27-articular-infinitive-apollodor",
+      "num": 27,
+      "level": "graecum-2",
+      "title": "Nguyên mẫu có mạo từ (articular infinitive) (Apollodor 3,10; 3,14)",
+      "topics": [
+        "bản đồ: từ nguyên mẫu trần (Bài 4, 18, 25) sang nguyên mẫu có mạo từ; τὸ + nguyên mẫu là danh từ trung tính biến cách đủ bốn vai (chủ ngữ, vị ngữ, tân ngữ); trích dẫn chuẩn Smyth §§2025–2032",
+        "bản đồ giới từ + mạo từ + nguyên mẫu: διὰ τὸ nguyên nhân, ἐν τῷ thời gian (khi đang/sau khi), μετὰ τὸ sau khi, πρὸς τὸ khuynh hướng, πρό / ἕνεκα / ὑπὲρ τοῦ mục đích",
+        "chủ ngữ đối cách bên trong nguyên mẫu; đối cách kép (double accusative) giữ nguyên bộ đôi trong nguyên mẫu; trường hợp giữ chủ cách",
+        "thời tương đối của nguyên mẫu có mạo từ và phủ định luôn là μή (Smyth §2028), kể cả nguyên nhân thực",
+        "Latin corner: gerund và gerundive, causā / gratiā + sở hữu cách gerund; Latin không có nguyên mẫu có mạo từ nên phải mở gói thành mệnh đề",
+        "chiến lược đọc: ba câu hỏi (mạo từ ôm ai; nguyên mẫu đóng vai gì; chủ ngữ và phủ định nào); bẫy mạo từ giả khi danh từ xen giữa (τὰς τοῦ θεοῦ...χάριτας); nguyên mẫu trần sau θέλω, κελεύω, δοκέω",
+        "bài đọc 1: Apollodor 3,10 – Hermes trộm bò: giày xoá vết chân, ἵνα μὴ φωραθείη, đàn lyre từ mai rùa, cuộc trao đổi ba tầng (bò, sáo, trượng, thuật bói); διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι là nguyên mẫu có mạo từ duy nhất của hai chương",
+        "bài đọc 2: Apollodor 3,14 – Poseidon và Athena tranh đất Attika trước toà mười hai thần (chứng cứ oliu, lời chứng của Kekrops); Erichthonios và chiếc rương cấm mở; sở hữu cách tuyệt đối kép; ὑπὸ περιεργίας",
+        "từ vựng 18 từ (★15): ἴχνος, χελώνη, λύρα, κλέπτω, τρίαινα, ἐλαία, ἀκρόπολις, ἔρις, μάρτυς, κίστη, ἀνοίγω, φυτεύω, ἀθάνατος, αὐτόχθων, περιεργία",
+        "cặp dễ nhầm 11 hàng: τὸ + nguyên mẫu / τό đại từ / διὰ τοῦτο; διὰ τὸ + nguyên mẫu / διὰ + đối cách; ἐν τῷ + nguyên mẫu / ἐν + tặng cách nơi chốn; μετὰ τὸ / μετὰ τοῦ; μή / οὐ; θέλω + nguyên mẫu trần; ἐπί ba vai; τοῦ + nguyên mẫu / τοῦ + danh từ; hiện tại / aorist trong ἐν τῷ; mạo từ giả khi danh từ xen giữa"
+      ],
+      "reading": [
+        "Apollodor, Bibliotheca 3,10,2 (bản Perseus Hopper theo bản Frazer 1921, public domain)",
+        "Apollodor, Bibliotheca 3,14,1 và 3,14,6 (như trên)"
+      ],
+      "status": "published",
+      "rev": 1
     }
   ]
 }
