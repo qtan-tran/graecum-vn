@@ -26,6 +26,7 @@
 | 7 | Chia thứ ba I: thân phụ âm (3rd declension); hệ thống mệnh lệnh đủ số/ngôi; câu cấm đoán (prohibitions, μή) | Dio Chrysostomos, Or. 7; Longos 1,9–13 |
 | 8 | Chia thứ ba II: thân nguyên âm, trung tính; số từ 1–999 | Plutarch, Lykurgos; Longos 3 |
 | 9 | Tính từ 3/2 đuôi; tạo trạng từ; ôn danh từ hóa; tính từ kén cách (κοινός + Gen./Dat.) | Xenophon, Agesilaos; Lukian, Deorum dialogi 24 |
+| 09b | **Bài bổ sung 09b** – So sánh của tính từ & trạng từ: Typ I/II, bất quy tắc, μᾶλλον/μάλιστα, ἤ & sở hữu cách so sánh, sở hữu cách bộ phận, elative, bản đồ sở hữu cách | Platon, Apologie 21a; Aesop 18 |
 | 10 | Hiện tại trung/bị động đủ; deponent mở rộng | Platon, Politeia 375b–e; Diogenes Laertios 6,37 |
 | Ôn tập #2 | **Ôn tập #2 – Bài 6–10** (Wiederholung): tóm tắt ngữ pháp chính; bảng tổng quan động từ, mạo từ, danh từ, tính từ, đại từ đã học; file import Anki (`.apkg` + `vocab/anki-06-10.txt`) + quy tắc thẻ; chiến lược ôn tập nhóm | – |
 | 11 | Quá khứ chưa hoàn thành (imperfect): augment; biểu thức thời gian; tặng cách chỉ thời điểm & đối cách chỉ độ dài | Herodot 1,207; Diodor 12,13 |

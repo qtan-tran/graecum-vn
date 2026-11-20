@@ -230,6 +230,29 @@
       "rev": 1
     },
     {
+      "id": "09b-comparison-adjectives-adverbs",
+      "num": "9b",
+      "level": "graecum-1",
+      "title": "Bài bổ sung 09b: So sánh của tính từ & trạng từ",
+      "topics": [
+        "ba bậc so sánh: positive – comparative – superlative",
+        "Typ I (-τερος/-τατος): σοφός → σοφώτερος, σοφώτατος; biến tố đầy đủ",
+        "Typ II (-ων/-ον, -ιστος): ἡδύς → ἡδίων, ἥδιστος; εὐδαίμων → εὐδαιμονέστερος",
+        "bất quy tắc: ἀγαθός/ἀμείνων/ἄριστος; κακός/χείρων/χείριστος; μεγάλος/μείζων/μέγιστος; πολύς/πλείων/πλείστος; ὀλίγος/ἐλάττων/ἐλάχιστος; ὠκύς/θάσσων/τάχιστα; χαλεπός/κρείττων/κράτιστος; ἀγαθός/βελτίων/βέλτιστος",
+        "μᾶλλον/μάλιστα của πολύ; φίλτερος/φίλτατος và comparativa mồ côi",
+        "trạng từ so sánh: τάχιστα, μάλιστα, ἄμεινον \"hơn tốt nhất\" của εὖ",
+        "ἤ vs sở hữu cách so sánh (genitive of comparison): σοφώτερος ἐμοῦ",
+        "sở hữu cách bộ phận (partitive) + so sánh nhất; elative \"rất X\" khi không có chuẩn so",
+        "bản đồ chức năng sở hữu cách: sở hữu, bộ phận, so sánh, chỉ thời gian (καὶ ἡμέρας καὶ νυκτός)"
+      ],
+      "reading": [
+        "Platon, Apologie 21a",
+        "Aesop, Βορέας καὶ Ἥλιος (Chambry 18)"
+      ],
+      "status": "published",
+      "rev": 1
+    },
+    {
       "id": "10-present-medpass-complete-deponents",
       "num": 10,
       "level": "graecum-1",
