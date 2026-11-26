@@ -1,258 +1,1256 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Bảng thuật ngữ – Graecum VN</title>
-<style>
-  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.6; }
-  body { margin: 0; background: #f8fafc; }
-  main { max-width: 880px; margin: 0 auto; padding: 32px 24px 80px; background: #ffffff; }
-  h1 { color: #14532d; font-size: 1.9em; border-bottom: 3px solid #14532d; padding-bottom: 10px; }
-  h2 { color: #14532d; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; margin-top: 2em; }
-  h3 { color: #166534; margin-bottom: 4px; }
-  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
-  table { border-collapse: collapse; width: 100%; margin: 14px 0 22px; }
-  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
-  thead th { background: #14532d; color: #ffffff; }
-  tbody tr:nth-child(even) { background: #f0fdf4; }
-  .box { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 20px; margin: 16px 0; }
-  a { color: #166534; }
-  footer { font-size: 0.85em; color: #64748b; border-top: 1px solid #e2e8f0; margin-top: 40px; padding-top: 12px; }
-  .nav { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 10px 22px; margin: 14px 0; }
-  .nav ul { margin: 6px 0; padding-left: 20px; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bảng thuật ngữ – Graecum VN</title>
+  <style>
+    :root {
+      --bg: #fdfcf9;
+      --surface: #ffffff;
+      --text: #1f2421;
+      --muted: #5a625e;
+      --accent: #1d4e89;
+      --accent-soft: #eef4fa;
+      --border: #dcd8ce;
+      --greek-font: "New Athena Unicode", "Gentium Plus", "Palatino Linotype", Georgia, serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem 1rem 4rem;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    .container {
+      max-width: 1020px;
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      margin: 0 0 0.75rem;
+      font-size: 2rem;
+      color: var(--accent);
+      letter-spacing: -0.01em;
+    }
+
+    .intro-box {
+      background: var(--accent-soft);
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      font-size: 0.96rem;
+    }
+
+    nav.toc {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    nav.toc h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+    }
+
+    nav.toc ul {
+      margin: 0;
+      padding-left: 1.25rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 0.35rem 1.5rem;
+    }
+
+    nav.toc a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav.toc a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section > h2 {
+      font-size: 1.45rem;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .section-lead {
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.94rem;
+    }
+
+    thead th {
+      background: #f3f0e8;
+      color: #2b302d;
+      text-align: left;
+      padding: 0.75rem 0.9rem;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    tbody td {
+      padding: 0.7rem 0.9rem;
+      border-bottom: 1px solid #ece8df;
+      vertical-align: top;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background-color: #faf8f3;
+    }
+
+    .term-vi {
+      font-weight: 600;
+      color: #163a66;
+      min-width: 190px;
+    }
+
+    .term-vi small {
+      display: block;
+      font-weight: 400;
+      color: var(--muted);
+      font-size: 0.84rem;
+    }
+
+    .term-en {
+      font-style: italic;
+      color: #3a423e;
+      min-width: 165px;
+    }
+
+    .lesson-col {
+      white-space: nowrap;
+      color: var(--muted);
+      font-size: 0.88rem;
+      text-align: right;
+    }
+
+    .grk, i[lang="grc"] {
+      font-family: var(--greek-font);
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-<main>
+  <div class="container">
+    <header>
+      <h1>Bảng thuật ngữ – Graecum VN</h1>
+      <div class="intro-box">
+        <strong>Tại sao có trang này?</strong> Bài giảng dùng tiếng Việt làm ngôn ngữ chính, nhưng mọi thuật ngữ ngôn ngữ học đều kèm từ gốc tiếng Anh trong ngoặc khi xuất hiện lần đầu – vì tiếng Anh là "chìa khóa" tra cứu quốc tế: từ điển LSJ, ngữ pháp Smyth, Ancient Greek Toolkit và các tài liệu học thuật chuẩn đều sử dụng hệ thuật ngữ này. Trang này tập hợp toàn bộ hệ thống thuật ngữ: <strong>Thuật ngữ chuẩn tiếng Việt</strong> &rarr; <strong>Thuật ngữ tiếng Anh</strong> &rarr; <strong>Giải thích ngắn</strong> &rarr; <strong>Bài học xuất hiện</strong>.
+      </div>
+    </header>
 
-<h1>Bảng thuật ngữ – Graecum VN</h1>
+    <nav class="toc" aria-label="Mục lục">
+      <h2>Mục lục</h2>
+      <ul>
+        <li><a href="#sec-1">1. Các cách &amp; Hệ thống cách</a></li>
+        <li><a href="#sec-2">2. Ngữ âm, Chữ viết &amp; Chính tả</a></li>
+        <li><a href="#sec-3">3. Danh từ, Tính từ &amp; Mạo từ</a></li>
+        <li><a href="#sec-4">4. Động từ</a></li>
+        <li><a href="#sec-5">5. Cú pháp</a></li>
+        <li><a href="#sec-6">6. Đặc thù tiếng Hy Lạp &amp; tiếng Latin</a></li>
+      </ul>
+    </nav>
 
-<div class="box">
-<p><strong>Tại sao có trang này?</strong> Bài giảng dùng <strong>tiếng Việt là chính</strong>, nhưng mọi thuật ngữ linguistics đều kèm <strong>gloss tiếng Anh trong ngoặc</strong> khi xuất hiện lần đầu – vì tiếng Anh là "chìa khóa" tra cứu quốc tế: từ điển LSJ, ngữ pháp Smyth, <a href="https://qtan-tran.github.io/ancient-greek-toolkit/">Ancient Greek Toolkit</a> và mọi tài liệu chuẩn đều dùng các từ đó. Trang này tập hợp toàn bộ thuật ngữ: <strong>tiếng Việt → tiếng Anh → giải thích ngắn → bài học nơi xuất hiện</strong>.</p>
-</div>
+    <!-- MỤC 1 -->
+    <section id="sec-1">
+      <h2>1. Các cách &amp; Hệ thống cách</h2>
+      <p class="section-lead"><strong>Cách</strong> (<em>case</em>) là "nhãn vai trò cú pháp": biến tố (đuôi) của danh từ cho biết chức năng của nó trong câu. Tiếng Hy Lạp cổ có 5 cách; tiếng Latin có 6 cách (thêm <em>rời cách</em>, xem mục 6).</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Tiếng Việt (Chuẩn)</th>
+              <th>Tiếng Anh</th>
+              <th>Vai trò chính</th>
+              <th style="text-align:right;">Bài</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="term-vi">chủ cách</td>
+              <td class="term-en">nominative (Nom.)</td>
+              <td>Chủ ngữ của động từ; vị ngữ danh từ sau <span class="grk">εἶναι</span> / <span class="grk">γίγνεσθαι</span>.</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">sở hữu cách</td>
+              <td class="term-en">genitive (Gen.)</td>
+              <td>Biểu thị quan hệ sở hữu ("của..."), nguồn gốc, bộ phận; ở biến cách thứ ba là chìa khóa nhận diện thân từ.</td>
+              <td class="lesson-col">1, 7</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tặng cách</td>
+              <td class="term-en">dative (Dat.)</td>
+              <td>Biểu thị quan hệ tiếp nhận ("cho / với / tại..."): tân ngữ gián tiếp, phương tiện/công cụ, sau giới từ <span class="grk">ἐν</span> / <span class="grk">σύν</span>, tặng cách sở hữu, chỉ thời điểm.</td>
+              <td class="lesson-col">1, 4, 11</td>
+            </tr>
+            <tr>
+              <td class="term-vi">đối cách</td>
+              <td class="term-en">accusative (Acc.)</td>
+              <td>Tân ngữ trực tiếp; hướng chuyển động; khoảng thời gian kéo dài.</td>
+              <td class="lesson-col">1, 11</td>
+            </tr>
+            <tr>
+              <td class="term-vi">hô cách</td>
+              <td class="term-en">vocative (Voc.)</td>
+              <td>Gọi trực tiếp (<span class="grk">ὦ ἄνθρωπε</span>); danh từ giống đực đuôi <span class="grk">-ος</span> biến đổi thành <span class="grk">-ε</span>.</td>
+              <td class="lesson-col">2</td>
+            </tr>
+            <tr>
+              <td class="term-vi">rời cách <small>(Latin)</small></td>
+              <td class="term-en">ablative (Abl.)</td>
+              <td>Chỉ có ở tiếng Latin ("từ / bằng / trong"); tiếng Hy Lạp không có – chức năng này do tặng cách và sở hữu cách đảm nhiệm.</td>
+              <td class="lesson-col">Latin corner 1, 4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-<div class="nav">
-<p><strong>Mục lục</strong></p>
-<ul>
-<li><a href="#cases">1. Các cách &amp; bộ tên cách</a></li>
-<li><a href="#orthography">2. Ngữ âm &amp; chính tả</a></li>
-<li><a href="#nominals">3. Danh từ, tính từ &amp; mạo từ</a></li>
-<li><a href="#verbs">4. Động từ</a></li>
-<li><a href="#syntax">5. Cú pháp</a></li>
-<li><a href="#greek-latin">6. Đặc thù tiếng Hy Lạp ↔ tiếng Latin</a></li>
-</ul>
-</div>
+    <!-- MỤC 2 -->
+    <section id="sec-2">
+      <h2>2. Ngữ âm, Chữ viết &amp; Chính tả</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Tiếng Việt (Chuẩn)</th>
+              <th>Tiếng Anh</th>
+              <th>Giải thích</th>
+              <th style="text-align:right;">Bài</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="term-vi">dấu trọng âm <small>(dấu phụ)</small></td>
+              <td class="term-en">accent</td>
+              <td>Ký hiệu đặt trên nguyên âm biểu thị cao độ/trọng âm: sắc (<code>´</code>), huyền (<code>`</code>), mũ/tròn (<code>˜</code>). Quy ước: từ <em>oxytone</em> ở cuối câu mang dấu sắc; đứng trước từ Hy Lạp khác chuyển thành dấu huyền.</td>
+              <td class="lesson-col">2, 4, 6</td>
+            </tr>
+            <tr>
+              <td class="term-vi">dấu sắc / dấu huyền / dấu mũ <small>(tròn)</small></td>
+              <td class="term-en">acute / grave / circumflex</td>
+              <td>Ba ký hiệu ghi trọng âm cao độ; dấu huyền chỉ là biến thể chữ viết của dấu sắc khi đứng trước từ kế tiếp.</td>
+              <td class="lesson-col">2</td>
+            </tr>
+            <tr>
+              <td class="term-vi">từ trọng âm cuối <small>(oxytone)</small></td>
+              <td class="term-en">oxytone</td>
+              <td>Từ có trọng âm rơi vào âm tiết cuối cùng (nguyên âm cuối mang dấu trọng âm).</td>
+              <td class="lesson-col">2</td>
+            </tr>
+            <tr>
+              <td class="term-vi">dấu thở mạnh <small>(dấu bật hơi)</small></td>
+              <td class="term-en">rough breathing (<em>spiritus asper</em>)</td>
+              <td>Ký hiệu <span class="grk">῾</span> đặt trên nguyên âm đầu từ (hoặc chữ <span class="grk">ρ</span>): phát âm thêm âm bật hơi /h/ (<span class="grk">ἱ</span> = <em>hi</em>, <span class="grk">ἡ</span> = <em>hē</em>). Tương đương chữ <em>h</em> đầu từ trong tiếng Latin.</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">dấu thở nhẹ</td>
+              <td class="term-en">smooth breathing (<em>spiritus lenis</em>)</td>
+              <td>Ký hiệu <span class="grk">᾿</span> đặt trên nguyên âm đầu từ: đánh dấu nguyên âm đầu từ không đi kèm âm bật hơi /h/ (<span class="grk">ἰ</span> = <em>i</em>, <span class="grk">ἠ</span> = <em>ē</em>).</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">chính tả đa dấu</td>
+              <td class="term-en">polytonic orthography</td>
+              <td>Hệ thống chữ viết cổ điển ghi đầy đủ các dấu trọng âm và dấu thở; khác với chính tả đơn dấu (<em>monotonic</em>) của tiếng Hy Lạp hiện đại.</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">iota hạ ký <small>(iota phụ)</small></td>
+              <td class="term-en">iota subscript</td>
+              <td>Chữ <span class="grk">ι</span> viết nhỏ bên dưới các nguyên âm dài (<span class="grk">τῷ, ᾧ</span>) – dấu hiệu hình thái quan trọng của tặng cách.</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">lược âm cuối <small>(elision)</small></td>
+              <td class="term-en">elision</td>
+              <td>Hai nguyên âm chạm nhau qua ranh giới từ &rarr; nguyên âm cuối của từ trước bị lược bỏ (<span class="grk">ἀλλ᾿ ἐγώ, μεθ᾿ ἡμῶν</span>). Tiếng Latin có hiện tượng này khi đọc thơ nhưng không viết ra; tiếng Hy Lạp đánh dấu bằng dấu lược (<span class="grk">᾿</span>).</td>
+              <td class="lesson-col">2</td>
+            </tr>
+            <tr>
+              <td class="term-vi">hợp lưu nguyên âm <small>(crasis)</small></td>
+              <td class="term-en">crasis</td>
+              <td>Hai từ gộp thành một hình thức chữ viết: nguyên âm cuối từ trước hòa nhập với nguyên âm đầu từ sau và mang dấu <em>koronis</em> (hình như dấu thở nhẹ nằm giữa từ): <span class="grk">κἀγώ = καὶ ἐγώ</span>, <span class="grk">κἂν = καὶ ἄν</span>, <span class="grk">ἐάν = εἰ + ἄν</span>. Phân biệt <span class="grk">κἂν</span> với <span class="grk">κἀν</span> nhờ dấu trọng âm.</td>
+              <td class="lesson-col">2, 16, 21, 22</td>
+            </tr>
+            <tr>
+              <td class="term-vi">âm /n/ (nu) nối cuối</td>
+              <td class="term-en">movable nu (<em>nu ephelkystikon</em>)</td>
+              <td>Thêm phụ âm <span class="grk">ν</span> vào cuối một số hình thái động từ/danh từ trước nguyên âm hoặc cuối câu cho thuận âm (<span class="grk">ἐστίν / ἐστι</span>).</td>
+              <td class="lesson-col">2, 6</td>
+            </tr>
+            <tr>
+              <td class="term-vi">từ tựa sau <small>(enclitic)</small></td>
+              <td class="term-en">enclitic</td>
+              <td>Từ không có trọng âm độc lập, tựa vào từ đứng trước (<span class="grk">μου, σου, τι</span>) và có thể làm xuất hiện thêm trọng âm phụ trên từ chủ.</td>
+              <td class="lesson-col">3, 4</td>
+            </tr>
+            <tr>
+              <td class="term-vi">từ tựa trước <small>(proclitic)</small></td>
+              <td class="term-en">proclitic</td>
+              <td>Từ không mang dấu trọng âm riêng, gắn liền về mặt ngữ âm vào từ đứng sau (<span class="grk">ὁ, ἡ, οἱ</span>).</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">chữ digamma <small>(Ϝ)</small></td>
+              <td class="term-en">digamma</td>
+              <td>Ký tự ghi âm /w/ của tiếng Hy Lạp cổ, rụng khỏi chính tả tiếng Attic nhưng để lại dấu vết hình thái (<span class="grk">βασιλεύς &lt; βασιλεϝ-</span>) và vẫn có giá trị trường độ trong thi luật Homer.</td>
+              <td class="lesson-col">8</td>
+            </tr>
+            <tr>
+              <td class="term-vi">minh văn / minh văn học</td>
+              <td class="term-en">inscription / epigraphy</td>
+              <td>Văn bản khắc trên đá, kim loại, đồ gốm: nguồn tư liệu trực tiếp của cổ ngữ học, tuân theo quy ước biên tập riêng (<em>iota adscript</em>, ngoặc vuông phục dựng, dấu chấm dưới chữ mờ, <em>vacat</em>); ví dụ: <span class="grk">ἐμ παντὶ καιρῶι</span> trên bia IG II&sup3; 1137.</td>
+              <td class="lesson-col">24</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-<h2 id="cases">1. Các cách &amp; bộ tên cách</h2>
-<p>Cách (case) là "nhãn vai trò": đuôi của danh từ nói cho bạn nó làm gì trong câu. Tiếng Hy Lạp có 5 cách; tiếng Latin có 6 (thêm rời cách, xem mục 6).</p>
-<table>
-<thead><tr><th>Tiếng Việt</th><th>Tiếng Anh</th><th>Vai trò chính</th><th>Bài</th></tr></thead>
-<tbody>
-<tr><td><strong>chủ cách</strong></td><td>nominative (Nom.)</td><td>chủ ngữ của động từ; vị ngữ sau εἶναι/γίγνεσθαι</td><td>1</td></tr>
-<tr><td><strong>sở hữu cách</strong></td><td>genitive (Gen.)</td><td>"của…": sở hữu, nguồn gốc, phân chia; ở chia thứ ba là chìa khóa mở thân</td><td>1, 7</td></tr>
-<tr><td><strong>tặng cách</strong></td><td>dative (Dat.)</td><td>"cho / với / trong…": tân ngữ gián tiếp, công cụ, sau ἐν/σύν, tặng cách sở hữu, chỉ thời điểm</td><td>1, 4, 11</td></tr>
-<tr><td><strong>đối cách</strong></td><td>accusative (Acc.)</td><td>tân ngữ trực tiếp; hướng chuyển động; độ dài thời gian</td><td>1, 11</td></tr>
-<tr><td><strong>hô cách</strong></td><td>vocative (Voc.)</td><td>gọi trực tiếp (<span class="gk">ὦ ἄνθρωπε</span>); giống đực -ος → -ε</td><td>2</td></tr>
-<tr><td><strong>rời cách</strong> <em>(Latin)</em></td><td>ablative (Abl.)</td><td>chỉ có ở Latin: "từ / bằng / trong"; Hy Lạp không có – tặng cách + sở hữu cách gánh các việc này</td><td>Latin corner 1, 4</td></tr>
-</tbody>
-</table>
+    <!-- MỤC 3 -->
+    <section id="sec-3">
+      <h2>3. Danh từ, Tính từ &amp; Mạo từ</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Tiếng Việt (Chuẩn)</th>
+              <th>Tiếng Anh</th>
+              <th>Giải thích</th>
+              <th style="text-align:right;">Bài</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="term-vi">thân từ</td>
+              <td class="term-en">stem</td>
+              <td>Phần mang ý nghĩa từ vựng cơ bản làm nền để ghép biến tố (đuôi). Ở biến cách nhóm <em>-o</em>, thân lộ rõ ở chủ cách; ở biến cách thứ ba, thân thường biến đổi ở chủ cách nên phải truy xuất qua dạng sở hữu cách.</td>
+              <td class="lesson-col">1, 7</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thân kết thúc bằng nguyên âm</td>
+              <td class="term-en">vowel stem</td>
+              <td>Thân từ thuộc biến cách thứ ba kết thúc bằng nguyên âm (<span class="grk">βασιλε-, ἰχθυ-, ἀστυ-</span>): nguyên âm cuối thân tương tác ngữ âm với đuôi (co nguyên âm, trượt âm...). Đối lập với thân kết thúc bằng phụ âm (<em>consonant stem</em>) ở bài 7.</td>
+              <td class="lesson-col">8</td>
+            </tr>
+            <tr>
+              <td class="term-vi">biến tố / đuôi</td>
+              <td class="term-en">ending</td>
+              <td>Yếu tố hình thái gắn sau thân từ, biến đổi theo cách, số, giống để đánh dấu chức năng cú pháp.</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">biến cách / hệ biến cách</td>
+              <td class="term-en">declension</td>
+              <td>Nhóm danh từ/tính từ/đại từ chia theo cùng một hệ thống biến tố: biến cách nhóm <em>-o</em> (<em>o-declension</em>), biến cách thứ ba (<em>third declension</em>). Tương ứng tiếng Latin: biến cách 1, 2, 3.</td>
+              <td class="lesson-col">1, 7</td>
+            </tr>
+            <tr>
+              <td class="term-vi">không biến cách / có biến cách</td>
+              <td class="term-en">indeclinable / declinable</td>
+              <td>Từ không biến đổi hình thái qua các cách và số (như số từ 2, 5–10, hàng chục, <span class="grk">ἑκατόν</span>...; tiểu từ). Đối lập với từ có biến cách – biến đổi khớp với danh từ đi kèm.</td>
+              <td class="lesson-col">8</td>
+            </tr>
+            <tr>
+              <td class="term-vi">mạo từ (xác định)</td>
+              <td class="term-en">(definite) article</td>
+              <td><span class="grk">ὁ, ἡ, τό</span> ("cái / người..."): biến đổi theo giống, số, cách. Tiếng Latin không có mạo từ – đây là điểm khác biệt hình thái lớn nhất giữa hai ngôn ngữ.</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">giống</td>
+              <td class="term-en">gender</td>
+              <td>Phạm trù ngữ pháp gồm: giống đực (<em>masculine</em>), giống cái (<em>feminine</em>), giống trung (<em>neuter</em>). Đặc điểm giống trung: chủ cách = đối cách; chủ ngữ giống trung số nhiều đi với động từ chia ở số ít.</td>
+              <td class="lesson-col">1, 3</td>
+            </tr>
+            <tr>
+              <td class="term-vi">số</td>
+              <td class="term-en">number</td>
+              <td>Phạm trù số lượng gồm: số ít (<em>singular</em>), số nhiều (<em>plural</em>); tiếng Hy Lạp cổ còn bảo lưu số kép (<em>dual</em>).</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">số từ đếm</td>
+              <td class="term-en">cardinal numeral</td>
+              <td>Số từ chỉ số lượng ("một, hai, ba...": <span class="grk">εἷς, δύο, τρεῖς</span>...). Chỉ các số 1, 3, 4 và hàng trăm từ 200–900 có biến cách; các số còn lại không biến cách.</td>
+              <td class="lesson-col">8</td>
+            </tr>
+            <tr>
+              <td class="term-vi">số từ thứ tự</td>
+              <td class="term-en">ordinal numeral</td>
+              <td>Số từ chỉ thứ tự ("thứ nhất, thứ hai...": <span class="grk">πρῶτος, δεύτερος</span>...): biến cách như tính từ nhóm <em>-o</em> thông thường.</td>
+              <td class="lesson-col">8</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thuộc ngữ</td>
+              <td class="term-en">attributive</td>
+              <td>Chức năng bổ nghĩa trực tiếp cho danh từ trong vị trí thuộc ngữ (<em>attributive position</em>: mạo từ + tính từ + danh từ, hoặc mạo từ + danh từ + mạo từ + tính từ).</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">vị trí thuộc ngữ</td>
+              <td class="term-en">attributive position</td>
+              <td>Vị trí được mạo từ "kẹp" hoặc lặp lại nhằm xác định tính từ đang làm thuộc ngữ cho danh từ.</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">vị ngữ tính từ</td>
+              <td class="term-en">predicate (adjective)</td>
+              <td>Tính từ nằm ngoài vị trí thuộc ngữ, liên kết với chủ ngữ qua động từ nối (hàm ẩn hoặc hiện diện "là") để thuyết minh cho chủ ngữ.</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tính từ hai dạng giống <small>(hai đuôi)</small></td>
+              <td class="term-en">two-ending adjective</td>
+              <td>Tính từ dùng chung một hình thức cho giống đực và giống cái, tách riêng giống trung – gồm toàn bộ tính từ thuần biến cách thứ ba (<span class="grk">ἀληθής, ἀληθές</span>; <span class="grk">εὐδαίμων, εὐδαίμον</span>; cấp so sánh hơn <span class="grk">βελτίων, βέλτιον</span>) và các tính từ ghép thuộc nhóm 1/2 (<span class="grk">ἄδικος, ἄδικον</span>). Tương ứng tiếng Latin: <em>ingēns</em>.</td>
+              <td class="lesson-col">9</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tiền tố phủ định alpha-</td>
+              <td class="term-en">alpha privativum</td>
+              <td>Tiền tố cấu tạo từ biểu thị sự thiếu vắng hoặc phủ định ý nghĩa gốc (trước nguyên âm viết là <span class="grk">ἀν-</span>): <span class="grk">ἄδικος</span> "bất công" &larr; <span class="grk">δίκη</span> "công lý". Tương ứng tiếng Latin: <em>in-</em> (<em>iniūstus</em>), tiếng Đức: <em>un-</em>.</td>
+              <td class="lesson-col">9</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tính từ ba dạng giống <small>(ba đuôi)</small></td>
+              <td class="term-en">three-ending adjective</td>
+              <td>Tính từ phân biệt đầy đủ cả ba giống đực, cái, trung: nhóm 1/2 (<span class="grk">σοφός, σοφή, σοφόν</span>) và một số tính từ biến cách thứ ba mượn biến cách nhóm <em>-a</em> cho giống cái (<span class="grk">μέλας, μέλαινα, μέλαν</span>).</td>
+              <td class="lesson-col">1, 9</td>
+            </tr>
+            <tr>
+              <td class="term-vi">trạng từ</td>
+              <td class="term-en">adverb</td>
+              <td>Từ loại không biến cách chỉ cách thức, mức độ, thời gian... Cách cấu tạo phổ biến: thân tính từ dạng giống trung + <span class="grk">-ως</span> (<span class="grk">σοφῶς, ἀληθῶς, εὐδαιμόνως</span>); dạng bất quy tắc tiêu biểu: <span class="grk">εὖ</span> "tốt". Tương ứng tiếng Latin: đuôi <em>-ē</em> (<em>cārē, vērē</em>).</td>
+              <td class="lesson-col">3, 9</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tác thể bị động</td>
+              <td class="term-en">personal agent</td>
+              <td>Chủ thể thực hiện hành động trong cấu trúc bị động: <span class="grk">ὑπό</span> + sở hữu cách (<span class="grk">ὑπὸ τοῦ βασιλέως</span>). Động từ <em>deponent</em> cũng nhận tác thể bị động tương tự (<span class="grk">ἡττῶμαι ὑπὸ παιδίου</span>). Tương ứng tiếng Latin: <em>ā/ab</em> + rời cách.</td>
+              <td class="lesson-col">5, 10</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thể trung trực tiếp / thể trung gián tiếp</td>
+              <td class="term-en">direct middle / indirect middle</td>
+              <td>Hai sắc thái ngữ nghĩa của thể trung (đuôi <span class="grk">-ομαι</span>): <strong>trực tiếp</strong> – hành động tác động thẳng lên chính chủ thể (<span class="grk">λούεται</span> "tự tắm cho mình"); <strong>gián tiếp</strong> – hành động thực hiện vì lợi ích của chủ thể (<span class="grk">μισθόεται</span> "thuê cho mình").</td>
+              <td class="lesson-col">10</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tính từ danh hóa</td>
+              <td class="term-en">substantivized adjective</td>
+              <td>Cấu trúc mạo từ + tính từ hoạt động như một danh từ: <span class="grk">τὸ ἀγαθόν</span> "cái thiện", <span class="grk">ὁ ἐχθρός</span> "kẻ thù", <span class="grk">τὸ ἀληθές</span> "chân lý", <span class="grk">τὸ εὔδαιμον</span> "hạnh phúc". Tương tự tiếng Latin: <em>bonum, malum</em>.</td>
+              <td class="lesson-col">5, 9</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tỉnh lược</td>
+              <td class="term-en">ellipsis</td>
+              <td>Lược bỏ thành phần từ ngữ có thể phục nguyên qua ngữ cảnh (<span class="grk">ὁδὶ ἄνθρωπος</span>), thường tạo ra câu danh ngữ (<em>nominal sentence</em>).</td>
+              <td class="lesson-col">3</td>
+            </tr>
+            <tr>
+              <td class="term-vi">câu danh ngữ</td>
+              <td class="term-en">nominal sentence</td>
+              <td>Câu không có động từ chia làm vị ngữ (cấu tạo từ danh từ + danh từ/tính từ). Tiếng Latin cũng có cấu trúc này.</td>
+              <td class="lesson-col">3</td>
+            </tr>
+            <tr>
+              <td class="term-vi">đại từ nhân xưng</td>
+              <td class="term-en">personal pronoun</td>
+              <td><span class="grk">ἐγώ, σύ, ἡμεῖς</span>... – phân biệt hình thức nhấn mạnh và hình thức tựa sau (<em>enclitic</em>). Tiếng Latin: <em>ego, tu</em> (cùng nguồn gốc Ấn-Âu).</td>
+              <td class="lesson-col">4</td>
+            </tr>
+            <tr>
+              <td class="term-vi">đại từ chỉ định</td>
+              <td class="term-en">demonstrative pronoun</td>
+              <td><span class="grk">ὅδε / οὗτος / ἐκεῖνος</span> ("này / đó / kia") – kết hợp với mạo từ khi đứng cùng danh từ.</td>
+              <td class="lesson-col">6</td>
+            </tr>
+            <tr>
+              <td class="term-vi">đại từ bất định</td>
+              <td class="term-en">indefinite pronoun</td>
+              <td><span class="grk">τις, τι</span> ("ai đó / cái gì đó") – là từ tựa sau (<em>enclitic</em>), không mang dấu trọng âm riêng (<span class="grk">τινά, τινί, τινές, τινάς, τινά, τινῶν, τισί(ν)</span>); đối lập với đại từ nghi vấn <span class="grk">τίς, τί</span> (luôn giữ dấu sắc trên âm tiết đầu). Tiếng Latin: <em>aliquis, aliquid</em>.</td>
+              <td class="lesson-col">5</td>
+            </tr>
+            <tr>
+              <td class="term-vi">đại từ quan hệ</td>
+              <td class="term-en">relative pronoun</td>
+              <td><span class="grk">ὅς, ἥ, ὅ</span> ("người mà / cái mà..."): luôn mang dấu trọng âm và dấu thở mạnh (khác với mạo từ); hòa hợp về giống và số với danh từ tiền vị, nhưng nhận cách theo chức năng cú pháp trong mệnh đề quan hệ. Tiếng Latin: <em>qui, quae, quod</em>.</td>
+              <td class="lesson-col">15</td>
+            </tr>
+            <tr>
+              <td class="term-vi">đại từ / tính từ sở hữu</td>
+              <td class="term-en">possessive pronoun / adjective</td>
+              <td><span class="grk">ἐμός, σός, ἡμέτερος, ὑμέτερος</span> ("của tôi / của anh / của chúng ta / của các anh") – đứng ở vị trí thuộc ngữ, mang sắc thái nhấn mạnh; trong giao tiếp thông thường hay dùng sở hữu cách đại từ nhân xưng (<span class="grk">ὁ πατήρ μου</span>). Ngôi 3 không có tính từ sở hữu riêng mà dùng sở hữu cách của <span class="grk">αὐτός</span> (<span class="grk">ὁ πατὴρ αὐτοῦ</span>). Tiếng Latin: <em>meus, tuus</em>...</td>
+              <td class="lesson-col">15</td>
+            </tr>
+            <tr>
+              <td class="term-vi">đại từ phản thân</td>
+              <td class="term-en">reflexive pronoun</td>
+              <td><span class="grk">ἑαυτοῦ / ἑαυτῷ / ἑαυτόν</span> (ngôi 3), <span class="grk">ἐμαυτοῦ, σεαυτοῦ</span> (ngôi 1/2) – "chính mình", không có chủ cách, quy chiếu về chủ ngữ câu; đặt ở vị trí thuộc ngữ mang nghĩa "của chính mình" (<span class="grk">ὁ ἑαυτοῦ πατήρ</span>). Lưu ý phân biệt dạng rút gọn <span class="grk">αὑτοῦ</span> (dấu thở mạnh = phản thân) với <span class="grk">αὐτοῦ</span> (dấu thở nhẹ = "của hắn"). Tiếng Latin: <em>sē, suī, suus</em>.</td>
+              <td class="lesson-col">15</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-<h2 id="orthography">2. Ngữ âm &amp; chính tả</h2>
-<table>
-<thead><tr><th>Tiếng Việt</th><th>Tiếng Anh</th><th>Giải thích</th><th>Bài</th></tr></thead>
-<tbody>
-<tr><td><strong>dấu thanh</strong></td><td>accent</td><td>Dấu ghi trên nguyên âm: sắc / huyền / tròn. Quy ước của project: oxytone cuối câu → sắc; trước từ Hy Lạp kế tiếp → huyền.</td><td>2, 4, 6</td></tr>
-<tr><td><strong>dấu sắc / huyền / tròn</strong></td><td>acute / grave / circumflex</td><td>Sắc (´), huyền (`), tròn (~) đều là dấu thanh; huyền chỉ là biến thể viết của sắc trước từ khác.</td><td>2</td></tr>
-<tr><td><strong>oxytone</strong></td><td>oxytone</td><td>Từ có trọng âm trên âm tiết cuối (nguyên âm cuối mang dấu thanh).</td><td>2</td></tr>
-<tr><td><strong>dấu hút khí</strong></td><td>rough breathing (spiritus asper)</td><td>Chữ ὁ nhỏ đặt trên nguyên âm đầu từ: phát âm thêm tiếng "h" (ἱ = hi, ἡ = hē); còn gọi "dấu thở mạnh". <em>Latin tương đương: chữ h đầu từ.</em></td><td>1</td></tr>
-<tr><td><strong>dấu mềm</strong></td><td>smooth breathing (spiritus lenis)</td><td>Cùng ký hiệu với dấu hút khí nhưng không thêm gì: chỉ đánh dấu "nguyên âm đầu từ, không có /h/" (ἰ = i, ἠ = ē).</td><td>1</td></tr>
-<tr><td><strong>chữ đa thanh</strong></td><td>polytonic</td><td>Bộ viết đủ dấu thanh + dấu thở (kinh điển); khác mono tonic của tiếng Hy Lạp hiện đại.</td><td>1</td></tr>
-<tr><td><strong>iota phụ</strong></td><td>iota subscript</td><td>Chữ ι viết nhỏ dưới nguyên âm dài (<span class="gk">τῷ, ᾧ</span>) – dấu hình thái quan trọng ở tặng cách.</td><td>1</td></tr>
-<tr><td><strong>né vực nguyên âm</strong></td><td>elision</td><td>Hai nguyên âm chạm nhau → nguyên âm đầu "lui" (<span class="gk">ἀλλ' ἐγώ, μεθ' ἡμῶν</span>). Latin cũng có elision khi đọc (<em>multum ille → mult&#8217;ille</em>) nhưng không ghi vào chính tả; Hy Lạp ghi hẳn bằng apostrophe trong chữ viết.</td><td>2</td></tr>
-<tr><td><strong>hợp âm (crasis)</strong></td><td>crasis</td><td>Hai từ chấp thành <em>một</em> từ: nguyên âm cuối của từ trước hợp nhất với nguyên âm đầu của từ sau (không lược bỏ như elision mà gộp chung một chỗ); trên nguyên âm chấp ghi <strong>dấu koronis</strong>, hình như dấu mềm nhưng nằm trong lòng từ. Thường gặp ở mạo từ, đại từ quan hệ và các tiểu từ dính liền: <span class="gk">κἀγώ = καὶ ἐγώ</span>, <span class="gk">κἂν = καὶ ἄν</span>, <span class="gk">ἐάν = εἰ + ἄν</span>; ít gặp hơn elision. Khác nhau một vạch accent: <span class="gk">κἂν</span> ≠ <span class="gk">κἀν</span>.</td><td>2, 16, 21, 22</td></tr>
-<tr><td><strong>ν di động</strong></td><td>movable nu</td><td>Thêm ν ở cuối từ trước nguyên âm cho dễ đọc (<span class="gk">ἐστίν/ἐστι</span>) – không phải âm vị học mà là chính tả.</td><td>2, 6</td></tr>
-<tr><td><strong>enclitic</strong></td><td>enclitic</td><td>Từ "núp" vào từ trước, không mang dấu thanh riêng (<span class="gk">μου, σου, τι</span>); đẩy trọng âm lên từ chủ.</td><td>3, 4</td></tr>
-<tr><td><strong>proclitic</strong></td><td>proclitic</td><td>Từ "dính" vào từ sau, không mang dấu thanh riêng (<span class="gk">ὁ, ἡ, οἱ</span>).</td><td>1</td></tr>
-<tr><td><strong>digamma (ϝ)</strong></td><td>digamma</td><td>Chữ /w/ của Hy Lạp cổ, mất khỏi chữ viết Attic nhưng để lại dấu vết hình thái (<span class="gk">βασιλεύς</span> &lt; <span class="gk">βασιλεϝ-</span>) và còn "nghe được" trong nhịp thơ Homer.</td><td>8</td></tr>
-<tr><td><strong>văn bia / biên khắc học</strong></td><td>inscription / epigraphy</td><td>Văn bản chạm trên đá (bia, tượng, đồ vật): nguồn trực tiếp nhất của tiếng Hy Lạp, mang quy ước riêng (iota adscript, ngoặc vuông phục dựng, chấm dưới, vacat); ví dụ <span class="gk">ἐμ παντὶ καιρῶι</span> trên bia IG II³ 1137.</td><td>24</td></tr>
-</tbody>
-</table>
+    <!-- MỤC 4 -->
+    <section id="sec-4">
+      <h2>4. Động từ</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Tiếng Việt (Chuẩn)</th>
+              <th>Tiếng Anh</th>
+              <th>Giải thích</th>
+              <th style="text-align:right;">Bài</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="term-vi">ngôi</td>
+              <td class="term-en">person</td>
+              <td>3 ngôi (1 / 2 / 3) &times; các số (ít / nhiều / kép); chủ ngữ đại từ thường ẩn trong biến tố động từ.</td>
+              <td class="lesson-col">1, 2</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thì</td>
+              <td class="term-en">tense</td>
+              <td>Phạm trù ngữ pháp định vị thời gian của hành động: thì hiện tại (<em>present</em>), thì quá khứ chưa hoàn thành (<em>imperfect</em>), thì tương lai (<em>future</em>)... Trong tiếng Hy Lạp cổ, hệ thống thì gắn chặt với phạm trù <strong>thể/khía cạnh</strong> (<em>aspect</em>).</td>
+              <td class="lesson-col">2, 11, 12, 13, 14</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thì quá khứ chưa hoàn thành</td>
+              <td class="term-en">imperfect</td>
+              <td>Thì quá khứ biểu thị hành động đang diễn tiến, lặp lại như thói quen hoặc làm nền bối cảnh trong quá khứ: <span class="grk">ἐπαίδευον, ἔλεγεν, ἦν</span>. Tương ứng tiếng Latin: <em>amābam</em> (<em>-bā-</em>).</td>
+              <td class="lesson-col">11</td>
+            </tr>
+            <tr>
+              <td class="term-vi">âm tăng đầu <small>(augment)</small></td>
+              <td class="term-en">augment</td>
+              <td>Tiền tố <span class="grk">ἐ-</span> gắn vào đầu thân động từ để đánh dấu thì quá khứ ở thức chỉ định (âm tăng âm tiết); âm tăng trường độ (<em>temporal augment</em>) kéo dài nguyên âm đầu từ (<span class="grk">ἀκούω &rarr; ἤκουον</span>). Ở động từ ghép, âm tăng đầu chèn giữa tiền tố và thân (<span class="grk">προέκρινεν</span>); ngoại lệ hay gặp: <span class="grk">ἔχω &rarr; εἶχον</span>.</td>
+              <td class="lesson-col">11</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thì tương lai</td>
+              <td class="term-en">future</td>
+              <td>Thì biểu thị sự việc sẽ xảy ra: thân hiện tại + <span class="grk">-σ-</span> + đuôi (<span class="grk">παιδεύσω, γράψω, ἄξω</span>); trung/bị động <span class="grk">-σομαι</span>; động từ <span class="grk">εἰμί</span>: <span class="grk">ἔσομαι, ἔσται</span>. Không có âm tăng đầu. Một số động từ đổi sang thể trung ở thì tương lai (<span class="grk">λήψομαι, τέξομαι, ἀκούσομαι</span>). Tương ứng tiếng Latin: <em>amābō</em> / <em>legam</em>.</td>
+              <td class="lesson-col">12</td>
+            </tr>
+            <tr>
+              <td class="term-vi">động từ co nguyên âm</td>
+              <td class="term-en">contract verb</td>
+              <td>Động từ có thân kết thúc bằng nguyên âm ngắn <span class="grk">-ε-, -α-, -ο-</span> (<span class="grk">ποιέω, τιμάω, δηλόω</span>): nguyên âm cuối thân hợp nhất với nguyên âm đầu của biến tố và thường mang dấu mũ (<span class="grk">ποιῶ, τιμᾷς, δηλοῖ</span>); ở thì tương lai nguyên âm thân kéo dài và không co (<span class="grk">ποιήσω</span>).</td>
+              <td class="lesson-col">12</td>
+            </tr>
+            <tr>
+              <td class="term-vi">động từ ghép</td>
+              <td class="term-en">compound verb</td>
+              <td>Tiền tố giới từ (<em>prepositional prefix</em>) + động từ đơn (<em>simplex</em>); âm tăng đầu chèn giữa tiền tố và thân (<span class="grk">προέκρινεν, ἐξέβαλλον, συνελάμβανον</span>). Tiền tố kết thúc bằng nguyên âm thường bị lược âm (trừ <span class="grk">περι-, προ-</span>); tiền tố <span class="grk">ἐκ-</span> trước nguyên âm biến thành <span class="grk">ἐξ-</span>.</td>
+              <td class="lesson-col">11</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thì tương lai thân lưu âm</td>
+              <td class="term-en">liquid future</td>
+              <td>Động từ có thân tận cùng bằng phụ âm lưu âm <span class="grk">λ, μ, ν, ρ</span>: hậu tố <span class="grk">-σ-</span> rụng đi kèm kéo dài nguyên âm hoặc co âm (<span class="grk">μένων &rarr; μενῶ</span>, <span class="grk">κρίνω &rarr; κρινῶ</span>); chia giống động từ co nguyên âm nhóm <span class="grk">-έω</span>.</td>
+              <td class="lesson-col">12</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thì hiện tại lịch sử</td>
+              <td class="term-en">historic present</td>
+              <td>Dùng thì hiện tại để tường thuật sự kiện quá khứ nhằm tăng tính sinh động trực tiếp (<span class="grk">δίδωσιν</span> "rồi ông ta trao").</td>
+              <td class="lesson-col">12</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thì aorist <small>(quá khứ đơn định)</small></td>
+              <td class="term-en">aorist</td>
+              <td>Thì biểu thị hành động như một sự kiện trọn vẹn, không phân tích diễn tiến nội tại (<span class="grk">ἀόριστος</span> "không giới hạn"): ở thức chỉ định gồm âm tăng đầu + thân aorist + đuôi thứ cấp; đối lập với thì quá khứ chưa hoàn thành (<span class="grk">ἔλυσα</span> vs. <span class="grk">ἔλυον</span>).</td>
+              <td class="lesson-col">13</td>
+            </tr>
+            <tr>
+              <td class="term-vi">aorist biến tố -σ- <small>(aorist thứ nhất)</small></td>
+              <td class="term-en">first (sigmatic) aorist</td>
+              <td>Thân hiện tại + hậu tố <span class="grk">-σα-</span> + đuôi (<span class="grk">ἔλυσα, ἔγραψα, ἐποίησα</span>); thể trung <span class="grk">ἐλυσάμην</span>.</td>
+              <td class="lesson-col">13</td>
+            </tr>
+            <tr>
+              <td class="term-vi">aorist thân chủ đề <small>(aorist thứ hai)</small></td>
+              <td class="term-en">second (thematic) aorist</td>
+              <td>Thân động từ biến đổi khác thân hiện tại + nguyên âm chủ đề <span class="grk">-ο-/-ε-</span> + đuôi thứ cấp (<span class="grk">ἦλθον, ἔλαβον, εὗρον, ἐγενόμην, εἶπον</span>): dùng chung bộ đuôi với thì quá khứ chưa hoàn thành.</td>
+              <td class="lesson-col">13</td>
+            </tr>
+            <tr>
+              <td class="term-vi">aorist thân lưu âm</td>
+              <td class="term-en">liquid aorist</td>
+              <td>Động từ thân <span class="grk">λ, μ, ν, ρ</span>: hậu tố <span class="grk">-σ-</span> rụng và kéo dài nguyên âm thân bù trừ (<em>compensatory lengthening</em>: <span class="grk">ἔμεινα, ἔκρῖνα, ἔστειλα, ἀπεκρινάμην</span>).</td>
+              <td class="lesson-col">13</td>
+            </tr>
+            <tr>
+              <td class="term-vi">khía cạnh / thể</td>
+              <td class="term-en">aspect</td>
+              <td>Góc nhìn ngữ pháp về cấu trúc thời gian nội tại của hành động: nhìn trọn vẹn như một điểm/tổng thể (<em>aorist</em>) đối lập với nhìn như quá trình đang diễn tiến (<em>present / imperfect</em>) hoặc trạng thái kết quả (<em>perfect</em>).</td>
+              <td class="lesson-col">13</td>
+            </tr>
+            <tr>
+              <td class="term-vi">aorist bị động</td>
+              <td class="term-en">passive aorist</td>
+              <td>Gồm hai hệ hình thái: I dùng hậu tố <span class="grk">-θη-</span> (<span class="grk">ἐλύθην</span>, trọng âm trên đuôi ở nguyên mẫu/phân từ) và II dùng hậu tố <span class="grk">-η-</span> (<span class="grk">ἐφάνην, ἠλλάγην, ἐβλάβην</span>).</td>
+              <td class="lesson-col">14</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thì tương lai bị động</td>
+              <td class="term-en">future passive</td>
+              <td>Thân aorist bị động + hậu tố <span class="grk">-σ-</span> + đuôi thể trung (<span class="grk">λυθήσομαι, φανήσομαι, διδαχθήσομαι</span>).</td>
+              <td class="lesson-col">14</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thì hoàn thành</td>
+              <td class="term-en">perfect</td>
+              <td>Biểu thị trạng thái hiện tại là kết quả của một hành động đã hoàn tất trong quá khứ: <span class="grk">λέλυμαι, πέπαυται</span>; tiếng Latin gộp chung với aorist thành thì <em>perfectum</em> (<em>amāvī</em> &harr; <span class="grk">λέλυκα</span>).</td>
+              <td class="lesson-col">14</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thì quá khứ hoàn thành</td>
+              <td class="term-en">pluperfect</td>
+              <td>Biểu thị trạng thái kết quả đã xác lập trước một mốc thời gian trong quá khứ: âm tăng đầu + nhân đôi + đuôi <span class="grk">-ει / -εισαν</span> (<span class="grk">ἀπωλώλεσαν</span> "đã thiệt mạng trước đó"). Tương ứng tiếng Latin: <em>amāverat</em>.</td>
+              <td class="lesson-col">22, 24</td>
+            </tr>
+            <tr>
+              <td class="term-vi">nhân đôi âm đầu</td>
+              <td class="term-en">reduplication</td>
+              <td>Lặp lại phụ âm đầu của thân động từ kèm nguyên âm <span class="grk">-ε-</span> để cấu tạo thì hoàn thành (<span class="grk">λέ-λυ-μαι, κέ-κλη-μαι, πέ-παυ-μαι</span>); khác với âm tăng đầu <span class="grk">ἐ-</span>. Nhóm động từ <span class="grk">-μι</span> có hiện tượng nhân đôi với nguyên âm <span class="grk">-ι-</span> ngay ở thì hiện tại (<span class="grk">δί-δω-μι, τί-θη-μι</span>).</td>
+              <td class="lesson-col">14, 23</td>
+            </tr>
+            <tr>
+              <td class="term-vi">sáu dạng chính (của động từ)</td>
+              <td class="term-en">principal parts</td>
+              <td>Sáu hình thái gốc của một động từ dùng để suy ra toàn bộ hệ biến tố: hiện tại, tương lai, aorist chủ động, hoàn thành chủ động, hoàn thành trung/bị động, aorist bị động (<span class="grk">λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην</span>); tiếng Latin chỉ có 4 dạng chính.</td>
+              <td class="lesson-col">14</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thể</td>
+              <td class="term-en">voice</td>
+              <td>Phạm trù chỉ quan hệ giữa chủ ngữ và hành động: <strong>thể chủ động</strong> (<em>active</em>), <strong>thể trung</strong> (<em>middle</em>), <strong>thể bị động</strong> (<em>passive</em>). Ở thì hiện tại, quá khứ chưa hoàn thành, hoàn thành và quá khứ hoàn thành, thể trung và thể bị động dùng chung một bộ biến tố (<em>middle/passive</em>).</td>
+              <td class="lesson-col">2, 5</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thể chủ động / trung / bị động</td>
+              <td class="term-en">active / middle / passive</td>
+              <td>Thể trung biểu thị hành động hướng về chủ thể hoặc chủ thể tự tham gia vào quá trình; đôi khi mang nghĩa phi ngôi khi dịch.</td>
+              <td class="lesson-col">5</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thức</td>
+              <td class="term-en">mood</td>
+              <td>Phạm trù chỉ thái độ của người nói đối với tính hiện thực của hành động: <strong>thức chỉ định</strong> (<em>indicative</em>), <strong>thức mệnh lệnh</strong> (<em>imperative</em>), <strong>thức giả định</strong> (<em>subjunctive</em>, bài 16), <strong>thức cầu mong / nguyện vọng</strong> (<em>optative</em>, bài 17).</td>
+              <td class="lesson-col">2, 4, 16, 17</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thức chỉ định</td>
+              <td class="term-en">indicative</td>
+              <td>Thức biểu thị sự việc được nhìn nhận như một thực tế khách quan trong tường thuật hoặc hỏi thông tin.</td>
+              <td class="lesson-col">2</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thức giả định</td>
+              <td class="term-en">subjunctive</td>
+              <td>Thức của tính khả thể, dự liệu, mục đích hoặc mệnh lệnh gián tiếp ngôi 1: đặc trưng bởi nguyên âm chủ đề kéo dài (<span class="grk">-ω / -ῃ / -ωμεν / -ωσι(ν)</span>), aorist không có âm tăng đầu; thường đi kèm <span class="grk">ἐάν / ἵνα / ὅταν / ἄν</span> hoặc dùng độc lập trong câu rủ rê (<em>hortatory subjunctive</em>). Tương ứng tiếng Latin: <em>coniunctivus</em>, tiếng Đức: <em>Konjunktiv</em>.</td>
+              <td class="lesson-col">16</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thức cầu mong / nguyện vọng</td>
+              <td class="term-en">optative</td>
+              <td>Thức biểu thị điều ước (<span class="grk">εἴθε</span> + optative), lời chúc (<span class="grk">εἴη, γένοιτο</span>), khả năng giả thiết hoặc lời dẫn gián tiếp sau thì quá khứ; đặc trưng bởi dấu hiệu thức <span class="grk">-οι- / -ι-</span> nối vào thân thì, không có âm tăng đầu. Tiếng Latin không có thức riêng mà dùng <em>coniunctivus</em>.</td>
+              <td class="lesson-col">17</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thức cầu mong tiềm năng</td>
+              <td class="term-en">potential optative</td>
+              <td>Cấu trúc <em>optative + <span class="grk">ἄν</span></em> diễn đạt nhận định dè dặt hoặc khả năng ("hẳn là, có lẽ sẽ"): <span class="grk">εὖ ἂν λέγοις</span> "có lẽ cậu nói đúng"; cũng dùng ở mệnh đề chính của câu điều kiện tiềm năng (<span class="grk">εἰ ἥκοι... λάβοι ἄν</span>). Tương ứng tiếng Latin: <em>coniunctivus potentialis</em> (<em>dīxerit</em>).</td>
+              <td class="lesson-col">17</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thức mệnh lệnh</td>
+              <td class="term-en">imperative</td>
+              <td>Thức biểu thị yêu cầu, ra lệnh, khuyên nhủ (<span class="grk">φίλει!</span> "hãy yêu!") – chia ở ngôi 2 và ngôi 3.</td>
+              <td class="lesson-col">4, 7</td>
+            </tr>
+            <tr>
+              <td class="term-vi">mệnh lệnh ngôi 3</td>
+              <td class="term-en">3rd person imperative</td>
+              <td>Hình thái mệnh lệnh dành cho ngôi thứ 3 (<span class="grk">λυέτω / -έσθω</span> "hắn hãy / nó phải"), phổ biến trong văn bản pháp luật và minh văn. Tiếng Latin dùng thức giả định thay thế (<em>amet</em>).</td>
+              <td class="lesson-col">7</td>
+            </tr>
+            <tr>
+              <td class="term-vi">cách dùng cấm đoán</td>
+              <td class="term-en">prohibitive</td>
+              <td>Cấu trúc phủ định mệnh lệnh: <span class="grk">μή</span> + thức mệnh lệnh thì hiện tại (cấm hành động đang diễn ra/thói quen) hoặc <span class="grk">μή</span> + thức giả định thì aorist (cấm hành động cụ thể: <span class="grk">μὴ φάγῃς</span> "đừng ăn!"). Tương ứng tiếng Latin: <em>nē</em> + imperative/subjunctive.</td>
+              <td class="lesson-col">4, 7, 16</td>
+            </tr>
+            <tr>
+              <td class="term-vi">nghi vấn đắn đo</td>
+              <td class="term-en">deliberative question</td>
+              <td>Câu hỏi tự vấn hoặc cân nhắc quyết định ("chúng ta nên làm gì đây?"): <span class="grk">τί ποιῶμεν;</span> – dùng thức giả định ngôi 1 (ít/nhiều).</td>
+              <td class="lesson-col">16</td>
+            </tr>
+            <tr>
+              <td class="term-vi">nguyên mẫu</td>
+              <td class="term-en">infinitive</td>
+              <td>Dạng động từ phi ngôi vị (không chia ngôi), hoạt động như danh từ trung tính: làm tân ngữ trong cấu trúc AcI hoặc chủ ngữ cho động từ vô nhân xưng (<span class="grk">δεῖ</span>).</td>
+              <td class="lesson-col">2, 4, 18</td>
+            </tr>
+            <tr>
+              <td class="term-vi">nguyên mẫu thì tương lai</td>
+              <td class="term-en">future infinitive</td>
+              <td>Dạng nguyên mẫu biểu thị hành động xảy ra sau hành động của động từ chính (<span class="grk">λύσειν, ποιήσειν, ἔσεσθαι</span>), chủ yếu dùng trong tường thuật gián tiếp. Tiếng Latin cấu tạo bằng phân từ tương lai (<em>scriptūrum esse</em>).</td>
+              <td class="lesson-col">18</td>
+            </tr>
+            <tr>
+              <td class="term-vi">phân từ</td>
+              <td class="term-en">participle</td>
+              <td>Dạng tính từ của động từ: mang các phạm trù thì, thể của động từ (<span class="grk">λύω &rarr; λύων, λύσας, λυθείς, λελυκώς</span>), đồng thời biến cách theo giống, số, cách như tính từ; phân từ aorist không có âm tăng đầu (<span class="grk">λαβών</span>, không phải <span class="grk">ἐλαβών</span>). Tiếng Latin: <em>amāns, amātūrus, amātus</em>.</td>
+              <td class="lesson-col">19</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thân thì</td>
+              <td class="term-en">tense stem</td>
+              <td>Thân từ cơ sở dùng để cấu tạo toàn bộ các thức của một thì cụ thể (ví dụ: thân hiện tại, thân aorist).</td>
+              <td class="lesson-col">6</td>
+            </tr>
+            <tr>
+              <td class="term-vi">nguyên âm chủ đề</td>
+              <td class="term-en">thematic vowel</td>
+              <td>Nguyên âm <span class="grk">-ο- / -ε-</span> chèn giữa thân động từ và biến tố; phân biệt <strong>động từ có nguyên âm chủ đề</strong> (<em>thematic verbs</em>) với <strong>động từ không nguyên âm chủ đề</strong> (<em>athematic verbs</em>, như <span class="grk">δύναμαι, εἶναι</span>).</td>
+              <td class="lesson-col">6, 7</td>
+            </tr>
+            <tr>
+              <td class="term-vi">động từ có / không nguyên âm chủ đề</td>
+              <td class="term-en">thematic / athematic verbs</td>
+              <td>Hai hệ thống chia động từ cơ bản dựa trên sự hiện diện hay vắng mặt của nguyên âm chủ đề <span class="grk">-ο-/-ε-</span> ở thì hiện tại và quá khứ chưa hoàn thành.</td>
+              <td class="lesson-col">6</td>
+            </tr>
+            <tr>
+              <td class="term-vi">động từ không nguyên âm chủ đề <small>(động từ -μι)</small></td>
+              <td class="term-en">athematic verb / mi-verb</td>
+              <td>Nhóm động từ cổ xưa gắn trực tiếp biến tố vào thân ở thì hiện tại và quá khứ chưa hoàn thành (<span class="grk">τίθημι, ἵστημι, δίδωμι, ἵημι, φημί</span>); mang bộ đuôi đặc trưng <span class="grk">-μι / -ς / -σι / -ασι</span> và hiện tượng luân phiên nguyên âm (<em>ablaut</em>).</td>
+              <td class="lesson-col">23</td>
+            </tr>
+            <tr>
+              <td class="term-vi">luân phiên nguyên âm <small>(ablaut)</small></td>
+              <td class="term-en">vowel gradation / ablaut</td>
+              <td>Sự biến đổi có quy luật của nguyên âm trong căn tố giữa các hình thái cùng gốc (<span class="grk">δί-δω-μι &harr; ἔ-δω-κα</span>, <span class="grk">λανθάνω &harr; ἔλαθον</span>); đặc trưng hình thái học của ngữ hệ Ấn-Âu.</td>
+              <td class="lesson-col">23</td>
+            </tr>
+            <tr>
+              <td class="term-vi">aorist căn tố <small>(aorist gốc)</small></td>
+              <td class="term-en">root aorist</td>
+              <td>Hình thái aorist gắn trực tiếp đuôi thứ cấp vào căn tố mà không có hậu tố <span class="grk">-σ-</span> hay nguyên âm chủ đề (<span class="grk">ἔβην, ἔγνων</span>), thuộc hệ hình thái không nguyên âm chủ đề.</td>
+              <td class="lesson-col">23</td>
+            </tr>
+            <tr>
+              <td class="term-vi">động từ bổ sung gốc</td>
+              <td class="term-en">suppletive verb</td>
+              <td>Động từ ghép các căn tố khác nhau về mặt từ nguyên để hoàn chỉnh hệ biến tố các thì (<span class="grk">ὁράω / εἶδον / ὄψομαι / ἑόρακα</span>; <span class="grk">φέρω / οἴσω / ἤνεγκα</span>). Tương tự tiếng Latin: <em>ferō / tulī / lātum</em>.</td>
+              <td class="lesson-col">23</td>
+            </tr>
+            <tr>
+              <td class="term-vi">động từ trung-bị động nghĩa chủ động <small>(deponent)</small></td>
+              <td class="term-en">deponent verb</td>
+              <td>Động từ chỉ tồn tại hình thái thể trung hoặc bị động nhưng mang ý nghĩa chủ động (<span class="grk">μάχομαι, δύναμαι, ἔρχομαι, ἀποκρίνομαι</span>). Tiếng Latin: <em>sequor, loquor</em>.</td>
+              <td class="lesson-col">5, 6, 10</td>
+            </tr>
+            <tr>
+              <td class="term-vi">động từ chi phối cách</td>
+              <td class="term-en">verbs governing a specific case</td>
+              <td>Động từ đòi hỏi tân ngữ phải đứng ở một cách nhất định ngoài đối cách thông thường (ví dụ: <span class="grk">κατηγορέω</span> + sở hữu cách "buộc tội ai").</td>
+              <td class="lesson-col">2</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tính từ chi phối cách</td>
+              <td class="term-en">adjective with case complement</td>
+              <td>Tính từ đòi hỏi bổ ngữ danh từ đi kèm ở một cách cố định (ví dụ: <span class="grk">κοινός</span> + sở hữu cách / tặng cách "chung với ai").</td>
+              <td class="lesson-col">9</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-<h2 id="nominals">3. Danh từ, tính từ &amp; mạo từ</h2>
-<table>
-<thead><tr><th>Tiếng Việt</th><th>Tiếng Anh</th><th>Giải thích</th><th>Bài</th></tr></thead>
-<tbody>
-<tr><td><strong>thân</strong></td><td>stem</td><td>Phần mang nghĩa của từ; đuôi (ending) ghép vào thân. Nhóm o: thân nhìn thấy ngay ở chủ cách; chia thứ ba: thân bị che (thân ẩn – hidden stem), phải qua sở hữu cách (thân trần – bare stem).</td><td>1, 7</td></tr>
-<tr><td><strong>thân nguyên âm</strong></td><td>vowel stem</td><td>Thân chia thứ ba kết thúc bằng nguyên âm (<span class="gk">βασιλε-, ἰχθυ-, ἀστυ-</span>…): nguyên âm cuối thân phản ứng với đuôi (co lại, trượt, buông s). Đối lập: thân phụ âm (consonant stem) của bài 7.</td><td>8</td></tr>
-<tr><td><strong>đuôi</strong></td><td>ending</td><td>Phần cuối đuôi biến theo cách/số/giống; là "nhãn vai trò" của từ.</td><td>1</td></tr>
-<tr><td><strong>hệ thống chia</strong></td><td>declension</td><td>Nhóm danh từ chia cùng một bộ đuôi. Nhóm o (o-declension); chia thứ ba (third declension). Latin tương ứng: 1st/2nd/3rd declension.</td><td>1, 7</td></tr>
-<tr><td><strong>bất biến cách</strong></td><td>indeclinable</td><td>Từ giữ nguyên một hình thức ở mọi cách/số (số từ 2, 5–10, hàng chục, <span class="gk">ἑκατόν</span>…; tiểu từ). Đối lập: biến cách (declinable) – giống/cách rập theo danh từ đi kèm.</td><td>8</td></tr>
-<tr><td><strong>mạo từ</strong></td><td>(definite) article</td><td><span class="gk">ὁ, ἡ, τό</span> "cái/người…". <em>Latin không có mạo từ</em> – điểm khác biệt lớn nhất khi so sánh.</td><td>1</td></tr>
-<tr><td><strong>giống</strong></td><td>gender</td><td>đực (masculine) / cái (feminine) / trung (neuter). Trung tính: chủ = đối, số nhiều → động từ số ít.</td><td>1, 3</td></tr>
-<tr><td><strong>số</strong></td><td>number</td><td>số ít (singular) / số nhiều (plural); Hy Lạp còn có số kép (dual) – học sau.</td><td>1</td></tr>
-<tr><td><strong>số đếm</strong></td><td>cardinal numeral</td><td>"Một, hai, ba…" (<span class="gk">εἷς, δύο, τρεῖς</span>…). Biến cách: chỉ 1, 3, 4 và 200–900; còn lại bất biến cách.</td><td>8</td></tr>
-<tr><td><strong>số thứ tự</strong></td><td>ordinal numeral</td><td>"Thứ nhất, thứ hai…" (<span class="gk">πρῶτος, δεύτερος</span>…): tính từ nhóm o bình thường.</td><td>8</td></tr>
-<tr><td><strong>định ngữ</strong></td><td>attributive</td><td>Tính từ "ghi công" danh từ trong vị trí định ngữ (attributive position: mạo từ + tính từ + danh từ hoặc mạo từ + danh từ + mạo từ + tính từ).</td><td>1</td></tr>
-<tr><td><strong>vị trí định ngữ</strong></td><td>attributive position</td><td>Vị trí "kẹp mạo từ" nhận diện tính từ định ngữ.</td><td>1</td></tr>
-<tr><td><strong>biểu ngữ</strong></td><td>predicate (adjective)</td><td>Tính từ ngoài vị trí định ngữ → nhận "là", nói thêm về chủ ngữ.</td><td>1</td></tr>
-<tr><td><strong>tính từ hai đuôi</strong></td><td>two-ending adjective</td><td>Tính từ đực và cái dùng chung một dạng, trung tính tách riêng – toàn bộ tính từ thuần chia thứ ba đều thuộc đây: <span class="gk">ἀληθής, ἀληθές</span> (thân s, có hợp thể), <span class="gk">εὐδαίμων, εὐδαίμον</span> (thân ν), so sánh hơn <span class="gk">βελτίων, βέλτιον</span>; ngoài ra nhóm 1/2 cũng có nhánh hai đuôi, chủ yếu là từ ghép (<span class="gk">ἄδικος, ἄδικον</span>: đực và cái theo nhóm o). Latin tương ứng: <em>ingēns</em>.</td><td>9</td></tr>
-<tr><td><strong>ἀ- phủ định</strong></td><td>alpha-privativum</td><td>Tiền tố ghép đảo nghĩa của từ đã biết, trước nguyên âm viết <span class="gk">ἀν-</span>: <span class="gk">ἄδικος</span> "bất công" ↔ <span class="gk">δίκη</span> "công lý"; nguồn chính của tính từ hai đuôi nhóm o-/a. Latin: <em>in-</em> (<em>iniūstus</em>), Đức <em>un-</em>.</td><td>9</td></tr>
-<tr><td><strong>tính từ ba đuôi</strong></td><td>three-ending adjective</td><td>Tính từ có dạng cái riêng: nhóm 1/2 (<span class="gk">σοφός, σοφή, σοφόν</span>) và riêng của chia thứ ba <span class="gk">μέλας, μέλαινα, μέλαν</span> (đực/trung chia thứ ba, cái mượn nhóm a).</td><td>1, 9</td></tr>
-<tr><td><strong>trạng từ</strong></td><td>adverb</td><td>Từ chỉ cách thức hành động, luôn bất biến cách (indeclinable). Cách tạo: thân dạng trung tính + -ως: <span class="gk">σοφῶς, ἀληθῶς, εὐδαιμόνως</span>; bất quy tắc nổi tiếng: <span class="gk">εὖ</span> "well". Latin tương ứng: trung tính + <em>-ē</em> (<em>cārē</em>, <em>vērē</em>).</td><td>3, 9</td></tr>
-<tr><td><strong>tác nhân</strong> (của bị động)</td><td>personal agent</td><td>Người thực hiện hành động trong câu bị động: <span class="gk">ὑπό</span> + sở hữu cách (<span class="gk">ὑπὸ τοῦ βασιλέως</span>); deponent mang tác nhân như bị động: <span class="gk">ἡττῶμαι ὑπὸ παιδίου</span>. Latin: <em>ā/ab</em> + cách xóa (ablative).</td><td>5, 10</td></tr>
-<tr><td><strong>trung trực tiếp / trung gián tiếp</strong></td><td>direct middle / indirect middle</td><td>Hai làn nghĩa "quay về chủ ngữ" của đuôi -ομαι: trực tiếp – hành động rơi lên chính chủ ngữ (<span class="gk">λούεται</span> "tắm cho mình"); gián tiếp – hành động vì lợi ích của chủ ngữ (<span class="gk">μισθόεται</span> "thuê cho mình").</td><td>10</td></tr>
-<tr><td><strong>tính từ danh từ hóa</strong></td><td>substantivized adjective</td><td>Mạo từ + tính từ = danh từ: <span class="gk">τὸ ἀγαθόν</span> "cái thiện", <span class="gk">ὁ ἐχθρός</span> "kẻ thù", bài 9 mở rộng: <span class="gk">τὸ ἀληθές</span> "chân lý", <span class="gk">τὸ εὐδαίμον</span> "hạnh phúc". Latin tương tự: <em>bonum</em>, <em>malum</em>.</td><td>5, 9</td></tr>
-<tr><td><strong>lược từ</strong></td><td>ellipsis</td><td>Bỏ bớt từ đã rõ (<span class="gk">ὁδὶ ἄνθρωπος</span> thay vì đầy đủ); kết quả: câu danh ngữ (nominal sentence).</td><td>3</td></tr>
-<tr><td><strong>câu danh ngữ</strong></td><td>nominal sentence</td><td>Câu không động từ (danh từ + danh từ/tính từ). Latin cũng có.</td><td>3</td></tr>
-<tr><td><strong>đại từ nhân xưng</strong></td><td>personal pronoun</td><td><span class="gk">ἐγώ, σύ, ἡμεῖς…</span> – dạng nhấn mạnh vs enclitic. Latin: <em>ego, tu</em> (cùng gốc Ấn-Âu).</td><td>4</td></tr>
-<tr><td><strong>đại từ chỉ định</strong></td><td>demonstrative pronoun</td><td><span class="gk">ὅδε/ἐκεῖνος</span> "này/kia" – Hy Lạp không có danh từ riêng "this/that" kiểu tiếng Anh, mọi việc do đại từ + mạo từ đảm nhận.</td><td>6</td></tr>
-<tr><td><strong>đại từ bất định</strong></td><td>indefinite pronoun</td><td><span class="gk">τις, τι</span> "ai đó / cái gì đó" – enclitic; bảng chia đầy đủ (bài 5): <span class="gk">τινά, τινί, τινές, τινάς, τινά, τινῶν, τισί(ν)</span>; đối trọng từ hỏi <span class="gk">τίς, τί</span> (dấu trên âm đầu). Latin: <em>aliquis, aliquid</em>.</td><td>5</td></tr>
-<tr><td><strong>đại từ quan hệ</strong></td><td>relative pronoun</td><td><span class="gk">ὅς, ἥ, ὅ</span> "(người/cái) mà…": luôn có dấu thanh + dấu hút khí (mạo từ thì không); giống &amp; số theo danh từ đứng trước, cách theo nhiệm vụ trong mệnh đề con. Latin: <em>quī, quae, quod</em> – cùng gốc Ấn-Âu.</td><td>15</td></tr>
-<tr><td><strong>đại từ sở hữu</strong></td><td>possessive pronoun</td><td>Tính từ sở hữu <span class="gk">ἐμός, σός, ἡμέτερος, ὑμέτερος</span> "của tôi/ngươi/chúng ta/các bạn" – vị trí định ngữ, sắc thái nhấn; thường ngày dùng sở hữu cách đại từ (<span class="gk">ὁ πατήρ μου</span>). Ngôi 3 không có tính từ sở hữu: mượn <span class="gk">αὐτοῦ/αὐτῆς</span> (<span class="gk">ὁ πατὴρ αὐτοῦ</span>). Latin: <em>meus, tuus</em>…</td><td>15</td></tr>
-<tr><td><strong>đại từ phản thân</strong></td><td>reflexive pronoun</td><td><span class="gk">ἑαυτοῦ/ἑαυτῷ/ἑαυτόν</span> (ngôi 3), <span class="gk">ἐμαυτοῦ, σεαυτοῦ</span> (ngôi 1/2) – "chính mình", không có chủ cách; chiếu về chủ ngữ; sau danh từ = "của chính mình" (<span class="gk">ὁ ἑαυτοῦ πατήρ</span>). Bẫy: dạng co <span class="gk">αὑτοῦ</span> (hít khí) = phản thân ≠ <span class="gk">αὐτοῦ</span> "của hắn". Latin: <em>sē, suī, suus</em>.</td><td>15</td></tr>
-</tbody>
-</table>
+    <!-- MỤC 5 -->
+    <section id="sec-5">
+      <h2>5. Cú pháp</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Tiếng Việt (Chuẩn)</th>
+              <th>Tiếng Anh</th>
+              <th>Giải thích</th>
+              <th style="text-align:right;">Bài</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="term-vi">chủ ngữ</td>
+              <td class="term-en">subject</td>
+              <td>Thành phần chính nêu chủ thể của hành động hoặc trạng thái; thường được đánh dấu trực tiếp qua biến tố ngôi của động từ.</td>
+              <td class="lesson-col">1</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tân ngữ</td>
+              <td class="term-en">object</td>
+              <td>Thành phần phụ chịu sự chi phối của ngoại động từ: tân ngữ trực tiếp thường ở đối cách, tân ngữ gián tiếp thường ở tặng cách.</td>
+              <td class="lesson-col">1, 4</td>
+            </tr>
+            <tr>
+              <td class="term-vi">song đối cách</td>
+              <td class="term-en">double accusative</td>
+              <td>Cấu trúc một động từ chi phối đồng thời hai đối cách: đối cách chỉ người + đối cách chỉ vật (<span class="grk">διδάσκω</span>), hoặc tân ngữ + bổ ngữ vị ngữ (<span class="grk">νομίζω</span>).</td>
+              <td class="lesson-col">2, 5</td>
+            </tr>
+            <tr>
+              <td class="term-vi">cấu trúc đối cách + nguyên mẫu (AcI)</td>
+              <td class="term-en">accusative + infinitive (AcI)</td>
+              <td>Cấu trúc mệnh đề phụ thuộc sau động từ tri giác, tư duy, phát ngôn (<span class="grk">νομίζω αὐτὸν σοφὸν εἶναι</span>). Mở rộng ở bài 18: động từ truyền lệnh, biến thể <span class="grk">ὡς</span> + AcI, cấu trúc chủ cách + nguyên mẫu (<em>nominative + infinitive</em>) khi đồng chủ ngữ. Tiếng Latin có cấu trúc tương đương: <em>putō Sōcratem sapientem esse</em>.</td>
+              <td class="lesson-col">4, 18</td>
+            </tr>
+            <tr>
+              <td class="term-vi">bổ ngữ giới từ</td>
+              <td class="term-en">prepositional object</td>
+              <td>Danh ngữ nối với động từ thông qua một giới từ (<span class="grk">βλέπω εἰς τὸν οὐρανόν</span> "nhìn lên bầu trời").</td>
+              <td class="lesson-col">1, 10</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tường thuật gián tiếp</td>
+              <td class="term-en">indirect speech (<em>oratio obliqua</em>)</td>
+              <td>Thuật lại nội dung lời nói/suy nghĩ qua mệnh đề dẫn bởi <span class="grk">ὅτι / ὡς</span> + động từ chia, hoặc qua cấu trúc AcI / phân từ. Tiếng Latin ưu tiên dùng AcI.</td>
+              <td class="lesson-col">4, 17</td>
+            </tr>
+            <tr>
+              <td class="term-vi">sự hòa phối thì–thức <small>(luật tiếp ứng thì)</small></td>
+              <td class="term-en">sequence of tenses / moods</td>
+              <td>Quy tắc tương ứng giữa thì của động từ chính và thức/thì của mệnh đề phụ thuộc: sau thì chính (<em>primary</em>: hiện tại, tương lai, hoàn thành), mệnh đề gián tiếp giữ nguyên thức chỉ định; sau thì phụ (<em>secondary</em>: quá khứ), thức chỉ định có thể chuyển sang thức cầu mong (<em>oblique optative</em>).</td>
+              <td class="lesson-col">17, 25</td>
+            </tr>
+            <tr>
+              <td class="term-vi">mệnh đề truyền lệnh gián tiếp</td>
+              <td class="term-en">indirect command</td>
+              <td>Cấu trúc tường thuật mệnh lệnh: <span class="grk">κελεύω / ἐντέλλομαι / παραγγέλλω</span> + đối cách + nguyên mẫu; phủ định bằng <span class="grk">μή</span>. Tiếng Latin: <em>iubeō aliquem facere / vetō aliquem facere</em>.</td>
+              <td class="lesson-col">18</td>
+            </tr>
+            <tr>
+              <td class="term-vi">câu hỏi gián tiếp</td>
+              <td class="term-en">indirect question</td>
+              <td>Mệnh đề nghi vấn nhúng vào câu tường thuật, mở đầu bằng <span class="grk">εἰ</span> ("liệu... không") hoặc đại từ/trạng từ nghi vấn (<span class="grk">τίς, ὅστις, ἀνθ᾿ ὅτου</span>). Sau thì quá khứ của động từ dẫn, thức chỉ định có thể chuyển sang thức cầu mong; tiếng Latin bắt buộc dùng thức giả định (<em>rogāvit quis esset</em>).</td>
+              <td class="lesson-col">18</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thời gian tương đối của nguyên mẫu</td>
+              <td class="term-en">relative time of the infinitive</td>
+              <td>Trong cấu trúc AcI, thì của nguyên mẫu biểu thị quan hệ thời gian tương đối so với động từ dẫn: hiện tại = đồng thời; aorist = xảy ra trước (sự kiện); hoàn thành = xảy ra trước (trạng thái còn lưu); tương lai = xảy ra sau (<span class="grk">λύειν / λῦσαι / λελυκέναι / λύσειν</span>).</td>
+              <td class="lesson-col">18</td>
+            </tr>
+            <tr>
+              <td class="term-vi">phân từ tình huống <small>(phân từ trạng ngữ)</small></td>
+              <td class="term-en">circumstantial participle</td>
+              <td>Phân từ làm thành phần trạng ngữ bổ sung ý nghĩa thời gian, nguyên nhân, điều kiện, nhượng bộ hoặc cách thức cho động từ chính; hòa hợp giống-số-cách với danh từ nó bổ nghĩa (<span class="grk">ἔλαθε λοχῶν</span>); phủ định bằng <span class="grk">οὐ</span>.</td>
+              <td class="lesson-col">19, 20</td>
+            </tr>
+            <tr>
+              <td class="term-vi">phân từ thuộc ngữ</td>
+              <td class="term-en">attributive participle</td>
+              <td>Phân từ đứng ở vị trí thuộc ngữ (thường có mạo từ), tương đương mệnh đề quan hệ (<span class="grk">ὁ φυλάσσων</span> "người đang canh gác"); khi lược bỏ danh từ trung tâm sẽ trở thành phân từ danh hóa (<span class="grk">τὸ γενόμενον</span> "sự việc đã xảy ra").</td>
+              <td class="lesson-col">19</td>
+            </tr>
+            <tr>
+              <td class="term-vi">cấu trúc đối cách + phân từ (AccP)</td>
+              <td class="term-en">accusative + participle</td>
+              <td>Cấu trúc bổ ngữ sau động từ tri giác/nhận thức (<span class="grk">ὁράω, ἀκούω, οἶδα</span>): tân ngữ đối cách đi kèm phân từ hòa hợp cách-giống-số (<span class="grk">ἑώρων τὸν Δόρκωνα δεδηγμένον</span> "họ thấy Dorcon đã bị cắn"). Tiếng Latin: <em>accusativus cum participio</em> (<em>vīdī eum currentem</em>).</td>
+              <td class="lesson-col">19</td>
+            </tr>
+            <tr>
+              <td class="term-vi">phân từ thì tương lai</td>
+              <td class="term-en">future participle</td>
+              <td>Biểu thị hành động sắp xảy ra ở vị trí thuộc ngữ (<span class="grk">ὁ λύσων</span> "người sẽ giải thoát"), hoặc biểu thị <strong>mục đích</strong> khi đi sau động từ chuyển động (<span class="grk">πέμπει... ληψομένους</span> "cử người đi để lấy").</td>
+              <td class="lesson-col">19</td>
+            </tr>
+            <tr>
+              <td class="term-vi">sở hữu cách tuyệt đối</td>
+              <td class="term-en">genitive absolute</td>
+              <td>Cấu trúc mệnh đề rút gọn độc lập về cú pháp với mệnh đề chính: gồm danh từ/đại từ (làm chủ thể riêng, khác chủ ngữ mệnh đề chính) + phân từ cùng đặt ở <strong>sở hữu cách</strong>, diễn đạt bối cảnh thời gian, nguyên nhân, điều kiện, nhượng bộ (<span class="grk">Ἰσθμίων ὄντων κατέβη Διογένης</span>).</td>
+              <td class="lesson-col">20</td>
+            </tr>
+            <tr>
+              <td class="term-vi">rời cách tuyệt đối <small>(Latin)</small></td>
+              <td class="term-en">ablativus absolutus</td>
+              <td>Cấu trúc tương đương của tiếng Latin dùng rời cách (<em>urbe captā</em> "khi thành bị chiếm", <em>Caesare interfectō</em> "khi Caesar bị giết"); tiếng Hy Lạp dùng sở hữu cách tuyệt đối để đảm nhiệm chức năng này (<span class="grk">ἁλούσης τῆς πόλεως</span>).</td>
+              <td class="lesson-col">20</td>
+            </tr>
+            <tr>
+              <td class="term-vi">phân từ và nguyên mẫu</td>
+              <td class="term-en">participle vs. infinitive</td>
+              <td>Hai hình thái phi ngôi vị của động từ: nguyên mẫu không biến cách nên đảm nhiệm vai trò danh ngữ (chủ ngữ, tân ngữ trong AcI); phân từ biến cách theo giống-số-cách như tính từ nên có khả năng liên kết linh hoạt và cô đọng mệnh đề phụ trong văn xuôi Attic.</td>
+              <td class="lesson-col">20</td>
+            </tr>
+            <tr>
+              <td class="term-vi">câu điều kiện</td>
+              <td class="term-en">conditional sentence</td>
+              <td>Câu phức gồm hai mệnh đề: <strong>mệnh đề điều kiện</strong> (<em>protasis</em>) nêu giả thiết và <strong>mệnh đề hệ quả / mệnh đề chính</strong> (<em>apodosis</em>) nêu kết quả (<span class="grk">εἰ ταῦτα λέγεις, ἀληθῆ λέγεις</span>).</td>
+              <td class="lesson-col">21</td>
+            </tr>
+            <tr>
+              <td class="term-vi">mệnh đề điều kiện</td>
+              <td class="term-en">protasis</td>
+              <td>Mệnh đề phụ nêu giả thiết, mở đầu bằng <span class="grk">εἰ</span> hoặc <span class="grk">ἐάν</span> (<span class="grk">κἄν = καὶ ἐάν</span>); phủ định dùng <span class="grk">οὐ</span> (với thức chỉ định/cầu mong) hoặc <span class="grk">μή</span> (với thức giả định).</td>
+              <td class="lesson-col">21</td>
+            </tr>
+            <tr>
+              <td class="term-vi">mệnh đề hệ quả <small>(mệnh đề chính)</small></td>
+              <td class="term-en">apodosis</td>
+              <td>Mệnh đề chính nêu kết quả của giả thiết; dạng rút gọn <span class="grk">εἰ δὲ μή</span> ("còn nếu không") phủ định toàn bộ giả thiết đứng trước.</td>
+              <td class="lesson-col">21</td>
+            </tr>
+            <tr>
+              <td class="term-vi">điều kiện khái quát</td>
+              <td class="term-en">general condition</td>
+              <td>Câu điều kiện diễn đạt quy luật phổ quát hoặc sự việc lặp lại ("mỗi khi... thì..."): hiện tại dùng <span class="grk">ἐάν</span> + thức giả định; quá khứ dùng <span class="grk">εἰ</span> + thức cầu mong (<span class="grk">ἐὰν λέγῃ, ἀκούω</span> "mỗi khi hắn nói, ta đều nghe").</td>
+              <td class="lesson-col">21</td>
+            </tr>
+            <tr>
+              <td class="term-vi">mệnh đề trạng ngữ chỉ thời gian</td>
+              <td class="term-en">temporal clause</td>
+              <td>Mệnh đề phụ chỉ thời gian mở đầu bằng <span class="grk">ὅτε / ὅταν, ἐπεί / ἐπειδή / ἐπειδάν, ἕως / ἔστε, πρίν</span>; sự việc xác thực dùng thức chỉ định, sự việc khái quát/lặp lại dùng thức giả định hoặc thức cầu mong.</td>
+              <td class="lesson-col">22</td>
+            </tr>
+            <tr>
+              <td class="term-vi">mệnh đề trạng ngữ chỉ nguyên nhân</td>
+              <td class="term-en">causal clause</td>
+              <td>Mệnh đề phụ chỉ nguyên nhân mở đầu bằng <span class="grk">ὅτι / διότι</span> + thức chỉ định, <span class="grk">ἐπεί</span>, hoặc cấu trúc <span class="grk">ὡς</span> + phân từ tình huống.</td>
+              <td class="lesson-col">22</td>
+            </tr>
+            <tr>
+              <td class="term-vi">liên từ phụ thuộc</td>
+              <td class="term-en">subordinating conjunction</td>
+              <td>Từ nối gắn mệnh đề phụ thuộc vào mệnh đề chính (<span class="grk">εἰ, ὅτε, ἐπεί, ὅτι</span>...); phân biệt với giới từ ở đặc điểm chi phối mệnh đề có động từ chia thay vì danh ngữ.</td>
+              <td class="lesson-col">22</td>
+            </tr>
+            <tr>
+              <td class="term-vi">thức cầu mong lặp lại</td>
+              <td class="term-en">iterative optative</td>
+              <td>Cách dùng thức cầu mong trong mệnh đề thời gian hoặc điều kiện ở bối cảnh quá khứ để chỉ hành động lặp đi lặp lại ("mỗi khi..."): <span class="grk">ὅτε δ᾿ ἔξω τοῦ δεινοῦ γένοιντο</span> (Xenophon, <em>Anabasis</em> 2.6.12).</td>
+              <td class="lesson-col">22</td>
+            </tr>
+            <tr>
+              <td class="term-vi">sắc lệnh tôn vinh</td>
+              <td class="term-en">honorific decree</td>
+              <td>Thể loại minh văn nghị quyết công cộng tuyên dương cá nhân theo cấu trúc chuẩn 6 phần: lời cầu thần &rarr; niên đại &rarr; người đề xướng &rarr; mệnh đề nguyên nhân (<span class="grk">ἐπειδή</span>) &rarr; quyết nghị (<span class="grk">δεδόχθαι</span> + chuỗi nguyên mẫu) &rarr; quy định thi hành (<span class="grk">ἐπαινέσαι... στεφανῶσαι</span>).</td>
+              <td class="lesson-col">24</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tặng cách sở hữu</td>
+              <td class="term-en">dative of possession</td>
+              <td>Cấu trúc <span class="grk">εἰμί / γίγνομαι</span> + tặng cách biểu thị sự sở hữu (<span class="grk">ἔστι μοι βιβλίον</span> "tôi có một cuốn sách").</td>
+              <td class="lesson-col">1, 4</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tặng cách công cụ</td>
+              <td class="term-en">instrumental dative</td>
+              <td>Tặng cách không có giới từ biểu thị phương tiện hoặc công cụ thực hiện hành động ("bằng cái gì").</td>
+              <td class="lesson-col">4</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tặng cách chỉ thời điểm</td>
+              <td class="term-en">dative of time ("when")</td>
+              <td>Danh từ chỉ thời gian ở tặng cách (thường không có giới từ) định vị một thời điểm cụ thể ("vào lúc nào"): <span class="grk">ταύτῃ τῇ ἡμέρᾳ</span> "vào ngày ấy". Tiếng Latin dùng rời cách (<em>eōdem diē</em>).</td>
+              <td class="lesson-col">11</td>
+            </tr>
+            <tr>
+              <td class="term-vi">đối cách chỉ thời lượng</td>
+              <td class="term-en">accusative of extent of time ("how long")</td>
+              <td>Danh từ chỉ thời gian ở đối cách biểu thị khoảng thời gian kéo dài ("trong bao lâu"): <span class="grk">μακρὸν χρόνον</span> "trong một thời gian dài", <span class="grk">τὴν νύκτα</span> "suốt đêm". Tiếng Latin cũng dùng đối cách (<em>decem annōs</em>).</td>
+              <td class="lesson-col">11</td>
+            </tr>
+            <tr>
+              <td class="term-vi">sở hữu cách chỉ khung thời gian</td>
+              <td class="term-en">genitive of time ("within what time")</td>
+              <td>Danh từ chỉ thời gian ở sở hữu cách biểu thị khoảng thời gian mà trong phạm vi đó sự việc diễn ra: <span class="grk">καὶ ἡμέρας καὶ νυκτός</span> "cả ngày lẫn đêm", <span class="grk">χειμῶνος</span> "vào mùa đông".</td>
+              <td class="lesson-col">09b, 11</td>
+            </tr>
+            <tr>
+              <td class="term-vi">cấp so sánh hơn</td>
+              <td class="term-en">comparative</td>
+              <td>Hình thái so sánh bậc hai của tính từ/trạng từ: hậu tố <span class="grk">-τερος</span> (<span class="grk">σοφώτερος</span>) hoặc dạng bất quy tắc (<span class="grk">ἀμείνων, χείρων, μείζων</span>); kết hợp với liên từ <span class="grk">ἤ</span> hoặc <strong>sở hữu cách so sánh</strong> (<span class="grk">σοφώτερός ἐστιν ἐμοῦ</span>).</td>
+              <td class="lesson-col">09b</td>
+            </tr>
+            <tr>
+              <td class="term-vi">cấp so sánh nhất</td>
+              <td class="term-en">superlative</td>
+              <td>Hình thái so sánh bậc ba: hậu tố <span class="grk">-τατος</span> (<span class="grk">σοφώτατος</span>) hoặc dạng bất quy tắc (<span class="grk">ἄριστος, μέγιστος</span>); thường đi kèm sở hữu cách bộ phận (<span class="grk">σοφώτατος πάντων</span>). Khi không có đối tượng đối chiếu, mang nghĩa tuyệt đối (<em>elative</em>: "rất...").</td>
+              <td class="lesson-col">09b</td>
+            </tr>
+            <tr>
+              <td class="term-vi">sở hữu cách so sánh</td>
+              <td class="term-en">genitive of comparison</td>
+              <td>Dùng sở hữu cách cho chuẩn so sánh thay vì cấu trúc <span class="grk">ἤ</span> + cách tương ứng: <span class="grk">σοφώτερος ἐμοῦ = σοφώτερος ἢ ἐγώ</span> ("khôn hơn tôi").</td>
+              <td class="lesson-col">09b</td>
+            </tr>
+            <tr>
+              <td class="term-vi">sở hữu cách bộ phận</td>
+              <td class="term-en">partitive genitive</td>
+              <td>Sở hữu cách biểu thị tổng thể mà từ đó trích ra một phần: <span class="grk">σοφώτατος πάντων τῶν πολιτῶν</span> ("người khôn ngoan nhất trong số tất cả công dân"), <span class="grk">τῶν φίλων οἱ πλεῖστοι</span> ("phần đông trong số bạn bè").</td>
+              <td class="lesson-col">09b</td>
+            </tr>
+            <tr>
+              <td class="term-vi">giới từ chi phối hai cách</td>
+              <td class="term-en">two-way (dual) preposition</td>
+              <td>Giới từ có thể đi với hai cách khác nhau kèm sự phân biệt ngữ nghĩa rõ rệt (ví dụ <span class="grk">μετά, πρός</span>: + đối cách chỉ hướng vận động; + tặng cách chỉ vị trí tĩnh hoặc đồng hành).</td>
+              <td class="lesson-col">4</td>
+            </tr>
+            <tr>
+              <td class="term-vi">trực chỉ <small>(tính trực chỉ)</small></td>
+              <td class="term-en">deixis</td>
+              <td>Phạm trù ngữ dụng học định vị không gian, thời gian, ngôi vị dựa trên tọa độ người nói: <span class="grk">ὅδε</span> (gần người nói / sắp nêu) / <span class="grk">οὗτος</span> (vừa nhắc tới / gần người nghe) / <span class="grk">ἐκεῖνος</span> (xa cả hai).</td>
+              <td class="lesson-col">6</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tiểu từ phủ định</td>
+              <td class="term-en">negation</td>
+              <td>Phân biệt hai hệ thống phủ định: <span class="grk">οὐ</span> phủ định sự thật khách quan (thức chỉ định); <span class="grk">μή</span> phủ định ý chí, giả thiết, mục đích, mệnh lệnh. Tiếng Latin: <em>nōn / nē</em>.</td>
+              <td class="lesson-col">4, 7</td>
+            </tr>
+            <tr>
+              <td class="term-vi">biểu thức chỉ thời gian</td>
+              <td class="term-en">time expression</td>
+              <td>Các trạng từ định vị thời gian (<span class="grk">τότε, πρότερον, ἔτι, οὐκέτι, ἀεί, πάλαι, αὔριον</span>), công thức niên đại (<span class="grk">ἐπ᾿ ἄρχοντος</span> + sở hữu cách, tương ứng cấu trúc <em>ablativus absolutus</em> chỉ chấp chính quan trong tiếng Latin) và ba cách chỉ thời gian (tặng cách = thời điểm, đối cách = thời lượng, sở hữu cách = khung thời gian).</td>
+              <td class="lesson-col">11, 12</td>
+            </tr>
+            <tr>
+              <td class="term-vi">mệnh đề quan hệ</td>
+              <td class="term-en">relative clause</td>
+              <td>Mệnh đề phụ thuộc định ngữ mở đầu bằng đại từ quan hệ (<span class="grk">ὁ ἄνθρωπος ὃν βλέπω</span> "người mà tôi thấy"). Đại từ quan hệ hòa hợp giống-số với danh từ tiền vị (<em>antecedent</em>) và nhận cách theo chức năng trong mệnh đề quan hệ. Tiếng Latin: <em>hominem quem videō</em>.</td>
+              <td class="lesson-col">15</td>
+            </tr>
+            <tr>
+              <td class="term-vi">hiện tượng hút cách</td>
+              <td class="term-en">case attraction</td>
+              <td>Hiện tượng đại từ quan hệ (lẽ ra ở đối cách) bị đồng hóa về sở hữu cách hoặc tặng cách theo danh từ tiền vị: <span class="grk">τοῦ ποταμοῦ οὗ βλέπεις</span> (thay vì <span class="grk">ὅν</span>). Đặc trưng văn xuôi Attic cổ điển; tiếng Latin không có hiện tượng này.</td>
+              <td class="lesson-col">15</td>
+            </tr>
+            <tr>
+              <td class="term-vi">mệnh đề trạng ngữ chỉ mục đích</td>
+              <td class="term-en">final (purpose) clause</td>
+              <td>Mệnh đề phụ biểu thị mục đích, mở đầu bằng <span class="grk">ἵνα / ὅπως / ὡς</span> + thức giả định (hoặc thức cầu mong sau thì quá khứ); phủ định <span class="grk">ἵνα μή</span>. Tiếng Latin: <em>ut</em> + thức giả định.</td>
+              <td class="lesson-col">16</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tiểu từ tình thái / liên kết</td>
+              <td class="term-en">particle</td>
+              <td>Từ hư không biến cách dùng để kết nối mạch văn hoặc biểu thị sắc thái tình thái của người nói (<span class="grk">ἄν, μέν... δέ, γάρ, δή</span>).</td>
+              <td class="lesson-col">16</td>
+            </tr>
+            <tr>
+              <td class="term-vi">sự hòa phối thì–thức <small>(luật tiếp ứng thì)</small></td>
+              <td class="term-en">sequence of tenses (Latin: <em>consecutio temporum</em>)</td>
+              <td>Quy tắc điều chỉnh thức trong mệnh đề phụ thuộc dựa trên thì của động từ chính: sau <strong>thì chính</strong> (<em>primary sequence</em>), mệnh đề gián tiếp giữ thức chỉ định; sau <strong>thì phụ</strong> (<em>secondary sequence</em>), thức chỉ định có thể chuyển sang thức cầu mong. Tiếng Latin điều chỉnh <strong>thì</strong>, còn tiếng Hy Lạp điều chỉnh <strong>thức</strong>.</td>
+              <td class="lesson-col">25</td>
+            </tr>
+            <tr>
+              <td class="term-vi">chuỗi thì chính</td>
+              <td class="term-en">primary sequence</td>
+              <td>Hệ thống thì bao gồm hiện tại, tương lai và hoàn thành ở động từ dẫn: mệnh đề tường thuật gián tiếp giữ nguyên thức chỉ định.</td>
+              <td class="lesson-col">25</td>
+            </tr>
+            <tr>
+              <td class="term-vi">chuỗi thì phụ</td>
+              <td class="term-en">secondary sequence</td>
+              <td>Hệ thống các thì quá khứ (<em>imperfect, aorist, pluperfect</em>) ở động từ dẫn: cho phép chuyển thức chỉ định trong mệnh đề gián tiếp sang thức cầu mong (<span class="grk">ἠρώτων εἰ βούλοιτό με σῶσαι</span>).</td>
+              <td class="lesson-col">25</td>
+            </tr>
+            <tr>
+              <td class="term-vi">bảo lưu thức</td>
+              <td class="term-en">retained mood</td>
+              <td>Hiện tượng giữ nguyên thức chỉ định hoặc thức giả định gốc trong mệnh đề gián tiếp dù động từ dẫn ở chuỗi thì phụ, nhằm nhấn mạnh tính trực tiếp hoặc sinh động của lời nói (<span class="grk">ἀγαπήσειν με ἔφασκεν, εἰ τὸ σῶμα σώσω</span>).</td>
+              <td class="lesson-col">25</td>
+            </tr>
+            <tr>
+              <td class="term-vi">động từ dẫn</td>
+              <td class="term-en">reporting verb</td>
+              <td>Động từ mở đầu lời tường thuật gián tiếp (<span class="grk">λέγω, φημί, οἶδα, ἐρωτάω</span>...), quyết định cấu trúc mệnh đề đi sau (<span class="grk">ὅτι/ὡς, εἰ</span>, AcI) và chuỗi hòa phối thì–thức.</td>
+              <td class="lesson-col">25</td>
+            </tr>
+            <tr>
+              <td class="term-vi">mệnh đề trạng ngữ chỉ kết quả</td>
+              <td class="term-en">result clause</td>
+              <td>Mệnh đề phụ sau <span class="grk">ὥστε</span> biểu thị hệ quả: kết quả thực tế đã xảy ra dùng thức chỉ định; kết quả tự nhiên/khả năng dùng nguyên mẫu (hoặc <span class="grk">ἄν</span> + thức cầu mong). Tiếng Latin: <em>ut</em> + thức giả định.</td>
+              <td class="lesson-col">26</td>
+            </tr>
+            <tr>
+              <td class="term-vi">phân biệt <span class="grk">ὡς</span> và <span class="grk">ὅτι</span> trong tường thuật</td>
+              <td class="term-en"><em>ὡς</em> vs. <em>ὅτι</em> in indirect speech</td>
+              <td>Hai liên từ mở đầu mệnh đề tường thuật gián tiếp: <span class="grk">ὅτι</span> mang sắc thái khách quan, trung tính; <span class="grk">ὡς</span> thường mang sắc thái chủ quan, diễn giải hoặc nghi ngờ của người tường thuật.</td>
+              <td class="lesson-col">26</td>
+            </tr>
+            <tr>
+              <td class="term-vi">bốn chức năng chính của <span class="grk">ὡς</span></td>
+              <td class="term-en">the four uses of <em>ὡς</em></td>
+              <td>Đa chức năng cú pháp của <span class="grk">ὡς</span>: 1) liên từ tường thuật ("rằng"); 2) liên từ mục đích ("để"); 3) liên từ so sánh/cách thức ("như là"); 4) liên từ nguyên nhân ("bởi vì", thường đi kèm phân từ).</td>
+              <td class="lesson-col">26</td>
+            </tr>
+            <tr>
+              <td class="term-vi">vĩ ngữ đạo lý <small>(kết ngữ ngụ ngôn)</small></td>
+              <td class="term-en">epimythium</td>
+              <td>Câu đúc kết bài học đạo lý ở cuối truyện ngụ ngôn Aesop, thường theo công thức <span class="grk">ὁ λόγος δηλοῖ ὅτι...</span> ("câu chuyện cho thấy rằng..."). Tương đương <em>epimythium</em> trong ngụ ngôn Latin của Phaedrus.</td>
+              <td class="lesson-col">26</td>
+            </tr>
+            <tr>
+              <td class="term-vi">tóm tắt dẫn nhập kịch <small>(hypothesis)</small></td>
+              <td class="term-en">hypothesis</td>
+              <td>Văn bản tóm tắt cốt truyện và thông tin diễn xuất đặt trước một vở kịch cổ điển (truyền thống học thuật từ Aristophanes xứ Byzantium).</td>
+              <td class="lesson-col">26</td>
+            </tr>
+            <tr>
+              <td class="term-vi">nguyên mẫu có mạo từ</td>
+              <td class="term-en">articular infinitive</td>
+              <td>Nguyên mẫu kết hợp với mạo từ giống trung số ít (<span class="grk">τό, τοῦ, τῷ, τόν</span>), hoạt động như một danh từ trừu tượng có đầy đủ khả năng biến cách (Smyth &sect;&sect;2025–2032).</td>
+              <td class="lesson-col">27</td>
+            </tr>
+            <tr>
+              <td class="term-vi">giới từ + mạo từ + nguyên mẫu</td>
+              <td class="term-en">preposition + article + infinitive</td>
+              <td>Cấu trúc danh hóa mệnh đề sau giới từ: <span class="grk">διὰ τό</span> (nguyên nhân), <span class="grk">ἐν τῷ</span> (trong khi), <span class="grk">μετὰ τό</span> (sau khi), <span class="grk">πρὸς τό</span> (hướng tới/mục đích), <span class="grk">ἕνεκα τοῦ</span> (vì mục đích).</td>
+              <td class="lesson-col">27</td>
+            </tr>
+            <tr>
+              <td class="term-vi">chủ ngữ của nguyên mẫu có mạo từ</td>
+              <td class="term-en">subject of the articular infinitive</td>
+              <td>Khi chủ ngữ của nguyên mẫu khác chủ ngữ câu chính, nó được đặt ở <strong>đối cách</strong>; nếu trùng chủ ngữ hoặc mang nghĩa phiếm chỉ thì thường tỉnh lược (<span class="grk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span>).</td>
+              <td class="lesson-col">27</td>
+            </tr>
+            <tr>
+              <td class="term-vi">phủ định <span class="grk">μή</span> với nguyên mẫu có mạo từ</td>
+              <td class="term-en"><em>μή</em> with the articular infinitive</td>
+              <td>Nguyên mẫu có mạo từ luôn dùng tiểu từ phủ định <span class="grk">μή</span> (Smyth &sect;2028), ngay cả khi biểu thị nguyên nhân thực tế (<span class="grk">διὰ τὸ μὴ εὑρεῖν</span>, không dùng <span class="grk">οὐ</span>).</td>
+              <td class="lesson-col">27</td>
+            </tr>
+            <tr>
+              <td class="term-vi">mạo từ phân tách <small>(hyperbaton)</small></td>
+              <td class="term-en">misleading article (<em>hyperbaton</em>)</td>
+              <td>Hiện tượng đảo trật tự từ (<em>hyperbaton</em>) khiến mạo từ và danh từ bị tách rời bởi một cụm định ngữ sở hữu xen giữa (<span class="grk">τὰς τοῦ θεοῦ... χάριτας</span> = "những ân huệ của vị thần"), dễ gây nhầm lẫn với cấu trúc nguyên mẫu có mạo từ.</td>
+              <td class="lesson-col">27</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-<h2 id="verbs">4. Động từ</h2>
-<table>
-<thead><tr><th>Tiếng Việt</th><th>Tiếng Anh</th><th>Giải thích</th><th>Bài</th></tr></thead>
-<tbody>
-<tr><td><strong>ngôi</strong></td><td>person</td><td>1/2/3 × số ít/nhiều = 6 ngôi. Chia đủ trên bảng; chủ ngữ thường ẩn trong đuôi.</td><td>1, 2</td></tr>
-<tr><td><strong>thời</strong></td><td>tense</td><td>Hiện tại (present) là thời đầu tiên; quá khứ chưa hoàn thành (imperfect) là thời quá khứ đầu tiên; tương lai (future) là thời thứ ba – thời Hy Lạp gói cả khía cạnh (aspect).</td><td>2, 11, 12, 13, 14</td></tr>
-<tr><td><strong>quá khứ chưa hoàn thành</strong></td><td>imperfect</td><td>Thời quá khứ nhìn hành động "từ bên trong", như đang diễn ra tại một điểm quá khứ: vẽ nền tường thuật, thói quen, tiến triển bị cắt ngang: <span class="gk">ἐπαίδευον, ἔλεγεν, ἦν</span>. Latin: <em>amābam</em> (-bā-).</td><td>11</td></tr>
-<tr><td><strong>augment (tăng phụ)</strong></td><td>augment</td><td>Âm tiết <span class="gk">ἐ-</span> gắn vào đầu động từ đánh dấu quá khứ ở chỉ định; tăng phụ nguyên âm (temporal augment) kéo dài nguyên âm đầu: <span class="gk">ἀκούω → ἤκουον</span>; động từ ghép: augment chèn giữa tiền tố và thân: <span class="gk">προέκρινεν</span>; ngoại lệ hay gặp: <span class="gk">ἔχω → εἶχον</span>.</td><td>11</td></tr>
-<tr><td><strong>tương lai</strong></td><td>future</td><td>Thời của chuyện sắp tới: thân hiện tại + σ + đuôi (<span class="gk">παιδεύσω, γράψω, ἄξω</span>); m/p <span class="gk">-σομαι</span>; <span class="gk">εἰμί</span>: <span class="gk">ἔσομαι, ἔσται</span>. Không augment. Nhóm đổi giọng (hiện tại chủ động, tương lai m/p): <span class="gk">λήψομαι, τέξομαι, ἀκούσομαι</span>. Latin: <em>amābō</em> (-b-) / <em>legam</em> (-ā-/-ē-).</td><td>12</td></tr>
-<tr><td><strong>động từ co</strong></td><td>contract verb</td><td>Thân tận cùng nguyên âm (<span class="gk">ποιέω, τιμάω, δηλόω</span>): nguyên âm thân + nguyên âm đuôi co thành một âm với dấu tròn (<span class="gk">ποιῶ, τιμᾷς, δηλοῖ</span>); imperfect <span class="gk">ἐποίει, ἐτίμα</span> (augment + thân chưa co + đuôi thứ cấp); tương lai KHÔNG co <span class="gk">ποιήσω</span> với accent đứng trên nguyên âm dài của thân.</td><td>12</td></tr>
-<tr><td><strong>động từ ghép</strong></td><td>compound verb</td><td>Tiền tố (prepositional prefix) + động từ gốc (simplex); augment chèn <em>giữa</em> tiền tố và thân: <span class="gk">προέκρινεν, ἐξέβαλλον, συνελάμβανον</span>. Tiền tố tận cùng nguyên âm lược âm (trừ <span class="gk">περι-/προ-</span>), tận cùng phụ âm hoàn tác đồng hóa, <span class="gk">ἐκ- → ἐξ-</span>.</td><td>11</td></tr>
-<tr><td><strong>tương lai lỏng</strong></td><td>liquid future</td><td>Động từ thân λ/μ/ν/ρ: σ rụt, nguyên âm bù kéo dài (compensatory lengthening): <span class="gk">μένω → μενῶ, κρῑνῶ</span>; hình thức trùng bảng động từ co – phân biệt bằng dạng từ điển.</td><td>12</td></tr>
-<tr><td><strong>hiện tại lịch sử</strong></td><td>historic present</td><td>Kể chuyện quá khứ bằng hiện tại cho cảnh sinh động (<span class="gk">δίδωσιν</span> "rồi hắn đưa"); khi dịch hạ về quá khứ.</td><td>12</td></tr>
-<tr><td><strong>aorist</strong></td><td>aorist</td><td>Thời-quá-khứ chốt sự kiện như một tổng thể (<span class="gk">ἀόριστος</span> "không ranh giới"): augment + thân riêng + đuôi; đối lập imperfect vẽ nền (<span class="gk">ἔλυσα</span> vs <span class="gk">ἐλύον</span>).</td><td>13</td></tr>
-<tr><td><strong>aorist sigmatic (thứ nhất)</strong></td><td>first (sigmatic) aorist</td><td>Thân hiện tại + σ + đuôi <span class="gk">-α/-ας/-ε(ν)…</span> (<span class="gk">ἔλυσα, ἔγραψα, ἐποίησα</span>); m/p <span class="gk">ἐλυσάμην</span>.</td><td>13</td></tr>
-<tr><td><strong>aorist chủ đề (thematic, thứ hai)</strong></td><td>second (thematic) aorist</td><td>Thân khác thân hiện tại + nguyên âm chủ đề + đuôi thứ cấp (<span class="gk">ἦλθον, ἔλαβον, εὗρον, ἐγενόμην, εἶπον</span>): cùng bộ đuôi với imperfect.</td><td>13</td></tr>
-<tr><td><strong>aorist thân lỏng (liquid)</strong></td><td>liquid aorist</td><td>Thân λ/μ/ν/ρ: σ rụt, nguyên âm bù (<span class="gk">ἔμεινα, ἔκρῑνα, ἔστειλα, ἀπεκρινάμην</span>) – anh em với tương lai lỏng.</td><td>13</td></tr>
-<tr><td><strong>khía cạnh</strong></td><td>aspect</td><td>Góc nhìn về hành động: chốt tổng thể (aorist) vs đang diễn ra (imperfect/present); thời Hy Lạp gói khía cạnh trong hình thức đuôi.</td><td>13</td></tr>
-<tr><td><strong>aorist bị động</strong></td><td>passive aorist</td><td>Hai dòng: I <span class="gk">ἐλύθην</span> (đuôi <span class="gk">-θη-</span>, accent trên đuôi) và II <span class="gk">ἐφάνην, ἠλλάγην, ἐβλάβην</span> (đuôi <span class="gk">-η-</span>, accent trên thân).</td><td>14</td></tr>
-<tr><td><strong>tương lai bị động</strong></td><td>future passive</td><td>Thân aorist bị động + đuôi trung tương lai: <span class="gk">λυθήσομαι, φανήσομαι, διδαχθήσομαι</span>.</td><td>14</td></tr>
-<tr><td><strong>hoàn thành (perfect)</strong></td><td>perfect</td><td>Trạng thái hiện tại do hành động quá khứ để lại (&quot;đã và còn&quot;): <span class="gk">λέλυμαι</span>, <span class="gk">πέπαυται</span>; Latin anh em amāvī ↔ <span class="gk">λέλυκα</span>.</td><td>14</td></tr>
-<tr><td><strong>quá khứ hoàn thành hơn</strong></td><td>pluperfect</td><td>Thì của kết quả đã ổn lập từ trước một điểm quá khứ: perfect nhìn từ quá khứ, augment + nhân đôi + đuôi <span class="gk">-ει/-εισαν</span>: <span class="gk">ἀπωλώλεσαν</span> &quot;đã mất mạng (và còn vậy)&quot;; Latin cùng tầng: <em>amāverat</em>.</td><td>22, 24</td></tr>
-<tr><td><strong>nhân đôi</strong></td><td>reduplication</td><td>Nhân đôi âm đầu của hoàn thành: <span class="gk">λέ-λυ-μαι, κέ-κλη-μαι, πέ-παυ-μαι</span> (phụ âm đầu + ε); khác augment ἐ- của quá khứ; động từ -μι nhân đôi ngay ở hiện tại: <span class="gk">δί-δω-μι, τί-θη-μι</span>.</td><td>14, 23</td></tr>
-<tr><td><strong>sáu thân chính</strong></td><td>principal parts</td><td>Bản đồ 6 thân của động từ: hiện tại, tương lai, aorist chủ động, hoàn thành chủ động, hoàn thành m/p, aorist bị động (<span class="gk">λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην</span>); Latin chỉ 4.</td><td>14</td></tr>
-<tr><td><strong>thức</strong></td><td>voice</td><td>chủ động (active) / trung (middle) / bị động (passive); ở hiện tại, trung và bị động dùng chung một bộ hình thức (middle/passive).</td><td>2, 5</td></tr>
-<tr><td><strong>chủ động / trung / bị động</strong></td><td>active / middle / passive</td><td>Trung: chủ thể tự làm cho mình hoặc tham gia; "người ta…" khi dịch phi ngôi.</td><td>5</td></tr>
-<tr><td><strong>cách thức</strong></td><td>mood</td><td>chỉ định (indicative) – tường thuật; mệnh lệnh (imperative) – ra lệnh; thức giả định (subjunctive, bài 16) – điều kiện, mục đích; bài 17: thức cầu mong (optative) – ước, tiềm năng, gián tiếp.</td><td>2, 4, 16, 17</td></tr>
-<tr><td><strong>chỉ định</strong></td><td>indicative</td><td>Cách thức của các câu tường thuật "thường".</td><td>2</td></tr>
-<tr><td><strong>thức giả định</strong></td><td>subjunctive</td><td>Cách thức của "thế giới chưa chắc": điều kiện, mục đích, mong muốn; đuôi dài <span class="gk">-ω / -ῃ / -ωμεν / -ωσι(ν)</span>, aorist không augment; luôn có <span class="gk">ἐάν / ἵνα / ὅταν / ἄν</span> dẫn đường hoặc đứng đầu câu hortatory. Latin: <em>coniunctivus</em> (<em>amem</em>), German: <em>Konjunktiv</em>.</td><td>16</td></tr>
-<tr><td><strong>thức cầu mong</strong></td><td>optative</td><td>Cách thức của &quot;giá mà&quot;: lời ước (<span class="gk">εἴθε</span> + opt), lời chúc (<span class="gk">εἴη, γένοιτο</span>), nguyền (<span class="gk">μὴ γένοιτο</span>), nhạt tương lai (<span class="gk">τί ποιοῖμεν;</span>); đuôi primary <span class="gk">-οι / -οιμι</span> nối vào thân thời, không augment; sau động từ quá khứ, <span class="gk">ὅτι/ὡς</span> mượn nó làm &quot;ảnh chụp&quot; của chỉ định (gián tiếp). Latin không có thức riêng – mượn <em>coniunctivus</em>; German: <em>Konjunktiv II</em> đảm nhận việc ước (Optativ chỉ còn là thuật ngữ ngữ văn học lịch sử).</td><td>17</td></tr>
-<tr><td><strong>optative tiềm năng</strong></td><td>potential optative</td><td>optative + <span class="gk">ἄν</span> = &quot;hẳn là, hẳn sẽ&quot;: <span class="gk">εὖ ἂν λέγοις</span> &quot;cậu nói đúng đấy&quot;; cũng dùng trong điều kiện tiềm năng <span class="gk">εἰ</span> + opt (<span class="gk">εἰ ἥκοι... λάβοι ἄν</span>); thiếu <span class="gk">ἄν</span> là câu đổi nghĩa thành lời ước. Latin: <em>coniunctivus potentialis</em> (<em>dīxerit</em>).</td><td>17</td></tr>
-<tr><td><strong>mệnh lệnh cách</strong></td><td>imperative</td><td>Ra lệnh/khuyên: <span class="gk">φίλει!</span> "hãy yêu!" – đủ số × ngôi (ngôi 2 + ngôi 3).</td><td>4, 7</td></tr>
-<tr><td><strong>mệnh lệnh ngôi 3</strong></td><td>3rd person imperative</td><td><span class="gk">λυέτω/-έσθω</span> "hắn hãy/nó hãy" – văn bia, pháp lệnh. Latin phải mượn thức giả định (<em>amet</em>).</td><td>7</td></tr>
-<tr><td><strong>câu cấm đoán</strong></td><td>prohibitive</td><td><span class="gk">μὴ</span> + mệnh lệnh = "đừng!"; <span class="gk">μὴ</span> + aorist subjunctive = cấm "đừng (làm) lần nào!" (<span class="gk">μὴ φάγῃς</span>); khác phủ định tường thuật <span class="gk">οὐ</span>. Latin: <em>nē + imperative/subjunctive</em>.</td><td>4, 7, 16</td></tr>
-<tr><td><strong>câu hỏi dự trù</strong></td><td>deliberative question</td><td>Tự vấn "chúng ta (nên) làm gì đây?": <span class="gk">τί ποιῶμεν;</span> – subjunctive ngôi 1 số nhiều; không chờ thông tin, đòi quyết định.</td><td>16</td></tr>
-<tr><td><strong>nguyên mẫu</strong></td><td>infinitive</td><td>Dạng "làm, để làm": làm tân ngữ (AcI), chủ ngữ với <span class="gk">δεῖ</span>. Thời của nguyên mẫu trong AcI đo theo động từ dẫn (bài 18).</td><td>2, 4, 18</td></tr>
-<tr><td><strong>nguyên mẫu tương lai</strong></td><td>future infinitive</td><td>Nguyên mẫu chỉ việc &quot;sẽ làm&quot;: <span class="gk">λύσειν, ποιήσειν, ἔσεσθαι</span>; trong AcI = tin về tương lai. Latin dựng bằng participle: <em>scrīptūrum esse</em>.</td><td>18</td></tr>
-<tr><td><strong>phân từ</strong></td><td>participle</td><td>Động từ khoác da tính từ: kế thừa thân, thời, giọng của động từ (λύω → <span class="gk">λύων, λύσας, λυθείς, λελυκώς</span>), cộng thêm giống-cách-số như tính từ; không chia ngôi. Aorist phân từ không augment (<span class="gk">λαβών</span>, không <span class="gk">ἐλαβών</span>). Latin: <em>amāns, amātūrus, amātus</em>.</td><td>19</td></tr>
-<tr><td><strong>thân thời</strong></td><td>tense stem</td><td>Thân dùng để dựng một thời cụ thể = thân + nguyên âm chủ đề + đuôi.</td><td>6</td></tr>
-<tr><td><strong>nguyên âm chủ đề</strong></td><td>thematic vowel</td><td>-ο-/ε- nối thân với đuôi; động từ có chủ đề (thematic) vs không chủ đề (athematic) như <span class="gk">δύναμαι, εἶναι</span>.</td><td>6, 7</td></tr>
-<tr><td><strong>có / không chủ đề</strong></td><td>thematic / athematic</td><td>Hai loại động từ theo có/không nguyên âm chủ đề; ảnh hưởng mọi bảng chia.</td><td>6</td></tr>
-<tr><td><strong>động từ athematic (mi)</strong></td><td>athematic verb / mi-verb</td><td>Động từ chia không nguyên âm chủ đề ở hiện tại và quá khứ chưa hoàn thành: <span class="gk">τίθημι, ἵστημι, δίδωμι, ἵημι, φημί</span>; đuôi đặc trưng <span class="gk">-μι / -ς / -σι / -ασι</span>, thân mang lặp hoặc thang nguyên âm.</td><td>23</td></tr>
-<tr><td><strong>thang nguyên âm</strong></td><td>vowel gradation / ablaut</td><td>Gốc đổi vai nguyên âm giữa các mảnh của một động từ: <span class="gk">δί-δω-μι</span> (o) ↔ <span class="gk">ἔδω-κα, δώ-σω</span> (ω kéo dài), <span class="gk">λανθάνω</span> ↔ <span class="gk">ἔλαθον</span>; di sản Indoeuropean, ngữ học Đức gọi Ablaut.</td><td>23</td></tr>
-<tr><td><strong>aorist gốc</strong></td><td>root aorist</td><td>Aorist trần thân gốc, không suffix, không augment khi ở thức giả định: <span class="gk">ἔβην, ἔγνων, ἀπέκτονον</span>; nguyên mẫu thường <span class="gk">-εῖν/-ῆναι</span>; thuộc tầng athematic cùng nhà mi-verb.</td><td>23</td></tr>
-<tr><td><strong>động từ bổ khuyết</strong></td><td>suppletive verb</td><td>Động từ ghép mảnh từ các gốc khác nhau cho đủ bộ thì: <span class="gk">ὁράω / εἶδον / ὄψομαι / ἑόρακα</span>, <span class="gk">φέρω / οἴσω / ἤνεγκα</span>; Latin cùng hiện tượng: <em>ferō / tulī / lātum</em>.</td><td>23</td></tr>
-<tr><td><strong>động từ deponent</strong></td><td>deponent verb</td><td>Hình thức trung/bị động nhưng nghĩa chủ động: <span class="gk">μάχομαι, δύναμαι, ἔρχομαι, ἀποκρίνομαι</span>. Latin: <em>sequor, loquor</em>.</td><td>5, 6, 10</td></tr>
-<tr><td><strong>động từ kéo theo cách riêng</strong></td><td>verbs governing a special case</td><td><span class="gk">κατηγορέω</span> + sở hữu cách "buộc tội ai"; mỗi động từ "hợp đồng" với cách riêng của nó.</td><td>2</td></tr>
-<tr><td><strong>tính từ kén cách</strong></td><td>adjective with case complement</td><td><span class="gk">κοινός</span> + sở hữu/tặng cách "chung của ai"; tính từ cũng "hợp đồng" với một cách, như động từ và giới từ.</td><td>9</td></tr>
-</tbody>
-</table>
+    <!-- MỤC 6 -->
+    <section id="sec-6">
+      <h2>6. Đặc thù tiếng Hy Lạp &amp; tiếng Latin</h2>
+      <p class="section-lead">Hai ngôn ngữ cổ điển cùng thuộc ngữ hệ Ấn-Âu (<em>Indo-European</em>): chia sẻ nền tảng hình thái – cú pháp cốt lõi (5 cách cơ bản, động từ <em>deponent</em>, cấu trúc AcI, phân từ...), nhưng mỗi ngôn ngữ phát triển những đặc trưng riêng biệt:</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Phương diện</th>
+              <th>Chỉ có ở tiếng Hy Lạp cổ</th>
+              <th>Chỉ có ở tiếng Latin</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="term-vi">Chính tả &amp; Ngữ âm</td>
+              <td>Dấu thở mạnh / dấu thở nhẹ (<em>rough / smooth breathing</em>); <em>iota</em> hạ ký (<em>iota subscript</em>); hệ thống dấu trọng âm viết ra (<em>acute / grave / circumflex</em>).</td>
+              <td>Phân biệt nguyên âm dài/ngắn bằng dấu trường âm (<em>macron</em>: <em>ā / ē</em> trong ấn bản hiện đại) – không ghi dấu trọng âm.</td>
+            </tr>
+            <tr>
+              <td class="term-vi">Hình thái danh từ</td>
+              <td>Có mạo từ xác định (<span class="grk">ὁ / ἡ / τό</span>); bảo lưu số kép (<em>dual</em>); biến cách thứ ba chia thành nhiều nhóm thân phức tạp.</td>
+              <td>Có <strong>rời cách</strong> (<em>ablative</em> – tiếng Hy Lạp không có); có danh động từ (<em>gerund</em>), tính động từ (<em>gerundive</em>) và động danh từ mục đích (<em>supine</em>).</td>
+            </tr>
+            <tr>
+              <td class="term-vi">Hình thái động từ</td>
+              <td><strong>Thể trung</strong> (<em>middle voice</em>) là một phạm trù hình thái độc lập; <strong>thức cầu mong</strong> (<em>optative</em>) tách biệt khỏi thức giả định; có hình thái <strong>mệnh lệnh ngôi 3</strong> riêng (<span class="grk">-έτω</span>).</td>
+              <td>Có <strong>phân từ thì tương lai chủ động</strong> (<em>amātūrus</em>) phát triển mạnh; mệnh lệnh ngôi 3 thường dùng thức giả định (<em>amet</em>); cấu tạo thì tương lai chia theo nhóm biến tố (<em>-b-</em> hoặc <em>-ā-/-ē-</em>).</td>
+            </tr>
+            <tr>
+              <td class="term-vi">Điểm chung cốt lõi</td>
+              <td colspan="2">5 cách cơ bản (Nom., Gen., Dat., Acc., Voc. – Latin thêm Abl. thành 6); hệ biến cách (<em>declension</em>); động từ trung-bị động nghĩa chủ động (<em>deponent</em>); cấu trúc AcI; phân từ (<em>participle</em>); từ tựa sau (<em>enclitic</em>); lược âm cuối (<em>elision</em>); từ vựng gốc Ấn-Âu chung (<em>sum / <span class="grk">εἰμί</span></em>, <em>ego / <span class="grk">ἐγώ</span></em>).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-<h2 id="syntax">5. Cú pháp</h2>
-<table>
-<thead><tr><th>Tiếng Việt</th><th>Tiếng Anh</th><th>Giải thích</th><th>Bài</th></tr></thead>
-<tbody>
-<tr><td><strong>chủ ngữ</strong></td><td>subject</td><td>Kẻ thực hiện/nảy ra hành động; Hy Lạp thường ẩn trong đuôi động từ.</td><td>1</td></tr>
-<tr><td><strong>tân ngữ</strong></td><td>object</td><td>Kẻ nhận / chịu tác động của hành động; tân ngữ trực tiếp (đối cách), gián tiếp (tặng cách).</td><td>1, 4</td></tr>
-<tr><td><strong>đối cách kép</strong></td><td>double accusative</td><td>Một động từ kéo hai đối cách: người + đồ (<span class="gk">διδάσκω</span>), hoặc tân ngữ + biểu ngữ (<span class="gk">νομίζω</span>).</td><td>2, 5</td></tr>
-<tr><td><strong>AcI</strong></td><td>accusative + infinitive</td><td>Cấu trúc "ai đó làm gì" sau động từ nghĩ/nói: <span class="gk">νομίζω αὐτὸν σοφὸν εἶναι</span>. Bài 18 mở rộng: động từ truyền lệnh / dò hỏi cũng dẫn AcI; biến thể <span class="gk">ὡς</span> + AcI; danh cách bất khuất khi chủ thể chính là chủ nhân câu khung; AcI mồ côi chủ thể. Latin có song song: <em>puto Socratem sapientem esse</em>.</td><td>4, 18</td></tr>
-<tr><td><strong>tân ngữ giới từ</strong></td><td>prepositional object</td><td>Tân ngữ nối với động từ qua một cụm giới từ: <span class="gk">βλέπω εἰς τὸν οὐρανόν</span> &quot;nhìn vào bầu trời&quot;. Khi dịch, cụm giới từ thường gói lại thành tân ngữ trơn của bản dịch (&quot;nhìn bầu trời&quot;) – cách đi kèm của bản dịch không nhất thiết trùng bản gốc.</td><td>1, 10</td></tr>
-<tr><td><strong>tường thuật gián tiếp</strong></td><td>indirect speech (oratio obliqua)</td><td>Kể lại lời nói/nghĩ thay vì trích nguyên văn: động từ nói/nghĩ + <span class="gk">ὅτι / ὡς</span> &quot;rằng&quot; + mệnh đề chia động từ đầy đủ (khác AcI: tân ngữ + nguyên mẫu, bài 4); tiểu từ dẫn: <span class="gk">λέγω, φημί, ἔφη, νομίζω, ἐλπίζω</span>. Latin dựng chủ yếu bằng AcI.</td><td>4, 17</td></tr>
-<tr><td><strong>chuỗi thời–thức</strong></td><td>sequence of tenses</td><td>Động từ dẫn đặt &quot;nhịp&quot; cho mệnh đề gián tiếp: primary (hiện tại/hoàn thành/tương lai) giữ nguyên chỉ định; secondary (quá khứ) &quot;nhích&quot; chỉ định hiện tại/tương lai thành optative (oblique), quá khứ chỉ định giữ nguyên; optative/giả định có sẵn thì giữ nguyên, chỉ đổi ngôi. Latin có luật tương tự cho AcI (<em>accusativus cum infinitivo</em>: thời của nguyên mẫu chạy theo động từ dẫn).</td><td>17</td></tr>
-<tr><td><strong>mệnh lệnh gián tiếp</strong></td><td>indirect command</td><td>Truyền lệnh gián tiếp: <span class="gk">κελεύω / ἐντέλλομαι / παραγγέλλω</span> + đối cách + nguyên mẫu; phủ định lệnh dùng <span class="gk">μὴ</span>, còn <span class="gk">οὐ</span> phủ định nội dung được kể. Latin: <em>iubeō aliquem facere / vetō aliquem facere</em>.</td><td>18</td></tr>
-<tr><td><strong>câu hỏi gián tiếp</strong></td><td>indirect question</td><td>Câu hỏi nhúng vào câu kể: <span class="gk">εἰ</span> &quot;liệu… không&quot;; <span class="gk">ὅστις / τίς</span> &quot;ai / gì&quot; (giữ accent hỏi); <span class="gk">ἀνθ᾽ ὅτου</span> &quot;vì cớ gì&quot;. Hy Lạp thường giữ chỉ định, sau nhịp secondary nhích optative; Latin bắt buộc giả định: <em>rogāvit quis esset</em>.</td><td>18</td></tr>
-<tr><td><strong>thời tương đối của nguyên mẫu</strong></td><td>relative time of the infinitive</td><td>Trong AcI, thời của nguyên mẫu đo theo động từ dẫn: hiện tại = cùng lúc; aorist = trước, một lần; hoàn thành = trước, trạng thái còn; tương lai = sau (<span class="gk">λύειν / λῦσαι / λελυκέναι / λύσειν</span>).</td><td>18</td></tr>
-<tr><td><strong>phân từ hoàn cảnh</strong></td><td>circumstantial participle</td><td>Phân từ nói thêm hoàn cảnh của hành động chính: khi/vì/mặc dù/bằng cách; ba quy tắc cứng: cùng chủ thể với động từ chính (<span class="gk">ἔλαθε λοχῶν</span> "hắn rình, mà không ai biết"), thời theo đồng hồ tương đối, phủ định bằng <span class="gk">οὐ</span> (<span class="gk">οὐδὲν ὀργισθέντες</span>). Latin dịch bằng mệnh đề phụ hoặc ablativus absolutus.</td><td>19, 20</td></tr>
-<tr><td><strong>phân từ định ngữ</strong></td><td>attributive participle</td><td>Phân từ đứng đúng vị trí tính từ, có thể lặp mạo từ: <span class="gk">ὁ φυλάσσων</span> "kẻ đang canh", <span class="gk">τοῦ δέρματος τοῦ ἐπισκέποντος</span> "cái da của con sói (đang) trấn giữ"; sau giới từ mạo từ thường vắng: <span class="gk">ἐπὶ τεθνεῶτι Δαρείῳ</span>. Danh từ hóa khi đứng một mình với mạo từ: <span class="gk">τὸ γενόμενον</span> "việc đã xảy ra".</td><td>19</td></tr>
-<tr><td><strong>đối cách + phân từ (AccP)</strong></td><td>accusative + participle</td><td>Song song AcI: sau động từ cảm nhận/thấy, tân ngữ đối cách đi kèm phân từ thay vì nguyên mẫu: <span class="gk">ἑώρων τὸν Δόρκωνα δεδηγμένον</span> "họ thấy Dorcon (là người) đã bị cắn"; khớp cách-giống-số giữa tân ngữ và phân từ. Latin: <em>accusativus cum participio</em> (<em>vīdī eum currentem</em>).</td><td>19</td></tr>
-<tr><td><strong>phân từ tương lai</strong></td><td>future participle</td><td>Hai nghề: định ngữ "sắp làm" (<span class="gk">ὁ λύσων</span> "kẻ sẽ cởi"), và sau động từ chuyển động = mục đích: <span class="gk">πέμπε... ληψομένους</span> "gửi (người) để lấy". Latin cũng có participium futūrī actīvī, nhưng hiếm và chỉ định nghĩa, không làm mục đích.</td><td>19</td></tr>
-<tr><td><strong>sở hữu cách tuyệt đối</strong></td><td>genitive absolute</td><td>Mệnh đề phụ rút gọn đứng trơ trụi: chủ thể riêng + phân từ, cả cặp thả về sở hữu cách, không liên từ, không động từ chia; quy tắc vàng: chủ thể phải khác chủ thể động từ chính (trùng → phân từ hoàn cảnh chủ cách); bốn nghĩa khi/vì/mặc dù/bằng cách; đồng hồ: aorist = trước, hiện tại = cùng lúc: <span class="gk">Ἰσθμίων ὄντων κατέβη Διογένης</span> &quot;trong lúc hội thi diễn ra, Diogenes đã xuống (Isthmos)&quot;.</td><td>20</td></tr>
-<tr><td><strong>rời cách tuyệt đối (Latin)</strong></td><td>ablativus absolutus</td><td>Công thức Latin tương đương: rời cách + phân từ (<em>urbe captā</em> &quot;khi thành đã bị chiếm&quot;, <em>Caesare interfectō</em> &quot;khi Caesar bị giết&quot;); Hy Lạp không có rời cách nên gánh việc này bằng genitive absolute: <span class="gk">ἁλούσης τῆς πόλεως</span>, <span class="gk">Καίσαρος ἀναιρεθέντος</span>.</td><td>20</td></tr>
-<tr><td><strong>phân từ và nguyên mẫu</strong></td><td>participle vs infinitive</td><td>Hai dạng &quot;câu trong câu&quot;: nguyên mẫu không chia nên chỉ làm tân ngữ (AcI) hoặc chủ ngữ (<span class="gk">δεῖ</span>); phân từ chia giống-cách-số nên bám được mọi chủ thể: hoàn cảnh, định ngữ, AccP, genitive absolute – vì thế văn xuôi Attic ghép câu bằng phân từ nhiều hơn bằng nguyên mẫu.</td><td>20</td></tr>
-<tr><td><strong>câu điều kiện</strong></td><td>conditional sentence</td><td>Câu hai vế: <strong>protasis</strong> đặt giả thiết, <strong>apodosis</strong> trả kết quả: <span class="gk">εἰ ταῦτα λέγεις, ἀληθῆ λέγεις</span> &quot;nếu cậu nói vậy, cậu nói đúng&quot;. Ba loại: thực (<span class="gk">εἰ</span> + chỉ định), khái quát/tương lai (<span class="gk">ἐάν</span> + giả định), tiềm năng (<span class="gk">εἰ</span> + optative + <span class="gk">ἄν</span>). Latin: <em>condiciō</em> với <em>sī</em> + chỉ định hoặc giả định.</td><td>21</td></tr>
-<tr><td><strong>vế điều kiện</strong></td><td>protasis</td><td>Vế &quot;nếu...&quot;: mở bằng <span class="gk">εἰ</span> hoặc <span class="gk">ἐάν</span> (crasis <span class="gk">κἂν</span> = <span class="gk">καὶ ἐάν</span>); không bao giờ để tương lai chỉ định sau <span class="gk">εἰ</span>; phủ định theo thức: chỉ định/optative lấy <span class="gk">οὐ</span>, giả định lấy <span class="gk">μή</span>.</td><td>21</td></tr>
-<tr><td><strong>vế chính</strong></td><td>apodosis</td><td>Vế trả lời của điều kiện; tam thể <span class="gk">λύσῃ/λύσαι/λύσει</span> chỉ phân biệt được nhờ liên từ phía trước: <span class="gk">ἐὰν λάβῃς, χαρήσῃ</span> &quot;nếu cậu nhận, cậu sẽ vui&quot;; dạng rút gọn <span class="gk">εἰ δὲ μή</span> &quot;còn nếu không&quot; lật lại toàn bộ vế đứng trước.</td><td>21</td></tr>
-<tr><td><strong>điều kiện khái quát</strong></td><td>general condition</td><td>Chân lý &quot;mỗi khi&quot; hoặc trông chừng tương lai, đối lập với điều kiện thực của sự việc một lần: <span class="gk">ἐὰν λέγῃ, ἀκούω</span> &quot;mỗi khi hắn nói, ta nghe&quot;; họ hàng thời gian <span class="gk">ὅταν</span> chứa sẵn <span class="gk">ἄν</span>; nguyên văn Theophrastos: <span class="gk">κἂν ὑπομένῃ τις αὐτόν, μὴ ἀφίστασθαι</span>.</td><td>21</td></tr>
-<tr><td><strong>mệnh đề thời gian</strong></td><td>temporal clause</td><td>Mệnh đề phụ trả lời &quot;khi nào?&quot;, dẫn bởi <span class="gk">ὅτε/ὅταν, ἐπεί/ἐπειδή/ἐπειδάν, ἕως/ἔστε, πρίν</span>; các cửa phân nhau ở cặp &quot;liên từ + thức&quot;: chỉ định = sự việc có thật, giả định/optative = khái quát hoặc lặp lại.</td><td>22</td></tr>
-<tr><td><strong>mệnh đề nguyên nhân</strong></td><td>causal clause</td><td>Mệnh đề phụ trả lời &quot;vì sao?&quot;: <span class="gk">ὅτι/διότι</span> + chỉ định, hoặc <span class="gk">ἐπεί</span> mượn cửa thời gian, hoặc <span class="gk">ὡς</span> + phân từ rút gọn; tự kiểm bằng dịch thử &quot;rằng/bởi vì&quot;.</td><td>22</td></tr>
-<tr><td><strong>liên từ phụ thuộc</strong></td><td>subordinating conjunction</td><td>Từ nối gắn mệnh đề phụ vào mệnh đề chính (<span class="gk">εἰ, ὅτε, ἐπεί, ὅτι</span>...); khác giới từ ở chỗ theo sau nó là động từ chia, không phải danh từ.</td><td>22</td></tr>
-<tr><td><strong>optative lặp lại</strong></td><td>iterative optative</td><td>Optative trong mệnh đề thời gian sau vế chính quá khứ, kể thói quen &quot;mỗi khi&quot; đã lặp lại: <span class="gk">ὅτε δ᾽ ἔξω τοῦ δεινοῦ γένοιντο</span> &quot;mỗi khi họ ra khỏi cơn nguy&quot; (Anabasis 2,6,12).</td><td>22</td></tr>
-
-
-<tr><td><strong>sắc lệnh tôn vinh</strong></td><td>honorific decree</td><td>Văn bản nghị quyết tri ân một cá nhân theo khung sáu tầng: dòng thần → ngày tháng → người đề xướng → mệnh đề <span class="gk">ἐπειδὴ</span> → <span class="gk">δεδόχθαι</span> + chuỗi nguyên mẫu → chỉ dẫn thi hành; công thức <span class="gk">ἐπαινέσαι... στεφανῶσαι</span>.</td><td>24</td></tr>
-<tr><td><strong>tặng cách sở hữu</strong></td><td>dative of possession</td><td>"Nơi ai đó có": <span class="gk">ἐστὶ μοι βιβλίον</span> "ở tôi có cuốn sách".</td><td>1, 4</td></tr>
-<tr><td><strong>tặng cách công cụ</strong></td><td>instrumental dative</td><td>"bằng cái gì"; thử nghiệm "cắt từ" khi dịch.</td><td>4</td></tr>
-<tr><td><strong>tặng cách chỉ thời điểm</strong></td><td>dative of time ("when")</td><td>Danh từ chỉ thời gian ở tặng cách, không cần giới từ, trả lời "khi nào?": <span class="gk">ταύτῃ τῇ ἡμέρᾳ</span> "vào ngày ấy". Latin giao việc này cho cách xóa: <em>eōdem diē</em>.</td><td>11</td></tr>
-<tr><td><strong>đối cách chỉ độ dài thời gian</strong></td><td>accusative of extent of time ("how long")</td><td>Danh từ chỉ thời gian ở đối cách trả lời "bao lâu?": <span class="gk">μακρὸν χρόνον</span> "(trong) một thời gian dài", <span class="gk">τὴν νύκτα</span> "suốt đêm". Latin cũng dùng đối cách: <em>decem annōs</em>.</td><td>11</td></tr>
-<tr><td><strong>sở hữu cách chỉ thời gian</strong></td><td>genitive of time ("within what time")</td><td>Danh từ chỉ thời gian ở sở hữu cách, không cần giới từ, trả lời "trong (khoảng) nào?": <span class="gk">καὶ ἡμέρας καὶ νυκτός</span> "ngày cũng như đêm", <span class="gk">χειμῶνος</span> "vào mùa đông".</td><td>09b, 11</td></tr>
-<tr><td><strong>so sánh hơn</strong></td><td>comparative</td><td>Bậc hai của tính từ &amp; trạng từ: đuôi <span class="gk">-τερος</span> ghép vào thân (<span class="gk">σοφώτερος</span>) hoặc thân bất quy tắc (<span class="gk">ἀμείνων, χείρων, μείζων</span>); đứng với <span class="gk">ἤ</span> hoặc với sở hữu cách so sánh: <span class="gk">σοφώτερός ἐστιν ἐμοῦ</span> "hắn khôn hơn ta".</td><td>09b</td></tr>
-<tr><td><strong>so sánh nhất</strong></td><td>superlative</td><td>Bậc ba: đuôi <span class="gk">-τατος</span> (<span class="gk">σοφώτατος</span>) hoặc bất quy tắc (<span class="gk">ἄριστος, μέγιστος</span>); với sở hữu cách bộ phận: <span class="gk">σοφώτατος πάντων</span> "khôn nhất trong tất cả"; khi không có chuẩn so thì đọc như elative "rất X".</td><td>09b</td></tr>
-<tr><td><strong>sở hữu cách so sánh</strong></td><td>genitive of comparison</td><td>Chuẩn so sánh đứng ở sở hữu cách thay cho <span class="gk">ἤ</span>: <span class="gk">σοφώτερος ἐμοῦ</span> = <span class="gk">σοφώτερος ἢ ἐγώ</span> "khôn hơn ta"; tự kiểm bằng hỏi "hơn ai/cái gì?".</td><td>09b</td></tr>
-<tr><td><strong>sở hữu cách bộ phận</strong></td><td>partitive genitive</td><td>Tổng thể bị "cắt" một phần, trả lời "trong/nổi bật trong cái gì?": <span class="gk">σοφώτατος πάντων τῶν πολιτῶν</span> "khôn nhất trong các công dân", <span class="gk">τῶν φίλων οἱ πλείστοι</span> "phần đông trong các bạn".</td><td>09b</td></tr>
-<tr><td><strong>giới từ lưỡng tính</strong></td><td>two-way (dual) preposition</td><td><span class="gk">μετά/πρός</span>: + đối cách = hướng tới; + tặng cách = ở cùng.</td><td>4</td></tr>
-<tr><td><strong>hướng chỉ</strong></td><td>deixis</td><td>Cấp độ chỉ gần/vừa nhắc/xa: <span class="gk">ὅδε</span> (này) / <span class="gk">οὗτος</span> (vừa nhắc) / <span class="gk">ἐκεῖνος</span> (kia).</td><td>6</td></tr>
-<tr><td><strong>phủ định</strong></td><td>negation</td><td><span class="gk">οὐ</span> phủ định facts (chỉ định), <span class="gk">μὴ</span> phủ định ý chí (mệnh lệnh, mong ước). Latin: <em>nōn/ne</em>.</td><td>4, 7</td></tr>
-<tr><td><strong>biểu thức thời gian</strong></td><td>time expression</td><td>Trạng từ neo tường thuật quá khứ: <span class="gk">τότε, πρότερον, ἔτι, οὐκέτι, ἀεί, πάλαι</span>; khóa tương lai <span class="gk">αὔριον</span> "ngày mai"; cộng công thức biên niên <span class="gk">ἐπ' ἄρχοντος</span> + sở hữu cách "dưới thời archon X" (song song Latin: <em>X et Y consulibus</em>); danh từ chỉ thời gian theo cách (bài 11, 09b): tặng cách = thời điểm, đối cách = độ dài, sở hữu cách = trong (khoảng) nào – <span class="gk">τῇ νυκτί</span> "vào đêm" vs <span class="gk">τὴν νύκτα</span> "suốt đêm" vs <span class="gk">καὶ ἡμέρας καὶ νυκτός</span> "ngày cũng như đêm".</td><td>11, 12</td></tr>
-<tr><td><strong>mệnh đề quan hệ</strong></td><td>relative clause</td><td>Mệnh đề con gắn vào danh từ đứng trước (antecedent), đóng vai tính từ: <span class="gk">ὁ ἄνθρωπος ὃν βλέπω</span> "người mà tôi thấy". Quy tắc hợp nhất kép: giống–số theo antecedent, cách theo nhiệm vụ trong mệnh đề; thường "gọng kẹp" – mở bằng đại từ, chốt bằng động từ. Latin cấu trúc y hệt: <em>hominem quem videō</em>.</td><td>15</td></tr>
-<tr><td><strong>hút cách</strong></td><td>case attraction</td><td>Đại từ quan hệ lẽ ra đối cách bị "hút" về sở hữu/tặng cách của danh từ đứng trước: <span class="gk">τοῦ ποταμοῦ οὗ βλέπεις</span> (thay vì <span class="gk">ὃν</span>). Hiện tượng văn viết Attic (Platon nhiều), không bắt buộc; Latin không hút cách.</td><td>15</td></tr>
-<tr><td><strong>mệnh đề mục đích</strong></td><td>final (purpose) clause</td><td>Vế con trả lời "để làm gì?": <span class="gk">ἵνα / ὅπως / ὡς</span> + subjunctive; phủ định <span class="gk">ἵνα μή</span>; ưa khác chủ ngữ so với vế chính. Latin: <em>ut + subjunctive</em>.</td><td>16</td></tr>
-<tr><td><strong>tiểu từ</strong></td><td>particle</td><td>Từ nhỏ bất biến cách, gieo "khí vị" cho câu: <span class="gk">ἄν</span> (bất định: <span class="gk">ἐάν, ὅταν, ὡς ἄν</span>), <span class="gk">μέν … δέ, γάρ, δή</span> nối ý.</td><td>16</td></tr>
-<tr><td><strong>tiếp thời</strong></td><td>sequence of tenses (Latin: <em>consecutio temporum</em>)</td><td>Động từ dẫn "kéo" mệnh đề gián tiếp theo: sau chỉ định (chuỗi chính) mệnh đề giữ chỉ định; sau quá khứ (chuỗi phụ) chỉ định đẩy xuống optative. Latin có cơ chế tương tự nhưng đổi <em>thời</em>, còn Greek đổi <em>thức</em>.</td><td>25</td></tr>
-<tr><td><strong>chuỗi chính</strong></td><td>primary sequence</td><td>Sau động từ dẫn ở hiện tại, hoàn thành hay tương lai: mệnh đề gián tiếp giữ chỉ định; câu hỏi gián tiếp thường dùng optative.</td><td>25</td></tr>
-<tr><td><strong>chuỗi phụ</strong></td><td>secondary sequence</td><td>Sau động từ dẫn ở thì quá khứ (mọi loại): chỉ định đẩy xuống optative, như <span class="gk">ἠρώτων εἰ βούλιτό με σῶσαι</span>.</td><td>25</td></tr>
-<tr><td><strong>giữ nguyên thức</strong></td><td>retained mood</td><td>Ngoại lệ của tiếp thời: mệnh đề <span class="gk">εἰ</span> tương lai và mệnh đề có <span class="gk">ἄν</span> giữ nguyên subjunctive/optative sau chuỗi phụ: <span class="gk">ἀγαπήσειν με ἔφασκεν, εἰ τὸ σῶμα σώσω</span>.</td><td>25</td></tr>
-<tr><td><strong>động từ dẫn</strong></td><td>reporting verb</td><td>Động từ "mở" lời thuật (<span class="gk">λέγω, φημί, οἶδα, ἐρωτάω</span> và họ hàng): chọn kênh (<span class="gk">ὅτι/ὡς</span>, <span class="gk">εἰ</span>, nguyên mẫu) và quyết định chuỗi chính hay chuỗi phụ.</td><td>25</td></tr>
-<tr><td><strong>mệnh đề kết quả</strong></td><td>result clause</td><td>Vế sau <span class="gk">ὥστε</span> nói điều <em>đã</em> xảy ra: kết quả thực dùng chỉ định; kết quả khái quát (xu hướng, nhận định chung) dùng <span class="gk">ἄν</span> + optative. So sánh Latin: <em>consecutio</em> với <em>ut</em> + subjunctive.</td><td>26</td></tr>
-<tr><td><strong>chọn ὡς hay ὅτι</strong></td><td>ὡς vs ὅτι in indirect speech</td><td>Hai liên từ tường thuật, nghĩa như nhau; <span class="gk">ὡς</span> ưa đứng sau <span class="gk">φημί, νομίζω, δοκεῖ</span> và động từ &quot;hiện ra, có vẻ&quot; (pha màu diễn giải của người kể), <span class="gk">ὅτι</span> trung tính hơn.</td><td>26</td></tr>
-<tr><td><strong>bản đồ ὡς</strong></td><td>the four uses of ὡς</td><td>Một chữ, bốn vai: &quot;rằng&quot; (tường thuật, <span class="gk">ἔφη ὡς</span>), &quot;để&quot; (mục đích, <span class="gk">ἦλθεν ὡς ἰδεῖν</span>), &quot;như/bằng&quot; (so sánh, <span class="gk">οὐχὶ ὡς εἰς πρόβατον</span>), nguyên nhân; sau động từ hy vọng/hứa/mong có thể đi với nguyên mẫu.</td><td>26</td></tr>
-<tr><td><strong>kết ngữ</strong></td><td>epimythium</td><td>Câu &quot;đạo lý&quot; đóng ngụ ngôn Aesop, thường theo khuôn <span class="gk">ὁ λόγος δηλοῖ ὅτι</span> &quot;câu chuyện cho thấy rằng&quot;; họ hàng Latin là <em>epimythium</em> trong truyền thống Phaedrus.</td><td>26</td></tr>
-<tr><td><strong>đề diễn giải kịch</strong></td><td>hypothesis</td><td>Bản tóm tắt cốt truyện một vở kịch gắn cho khán giả (truyền thống từ Aristophanes von Byzantion): hypothesis của <em>Antigone</em> chốt cốt truyện và ghi <span class="gk">φασὶ δὲ τὸν Σοφοκλέα</span> về vinh danh của Sophokles.</td><td>26</td></tr>
-<tr><td><strong>nguyên mẫu có mạo từ</strong></td><td>articular infinitive</td><td>Nguyên mẫu mang mạo từ trung tính, hoạt động như một danh từ: <span class="gk">τὸ</span> chủ ngữ/vị ngữ, <span class="gk">τοῦ</span> sau giới từ, <span class="gk">τῷ</span> tặng cách, <span class="gk">τόν</span> đối cách (Smyth §§2025–2032); khác AcI ở chỗ mạo từ ôm nguyên mẫu thành một khối danh từ hẳn hoi.</td><td>27</td></tr>
-<tr><td><strong>nguyên mẫu có mạo từ sau giới từ</strong></td><td>preposition + article + infinitive</td><td>Bản đồ khuôn hay gặp: <span class="gk">διὰ τὸ</span> nguyên nhân, <span class="gk">ἐν τῷ</span> thời gian (khi đang/sau khi), <span class="gk">μετὰ τὸ</span> sau khi, <span class="gk">πρὸς τὸ</span> khuynh hướng, <span class="gk">ἕνεκα τοῦ</span> mục đích.</td><td>27</td></tr>
-<tr><td><strong>chủ ngữ trong nguyên mẫu</strong></td><td>subject of the articular infinitive</td><td>Thường đứng đối cách khi cần nêu rõ; nhiều khi chủ ngữ hàm ẩn, như trong <span class="gk">διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι</span> của Apollodor (chủ ngữ &quot;ai đó&quot; không xuất hiện).</td><td>27</td></tr>
-<tr><td><strong>phủ định của nguyên mẫu là μή</strong></td><td>μή with the articular infinitive</td><td>Nguyên mẫu có mạo từ luôn phủ định bằng <span class="gk">μή</span> (Smyth §2028), kể cả khi nghĩa là nguyên nhân thực: câu trên có <span class="gk">μὴ εὑρεῖν</span> chứ không phải <span class="gk">οὐ</span>.</td><td>27</td></tr>
-<tr><td><strong>mạo từ giả</strong></td><td>misleading article (hyperbaton)</td><td>Danh từ xen giữa khiến mạo từ trông như ôm nguyên mẫu: <span class="gk">τὰς τοῦ θεοῦ...χάριτας</span> là &quot;những ân huệ của vị thần&quot; (mạo từ thuộc về danh từ), không phải nguyên mẫu có mạo từ.</td><td>27</td></tr>
-</tbody>
-</table>
-
-<h2 id="greek-latin">6. Đặc thù tiếng Hy Lạp ↔ tiếng Latin</h2>
-<p>Hai ngôn ngữ họ hàng gần trong họ lớn Ấn-Âu (Indo-European): nhiều khái niệm trùng (5 cách đầu, deponent, AcI, participle…), nhưng mỗi bên có "đặc sản" riêng. Khi học song song, đây là bảng "chỉ dẫn giao thông":</p>
-<table>
-<thead><tr><th></th><th>Chỉ có ở Hy Lạp</th><th>Chỉ có ở Latin</th></tr></thead>
-<tbody>
-<tr><td><strong>Chính tả</strong></td><td>dấu hút khí / dấu mềm (rough/smooth breathing); iota phụ (iota subscript); dấu thanh viết ra (written accent) – sắc/huyền/tròn</td><td>chỉ phân biệt nguyên âm dài/ngắn bằng macron (ā/ē) – không có dấu thanh viết ra</td></tr>
-<tr><td><strong>Danh từ</strong></td><td>mạo từ (article) ὁ/ἡ/τό; số kép (dual); chia thứ ba tách nhiều nhóm thân</td><td>rời cách (ablative) – Hy Lạp không có; gerund/gerundive; supine</td></tr>
-<tr><td><strong>Động từ</strong></td><td>trung cách (middle voice) là thức thật; optative (cách thức mong ước riêng); mệnh lệnh ngôi 3 có hình thức riêng (-έτω)</td><td>future participle; mệnh lệnh ngôi 3 mượn subjunctive (amet); thời tương lai đơn giản hơn (bộ -b-/-a-)</td></tr>
-<tr><td><strong>Chung hai bên</strong></td><td colspan="2">5 cách cơ bản (Nom./Gen./Dat./Acc./Voc. – Latin thêm Abl. thành 6); hệ thống chia (declension); deponent; AcI; participle; enclitic; elision; gốc Ấn-Âu chung (sum/εἰμί, ego/ἐγώ)</td></tr>
-</tbody>
-</table>
-
-<div class="box">
-<p><strong>Tra cứu bằng tiếng Anh:</strong> các công cụ chuẩn quốc tế đều dùng thuật ngữ Anh – xem <a href="https://qtan-tran.github.io/ancient-greek-toolkit/">Ancient Greek Toolkit</a> (Logeion, Smyth, Scaife…). Trang này là "cầu nối" từ bộ thuật ngữ tiếng Việt của Graecum VN sang bộ chuẩn đó.</p>
-</div>
-
-<footer>
-Bảng thuật ngữ – Graecum VN · Biên soạn bởi <strong>Trần Quốc Tân</strong> · Nội dung <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Khi cite hoặc tái sử dụng, ghi công: <em>"Graecum VN – Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0"</em> · <a href="index.html">← Về portal</a>
-</footer>
-
-</main>
+    <footer>
+      <p><strong>Tra cứu quốc tế:</strong> Các từ điển và công cụ nghiên cứu chuẩn đều dùng hệ thuật ngữ tiếng Anh (xem <a href="https://qtan-tran.github.io/ancient-greek-toolkit/">Ancient Greek Toolkit</a>: Logeion, Smyth, Scaife...). Bảng này đóng vai trò cầu nối giữa thuật ngữ ngôn ngữ học tiếng Việt chuẩn xác và hệ thuật ngữ quốc tế.</p>
+      <p>Bảng thuật ngữ – Graecum VN – Biên soạn bởi Trần Quốc Tân – Nội dung CC BY-SA 4.0. Khi trích dẫn hoặc tái sử dụng, ghi công: <em>"Graecum VN - Trần Quốc Tân, https://github.com/qtan-tran/graecum-vn, CC BY-SA 4.0"</em>. · <a href="index.html">← Về portal</a></p>
+    </footer>
+  </div>
 </body>
 </html>
-
