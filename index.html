@@ -1,56 +1,176 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Graecum VN – Ancient Greek cho người Việt</title>
-<style>
-  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.6; }
-  body { margin: 0; background: #f8fafc; }
-  main { max-width: 880px; margin: 0 auto; padding: 32px 24px 80px; background: #ffffff; }
-  h1 { color: #14532d; font-size: 1.9em; border-bottom: 3px solid #14532d; padding-bottom: 10px; }
-  h2 { color: #14532d; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; margin-top: 2em; }
-  h3 { color: #166534; margin-top: 1.4em; margin-bottom: 0.4em; }
-  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
-  .tag { display: inline-block; border-radius: 10px; font-size: 0.75em; padding: 1px 9px; white-space: nowrap; }
-  .draft { background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; }
-  .todo { background: #fef3c7; color: #92400e; border: 1px solid #d97706; }
-  .pub { background: #dcfce7; color: #14532d; border: 1px solid #86efac; }
-  table { border-collapse: collapse; width: 100%; margin: 14px 0 22px; }
-  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
-  thead th { background: #14532d; color: #ffffff; }
-  tbody tr:nth-child(even) { background: #f0fdf4; }
-  .box { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 20px; margin: 16px 0; }
-  a { color: #166534; }
-  footer { font-size: 0.85em; color: #64748b; border-top: 1px solid #e2e8f0; margin-top: 40px; padding-top: 12px; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graecum VN – Ancient Greek cho người Việt</title>
+  <style>
+    :root {
+      --bg: #fdfcf9;
+      --surface: #ffffff;
+      --text: #1f2421;
+      --muted: #5a625e;
+      --accent: #1d4e89;
+      --accent-soft: #eef4fa;
+      --border: #dcd8ce;
+      --greek-font: "New Athena Unicode", "Gentium Plus", "Palatino Linotype", Georgia, serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 2rem 1rem 4rem;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    .container { max-width: 1020px; margin: 0 auto; }
+
+    header { border-bottom: 2px solid var(--accent); padding-bottom: 1.25rem; margin-bottom: 2rem; }
+
+    h1 { margin: 0 0 0.75rem; font-size: 2rem; color: var(--accent); letter-spacing: -0.01em; }
+
+    .intro-box {
+      background: var(--accent-soft);
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      font-size: 0.96rem;
+    }
+    .intro-box p { margin: 0.35rem 0; }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+      padding: 1rem 1.25rem;
+      transition: border-color 0.15s ease;
+    }
+    .card:hover { border-color: var(--accent); }
+    .card h3 { margin: 0 0 0.35rem; font-size: 1.02rem; color: var(--accent); }
+    .card p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+
+    section { margin-bottom: 3rem; }
+
+    h2 {
+      font-size: 1.45rem;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 { color: var(--accent); margin: 1.6rem 0 0.6rem; font-size: 1.12rem; }
+
+    .section-lead { margin-bottom: 1rem; }
+
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+      margin-bottom: 1rem;
+    }
+
+    table { width: 100%; border-collapse: collapse; font-size: 0.94rem; }
+
+    thead th {
+      background: #f3f0e8;
+      color: #2b302d;
+      text-align: left;
+      padding: 0.75rem 0.9rem;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    tbody td { padding: 0.7rem 0.9rem; border-bottom: 1px solid #ece8df; vertical-align: top; }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover { background-color: #faf8f3; }
+
+    td:first-child { white-space: nowrap; color: var(--muted); font-size: 0.88rem; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .tag { display: inline-block; border-radius: 999px; font-size: 0.75em; padding: 2px 10px; white-space: nowrap; }
+    .pub   { background: #e7f3ea; color: #1e6b3a; border: 1px solid #bce0c8; }
+    .todo  { background: #fbf3e0; color: #92600e; border: 1px solid #e8d9b0; }
+    .draft { background: #efe9fa; color: #5b21b6; border: 1px solid #cfc0ee; }
+
+    .grk, .gk, i[lang="grc"] { font-family: var(--greek-font); }
+
+    ol, ul { margin: 0.5rem 0 1rem; padding-left: 1.5rem; }
+    ol li, ul li { margin: 0.4rem 0; }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent); }
+  </style>
 </head>
 <body>
-<main>
-
-<h1>Graecum VN · Ancient Greek cho người Việt</h1>
-
-<div class="box">
+  <div class="container">
+    <header>
+      <h1>Graecum VN · Ancient Greek cho người Việt</h1>
+      <div class="intro-box">
 <p><strong>Hub miễn phí tự học tiếng Hy Lạp cổ bằng tiếng Việt</strong> – từ con số không đến đọc Plato, Xenophon, Kinh Thánh Hy Lạp và các văn bản trung–khó. Mọi nội dung <strong>CC BY-SA 4.0</strong>, không quảng cáo, học được offline.</p>
 <p><strong>Bản tiếng Anh:</strong> <a href="en/">Graecum VN – English</a> (đã tới Lesson 8; các bài còn lại dịch dần) · <a href="https://github.com/qtan-tran/graecum-vn/blob/main/README.en.md">README tiếng Anh</a></p>
 <p><strong>Bảng thuật ngữ:</strong> <a href="terminology.html">Thuật ngữ linguistics Việt–Anh</a> – mọi khái niệm dùng trong bài giảng, kèm đối chiếu đặc thù Hy Lạp ↔ Latin.</p>
-</div>
+      </div>
+    </header>
 
-<h2>Lộ trình</h2>
-<table>
-<thead><tr><th>Cấp</th><th>Bài</th><th>Mục tiêu</th></tr></thead>
-<tbody>
+    <div class="card-grid">
+      <div class="card">
+        <h3><a href="terminology.html">Bảng thuật ngữ (Việt–Anh)</a></h3>
+        <p>Toàn bộ thuật ngữ linguistics của 48 bài, kèm đối chiếu Hy Lạp ↔ Latin.</p>
+      </div>
+      <div class="card">
+        <h3><a href="timeline.html">Niên biểu Hy Lạp cổ</a></h3>
+        <p>Sáu thời kỳ, sự kiện có mốc năm và tác giả của mọi bài đọc.</p>
+      </div>
+      <div class="card">
+        <h3><a href="proper-names.html">Tên riêng nhân vật, địa danh</a></h3>
+        <p>Mọi tên riêng trong bài đọc Bài 1–27 kèm phiên âm, cập nhật từng bài.</p>
+      </div>
+    </div>
+
+    <section id="lo-trinh">
+      <h2>Lộ trình</h2>
+      <div class="table-wrap">
+      <table>
+      <thead><tr><th>Cấp</th><th>Bài</th><th>Mục tiêu</th></tr></thead>
+      <tbody>
 <tr><td><strong>Graecum I</strong></td><td>1–24</td><td>Hình thái đầy đủ + cú pháp nền tảng → đọc văn xuôi Attic đơn giản (Xenophon) với từ điển.</td></tr>
 <tr><td><strong>Graecum II</strong></td><td>25–48</td><td>Cú pháp nâng cao → đọc văn bản gốc: Plato, Homer, kịch, NT, biên khắc.</td></tr>
-</tbody>
-</table>
+      </tbody>
+      </table>
+      </div>
+    </section>
 
-<h2>Bài giảng</h2>
-<p>Mục lục tách theo hai cấp: <strong>Graecum I</strong> (Bài 1–24 + Ôn tập #1–#5) và <strong>Graecum II</strong> (Bài 25–48, kèm Ôn tập #6–#10 sau mỗi 5 bài).</p>
-<h3>Graecum I · Bài 1–24 + Ôn tập #1–#5</h3>
-<table>
-<thead><tr><th>#</th><th>Bài</th><th>Trạng thái</th></tr></thead>
-<tbody>
+    <section id="bai-giang">
+      <h2>Bài giảng</h2>
+      <p class="section-lead">Mục lục tách theo hai cấp: <strong>Graecum I</strong> (Bài 1–24 + Ôn tập #1–#5) và <strong>Graecum II</strong> (Bài 25–48, kèm Ôn tập #6–#10 sau mỗi 5 bài).</p>
+      <h3>Graecum I · Bài 1–24 + Ôn tập #1–#5</h3>
+      <div class="table-wrap">
+      <table>
+      <thead><tr><th>#</th><th>Bài</th><th>Trạng thái</th></tr></thead>
+      <tbody>
 <tr><td>1</td><td><a href="lessons/01-foundations/index.html">Nền tảng, nhóm chia o &amp; những câu Hy Lạp đầu tiên</a></td><td><span class="tag pub">đã xuất bản</span></td></tr>
 <tr><td>2</td><td><a href="lessons/02-verbs-present-vocative/index.html">Động từ hiện tại chủ động đủ sáu ngôi, hô cách &amp; nguyên mẫu II</a></td><td><span class="tag pub">đã xuất bản</span></td></tr>
 <tr><td>3</td><td><a href="lessons/03-ellipsis-neuter-plural/index.html">Lược từ (ellipsis), chủ ngữ trung tính số nhiều &amp; trạng từ</a></td><td><span class="tag pub">đã xuất bản</span></td></tr>
@@ -81,29 +201,37 @@
 <tr><td>23</td><td><a href="lessons/23-athematic-verbs/index.html">Động từ athematic (mi-verb): τίθημι, ἵστημι, δίδωμι, ἵημι, φημί</a></td><td><span class="tag pub">đã xuất bản</span></td></tr>
 <tr><td>24</td><td><a href="lessons/24-graecum-i-capstone/index.html">Tổng kết Graecum I: ôn hình thái + đọc liền mạch (Xenophon, Anabasis 1,1; Aelian; bia tôn vinh)</a></td><td><span class="tag pub">đã xuất bản</span></td></tr>
 <tr><td>Ôn tập #5</td><td><a href="lessons/review-21-24/index.html">Ôn tập #5: Bài 21–24 (Wiederholung 5) – kết Graecum I: tóm tắt ngữ pháp, bảng tổng quan &amp; Anki</a></td><td><span class="tag pub">đã xuất bản</span></td></tr>
-</tbody>
-</table>
-<h3>Graecum II · Bài 25–48</h3>
-<table>
-<thead><tr><th>#</th><th>Bài</th><th>Trạng thái</th></tr></thead>
-<tbody>
+      </tbody>
+      </table>
+      </div>
+      <h3>Graecum II · Bài 25–48</h3>
+      <div class="table-wrap">
+      <table>
+      <thead><tr><th>#</th><th>Bài</th><th>Trạng thái</th></tr></thead>
+      <tbody>
 <tr><td>25</td><td><a href="lessons/25-indirect-speech-sequence-of-tenses/index.html">Tường thuật gián tiếp hệ thống hóa: tiếp thời và khôi phục lời nói (Lysias 12,8–11; Aristophanes, Eirene)</a></td><td><span class="tag pub">đã xuất bản</span></td></tr>
 <tr><td>26</td><td><a href="lessons/26-result-clauses-indirect-speech-hos/index.html">Mệnh đề kết quả (ὥστε) và tường thuật với ὡς (Hypothesis zur Antigone; Aesop 143)</a></td><td><span class="tag pub">đã xuất bản</span></td></tr>
 <tr><td>27</td><td><a href="lessons/27-articular-infinitive-apollodor/index.html">Nguyên mẫu có mạo từ (articular infinitive) (Apollodor 3,10; 3,14)</a></td><td><span class="tag pub">đã xuất bản</span></td></tr>
 <tr><td>28–48</td><td>Graecum II, kèm Ôn tập #6–#10 sau mỗi 5 bài</td><td><span class="tag todo">trong roadmap</span></td></tr>
-</tbody>
-</table>
-<h2>Cách học với mỗi bài</h2>
-<ol>
+      </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section id="cach-hoc">
+      <h2>Cách học với mỗi bài</h2>
+      <ol>
 <li>Đọc trên web, hoặc <strong>tải 1 file HTML duy nhất</strong> của bài – học offline bằng mọi trình duyệt, không phụ thuộc internet.</li>
 <li>Muốn bản Word: mở file HTML bằng <strong>MS Word → Save As .docx</strong>.</li>
 <li>Muốn in: <strong>Ctrl+P → Save as PDF</strong> – đáp án bài tập tự hiện khi in.</li>
 <li>Từ vựng cấp I luôn có <strong>phiên âm La tinh hóa</strong> để đọc được ngay (VD: <span class="gk">ὁ ἄνθρωπος</span> → <em>ho ánthrōpos</em>).</li>
 <li>Muốn luyện từ vựng bằng Spaced Repetition: <strong><a href="https://github.com/qtan-tran/graecum-vn/blob/main/vocab/README.md">Anki deck Bài 1–10</a></strong> – TSV + script sinh deck bằng 1 lệnh (thuần Python chuẩn, tag theo bài).</li>
-</ol>
+      </ol>
+    </section>
 
-<h2>Tài liệu project</h2>
-<ul>
+    <section id="tai-lieu">
+      <h2>Tài liệu project</h2>
+      <ul>
 <li><a href="terminology.html">Bảng thuật ngữ (Việt–Anh)</a> – khái niệm linguistics dùng trong 48 bài + đối chiếu Hy Lạp ↔ Latin</li>
 <li><a href="timeline.html">Niên biểu Hy Lạp cổ</a> – sáu thời kỳ, sự kiện có mốc năm và tác giả của mọi bài đọc</li>
 <li><a href="proper-names.html">Tên riêng nhân vật, địa danh</a> – mọi tên riêng gặp trong bài đọc Bài 1–27 kèm phiên âm; được bổ sung mỗi khi có bài đọc mới</li>
@@ -112,13 +240,12 @@
 <li><a href="https://github.com/qtan-tran/graecum-vn/blob/main/docs/STYLE-AND-CONVENTIONS.md">Quy ước biên soạn</a> – thuật ngữ tiếng Việt là chính, phiên âm, cấu trúc bài</li>
 <li><a href="https://github.com/qtan-tran/graecum-vn/blob/main/readings/README.md">Nguồn văn bản gốc để luyện đọc</a></li>
 <li><a href="https://github.com/qtan-tran/graecum-vn/blob/main/vocab/README.md">Trọn bộ từ vựng TSV + Anki cho Bài 1–24 (kèm file import ôn tập)</a> – học từ vựng hiệu quả hơn bằng Spaced Repetition</li>
-</ul>
+      </ul>
+    </section>
 
-<footer>
+    <footer>
 Graecum VN · Biên soạn bởi <strong>Trần Quốc Tân</strong> · Nội dung <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Code MIT · Khi cite hoặc tái sử dụng, ghi: <em>"Graecum VN – Trần Quốc Tân, CC BY-SA 4.0"</em> kèm link repo · Biên soạn độc lập, dùng văn bản public domain · Đáp án bài tập hiện khi in (Ctrl+P → Save as PDF).
-</footer>
-
-</main>
+    </footer>
+  </div>
 </body>
 </html>
-
