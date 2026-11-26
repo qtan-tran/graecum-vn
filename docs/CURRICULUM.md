@@ -16,33 +16,33 @@
 
 | Bài | Chủ đề ngữ pháp | Bài đọc (nguồn gốc, public domain) |
 | --- | --- | --- |
-| 1 | Nền tảng: các loại từ, thành phần câu, khái niệm cách; mạo từ giống đực; danh từ nhóm o (o-declension); động từ ngôi 3 hiện tại; nguyên mẫu (infinitive) I; tiểu từ (particle); vị trí định ngữ (attributive position); tặng cách sở hữu (dative of possession) | Mimnermos, Frg. 12 West; Homer, Ilias 15,187–193 |
-| 2 | Chia động từ hiện tại chủ động đủ các ngôi; hô cách (vocative); nguyên mẫu II (chủ ngữ vs tân ngữ); đối cách kép (double accusative); né vực nguyên âm (hiatus) & ν di động | Platon, Apologie 26c–d; Lukian, Deorum dialogi 10 |
+| 1 | Nền tảng: các loại từ, thành phần câu, khái niệm cách; mạo từ giống đực; danh từ nhóm o (o-declension); động từ ngôi 3 hiện tại; nguyên mẫu (infinitive) I; tiểu từ (particle); vị trí thuộc ngữ (attributive position); tặng cách sở hữu (dative of possession) | Mimnermos, Frg. 12 West; Homer, Ilias 15,187–193 |
+| 2 | Chia động từ hiện tại chủ động đủ các ngôi; hô cách (vocative); nguyên mẫu II (chủ ngữ vs tân ngữ); song đối cách (double accusative); né vực nguyên âm (hiatus) & ν di động | Platon, Apologie 26c–d; Lukian, Deorum dialogi 10 |
 | 3 | Lược từ (ellipsis); chủ ngữ trung tính số nhiều; trạng từ | Aristoteles, Magna Moralia 1,1; Anaxagoras, DK 59A42 |
-| 4 | Đại từ nhân xưng; mệnh lệnh cách; phủ định (οὐ/μή); các dụng pháp tặng cách; nguyên mẫu tân ngữ (accusativus cum infinitivo) bước đầu | Diogenes Laertios 7,7; Epikur, Brief an Menoikeus 128; 131–132 |
-| 5 | Hiện tại trung/bị động; động từ hình thức trung/bị động – nghĩa chủ động (deponent); tính từ danh từ hóa; τις/τι (bảng chia đầy đủ) | Stobaios II 7,11g–i; Marc Aurel, Tà eis heautón 9,40 |
+| 4 | Đại từ nhân xưng; thức mệnh lệnh; phủ định (οὐ/μή); các dụng pháp tặng cách; nguyên mẫu tân ngữ (accusativus cum infinitivo) bước đầu | Diogenes Laertios 7,7; Epikur, Brief an Menoikeus 128; 131–132 |
+| 5 | Hiện tại trung/bị động; động từ hình thức trung/bị động – nghĩa chủ động (deponent); tính từ danh hóa; τις/τι (bảng chia đầy đủ) | Stobaios II 7,11g–i; Marc Aurel, Tà eis heautón 9,40 |
 | Ôn tập #1 | **Ôn tập #1 – Bài 1–5** (Wiederholung): tóm tắt ngữ pháp chính; bảng tổng quan động từ, mạo từ, danh từ, tính từ, đại từ đã học; file import Anki (`.apkg` + `vocab/anki-01-05.txt`) + quy tắc thẻ; chiến lược ôn tập nhóm | – |
-| 6 | δύναμαι; đại từ chỉ định (ὅδε, ἐκεῖνος); εἶναι II | Homer, Odyssee 6,187–197; 16,181–206 |
+| 6 | δύναμαι; đại từ trực chỉ (ὅδε, ἐκεῖνος); εἶναι II | Homer, Odyssee 6,187–197; 16,181–206 |
 | 7 | Chia thứ ba I: thân phụ âm (3rd declension); hệ thống mệnh lệnh đủ số/ngôi; câu cấm đoán (prohibitions, μή) | Dio Chrysostomos, Or. 7; Longos 1,9–13 |
 | 8 | Chia thứ ba II: thân nguyên âm, trung tính; số từ 1–999 | Plutarch, Lykurgos; Longos 3 |
-| 9 | Tính từ 3/2 đuôi; tạo trạng từ; ôn danh từ hóa; tính từ kén cách (κοινός + Gen./Dat.) | Xenophon, Agesilaos; Lukian, Deorum dialogi 24 |
+| 9 | Tính từ 3/2 đuôi; tạo trạng từ; ôn danh hóa; tính từ kén cách (κοινός + Gen./Dat.) | Xenophon, Agesilaos; Lukian, Deorum dialogi 24 |
 | 09b | **Bài bổ sung 09b** – So sánh của tính từ & trạng từ: Typ I/II, bất quy tắc, μᾶλλον/μάλιστα, ἤ & sở hữu cách so sánh, sở hữu cách bộ phận, elative, bản đồ sở hữu cách | Platon, Apologie 21a; Aesop 18 |
 | 10 | Hiện tại trung/bị động đủ; deponent mở rộng | Platon, Politeia 375b–e; Diogenes Laertios 6,37 |
 | Ôn tập #2 | **Ôn tập #2 – Bài 6–10** (Wiederholung): tóm tắt ngữ pháp chính; bảng tổng quan động từ, mạo từ, danh từ, tính từ, đại từ đã học; file import Anki (`.apkg` + `vocab/anki-06-10.txt`) + quy tắc thẻ; chiến lược ôn tập nhóm | – |
-| 11 | Quá khứ chưa hoàn thành (imperfect): augment; biểu thức thời gian; tặng cách chỉ thời điểm & đối cách chỉ độ dài | Herodot 1,207; Diodor 12,13 |
+| 11 | Thì quá khứ chưa hoàn thành (imperfect): augment; biểu thức thời gian; tặng cách chỉ thời điểm & đối cách chỉ độ dài | Herodot 1,207; Diodor 12,13 |
 | 12 | Tương lai chủ động/trung; động từ co (contract verbs) | Xenophon, Anabasis 1,9; Plutarch, Lykurgos 14 |
 | 13 | Aorist chủ động/trung (dạng sigmatic & thematic) | Aristides 51 Keil; Xenophon, Anabasis 2,5 |
-| 14 | Aorist & tương lai bị động; hoàn thành trung/bị động | Platon, Protagoras 313d–e; Menon 89d–92c |
+| 14 | Aorist & tương lai bị động; thì hoàn thành trung/bị động | Platon, Protagoras 313d–e; Menon 89d–92c |
 | 15 | Đại từ quan hệ & mệnh đề quan hệ; đại từ sở hữu & phản thân | Platon, Menon 72d–73c; Apollodor 2,5,9 |
 | Ôn tập #3 | **Ôn tập #3 – Bài 11–15** (Wiederholung): tóm tắt ngữ pháp chính; bảng tổng quan động từ, mạo từ, danh từ, tính từ, đại từ đã học; file import Anki (`.apkg` + `vocab/anki-11-15.txt`) + quy tắc thẻ; chiến lược ôn tập nhóm | – |
 | 16 | Thức giả định (subjunctive); mệnh đề mục đích; ἄν / ἐάν | Athenaios 4,151e–152b; Parthenios 30 |
 | 17 | Thức cầu mong (optative); tường thuật gián tiếp (ὅτι); optative tiềm năng | Platon, Protagoras 311b–319a; Aesop 245 |
 | 18 | Nguyên mẫu tân ngữ (AcI) mở rộng; câu hỏi gián tiếp | Arrian, Anabasis 2,14; 2,12 |
-| 19 | Phân từ (participle) I: định ngữ & hoàn cảnh (circumstantial) | Longos 1,20–21 |
+| 19 | Phân từ (participle) I: thuộc ngữ & tình huống (circumstantial) | Longos 1,20–21 |
 | 20 | Phân từ II: tuyệt phối sở hữu cách (genitive absolute); phân từ vs nguyên mẫu | Dio Chrysostomos, Or. 9,14–15; Isokrates 18 |
 | Ôn tập #4 | **Ôn tập #4 – Bài 16–20** (Wiederholung): tóm tắt ngữ pháp chính; bảng tổng quan động từ, mạo từ, danh từ, tính từ, đại từ đã học; file import Anki (`.apkg` + `vocab/anki-16-20.txt`) + quy tắc thẻ; chiến lược ôn tập nhóm | – |
 | 21 | Câu điều kiện I (điều kiện thực/lý tưởng) | Euripides, Medeia 230–247; Theophrast, Charaktere |
-| 22 | Mệnh đề thời gian/nguyên nhân; ὅταν/ὅτε; ôn nguyên mẫu tân ngữ | Xenophon, Anabasis 3,1; 2,6 |
+| 22 | Mệnh đề trạng ngữ chỉ thời gian/nguyên nhân; ὅταν/ὅτε; ôn nguyên mẫu tân ngữ | Xenophon, Anabasis 3,1; 2,6 |
 | 23 | Động từ athematic (δίδωμι, τίθημι, ἵστημι, ἵημι, φημί); động từ bất quy tắc lõi | Xenophon, Apologie 28; Lukian, Deorum dialogi 8 |
 | 24 | Tổng kết Graecum I: ôn hình thái + đọc liền mạch văn xuôi Xenophon (bản đơn giản hóa do project biên soạn) | Ailianos, Varia historia 12,61; IG II³ 1137 (= IG II² 844) |
 | Ôn tập #5 | **Ôn tập #5 – Bài 21–24 (kết Graecum I)** (Wiederholung): tóm tắt ngữ pháp chính; bảng tổng quan động từ, mạo từ, danh từ, tính từ, đại từ đã học; file import Anki (`.apkg` + `vocab/anki-21-24.txt`) + quy tắc thẻ; chiến lược ôn tập nhóm | – |
@@ -51,7 +51,7 @@
 
 | Bài | Chủ đề ngữ pháp | Bài đọc (nguồn gốc, public domain) |
 | --- | --- | --- |
-| 25 | Tường thuật gián tiếp hệ thống hóa; tiếp thời (sequence of tenses) | Lysias 12,8–11; Aristophanes, Eirene 948–992 |
+| 25 | Tường thuật gián tiếp hệ thống hóa; sự hòa phối thì–thức (sequence of tenses) | Lysias 12,8–11; Aristophanes, Eirene 948–992 |
 | 26 | Mệnh đề kết quả (ὥστε); tường thuật với ὡς | Hypothesis zur Antigone; Aesop 143 |
 | 27 | Nguyên mẫu có mạo từ (articular infinitive) II | Apollodor 3,10; 3,14 |
 | 28 | Đọc sâu: văn mô tả & lập luận (Plato) | Platon, Politeia 369d–372d; Lukian, Deorum dialogi 4 |

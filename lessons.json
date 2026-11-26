@@ -30,7 +30,7 @@
         "động từ ngôi 3 hiện tại",
         "nguyên mẫu",
         "tiểu từ",
-        "vị trí định ngữ",
+        "vị trí thuộc ngữ",
         "tặng cách sở hữu"
       ],
       "reading": [
@@ -49,7 +49,7 @@
         "chia động từ hiện tại chủ động",
         "hô cách (vocative)",
         "nguyên mẫu làm chủ ngữ/tân ngữ",
-        "đối cách kép (double accusative)",
+        "song đối cách (double accusative)",
         "phủ định οὐ/οὐκ/οὐχ",
         "né vực nguyên âm (hiatus)",
         "lược âm (elision)"
@@ -67,11 +67,11 @@
       "level": "graecum-1",
       "title": "Lược từ (ellipsis), chủ ngữ trung tính số nhiều & trạng từ",
       "topics": [
-        "lược từ (ellipsis)",
+        "tỉnh lược (ellipsis)",
         "câu danh ngữ (nominal sentence)",
         "chủ ngữ trung tính số nhiều",
         "trạng từ",
-        "tính từ danh từ hóa (khởi đầu)"
+        "tính từ danh hóa (khởi đầu)"
       ],
       "reading": [
         "Aristoteles, Magna Moralia 1,1",
@@ -84,10 +84,10 @@
       "id": "04-pronouns-imperative",
       "num": 4,
       "level": "graecum-1",
-      "title": "Đại từ nhân xưng, mệnh lệnh cách, phủ định & nguyên mẫu tân ngữ (AcI) bước đầu",
+      "title": "Đại từ nhân xưng, thức mệnh lệnh, phủ định & nguyên mẫu tân ngữ (AcI) bước đầu",
       "topics": [
-        "đại từ nhân xưng (nhấn mạnh vs enclitic)",
-        "mệnh lệnh cách hiện tại chủ động",
+        "đại từ nhân xưng (nhấn mạnh vs từ tựa sau)",
+        "thức mệnh lệnh hiện tại chủ động",
         "phủ định (οὐ/μή)",
         "các dụng pháp tặng cách",
         "nguyên mẫu tân ngữ (AcI) bước đầu"
@@ -103,13 +103,13 @@
       "id": "05-medium-passive",
       "num": 5,
       "level": "graecum-1",
-      "title": "Hiện tại trung/bị động, động từ deponent, tính từ danh từ hóa & τις/τι",
+      "title": "Hiện tại trung/bị động, động từ deponent, tính từ danh hóa & τις/τι",
       "topics": [
-        "hiện tại trung/bị động (chỉ định, mệnh lệnh, nguyên mẫu)",
+        "hiện tại trung/bị động (thức chỉ định, mệnh lệnh, nguyên mẫu)",
         "cách dịch bị động vs trung",
         "động từ deponent",
-        "tính từ danh từ hóa",
-        "τις/τι vs τί; pattern dấu thanh \"hỏi = dấu âm đầu\" tái xuất ở cặp πότε/ποτέ (bài 10)",
+        "tính từ danh hóa",
+        "τις/τι vs τί; pattern dấu trọng âm \"hỏi = dấu âm đầu\" tái xuất ở cặp πότε/ποτέ (bài 10)",
         "bảng chia đầy đủ của đại từ bất định τις/τι (Acc. τινά, Dat. τινί, Pl. τινές/τινάς, τινά, τινῶν, τισί(ν))"
       ],
       "reading": [
@@ -131,7 +131,7 @@
       ],
       "topics": [
         "tóm tắt ngữ pháp chính Bài 1–5",
-        "bảng tổng quan động từ hiện tại chỉ định + mệnh lệnh; mạo từ, danh từ, tính từ đã học",
+        "bảng tổng quan động từ hiện tại: thức chỉ định + mệnh lệnh; mạo từ, danh từ, tính từ đã học",
         "đại từ (Pronomen cá nhân, οὗτος/ὅδε) + bài \"ai cầm cách nào\"",
         "bộ Anki nhóm Bài 1–5 (apkg + vocab/anki-01-05.txt) + cách import",
         "chiến lược ôn tập nhóm + tự kiểm tra 5 câu"
@@ -144,14 +144,14 @@
       "id": "06-dynamai-demonstratives",
       "num": 6,
       "level": "graecum-1",
-      "title": "δύναμαι, đại từ chỉ định (ὅδε, ἐκεῖνος) & εἶναι",
+      "title": "δύναμαι, đại từ trực chỉ (ὅδε, ἐκεῖνος) & εἶναι",
       "topics": [
         "δύναμαι (deponent không chủ đề)",
         "động từ có chủ đề vs không chủ đề (thematic/athematic)",
-        "đại từ chỉ định ὅδε, ἥδε, τόδε",
-        "đại từ chỉ định ἐκεῖνος, ἐκείνη, ἐκεῖνο",
-        "vị trí vị ngữ – dịch như định ngữ",
-        "hướng chỉ (deixis)",
+        "đại từ trực chỉ ὅδε, ἥδε, τόδε",
+        "đại từ trực chỉ ἐκεῖνος, ἐκείνη, ἐκεῖνο",
+        "vị trí vị ngữ – dịch như thuộc ngữ",
+        "trực chỉ (deixis)",
         "εἶναι: bảng chia đầy đủ",
         "εἶ vs εἰ"
       ],
@@ -166,9 +166,9 @@
       "id": "07-third-declension-imperatives",
       "num": 7,
       "level": "graecum-1",
-      "title": "Chia thứ ba I (thân phụ âm), hệ thống mệnh lệnh & câu cấm đoán",
+      "title": "Chia thứ ba I (thân từ phụ âm), hệ thống mệnh lệnh & câu cấm đoán",
       "topics": [
-        "chia thứ ba: thân trần + đuôi, khái niệm thân ẩn",
+        "chia thứ ba: thân từ trần + đuôi, khái niệm thân từ ẩn",
         "mẫu trung tính: σῶμα, σώματος",
         "mẫu giống đực -ην và -ωρ: ποιμήν, ῥήτωρ",
         "mẫu -ις: πόλις",
@@ -188,12 +188,12 @@
       "id": "08-third-declension-neuters-numerals",
       "num": 8,
       "level": "graecum-1",
-      "title": "Chia thứ ba II (thân nguyên âm, trung tính) & số từ 1–999",
+      "title": "Chia thứ ba II (thân từ nguyên âm, trung tính) & số từ 1–999",
       "topics": [
-        "chia thứ ba II: thân nguyên âm (vowel stems), chìa khóa sở hữu cách",
+        "chia thứ ba II: thân từ nguyên âm (vowel stems), chìa khóa sở hữu cách",
         "mẫu -εύς: βασιλεύς, βασιλέως",
         "mẫu -υς: ἰχθύς (họ hàng với πόλις)",
-        "trung tính chia thứ ba: ἄστυ (thân -υ), γένος (thân s)",
+        "trung tính chia thứ ba: ἄστυ (thân từ -υ), γένος (thân từ s)",
         "bản đồ đuôi chia thứ ba hoàn chỉnh + chiến lược đọc",
         "số từ 1–10: εἷς, μία, ἕν biến cách đầy đủ; τρεῖς, τέτταρες",
         "số từ 11–99: đơn vị + καί + hàng chục",
@@ -211,15 +211,15 @@
       "id": "09-adjectives-two-three-endings-adverbs",
       "num": 9,
       "level": "graecum-1",
-      "title": "Tính từ 3/2 đuôi, tạo trạng từ & ôn danh từ hóa",
+      "title": "Tính từ 3/2 đuôi, tạo trạng từ & ôn danh hóa",
       "topics": [
         "tính từ hai đuôi (two-ending): đực/cái chung một dạng, trung riêng",
-        "mẫu thân s: ἀληθής, ἀληθές (hợp thể như γένος)",
-        "mẫu thân ν: εὐδαίμων, εὐδαίμον (như βασιλεύς) + σώφρων, σῶφρον",
+        "mẫu thân từ s: ἀληθής, ἀληθές (hợp thể như γένος)",
+        "mẫu thân từ ν: εὐδαίμων, εὐδαίμον (như βασιλεύς) + σώφρων, σῶφρον",
         "tính từ ba đuôi (three-ending): μέλας, μέλαινα, μέλαν (cái theo nhóm a)",
         "bản đồ đuôi tính từ chia thứ ba + chiến lược đọc",
-        "tạo trạng từ: thân trung tính + -ως (σοφῶς, ἀληθῶς, εὐδαιμόνως); εὖ",
-        "ôn danh từ hóa: τὸ ἀληθές \"chân lý\", τὸ εὐδαίμον \"hạnh phúc\"",
+        "tạo trạng từ: thân từ trung tính + -ως (σοφῶς, ἀληθῶς, εὐδαιμόνως); εὖ",
+        "ôn danh hóa: τὸ ἀληθές \"chân lý\", τὸ εὐδαίμον \"hạnh phúc\"",
         "tính từ kén cách (adjective with case complement): κοινός + sở hữu/tặng cách; bộ ba \"kén cách\" động từ – giới từ – tính từ"
       ],
       "reading": [
@@ -258,7 +258,7 @@
       "level": "graecum-1",
       "title": "Hiện tại trung/bị động đủ sáu ngôi & deponent mở rộng",
       "topics": [
-        "ôn bản đồ sáu ngôi × hai thái (παιδεύω): -όμεθα, -ονται vs -ουσι(ν), 2 Sg. -ει trùng 3 Sg. chủ động",
+        "ôn bản đồ sáu ngôi × hai thể (παιδεύω): -όμεθα, -ονται vs -ουσι(ν), 2 Sg. -ει trùng 3 Sg. chủ động",
         "mệnh lệnh ngôi 3 trung/bị động (-έσθω/-έσθωσαν) + nguyên mẫu -εσθαι",
         "tác nhân ὑπό + sở hữu cách: ôn sâu bài 5, lật chủ động ↔ bị động; Latin ā/ab + cách xóa",
         "bốn làn nghĩa của -ομαι: trung trực tiếp (λούεται), trung gián tiếp (μισθόεται), bị động, deponent",
@@ -286,7 +286,7 @@
         "tóm tắt ngữ pháp chính Bài 6–10",
         "εἶναι + deponent; παιδεύομαι; hệ mệnh lệnh đầy đủ ngôi 2 + 3",
         "mạo từ đủ 3 giống; chia thứ ba I/II + bản đồ đuôi",
-        "đại từ chỉ định + số từ + tính từ",
+        "đại từ trực chỉ + số từ + tính từ",
         "bộ Anki nhóm Bài 6–10 (apkg + vocab/anki-06-10.txt) + cách import",
         "chiến lược ôn tập nhóm + tự kiểm tra 5 câu"
       ],
@@ -298,16 +298,16 @@
       "id": "11-imperfect-augment",
       "num": 11,
       "level": "graecum-1",
-      "title": "Quá khứ chưa hoàn thành (imperfect): augment & biểu thức thời gian",
+      "title": "Thì quá khứ chưa hoàn thành (imperfect): augment & biểu thức thời gian",
       "topics": [
         "khái niệm aspect: imperfect = hiện tại 'nhìn từ bên trong' neo vào quá khứ (tường thuật nền, thói quen, tiến triển bị cắt ngang)",
-        "augment (tăng phụ): âm tiết ἐ- + tăng phụ nguyên âm (ἀκούω → ἤκουον); ρ đôi; ngoại lệ ἔχω → εἶχον; Homer bỏ augment",
+        "augment (âm tăng đầu): âm tiết ἐ- + âm tăng đầu nguyên âm (ἀκούω → ἤκουον); ρ đôi; ngoại lệ ἔχω → εἶχον; Homer bỏ augment",
         "imperfect chủ động đủ 6 ngôi (ἐπαίδευον…): đuôi thứ cấp, 1 Sg. = 3 Pl., ν di động",
         "imperfect trung/bị động + deponent (ἐβουλόμην…): 2 Sg. -ου khác -ῃ của hiện tại; εἰμί quá khứ ἦν, ἦσαν",
         "biểu thức thời gian: τότε, πρότερον, ἔτι, οὐκέτι, ἀεί, πάλαι + công thức biên niên ἐπ' ἄρχοντος + gen",
         "chiến lược đọc: 'bóc augment' để tra từ điển; preview động từ ghép (προέκρινεν) và động từ co -έω (bài 12)",
         "tặng cách chỉ thời điểm & đối cách chỉ độ dài thời gian (dative of time / accusative of extent): τῇ νυκτί vs τὴν νύκτα",
-        "augment ở động từ ghép (compound verb): chèn giữa tiền tố và thân, lược âm (trừ περι-/προ-), hoàn tác đồng hóa (συνελάμβανον), ἐκ → ἐξ (ἐξέβαλλον); εὐ- → ηὐ- (ηὕρισκον)",
+        "augment ở động từ ghép (compound verb): chèn giữa tiền tố và thân từ, lược âm (trừ περι-/προ-), hoàn tác đồng hóa (συνελάμβανον), ἐκ → ἐξ (ἐξέβαλλον); εὐ- → ηὐ- (ηὕρισκον)",
         "imperfect chỉ tồn tại ở thức chỉ định (không có mệnh lệnh, không có nguyên mẫu imperfect)"
       ],
       "reading": [
@@ -323,10 +323,10 @@
       "level": "graecum-1",
       "title": "Tương lai chủ động/trung; động từ co (contract verbs)",
       "topics": [
-        "tương lai (future) chủ động: thân + σ + đuôi (παιδεύσω, γράψω, ἄξω); quy tắc phụ âm + σ (ψ/ξ/σ); ngoại lệ ἔχω → ἕξω; không augment",
-        "tương lai m/p + deponent (βουλήσομαι, ἀκολουθήσω); nhóm đổi giọng λήψομαι, τέξομαι, ἀκούσομαι; εἰμί tương lai ἔσομαι, ἔσται",
+        "tương lai (future) chủ động: thân từ + σ + đuôi (παιδεύσω, γράψω, ἄξω); quy tắc phụ âm + σ (ψ/ξ/σ); ngoại lệ ἔχω → ἕξω; không augment",
+        "tương lai m/p + deponent (βουλήσομαι, ἀκολουθήσω); nhóm đổi thể λήψομαι, τέξομαι, ἀκούσομαι; εἰμί tương lai ἔσομαι, ἔσται",
         "ἀκούω + sở hữu cách (người/nguồn được nghe) / + đối cách (điều được nghe): ἀκούσεσθε ἐμοῦ τὴν ἀλήθειαν",
-        "tương lai lỏng (liquid future) của thân λ/μ/ν/ρ: μενῶ, κρῑνῶ (sụt phụ âm bù)",
+        "thì tương lai thân lưu âm (liquid future) của thân từ λ/μ/ν/ρ: μενῶ, κρῑνῶ (sụt phụ âm bù)",
         "động từ co (contract verb) 3 họ: ποιέω/τιμάω/δηλόω hiện tại (ποιῶ, τιμᾷ, δηλοῖ) + quy tắc co + accent tròn",
         "imperfect động từ co (ἐποίει, ἐτίμα, ἐδήλου) và tương lai KHÔNG co (ποιήσω, accent đứng trên η/α/ω); giải mã ἐπολέμει, ἐνομοθέτει (bài 11)",
         "hiện tại lịch sử (historic present) δίδωσιν; biểu thức thời gian αὔριον; chiến lược 'bóc tương lai' và preview aorist λύσω vs ἔλυσα"
@@ -345,10 +345,10 @@
       "title": "Aorist chủ động/trung (dạng sigmatic & thematic)",
       "topics": [
         "khái niệm aorist (ἀόριστος) và khía cạnh (aspect): chốt sự kiện vs imperfect vẽ nền; Latin corner vēnī, vīdī, vīcī",
-        "aorist sigmatic chủ động: ἔλυσα 6 ngôi; phụ âm + σ (ἔγραψα, ἐκήρυξα); động từ co ἐποίησα; λύσω vs ἔλυσα",
+        "aorist biến tố -σ- chủ động: ἔλυσα 6 ngôi; phụ âm + σ (ἔγραψα, ἐκήρυξα); động từ co ἐποίησα; λύσω vs ἔλυσα",
         "aorist m/p: ἐλυσάμην; deponent ἐβουλευσάμην, ἡγήσατο, ἠκολούθησα; Latin corner dīxī ↔ ἔδειξα",
         "aorist chủ đề (thematic): ἦλθον, ἔλαβον, εὗρον, ἐγενόμην, εἶπον; ἔλαβον vs ἐλάμβανον",
-        "aorist thân lỏng (liquid): ἔμεινα, ἔκρῑνα, ἔστειλα, ἀπεκρινάμην",
+        "aorist thân từ lỏng (liquid): ἔμεινα, ἔκρῑνα, ἔστειλα, ἀπεκρινάμην",
         "bản đồ aspect và chiến lược bóc aorist 4 bước; hiện tại lịch sử ὁρῶ; imperfect trá hình προὔτεινεν"
       ],
       "reading": [
@@ -362,13 +362,13 @@
       "id": "14-aorist-future-passive-perfect-medpass",
       "num": 14,
       "level": "graecum-1",
-      "title": "Aorist & tương lai bị động; hoàn thành trung/bị động",
+      "title": "Aorist & tương lai bị động; thì hoàn thành trung/bị động",
       "topics": [
         "aorist bị động I: ἐλύθην 6 ngôi, accent trên -θη-; Latin corner amātus est ↔ ἐλύθη",
         "aorist bị động II: ἐφάνην, ἠλλάγην, ἐβλάβην, ἐστάλην; động từ co ἐτιμήθην; ἐφάνη vs ἔφην (φημί)",
-        "tương lai bị động: λυθήσομαι (thân aorist bị động + đuôi trung tương lai); φανήσομαι, διδαχθήσομαι",
-        "hoàn thành m/p: λέλυμαι, nhân đôi (reduplication), không augment; πέπαυται, κέκλημαι; οἶδα perfect hình thức nghĩa hiện tại",
-        "bản đồ sáu thân chính của λύω; Latin 4 principal parts vs Greek 6",
+        "tương lai bị động: λυθήσομαι (thân từ aorist bị động + đuôi trung tương lai); φανήσομαι, διδαχθήσομαι",
+        "thì hoàn thành m/p: λέλυμαι, nhân đôi (reduplication), không augment; πέπαυται, κέκλημαι; οἶδα perfect hình thức nghĩa hiện tại",
+        "bản đồ sáu thân từ chính của λύω; Latin 4 principal parts vs Greek 6",
         "chiến lược bóc bị động 4 bước; tác nhân ὑπό + sở hữu cách; bảng tra nhanh 13 dòng"
       ],
       "reading": [
@@ -384,7 +384,7 @@
       "level": "graecum-1",
       "title": "Đại từ quan hệ & mệnh đề quan hệ; đại từ sở hữu & phản thân",
       "topics": [
-        "đại từ quan hệ ὅς, ἥ, ὅ: bảng chia đầy đủ; phân biệt với mạo từ qua dấu thanh + dấu hút khí; Latin corner quī quae quod ↔ ὅς ἥ ὅ",
+        "đại từ quan hệ ὅς, ἥ, ὅ: bảng chia đầy đủ; phân biệt với mạo từ qua dấu trọng âm + dấu thở mạnh; Latin corner quī quae quod ↔ ὅς ἥ ὅ",
         "mệnh đề quan hệ: quy tắc hợp nhất kép – giống & số theo danh từ đứng trước, cách theo nhiệm vụ trong mệnh đề con; \"của ai\" = sở hữu cách quan hệ",
         "đọc câu ghép: kỹ thuật \"gọng kẹp\"; thanh toán preview παρ' οὓς (bài 13) & ἃ πωλοῦσιν (bài 14)",
         "hút cách (attraction): đối cách bị hút về sở hữu/tặng cách của antecedent (Platon); Latin không hút cách",
@@ -412,9 +412,9 @@
       ],
       "topics": [
         "tóm tắt ngữ pháp chính Bài 11–15",
-        "bảng tổng quan động từ: imperfect, future, aorist (sigmatic + chủ đề), aorist & tương lai bị động, hoàn thành m/p",
-        "bản đồ sáu thân λύω + Latin corner perfectum ↔ aorist/hoàn thành",
-        "bảng tổng quan đại từ Graecum I (bài 4–6, 15): quan hệ, sở hữu, αὐτός, phản thân; hợp nhất kép + hút cách",
+        "bảng tổng quan động từ: imperfect, future, aorist (biến tố -σ- + thân chủ đề), aorist & tương lai bị động, thì hoàn thành m/p",
+        "bản đồ sáu thân từ λύω + Latin corner perfectum ↔ aorist/thì hoàn thành",
+        "bảng tổng quan đại từ Graecum I (bài 4–6, 15): quan hệ, sở hữu, αὐτός, phản thân; hợp nhất kép + hiện tượng hút cách",
         "bộ Anki nhóm Bài 11–15 (apkg + vocab/anki-11-15.txt) + cách import",
         "chiến lược ôn tập nhóm + tự kiểm tra 5 câu"
       ],
@@ -428,8 +428,8 @@
       "level": "graecum-1",
       "title": "Thức giả định (subjunctive); mệnh đề mục đích; ἄν / ἐάν",
       "topics": [
-        "bản đồ bốn thức: chỉ định, mệnh lệnh, subjunctive (hôm nay), optative (sau này); khi nào động từ 'mặc' thức nào; Latin coniunctivus corner",
-        "dạng chủ động: quy tắc 'đuôi dài' -ω/-ῃ/-ωμεν/-ωσι(ν) và aorist subjunctive 'không augment': λύωμεν/λύσῃ vs chỉ định λύομεν/λύσει",
+        "bản đồ bốn thức: thức chỉ định, mệnh lệnh, subjunctive (hôm nay), optative (sau này); khi nào động từ 'mặc' thức nào; Latin coniunctivus corner",
+        "dạng chủ động: quy tắc 'đuôi dài' -ω/-ῃ/-ωμεν/-ωσι(ν) và aorist subjunctive 'không augment': λύωμεν/λύσῃ vs thức chỉ định λύομεν/λύσει",
         "trung/bị động & deponent + động từ co + εἰμί: ὦ, ᾖς, ᾖ, ὦμεν, ἦτε, ὦσι(ν); bẫy λύσηται vs λύσεται",
         "chiến lược 'bóc' subjunctive: đuôi dài, không augment, tiểu từ dẫn đường, ngữ cảnh; bẫy τιμᾷ trùng chính tả cả hai thức",
         "ἄν & ἐάν: điều kiện tương lai ἐὰν + subj vế con + tương lai vế chính; general condition; ὡς ἂν 'như thể'",
@@ -452,14 +452,14 @@
       "topics": [
         "bản đồ bốn thức hoàn chỉnh: optative là thức của 'giá mà'; trả nợ bài 14 (εἶεν, εἰκάζοιμεν, λάβοι); Latin corner: coniunctivus gánh việc ước",
         "dạng chủ động: quy tắc 'nguyên âm nối + đuôi primary': λύοιμι, λύοις, λύοι...λύοιεν; aorist λύσαιμι...λύσαιεν; optative không bao giờ có augment",
-        "động từ co: ποιῷ, ποιῷς, ποιῶμεν; bẫy ποιῶ trùng chính tả chỉ định lẫn optative; aorist bất quy tắc: εἴποι, γένοιτο, δοθείη, ἴδοιμι",
+        "động từ co: ποιῷ, ποιῷς, ποιῶμεν; bẫy ποιῶ trùng chính tả thức chỉ định lẫn optative; aorist bất quy tắc: εἴποι, γένοιτο, δοθείη, ἴδοιμι",
         "trung/bị động: λύοιμην, λύοιο, λύοιτο...; aorist bị động λυθείην; εἰμί: εἴην, εἴης, εἴη, εἶμεν, εἶτε, εἶεν; εἶμι: ἴοιμεν",
         "chiến lược 'bóc' optative: thấy -οι hở cuối, không augment, tiểu từ dẫn đường (εἴθε, ἄν, ὅτι sau quá khứ); bẫy λῦσαι (nguyên mẫu) vs λύσαι (optative)",
-        "lời chúc và nguyền: εἴη, γένοιτο, μὴ γένοιτο; εἴθε / εἰ γάρ + opt; achtung: tiếc điều đã lỡ trong quá khứ thì dùng chỉ định quá khứ (εἰ γὰρ ἀπέθανον)",
-        "optative tiềm năng + ἄν: εὖ ἂν λέγοις 'hẳn thế'; ba loại điều kiện εἰ + chỉ định / ἐάν + subjunctive / εἰ + optative; nhạt tương lai: τί ποιοῖμεν;",
+        "lời chúc và nguyền: εἴη, γένοιτο, μὴ γένοιτο; εἴθε / εἰ γάρ + opt; achtung: tiếc điều đã lỡ trong quá khứ thì dùng thức chỉ định quá khứ (εἰ γὰρ ἀπέθανον)",
+        "optative tiềm năng + ἄν: εὖ ἂν λέγοις 'hẳn thế'; ba loại điều kiện εἰ + thức chỉ định / ἐάν + subjunctive / εἰ + optative; nhạt tương lai: τί ποιοῖμεν;",
         "tường thuật gián tiếp: ὅτι/ὡς 'rằng' (động từ dẫn: φημί, ἔφη, ἐλπίζω, νομίζω) vs ὅτι 'bởi vì' vs ὅ,τι 'điều mà'",
-        "chuỗi thời-thức: primary giữ nguyên chỉ định, secondary 'nhích' sang optative (oblique optative không phải lời ước); quá khứ chỉ định giữ nguyên",
-        "bài đọc Aesop: AcI + nguyên mẫu tương lai (ὑπέλαβές με καταβήσεσθαι, preview bài 18), genitive absolute học mặt, augment kép ᾖδεν, hoàn thành m/p πεπλάνησαι"
+        "sự hòa phối thì–thức: primary giữ nguyên thức chỉ định, secondary 'nhích' sang optative (oblique optative không phải lời ước); thức chỉ định quá khứ giữ nguyên",
+        "bài đọc Aesop: AcI + nguyên mẫu tương lai (ὑπέλαβές με καταβήσεσθαι, preview bài 18), genitive absolute học mặt, augment kép ᾖδεν, thì hoàn thành m/p πεπλάνησαι"
       ],
       "reading": [
         "Platon, Protagoras 310b-311b, 312d, 318d-319a",
@@ -475,14 +475,14 @@
       "title": "Nguyên mẫu tân ngữ (AcI) mở rộng; câu hỏi gián tiếp",
       "topics": [
         "ôn AcI bài 4 + mở rộng bộ động từ dẫn: nói/nghĩ, truyền lệnh (κελεύω, ἐντέλλομαι, παραγγέλλω), dò hỏi/nhờ vã (ἐρωτάω, πυνθάνομαι, δεέομαι), cảm nhận, bị động; AcI mồ côi chủ thể (δεησόμενοι ἀφεῖναι)",
-        "thời tương đối của nguyên mẫu: λύειν (cùng lúc) / λῦσαι (trước, một lần) / λελυκέναι (trước, trạng thái còn) / λύσειν (sau); aorist nguyên mẫu không có augment (ἐλθεῖν ≠ ἦλθον)",
+        "thời gian tương đối của nguyên mẫu: λύειν (cùng lúc) / λῦσαι (trước, một lần) / λελυκέναι (trước, trạng thái còn) / λύσειν (sau); aorist nguyên mẫu không có augment (ἐλθεῖν ≠ ἦλθον)",
         "nguyên mẫu tương lai: λύσειν, ποιήσειν, ἔσεσθαι (mang augment), γενήσεσθαι; cặp καταβῆναι (aorist) vs καταβήσεσθαι (tương lai) – trả nợ bài 17; Latin corner: ventūrum esse",
         "mệnh lệnh gián tiếp: đối cách + nguyên mẫu sau κελεύω/ἐντέλλομαι/παραγγέλλω; μὴ phủ định lệnh vs οὐ phủ định nội dung; Latin iubeō/vetō",
         "AcI nâng cao: ὡς + AcI có biển báo; danh cách bất khuất (καταβῆναι αὐτὸς ἀμυνῶν, ξύμμαχος εἶναι); đối cách + participle tương lai (τὰ πιστὰ ληψομένους, mồi bài 19)",
-        "câu hỏi gián tiếp: εἰ 'liệu… không' (yes/no), ὅστις/τίς 'ai/gì' (giữ accent hỏi), ἀνθ᾽ ὅτου, trạng từ hỏi; Hy Lạp giữ chỉ định, Latin dùng giả định (rogāvit quis esset)",
-        "thức trong gián tiếp áp chuỗi bài 17: secondary nhích optative (ὅστις ὁ βασιλεὺς εἴη), primary giữ chỉ định; giả định + ἄν giữ nguyên (ὅ τι ἂν πείθῃς, οὗ ἂν ᾖς)",
+        "câu hỏi gián tiếp: εἰ 'liệu… không' (yes/no), ὅστις/τίς 'ai/gì' (giữ accent hỏi), ἀνθ᾽ ὅτου, trạng từ hỏi; Hy Lạp giữ thức chỉ định, Latin dùng giả định (rogāvit quis esset)",
+        "thức trong gián tiếp áp chuỗi bài 17: secondary nhích optative (ὅστις ὁ βασιλεὺς εἴη), primary giữ thức chỉ định; giả định + ἄν giữ nguyên (ὅ τι ἂν πείθῃς, οὗ ἂν ᾖς)",
         "bảng phân định 5 cụm trùng vỏ: ὅτι rằng/vì, εἰ điều kiện/liệu-không, ὅστις hỏi gián tiếp/quan hệ bất định, ὡς + AcI, οὗ/ᾧ + ἄν; ba câu hỏi bản lề",
-        "bài đọc Arrian 2,14: chuỗi AcI của thư Darius, 'hai cửa mở cạnh nhau' (ὅτι giữ chỉ định + AcI), thư Alexander trích nguyên văn (μὴ 'kẻo' sau φοβῇ, ὅ τι ἂν πείθῃς, νενίκηκα học mặt)",
+        "bài đọc Arrian 2,14: chuỗi AcI của thư Darius, 'hai cửa mở cạnh nhau' (ὅτι giữ thức chỉ định + AcI), thư Alexander trích nguyên văn (μὴ 'kẻo' sau φοβῇ, ὅ τι ἂν πείθῃς, νενίκηκα học mặt)",
         "bài đọc Arrian 2,12: câu hỏi gián tiếp kép (πυθέσθαι αἵτινες… ἀνθ᾽ ὅτου), trích nguyên văn trong ὅτι, λόγος ἔχει, số đôi học mặt (αὐτοῖν, ἄμφω), cặp ἔφη/φάναι"
       ],
       "reading": [
@@ -496,17 +496,17 @@
       "id": "19-participle-1",
       "num": 19,
       "level": "graecum-1",
-      "title": "Phân từ (participle) I: định ngữ & hoàn cảnh",
+      "title": "Phân từ (participle) I: thuộc ngữ & hoàn cảnh",
       "topics": [
-        "phân từ = động từ khoác da tính từ: kế thừa thân, thời, giọng; thêm giống-cách-số như tính từ; sổ nợ participle học mặt từ bài 13–18 (εἰπών, ἀκούσας, λαβών, τεθνεῶτι, ληψομένους, ἀμφιγνοήσασαν)",
+        "phân từ = động từ khoác da tính từ: kế thừa thân từ, thì, thể; thêm giống-cách-số như tính từ; sổ nợ participle học mặt từ bài 13–18 (εἰπών, ἀκούσας, λαβών, τεθνεῶτι, ληψομένους, ἀμφιγνοήσασαν)",
         "phân từ hiện tại chủ động: λύων, λύουσα, λῦον đầy đủ 3 giống; động từ contract ποιῶν; quà kèm ὤν, οὖσα, ὄν (gen ὄντος, οὔσης – mồi genitive absolute bài 20)",
-        "phân từ aorist chủ động: λύσας, λύσασα, λῦσαν; thân bất quy tắc λαβών, εἰπών, ἰδών, ἐλθών, ἀγαγών; không augment; tam thể λύσας/λύσαι/λῦσαι",
+        "phân từ aorist chủ động: λύσας, λύσασα, λῦσαν; thân từ bất quy tắc λαβών, εἰπών, ἰδών, ἐλθών, ἀγαγών; không augment; tam thể λύσας/λύσαι/λῦσαι",
         "phân từ trung/dân và perfect: λυόμενος, λυσάμενος, λυθείς, λελυκώς, λελυμένος; deponent chia như chủ động nghĩa bị động",
-        "phân từ hoàn cảnh: 4 nghĩa (khi/vì/mặc dù/bằng cách) + 3 quy tắc cứng: cùng chủ thể, thời tương đối, οὐ phủ định",
-        "phân từ định ngữ & danh từ hóa: mạo từ lặp τοῦ φυλάσσοντος; mạo từ vắng sau giới từ (ἐπὶ τεθνεῶτι Δαρείῳ); τὸ γενόμενον",
+        "phân từ hoàn cảnh: 4 nghĩa (khi/vì/mặc dù/bằng cách) + 3 quy tắc cứng: cùng chủ thể, thời gian tương đối, οὐ phủ định",
+        "phân từ thuộc ngữ & danh hóa: mạo từ lặp τοῦ φυλάσσοντος; mạo từ vắng sau giới từ (ἐπὶ τεθνεῶτι Δαρείῳ); τὸ γενόμενον",
         "đối cách + phân từ (AccP): trả nợ Arrian bài 18 καταιδεσθεῖσαν, ἀμφιγνοήσασαν, ληψομένους; Longos φωράσαντες, δεδηγμένον ἀγαγόντες; Latin corner accusativus cum participio",
-        "phân từ tương lai λύσων: 2 nghề (định ngữ \"sắp\"; sau động từ chuyển động = mục đích: πέμπε... ληψομένους)",
-        "bản đồ 10 khuôn participle 4 thời × 3 hệ đuôi + 4 bước bóc tách",
+        "phân từ tương lai λύσων: 2 nghề (thuộc ngữ \"sắp\"; sau động từ chuyển động = mục đích: πέμπε... ληψομένους)",
+        "bản đồ 10 khuôn participle 4 thì × 3 hệ đuôi + 4 bước bóc tách",
         "bài đọc: Longos, Daphnis and Chloe 1,20–21 (Dorcon hóa sói); lịch sử present, λανθάνω + participle"
       ],
       "reading": [
@@ -527,8 +527,8 @@
         "quy tắc vàng: chủ thể genitive absolute phải khác chủ thể động từ chính; trùng thì dùng phân từ hoàn cảnh chủ cách; bảng so sánh AcI – AccP – GA",
         "góc Latin: ablativus absolutus làm cùng một việc (urbe captā ↔ ἁλούσης τῆς πόλεως; Caesare interfectō ↔ Καίσαρος ἀναιρεθέντος)",
         "phân từ và nguyên mẫu: nguyên mẫu không chia chỉ làm tân ngữ; phân từ chia nên bám được mọi chủ thể; cặp ὁρῶ/νομίζω",
-        "genitive absolute trong văn thật: Ἰσθμίων ὄντων, εἰπόντος Ἀρχίνου, ὄντος δέ μοι Πατροκλέους ἐπιτηδείου, κρίσεως γενομένης, Μάχης αὐτοῖς γενομένης; ba giả-GA (sau giới từ, phân từ định ngữ, tặng cách)",
-        "bản đồ quyết định: gặp phân từ hỏi bốn câu (sau giới từ? định ngữ? tân ngữ cảm nhận? gen trơ trụi khác chủ thể?); thang cân 4 nấc",
+        "genitive absolute trong văn thật: Ἰσθμίων ὄντων, εἰπόντος Ἀρχίνου, ὄντος δέ μοι Πατροκλέους ἐπιτηδείου, κρίσεως γενομένης, Μάχης αὐτοῖς γενομένης; ba giả-GA (sau giới từ, phân từ thuộc ngữ, tặng cách)",
+        "bản đồ quyết định: gặp phân từ hỏi bốn câu (sau giới từ? thuộc ngữ? tân ngữ cảm nhận? gen trơ trụi khác chủ thể?); thang cân 4 nấc",
         "bài đọc: Dio Chrysostomos Or. 9 (Diogenes ở hội thi Isthmia) §§1, 13–17, 22; Isokrates 18 (trận παραγραφή hậu nội chiến Athens 403)",
         "gieo trước: Ôn tập #4 (bài 16–20, Anki nhóm 16–20); bài 21 câu điều kiện (Euripides Medeia 230–247; Theophrastos Charaktere)"
       ],
@@ -552,8 +552,8 @@
       "topics": [
         "tóm tắt ngữ pháp chính Bài 16–20",
         "bảng tổng quan động từ: subjunctive – optative (hiện tại + aorist, chủ động + m/p, động từ co, εἰμί/γίγνομαι)",
-        "bản đồ mệnh đề phụ thuộc sau Bài 20: ἵνα/ἐάν/ὅταν + subj, εἰ + chỉ định/optative, gián tiếp ὅτι/ὡς theo chuỗi thời–thức, câu hỏi gián tiếp, AcI",
-        "bảng tổng quan phân từ: 10 khuôn chủ cách – sở hữu cách, các nghề (hoàn cảnh/định ngữ/AccP/tương lai), quy tắc vàng GA + bảng AcI–AccP–GA",
+        "bản đồ mệnh đề phụ thuộc sau Bài 20: ἵνα/ἐάν/ὅταν + subj, εἰ + thức chỉ định/optative, gián tiếp ὅτι/ὡς theo sự hòa phối thì–thức, câu hỏi gián tiếp, AcI",
+        "bảng tổng quan phân từ: 10 khuôn chủ cách – sở hữu cách, các nghề (hoàn cảnh/thuộc ngữ/AccP/tương lai), quy tắc vàng GA + bảng AcI–AccP–GA",
         "bộ Anki nhóm Bài 16–20 (apkg + vocab/anki-16-20.txt) + cách import",
         "chiến lược ôn tập nhóm + tự kiểm tra 5 câu"
       ],
@@ -568,10 +568,10 @@
       "title": "Câu điều kiện I: điều kiện thực, khái quát và tiềm năng",
       "topics": [
         "protasis/apodosis: bộ khung một câu điều kiện; ba loại (thực – khái quát/tương lai – tiềm năng) và bảng đối chiếu",
-        "εἰ + chỉ định: điều kiện thực hiện tại (εἰ ταῦτα λέγεις, ἀληθῆ λέγεις) và quá khứ; achtung: không bao giờ để tương lai sau εἰ; Latin corner si + ind.",
+        "εἰ + thức chỉ định: điều kiện thực hiện tại (εἰ ταῦτα λέγεις, ἀληθῆ λέγεις) và quá khứ; achtung: không bao giờ để tương lai sau εἰ; Latin corner si + ind.",
         "ἐάν + subjunctive: trông chừng tương lai và chân lý khái quát; nguyên văn Athenaios ἐὰν ᾖ τι δυσαπόσπαστον; aorist vs hiện tại; μή phủ định; κἂν/ὅπου ἂν/ὅ τι ἂν",
         "εἰ + optative + ἄν: điều kiện tiềm năng; nguyên văn Plato εὖ ἂν λέγοις; οὐ phủ định; bảng so sánh ba loại; Latin corner si dīcās; τί ποιοῖμεν;",
-        "εἰ δὲ μή rút gọn + χρεών: vế chính danh từ hóa; gián tiếp Theophrastos εἰ ποιήσειεν – điều kiện loại 2 trượt thành εἰ + optative",
+        "εἰ δὲ μή rút gọn + χρεών: vế chính danh hóa; gián tiếp Theophrastos εἰ ποιήσειεν – điều kiện loại 2 trượt thành εἰ + optative",
         "ὅταν/ἐπάν/ὁπόταν: điều kiện thời gian khái quát; nguyên văn Medeia 244 ἀνὴρ δʼ, ὅταν τοῖς ἔνδον ἄχθηται ξυνών; pattern ἄν = màu khái quát hóa",
         "4 bước bóc câu điều kiện + bảng 5 bẫy (accent εἰ, κἂν vs κἀν, tam thể λύσῃ/λύσαι/λύσει, phủ định οὐ/μή, crasis)",
         "bảng 4 câu hỏi tự kiểm tra; kết nối bản đồ Ôn tập #4; tipp quay lại Arrian εἴ του δέῃ, ὅ τι ἂν πείθῃς, οὗ ἂν ᾖς",
@@ -589,16 +589,16 @@
       "id": "22-temporal-causal-clauses",
       "num": 22,
       "level": "graecum-1",
-      "title": "Mệnh đề thời gian và nguyên nhân: ὅταν/ὅτε, ἐπεί/ἐπειδή, ὅτι/διότι",
+      "title": "Mệnh đề trạng ngữ chỉ thời gian và nguyên nhân: ὅταν/ὅτε, ἐπεί/ἐπειδή, ὅτι/διότι",
       "topics": [
-        "ὅτε + chỉ định: điểm thời gian một lần; idiom ἔσθ᾽ ὅτε/ἦν ὅτε; achtung ὅτε vs ὅτι; Latin corner cum + chỉ định",
+        "ὅτε + thức chỉ định: điểm thời gian một lần; idiom ἔσθ᾽ ὅτε/ἦν ὅτε; achtung ὅτε vs ὅτι; Latin corner cum + thức chỉ định",
         "ὅταν = ὅτε + ἄν: ba hàng hiện tại/aorist giả định/tương lai; nguyên văn Medeia 244 ὅταν τοῖς ἔνδον ἄχθηται ξυνών; achtung ὅταν vs ἐάν",
-        "ἐπεί/ἐπειδή + aorist/perfect chỉ định: mũi tên một chiều sau khi; εὐθύς ἐπειδὴ (ngay sau khi); ἐπειδάν + giả định; Latin corner postquam",
+        "ἐπεί/ἐπειδή + aorist/perfect thức chỉ định: mũi tên một chiều sau khi; εὐθύς ἐπειδὴ (ngay sau khi); ἐπειδάν + giả định; Latin corner postquam",
         "mệnh đề nguyên nhân: ὅτι vs διότι vs ἐπεί vs ὡς + phân từ; cặp tường thuật/nguyên nhân từ chính đêm Anabasis: ᾐτιᾶτο... ὅτι (3,1,7) và ὑποπτεύσας... ὅτι (3,1,5)",
-        "ἕως/ἔστε/ἕως ἄν: giới hạn chừng nào/miễn là; nguyên văn 3,1,19 ἔστε μὲν αἱ σπονδαὶ ἦσαν; πρίν hai khuôn (chỉ định vs nguyên mẫu), 3,1,16",
+        "ἕως/ἔστε/ἕως ἄν: giới hạn chừng nào/miễn là; nguyên văn 3,1,19 ἔστε μὲν αἱ σπονδαὶ ἦσαν; πρίν hai khuôn (thức chỉ định vs nguyên mẫu), 3,1,16",
         "optative lặp lại mỗi-khi quá khứ: γένοιντο (2,6,12), ἄρξαιντο (2,6,14), ὁπότε ἐνθυμοίμην (3,1,20); nguyên văn giữ vs oblique trong gián tiếp (3,1,9 vs 3,1,26)",
         "ôn nguyên mẫu tân ngữ (AcI): bốn nhóm động từ dẫn (νομίζω/οἴομαι/δοκέω/ἡγέομαι; ὑπισχνεῖτο/προσδοκῶ; δεῖ/χρή); achtung AcI mồ côi chủ thể",
-        "4 bước bóc mệnh đề thời gian/nguyên nhân + bản đồ cửa–màu–thời + bảng 5 bẫy chính tả",
+        "4 bước bóc mệnh đề thời gian/nguyên nhân + bản đồ cửa–màu–thì + bảng 5 bẫy chính tả",
         "từ vựng 18 từ (★15): ὅτε, ἐπεί/ἐπειδή, ἕως/ἔστε, πρίν, τὸ ὄναρ, ἡ βροντή, ἡ σπονδή, ἡ ἀπορία, ὁ λοχαγός, ὁ σύμμαχος, ἡ θύρα, ὁ ἡγεμών, ἡ ὑβρίς, ἡ εὐταξία, φροντίζω",
         "bài đọc: Xenophon, Anabasis 3,1 (đêm tuyệt vọng và giấc mộng của Xenophon) và 2,6 (chân dung Klearchos)"
       ],
@@ -615,12 +615,12 @@
       "level": "graecum-1",
       "title": "Động từ athematic (mi-verb): τίθημι, ἵστημι, δίδωμι, ἵημι, φημί",
       "topics": [
-        "nhà mi vs nhà ω: không nguyên âm chủ đề, đuôi -μι/-ς/-σι/-ασi, lặp và thang nguyên âm ở thân; sổ nợ imperfect m/p -μην/-σο/-το/-σθω",
-        "present chủ động của τίθημι/ἵστημι/δίδωμι/ἵημι: nguyên tắc ghép thân+đuôi không chủ đề; achtung ἵστημι vs ἵστην (accent + iota subscript), ἱστᾶσι vs ἱστῶσι",
+        "nhà mi vs nhà ω: không nguyên âm chủ đề, đuôi -μι/-ς/-σι/-ασi, lặp và thang nguyên âm ở thân từ; sổ nợ imperfect m/p -μην/-σο/-το/-σθω",
+        "present chủ động của τίθημι/ἵστημι/δίδωμι/ἵημι: nguyên tắc ghép thân từ+đuôi không chủ đề; achtung ἵστημι vs ἵστην (accent + iota subscript), ἱστᾶσι vs ἱστῶσι",
         "imperfect không augment: ἐτίθην, ἵστην, ἐδίδουν, εἵην; từ ἵημι hiếm gặp trần, nhớ qua hợp thành ἀφίημι/ἐξίημι/παρίημι; ἵστημι một động từ bốn nghề (giao động vs quá độ)",
         "aorist: second aorist ἔθην/ἔστην/ἔδων/ἧκα (ἵημι đuôi -κα) và sigmatic thuê ἔθησα/ἔστησα/ἔδωκα; κ chỉ số ít, -σαν số nhiều; perfect ἕστηκα, τέθηκα, δέδωκα",
         "way/thức: subjunctive dài -ῶ (τιθῶ, ἱστῶ, διδῶ), optative -είην/-οίην (τιθείην, ἱσταίην, διδοίην, ἱείην), mệnh lệnh τίθει, ἵστη, δίδου, δός",
-        "φημί 'nói': enclitic trừ φῄς; imperfect ἔφην (Xenophon thường ἔφη), subjunctive φῶ, optative φαίην, nguyên mẫu φάναι; οὐ φημί = Latin nego",
+        "φημί 'nói': từ tựa sau trừ φῄς; imperfect ἔφην (Xenophon thường ἔφη), subjunctive φῶ, optative φαίην, nguyên mẫu φάναι; οὐ φημί = Latin nego",
         "họ hàng athematic: nhà ω giữ mảnh cổ (ἔγνων, τέθνηκα, ἀπόλωλα, ἔλαθον, ἐλελήθεις); bảng 16 động từ bất quy tắc lõi + chiến lược bóc mi-verb bốn bước",
         "từ vựng 18 từ (★15): τίθημι, ἵστημι, δίδωμι, ἵημι, ἀποθνῄσκω, ὁ πέλεκυς, ἡ πληγή, τὸ κρανίον, ὁ μῆνιγξ, ὁ ἐγκέφαλος, εὐήθης, ὁ ἐπιθυμητής, ἐρᾶν, ἔνοπλος, ὁ θυμός",
         "bài đọc: Xenophon, Apologie 28–29 (Socrates rắc bụi lên đầu Apollodoros) và Lukian, Deorum dialogi 8 (Hephaistos, chiếc rìu và sự ra đời của Athena)"
@@ -639,7 +639,7 @@
       "title": "Tổng kết Graecum I: ôn hình thái + đọc liền mạch (Xenophon, Anabasis 1,1; Aelian; bia tôn vinh)",
       "topics": [
         "bản đồ hình thái Graecum I: hai bảng tra cứu danh từ và động từ theo số bài, tự kiểm cuối cấp",
-        "ba danh từ đặc sản: ἡ ναῦς νεώς (họ Attic hai thân), ὁ βορρᾶς -ᾶ (khuôn -ᾶς), ὁ γραμματεύς -έως (khuôn -εύς nghề và chức)",
+        "ba danh từ đặc sản: ἡ ναῦς νεώς (họ Attic hai thân từ), ὁ βορρᾶς -ᾶ (khuôn -ᾶς), ὁ γραμματεύς -έως (khuôn -εύς nghề và chức)",
         "phương pháp đọc 5 bước: trục → cụm danh từ → vỏ phụ → khuôn → ghép; worked example ἡ δὲ μήτηρ ἐξαιτησαμένη...; bản đồ cú pháp một đoạn dài",
         "từ ψῆφος đến ψήφισμα: gia đình ba đời viên sỏi, giải phẫu sắc lệnh 6 tầng, δεδόχθαι τῶι δήμωι, ἕνεκα hậu trí",
         "đọc bia: iota adscript, ngoặc vuông phục dựng, chấm dưới, ἐμ/ἐν trước âm môi, EI cổ trên đá, vacat; số hiệu IG II³ / IG II²",
@@ -669,7 +669,7 @@
       ],
       "topics": [
         "tóm tắt ngữ pháp chính Bài 21–24",
-        "bảng tổng quan điều kiện: thực (εἰ + chỉ định), khái quát/tương lai (ἐάν + subjunctive), tiềm năng (εἰ + optative + ἄν), ước tiếc quá khứ; bảng 5 bẫy",
+        "bảng tổng quan điều kiện: thực (εἰ + thức chỉ định), khái quát/tương lai (ἐάν + subjunctive), tiềm năng (εἰ + optative + ἄν), ước tiếc quá khứ; bảng 5 bẫy",
         "bảng tổng quan mệnh đề thời gian (ὅτε/ὅταν/ἐπεί/ἐπειδή/ἐπειδάν/ἕως/ἔστε/πρίν) và nguyên nhân (ὅτι/διότι/ἐπεί/ὡς + phân từ); optative lặp lại \"mỗi khi\"; thức giữ nguyên trong gián tiếp",
         "bảng tổng quan động từ athematic (τίθημι/ἵστημι/δίδωμι/ἵημι/φημί): imperfect không augment, aorist κ số ít vs aorist gốc, perfect ἕστηκα, hai aorist của ἵστημι",
         "ba danh từ đặc sản: ἡ ναῦς νεώς, ὁ βορρᾶς, ὁ γραμματεύς; giải phẫu sắc lệnh 6 tầng + quy ước biên khắc (IG II³ 1137)",
@@ -684,13 +684,13 @@
       "id": "25-indirect-speech-sequence-of-tenses",
       "num": 25,
       "level": "graecum-2",
-      "title": "Tường thuật gián tiếp hệ thống hóa: tiếp thời và khôi phục lời nói (Lysias 12,8–11; Aristophanes, Eirene 948–992)",
+      "title": "Tường thuật gián tiếp hệ thống hóa: sự hòa phối thì–thức và khôi phục lời nói (Lysias 12,8–11; Aristophanes, Eirene 948–992)",
       "topics": [
         "ba kênh tường thuật: ὅτι/ὡς + động từ chia, câu hỏi gián tiếp εἰ, nguyên mẫu trần (AcI); động từ dẫn và cách chọn kênh",
-        "tiếp thời (sequence of tenses): chuỗi chính và chuỗi phụ; kịch bản đẩy thức λύει/λύοι, λύσῃ/λύσαι(ν); perfect và pluperfect trong lời thuật",
+        "sự hòa phối thì–thức (sequence of tenses): chuỗi thì chính và chuỗi thì phụ; kịch bản đẩy thức λύει/λύοι, λύσῃ/λύσαι(ν); perfect và pluperfect trong lời thuật",
         "bảng đẩy thức 6 hàng trực tiếp → gián tiếp (4 hàng nguyên văn Lysias); οὐ/μή hai tầng trong gián tiếp; ἄν giữ nguyên",
-        "giữ nguyên thức (retained mood): ἀγαπήσειν με ἔφασκεν, εἰ τὸ σῶμα σώσω; ba khuôn giữ nguyên sau chuỗi phụ",
-        "nguyên mẫu gián tiếp: thời tương đối của nguyên mẫu; μὴ + nguyên mẫu cho lệnh cấm; historic present",
+        "giữ nguyên thức (retained mood): ἀγαπήσειν με ἔφασκεν, εἰ τὸ σῶμα σώσω; ba khuôn giữ nguyên sau chuỗi thì phụ",
+        "nguyên mẫu gián tiếp: thời gian tương đối của nguyên mẫu; μὴ + nguyên mẫu cho lệnh cấm; historic present",
         "chiến lược khôi phục lời thoại gốc: 4 bước bóc + bảng khôi phục 4 cặp Lysias tường thuật ↔ phục dựng + bảng tra nhanh 8 mục",
         "bài đọc 1: Lysias 12,8–11 – hùng án 404/3 TCN sau 30 bạo chủ: rương bị đục, lời hứa một talent, lời thề tự nguyền (metoikos)",
         "bài đọc 2: Aristophanes, Eirene 948–992 – nghi lễ lúa mạch và chén rượu tế; đùa chữ Λυσιμάχη; optative tiềm năng λεγοις ἂν ἄλλο",
@@ -711,9 +711,9 @@
       "title": "Mệnh đề kết quả (ὥστε) và tường thuật với ὡς (Hypothesis zur Antigone; Aesop 143)",
       "topics": [
         "bản đồ bài: mệnh đề kết quả (ὥστε) và tường thuật với ὡς ghép vào hệ thống mệnh đề đã học; vế sau nói điều đã xảy ra",
-        "kết quả thực tế: ὥστε + chỉ định; phân biệt kết quả thực, kết quả khái quát, mục đích qua ba câu hỏi",
+        "kết quả thực tế: ὥστε + thức chỉ định; phân biệt kết quả thực, kết quả khái quát, mục đích qua ba câu hỏi",
         "kết quả khái quát: ὥστε + ἄν + optative cho xu hướng, nhận định chung; đối chiếu cùng một sự việc qua hai khối",
-        "tường thuật với ὡς \"rằng\": người anh em của ὅτι, chuỗi chính/phụ đẩy thức như Bài 25; khuôn ὡς + nguyên mẫu sau động từ hy vọng, hứa, mong",
+        "tường thuật với ὡς \"rằng\": người anh em của ὅτι, chuỗi thì chính/phụ đẩy thức như Bài 25; khuôn ὡς + nguyên mẫu sau động từ hy vọng, hứa, mong",
         "một chữ ὡς, bốn chiếc chìa: \"rằng\", \"để\", \"như\", nguyên nhân; chiến lược hỏi vai trước khi dịch",
         "chiến lược đọc trong văn thật: khung đề diễn giải kịch (hypothesis), bảng khung và dấu hiệu nhận ὥστε, ὡς",
         "bài đọc 1: Hypothesis zur Antigone – Antigone chôn Polyneikes chống lệnh Creon, Haemon và Eurydike tự vẫn; φασὶ δὲ τὸν Σοφοκλέα ἀξιωθῆναι τῆς ἐν Σάμῳ στρατηγίας",
@@ -736,8 +736,8 @@
       "topics": [
         "bản đồ: từ nguyên mẫu trần (Bài 4, 18, 25) sang nguyên mẫu có mạo từ; τὸ + nguyên mẫu là danh từ trung tính biến cách đủ bốn vai (chủ ngữ, vị ngữ, tân ngữ); trích dẫn chuẩn Smyth §§2025–2032",
         "bản đồ giới từ + mạo từ + nguyên mẫu: διὰ τὸ nguyên nhân, ἐν τῷ thời gian (khi đang/sau khi), μετὰ τὸ sau khi, πρὸς τὸ khuynh hướng, πρό / ἕνεκα / ὑπὲρ τοῦ mục đích",
-        "chủ ngữ đối cách bên trong nguyên mẫu; đối cách kép (double accusative) giữ nguyên bộ đôi trong nguyên mẫu; trường hợp giữ chủ cách",
-        "thời tương đối của nguyên mẫu có mạo từ và phủ định luôn là μή (Smyth §2028), kể cả nguyên nhân thực",
+        "chủ ngữ đối cách bên trong nguyên mẫu; song đối cách (double accusative) giữ nguyên bộ đôi trong nguyên mẫu; trường hợp giữ chủ cách",
+        "thời gian tương đối của nguyên mẫu có mạo từ và phủ định luôn là μή (Smyth §2028), kể cả nguyên nhân thực",
         "Latin corner: gerund và gerundive, causā / gratiā + sở hữu cách gerund; Latin không có nguyên mẫu có mạo từ nên phải mở gói thành mệnh đề",
         "chiến lược đọc: ba câu hỏi (mạo từ ôm ai; nguyên mẫu đóng vai gì; chủ ngữ và phủ định nào); bẫy mạo từ giả khi danh từ xen giữa (τὰς τοῦ θεοῦ...χάριτας); nguyên mẫu trần sau θέλω, κελεύω, δοκέω",
         "bài đọc 1: Apollodor 3,10 – Hermes trộm bò: giày xoá vết chân, ἵνα μὴ φωραθείη, đàn lyre từ mai rùa, cuộc trao đổi ba tầng (bò, sáo, trượng, thuật bói); διὰ τὸ μὴ εὑρεῖν ἴχνος δύνασθαι là nguyên mẫu có mạo từ duy nhất của hai chương",
