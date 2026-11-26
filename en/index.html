@@ -1,57 +1,179 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Graecum VN – Ancient Greek (English)</title>
-<style>
-  :root { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.6; }
-  body { margin: 0; background: #f8fafc; }
-  main { max-width: 880px; margin: 0 auto; padding: 32px 24px 80px; background: #ffffff; }
-  h1 { color: #14532d; font-size: 1.9em; border-bottom: 3px solid #14532d; padding-bottom: 10px; }
-  h2 { color: #14532d; border-bottom: 1px solid #bbf7d0; padding-bottom: 4px; margin-top: 2em; }
-  .gk { font-family: "Palatino Linotype", "Book Antiqua", Gentium, "Times New Roman", serif; font-size: 1.08em; }
-  .tag { display: inline-block; border-radius: 10px; font-size: 0.75em; padding: 1px 9px; white-space: nowrap; }
-  .draft { background: #ede9fe; color: #5b21b6; border: 1px solid #a78bfa; }
-  .todo { background: #fef3c7; color: #92400e; border: 1px solid #d97706; }
-  .pub { background: #dcfce7; color: #14532d; border: 1px solid #86efac; }
-  table { border-collapse: collapse; width: 100%; margin: 14px 0 22px; }
-  th, td { border: 1px solid #cbd5e1; padding: 7px 10px; text-align: left; vertical-align: top; }
-  thead th { background: #14532d; color: #ffffff; }
-  tbody tr:nth-child(even) { background: #f0fdf4; }
-  .box { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 20px; margin: 16px 0; }
-  a { color: #166534; }
-  footer { font-size: 0.85em; color: #64748b; border-top: 1px solid #e2e8f0; margin-top: 40px; padding-top: 12px; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graecum VN – Ancient Greek (English)</title>
+  <style>
+    :root {
+      --bg: #fdfcf9;
+      --surface: #ffffff;
+      --text: #1f2421;
+      --muted: #5a625e;
+      --accent: #1d4e89;
+      --accent-soft: #eef4fa;
+      --border: #dcd8ce;
+      --greek-font: "New Athena Unicode", "Gentium Plus", "Palatino Linotype", Georgia, serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 2rem 1rem 4rem;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    .container { max-width: 1020px; margin: 0 auto; }
+
+    header { border-bottom: 2px solid var(--accent); padding-bottom: 1.25rem; margin-bottom: 2rem; }
+
+    h1 { margin: 0 0 0.75rem; font-size: 2rem; color: var(--accent); letter-spacing: -0.01em; }
+
+    .intro-box {
+      background: var(--accent-soft);
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      font-size: 0.96rem;
+    }
+    .intro-box p { margin: 0.35rem 0; }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+      padding: 1rem 1.25rem;
+      transition: border-color 0.15s ease;
+    }
+    .card:hover { border-color: var(--accent); }
+    .card h3 { margin: 0 0 0.35rem; font-size: 1.02rem; color: var(--accent); }
+    .card p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+
+    section { margin-bottom: 3rem; }
+
+    h2 {
+      font-size: 1.45rem;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 { color: var(--accent); margin: 1.6rem 0 0.6rem; font-size: 1.12rem; }
+
+    .section-lead { margin-bottom: 1rem; }
+
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+      margin-bottom: 1rem;
+    }
+
+    table { width: 100%; border-collapse: collapse; font-size: 0.94rem; }
+
+    thead th {
+      background: #f3f0e8;
+      color: #2b302d;
+      text-align: left;
+      padding: 0.75rem 0.9rem;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    tbody td { padding: 0.7rem 0.9rem; border-bottom: 1px solid #ece8df; vertical-align: top; }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover { background-color: #faf8f3; }
+
+    td:first-child { white-space: nowrap; color: var(--muted); font-size: 0.88rem; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .tag { display: inline-block; border-radius: 999px; font-size: 0.75em; padding: 2px 10px; white-space: nowrap; }
+    .pub   { background: #e7f3ea; color: #1e6b3a; border: 1px solid #bce0c8; }
+    .todo  { background: #fbf3e0; color: #92600e; border: 1px solid #e8d9b0; }
+    .draft { background: #efe9fa; color: #5b21b6; border: 1px solid #cfc0ee; }
+
+    .grk, .gk, i[lang="grc"] { font-family: var(--greek-font); }
+
+    ol, ul { margin: 0.5rem 0 1rem; padding-left: 1.5rem; }
+    ol li, ul li { margin: 0.4rem 0; }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent); }
+  </style>
 </head>
 <body>
-<main>
-
-<h1>Graecum VN · Ancient Greek</h1>
-
-<div class="box">
+  <div class="container">
+    <header>
+      <h1>Graecum VN · Ancient Greek – English</h1>
+      <div class="intro-box">
 <p><strong>A completely free self-study hub for Ancient Greek</strong> – from zero to reading Plato, Xenophon, the Greek Bible (Koine) and intermediate–advanced texts. All content <strong>CC BY-SA 4.0</strong>, no ads, works offline.</p>
-<p><strong>English edition.</strong> Original (Tiếng Việt): <a href="../index.html">Graecum VN portal</a>. Lessons 1–27 and supplementary lesson 09b are already published in Vietnamese; the English translations follow one by one.</p>
-</div>
+<p><strong>English edition.</strong> Original (Tiếng Việt): <a href="../index.html">Graecum VN portal</a> – Lessons 1–27 and supplementary lesson 09b are already published in Vietnamese; the English translations follow one by one.</p>
+      </div>
+    </header>
 
-<h2>Roadmap</h2>
-<table>
-<thead><tr><th>Level</th><th>Lessons</th><th>Goal</th></tr></thead>
-<tbody>
+    <div class="card-grid">
+      <div class="card">
+        <h3><a href="../terminology.html">Terminology table (Vietnamese–English)</a></h3>
+        <p>Every linguistic concept used across the 48 lessons, with the Greek ↔ Latin comparisons.</p>
+      </div>
+      <div class="card">
+        <h3><a href="../timeline.html">Timeline of Ancient Greece</a></h3>
+        <p>Six periods, dated events, and the authors of every reading text.</p>
+      </div>
+      <div class="card">
+        <h3><a href="../proper-names.html">Proper names of people &amp; places</a></h3>
+        <p>Every name in the reading texts of Lessons 1–27 with transliteration, updated each lesson.</p>
+      </div>
+    </div>
+
+    <section id="roadmap">
+      <h2>Roadmap</h2>
+      <div class="table-wrap">
+      <table>
+      <thead><tr><th>Level</th><th>Lessons</th><th>Goal</th></tr></thead>
+      <tbody>
 <tr><td><strong>Graecum I</strong></td><td>1–24</td><td>Complete morphology + foundational syntax → read simple Attic prose (Xenophon) with a dictionary.</td></tr>
 <tr><td><strong>Graecum II</strong></td><td>25–48</td><td>Advanced syntax → read original texts: Plato, Homer, drama, NT, inscriptions.</td></tr>
-</tbody>
-</table>
+      </tbody>
+      </table>
+      </div>
+    </section>
 
-<h2>Lessons</h2>
-<table>
-<thead><tr><th>#</th><th>Lesson</th><th>Status</th></tr></thead>
-<tbody>
+    <section id="lessons">
+      <h2>Lessons</h2>
+      <p class="section-lead">English lessons published so far: <strong>1–16 + 09b</strong>. The remaining lessons follow the Vietnamese originals one by one.</p>
+      <div class="table-wrap">
+      <table>
+      <thead><tr><th>#</th><th>Lesson</th><th>Status</th></tr></thead>
+      <tbody>
 <tr><td>1</td><td><a href="lessons/01-foundations/index.html">Foundations, the o-declension &amp; your first Greek sentences</a></td><td><span class="tag pub">published</span></td></tr>
 <tr><td>2</td><td><a href="lessons/02-verbs-present-vocative/index.html">Present active verbs (all six persons), vocative &amp; infinitive II</a></td><td><span class="tag pub">published</span></td></tr>
 <tr><td>3</td><td><a href="lessons/03-ellipsis-neuter-plural/index.html">Ellipsis, neuter plural subjects &amp; adverbs</a></td><td><span class="tag pub">published</span></td></tr>
 <tr><td>4</td><td><a href="lessons/04-pronouns-imperative/index.html">Personal pronouns, imperative, negation &amp; first steps with the accusative-with-infinitive (AcI)</a></td><td><span class="tag pub">published</span></td></tr>
-<tr><td>5</td><td><a href="lessons/05-medium-passive/index.html">Present middle/passive, deponent verbs, adjectives as nouns &amp; τις/τι</a></td><td><span class="tag pub">published</span></td></tr>
+<tr><td>5</td><td><a href="lessons/05-medium-passive/index.html">Present middle/passive, deponent verbs, adjectives as nouns &amp; <span class="gk">τις/τι</span></a></td><td><span class="tag pub">published</span></td></tr>
 <tr><td>6</td><td><a href="lessons/06-dynamai-demonstratives/index.html"><span class="gk">δύναμαι</span> &amp; demonstrative pronouns</a></td><td><span class="tag pub">published</span></td></tr>
 <tr><td>7</td><td><a href="lessons/07-third-declension-imperatives/index.html">The third declension I (consonant stems), the imperative system &amp; prohibitions</a></td><td><span class="tag pub">published</span></td></tr>
 <tr><td>8</td><td><a href="lessons/08-third-declension-neuters-numerals/index.html">The third declension II (vowel stems, neuters) &amp; numerals 1–999</a></td><td><span class="tag pub">published</span></td></tr>
@@ -63,35 +185,40 @@
 <tr><td>13</td><td><a href="lessons/13-aorist-sigmatic-thematic/index.html">The active/middle aorist (sigmatic &amp; thematic forms)</a></td><td><span class="tag pub">published</span></td></tr>
 <tr><td>14</td><td><a href="lessons/14-aorist-future-passive-perfect-medpass/index.html">Passive aorist &amp; future; the perfect middle/passive &amp; the six principal parts</a></td><td><span class="tag pub">published</span></td></tr>
 <tr><td>15</td><td><a href="lessons/15-relative-pronouns-clauses/index.html">Relative pronouns &amp; clauses; possessive &amp; reflexive pronouns</a></td><td><span class="tag pub">published</span></td></tr>
-<tr><td>16</td><td><a href="lessons/16-subjunctive-purpose-clauses/index.html">The subjunctive; purpose clauses; ἄν / ἐάν</a></td><td><span class="tag pub">published</span></td></tr>
+<tr><td>16</td><td><a href="lessons/16-subjunctive-purpose-clauses/index.html">The subjunctive; purpose clauses; <span class="gk">ἄν / ἐάν</span></a></td><td><span class="tag pub">published</span></td></tr>
 <tr><td>17–24</td><td>Further Graecum I lessons (see the <a href="https://github.com/qtan-tran/graecum-vn/blob/main/docs/CURRICULUM.md">curriculum</a>)</td><td><span class="tag todo">on the roadmap</span></td></tr>
 <tr><td>25–48</td><td>Graecum II</td><td><span class="tag todo">on the roadmap</span></td></tr>
-</tbody>
-</table>
-<p style="font-size:0.92em;">Vietnamese originals of lessons 1–16 + 09b: <a href="../lessons/01-foundations/index.html">1</a> · <a href="../lessons/02-verbs-present-vocative/index.html">2</a> · <a href="../lessons/03-ellipsis-neuter-plural/index.html">3</a> · <a href="../lessons/04-pronouns-imperative/index.html">4</a> · <a href="../lessons/05-medium-passive/index.html">5</a> · <a href="../lessons/06-dynamai-demonstratives/index.html">6</a> · <a href="../lessons/07-third-declension-imperatives/index.html">7</a> · <a href="../lessons/08-third-declension-neuters-numerals/index.html">8</a> · <a href="../lessons/09-adjectives-two-three-endings-adverbs/index.html">9</a> · <a href="../lessons/10-present-medpass-complete-deponents/index.html">10</a> · <a href="../lessons/11-imperfect-augment/index.html">11</a> · <a href="../lessons/12-future-contract-verbs/index.html">12</a> · <a href="../lessons/13-aorist-sigmatic-thematic/index.html">13</a> · <a href="../lessons/14-aorist-future-passive-perfect-medpass/index.html">14</a> · <a href="../lessons/15-relative-pronouns-clauses/index.html">15</a> · <a href="../lessons/16-subjunctive-purpose-clauses/index.html">16</a> · <a href="../lessons/09b-comparison-adjectives-adverbs/index.html">09b</a></p>
+      </tbody>
+      </table>
+      </div>
+      <p class="section-lead" style="font-size:0.92em;">Vietnamese originals of lessons 1–16 + 09b: <a href="../lessons/01-foundations/index.html">1</a> · <a href="../lessons/02-verbs-present-vocative/index.html">2</a> · <a href="../lessons/03-ellipsis-neuter-plural/index.html">3</a> · <a href="../lessons/04-pronouns-imperative/index.html">4</a> · <a href="../lessons/05-medium-passive/index.html">5</a> · <a href="../lessons/06-dynamai-demonstratives/index.html">6</a> · <a href="../lessons/07-third-declension-imperatives/index.html">7</a> · <a href="../lessons/08-third-declension-neuters-numerals/index.html">8</a> · <a href="../lessons/09-adjectives-two-three-endings-adverbs/index.html">9</a> · <a href="../lessons/09b-comparison-adjectives-adverbs/index.html">09b</a> · <a href="../lessons/10-present-medpass-complete-deponents/index.html">10</a> · <a href="../lessons/11-imperfect-augment/index.html">11</a> · <a href="../lessons/12-future-contract-verbs/index.html">12</a> · <a href="../lessons/13-aorist-sigmatic-thematic/index.html">13</a> · <a href="../lessons/14-aorist-future-passive-perfect-medpass/index.html">14</a> · <a href="../lessons/15-relative-pronouns-clauses/index.html">15</a> · <a href="../lessons/16-subjunctive-purpose-clauses/index.html">16</a></p>
+    </section>
 
-<h2>How to work with each lesson</h2>
-<ol>
+    <section id="how-to-study">
+      <h2>How to work with each lesson</h2>
+      <ol>
 <li>Read on the web, or <strong>download the single HTML file</strong> of the lesson – study offline in any browser, no internet dependency.</li>
 <li>Want a Word copy: open the HTML file with <strong>MS Word → Save As .docx</strong>.</li>
 <li>To print: <strong>Ctrl+P → Save as PDF</strong> – exercise answers appear automatically when printing.</li>
 <li>Level I vocabulary always carries a <strong>Latinized transliteration</strong> so you can read aloud from day one (e.g. <span class="gk">ὁ ἄνθρωπος</span> → <em>ho ánthrōpos</em>).</li>
-</ol>
+      </ol>
+    </section>
 
-<h2>Project documents</h2>
-<ul>
+    <section id="documents">
+      <h2>Project documents</h2>
+      <ul>
 <li><a href="https://github.com/qtan-tran/graecum-vn/blob/main/docs/CURRICULUM.md">Curriculum of the 48 lessons</a> – topics + public domain reading list</li>
 <li><a href="https://github.com/qtan-tran/graecum-vn/blob/main/docs/STYLE-AND-CONVENTIONS.md">Style &amp; conventions</a> – terminology, transliteration, lesson structure (Vietnamese; English version in preparation)</li>
 <li><a href="https://github.com/qtan-tran/graecum-vn/blob/main/docs/COPYRIGHT.md">Copyright policy</a> – why everything here is free and legal</li>
 <li><a href="https://github.com/qtan-tran/graecum-vn/blob/main/docs/ROADMAP.md">Development roadmap</a></li>
 <li><a href="https://github.com/qtan-tran/graecum-vn/blob/main/docs/ARCHITECTURE.md">Architecture</a></li>
 <li><a href="https://github.com/qtan-tran/graecum-vn/blob/main/readings/README.md">Source texts for reading practice</a></li>
-</ul>
+      </ul>
+    </section>
 
-<footer>
+    <footer>
 Graecum VN · Compiled by <strong>Trần Quốc Tân</strong> · Content <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Code MIT · When citing or reusing, give credit: <em>"Graecum VN – Trần Quốc Tân, CC BY-SA 4.0"</em> with a link to the repository · Independently compiled, built on public domain texts · Exercise answers appear when printing (Ctrl+P → Save as PDF).
-</footer>
-
-</main>
+    </footer>
+  </div>
 </body>
 </html>
